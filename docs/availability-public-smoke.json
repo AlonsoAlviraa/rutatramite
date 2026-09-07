@@ -1,0 +1,49 @@
+[
+  {
+    "path": "/dni/no-hay-citas",
+    "checks": {
+      "http_200": true,
+      "official_portal": true,
+      "no_fixed_release_hour": true,
+      "no_daily_quota_claim": true,
+      "no_missed_appointment_penalty": true,
+      "qualified_availability": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/dni/a-que-hora-se-liberan-citas",
+    "checks": {
+      "http_200": true,
+      "official_portal": true,
+      "no_fixed_release_hour": true,
+      "no_daily_quota_claim": true,
+      "no_missed_appointment_penalty": true,
+      "qualified_availability": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/dni/paginas-clon-cita",
+    "checks": {
+      "http_200": true,
+      "official_portal": true,
+      "no_fixed_release_hour": true,
+      "no_daily_quota_claim": true,
+      "no_missed_appointment_penalty": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/dni",
+    "checks": {
+      "http_200": true,
+      "official_portal": true,
+      "no_fixed_release_hour": true,
+      "no_daily_quota_claim": true,
+      "no_missed_appointment_penalty": true,
+      "qualified_availability": true
+    },
+    "passed": true
+  }
+]

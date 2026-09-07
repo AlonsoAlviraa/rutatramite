@@ -1,0 +1,770 @@
+rank,ine_code,name,name_wiki,poblacion_2025,banda,oleada,province_code,province,url,min_words,matched_ine
+1,28079,Madrid,Madrid,3506730,100k+,A,28,Madrid,/empadronarse/madrid/madrid,1800,True
+2,08019,Barcelona,Barcelona,1731649,100k+,A,08,Barcelona,/empadronarse/barcelona/barcelona,1800,True
+3,46250,València,Valencia,840792,100k+,A,46,Valencia/València,/empadronarse/valencia-valencia/valencia,1800,True
+4,50297,Zaragoza,Zaragoza,693091,100k+,A,50,Zaragoza,/empadronarse/zaragoza/zaragoza,1800,True
+5,41091,Sevilla,Sevilla,689423,100k+,A,41,Sevilla,/empadronarse/sevilla/sevilla,1800,True
+6,29067,Málaga,Málaga,599063,100k+,A,29,Málaga,/empadronarse/malaga/malaga,1800,True
+7,30030,Murcia,Murcia,479405,100k+,A,30,Murcia,/empadronarse/murcia/murcia,1800,True
+8,07040,Palma,Palma de Mallorca,434786,100k+,A,07,"Balears, Illes",/empadronarse/balears-illes/palma,1800,True
+9,35016,"Palmas de Gran Canaria, Las",Las Palmas de Gran Canaria,381868,100k+,A,35,"Palmas, Las",/empadronarse/palmas-las/palmas-de-gran-canaria-las,1800,True
+10,03014,Alacant/Alicante,Alicante,366221,100k+,A,03,Alicante/Alacant,/empadronarse/alicante-alacant/alacant-alicante,1800,True
+11,48020,Bilbao,Bilbao,351124,100k+,A,48,Bizkaia,/empadronarse/bizkaia/bilbao,1800,True
+12,14021,Córdoba,Córdoba,323262,100k+,A,14,Córdoba,/empadronarse/cordoba/cordoba,1800,True
+13,47186,Valladolid,Valladolid,302614,100k+,A,47,Valladolid,/empadronarse/valladolid/valladolid,1800,True
+14,36057,Vigo,Vigo,294489,100k+,A,36,Pontevedra,/empadronarse/pontevedra/vigo,1800,True
+15,,Hospitalet de Llobregat,Hospitalet de Llobregat,289510,100k+,A,,Barcelona,/empadronarse/barcelona/hospitalet-de-llobregat,1800,False
+16,33024,Gijón,Gijón,269894,100k+,A,33,Asturias,/empadronarse/asturias/gijon,1800,True
+17,01059,Vitoria-Gasteiz,Vitoria,260699,100k+,A,01,Araba/Álava,/empadronarse/araba-alava/vitoria-gasteiz,1800,True
+18,,La Coruña,La Coruña,251543,100k+,A,,La Coruña La Coruña,/empadronarse/la-coruna-la-coruna/la-coruna,1800,False
+19,03065,Elx/Elche,Elche,245557,100k+,A,03,Alicante/Alacant,/empadronarse/alicante-alacant/elx-elche,1800,True
+20,18087,Granada,Granada,233975,100k+,A,18,Granada,/empadronarse/granada/granada,1800,True
+21,08279,Terrassa,Tarrasa,233270,100k+,A,08,Barcelona,/empadronarse/barcelona/terrassa,1800,True
+22,08015,Badalona,Badalona,231542,100k+,A,08,Barcelona,/empadronarse/barcelona/badalona,1800,True
+23,08187,Sabadell,Sabadell,225368,100k+,A,08,Barcelona,/empadronarse/barcelona/sabadell,1800,True
+24,33044,Oviedo,Oviedo,223968,100k+,A,33,Asturias,/empadronarse/asturias/oviedo,1800,True
+25,30016,Cartagena,Cartagena,220704,100k+,A,30,Murcia,/empadronarse/murcia/cartagena,1800,True
+26,28092,Móstoles,Móstoles,214817,100k+,A,28,Madrid,/empadronarse/madrid/mostoles,1800,True
+27,11020,Jerez de la Frontera,Jerez de la Frontera,213634,100k+,A,11,Cádiz,/empadronarse/cadiz/jerez-de-la-frontera,1800,True
+28,38038,Santa Cruz de Tenerife,Santa Cruz de Tenerife,211957,100k+,A,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/santa-cruz-de-tenerife,1800,True
+29,31201,Pamplona/Iruña,Pamplona,209094,100k+,A,31,Navarra,/empadronarse/navarra/pamplona-iruna,1800,True
+30,04013,Almería,Almería,205468,100k+,A,04,Almería,/empadronarse/almeria/almeria,1800,True
+31,28005,Alcalá de Henares,Alcalá de Henares,203208,100k+,A,28,Madrid,/empadronarse/madrid/alcala-de-henares,1800,True
+32,28074,Leganés,Leganés,195734,100k+,A,28,Madrid,/empadronarse/madrid/leganes,1800,True
+33,28065,Getafe,Getafe,193238,100k+,A,28,Madrid,/empadronarse/madrid/getafe,1800,True
+34,28058,Fuenlabrada,Fuenlabrada,190076,100k+,A,28,Madrid,/empadronarse/madrid/fuenlabrada,1800,True
+35,20069,Donostia/San Sebastián,San Sebastián,189866,100k+,A,20,Gipuzkoa,/empadronarse/gipuzkoa/donostia-san-sebastian,1800,True
+36,12040,Castelló de la Plana/Castellón de la Plana,Castellón de la Plana,183711,100k+,A,12,Castellón/Castelló,/empadronarse/castellon-castello/castello-de-la-plana-castellon-de-la-plana,1800,True
+37,09059,Burgos,Burgos,180427,100k+,A,09,Burgos,/empadronarse/burgos/burgos,1800,True
+38,28007,Alcorcón,Alcorcón,175719,100k+,A,28,Madrid,/empadronarse/madrid/alcorcon,1800,True
+39,39075,Santander,Santander,175425,100k+,A,39,Cantabria,/empadronarse/cantabria/santander,1800,True
+40,02003,Albacete,Albacete,175400,100k+,A,02,Albacete,/empadronarse/albacete/albacete,1800,True
+41,38023,San Cristóbal de La Laguna,San Cristóbal de La Laguna,161108,100k+,A,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/san-cristobal-de-la-laguna,1800,True
+42,29069,Marbella,Marbella,159786,100k+,A,29,Málaga,/empadronarse/malaga/marbella,1800,True
+43,26089,Logroño,Logroño,152150,100k+,A,26,"Rioja, La",/empadronarse/rioja-la/logrono,1800,True
+44,06015,Badajoz,Badajoz,150209,100k+,A,06,Badajoz,/empadronarse/badajoz/badajoz,1800,True
+45,25120,Lleida,Lérida,146266,100k+,A,25,Lleida,/empadronarse/lleida/lleida,1800,True
+46,37274,Salamanca,Salamanca,146110,100k+,A,37,Salamanca,/empadronarse/salamanca/salamanca,1800,True
+47,43148,Tarragona,Tarragona,143649,100k+,A,43,Tarragona,/empadronarse/tarragona/tarragona,1800,True
+48,28148,Torrejón de Ardoz,Torrejón de Ardoz,143526,100k+,A,28,Madrid,/empadronarse/madrid/torrejon-de-ardoz,1800,True
+49,21041,Huelva,Huelva,143215,100k+,A,21,Huelva,/empadronarse/huelva/huelva,1800,True
+50,41038,Dos Hermanas,Dos Hermanas,142519,100k+,A,41,Sevilla,/empadronarse/sevilla/dos-hermanas,1800,True
+51,28106,Parla,Parla,137471,100k+,A,28,Madrid,/empadronarse/madrid/parla,1800,True
+52,08121,Mataró,Mataró,131683,100k+,A,08,Barcelona,/empadronarse/barcelona/mataro,1800,True
+53,11004,Algeciras,Algeciras,126589,100k+,A,11,Cádiz,/empadronarse/cadiz/algeciras,1800,True
+54,08245,Santa Coloma de Gramenet,Santa Coloma de Gramanet,123981,100k+,A,08,Barcelona,/empadronarse/barcelona/santa-coloma-de-gramenet,1800,True
+55,24089,León,León,123446,100k+,A,24,León,/empadronarse/leon/leon,1800,True
+56,28006,Alcobendas,Alcobendas,123342,100k+,A,28,Madrid,/empadronarse/madrid/alcobendas,1800,True
+57,23050,Jaén,Jaén,112235,100k+,A,23,Jaén,/empadronarse/jaen/jaen,1800,True
+58,43123,Reus,Reus,111601,100k+,A,43,Tarragona,/empadronarse/tarragona/reus,1800,True
+59,04079,Roquetas de Mar,Roquetas de Mar,111240,100k+,A,04,Almería,/empadronarse/almeria/roquetas-de-mar,1800,True
+60,11012,Cádiz,Cádiz,109950,100k+,A,11,Cádiz,/empadronarse/cadiz/cadiz,1800,True
+61,17079,Girona,Gerona,108666,100k+,A,17,Girona,/empadronarse/girona/girona,1800,True
+62,32054,Ourense,Orense,105769,100k+,A,32,Ourense,/empadronarse/ourense/ourense,1800,True
+63,35026,Telde,Telde,104168,100k+,A,35,"Palmas, Las",/empadronarse/palmas-las/telde,1800,True
+64,28123,Rivas-Vaciamadrid,Rivas-Vaciamadrid,103148,100k+,A,28,Madrid,/empadronarse/madrid/rivas-vaciamadrid,1800,True
+65,48013,Barakaldo,Baracaldo,102986,100k+,A,48,Bizkaia,/empadronarse/bizkaia/barakaldo,1800,True
+66,15078,Santiago de Compostela,Santiago de Compostela,100965,100k+,A,15,"Coruña, A",/empadronarse/corua-a-a/santiago-de-compostela,1800,True
+67,27028,Lugo,Lugo,100143,100k+,A,27,Lugo,/empadronarse/lugo/lugo,1800,True
+68,28127,"Rozas de Madrid, Las",Las Rozas de Madrid,99037,50-100k,B,28,Madrid,/empadronarse/madrid/rozas-de-madrid-las,1800,True
+69,30024,Lorca,Lorca,98969,50-100k,B,30,Murcia,/empadronarse/murcia/lorca,1800,True
+70,03133,Torrevieja,Torrevieja,98533,50-100k,B,03,Alicante/Alacant,/empadronarse/alicante-alacant/torrevieja,1800,True
+71,08205,Sant Cugat del Vallès,San Cugat del Vallés,97983,50-100k,B,08,Barcelona,/empadronarse/barcelona/sant-cugat-del-valles,1800,True
+72,28134,San Sebastián de los Reyes,San Sebastián de los Reyes,96992,50-100k,B,28,Madrid,/empadronarse/madrid/san-sebastian-de-los-reyes,1800,True
+73,10037,Cáceres,Cáceres,96651,50-100k,B,10,Cáceres,/empadronarse/caceres/caceres,1800,True
+74,29070,Mijas,Mijas,95104,50-100k,B,29,Málaga,/empadronarse/malaga/mijas,1800,True
+75,11031,San Fernando,San Fernando,93338,50-100k,B,11,Cádiz,/empadronarse/cadiz/san-fernando,1800,True
+76,19130,Guadalajara,Guadalajara,92834,50-100k,B,19,Guadalajara,/empadronarse/guadalajara/guadalajara,1800,True
+77,08073,Cornellà de Llobregat,Cornellá de Llobregat,92237,50-100k,B,08,Barcelona,/empadronarse/barcelona/cornella-de-llobregat,1800,True
+78,04902,"Ejido, El",El Ejido,91440,50-100k,B,04,Almería,/empadronarse/almeria/ejido-el,1800,True
+79,46244,Torrent,Torrente,90928,50-100k,B,46,Valencia/València,/empadronarse/valencia-valencia/torrent,1800,True
+80,11015,Chiclana de la Frontera,Chiclana de la Frontera,90684,50-100k,B,11,Cádiz,/empadronarse/cadiz/chiclana-de-la-frontera,1800,True
+81,11027,"Puerto de Santa María, El",El Puerto de Santa María,89983,50-100k,B,11,Cádiz,/empadronarse/cadiz/puerto-de-santa-maria-el,1800,True
+82,28115,Pozuelo de Alarcón,Pozuelo de Alarcón,89770,50-100k,B,28,Madrid,/empadronarse/madrid/pozuelo-de-alarcon,1800,True
+83,38006,Arona,Arona,87793,50-100k,B,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/arona,1800,True
+84,45168,Toledo,Toledo,87216,50-100k,B,45,Toledo,/empadronarse/toledo/toledo,1800,True
+86,29094,Vélez-Málaga,Vélez-Málaga,86048,50-100k,B,29,Málaga,/empadronarse/malaga/velez-malaga,1800,True
+87,28161,Valdemoro,Valdemoro,85972,50-100k,B,28,Madrid,/empadronarse/madrid/valdemoro,1800,True
+88,08200,Sant Boi de Llobregat,San Baudilio de Llobregat,85610,50-100k,B,08,Barcelona,/empadronarse/barcelona/sant-boi-de-llobregat,1800,True
+89,29054,Fuengirola,Fuengirola,85211,50-100k,B,29,Málaga,/empadronarse/malaga/fuengirola,1800,True
+90,03099,Orihuela,Orihuela,84560,50-100k,B,03,Alicante/Alacant,/empadronarse/alicante-alacant/orihuela,1800,True
+91,45165,Talavera de la Reina,Talavera de la Reina,83803,50-100k,B,45,Toledo,/empadronarse/toledo/talavera-de-la-reina,1800,True
+93,36038,Pontevedra,Pontevedra,83316,50-100k,B,36,Pontevedra,/empadronarse/pontevedra/pontevedra,1800,True
+94,46131,Gandia,Gandía,83135,50-100k,B,46,Valencia/València,/empadronarse/valencia-valencia/gandia,1800,True
+95,08184,Rubí,Rubí,82823,50-100k,B,08,Barcelona,/empadronarse/barcelona/rubi,1800,True
+96,08113,Manresa,Manresa,80974,50-100k,B,08,Barcelona,/empadronarse/barcelona/manresa,1800,True
+97,28049,Coslada,Coslada,80512,50-100k,B,28,Madrid,/empadronarse/madrid/coslada,1800,True
+98,29051,Estepona,Estepona,79621,50-100k,B,29,Málaga,/empadronarse/malaga/estepona,1800,True
+99,35022,Santa Lucía de Tirajana,Santa Lucía de Tirajana,78584,50-100k,B,35,"Palmas, Las",/empadronarse/palmas-las/santa-lucia-de-tirajana,1800,True
+100,30027,Molina de Segura,Molina de Segura,78458,50-100k,B,30,Murcia,/empadronarse/murcia/molina-de-segura,1800,True
+101,29025,Benalmádena,Benalmádena,78338,50-100k,B,29,Málaga,/empadronarse/malaga/benalmadena,1800,True
+102,41004,Alcalá de Guadaíra,Alcalá de Guadaíra,77474,50-100k,B,41,Sevilla,/empadronarse/sevilla/alcala-de-guadaira,1800,True
+103,34120,Palencia,Palencia,77466,50-100k,B,34,Palencia,/empadronarse/palencia/palencia,1800,True
+104,03031,Benidorm,Benidorm,77327,50-100k,B,03,Alicante/Alacant,/empadronarse/alicante-alacant/benidorm,1800,True
+105,13034,Ciudad Real,Ciudad Real,76217,50-100k,B,13,Ciudad Real,/empadronarse/ciudad-real/ciudad-real,1800,True
+106,46190,Paterna,Paterna,76019,50-100k,B,46,Valencia/València,/empadronarse/valencia-valencia/paterna,1800,True
+107,48044,Getxo,Guecho,75752,50-100k,B,48,Bizkaia,/empadronarse/bizkaia/getxo,1800,True
+108,33004,Avilés,Avilés,75517,50-100k,B,33,Asturias,/empadronarse/asturias/aviles,1800,True
+109,28080,Majadahonda,Majadahonda,73625,50-100k,B,28,Madrid,/empadronarse/madrid/majadahonda,1800,True
+110,46220,Sagunt/Sagunto,Sagunto,73031,50-100k,B,46,Valencia/València,/empadronarse/valencia-valencia/sagunt-sagunto,1800,True
+111,08307,Vilanova i la Geltrú,Villanueva y Geltrú,71641,50-100k,B,08,Barcelona,/empadronarse/barcelona/vilanova-i-la-geltru,1800,True
+112,29901,Torremolinos,Torremolinos,71329,50-100k,B,29,Málaga,/empadronarse/malaga/torremolinos,1800,True
+113,35004,Arrecife,Arrecife,70811,50-100k,B,35,"Palmas, Las",/empadronarse/palmas-las/arrecife,1800,True
+114,08056,Castelldefels,Castelldefels,70057,50-100k,B,08,Barcelona,/empadronarse/barcelona/castelldefels,1800,True
+115,11032,Sanlúcar de Barrameda,Sanlúcar de Barrameda,70012,50-100k,B,11,Cádiz,/empadronarse/cadiz/sanlucar-de-barrameda,1800,True
+116,08301,Viladecans,Viladecans,67587,50-100k,B,08,Barcelona,/empadronarse/barcelona/viladecans,1800,True
+117,28047,Collado Villalba,Collado Villalba,67274,50-100k,B,28,Madrid,/empadronarse/madrid/collado-villalba,1800,True
+118,28022,Boadilla del Monte,Boadilla del Monte,66349,50-100k,B,28,Madrid,/empadronarse/madrid/boadilla-del-monte,1800,True
+119,08169,"Prat de Llobregat, El",El Prat de Llobregat,66338,50-100k,B,08,Barcelona,/empadronarse/barcelona/prat-de-llobregat-el,1800,True
+120,08096,Granollers,Granollers,65341,50-100k,B,08,Barcelona,/empadronarse/barcelona/granollers,1800,True
+121,11022,"Línea de la Concepción, La",La Línea de la Concepción,64499,50-100k,B,11,Cádiz,/empadronarse/cadiz/linea-de-la-concepcion-la,1800,True
+122,15036,Ferrol,Ferrol,64367,50-100k,B,15,"Coruña, A",/empadronarse/corua-a-a/ferrol,1800,True
+123,20045,Irun,Irún,63835,50-100k,B,20,Gipuzkoa,/empadronarse/gipuzkoa/irun,1800,True
+124,24115,Ponferrada,Ponferrada,63186,50-100k,B,24,León,/empadronarse/leon/ponferrada,1800,True
+125,28013,Aranjuez,Aranjuez,63040,50-100k,B,28,Madrid,/empadronarse/madrid/aranjuez,1800,True
+126,03009,Alcoi/Alcoy,Alcoy,61468,50-100k,B,03,Alicante/Alacant,/empadronarse/alicante-alacant/alcoi-alcoy,1800,True
+127,28014,Arganda del Rey,Arganda del Rey,60419,50-100k,B,28,Madrid,/empadronarse/madrid/arganda-del-rey,1800,True
+128,03122,Sant Vicent del Raspeig/San Vicente del Raspeig,San Vicente del Raspeig,60247,50-100k,B,03,Alicante/Alacant,/empadronarse/alicante-alacant/sant-vicent-del-raspeig-san-vicente-del-raspeig,1800,True
+129,06083,Mérida,Mérida,60225,50-100k,B,06,Badajoz,/empadronarse/badajoz/merida,1800,True
+130,18140,Motril,Motril,59862,50-100k,B,18,Granada,/empadronarse/granada/motril,1800,True
+131,49275,Zamora,Zamora,59815,50-100k,B,49,Zamora,/empadronarse/zamora/zamora,1800,True
+132,05019,Ávila,Ávila,59107,50-100k,B,05,Ávila,/empadronarse/avila/avila,1800,True
+133,38017,Granadilla de Abona,Granadilla de Abona,58752,50-100k,B,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/granadilla-de-abona,1800,True
+134,28045,Colmenar Viejo,Colmenar Viejo,58730,50-100k,B,28,Madrid,/empadronarse/madrid/colmenar-viejo,1800,True
+135,08266,Cerdanyola del Vallès,Sardañola del Vallés,58528,50-100k,B,08,Barcelona,/empadronarse/barcelona/cerdanyola-del-valles,1800,True
+136,28113,Pinto,Pinto,56651,50-100k,B,28,Madrid,/empadronarse/madrid/pinto,1800,True
+137,23055,Linares,Linares,55633,50-100k,B,23,Jaén,/empadronarse/jaen/linares,1800,True
+138,22125,Huesca,Huesca,55454,50-100k,B,22,Huesca,/empadronarse/huesca/huesca,1800,True
+139,07026,Eivissa,Ibiza,55337,50-100k,B,07,"Balears, Illes",/empadronarse/balears-illes/eivissa,1800,True
+140,03066,Elda,Elda,55222,50-100k,B,03,Alicante/Alacant,/empadronarse/alicante-alacant/elda,1800,True
+141,28903,Tres Cantos,Tres Cantos,54592,50-100k,B,28,Madrid,/empadronarse/madrid/tres-cantos,1800,True
+142,35019,San Bartolomé de Tirajana,San Bartolomé de Tirajana,54291,50-100k,B,35,"Palmas, Las",/empadronarse/palmas-las/san-bartolome-de-tirajana,1800,True
+143,07011,Calvià,Calviá,53793,50-100k,B,07,"Balears, Illes",/empadronarse/balears-illes/calvia,1800,True
+144,12135,Vila-real,Villarreal,53623,50-100k,B,12,Castellón/Castelló,/empadronarse/castellon-castello/vila-real,1800,True
+145,16078,Cuenca,Cuenca,53600,50-100k,B,16,Cuenca,/empadronarse/cuenca/cuenca,1800,True
+146,33066,Siero,Siero,53049,50-100k,B,33,Asturias,/empadronarse/asturias/siero,1800,True
+147,08124,Mollet del Vallès,Mollet del Vallés,52990,50-100k,B,08,Barcelona,/empadronarse/barcelona/mollet-del-valles,1800,True
+148,29082,Rincón de la Victoria,Rincón de la Victoria,52454,50-100k,B,29,Málaga,/empadronarse/malaga/rincon-de-la-victoria,1800,True
+149,41095,Utrera,Utrera,52403,50-100k,B,41,Sevilla,/empadronarse/sevilla/utrera,1800,True
+150,40194,Segovia,Segovia,52375,50-100k,B,40,Segovia,/empadronarse/segovia/segovia,1800,True
+151,39087,Torrelavega,Torrelavega,51796,50-100k,B,39,Cantabria,/empadronarse/cantabria/torrelavega,1800,True
+152,08298,Vic,Vic,50796,50-100k,B,08,Barcelona,/empadronarse/barcelona/vic,1800,True
+153,38001,Adeje,Adeje,50021,50-100k,B,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/adeje,1800,True
+154,17066,Figueres,Figueras,49689,20-50k,C,17,Girona,/empadronarse/girona/figueres,1400,True
+155,07033,Manacor,Manacor,49153,20-50k,C,07,"Balears, Illes",/empadronarse/balears-illes/manacor,1400,True
+156,08089,Gavà,Gavá,48243,20-50k,C,08,Barcelona,/empadronarse/barcelona/gava,1400,True
+157,46017,Alzira,Alcira,48236,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/alzira,1400,True
+158,08077,Esplugues de Llobregat,Esplugas de Llobregat,48221,20-50k,C,08,Barcelona,/empadronarse/barcelona/esplugues-de-llobregat,1400,True
+159,41059,Mairena del Aljarafe,Mairena del Aljarafe,48017,20-50k,C,41,Sevilla,/empadronarse/sevilla/mairena-del-aljarafe,1400,True
+160,03063,Dénia,Denia,47261,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/denia,1400,True
+161,46169,Mislata,Mislata,47079,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/mislata,1400,True
+162,08211,Sant Feliu de Llobregat,San Feliu de Llobregat,46781,20-50k,C,08,Barcelona,/empadronarse/barcelona/sant-feliu-de-llobregat,1400,True
+163,48082,Santurtzi,Santurce,46442,20-50k,C,48,Bizkaia,/empadronarse/bizkaia/santurtzi,1400,True
+164,35017,Puerto del Rosario,Puerto del Rosario,46150,20-50k,C,35,"Palmas, Las",/empadronarse/palmas-las/puerto-del-rosario,1400,True
+165,13071,Puertollano,Puertollano,45565,20-50k,C,13,Ciudad Real,/empadronarse/ciudad-real/puertollano,1400,True
+166,29007,Alhaurín de la Torre,Alhaurín de la Torre,45066,20-50k,C,29,Málaga,/empadronarse/malaga/alhaurin-de-la-torre,1400,True
+167,48078,Portugalete,Portugalete,44843,20-50k,C,48,Bizkaia,/empadronarse/bizkaia/portugalete,1400,True
+168,30005,Alcantarilla,Alcantarilla,43876,20-50k,C,30,Murcia,/empadronarse/murcia/alcantarilla,1400,True
+169,14038,Lucena,Lucena,43408,20-50k,C,14,Córdoba,/empadronarse/cordoba/lucena,1400,True
+170,17095,Lloret de Mar,Lloret de Mar,43000,20-50k,C,17,Girona,/empadronarse/girona/lloret-de-mar,1400,True
+171,17023,Blanes,Blanes,42699,20-50k,C,17,Girona,/empadronarse/girona/blanes,1400,True
+172,08305,Vilafranca del Penedès,Villafranca del Panadés,42607,20-50k,C,08,Barcelona,/empadronarse/barcelona/vilafranca-del-penedes,1400,True
+173,11028,Puerto Real,Puerto Real,42527,20-50k,C,11,Cádiz,/empadronarse/cadiz/puerto-real,1400,True
+174,38026,"Orotava, La",La Orotava,42514,20-50k,C,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/orotava-la,1400,True
+175,07054,Santa Eulària des Riu,Santa Eulalia del Río,42479,20-50k,C,07,"Balears, Illes",/empadronarse/balears-illes/santa-eularia-des-riu,1400,True
+176,08102,Igualada,Igualada,42085,20-50k,C,08,Barcelona,/empadronarse/barcelona/igualada,1400,True
+177,29015,Antequera,Antequera,41849,20-50k,C,29,Málaga,/empadronarse/malaga/antequera,1400,True
+178,30037,Torre-Pacheco,Torre-Pacheco,41479,20-50k,C,30,Murcia,/empadronarse/murcia/torre-pacheco,1400,True
+179,46078,Burjassot,Burjasot,41299,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/burjassot,1400,True
+180,43163,"Vendrell, El",Vendrell,41133,20-50k,C,43,Tarragona,/empadronarse/tarragona/vendrell-el,1400,True
+181,42173,Soria,Soria,41025,20-50k,C,42,Soria,/empadronarse/soria/soria,1400,True
+182,41081,"Rinconada, La",La Rinconada,40724,20-50k,C,41,Sevilla,/empadronarse/sevilla/rinconada-la,1400,True
+183,07031,Llucmajor,Llucmajor,40502,20-50k,C,07,"Balears, Illes",/empadronarse/balears-illes/llucmajor,1400,True
+184,07036,Marratxí,Marrachí,40422,20-50k,C,07,"Balears, Illes",/empadronarse/balears-illes/marratxi,1400,True
+185,48015,Basauri,Basauri,40274,20-50k,C,48,Bizkaia,/empadronarse/bizkaia/basauri,1400,True
+186,10148,Plasencia,Plasencia,40132,20-50k,C,10,Cáceres,/empadronarse/caceres/plasencia,1400,True
+187,15054,Narón,Narón,39953,20-50k,C,15,"Coruña, A",/empadronarse/corua-a-a/naron,1400,True
+188,08180,Ripollet,Ripollet,39897,20-50k,C,08,Barcelona,/empadronarse/barcelona/ripollet,1400,True
+189,03121,Santa Pola,Santa Pola,39709,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/santa-pola,1400,True
+190,41039,Écija,Écija,39659,20-50k,C,41,Sevilla,/empadronarse/sevilla/ecija,1400,True
+191,17114,Olot,Olot,39519,20-50k,C,17,Girona,/empadronarse/girona/olot,1400,True
+192,20067,Errenteria,Rentería,39363,20-50k,C,20,Gipuzkoa,/empadronarse/gipuzkoa/errenteria,1400,True
+193,,San Adrián de Besós,San Adrián de Besós,39323,20-50k,C,,Barcelona,/empadronarse/barcelona/san-adrian-de-besos,1400,False
+194,35006,Arucas,Arucas,39232,20-50k,C,35,"Palmas, Las",/empadronarse/palmas-las/arucas,1400,True
+195,28130,San Fernando de Henares,San Fernando de Henares,39059,20-50k,C,28,Madrid,/empadronarse/madrid/san-fernando-de-henares,1400,True
+196,31232,Tudela,Tudela,38903,20-50k,C,31,Navarra,/empadronarse/navarra/tudela,1400,True
+197,15058,Oleiros,Oleiros,38793,20-50k,C,15,"Coruña, A",/empadronarse/corua-a-a/oleiros,1400,True
+198,41069,"Palacios y Villafranca, Los",Los Palacios y Villafranca,38761,20-50k,C,41,Sevilla,/empadronarse/sevilla/palacios-y-villafranca-los,1400,True
+199,33031,Langreo,Langreo,38612,20-50k,C,33,Asturias,/empadronarse/asturias/langreo,1400,True
+200,28015,Arroyomolinos,Arroyomolinos,38075,20-50k,C,28,Madrid,/empadronarse/madrid/arroyomolinos,1400,True
+201,06044,Don Benito,Don Benito,37986,20-50k,C,06,Badajoz,/empadronarse/badajoz/don-benito,1400,True
+202,12032,Borriana/Burriana,Burriana,37915,20-50k,C,12,Castellón/Castelló,/empadronarse/castellon-castello/borriana-burriana,1400,True
+203,,Villagarcía de Arosa,Villagarcía de Arosa,37888,20-50k,C,,Pontevedra,/empadronarse/pontevedra/villagarcia-de-arosa,1400,False
+204,38031,"Realejos, Los",Los Realejos,37867,20-50k,C,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/realejos-los,1400,True
+205,30003,Águilas,Águilas,37811,20-50k,C,30,Murcia,/empadronarse/murcia/aguilas,1400,True
+206,08125,Montcada i Reixac,Moncada y Reixach,37460,20-50k,C,08,Barcelona,/empadronarse/barcelona/montcada-i-reixac,1400,True
+207,03139,"Vila Joiosa, la/Villajoyosa",Villajoyosa,37449,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/vila-joiosa-la-villajoyosa,1400,True
+208,13082,Tomelloso,Tomelloso,37060,20-50k,C,13,Ciudad Real,/empadronarse/ciudad-real/tomelloso,1400,True
+209,43038,Cambrils,Cambrils,37042,20-50k,C,43,Tarragona,/empadronarse/tarragona/cambrils,1400,True
+210,46184,Ontinyent,Onteniente,37012,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/ontinyent,1400,True
+211,28061,Galapagar,Galapagar,36758,20-50k,C,28,Madrid,/empadronarse/madrid/galapagar,1400,True
+212,44216,Teruel,Teruel,36655,20-50k,C,44,Teruel,/empadronarse/teruel/teruel,1400,True
+213,09219,Miranda de Ebro,Miranda de Ebro,36622,20-50k,C,09,Burgos,/empadronarse/burgos/miranda-de-ebro,1400,True
+214,30035,San Javier,San Javier,36524,20-50k,C,30,Murcia,/empadronarse/murcia/san-javier,1400,True
+215,30043,Yecla,Yecla,36453,20-50k,C,30,Murcia,/empadronarse/murcia/yecla,1400,True
+216,33037,Mieres,Mieres,36373,20-50k,C,33,Asturias,/empadronarse/asturias/mieres,1400,True
+217,07027,Inca,Inca,36262,20-50k,C,07,"Balears, Illes",/empadronarse/balears-illes/inca,1400,True
+218,43155,Tortosa,Tortosa,35997,20-50k,C,43,Tarragona,/empadronarse/tarragona/tortosa,1400,True
+219,,San Juan Despí,San Juan Despí,35926,20-50k,C,,Barcelona,/empadronarse/barcelona/san-juan-despi,1400,False
+220,19046,Azuqueca de Henares,Azuqueca de Henares,35924,20-50k,C,19,Guadalajara,/empadronarse/guadalajara/azuqueca-de-henares,1400,True
+221,23005,Andújar,Andújar,35610,20-50k,C,23,Jaén,/empadronarse/jaen/andujar,1400,True
+222,30019,Cieza,Cieza,35577,20-50k,C,30,Murcia,/empadronarse/murcia/cieza,1400,True
+223,30026,Mazarrón,Mazarrón,35449,20-50k,C,30,Murcia,/empadronarse/murcia/mazarron,1400,True
+224,11033,San Roque,San Roque,34873,20-50k,C,11,Cádiz,/empadronarse/cadiz/san-roque,1400,True
+225,03140,Villena,Villena,34712,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/villena,1400,True
+226,46021,Aldaia,Aldaya,34630,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/aldaia,1400,True
+227,06011,Almendralejo,Almendralejo,34587,20-50k,C,06,Badajoz,/empadronarse/badajoz/almendralejo,1400,True
+228,17155,Salt,Salt,34491,20-50k,C,17,Girona,/empadronarse/girona/salt,1400,True
+229,15005,Arteixo,Arteijo,34403,20-50k,C,15,"Coruña, A",/empadronarse/corua-a-a/arteixo,1400,True
+230,03104,Petrer,Petrel,34022,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/petrer,1400,True
+231,08252,Barberà del Vallès,Barberá del Vallés,33987,20-50k,C,08,Barcelona,/empadronarse/barcelona/barbera-del-valles,1400,True
+232,09018,Aranda de Duero,Aranda de Duero,33956,20-50k,C,09,Burgos,/empadronarse/burgos/aranda-de-duero,1400,True
+233,35002,Agüimes,Agüimes,33800,20-50k,C,35,"Palmas, Las",/empadronarse/palmas-las/aguimes,1400,True
+234,29084,Ronda,Ronda,33671,20-50k,C,29,Málaga,/empadronarse/malaga/ronda,1400,True
+235,23092,Úbeda,Úbeda,33588,20-50k,C,23,Jaén,/empadronarse/jaen/ubeda,1400,True
+236,39020,Castro-Urdiales,Castro-Urdiales,33450,20-50k,C,39,Cantabria,/empadronarse/cantabria/castro-urdiales,1400,True
+237,30039,Totana,Totana,33358,20-50k,C,30,Murcia,/empadronarse/murcia/totana,1400,True
+238,28096,Navalcarnero,Navalcarnero,33331,20-50k,C,28,Madrid,/empadronarse/madrid/navalcarnero,1400,True
+239,04066,Níjar,Níjar,33319,20-50k,C,04,Almería,/empadronarse/almeria/nijar,1400,True
+240,45081,Illescas,Illescas,33301,20-50k,C,45,Toledo,/empadronarse/toledo/illescas,1400,True
+241,15002,Ames,Ames,33276,20-50k,C,15,"Coruña, A",/empadronarse/corua-a-a/ames,1400,True
+242,35011,Ingenio,Ingenio,32905,20-50k,C,35,"Palmas, Las",/empadronarse/palmas-las/ingenio,1400,True
+243,48054,Leioa,Lejona,32748,20-50k,C,48,Bizkaia,/empadronarse/bizkaia/leioa,1400,True
+244,,San Pedro de Ribas,San Pedro de Ribas,32705,20-50k,C,,Barcelona,/empadronarse/barcelona/san-pedro-de-ribas,1400,False
+245,43037,Calafell,Calafell,32624,20-50k,C,43,Tarragona,/empadronarse/tarragona/calafell,1400,True
+246,46159,Manises,Manises,32609,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/manises,1400,True
+247,08270,Sitges,Sitges,32609,20-50k,C,08,Barcelona,/empadronarse/barcelona/sitges,1400,True
+248,07015,Ciutadella de Menorca,Ciudadela,32431,20-50k,C,07,"Balears, Illes",/empadronarse/balears-illes/ciutadella-de-menorca,1400,True
+249,,Vall de Uxó,Vall de Uxó,32242,20-50k,C,,Castellón,/empadronarse/castellon/vall-de-uxo,1400,False
+250,15019,Carballo,Carballo,32120,20-50k,C,15,"Coruña, A",/empadronarse/corua-a-a/carballo,1400,True
+251,46110,Xirivella,Chirivella,32093,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/xirivella,1400,True
+252,13005,Alcázar de San Juan,Alcázar de San Juan,31914,20-50k,C,13,Ciudad Real,/empadronarse/ciudad-real/alcazar-de-san-juan,1400,True
+253,43905,Salou,Salou,31491,20-50k,C,43,Tarragona,/empadronarse/tarragona/salou,1400,True
+254,03050,"Campello, el",Campello,31419,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/campello-el,1400,True
+255,41034,Coria del Río,Coria del Río,31278,20-50k,C,41,Sevilla,/empadronarse/sevilla/coria-del-rio,1400,True
+256,11006,Arcos de la Frontera,Arcos de la Frontera,31267,20-50k,C,11,Cádiz,/empadronarse/cadiz/arcos-de-la-frontera,1400,True
+257,15031,Culleredo,Culleredo,31254,20-50k,C,15,"Coruña, A",/empadronarse/corua-a-a/culleredo,1400,True
+258,38028,Puerto de la Cruz,Puerto de la Cruz,31137,20-50k,C,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/puerto-de-la-cruz,1400,True
+259,46145,Xàtiva,Játiva,31008,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/xativa,1400,True
+260,03059,Crevillent,Crevillente,30921,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/crevillent,1400,True
+261,45161,Seseña,Seseña,30907,20-50k,C,45,Toledo,/empadronarse/toledo/sesena,1400,True
+262,02037,Hellín,Hellín,30836,20-50k,C,02,Albacete,/empadronarse/albacete/hellin,1400,True
+263,13087,Valdepeñas,Valdepeñas,30782,20-50k,C,13,Ciudad Real,/empadronarse/ciudad-real/valdepenas,1400,True
+264,07032,Maó,Mahón,30666,20-50k,C,07,"Balears, Illes",/empadronarse/balears-illes/mao,1400,True
+265,03082,Xàbia/Jávea,Jávea,30642,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/xabia-javea,1400,True
+266,46094,Catarroja,Catarroja,30604,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/catarroja,1400,True
+267,39016,Camargo,Camargo,30577,20-50k,C,39,Cantabria,/empadronarse/cantabria/camargo,1400,True
+268,12138,Vinaròs,Vinaroz,30529,20-50k,C,12,Castellón/Castelló,/empadronarse/castellon-castello/vinaros,1400,True
+269,12027,Benicarló,Benicarló,30296,20-50k,C,12,Castellón/Castelló,/empadronarse/castellon-castello/benicarlo,1400,True
+270,48027,Durango,Durango,30192,20-50k,C,48,Bizkaia,/empadronarse/bizkaia/durango,1400,True
+271,46005,Alaquàs,Alacuás,30166,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/alaquas,1400,True
+272,28181,Villaviciosa de Odón,Villaviciosa de Odón,30127,20-50k,C,28,Madrid,/empadronarse/madrid/villaviciosa-de-odon,1400,True
+273,08163,Pineda de Mar,Pineda de Mar,30108,20-50k,C,08,Barcelona,/empadronarse/barcelona/pineda-de-mar,1400,True
+274,35014,"Oliva, La",La Oliva,30022,20-50k,C,35,"Palmas, Las",/empadronarse/palmas-las/oliva-la,1400,True
+275,14056,Puente Genil,Puente Genil,29963,20-50k,C,14,Córdoba,/empadronarse/cordoba/puente-genil,1400,True
+276,24142,San Andrés del Rabanedo,San Andrés del Rabanedo,29944,20-50k,C,24,León,/empadronarse/leon/san-andres-del-rabanedo,1400,True
+277,,San José,San José,29761,20-50k,C,,Baleares,/empadronarse/baleares/san-jose,1400,False
+278,21044,Lepe,Lepe,29677,20-50k,C,21,Huelva,/empadronarse/huelva/lepe,1400,True
+279,30036,San Pedro del Pinatar,San Pedro del Pinatar,29674,20-50k,C,30,Murcia,/empadronarse/murcia/san-pedro-del-pinatar,1400,True
+280,08172,Premià de Mar,Premiá de Mar,29431,20-50k,C,08,Barcelona,/empadronarse/barcelona/premia-de-mar,1400,True
+281,04102,Vícar,Vícar,29342,20-50k,C,04,Almería,/empadronarse/almeria/vicar,1400,True
+282,29038,Cártama,Cártama,29333,20-50k,C,29,Málaga,/empadronarse/malaga/cartama,1400,True
+283,11030,Rota,Rota,29289,20-50k,C,11,Cádiz,/empadronarse/cadiz/rota,1400,True
+284,41024,Carmona,Carmona,29279,20-50k,C,41,Sevilla,/empadronarse/sevilla/carmona,1400,True
+285,46235,Sueca,Sueca,29194,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/sueca,1400,True
+286,08114,Martorell,Martorell,29175,20-50k,C,08,Barcelona,/empadronarse/barcelona/martorell,1400,True
+287,12009,Almassora,Almazora,29159,20-50k,C,12,Castellón/Castelló,/empadronarse/castellon-castello/almassora,1400,True
+288,,San Antonio Abad,San Antonio Abad,29132,20-50k,C,,Baleares,/empadronarse/baleares/san-antonio-abad,1400,False
+289,41021,Camas,Camas,29089,20-50k,C,41,Sevilla,/empadronarse/sevilla/camas,1400,True
+290,38011,Candelaria,Candelaria,29023,20-50k,C,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/candelaria,1400,True
+291,36045,Redondela,Redondela,28874,20-50k,C,36,Pontevedra,/empadronarse/pontevedra/redondela,1400,True
+292,,San Vicente dels Horts,San Vicente dels Horts,28746,20-50k,C,,Barcelona,/empadronarse/barcelona/san-vicente-dels-horts,1400,False
+293,03090,Mutxamel,Muchamiel,28621,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/mutxamel,1400,True
+294,46070,Bétera,Bétera,28560,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/betera,1400,True
+295,48084,Sestao,Sestao,28512,20-50k,C,48,Bizkaia,/empadronarse/bizkaia/sestao,1400,True
+296,46029,Algemesí,Algemesí,28306,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/algemesi,1400,True
+297,46186,Paiporta,Paiporta,28136,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/paiporta,1400,True
+298,41053,Lebrija,Lebrija,27788,20-50k,C,41,Sevilla,/empadronarse/sevilla/lebrija,1400,True
+299,28104,Paracuellos de Jarama,Paracuellos de Jarama,27650,20-50k,C,28,Madrid,/empadronarse/madrid/paracuellos-de-jarama,1400,True
+300,03047,Calp,Calpe,27616,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/calp,1400,True
+301,30022,Jumilla,Jumilla,27574,20-50k,C,30,Murcia,/empadronarse/murcia/jumilla,1400,True
+302,29008,Alhaurín el Grande,Alhaurín el Grande,27552,20-50k,C,29,Málaga,/empadronarse/malaga/alhaurin-el-grande,1400,True
+303,18017,Almuñécar,Almuñécar,27544,20-50k,C,18,Granada,/empadronarse/granada/almunecar,1400,True
+304,20030,Eibar,Éibar,27484,20-50k,C,20,Gipuzkoa,/empadronarse/gipuzkoa/eibar,1400,True
+305,,Puebla de Vallbona,Puebla de Vallbona,27471,20-50k,C,,Valencia,/empadronarse/valencia/puebla-de-vallbona,1400,False
+306,,Molins de Rey,Molins de Rey,27300,20-50k,C,,Barcelona,/empadronarse/barcelona/molins-de-rey,1400,False
+307,41065,Morón de la Frontera,Morón de la Frontera,27210,20-50k,C,41,Sevilla,/empadronarse/sevilla/moron-de-la-frontera,1400,True
+308,15073,Ribeira,Ribeira,27102,20-50k,C,15,"Coruña, A",/empadronarse/corua-a-a/ribeira,1400,True
+309,08196,Sant Andreu de la Barca,San Andrés de la Barca,27094,20-50k,C,08,Barcelona,/empadronarse/barcelona/sant-andreu-de-la-barca,1400,True
+310,,Cuart de Poblet,Cuart de Poblet,26967,20-50k,C,,Valencia,/empadronarse/valencia/cuart-de-poblet,1400,False
+311,39052,Piélagos,Piélagos,26901,20-50k,C,39,Cantabria,/empadronarse/cantabria/pielagos,1400,True
+312,,San Juan de Alicante,San Juan de Alicante,26834,20-50k,C,,Alicante,/empadronarse/alicante/san-juan-de-alicante,1400,False
+313,,Cangas de Morrazo,Cangas de Morrazo,26832,20-50k,C,,Pontevedra,/empadronarse/pontevedra/cangas-de-morrazo,1400,False
+314,46181,Oliva,Oliva,26813,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/oliva,1400,True
+315,03093,Novelda,Novelda,26606,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/novelda,1400,True
+316,29042,Coín,Coín,26574,20-50k,C,29,Málaga,/empadronarse/malaga/coin,1400,True
+317,28040,Ciempozuelos,Ciempozuelos,26350,20-50k,C,28,Madrid,/empadronarse/madrid/ciempozuelos,1400,True
+318,46013,Alboraia/Alboraya,Alboraya,26273,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/alboraia-alboraya,1400,True
+319,12084,Onda,Onda,26190,20-50k,C,12,Castellón/Castelló,/empadronarse/castellon-castello/onda,1400,True
+320,,Santa Perpetua de Moguda,Santa Perpetua de Moguda,26130,20-50k,C,,Barcelona,/empadronarse/barcelona/santa-perpetua-de-moguda,1400,False
+321,30015,Caravaca de la Cruz,Caravaca de la Cruz,26126,20-50k,C,30,Murcia,/empadronarse/murcia/caravaca-de-la-cruz,1400,True
+322,06153,Villanueva de la Serena,Villanueva de la Serena,25773,20-50k,C,06,Badajoz,/empadronarse/badajoz/villanueva-de-la-serena,1400,True
+323,43161,Valls,Valls,25518,20-50k,C,43,Tarragona,/empadronarse/tarragona/valls,1400,True
+324,04003,Adra,Adra,25501,20-50k,C,04,Almería,/empadronarse/almeria/adra,1400,True
+325,28152,Torrelodones,Torrelodones,25433,20-50k,C,28,Madrid,/empadronarse/madrid/torrelodones,1400,True
+326,41093,Tomares,Tomares,25432,20-50k,C,41,Sevilla,/empadronarse/sevilla/tomares,1400,True
+327,08051,Castellar del Vallès,Castellar del Vallés,25422,20-50k,C,08,Barcelona,/empadronarse/barcelona/castellar-del-valles,1400,True
+328,02081,Villarrobledo,Villarrobledo,25400,20-50k,C,02,Albacete,/empadronarse/albacete/villarrobledo,1400,True
+329,26036,Calahorra,Calahorra,25367,20-50k,C,26,"Rioja, La",/empadronarse/rioja-la/calahorra,1400,True
+330,46147,Llíria,Liria,25333,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/lliria,1400,True
+331,18021,Armilla,Armilla,25300,20-50k,C,18,Granada,/empadronarse/granada/armilla,1400,True
+332,35009,Gáldar,Gáldar,25108,20-50k,C,35,"Palmas, Las",/empadronarse/palmas-las/galdar,1400,True
+333,28084,Mejorada del Campo,Mejorada del Campo,25049,20-50k,C,28,Madrid,/empadronarse/madrid/mejorada-del-campo,1400,True
+334,08147,Olesa de Montserrat,Olesa de Montserrat,24966,20-50k,C,08,Barcelona,/empadronarse/barcelona/olesa-de-montserrat,1400,True
+335,21005,Almonte,Almonte,24864,20-50k,C,21,Huelva,/empadronarse/huelva/almonte,1400,True
+336,48036,Galdakao,Galdácano,24776,20-50k,C,48,Bizkaia,/empadronarse/bizkaia/galdakao,1400,True
+337,15017,Cambre,Cambre,24765,20-50k,C,15,"Coruña, A",/empadronarse/corua-a-a/cambre,1400,True
+338,08118,"Masnou, El",El Masnou,24761,20-50k,C,08,Barcelona,/empadronarse/barcelona/masnou-el,1400,True
+339,46105,Cullera,Cullera,24702,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/cullera,1400,True
+340,48902,Erandio,Erandio,24659,20-50k,C,48,Bizkaia,/empadronarse/bizkaia/erandio,1400,True
+341,38043,Tacoronte,Tacoronte,24619,20-50k,C,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/tacoronte,1400,True
+341,38022,Icod de los Vinos,Icod de los Vinos,24616,20-50k,C,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/icod-de-los-vinos,1400,True
+343,46214,Riba-roja de Túria,Ribarroja del Turia,24616,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/riba-roja-de-turia,1400,True
+344,02009,Almansa,Almansa,24615,20-50k,C,02,Albacete,/empadronarse/albacete/almansa,1400,True
+345,03018,Altea,Altea,24592,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/altea,1400,True
+346,17117,Palafrugell,Palafrugell,24543,20-50k,C,17,Girona,/empadronarse/girona/palafrugell,1400,True
+347,03079,Ibi,Ibi,24500,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/ibi,1400,True
+348,23060,Martos,Martos,24462,20-50k,C,23,Jaén,/empadronarse/jaen/martos,1400,True
+349,11008,"Barrios, Los",Los Barrios,24449,20-50k,C,11,Cádiz,/empadronarse/cadiz/barrios-los,1400,True
+350,41058,Mairena del Alcor,Mairena del Alcor,24339,20-50k,C,41,Sevilla,/empadronarse/sevilla/mairena-del-alcor,1400,True
+351,03902,Pilar de la Horadada,Pilar de la Horadada,24316,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/pilar-de-la-horadada,1400,True
+352,11014,Conil de la Frontera,Conil de la Frontera,24192,20-50k,C,11,Cádiz,/empadronarse/cadiz/conil-de-la-frontera,1400,True
+353,30008,Alhama de Murcia,Alhama de Murcia,24163,20-50k,C,30,Murcia,/empadronarse/murcia/alhama-de-murcia,1400,True
+354,21050,Moguer,Moguer,24083,20-50k,C,21,Huelva,/empadronarse/huelva/moguer,1400,True
+356,28176,Villanueva de la Cañada,Villanueva de la Cañada,24028,20-50k,C,28,Madrid,/empadronarse/madrid/villanueva-de-la-canada,1400,True
+355,35024,Teguise,Teguise,24027,20-50k,C,35,"Palmas, Las",/empadronarse/palmas-las/teguise,1400,True
+357,36026,Marín,Marín,23991,20-50k,C,36,Pontevedra,/empadronarse/pontevedra/marin,1400,True
+358,38035,San Miguel de Abona,San Miguel de Abona,23960,20-50k,C,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/san-miguel-de-abona,1400,True
+359,43171,Vila-seca,Vilaseca,23917,20-50k,C,43,Tarragona,/empadronarse/tarragona/vila-seca,1400,True
+360,18905,"Gabias, Las",Las Gabias,23584,20-50k,C,18,Granada,/empadronarse/granada/gabias-las,1400,True
+361,20079,Zarautz,Zarauz,23496,20-50k,C,20,Gipuzkoa,/empadronarse/gipuzkoa/zarautz,1400,True
+362,41086,San Juan de Aznalfarache,San Juan de Aznalfarache,23408,20-50k,C,41,Sevilla,/empadronarse/sevilla/san-juan-de-aznalfarache,1400,True
+363,36042,Ponteareas,Puenteareas,23211,20-50k,C,36,Pontevedra,/empadronarse/pontevedra/ponteareas,1400,True
+364,46194,Picassent,Picasent,23202,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/picassent,1400,True
+365,,San Felíu de Guixols,San Felíu de Guixols,23141,20-50k,C,,Gerona,/empadronarse/gerona/san-feliu-de-guixols,1400,False
+366,43014,Amposta,Amposta,23080,20-50k,C,43,Tarragona,/empadronarse/tarragona/amposta,1400,True
+367,41017,Bormujos,Bormujos,23071,20-50k,C,41,Sevilla,/empadronarse/sevilla/bormujos,1400,True
+368,03015,Almoradí,Almoradí,22965,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/almoradi,1400,True
+369,47076,Laguna de Duero,Laguna de Duero,22965,20-50k,C,47,Valladolid,/empadronarse/valladolid/laguna-de-duero,1400,True
+370,31086,Valle de Egüés/Eguesibar,Valle de Egüés,22825,20-50k,C,31,Navarra,/empadronarse/navarra/valle-de-egues-eguesibar,1400,True
+371,47010,Arroyo de la Encomienda,Arroyo de la Encomienda,22800,20-50k,C,47,Valladolid,/empadronarse/valladolid/arroyo-de-la-encomienda,1400,True
+372,21002,Aljaraque,Aljaraque,22737,20-50k,C,21,Huelva,/empadronarse/huelva/aljaraque,1400,True
+373,30038,"Torres de Cotillas, Las",Las Torres de Cotillas,22676,20-50k,C,30,Murcia,/empadronarse/murcia/torres-de-cotillas-las,1400,True
+374,08076,Esparreguera,Esparraguera,22665,20-50k,C,08,Barcelona,/empadronarse/barcelona/esparreguera,1400,True
+375,38019,Guía de Isora,Guía de Isora,22654,20-50k,C,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/guia-de-isora,1400,True
+376,11007,Barbate,Barbate,22635,20-50k,C,11,Cádiz,/empadronarse/cadiz/barbate,1400,True
+377,20055,Arrasate/Mondragón,Mondragón,22450,20-50k,C,20,Gipuzkoa,/empadronarse/gipuzkoa/arrasate-mondragon,1400,True
+378,03019,Aspe,Aspe,22397,20-50k,C,03,Alicante/Alacant,/empadronarse/alicante-alacant/aspe,1400,True
+379,14042,Montilla,Montilla,22305,20-50k,C,14,Córdoba,/empadronarse/cordoba/montilla,1400,True
+380,18127,Maracena,Maracena,22294,20-50k,C,18,Granada,/empadronarse/granada/maracena,1400,True
+381,46022,Alfafar,Alfafar,22270,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/alfafar,1400,True
+382,46171,Montcada/Moncada,Moncada,22213,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/montcada-moncada,1400,True
+383,29075,Nerja,Nerja,22132,20-50k,C,29,Málaga,/empadronarse/malaga/nerja,1400,True
+384,29091,Torrox,Torrox,22015,20-50k,C,29,Málaga,/empadronarse/malaga/torrox,1400,True
+385,38020,Güímar,Güímar,22009,20-50k,C,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/guimar,1400,True
+386,21010,Ayamonte,Ayamonte,22001,20-50k,C,21,Huelva,/empadronarse/huelva/ayamonte,1400,True
+387,33016,Castrillón,Castrillón,21998,20-50k,C,33,Asturias,/empadronarse/asturias/castrillon,1400,True
+388,46083,Carcaixent,Carcagente,21934,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/carcaixent,1400,True
+389,07003,Alcúdia,Alcudia,21907,20-50k,C,07,"Balears, Illes",/empadronarse/balears-illes/alcudia,1400,True
+390,14055,Priego de Córdoba,Priego de Córdoba,21764,20-50k,C,14,Córdoba,/empadronarse/cordoba/priego-de-cordoba,1400,True
+391,46205,Puçol,Puzol,21659,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/pucol,1400,True
+392,35028,Tías,Tías,21613,20-50k,C,35,"Palmas, Las",/empadronarse/palmas-las/tias,1400,True
+393,35015,Pájara,Pájara,21570,20-50k,C,35,"Palmas, Las",/empadronarse/palmas-las/pajara,1400,True
+394,21042,Isla Cristina,Isla Cristina,21525,20-50k,C,21,Huelva,/empadronarse/huelva/isla-cristina,1400,True
+395,23002,Alcalá la Real,Alcalá la Real,21496,20-50k,C,23,Jaén,/empadronarse/jaen/alcala-la-real,1400,True
+396,21021,Cartaya,Cartaya,21471,20-50k,C,21,Huelva,/empadronarse/huelva/cartaya,1400,True
+397,08112,Manlleu,Manlleu,21425,20-50k,C,08,Barcelona,/empadronarse/barcelona/manlleu,1400,True
+398,30041,"Unión, La",La Unión,21380,20-50k,C,30,Murcia,/empadronarse/murcia/union-la,1400,True
+399,31060,Burlada/Burlata,Burlada,21280,20-50k,C,31,Navarra,/empadronarse/navarra/burlada-burlata,1400,True
+400,,Vilasar de Mar,Vilasar de Mar,21227,20-50k,C,,Barcelona,/empadronarse/barcelona/vilasar-de-mar,1400,False
+401,35012,Mogán,Mogán,21172,20-50k,C,35,"Palmas, Las",/empadronarse/palmas-las/mogan,1400,True
+402,28009,Algete,Algete,21144,20-50k,C,28,Madrid,/empadronarse/madrid/algete,1400,True
+403,,Alfaz del Pi,Alfaz del Pi,21080,20-50k,C,,Alicante,/empadronarse/alicante/alfaz-del-pi,1400,False
+404,,San Justo Desvern,San Justo Desvern,21037,20-50k,C,,Barcelona,/empadronarse/barcelona/san-justo-desvern,1400,False
+405,28132,San Martín de la Vega,San Martín de la Vega,21010,20-50k,C,28,Madrid,/empadronarse/madrid/san-martin-de-la-vega,1400,True
+406,46213,Requena,Requena,20982,20-50k,C,46,Valencia/València,/empadronarse/valencia-valencia/requena,1400,True
+407,36039,"Porriño, O",Porriño,20965,20-50k,C,36,Pontevedra,/empadronarse/pontevedra/porrino-o,1400,True
+408,18122,Loja,Loja,20951,20-50k,C,18,Granada,/empadronarse/granada/loja,1400,True
+409,18022,Atarfe,Atarfe,20914,20-50k,C,18,Granada,/empadronarse/granada/atarfe,1400,True
+410,30009,Archena,Archena,20908,20-50k,C,30,Murcia,/empadronarse/murcia/archena,1400,True
+411,,Las Franquesas del Vallés,Las Franquesas del Vallés,20881,20-50k,C,,Barcelona,/empadronarse/barcelona/las-franquesas-del-valles,1400,False
+412,17015,Banyoles,Bañolas,20865,20-50k,C,17,Girona,/empadronarse/girona/banyoles,1400,True
+413,04053,Huércal-Overa,Huércal-Overa,20860,20-50k,C,04,Almería,/empadronarse/almeria/huercal-overa,1400,True
+414,18023,Baza,Baza,20587,20-50k,C,18,Granada,/empadronarse/granada/baza,1400,True
+415,38024,"Llanos de Aridane, Los",Los Llanos de Aridane,20582,20-50k,C,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/llanos-de-aridane-los,1400,True
+416,12028,Benicàssim/Benicasim,Benicasim,20539,20-50k,C,12,Castellón/Castelló,/empadronarse/castellon-castello/benicassim-benicasim,1400,True
+417,28073,Humanes de Madrid,Humanes de Madrid,20500,20-50k,C,28,Madrid,/empadronarse/madrid/humanes-de-madrid,1400,True
+418,14049,Palma del Río,Palma del Río,20438,20-50k,C,14,Córdoba,/empadronarse/cordoba/palma-del-rio,1400,True
+419,20040,Hernani,Hernani,20375,20-50k,C,20,Gipuzkoa,/empadronarse/gipuzkoa/hernani,1400,True
+420,17152,Roses,Rosas,20365,20-50k,C,17,Girona,/empadronarse/girona/roses,1400,True
+421,36024,Lalín,Lalín,20292,20-50k,C,36,Pontevedra,/empadronarse/pontevedra/lalin,1400,True
+422,47085,Medina del Campo,Medina del Campo,20215,20-50k,C,47,Valladolid,/empadronarse/valladolid/medina-del-campo,1400,True
+423,08238,Sant Quirze del Vallès,San Quirce del Vallés,20209,20-50k,C,08,Barcelona,/empadronarse/barcelona/sant-quirze-del-valles,1400,True
+424,,La Estrada,La Estrada,20112,20-50k,C,,Pontevedra,/empadronarse/pontevedra/la-estrada,1400,False
+425,20071,Tolosa,Tolosa,20070,20-50k,C,20,Gipuzkoa,/empadronarse/gipuzkoa/tolosa,1400,True
+426,14013,Cabra,Cabra,19995,10-20k,D,14,Córdoba,/empadronarse/cordoba/cabra,1200,True
+427,18193,"Zubia, La",La Zubia,19885,10-20k,D,18,Granada,/empadronarse/granada/zubia-la,1200,True
+428,08035,Calella,Calella,19862,10-20k,D,08,Barcelona,/empadronarse/barcelona/calella,1200,True
+429,46230,Silla,Silla,19683,10-20k,D,46,Valencia/València,/empadronarse/valencia-valencia/silla,1200,True
+430,50067,Calatayud,Calatayud,19677,10-20k,D,50,Zaragoza,/empadronarse/zaragoza/calatayud,1200,True
+431,11016,Chipiona,Chipiona,19649,10-20k,D,11,Cádiz,/empadronarse/cadiz/chipiona,1200,True
+432,31901,Barañáin/Barañain,Barañáin,19575,10-20k,D,31,Navarra,/empadronarse/navarra/baranain-baranain,1200,True
+433,48003,Amorebieta-Etxano,Amorebieta-Echano,19570,10-20k,D,48,Bizkaia,/empadronarse/bizkaia/amorebieta-etxano,1200,True
+434,41011,Arahal,Arahal,19491,10-20k,D,41,Sevilla,/empadronarse/sevilla/arahal,1200,True
+435,04100,Vera,Vera,19488,10-20k,D,04,Almería,/empadronarse/almeria/vera,1200,True
+436,03049,Callosa de Segura,Callosa de Segura,19484,10-20k,D,03,Alicante/Alacant,/empadronarse/alicante-alacant/callosa-de-segura,1200,True
+437,18003,Albolote,Albolote,19474,10-20k,D,18,Granada,/empadronarse/granada/albolote,1200,True
+438,36029,Moaña,Moaña,19315,10-20k,D,36,Pontevedra,/empadronarse/pontevedra/moana,1200,True
+439,41060,Marchena,Marchena,19271,10-20k,D,41,Sevilla,/empadronarse/sevilla/marchena,1200,True
+440,41102,"Viso del Alcor, El",El Viso del Alcor,19265,10-20k,D,41,Sevilla,/empadronarse/sevilla/viso-del-alcor-el,1200,True
+441,08110,Malgrat de Mar,Malgrat de Mar,19213,10-20k,D,08,Barcelona,/empadronarse/barcelona/malgrat-de-mar,1200,True
+442,35018,San Bartolomé,San Bartolomé,19200,10-20k,D,35,"Palmas, Las",/empadronarse/palmas-las/san-bartolome,1200,True
+443,20902,Lasarte-Oria,Lasarte-Oria,19133,10-20k,D,20,Gipuzkoa,/empadronarse/gipuzkoa/lasarte-oria,1200,True
+444,,La Eliana,La Eliana,19054,10-20k,D,,Valencia,/empadronarse/valencia/la-eliana,1200,False
+445,15082,Teo,Teo,19034,10-20k,D,15,"Coruña, A",/empadronarse/corua-a-a/teo,1200,True
+446,08046,Cardedeu,Cardedeu,19023,10-20k,D,08,Barcelona,/empadronarse/barcelona/cardedeu,1200,True
+447,15011,Boiro,Boiro,18984,10-20k,D,15,"Coruña, A",/empadronarse/corua-a-a/boiro,1200,True
+448,03094,"Nucia, la",La Nucía,18970,10-20k,D,03,Alicante/Alacant,/empadronarse/alicante-alacant/nucia-la,1200,True
+449,50272,Utebo,Utebo,18955,10-20k,D,50,Zaragoza,/empadronarse/zaragoza/utebo,1200,True
+450,08159,Parets del Vallès,Parets,18893,10-20k,D,08,Barcelona,/empadronarse/barcelona/parets-del-valles,1200,True
+451,24222,Villaquilambre,Villaquilambre,18765,10-20k,D,24,León,/empadronarse/leon/villaquilambre,1200,True
+452,11035,Tarifa,Tarifa,18621,10-20k,D,11,Cádiz,/empadronarse/cadiz/tarifa,1200,True
+453,30902,"Alcázares, Los",Los Alcázares,18598,10-20k,D,30,Murcia,/empadronarse/murcia/alcazares-los,1200,True
+454,07022,Felanitx,Felanich,18592,10-20k,D,07,"Balears, Illes",/empadronarse/balears-illes/felanitx,1200,True
+455,14007,Baena,Baena,18533,10-20k,D,14,Córdoba,/empadronarse/cordoba/baena,1200,True
+456,18089,Guadix,Guadix,18527,10-20k,D,18,Granada,/empadronarse/granada/guadix,1200,True
+457,35021,Santa Brígida,Santa Brígida,18510,10-20k,D,35,"Palmas, Las",/empadronarse/palmas-las/santa-brigida,1200,True
+458,04052,Huércal de Almería,Huércal de Almería,18507,10-20k,D,04,Almería,/empadronarse/almeria/huercal-de-almeria,1200,True
+459,28131,San Lorenzo de El Escorial,San Lorenzo de El Escorial,18489,10-20k,D,28,Madrid,/empadronarse/madrid/san-lorenzo-de-el-escorial,1200,True
+460,,San Celoni,San Celoni,18479,10-20k,D,,Barcelona,/empadronarse/barcelona/san-celoni,1200,False
+461,08284,Tordera,Tordera,18409,10-20k,D,08,Barcelona,/empadronarse/barcelona/tordera,1200,True
+462,41055,Lora del Río,Lora del Río,18316,10-20k,D,41,Sevilla,/empadronarse/sevilla/lora-del-rio,1200,True
+463,17118,Palamós,Palamós,18293,10-20k,D,17,Girona,/empadronarse/girona/palamos,1200,True
+464,25217,Tàrrega,Tárrega,18268,10-20k,D,25,Lleida,/empadronarse/lleida/tarrega,1200,True
+465,27031,Monforte de Lemos,Monforte de Lemos,18234,10-20k,D,27,Lugo,/empadronarse/lugo/monforte-de-lemos,1200,True
+466,39008,"Astillero, El",El Astillero,18220,10-20k,D,39,Cantabria,/empadronarse/cantabria/astillero-el,1200,True
+467,,Caldas de Montbuy,Caldas de Montbuy,18109,10-20k,D,,Barcelona,/empadronarse/barcelona/caldas-de-montbuy,1200,False
+468,30021,Fuente Álamo de Murcia,Fuente Álamo de Murcia,18063,10-20k,D,30,Murcia,/empadronarse/murcia/fuente-alamo-de-murcia,1200,True
+469,36035,Nigrán,Nigrán,18045,10-20k,D,36,Pontevedra,/empadronarse/pontevedra/nigran,1200,True
+470,01036,Laudio/Llodio,Llodio,17917,10-20k,D,01,Araba/Álava,/empadronarse/araba-alava/laudio-llodio,1200,True
+471,48069,Mungia,Munguía,17882,10-20k,D,48,Bizkaia,/empadronarse/bizkaia/mungia,1200,True
+472,38032,"Rosario, El",El Rosario,17866,10-20k,D,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/rosario-el,1200,True
+473,29068,Manilva,Manilva,17857,10-20k,D,29,Málaga,/empadronarse/malaga/manilva,1200,True
+474,36051,Sanxenxo,Sangenjo,17854,10-20k,D,36,Pontevedra,/empadronarse/pontevedra/sanxenxo,1200,True
+475,22158,Monzón,Monzón,17839,10-20k,D,22,Huesca,/empadronarse/huesca/monzon,1200,True
+476,13053,Manzanares,Manzanares,17732,10-20k,D,13,Ciudad Real,/empadronarse/ciudad-real/manzanares,1200,True
+477,28177,Villanueva del Pardillo,Villanueva del Pardillo,17731,10-20k,D,28,Madrid,/empadronarse/madrid/villanueva-del-pardillo,1200,True
+478,43153,Torredembarra,Torredembarra,17670,10-20k,D,43,Tarragona,/empadronarse/tarragona/torredembarra,1200,True
+479,25040,Balaguer,Balaguer,17649,10-20k,D,25,Lleida,/empadronarse/lleida/balaguer,1200,True
+480,13039,Daimiel,Daimiel,17629,10-20k,D,13,Ciudad Real,/empadronarse/ciudad-real/daimiel,1200,True
+481,03113,Rojales,Rojales,17451,10-20k,D,03,Alicante/Alacant,/empadronarse/alicante-alacant/rojales,1200,True
+482,,Tabernes de Valldigna,Tabernes de Valldigna,17443,10-20k,D,,Valencia,/empadronarse/valencia/tabernes-de-valldigna,1200,False
+483,41068,Osuna,Osuna,17418,10-20k,D,41,Sevilla,/empadronarse/sevilla/osuna,1200,True
+484,35034,Yaiza,Yaiza,17415,10-20k,D,35,"Palmas, Las",/empadronarse/palmas-las/yaiza,1200,True
+485,30029,Mula,Mula,17382,10-20k,D,30,Murcia,/empadronarse/murcia/mula,1200,True
+486,30033,Puerto Lumbreras,Puerto Lumbreras,17346,10-20k,D,30,Murcia,/empadronarse/murcia/puerto-lumbreras,1200,True
+487,03076,Guardamar del Segura,Guardamar del Segura,17328,10-20k,D,03,Alicante/Alacant,/empadronarse/alicante-alacant/guardamar-del-segura,1200,True
+488,36055,Tui,Tuy,17327,10-20k,D,36,Pontevedra,/empadronarse/pontevedra/tui,1200,True
+489,36041,Poio,Poyo,17297,10-20k,D,36,Pontevedra,/empadronarse/pontevedra/poio,1200,True
+490,22048,Barbastro,Barbastro,17295,10-20k,D,22,Huesca,/empadronarse/huesca/barbastro,1200,True
+491,07042,Pollença,Pollensa,17279,10-20k,D,07,"Balears, Illes",/empadronarse/balears-illes/pollenca,1200,True
+492,49021,Benavente,Benavente,17261,10-20k,D,49,Zamora,/empadronarse/zamora/benavente,1200,True
+493,23010,Bailén,Bailén,17211,10-20k,D,23,Jaén,/empadronarse/jaen/bailen,1200,True
+494,08161,Piera,Piera,17203,10-20k,D,08,Barcelona,/empadronarse/barcelona/piera,1200,True
+495,41029,Castilleja de la Cuesta,Castilleja de la Cuesta,17167,10-20k,D,41,Sevilla,/empadronarse/sevilla/castilleja-de-la-cuesta,1200,True
+496,50095,Ejea de los Caballeros,Ejea de los Caballeros,17135,10-20k,D,50,Zaragoza,/empadronarse/zaragoza/ejea-de-los-caballeros,1200,True
+497,28068,Guadarrama,Guadarrama,17063,10-20k,D,28,Madrid,/empadronarse/madrid/guadarrama,1200,True
+498,08088,"Garriga, La",La Garriga,17052,10-20k,D,08,Barcelona,/empadronarse/barcelona/garriga-la,1200,True
+499,08041,Canovelles,Canovellas,17051,10-20k,D,08,Barcelona,/empadronarse/barcelona/canovelles,1200,True
+500,,Guernica y Luno,Guernica y Luno,17050,10-20k,D,,Vizcaya,/empadronarse/vizcaya/guernica-y-luno,1200,False
+501,46007,Albal,Albal,17024,10-20k,D,46,Valencia/València,/empadronarse/valencia-valencia/albal,1200,True
+502,08022,Berga,Berga,16959,10-20k,D,08,Barcelona,/empadronarse/barcelona/berga,1200,True
+503,14054,Pozoblanco,Pozoblanco,16946,10-20k,D,14,Córdoba,/empadronarse/cordoba/pozoblanco,1200,True
+504,,Cubellas,Cubellas,16914,10-20k,D,,Barcelona,/empadronarse/barcelona/cubellas,1200,False
+505,10131,Navalmoral de la Mata,Navalmoral de la Mata,16895,10-20k,D,10,Cáceres,/empadronarse/caceres/navalmoral-de-la-mata,1200,True
+506,,Fuenterrabía,Fuenterrabía,16887,10-20k,D,,Guipúzcoa,/empadronarse/guipuzcoa/fuenterrabia,1200,False
+507,48017,Bermeo,Bermeo,16878,10-20k,D,48,Bizkaia,/empadronarse/bizkaia/bermeo,1200,True
+508,15075,Sada,Sada,16874,10-20k,D,15,"Coruña, A",/empadronarse/corua-a-a/sada,1200,True
+509,28054,"Escorial, El",El Escorial,16873,10-20k,D,28,Madrid,/empadronarse/madrid/escorial-el,1200,True
+510,28172,Villalbilla,Villalbilla,16823,10-20k,D,28,Madrid,/empadronarse/madrid/villalbilla,1200,True
+511,08136,Montornès del Vallès,Montornés del Vallés,16800,10-20k,D,08,Barcelona,/empadronarse/barcelona/montornes-del-valles,1200,True
+512,,Masamagrell,Masamagrell,16766,10-20k,D,,Valencia,/empadronarse/valencia/masamagrell,1200,False
+513,46111,Chiva,Chiva,16750,10-20k,D,46,Valencia/València,/empadronarse/valencia-valencia/chiva,1200,True
+514,06158,Zafra,Zafra,16672,10-20k,D,06,Badajoz,/empadronarse/badajoz/zafra,1200,True
+515,41007,"Algaba, La",La Algaba,16618,10-20k,D,41,Sevilla,/empadronarse/sevilla/algaba-la,1200,True
+516,41040,Espartinas,Espartinas,16505,10-20k,D,41,Sevilla,/empadronarse/sevilla/espartinas,1200,True
+517,18062,Churriana de la Vega,Churriana de la Vega,16445,10-20k,D,18,Granada,/empadronarse/granada/churriana-de-la-vega,1200,True
+518,41020,"Cabezas de San Juan, Las",Las Cabezas de San Juan,16400,10-20k,D,41,Sevilla,/empadronarse/sevilla/cabezas-de-san-juan-las,1200,True
+519,11038,Ubrique,Ubrique,16363,10-20k,D,11,Cádiz,/empadronarse/cadiz/ubrique,1200,True
+520,08006,Arenys de Mar,Arenys de Mar,16342,10-20k,D,08,Barcelona,/empadronarse/barcelona/arenys-de-mar,1200,True
+521,16203,Tarancón,Tarancón,16257,10-20k,D,16,Cuenca,/empadronarse/cuenca/tarancon,1200,True
+522,30901,Santomera,Santomera,16245,10-20k,D,30,Murcia,/empadronarse/murcia/santomera,1200,True
+523,44013,Alcañiz,Alcañiz,16151,10-20k,D,44,Teruel,/empadronarse/teruel/alcaniz,1200,True
+524,46085,Carlet,Carlet,16141,10-20k,D,46,Valencia/València,/empadronarse/valencia-valencia/carlet,1200,True
+525,,Llissá de Munt,Llissá de Munt,16092,10-20k,D,,Barcelona,/empadronarse/barcelona/llissa-de-munt,1200,False
+526,21060,Punta Umbría,Punta Umbría,16069,10-20k,D,21,Huelva,/empadronarse/huelva/punta-umbria,1200,True
+527,35030,Tuineje,Tuineje,15967,10-20k,D,35,"Palmas, Las",/empadronarse/palmas-las/tuineje,1200,True
+528,,Benetúser,Benetúser,15879,10-20k,D,,Valencia,/empadronarse/valencia/benetuser,1200,False
+529,,Pasajes,Pasajes,15857,10-20k,D,,Guipúzcoa,/empadronarse/guipuzcoa/pasajes,1200,False
+530,08295,Vallirana,Vallirana,15823,10-20k,D,08,Barcelona,/empadronarse/barcelona/vallirana,1200,True
+531,13056,Miguelturra,Miguelturra,15769,10-20k,D,13,Ciudad Real,/empadronarse/ciudad-real/miguelturra,1200,True
+532,23009,Baeza,Baeza,15723,10-20k,D,23,Jaén,/empadronarse/jaen/baeza,1200,True
+533,31907,Zizur Mayor/Zizur Nagusia,Zizur Mayor,15715,10-20k,D,31,Navarra,/empadronarse/navarra/zizur-mayor-zizur-nagusia,1200,True
+534,33020,Corvera de Asturias,Corvera de Asturias,15612,10-20k,D,33,Asturias,/empadronarse/asturias/corvera-de-asturias,1200,True
+535,48034,Ermua,Ermua,15599,10-20k,D,48,Bizkaia,/empadronarse/bizkaia/ermua,1200,True
+536,02069,"Roda, La",La Roda,15542,10-20k,D,02,Albacete,/empadronarse/albacete/roda-la,1200,True
+537,08072,Corbera de Llobregat,Corbera de Llobregat,15466,10-20k,D,08,Barcelona,/empadronarse/barcelona/corbera-de-llobregat,1200,True
+538,38037,Santa Cruz de la Palma,Santa Cruz de la Palma,15441,10-20k,D,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/santa-cruz-de-la-palma,1200,True
+539,33060,San Martín del Rey Aurelio,San Martín del Rey Aurelio,15431,10-20k,D,33,Asturias,/empadronarse/asturias/san-martin-del-rey-aurelio,1200,True
+540,28083,Meco,Meco,15404,10-20k,D,28,Madrid,/empadronarse/madrid/meco,1200,True
+541,22112,Fraga,Fraga,15373,10-20k,D,22,Huesca,/empadronarse/huesca/fraga,1200,True
+542,06088,Montijo,Montijo,15312,10-20k,D,06,Badajoz,/empadronarse/badajoz/montijo,1200,True
+543,28010,Alpedrete,Alpedrete,15312,10-20k,D,28,Madrid,/empadronarse/madrid/alpedrete,1200,True
+544,38039,Santa Úrsula,Santa Úrsula,15285,10-20k,D,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/santa-ursula,1200,True
+545,43051,Cunit,Cunit,15278,10-20k,D,43,Tarragona,/empadronarse/tarragona/cunit,1200,True
+546,04035,Cuevas del Almanzora,Cuevas del Almanzora,15246,10-20k,D,04,Almería,/empadronarse/almeria/cuevas-del-almanzora,1200,True
+547,13079,"Solana, La",La Solana,15242,10-20k,D,13,Ciudad Real,/empadronarse/ciudad-real/solana-la,1200,True
+548,,Vivero,Vivero,15221,10-20k,D,,Lugo,/empadronarse/lugo/vivero,1200,False
+549,26018,Arnedo,Arnedo,15201,10-20k,D,26,"Rioja, La",/empadronarse/rioja-la/arnedo,1200,True
+550,20018,Azpeitia,Azpeitia,15183,10-20k,D,20,Gipuzkoa,/empadronarse/gipuzkoa/azpeitia,1200,True
+551,08156,Palau-solità i Plegamans,Palau-solità i Plegamans,15130,10-20k,D,08,Barcelona,/empadronarse/barcelona/palau-solita-i-plegamans,1200,True
+552,18175,Santa Fe,Santa Fe,15105,10-20k,D,18,Granada,/empadronarse/granada/santa-fe,1200,True
+553,36033,Mos,Mos,15076,10-20k,D,36,Pontevedra,/empadronarse/pontevedra/mos,1200,True
+554,,San Carlos de la Rápita,San Carlos de la Rápita,15046,10-20k,D,,Tarragona,/empadronarse/tarragona/san-carlos-de-la-rapita,1200,False
+555,36021,Gondomar,Gondomar,15043,10-20k,D,36,Pontevedra,/empadronarse/pontevedra/gondomar,1200,True
+556,,Mollerusa,Mollerusa,15037,10-20k,D,,Lérida,/empadronarse/lerida/mollerusa,1200,False
+557,08040,Canet de Mar,Canet de Mar,15010,10-20k,D,08,Barcelona,/empadronarse/barcelona/canet-de-mar,1200,True
+558,33076,Villaviciosa,Villaviciosa,15000,10-20k,D,33,Asturias,/empadronarse/asturias/villaviciosa,1200,True
+559,08285,Torelló,Torelló,14902,10-20k,D,08,Barcelona,/empadronarse/barcelona/torello,1200,True
+560,,Sopelana,Sopelana,14872,10-20k,D,,Vizcaya,/empadronarse/vizcaya/sopelana,1200,False
+561,18145,Ogíjares,Ogíjares,14803,10-20k,D,18,Granada,/empadronarse/granada/ogijares,1200,True
+562,23024,"Carolina, La",La Carolina,14801,10-20k,D,23,Jaén,/empadronarse/jaen/carolina-la,1200,True
+563,50089,Cuarte de Huerva,Cuarte de Huerva,14701,10-20k,D,50,Zaragoza,/empadronarse/zaragoza/cuarte-de-huerva,1200,True
+564,37294,Santa Marta de Tormes,Santa Marta de Tormes,14683,10-20k,D,37,Salamanca,/empadronarse/salamanca/santa-marta-de-tormes,1200,True
+565,20009,Andoain,Andoáin,14555,10-20k,D,20,Gipuzkoa,/empadronarse/gipuzkoa/andoain,1200,True
+566,,Vergara,Vergara,14487,10-20k,D,,Guipúzcoa,/empadronarse/guipuzcoa/vergara,1200,False
+567,30017,Cehegín,Cehegín,14485,10-20k,D,30,Murcia,/empadronarse/murcia/cehegin,1200,True
+568,46031,Alginet,Alginet,14442,10-20k,D,46,Valencia/València,/empadronarse/valencia-valencia/alginet,1200,True
+569,21013,Bollullos Par del Condado,Bollullos Par del Condado,14263,10-20k,D,21,Huelva,/empadronarse/huelva/bollullos-par-del-condado,1200,True
+570,14017,"Carlota, La",La Carlota,14258,10-20k,D,14,Córdoba,/empadronarse/cordoba/carlota-la,1200,True
+571,,Estella,Estella,14195,10-20k,D,,Navarra,/empadronarse/navarra/estella,1200,False
+572,41087,Sanlúcar la Mayor,Sanlúcar la Mayor,14172,10-20k,D,41,Sevilla,/empadronarse/sevilla/sanlucar-la-mayor,1200,True
+573,,La Puebla,La Puebla,14164,10-20k,D,,Baleares,/empadronarse/baleares/la-puebla,1200,False
+574,28090,Moralzarzal,Moralzarzal,14124,10-20k,D,28,Madrid,/empadronarse/madrid/moralzarzal,1200,True
+575,,Noya,Noya,14115,10-20k,D,,La Coruña La Coruña,/empadronarse/la-coruna-la-coruna/noya,1200,False
+576,41075,Pilas,Pilas,14052,10-20k,D,41,Sevilla,/empadronarse/sevilla/pilas,1200,True
+577,20019,Beasain,Beasáin,13970,10-20k,D,20,Gipuzkoa,/empadronarse/gipuzkoa/beasain,1200,True
+578,32019,"Carballiño, O",Carballino,13968,10-20k,D,32,Ourense,/empadronarse/ourense/carballino-o,1200,True
+579,35023,Santa María de Guía de Gran Canaria,Santa María de Guía de Gran Canaria,13948,10-20k,D,35,"Palmas, Las",/empadronarse/palmas-las/santa-maria-de-guia-de-gran-canaria,1200,True
+580,33035,Llanera,Llanera,13948,10-20k,D,33,Asturias,/empadronarse/asturias/llanera,1200,True
+581,45173,Torrijos,Torrijos,13885,10-20k,D,45,Toledo,/empadronarse/toledo/torrijos,1200,True
+582,23086,Torredelcampo,Torredelcampo,13871,10-20k,D,23,Jaén,/empadronarse/jaen/torredelcampo,1200,True
+583,,Villalba,Villalba,13870,10-20k,D,,Lugo,/empadronarse/lugo/villalba,1200,False
+584,45121,Ocaña,Ocaña,13868,10-20k,D,45,Toledo,/empadronarse/toledo/ocana,1200,True
+585,36054,Tomiño,Tomiño,13836,10-20k,D,36,Pontevedra,/empadronarse/pontevedra/tomino,1200,True
+586,12082,Nules,Nules,13827,10-20k,D,12,Castellón/Castelló,/empadronarse/castellon-castello/nules,1200,True
+587,39073,Santa Cruz de Bezana,Santa Cruz de Bezana,13689,10-20k,D,39,Cantabria,/empadronarse/cantabria/santa-cruz-de-bezana,1200,True
+588,41049,Guillena,Guillena,13682,10-20k,D,41,Sevilla,/empadronarse/sevilla/guillena,1200,True
+589,36006,Cambados,Cambados,13681,10-20k,D,36,Pontevedra,/empadronarse/pontevedra/cambados,1200,True
+590,28160,Valdemorillo,Valdemorillo,13651,10-20k,D,28,Madrid,/empadronarse/madrid/valdemorillo,1200,True
+591,28129,San Agustín del Guadalix,San Agustín del Guadalix,13650,10-20k,D,28,Madrid,/empadronarse/madrid/san-agustin-del-guadalix,1200,True
+592,,Santa Coloma de Farnés,Santa Coloma de Farnés,13634,10-20k,D,,Gerona,/empadronarse/gerona/santa-coloma-de-farnes,1200,False
+593,22130,Jaca,Jaca,13620,10-20k,D,22,Huesca,/empadronarse/huesca/jaca,1200,True
+594,32085,Verín,Verín,13612,10-20k,D,32,Ourense,/empadronarse/ourense/verin,1200,True
+595,07061,Sóller,Sóller,13610,10-20k,D,07,"Balears, Illes",/empadronarse/balears-illes/soller,1200,True
+596,,Montroig,Montroig,13592,10-20k,D,,Tarragona,/empadronarse/tarragona/montroig,1200,False
+597,33036,Llanes,Llanes,13524,10-20k,D,33,Asturias,/empadronarse/asturias/llanes,1200,True
+598,35003,Antigua,Antigua,13523,10-20k,D,35,"Palmas, Las",/empadronarse/palmas-las/antigua,1200,True
+599,29012,Álora,Álora,13512,10-20k,D,29,Málaga,/empadronarse/malaga/alora,1200,True
+600,41047,Gines,Gines,13481,10-20k,D,41,Sevilla,/empadronarse/sevilla/gines,1200,True
+601,46135,Godella,Godella,13414,10-20k,D,46,Valencia/València,/empadronarse/valencia-valencia/godella,1200,True
+602,19024,Alovera,Alovera,13407,10-20k,D,19,Guadalajara,/empadronarse/guadalajara/alovera,1200,True
+603,28167,Velilla de San Antonio,Velilla de San Antonio,13376,10-20k,D,28,Madrid,/empadronarse/madrid/velilla-de-san-antonio,1200,True
+604,19071,"Casar, El",El Casar,13327,10-20k,D,19,Guadalajara,/empadronarse/guadalajara/casar-el,1200,True
+605,23087,Torredonjimeno,Torredonjimeno,13301,10-20k,D,23,Jaén,/empadronarse/jaen/torredonjimeno,1200,True
+606,14002,Aguilar de la Frontera,Aguilar de la Frontera,13282,10-20k,D,14,Córdoba,/empadronarse/cordoba/aguilar-de-la-frontera,1200,True
+607,32009,"Barco de Valdeorras, O",El Barco de Valdeorras,13277,10-20k,D,32,Ourense,/empadronarse/ourense/barco-de-valdeorras-o,1200,True
+608,27057,Sarria,Sarria,13221,10-20k,D,27,Lugo,/empadronarse/lugo/sarria,1200,True
+609,08105,"Llagosta, La",La Llagosta,13169,10-20k,D,08,Barcelona,/empadronarse/barcelona/llagosta-la,1200,True
+610,46081,Canals,Canals,13162,10-20k,D,46,Valencia/València,/empadronarse/valencia-valencia/canals,1200,True
+611,,Santa Margarita,Santa Margarita,13160,10-20k,D,,Baleares,/empadronarse/baleares/santa-margarita,1200,False
+612,03005,Albatera,Albatera,13092,10-20k,D,03,Alicante/Alacant,/empadronarse/alicante-alacant/albatera,1200,True
+613,15009,Betanzos,Betanzos,13082,10-20k,D,15,"Coruña, A",/empadronarse/corua-a-a/betanzos,1200,True
+614,08904,Badia del Vallès,Badía del Vallés,13074,10-20k,D,08,Barcelona,/empadronarse/barcelona/badia-del-valles,1200,True
+615,30002,Abarán,Abarán,12964,10-20k,D,30,Murcia,/empadronarse/murcia/abaran,1200,True
+616,13028,Campo de Criptana,Campo de Criptana,12960,10-20k,D,13,Ciudad Real,/empadronarse/ciudad-real/campo-de-criptana,1200,True
+617,,San Sadurní de Noya,San Sadurní de Noya,12945,10-20k,D,,Barcelona,/empadronarse/barcelona/san-sadurni-de-noya,1200,False
+618,21035,Gibraleón,Gibraleón,12940,10-20k,D,21,Huelva,/empadronarse/huelva/gibraleon,1200,True
+619,04029,Berja,Berja,12917,10-20k,D,04,Almería,/empadronarse/almeria/berja,1200,True
+620,11039,Vejer de la Frontera,Vejer de la Frontera,12864,10-20k,D,11,Cádiz,/empadronarse/cadiz/vejer-de-la-frontera,1200,True
+621,08001,Abrera,Abrera,12848,10-20k,D,08,Barcelona,/empadronarse/barcelona/abrera,1200,True
+622,08009,Argentona,Argentona,12846,10-20k,D,08,Barcelona,/empadronarse/barcelona/argentona,1200,True
+623,08054,Castellbisbal,Castellbisbal,12813,10-20k,D,08,Barcelona,/empadronarse/barcelona/castellbisbal,1200,True
+624,41018,Brenes,Brenes,12804,10-20k,D,41,Sevilla,/empadronarse/sevilla/brenes,1200,True
+625,35027,Teror,Teror,12799,10-20k,D,35,"Palmas, Las",/empadronarse/palmas-las/teror,1200,True
+626,08302,Vilanova del Camí,Vilanova del Camí,12758,10-20k,D,08,Barcelona,/empadronarse/barcelona/vilanova-del-cami,1200,True
+627,,Órdenes,Órdenes,12669,10-20k,D,,La Coruña La Coruña,/empadronarse/la-coruna-la-coruna/ordenes,1200,False
+628,30018,Ceutí,Ceutí,12668,10-20k,D,30,Murcia,/empadronarse/murcia/ceuti,1200,True
+629,21072,Valverde del Camino,Valverde del Camino,12655,10-20k,D,21,Huelva,/empadronarse/huelva/valverde-del-camino,1200,True
+630,,Seo de Urgel,Seo de Urgel,12568,10-20k,D,,Lérida,/empadronarse/lerida/seo-de-urgel,1200,False
+631,,Castillo de Aro,Castillo de Aro,12566,10-20k,D,,Gerona,/empadronarse/gerona/castillo-de-aro,1200,False
+632,18173,Salobreña,Salobreña,12562,10-20k,D,18,Granada,/empadronarse/granada/salobrena,1200,True
+633,15035,Fene,Fene,12561,10-20k,D,15,"Coruña, A",/empadronarse/corua-a-a/fene,1200,True
+634,03089,Monòver/Monóvar,Monóvar,12542,10-20k,D,03,Alicante/Alacant,/empadronarse/alicante-alacant/monover-monovar,1200,True
+635,21055,Palos de la Frontera,Palos de la Frontera,12537,10-20k,D,21,Huelva,/empadronarse/huelva/palos-de-la-frontera,1200,True
+636,31023,Aranguren,Aranguren,12517,10-20k,D,31,Navarra,/empadronarse/navarra/aranguren,1200,True
+637,03128,Teulada,Teulada,12515,10-20k,D,03,Alicante/Alacant,/empadronarse/alicante-alacant/teulada,1200,True
+638,,Santañí,Santañí,12480,10-20k,D,,Baleares,/empadronarse/baleares/santani,1200,False
+639,08126,Montgat,Montgat,12462,10-20k,D,08,Barcelona,/empadronarse/barcelona/montgat,1200,True
+640,,Bayona,Bayona,12407,10-20k,D,,Pontevedra,/empadronarse/pontevedra/bayona,1200,False
+641,41041,Estepa,Estepa,12373,10-20k,D,41,Sevilla,/empadronarse/sevilla/estepa,1200,True
+642,06149,Villafranca de los Barros,Villafranca de los Barros,12366,10-20k,D,06,Badajoz,/empadronarse/badajoz/villafranca-de-los-barros,1200,True
+643,17199,Torroella de Montgrí,Torroella de Montgrí,12356,10-20k,D,17,Girona,/empadronarse/girona/torroella-de-montgri,1200,True
+644,33032,Laviana,Laviana,12355,10-20k,D,33,Asturias,/empadronarse/asturias/laviana,1200,True
+645,07014,Capdepera,Capdepera,12340,10-20k,D,07,"Balears, Illes",/empadronarse/balears-illes/capdepera,1200,True
+646,45066,Fuensalida,Fuensalida,12329,10-20k,D,45,Toledo,/empadronarse/toledo/fuensalida,1200,True
+647,04006,Albox,Albox,12311,10-20k,D,04,Almería,/empadronarse/almeria/albox,1200,True
+648,41005,Alcalá del Río,Alcalá del Río,12288,10-20k,D,41,Sevilla,/empadronarse/sevilla/alcala-del-rio,1200,True
+649,,Benisa,Benisa,12279,10-20k,D,,Alicante,/empadronarse/alicante/benisa,1200,False
+650,07003,Alcúdia,La Alcudia,12197,10-20k,D,07,"Balears, Illes",/empadronarse/balears-illes/alcudia,1200,True
+651,10067,Coria,Coria,12166,10-20k,D,10,Cáceres,/empadronarse/caceres/coria,1200,True
+652,11041,Villamartín,Villamartín,12165,10-20k,D,11,Cádiz,/empadronarse/cadiz/villamartin,1200,True
+653,18911,Vegas del Genil,Vegas del Genil,12165,10-20k,D,18,Granada,/empadronarse/granada/vegas-del-genil,1200,True
+654,18101,Huétor Vega,Huétor Vega,12159,10-20k,D,18,Granada,/empadronarse/granada/huetor-vega,1200,True
+655,13078,Socuéllamos,Socuéllamos,12123,10-20k,D,13,Ciudad Real,/empadronarse/ciudad-real/socuellamos,1200,True
+656,,Calonge,Calonge,12043,10-20k,D,,Gerona,/empadronarse/gerona/calonge,1200,False
+657,37046,Béjar,Béjar,12021,10-20k,D,37,Salamanca,/empadronarse/salamanca/bejar,1200,True
+658,13023,Bolaños de Calatrava,Bolaños de Calatrava,11991,10-20k,D,13,Ciudad Real,/empadronarse/ciudad-real/bolanos-de-calatrava,1200,True
+659,,Benifayó,Benifayó,11984,10-20k,D,,Valencia,/empadronarse/valencia/benifayo,1200,False
+660,,Echévarri,Echévarri,11975,10-20k,D,,Vizcaya,/empadronarse/vizcaya/echevarri,1200,False
+661,38040,Santiago del Teide,Santiago del Teide,11972,10-20k,D,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/santiago-del-teide,1200,True
+662,48011,Arrigorriaga,Arrigorriaga,11954,10-20k,D,48,Bizkaia,/empadronarse/bizkaia/arrigorriaga,1200,True
+663,07062,Son Servera,Son Servera,11932,10-20k,D,07,"Balears, Illes",/empadronarse/balears-illes/son-servera,1200,True
+664,36004,Bueu,Bueu,11922,10-20k,D,36,Pontevedra,/empadronarse/pontevedra/bueu,1200,True
+665,,Valle de Trápaga,Valle de Trápaga,11911,10-20k,D,,Vizcaya,/empadronarse/vizcaya/valle-de-trapaga,1200,False
+666,,Benaguacil,Benaguacil,11877,10-20k,D,,Valencia,/empadronarse/valencia/benaguacil,1200,False
+667,41079,"Puebla del Río, La",La Puebla del Río,11862,10-20k,D,41,Sevilla,/empadronarse/sevilla/puebla-del-rio-la,1200,True
+668,,Andrach,Andrach,11833,10-20k,D,,Baleares,/empadronarse/baleares/andrach,1200,False
+669,,San Andrés de Llavaneras,San Andrés de Llavaneras,11831,10-20k,D,,Barcelona,/empadronarse/barcelona/san-andres-de-llavaneras,1200,False
+670,43901,Deltebre,Deltebre,11818,10-20k,D,43,Tarragona,/empadronarse/tarragona/deltebre,1200,True
+671,37107,Ciudad Rodrigo,Ciudad Rodrigo,11810,10-20k,D,37,Salamanca,/empadronarse/salamanca/ciudad-rodrigo,1200,True
+672,06095,Olivenza,Olivenza,11776,10-20k,D,06,Badajoz,/empadronarse/badajoz/olivenza,1200,True
+673,26071,Haro,Haro,11763,10-20k,D,26,"Rioja, La",/empadronarse/rioja-la/haro,1200,True
+674,07013,Campos,Campos,11763,10-20k,D,07,"Balears, Illes",/empadronarse/balears-illes/campos,1200,True
+675,45205,Yuncos,Yuncos,11762,10-20k,D,45,Toledo,/empadronarse/toledo/yuncos,1200,True
+676,,Picaña,Picaña,11760,10-20k,D,,Valencia,/empadronarse/valencia/picana,1200,False
+677,11023,Medina Sidonia,Medina Sidonia,11738,10-20k,D,11,Cádiz,/empadronarse/cadiz/medina-sidonia,1200,True
+678,08157,Pallejà,Pallejá,11736,10-20k,D,08,Barcelona,/empadronarse/barcelona/palleja,1200,True
+679,,Castellón de Ampurias,Castellón de Ampurias,11731,10-20k,D,,Gerona,/empadronarse/gerona/castellon-de-ampurias,1200,False
+680,18153,Peligros,Peligros,11676,10-20k,D,18,Granada,/empadronarse/granada/peligros,1200,True
+681,30012,Bullas,Bullas,11664,10-20k,D,30,Murcia,/empadronarse/murcia/bullas,1200,True
+682,,Azcoitia,Azcoitia,11636,10-20k,D,,Guipúzcoa,/empadronarse/guipuzcoa/azcoitia,1200,False
+683,46249,Utiel,Utiel,11632,10-20k,D,46,Valencia/València,/empadronarse/valencia-valencia/utiel,1200,True
+684,33011,Cangas del Narcea,Cangas del Narcea,11596,10-20k,D,33,Asturias,/empadronarse/asturias/cangas-del-narcea,1200,True
+685,,Oñate,Oñate,11567,10-20k,D,,Guipúzcoa,/empadronarse/guipuzcoa/onate,1200,False
+686,,Laracha,Laracha,11543,10-20k,D,,La Coruña La Coruña,/empadronarse/la-coruna-la-coruna/laracha,1200,False
+687,30010,Beniel,Beniel,11501,10-20k,D,30,Murcia,/empadronarse/murcia/beniel,1200,True
+688,20032,Elgoibar,Elgóibar,11500,10-20k,D,20,Gipuzkoa,/empadronarse/gipuzkoa/elgoibar,1200,True
+689,23053,Jódar,Jódar,11449,10-20k,D,23,Jaén,/empadronarse/jaen/jodar,1200,True
+690,,La Bisbal del Ampurdán,La Bisbal del Ampurdán,11383,10-20k,D,,Gerona,/empadronarse/gerona/la-bisbal-del-ampurdan,1200,False
+691,23058,Mancha Real,Mancha Real,11375,10-20k,D,23,Jaén,/empadronarse/jaen/mancha-real,1200,True
+692,03053,Castalla,Castalla,11365,10-20k,D,03,Alicante/Alacant,/empadronarse/alicante-alacant/castalla,1200,True
+693,38046,Tegueste,Tegueste,11344,10-20k,D,38,Santa Cruz de Tenerife,/empadronarse/santa-cruz-de-tenerife/tegueste,1200,True
+694,26084,Lardero,Lardero,11321,10-20k,D,26,"Rioja, La",/empadronarse/rioja-la/lardero,1200,True
+695,03056,Cocentaina,Cocentaina,11309,10-20k,D,03,Alicante/Alacant,/empadronarse/alicante-alacant/cocentaina,1200,True
+696,04075,Pulpí,Pulpí,11247,10-20k,D,04,Almería,/empadronarse/almeria/pulpi,1200,True
+697,45163,Sonseca,Sonseca,11205,10-20k,D,45,Toledo,/empadronarse/toledo/sonseca,1200,True
+698,07024,Formentera,Formentera,11171,10-20k,D,07,"Balears, Illes",/empadronarse/balears-illes/formentera,1200,True
+699,41016,Bollullos de la Mitación,Bollullos de la Mitación,11160,10-20k,D,41,Sevilla,/empadronarse/sevilla/bollullos-de-la-mitacion,1200,True
+700,,Barbadanes,Barbadanes,11140,10-20k,D,,Orense,/empadronarse/orense/barbadanes,1200,False
+701,45142,Quintanar de la Orden,Quintanar de la Orden,11119,10-20k,D,45,Toledo,/empadronarse/toledo/quintanar-de-la-orden,1200,True
+702,30020,Fortuna,Fortuna,11094,10-20k,D,30,Murcia,/empadronarse/murcia/fortuna,1200,True
+703,19058,Cabanillas del Campo,Cabanillas del Campo,11034,10-20k,D,19,Guadalajara,/empadronarse/guadalajara/cabanillas-del-campo,1200,True
+704,28026,Brunete,Brunete,11014,10-20k,D,28,Madrid,/empadronarse/madrid/brunete,1200,True
+705,45019,Bargas,Bargas,10978,10-20k,D,45,Toledo,/empadronarse/toledo/bargas,1200,True
+706,,San Juan de Torruella,San Juan de Torruella,10959,10-20k,D,,Barcelona,/empadronarse/barcelona/san-juan-de-torruella,1200,False
+707,33034,Valdés,Valdés,10958,10-20k,D,33,Asturias,/empadronarse/asturias/valdes,1200,True
+708,12085,Orpesa/Oropesa del Mar,Oropesa del Mar,10958,10-20k,D,12,Castellón/Castelló,/empadronarse/castellon-castello/orpesa-oropesa-del-mar,1200,True
+709,31903,Berriozar,Berriozar,10919,10-20k,D,31,Navarra,/empadronarse/navarra/berriozar,1200,True
+710,46166,Meliana,Meliana,10918,10-20k,D,46,Valencia/València,/empadronarse/valencia-valencia/meliana,1200,True
+711,08181,"Roca del Vallès, La",La Roca del Vallés,10913,10-20k,D,08,Barcelona,/empadronarse/barcelona/roca-del-valles-la,1200,True
+712,39079,Santoña,Santoña,10892,10-20k,D,39,Cantabria,/empadronarse/cantabria/santona,1200,True
+713,41077,"Puebla de Cazalla, La",La Puebla de Cazalla,10884,10-20k,D,41,Sevilla,/empadronarse/sevilla/puebla-de-cazalla-la,1200,True
+714,,Rianjo,Rianjo,10854,10-20k,D,,La Coruña La Coruña,/empadronarse/la-coruna-la-coruna/rianjo,1200,False
+715,39035,Laredo,Laredo,10849,10-20k,D,39,Cantabria,/empadronarse/cantabria/laredo,1200,True
+716,17044,Cassà de la Selva,Cassá de la Selva,10836,10-20k,D,17,Girona,/empadronarse/girona/cassa-de-la-selva,1200,True
+717,36022,"Grove, O",El Grove,10828,10-20k,D,36,Pontevedra,/empadronarse/pontevedra/grove-o,1200,True
+718,,Alberique,Alberique,10815,10-20k,D,,Valencia,/empadronarse/valencia/alberique,1200,False
+719,39025,"Corrales de Buelna, Los",Los Corrales de Buelna,10785,10-20k,D,39,Cantabria,/empadronarse/cantabria/corrales-de-buelna-los,1200,True
+720,41023,Cantillana,Cantillana,10782,10-20k,D,41,Sevilla,/empadronarse/sevilla/cantillana,1200,True
+721,,Villamarchante,Villamarchante,10772,10-20k,D,,Valencia,/empadronarse/valencia/villamarchante,1200,False
+722,17147,Ripoll,Ripoll,10731,10-20k,D,17,Girona,/empadronarse/girona/ripoll,1200,True
+723,21054,"Palma del Condado, La",La Palma del Condado,10726,10-20k,D,21,Huelva,/empadronarse/huelva/palma-del-condado-la,1200,True
+724,50251,Tarazona,Tarazona,10720,10-20k,D,50,Zaragoza,/empadronarse/zaragoza/tarazona,1200,True
+725,31227,Tafalla,Tafalla,10698,10-20k,D,31,Navarra,/empadronarse/navarra/tafalla,1200,True
+726,18100,Huétor Tájar,Huétor Tájar,10673,10-20k,D,18,Granada,/empadronarse/granada/huetor-tajar,1200,True
+727,,Villafranca de Ordizia,Villafranca de Ordizia,10641,10-20k,D,,Guipúzcoa,/empadronarse/guipuzcoa/villafranca-de-ordizia,1200,False
+728,46223,Sedaví,Sedaví,10637,10-20k,D,46,Valencia/València,/empadronarse/valencia-valencia/sedavi,1200,True
+729,28053,Daganzo de Arriba,Daganzo de Arriba,10611,10-20k,D,28,Madrid,/empadronarse/madrid/daganzo-de-arriba,1200,True
+730,31016,Ansoáin/Antsoain,Ansoáin,10608,10-20k,D,31,Navarra,/empadronarse/navarra/ansoain-antsoain,1200,True
+731,,Alcácer,Alcácer,10575,10-20k,D,,Valencia,/empadronarse/valencia/alcacer,1200,False
+732,08230,Premià de Dalt,Premiá de Dalt,10532,10-20k,D,08,Barcelona,/empadronarse/barcelona/premia-de-dalt,1200,True
+733,,Alcora,Alcora,10526,10-20k,D,,Castellón,/empadronarse/castellon/alcora,1200,False
+734,08106,Llinars del Vallès,Llinars del Vallés,10499,10-20k,D,08,Barcelona,/empadronarse/barcelona/llinars-del-valles,1200,True
+735,03102,Pego,Pego,10485,10-20k,D,03,Alicante/Alacant,/empadronarse/alicante-alacant/pego,1200,True
+736,,La Escala,La Escala,10478,10-20k,D,,Gerona,/empadronarse/gerona/la-escala,1200,False
+737,33025,Gozón,Gozón,10470,10-20k,D,33,Asturias,/empadronarse/asturias/gozon,1200,True
+738,,Santa Margarita de Montbuy,Santa Margarita de Montbuy,10456,10-20k,D,,Barcelona,/empadronarse/barcelona/santa-margarita-de-montbuy,1200,False
+739,41044,Gelves,Gelves,10388,10-20k,D,41,Sevilla,/empadronarse/sevilla/gelves,1200,True
+740,23095,Villacarrillo,Villacarrillo,10344,10-20k,D,23,Jaén,/empadronarse/jaen/villacarrillo,1200,True
+741,50074,Caspe,Caspe,10336,10-20k,D,50,Zaragoza,/empadronarse/zaragoza/caspe,1200,True
+742,04049,Garrucha,Garrucha,10336,10-20k,D,04,Almería,/empadronarse/almeria/garrucha,1200,True
+743,,Oyarzun,Oyarzun,10331,10-20k,D,,Guipúzcoa,/empadronarse/guipuzcoa/oyarzun,1200,False
+744,28004,"Álamo, El",El Álamo,10322,10-20k,D,28,Madrid,/empadronarse/madrid/alamo-el,1200,True
+745,24008,Astorga,Astorga,10321,10-20k,D,24,León,/empadronarse/leon/astorga,1200,True
+746,14052,Peñarroya-Pueblonuevo,Peñarroya-Pueblonuevo,10317,10-20k,D,14,Córdoba,/empadronarse/cordoba/penarroya-pueblonuevo,1200,True
+747,01002,Amurrio,Amurrio,10313,10-20k,D,01,Araba/Álava,/empadronarse/araba-alava/amurrio,1200,True
+748,33033,Lena,Lena,10312,10-20k,D,33,Asturias,/empadronarse/asturias/lena,1200,True
+749,,Salvatierra de Miño,Salvatierra de Miño,10274,10-20k,D,,Pontevedra,/empadronarse/pontevedra/salvatierra-de-mino,1200,False
+750,23003,Alcaudete,Alcaudete,10265,10-20k,D,23,Jaén,/empadronarse/jaen/alcaudete,1200,True
+751,,Villanueva de Arosa,Villanueva de Arosa,10225,10-20k,D,,Pontevedra,/empadronarse/pontevedra/villanueva-de-arosa,1200,False
+752,28149,Torrejón de la Calzada,Torrejón de la Calzada,10222,10-20k,D,28,Madrid,/empadronarse/madrid/torrejon-de-la-calzada,1200,True
+753,30007,Alguazas,Alguazas,10218,10-20k,D,30,Murcia,/empadronarse/murcia/alguazas,1200,True
+754,18014,Alhendín,Alhendín,10216,10-20k,D,18,Granada,/empadronarse/granada/alhendin,1200,True
+755,,Zumaya,Zumaya,10211,10-20k,D,,Guipúzcoa,/empadronarse/guipuzcoa/zumaya,1200,False
+756,46903,San Antonio de Benagéber,San Antonio de Benagéber,10200,10-20k,D,46,Valencia/València,/empadronarse/valencia-valencia/san-antonio-de-benageber,1200,True
+757,33014,Carreño,Carreño,10177,10-20k,D,33,Asturias,/empadronarse/asturias/carreno,1200,True
+758,45087,Madridejos,Madridejos,10169,10-20k,D,45,Toledo,/empadronarse/toledo/madridejos,1200,True
+759,27019,Foz,Foz,10163,10-20k,D,27,Lugo,/empadronarse/lugo/foz,1200,True
+760,30013,Calasparra,Calasparra,10161,10-20k,D,30,Murcia,/empadronarse/murcia/calasparra,1200,True
+761,02025,Caudete,Caudete,10146,10-20k,D,02,Albacete,/empadronarse/albacete/caudete,1200,True
+762,,Masanasa,Masanasa,10146,10-20k,D,,Valencia,/empadronarse/valencia/masanasa,1200,False
+763,08003,Alella,Alella,10139,10-20k,D,08,Barcelona,/empadronarse/barcelona/alella,1200,True
+764,28066,Griñón,Griñón,10087,10-20k,D,28,Madrid,/empadronarse/madrid/grinon,1200,True
+765,33002,Aller,Aller,10076,10-20k,D,33,Asturias,/empadronarse/asturias/aller,1200,True
+766,03123,Sax,Sax,10072,10-20k,D,03,Alicante/Alacant,/empadronarse/alicante-alacant/sax,1200,True
+767,22061,Binéfar,Binéfar,10070,10-20k,D,22,Huesca,/empadronarse/huesca/binefar,1200,True
+768,08262,Sant Vicenç de Castellet,San Vicente de Castellet,10068,10-20k,D,08,Barcelona,/empadronarse/barcelona/sant-vicenc-de-castellet,1200,True
+769,31258,Villava/Atarrabia,Villava,10067,10-20k,D,31,Navarra,/empadronarse/navarra/villava-atarrabia,1200,True
+770,24010,"Bañeza, La",La Bañeza,10047,10-20k,D,24,León,/empadronarse/leon/baneza-la,1200,True
+771,23061,Mengíbar,Mengíbar,10041,10-20k,D,23,Jaén,/empadronarse/jaen/mengibar,1200,True

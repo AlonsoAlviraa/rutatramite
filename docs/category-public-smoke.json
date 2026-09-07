@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/becas",
+    "status": 200,
+    "guide_h2": 23,
+    "guide_h3": 0,
+    "stale_banner": false
+  },
+  {
+    "path": "/fp",
+    "status": 200,
+    "guide_h2": 5,
+    "guide_h3": 0,
+    "stale_banner": false
+  },
+  {
+    "path": "/colegio",
+    "status": 200,
+    "guide_h2": 9,
+    "guide_h3": 0,
+    "stale_banner": false
+  }
+]

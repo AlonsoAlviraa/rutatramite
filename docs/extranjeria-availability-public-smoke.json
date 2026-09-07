@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/extranjeria/no-hay-citas",
+    "status": 200,
+    "official_faq": true,
+    "technical_help": true,
+    "removed_first_hour": true,
+    "removed_hidden_slots": true,
+    "removed_blanket_office": true,
+    "removed_penalty": true
+  },
+  {
+    "path": "/extranjeria/huellas-sin-citas-barcelona",
+    "status": 200,
+    "official_faq": true,
+    "technical_help": true,
+    "removed_first_hour": true,
+    "removed_hidden_slots": true,
+    "removed_blanket_office": true,
+    "removed_penalty": true
+  }
+]

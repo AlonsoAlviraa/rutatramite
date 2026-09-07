@@ -1,0 +1,73 @@
+{
+  "build": "tSaLmQxc_8_5ek2TQNGHB",
+  "release": "/srv/tenants/slot2/releases/20260907T211050Z",
+  "generated": "2026-09-07T21:19:52.232180+00:00",
+  "scope": "Static HTML prerequisites only; not complete WCAG conformance",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "issues": [],
+      "controls": 19,
+      "buttons": 3,
+      "images": 0
+    },
+    {
+      "path": "/dni",
+      "status": 200,
+      "issues": [],
+      "controls": 1,
+      "buttons": 1,
+      "images": 0
+    },
+    {
+      "path": "/dni/cita-previa",
+      "status": 200,
+      "issues": [],
+      "controls": 0,
+      "buttons": 1,
+      "images": 0
+    },
+    {
+      "path": "/empadronarse",
+      "status": 200,
+      "issues": [],
+      "controls": 18,
+      "buttons": 3,
+      "images": 0
+    },
+    {
+      "path": "/empadronarse/comunidad-de-madrid/madrid/madrid",
+      "status": 200,
+      "issues": [],
+      "controls": 0,
+      "buttons": 1,
+      "images": 0
+    },
+    {
+      "path": "/becas/muface",
+      "status": 200,
+      "issues": [],
+      "controls": 0,
+      "buttons": 1,
+      "images": 0
+    },
+    {
+      "path": "/contacto",
+      "status": 200,
+      "issues": [],
+      "controls": 0,
+      "buttons": 1,
+      "images": 0
+    },
+    {
+      "path": "/extranjeria/nie-verde",
+      "status": 200,
+      "issues": [],
+      "controls": 0,
+      "buttons": 1,
+      "images": 0
+    }
+  ],
+  "issue_count": 0
+}

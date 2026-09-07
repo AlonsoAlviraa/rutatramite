@@ -1,0 +1,40 @@
+{
+  "ine_code": "17155",
+  "name": "Salt",
+  "name_official_alt": null,
+  "slug": "salt",
+  "province_code": "17",
+  "province_name": "Girona",
+  "province_slug": "girona",
+  "ccaa_name": "Cataluña",
+  "ccaa_slug": "cataluna",
+  "poblacion": 34491,
+  "poblacion_ref": "INE 1-ene-2025 (vía listado público; contrastar cifra vigente en ine.es)",
+  "sede_url": null,
+  "tramite_alta_url": null,
+  "cita_url": null,
+  "certificado_url": null,
+  "online": "unknown",
+  "presencial": null,
+  "cita_previa": "unknown",
+  "oficinas": [],
+  "tasa_alta": 0,
+  "tasa_volante": null,
+  "tasa_certificado": null,
+  "docs_extra": [],
+  "peculiaridades": [],
+  "idiomas_sede": [
+    "es"
+  ],
+  "last_verified": "2026-09-03",
+  "source_urls": [
+    "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031"
+  ],
+  "confidence": "unverified",
+  "status": "published",
+  "oleada": "C",
+  "min_words": 1200,
+  "banda": "20-50k",
+  "catalog_name": "Salt",
+  "path": "/empadronarse/cataluna/girona/salt"
+}

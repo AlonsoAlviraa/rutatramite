@@ -1,0 +1,941 @@
+[
+  {
+    "ine_code": "28079",
+    "name": "Madrid",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://sede.madrid.es/",
+    "all": [
+      "https://sede.madrid.es/",
+      "https://www.madrid.es/"
+    ],
+    "status": 403,
+    "final_url": "https://sede.madrid.es/",
+    "host": "sede.madrid.es",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "ine_code": "08019",
+    "name": "Barcelona",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://barcelona.cat",
+    "all": [
+      "https://barcelona.cat"
+    ],
+    "status": 200,
+    "final_url": "https://www.barcelona.cat/ca",
+    "host": "www.barcelona.cat",
+    "error": null
+  },
+  {
+    "ine_code": "46250",
+    "name": "València",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.valencia.es/",
+    "all": [
+      "https://www.valencia.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.valencia.es/cas/inicio",
+    "host": "www.valencia.es",
+    "error": null
+  },
+  {
+    "ine_code": "50297",
+    "name": "Zaragoza",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.zaragoza.es/",
+    "all": [
+      "https://www.zaragoza.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.zaragoza.es/sede/",
+    "host": "www.zaragoza.es",
+    "error": null
+  },
+  {
+    "ine_code": "41091",
+    "name": "Sevilla",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.sevilla.org/",
+    "all": [
+      "https://www.sevilla.org/"
+    ],
+    "status": 200,
+    "final_url": "https://www.sevilla.org/",
+    "host": "www.sevilla.org",
+    "error": null
+  },
+  {
+    "ine_code": "29067",
+    "name": "Málaga",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.malaga.eu/",
+    "all": [
+      "https://www.malaga.eu/"
+    ],
+    "status": 200,
+    "final_url": "https://www.malaga.eu/",
+    "host": "www.malaga.eu",
+    "error": null
+  },
+  {
+    "ine_code": "30030",
+    "name": "Murcia",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.murcia.es/",
+    "all": [
+      "https://www.murcia.es/"
+    ],
+    "status": 200,
+    "final_url": "https://web.murcia.es/",
+    "host": "web.murcia.es",
+    "error": null
+  },
+  {
+    "ine_code": "07040",
+    "name": "Palma",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.palma.es/",
+    "all": [
+      "https://www.palma.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.palma.es/",
+    "host": "www.palma.es",
+    "error": null
+  },
+  {
+    "ine_code": "35016",
+    "name": "Palmas de Gran Canaria, Las",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.laspalmasgc.es",
+    "all": [
+      "https://www.laspalmasgc.es"
+    ],
+    "status": 200,
+    "final_url": "https://www.laspalmasgc.es/es/",
+    "host": "www.laspalmasgc.es",
+    "error": null
+  },
+  {
+    "ine_code": "03014",
+    "name": "Alacant/Alicante",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.alicante.es/",
+    "all": [
+      "https://www.alicante.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.alicante.es/es",
+    "host": "www.alicante.es",
+    "error": null
+  },
+  {
+    "ine_code": "48020",
+    "name": "Bilbao",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.bilbaoturismo.net/BilbaoTurismo/es/turistas",
+    "all": [
+      "https://www.bilbaoturismo.net/BilbaoTurismo/es/turistas"
+    ],
+    "status": 200,
+    "final_url": "https://www.bilbaoturismo.net/BilbaoTurismo/es/turistas",
+    "host": "www.bilbaoturismo.net",
+    "error": null
+  },
+  {
+    "ine_code": "14021",
+    "name": "Córdoba",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.cordoba.es/",
+    "all": [
+      "https://www.cordoba.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.cordoba.es/",
+    "host": "www.cordoba.es",
+    "error": null
+  },
+  {
+    "ine_code": "47186",
+    "name": "Valladolid",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.valladolid.es/",
+    "all": [
+      "https://www.valladolid.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.valladolid.es/es",
+    "host": "www.valladolid.es",
+    "error": null
+  },
+  {
+    "ine_code": "36057",
+    "name": "Vigo",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://vigo.gal",
+    "all": [
+      "https://vigo.gal"
+    ],
+    "status": null,
+    "final_url": null,
+    "host": "vigo.gal",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'vigo.gal'. (_ssl.c:1006)>"
+  },
+  {
+    "ine_code": "08101",
+    "name": "Hospitalet de Llobregat",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://l-h.cat",
+    "all": [
+      "https://l-h.cat"
+    ],
+    "status": 200,
+    "final_url": "https://l-h.cat",
+    "host": "l-h.cat",
+    "error": null
+  },
+  {
+    "ine_code": "33024",
+    "name": "Gijón",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.gijon.es",
+    "all": [
+      "https://www.gijon.es"
+    ],
+    "status": 200,
+    "final_url": "https://www.gijon.es",
+    "host": "www.gijon.es",
+    "error": null
+  },
+  {
+    "ine_code": "01059",
+    "name": "Vitoria-Gasteiz",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.vitoria-gasteiz.org/",
+    "all": [
+      "https://www.vitoria-gasteiz.org/"
+    ],
+    "status": 200,
+    "final_url": "https://www.vitoria-gasteiz.org/wb021/was/we001Action.do?accionWe001=ficha&accion=home",
+    "host": "www.vitoria-gasteiz.org",
+    "error": null
+  },
+  {
+    "ine_code": "15030",
+    "name": "La Coruña",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.coruna.gal/",
+    "all": [
+      "https://www.coruna.gal/"
+    ],
+    "status": 200,
+    "final_url": "https://www.coruna.gal/",
+    "host": "www.coruna.gal",
+    "error": null
+  },
+  {
+    "ine_code": "03065",
+    "name": "Elx/Elche",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.elche.es",
+    "all": [
+      "https://www.elche.es"
+    ],
+    "status": 200,
+    "final_url": "https://www.elche.es",
+    "host": "www.elche.es",
+    "error": null
+  },
+  {
+    "ine_code": "18087",
+    "name": "Granada",
+    "oleada": "A",
+    "wave0": true,
+    "candidate": "https://www.granada.org/",
+    "all": [
+      "https://www.granada.org/"
+    ],
+    "status": 200,
+    "final_url": "https://www.granada.org/",
+    "host": "www.granada.org",
+    "error": null
+  },
+  {
+    "ine_code": "08279",
+    "name": "Terrassa",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.terrassa.cat/",
+    "all": [
+      "https://www.terrassa.cat/"
+    ],
+    "status": 403,
+    "final_url": "https://www.terrassa.cat/",
+    "host": "www.terrassa.cat",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "ine_code": "08015",
+    "name": "Badalona",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.badalona.cat/",
+    "all": [
+      "https://www.badalona.cat/"
+    ],
+    "status": 200,
+    "final_url": "https://www.badalona.cat/",
+    "host": "www.badalona.cat",
+    "error": null
+  },
+  {
+    "ine_code": "08187",
+    "name": "Sabadell",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.sabadell.cat",
+    "all": [
+      "https://www.sabadell.cat"
+    ],
+    "status": null,
+    "final_url": null,
+    "host": "www.sabadell.cat",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>"
+  },
+  {
+    "ine_code": "33044",
+    "name": "Oviedo",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.oviedo.es/",
+    "all": [
+      "https://www.oviedo.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.oviedo.es/",
+    "host": "www.oviedo.es",
+    "error": null
+  },
+  {
+    "ine_code": "30016",
+    "name": "Cartagena",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.cartagena.es",
+    "all": [
+      "https://www.cartagena.es"
+    ],
+    "status": 200,
+    "final_url": "https://www.cartagena.es",
+    "host": "www.cartagena.es",
+    "error": null
+  },
+  {
+    "ine_code": "28092",
+    "name": "Móstoles",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.mostoles.es",
+    "all": [
+      "https://www.mostoles.es"
+    ],
+    "status": 200,
+    "final_url": "https://www.mostoles.es/es",
+    "host": "www.mostoles.es",
+    "error": null
+  },
+  {
+    "ine_code": "11020",
+    "name": "Jerez de la Frontera",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.jerez.es/",
+    "all": [
+      "https://www.jerez.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.jerez.es/",
+    "host": "www.jerez.es",
+    "error": null
+  },
+  {
+    "ine_code": "38038",
+    "name": "Santa Cruz de Tenerife",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.santacruzdetenerife.es/",
+    "all": [
+      "https://www.santacruzdetenerife.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.santacruzdetenerife.es/web/inicio",
+    "host": "www.santacruzdetenerife.es",
+    "error": null
+  },
+  {
+    "ine_code": "31201",
+    "name": "Pamplona/Iruña",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.pamplona.es/",
+    "all": [
+      "https://www.pamplona.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.pamplona.es/",
+    "host": "www.pamplona.es",
+    "error": null
+  },
+  {
+    "ine_code": "04013",
+    "name": "Almería",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://almeriaciudad.es/",
+    "all": [
+      "https://almeriaciudad.es/"
+    ],
+    "status": null,
+    "final_url": null,
+    "host": "almeriaciudad.es",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>"
+  },
+  {
+    "ine_code": "28005",
+    "name": "Alcalá de Henares",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.ayto-alcaladehenares.es",
+    "all": [
+      "https://www.ayto-alcaladehenares.es"
+    ],
+    "status": null,
+    "final_url": null,
+    "host": "www.ayto-alcaladehenares.es",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>"
+  },
+  {
+    "ine_code": "28074",
+    "name": "Leganés",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.leganes.org/",
+    "all": [
+      "https://www.leganes.org/"
+    ],
+    "status": 200,
+    "final_url": "https://www.leganes.org/",
+    "host": "www.leganes.org",
+    "error": null
+  },
+  {
+    "ine_code": "28065",
+    "name": "Getafe",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.getafe.es/",
+    "all": [
+      "https://www.getafe.es/"
+    ],
+    "status": 200,
+    "final_url": "https://getafe.es/",
+    "host": "getafe.es",
+    "error": null
+  },
+  {
+    "ine_code": "28058",
+    "name": "Fuenlabrada",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.ayto-fuenlabrada.es",
+    "all": [
+      "https://www.ayto-fuenlabrada.es"
+    ],
+    "status": 200,
+    "final_url": "https://www.ayto-fuenlabrada.es",
+    "host": "www.ayto-fuenlabrada.es",
+    "error": null
+  },
+  {
+    "ine_code": "20069",
+    "name": "Donostia/San Sebastián",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.donostia.eus/",
+    "all": [
+      "https://www.donostia.eus/"
+    ],
+    "status": 200,
+    "final_url": "https://www.donostia.eus/eu/",
+    "host": "www.donostia.eus",
+    "error": null
+  },
+  {
+    "ine_code": "12040",
+    "name": "Castelló de la Plana/Castellón de la Plana",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.castello.es/",
+    "all": [
+      "https://www.castello.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.castello.es/va/inici",
+    "host": "www.castello.es",
+    "error": null
+  },
+  {
+    "ine_code": "09059",
+    "name": "Burgos",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.aytoburgos.es/",
+    "all": [
+      "https://www.aytoburgos.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.aytoburgos.es/",
+    "host": "www.aytoburgos.es",
+    "error": null
+  },
+  {
+    "ine_code": "28007",
+    "name": "Alcorcón",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.ayto-alcorcon.es",
+    "all": [
+      "https://www.ayto-alcorcon.es"
+    ],
+    "status": 200,
+    "final_url": "https://www.ayto-alcorcon.es/es",
+    "host": "www.ayto-alcorcon.es",
+    "error": null
+  },
+  {
+    "ine_code": "39075",
+    "name": "Santander",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.santander.es/",
+    "all": [
+      "https://www.santander.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.santander.es/",
+    "host": "www.santander.es",
+    "error": null
+  },
+  {
+    "ine_code": "02003",
+    "name": "Albacete",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.albacete.es/",
+    "all": [
+      "https://www.albacete.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.albacete.es/es",
+    "host": "www.albacete.es",
+    "error": null
+  },
+  {
+    "ine_code": "38023",
+    "name": "San Cristóbal de La Laguna",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.aytolalaguna.es/",
+    "all": [
+      "https://www.aytolalaguna.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.aytolalaguna.es/",
+    "host": "www.aytolalaguna.es",
+    "error": null
+  },
+  {
+    "ine_code": "29069",
+    "name": "Marbella",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.marbella.es/",
+    "all": [
+      "https://www.marbella.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.marbella.es/",
+    "host": "www.marbella.es",
+    "error": null
+  },
+  {
+    "ine_code": "26089",
+    "name": "Logroño",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.logro-o.org",
+    "all": [
+      "https://www.logro-o.org"
+    ],
+    "status": null,
+    "final_url": null,
+    "host": "www.logro-o.org",
+    "error": "URLError: <urlopen error timed out>"
+  },
+  {
+    "ine_code": "06015",
+    "name": "Badajoz",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.aytobadajoz.es/",
+    "all": [
+      "https://www.aytobadajoz.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.aytobadajoz.es/es/ayto/portada",
+    "host": "www.aytobadajoz.es",
+    "error": null
+  },
+  {
+    "ine_code": "25120",
+    "name": "Lleida",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.paeria.cat/",
+    "all": [
+      "https://www.paeria.cat/"
+    ],
+    "status": 200,
+    "final_url": "https://www.paeria.cat/",
+    "host": "www.paeria.cat",
+    "error": null
+  },
+  {
+    "ine_code": "37274",
+    "name": "Salamanca",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.aytosalamanca.es",
+    "all": [
+      "https://www.aytosalamanca.es"
+    ],
+    "status": 200,
+    "final_url": "https://www.aytosalamanca.es",
+    "host": "www.aytosalamanca.es",
+    "error": null
+  },
+  {
+    "ine_code": "43148",
+    "name": "Tarragona",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://tarragona.cat",
+    "all": [
+      "https://tarragona.cat"
+    ],
+    "status": 200,
+    "final_url": "https://www.tarragona.cat/",
+    "host": "www.tarragona.cat",
+    "error": null
+  },
+  {
+    "ine_code": "28148",
+    "name": "Torrejón de Ardoz",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.ayto-torrejon.es/",
+    "all": [
+      "https://www.ayto-torrejon.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.ayto-torrejon.es/",
+    "host": "www.ayto-torrejon.es",
+    "error": null
+  },
+  {
+    "ine_code": "21041",
+    "name": "Huelva",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.huelva.es/",
+    "all": [
+      "https://www.huelva.es/"
+    ],
+    "status": 200,
+    "final_url": "http://www.huelva.es/portal/",
+    "host": "www.huelva.es",
+    "error": null
+  },
+  {
+    "ine_code": "41038",
+    "name": "Dos Hermanas",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.doshermanas.es",
+    "all": [
+      "https://www.doshermanas.es"
+    ],
+    "status": 200,
+    "final_url": "https://www.doshermanas.es",
+    "host": "www.doshermanas.es",
+    "error": null
+  },
+  {
+    "ine_code": "28106",
+    "name": "Parla",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.ayuntamientoparla.es",
+    "all": [
+      "https://www.ayuntamientoparla.es"
+    ],
+    "status": 200,
+    "final_url": "https://www.ayuntamientoparla.es",
+    "host": "www.ayuntamientoparla.es",
+    "error": null
+  },
+  {
+    "ine_code": "08121",
+    "name": "Mataró",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.mataro.cat",
+    "all": [
+      "https://www.mataro.cat"
+    ],
+    "status": 200,
+    "final_url": "https://www.mataro.cat",
+    "host": "www.mataro.cat",
+    "error": null
+  },
+  {
+    "ine_code": "11004",
+    "name": "Algeciras",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.algeciras.es/",
+    "all": [
+      "https://www.algeciras.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.algeciras.es/es/index.html",
+    "host": "www.algeciras.es",
+    "error": null
+  },
+  {
+    "ine_code": "08245",
+    "name": "Santa Coloma de Gramenet",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.gramenet.cat",
+    "all": [
+      "https://www.gramenet.cat"
+    ],
+    "status": 200,
+    "final_url": "https://www.gramenet.cat",
+    "host": "www.gramenet.cat",
+    "error": null
+  },
+  {
+    "ine_code": "24089",
+    "name": "León",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.aytoleon.es/",
+    "all": [
+      "https://www.aytoleon.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.aytoleon.es/es/inicio/Paginas/default.aspx",
+    "host": "www.aytoleon.es",
+    "error": null
+  },
+  {
+    "ine_code": "28006",
+    "name": "Alcobendas",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.alcobendas.org",
+    "all": [
+      "https://www.alcobendas.org"
+    ],
+    "status": 403,
+    "final_url": "https://www.alcobendas.org",
+    "host": "www.alcobendas.org",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "ine_code": "23050",
+    "name": "Jaén",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.aytojaen.es/",
+    "all": [
+      "https://www.aytojaen.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.aytojaen.es/portal/p_1_principal1.jsp?codResi=1",
+    "host": "www.aytojaen.es",
+    "error": null
+  },
+  {
+    "ine_code": "43123",
+    "name": "Reus",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.reus.cat/",
+    "all": [
+      "https://www.reus.cat/"
+    ],
+    "status": 200,
+    "final_url": "https://www.reus.cat/",
+    "host": "www.reus.cat",
+    "error": null
+  },
+  {
+    "ine_code": "04079",
+    "name": "Roquetas de Mar",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.aytoroquetas.org/",
+    "all": [
+      "https://www.aytoroquetas.org/"
+    ],
+    "status": null,
+    "final_url": null,
+    "host": "www.aytoroquetas.org",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1006)>"
+  },
+  {
+    "ine_code": "11012",
+    "name": "Cádiz",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://institucional.cadiz.es/",
+    "all": [
+      "https://institucional.cadiz.es/"
+    ],
+    "status": 200,
+    "final_url": "https://institucional.cadiz.es/",
+    "host": "institucional.cadiz.es",
+    "error": null
+  },
+  {
+    "ine_code": "17079",
+    "name": "Girona",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.girona.cat/",
+    "all": [
+      "https://www.girona.cat/"
+    ],
+    "status": 200,
+    "final_url": "https://web.girona.cat/",
+    "host": "web.girona.cat",
+    "error": null
+  },
+  {
+    "ine_code": "32054",
+    "name": "Ourense",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.ourense.gal/gl/",
+    "all": [
+      "https://www.ourense.gal/gl/"
+    ],
+    "status": 200,
+    "final_url": "https://ourense.gal/gl/",
+    "host": "ourense.gal",
+    "error": null
+  },
+  {
+    "ine_code": "35026",
+    "name": "Telde",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.telde.es/",
+    "all": [
+      "https://www.telde.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.telde.es/",
+    "host": "www.telde.es",
+    "error": null
+  },
+  {
+    "ine_code": "28123",
+    "name": "Rivas-Vaciamadrid",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.rivasciudad.es/",
+    "all": [
+      "https://www.rivasciudad.es/"
+    ],
+    "status": 200,
+    "final_url": "https://www.rivasciudad.es/",
+    "host": "www.rivasciudad.es",
+    "error": null
+  },
+  {
+    "ine_code": "48013",
+    "name": "Barakaldo",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://www.barakaldo.org/portal/web/barakaldo",
+    "all": [
+      "https://www.barakaldo.org/portal/web/barakaldo"
+    ],
+    "status": null,
+    "final_url": null,
+    "host": "www.barakaldo.org",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>"
+  },
+  {
+    "ine_code": "15078",
+    "name": "Santiago de Compostela",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://santiagodecompostela.gal/",
+    "all": [
+      "https://santiagodecompostela.gal/"
+    ],
+    "status": null,
+    "final_url": null,
+    "host": "santiagodecompostela.gal",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>"
+  },
+  {
+    "ine_code": "27028",
+    "name": "Lugo",
+    "oleada": "A",
+    "wave0": false,
+    "candidate": "https://concellodelugo.gal/",
+    "all": [
+      "https://concellodelugo.gal/"
+    ],
+    "status": 200,
+    "final_url": "https://concellodelugo.gal/",
+    "host": "concellodelugo.gal",
+    "error": null
+  }
+]

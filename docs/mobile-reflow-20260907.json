@@ -1,0 +1,144 @@
+{
+  "date": "2026-09-07",
+  "build": "iLgwPLRSPMRb_MlNeY0oI",
+  "menu": {
+    "width": 390,
+    "opened": true,
+    "escapeClosed": true,
+    "focusReturned": "Menú"
+  },
+  "geometry390": [
+    {
+      "path": "/becas",
+      "headings": [
+        "Becas: MEC, autonómicas y municipales"
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "path": "/pasaporte",
+      "headings": [
+        "Pasaporte: cita, documentos y renovación"
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "path": "/dni/primera-expedicion-menor",
+      "headings": [
+        "Primera expedición: DNI o pasaporte de un menor"
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "path": "/empadronarse/comunidad-de-madrid/madrid/madrid",
+      "headings": [
+        "Empadronarse en Madrid"
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "path": "/empadronarse/sin-contrato",
+      "headings": [
+        "Empadronarse sin contrato de alquiler"
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "path": "/contacto",
+      "headings": [
+        "Contacto"
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "path": "/ruta-inexistente-auditoria",
+      "headings": [
+        "Página no encontrada"
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 375,
+      "width": 390
+    }
+  ],
+  "geometry320": [
+    {
+      "path": "/",
+      "horizontalOverflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "path": "/becas",
+      "horizontalOverflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "path": "/pasaporte",
+      "horizontalOverflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "path": "/dni/primera-expedicion-menor",
+      "horizontalOverflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "path": "/empadronarse/comunidad-de-madrid/madrid/madrid",
+      "horizontalOverflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "path": "/empadronarse/sin-contrato",
+      "horizontalOverflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "path": "/contacto",
+      "horizontalOverflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "path": "/ruta-inexistente-auditoria",
+      "horizontalOverflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    }
+  ],
+  "limits": [
+    "Captura móvil de página completa agotó el tiempo de espera",
+    "Geometría DOM, no inspección visual completa",
+    "No demuestra conformidad WCAG"
+  ],
+  "viewportReset": true,
+  "search": {
+    "width": 320,
+    "query": "pasaporte bebé",
+    "results": 1,
+    "destination": "https://rutatramite.com/pasaporte/bebe",
+    "heading": "Pasaporte para bebés: requisitos y cita previa",
+    "navigationConfirmed": true
+  },
+  "home390": {
+    "width": 390,
+    "scrollWidth": 375,
+    "horizontalOverflow": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "ine_code": "38043",
+  "name": "Tacoronte",
+  "name_official_alt": null,
+  "slug": "tacoronte",
+  "province_code": "38",
+  "province_name": "Santa Cruz de Tenerife",
+  "province_slug": "santa-cruz-de-tenerife",
+  "ccaa_name": "Canarias",
+  "ccaa_slug": "canarias",
+  "poblacion": 24619,
+  "poblacion_ref": "INE 1-ene-2025 (vía listado público; contrastar cifra vigente en ine.es)",
+  "sede_url": null,
+  "tramite_alta_url": null,
+  "cita_url": null,
+  "certificado_url": null,
+  "online": "unknown",
+  "presencial": null,
+  "cita_previa": "unknown",
+  "oficinas": [],
+  "tasa_alta": 0,
+  "tasa_volante": null,
+  "tasa_certificado": null,
+  "docs_extra": [],
+  "peculiaridades": [],
+  "idiomas_sede": [
+    "es"
+  ],
+  "last_verified": "2026-09-03",
+  "source_urls": [
+    "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031"
+  ],
+  "confidence": "unverified",
+  "status": "published",
+  "oleada": "C",
+  "min_words": 1200,
+  "banda": "20-50k",
+  "catalog_name": "Tacoronte",
+  "path": "/empadronarse/canarias/santa-cruz-de-tenerife/tacoronte"
+}

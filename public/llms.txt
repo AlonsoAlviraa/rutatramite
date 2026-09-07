@@ -1,0 +1,45 @@
+﻿# RutaTrámite
+
+> Guía ciudadana independiente sobre trámites en España: padrón, documentación, extranjería, educación, familia y modelos de escritos. No somos Administración Pública ni gestionamos expedientes.
+
+Las guías orientan y enlazan al organismo responsable. Contrasta las condiciones y los plazos en la fuente oficial. La fecha de edición no equivale a una revisión reciente de todos los datos. Las fichas con datos locales pendientes lo indican; no deben interpretarse como requisitos municipales verificados.
+
+Las fichas siguen el patrón `/empadronarse/{ccaa}/{provincia}/{municipio}`. Las guías temáticas utilizan rutas como `/dni/{guia}` o `/extranjeria/{guia}`. La cita de DNI y pasaporte se solicita en citapreviadnie.es o en el 060. Los enlaces siguientes llevan a páginas HTML públicas, no a servicios de presentación de solicitudes.
+
+## Directorio de trámites
+
+- [Inicio](https://rutatramite.com/): buscador de guías y asistente de padrón.
+- [Empadronamiento](https://rutatramite.com/empadronarse): procedimiento general y directorio municipal.
+- [DNI y pasaporte](https://rutatramite.com/dni): cita, documentación y renovación.
+- [Extranjería](https://rutatramite.com/extranjeria): guías y canales de tramitación.
+- [Mudanza](https://rutatramite.com/mudanza): cambios de domicilio y gestiones relacionadas.
+- [Colegio](https://rutatramite.com/colegio): escolarización y cambios de centro.
+- [Comedor y transporte escolar](https://rutatramite.com/comedor): ayudas y movilidad de estudiantes.
+- [Formación Profesional](https://rutatramite.com/fp): matrícula, convalidaciones y becas.
+- [Bebé](https://rutatramite.com/bebe): gestiones administrativas familiares.
+- [Becas](https://rutatramite.com/becas): convocatorias, requisitos y seguimiento.
+- [Modelos y cartas](https://rutatramite.com/modelos): escritos para adaptar a cada caso.
+
+## Padrón según la situación
+
+- [Con contrato](https://rutatramite.com/empadronarse/con-contrato)
+- [Sin contrato](https://rutatramite.com/empadronarse/sin-contrato)
+- [Vivienda en propiedad](https://rutatramite.com/empadronarse/propietario)
+- [En casa de un familiar](https://rutatramite.com/empadronarse/casa-de-familiar)
+- [Menores](https://rutatramite.com/empadronarse/menores)
+- [Personas extranjeras de la UE](https://rutatramite.com/empadronarse/extranjeros-ue)
+- [Personas extranjeras de fuera de la UE](https://rutatramite.com/empadronarse/extranjeros-no-ue)
+- [Sin hogar](https://rutatramite.com/empadronarse/sin-hogar)
+- [Volante y certificado](https://rutatramite.com/empadronarse/volante-vs-certificado)
+- [Renovación cada dos años](https://rutatramite.com/empadronarse/renovacion-2-anos)
+- [Cambio de domicilio](https://rutatramite.com/empadronarse/cambio-de-domicilio)
+- [Baja en el padrón](https://rutatramite.com/empadronarse/baja)
+- [Ficha de Madrid](https://rutatramite.com/empadronarse/comunidad-de-madrid/madrid/madrid): orientación y enlaces municipales disponibles.
+
+## Criterios editoriales
+
+- [Cómo verificamos](https://rutatramite.com/metodologia): fuentes, fechas y límites de la revisión.
+- [Fuentes](https://rutatramite.com/fuentes): referencias del directorio y fuentes de cada guía.
+- [Contacto](https://rutatramite.com/contacto): comunicar errores sin enviar documentos personales.
+- [Privacidad](https://rutatramite.com/privacidad): funcionamiento del asistente y contacto.
+- [Aviso legal](https://rutatramite.com/aviso-legal): alcance informativo del sitio.

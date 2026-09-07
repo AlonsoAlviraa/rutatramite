@@ -1,0 +1,10 @@
+{
+  "build_id": "Q0kL8ZnTNf3l-fC6sQw7T",
+  "sha256": "73f8c9c1ada1887676123b2d9687c4be0ff772d6162dd491f6a475337d387ef7",
+  "active_release": "/srv/tenants/slot2/releases/20260907T121358Z",
+  "previous_release": "/srv/tenants/slot2/releases/20260904T065837Z",
+  "archive": "/tmp/rutatramite-linux-Q0kL8ZnTNf3l-fC6sQw7T.tar",
+  "activation_log": "release-linux-activation.log",
+  "preview_log": "release-linux-preview.log",
+  "public_audit": "linux-audit-production-after.json"
+}

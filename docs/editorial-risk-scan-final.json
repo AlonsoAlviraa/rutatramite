@@ -1,0 +1,2982 @@
+{
+  "generated": "2026-09-07T21:19:52.233107+00:00",
+  "build": "tSaLmQxc_8_5ek2TQNGHB",
+  "sitemap_count": 228,
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 607,
+      "hits": {
+        "absolute": 5,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/acuse-de-recibo-modelo",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 313,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/autorizacion-empadronamiento",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 402,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/autorizacion-empadronar-menor",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 391,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/autorizacion-recogida-colegio",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 363,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/autorizacion-representacion-tramite",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 349,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/autorizacion-viaje-menor",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 383,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/aviso-legal",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 254,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/baja-periodo-de-prueba",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 602,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/baja-voluntaria-sin-preaviso",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 625,
+      "hits": {
+        "absolute": 0,
+        "urgency": 1,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/bebe",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 757,
+      "hits": {
+        "absolute": 3,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/bebe/calendario-vacunal-castilla-y-leon",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 649,
+      "hits": {
+        "absolute": 2,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/bebe/calendario-vacunal-madrid",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 770,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/bebe/cartilla-de-vacunacion-donde-se-saca",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 505,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/bebe/cartilla-vacunacion-digital",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 658,
+      "hits": {
+        "absolute": 3,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/bebe/certificado-vacunacion-descargar",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 695,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/bebe/inscripcion-nacimiento-registro-civil",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 457,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/bebe/libro-de-familia-vigente",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 688,
+      "hits": {
+        "absolute": 0,
+        "urgency": 2,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/bebe/prestacion-por-nacimiento",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 725,
+      "hits": {
+        "absolute": 4,
+        "urgency": 1,
+        "wait_or_percentage": 2,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/bebe/tarjeta-sanitaria-bebe",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 561,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 1477,
+      "hits": {
+        "absolute": 2,
+        "urgency": 0,
+        "wait_or_percentage": 6,
+        "money_claim": 5
+      }
+    },
+    {
+      "path": "/becas/autonomicas/ayudas-estudio-cyl",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 306,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/autonomicas/beca-salario-gva",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 311,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/colaboracion",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 386,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 3,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/becas/erasmus",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 598,
+      "hits": {
+        "absolute": 2,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/erasmus/complemento-regional",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 645,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 2,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/fp",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 634,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 429,
+      "hits": {
+        "absolute": 2,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 1
+      }
+    },
+    {
+      "path": "/becas/mec/alegaciones",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 464,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec/bachillerato",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 468,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec/cambio-estudios",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 629,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 3,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec/compatibilidad/erasmus",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 397,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec/cuando-se-cobra",
+      "status": 200,
+      "source_links": 3,
+      "source_marker": true,
+      "word_count": 417,
+      "hits": {
+        "absolute": 2,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec/denegada/por-patrimonio",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 421,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 2,
+        "money_claim": 5
+      }
+    },
+    {
+      "path": "/becas/mec/estado",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 374,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec/modificar-datos",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 504,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 2,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec/no-cobrada",
+      "status": 200,
+      "source_links": 3,
+      "source_marker": true,
+      "word_count": 341,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec/no-devolver",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 701,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 8,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec/plazo",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 371,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec/renuncia",
+      "status": 200,
+      "source_links": 3,
+      "source_marker": true,
+      "word_count": 491,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec/requisitos",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 549,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/mec/subsanacion",
+      "status": 200,
+      "source_links": 3,
+      "source_marker": true,
+      "word_count": 393,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/becas/muface",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 375,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 1
+      }
+    },
+    {
+      "path": "/becas/residencia",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 659,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 6
+      }
+    },
+    {
+      "path": "/certificado-empresa-sepe",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 579,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/colegio",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 710,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 2,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/colegio/autorizacion-recogida-menores",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 449,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/colegio/cambiar-de-colegio-a-mitad-de-curso",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 851,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/colegio/cambiar-de-colegio-fuera-de-plazo",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 562,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/colegio/cambio-de-colegio-por-acoso",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 670,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/colegio/cambio-de-colegio-por-mudanza",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 438,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/colegio/documentos-matricula-colegio",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 502,
+      "hits": {
+        "absolute": 2,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/colegio/inscripcion-extraescolares-ayuntamiento",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 696,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/colegio/lista-espera-escuela-infantil",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 791,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 4,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/colegio/no-he-matriculado-a-mi-hijo",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 456,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/comedor",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 694,
+      "hits": {
+        "absolute": 1,
+        "urgency": 1,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/comedor/abono-joven-estudiante",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 672,
+      "hits": {
+        "absolute": 4,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/comedor/beca-comedor-2026-2027",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 659,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/comedor/beca-comedor-fuera-de-plazo",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 481,
+      "hits": {
+        "absolute": 0,
+        "urgency": 1,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/comedor/documentos-alergia-comedor-escolar",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 472,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/comedor/ies-sin-comedor",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 385,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/comedor/impago-comedor-escolar",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 357,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/comedor/menu-especial-comedor",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 646,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/comedor/no-puedo-pagar-comedor-escolar",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 445,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 1
+      }
+    },
+    {
+      "path": "/comedor/t16-como-solicitar",
+      "status": 200,
+      "source_links": 3,
+      "source_marker": true,
+      "word_count": 518,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/contacto",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 168,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/declaracion-responsable-padron",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 358,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/dni",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 1449,
+      "hits": {
+        "absolute": 2,
+        "urgency": 7,
+        "wait_or_percentage": 2,
+        "money_claim": 28
+      }
+    },
+    {
+      "path": "/dni/a-que-hora-se-liberan-citas",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 461,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/dni/caducado-banco",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 482,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 3
+      }
+    },
+    {
+      "path": "/dni/caducado-multa",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 624,
+      "hits": {
+        "absolute": 1,
+        "urgency": 2,
+        "wait_or_percentage": 3,
+        "money_claim": 10
+      }
+    },
+    {
+      "path": "/dni/caducado-viajar-ue",
+      "status": 200,
+      "source_links": 5,
+      "source_marker": true,
+      "word_count": 585,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 8
+      }
+    },
+    {
+      "path": "/dni/caducado-vueling",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 421,
+      "hits": {
+        "absolute": 1,
+        "urgency": 1,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/dni/cambio-domicilio",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 390,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 5
+      }
+    },
+    {
+      "path": "/dni/checklist",
+      "status": 200,
+      "source_links": 8,
+      "source_marker": true,
+      "word_count": 653,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 12
+      }
+    },
+    {
+      "path": "/dni/cita-previa",
+      "status": 200,
+      "source_links": 5,
+      "source_marker": true,
+      "word_count": 641,
+      "hits": {
+        "absolute": 0,
+        "urgency": 1,
+        "wait_or_percentage": 0,
+        "money_claim": 8
+      }
+    },
+    {
+      "path": "/dni/consultar-cita",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 805,
+      "hits": {
+        "absolute": 2,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 4
+      }
+    },
+    {
+      "path": "/dni/midni",
+      "status": 200,
+      "source_links": 6,
+      "source_marker": true,
+      "word_count": 610,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 8
+      }
+    },
+    {
+      "path": "/dni/misma-cita-pasaporte",
+      "status": 200,
+      "source_links": 5,
+      "source_marker": true,
+      "word_count": 572,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 10
+      }
+    },
+    {
+      "path": "/dni/no-hay-citas",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 565,
+      "hits": {
+        "absolute": 1,
+        "urgency": 6,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/dni/paginas-clon-cita",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 511,
+      "hits": {
+        "absolute": 2,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 4
+      }
+    },
+    {
+      "path": "/dni/perdido-volar",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 567,
+      "hits": {
+        "absolute": 2,
+        "urgency": 3,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/dni/primera-expedicion-menor",
+      "status": 200,
+      "source_links": 8,
+      "source_marker": true,
+      "word_count": 824,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 8
+      }
+    },
+    {
+      "path": "/dni/renovar-caducado",
+      "status": 200,
+      "source_links": 5,
+      "source_marker": true,
+      "word_count": 653,
+      "hits": {
+        "absolute": 0,
+        "urgency": 1,
+        "wait_or_percentage": 0,
+        "money_claim": 9
+      }
+    },
+    {
+      "path": "/dni/unidades-moviles",
+      "status": 200,
+      "source_links": 5,
+      "source_marker": true,
+      "word_count": 540,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 8
+      }
+    },
+    {
+      "path": "/dni/urgente-sin-cita",
+      "status": 200,
+      "source_links": 3,
+      "source_marker": true,
+      "word_count": 460,
+      "hits": {
+        "absolute": 3,
+        "urgency": 4,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/dni/viajar-reino-unido",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 801,
+      "hits": {
+        "absolute": 4,
+        "urgency": 2,
+        "wait_or_percentage": 0,
+        "money_claim": 6
+      }
+    },
+    {
+      "path": "/empadronarse",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3878,
+      "hits": {
+        "absolute": 9,
+        "urgency": 2,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/empadronarse/andalucia",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 549,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/andalucia/almeria",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 283,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/andalucia/cadiz",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 313,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/andalucia/cordoba",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 283,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/andalucia/granada",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 293,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/andalucia/huelva",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 289,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/andalucia/jaen",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 282,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/andalucia/malaga",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 289,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/andalucia/sevilla",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 345,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/aragon",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 283,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/aragon/huesca",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 265,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/aragon/teruel",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 261,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/aragon/zaragoza",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 271,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/baja",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3384,
+      "hits": {
+        "absolute": 10,
+        "urgency": 0,
+        "wait_or_percentage": 2,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/cambio-de-domicilio",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3265,
+      "hits": {
+        "absolute": 5,
+        "urgency": 0,
+        "wait_or_percentage": 2,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/canarias",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 362,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/canarias/las-palmas",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 310,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/canarias/santa-cruz-de-tenerife",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 330,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/cantabria",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 275,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/cantabria/cantabria",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 276,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/casa-de-familiar",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3609,
+      "hits": {
+        "absolute": 5,
+        "urgency": 0,
+        "wait_or_percentage": 2,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-la-mancha",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 328,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-la-mancha/albacete",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 267,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-la-mancha/ciudad-real",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 289,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-la-mancha/cuenca",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 262,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-la-mancha/guadalajara",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 270,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-la-mancha/toledo",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 281,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-y-leon",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 319,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-y-leon/avila",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 262,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-y-leon/burgos",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 268,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-y-leon/leon",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 271,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-y-leon/palencia",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 262,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-y-leon/salamanca",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 269,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-y-leon/segovia",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 262,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-y-leon/soria",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 262,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-y-leon/valladolid",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 272,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/castilla-y-leon/zamora",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 263,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/cataluna",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 537,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/cataluna/barcelona",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 467,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/cataluna/girona",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 303,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/cataluna/lleida",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 266,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/cataluna/tarragona",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 282,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/ceuta",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 266,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/ceuta/ceuta",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 259,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/cita-previa-madrid",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3375,
+      "hits": {
+        "absolute": 4,
+        "urgency": 1,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/comunidad-de-madrid",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 379,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/comunidad-de-madrid/madrid",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 374,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/comunidad-de-madrid/madrid/madrid",
+      "status": 200,
+      "source_links": 5,
+      "source_marker": true,
+      "word_count": 3508,
+      "hits": {
+        "absolute": 4,
+        "urgency": 2,
+        "wait_or_percentage": 0,
+        "money_claim": 5
+      }
+    },
+    {
+      "path": "/empadronarse/comunidad-foral-de-navarra",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 289,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/comunidad-foral-de-navarra/navarra",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 281,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/comunidad-valenciana",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 417,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/comunidad-valenciana/alicante",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 324,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/comunidad-valenciana/castellon",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 285,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/comunidad-valenciana/valencia",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 330,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/con-contrato",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3609,
+      "hits": {
+        "absolute": 11,
+        "urgency": 0,
+        "wait_or_percentage": 2,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/extranjeros-no-ue",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3507,
+      "hits": {
+        "absolute": 7,
+        "urgency": 0,
+        "wait_or_percentage": 2,
+        "money_claim": 1
+      }
+    },
+    {
+      "path": "/empadronarse/extranjeros-ue",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3357,
+      "hits": {
+        "absolute": 6,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/extremadura",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 285,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/extremadura/badajoz",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 275,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/extremadura/caceres",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 266,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/galicia",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 340,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/galicia/a-coruna",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 290,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/galicia/lugo",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 267,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/galicia/ourense",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 268,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/galicia/pontevedra",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 297,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/illes-balears",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 301,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/illes-balears/illes-balears",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 303,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/la-rioja",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 268,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/la-rioja/la-rioja",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 270,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/melilla",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 266,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/melilla/melilla",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 259,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/menores",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3334,
+      "hits": {
+        "absolute": 7,
+        "urgency": 0,
+        "wait_or_percentage": 2,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/pais-vasco",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 318,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/pais-vasco/alava",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 263,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/pais-vasco/bizkaia",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 287,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/pais-vasco/gipuzkoa",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 287,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/principado-de-asturias",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 296,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/principado-de-asturias/asturias",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 291,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/propietario",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3241,
+      "hits": {
+        "absolute": 8,
+        "urgency": 0,
+        "wait_or_percentage": 2,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/region-de-murcia",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 321,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/region-de-murcia/murcia",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 316,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/renovacion-2-anos",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3688,
+      "hits": {
+        "absolute": 9,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 1
+      }
+    },
+    {
+      "path": "/empadronarse/sin-contrato",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3558,
+      "hits": {
+        "absolute": 6,
+        "urgency": 0,
+        "wait_or_percentage": 3,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/sin-hogar",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3088,
+      "hits": {
+        "absolute": 3,
+        "urgency": 2,
+        "wait_or_percentage": 2,
+        "money_claim": 1
+      }
+    },
+    {
+      "path": "/empadronarse/volante-online",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 3626,
+      "hits": {
+        "absolute": 11,
+        "urgency": 2,
+        "wait_or_percentage": 2,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/empadronarse/volante-vs-certificado",
+      "status": 200,
+      "source_links": 6,
+      "source_marker": true,
+      "word_count": 3462,
+      "hits": {
+        "absolute": 9,
+        "urgency": 2,
+        "wait_or_percentage": 2,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/extranjeria",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 1153,
+      "hits": {
+        "absolute": 2,
+        "urgency": 1,
+        "wait_or_percentage": 1,
+        "money_claim": 1
+      }
+    },
+    {
+      "path": "/extranjeria/arraigo-padron",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 323,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/extranjeria/autorizacion-regreso",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 281,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/extranjeria/autorizacion-regreso-ex13",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 630,
+      "hits": {
+        "absolute": 3,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 1
+      }
+    },
+    {
+      "path": "/extranjeria/autorizacion-regreso-navidad",
+      "status": 200,
+      "source_links": 3,
+      "source_marker": true,
+      "word_count": 356,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/extranjeria/certificado-digital-nie",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 786,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/extranjeria/certificado-registro-ue",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 230,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/extranjeria/cita-huellas-tie",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 269,
+      "hits": {
+        "absolute": 0,
+        "urgency": 1,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/extranjeria/huellas-que-llevar",
+      "status": 200,
+      "source_links": 3,
+      "source_marker": true,
+      "word_count": 599,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/extranjeria/huellas-sin-citas-barcelona",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 400,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/extranjeria/mercurio",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 284,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/extranjeria/nie",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 234,
+      "hits": {
+        "absolute": 0,
+        "urgency": 1,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/extranjeria/nie-verde",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 753,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/extranjeria/nie-vs-nif",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 708,
+      "hits": {
+        "absolute": 3,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/extranjeria/no-hay-citas",
+      "status": 200,
+      "source_links": 3,
+      "source_marker": true,
+      "word_count": 469,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/extranjeria/regularizacion-2026-resolucion",
+      "status": 200,
+      "source_links": 3,
+      "source_marker": true,
+      "word_count": 429,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/extranjeria/subsanar-regularizacion-correos",
+      "status": 200,
+      "source_links": 3,
+      "source_marker": true,
+      "word_count": 443,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/extranjeria/tie-caducada-viajar",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 497,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 1
+      }
+    },
+    {
+      "path": "/extranjeria/tie-recogida-cuanto-tarda",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 531,
+      "hits": {
+        "absolute": 4,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/fp",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 482,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/fp/cambiar-de-instituto-a-mitad-de-curso",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 713,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/fp/convalidaciones-fp",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 387,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/fp/documentos-matricula-eso",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 730,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/fp/matricula-fp-en-septiembre",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 509,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/fp/reserva-de-plaza-fp",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 748,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 4,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/fuentes",
+      "status": 200,
+      "source_links": 6,
+      "source_marker": true,
+      "word_count": 231,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/hacienda/modelo-030",
+      "status": 200,
+      "source_links": 3,
+      "source_marker": true,
+      "word_count": 349,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/he-firmado-finiquito-puedo-reclamar",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 495,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/inventario-fianza-alquiler",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 436,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/justificante-ausencia-escolar",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 293,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/metodologia",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 353,
+      "hits": {
+        "absolute": 0,
+        "urgency": 1,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/modelo-030-cambio-domicilio",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 509,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/modelo-baja-voluntaria",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 852,
+      "hits": {
+        "absolute": 3,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/modelo-excedencia-voluntaria",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 373,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/modelo-finiquito",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 477,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/modelo-reduccion-jornada",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 402,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/modelo-subsanacion",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 324,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/modelos",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 1881,
+      "hits": {
+        "absolute": 2,
+        "urgency": 1,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/mudanza",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 437,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 3
+      }
+    },
+    {
+      "path": "/no-renovacion-alquiler",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 359,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/pasaporte",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 636,
+      "hits": {
+        "absolute": 0,
+        "urgency": 4,
+        "wait_or_percentage": 0,
+        "money_claim": 13
+      }
+    },
+    {
+      "path": "/pasaporte/bebe",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 655,
+      "hits": {
+        "absolute": 0,
+        "urgency": 1,
+        "wait_or_percentage": 0,
+        "money_claim": 3
+      }
+    },
+    {
+      "path": "/pasaporte/caducado-sin-cita",
+      "status": 200,
+      "source_links": 5,
+      "source_marker": true,
+      "word_count": 566,
+      "hits": {
+        "absolute": 0,
+        "urgency": 1,
+        "wait_or_percentage": 0,
+        "money_claim": 8
+      }
+    },
+    {
+      "path": "/pasaporte/cita-previa",
+      "status": 200,
+      "source_links": 8,
+      "source_marker": true,
+      "word_count": 635,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 9
+      }
+    },
+    {
+      "path": "/pasaporte/renovar-antes-caducar",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 612,
+      "hits": {
+        "absolute": 0,
+        "urgency": 2,
+        "wait_or_percentage": 0,
+        "money_claim": 3
+      }
+    },
+    {
+      "path": "/pasaporte/salvoconducto",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 592,
+      "hits": {
+        "absolute": 1,
+        "urgency": 1,
+        "wait_or_percentage": 0,
+        "money_claim": 2
+      }
+    },
+    {
+      "path": "/pasaporte/urgente",
+      "status": 200,
+      "source_links": 5,
+      "source_marker": true,
+      "word_count": 549,
+      "hits": {
+        "absolute": 0,
+        "urgency": 7,
+        "wait_or_percentage": 0,
+        "money_claim": 6
+      }
+    },
+    {
+      "path": "/preaviso-fin-alquiler",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 558,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/privacidad",
+      "status": 200,
+      "source_links": 0,
+      "source_marker": true,
+      "word_count": 198,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/reclamacion-salarios-modelo",
+      "status": 200,
+      "source_links": 4,
+      "source_marker": true,
+      "word_count": 383,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/requerimiento-impago-alquiler",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 340,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 1,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/solicitud-comedor-escolar",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 370,
+      "hits": {
+        "absolute": 1,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/solicitud-permiso-retribuido",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 338,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    },
+    {
+      "path": "/solicitud-vacaciones",
+      "status": 200,
+      "source_links": 2,
+      "source_marker": true,
+      "word_count": 328,
+      "hits": {
+        "absolute": 0,
+        "urgency": 0,
+        "wait_or_percentage": 0,
+        "money_claim": 0
+      }
+    }
+  ],
+  "release": "/srv/tenants/slot2/releases/20260907T211050Z",
+  "encoding_marker_scan": {
+    "markers": [
+      "U+00C3",
+      "U+00C2",
+      "U+00E2",
+      "U+FFFD"
+    ],
+    "source_files_scanned": true,
+    "matches": 0
+  }
+}

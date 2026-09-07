@@ -1,0 +1,11 @@
+{
+  "build_id": "tSaLmQxc_8_5ek2TQNGHB",
+  "sha256": "d06bab21848f7d84ac6083bcd4d8906b6441c7f0279ac599bceebacea3eb7ac4",
+  "activation": "active\nACTIVE=/srv/tenants/slot2/releases/20260907T211050Z\nPREVIOUS=/srv/tenants/slot2/releases/20260907T202312Z\n",
+  "build": "tSaLmQxc_8_5ek2TQNGHB",
+  "release": "/srv/tenants/slot2/releases/20260907T211050Z",
+  "previous": "/srv/tenants/slot2/releases/20260907T202312Z",
+  "bytes": 242825216,
+  "archive": "C:\\Users\\Mariano\\AppData\\Local\\Temp\\rutatramite-release-ck67voyx\\release.tar",
+  "activated": "2026-09-07T21:10:50Z"
+}

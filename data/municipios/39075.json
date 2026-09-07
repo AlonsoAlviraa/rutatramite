@@ -1,0 +1,41 @@
+{
+  "ine_code": "39075",
+  "name": "Santander",
+  "name_official_alt": null,
+  "slug": "santander",
+  "province_code": "39",
+  "province_name": "Cantabria",
+  "province_slug": "cantabria",
+  "ccaa_name": "Cantabria",
+  "ccaa_slug": "cantabria",
+  "poblacion": 175425,
+  "poblacion_ref": "INE 1-ene-2025 (vía listado público; contrastar cifra vigente en ine.es)",
+  "sede_url": "https://www.santander.es/",
+  "tramite_alta_url": null,
+  "cita_url": null,
+  "certificado_url": null,
+  "online": "unknown",
+  "presencial": true,
+  "cita_previa": "unknown",
+  "oficinas": [],
+  "tasa_alta": 0,
+  "tasa_volante": null,
+  "tasa_certificado": null,
+  "docs_extra": [],
+  "peculiaridades": [],
+  "idiomas_sede": [
+    "es"
+  ],
+  "last_verified": "2026-09-03",
+  "source_urls": [
+    "https://www.santander.es/",
+    "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031"
+  ],
+  "confidence": "official",
+  "status": "published",
+  "oleada": "A",
+  "min_words": 1800,
+  "banda": "100k+",
+  "catalog_name": "Santander",
+  "path": "/empadronarse/cantabria/cantabria/santander"
+}

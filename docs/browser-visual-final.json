@@ -1,0 +1,75 @@
+{
+  "build": "tSaLmQxc_8_5ek2TQNGHB",
+  "release": "/srv/tenants/slot2/releases/20260907T211050Z",
+  "verified_at": "2026-09-07T21:19:52.248908+00:00",
+  "checks": [
+    {
+      "name": "home-desktop",
+      "url": "https://rutatramite.com/",
+      "viewport": [
+        1280,
+        1200
+      ],
+      "innerWidth": 1280,
+      "innerHeight": 1200,
+      "scrollWidth": 1265,
+      "scrollHeight": 2635,
+      "h1": 1,
+      "canonical": 1,
+      "badEncoding": false,
+      "font": "Public Sans"
+    },
+    {
+      "name": "home-mobile",
+      "url": "https://rutatramite.com/",
+      "viewport": [
+        390,
+        844
+      ],
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "scrollWidth": 375,
+      "scrollHeight": 4882,
+      "h1": 1,
+      "canonical": 1,
+      "badEncoding": false,
+      "font": "Public Sans",
+      "menu_before": "true",
+      "menu_open": "true",
+      "nav_visible": true,
+      "menu_after_escape": "false"
+    },
+    {
+      "name": "guide-mobile",
+      "url": "https://rutatramite.com/dni/cita-previa",
+      "viewport": [
+        390,
+        844
+      ],
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "scrollWidth": 375,
+      "scrollHeight": 4360,
+      "h1": 1,
+      "canonical": 1,
+      "badEncoding": false,
+      "font": "Public Sans"
+    },
+    {
+      "name": "guide-desktop",
+      "url": "https://rutatramite.com/dni/cita-previa",
+      "viewport": [
+        1280,
+        1200
+      ],
+      "innerWidth": 1280,
+      "innerHeight": 1200,
+      "scrollWidth": 1265,
+      "scrollHeight": 2632,
+      "h1": 1,
+      "canonical": 1,
+      "badEncoding": false,
+      "font": "Public Sans"
+    }
+  ]
+}

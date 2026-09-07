@@ -1,0 +1,41 @@
+{
+  "ine_code": "20069",
+  "name": "Donostia/San Sebastián",
+  "name_official_alt": null,
+  "slug": "donostia-san-sebastian",
+  "province_code": "20",
+  "province_name": "Gipuzkoa",
+  "province_slug": "gipuzkoa",
+  "ccaa_name": "País Vasco",
+  "ccaa_slug": "pais-vasco",
+  "poblacion": 189866,
+  "poblacion_ref": "INE 1-ene-2025 (vía listado público; contrastar cifra vigente en ine.es)",
+  "sede_url": "https://www.donostia.eus/eu/",
+  "tramite_alta_url": null,
+  "cita_url": null,
+  "certificado_url": null,
+  "online": "unknown",
+  "presencial": true,
+  "cita_previa": "unknown",
+  "oficinas": [],
+  "tasa_alta": 0,
+  "tasa_volante": null,
+  "tasa_certificado": null,
+  "docs_extra": [],
+  "peculiaridades": [],
+  "idiomas_sede": [
+    "es"
+  ],
+  "last_verified": "2026-09-03",
+  "source_urls": [
+    "https://www.donostia.eus/eu/",
+    "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031"
+  ],
+  "confidence": "official",
+  "status": "published",
+  "oleada": "A",
+  "min_words": 1800,
+  "banda": "100k+",
+  "catalog_name": "Donostia/San Sebastián",
+  "path": "/empadronarse/pais-vasco/gipuzkoa/donostia-san-sebastian"
+}

@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /borrador/
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://rutatramite.es/sitemap.xml

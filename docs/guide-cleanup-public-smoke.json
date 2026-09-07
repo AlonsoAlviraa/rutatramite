@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-09-07T21:27:13.529496+00:00",
+  "pages": [
+    {
+      "path": "/modelo-baja-voluntaria",
+      "checks": {
+        "no_related_filler": true,
+        "footer_has_no_padron_notice": true,
+        "footer_independence": true,
+        "no_self_recommendation": true,
+        "model_source_context": true,
+        "no_padron_notice": true
+      }
+    },
+    {
+      "path": "/dni/cita-previa",
+      "checks": {
+        "no_related_filler": true,
+        "footer_has_no_padron_notice": true,
+        "footer_independence": true
+      }
+    },
+    {
+      "path": "/comedor/t16-como-solicitar",
+      "checks": {
+        "no_related_filler": true,
+        "footer_has_no_padron_notice": true,
+        "footer_independence": true,
+        "no_dni_fallback": true
+      }
+    },
+    {
+      "path": "/",
+      "checks": {
+        "no_related_filler": true,
+        "footer_has_no_padron_notice": true,
+        "footer_independence": true
+      }
+    }
+  ]
+}

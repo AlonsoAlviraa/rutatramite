@@ -1,0 +1,275 @@
+#!/usr/bin/env python3
+"""One urlset at /sitemap.xml. Canonical host from SITE_ORIGIN.
+
+A sitemap index is for files near the 50_000 URL / 50 MB cap. This site is ~1_000
+URLs: a single file is what Google documents as the default, and AI crawlers
+that fetch robots.txt → Sitemap get every loc in one hop (no index recursion).
+"""
+from __future__ import annotations
+
+import json
+import os
+from xml.sax.saxutils import escape
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+INDEX = ROOT / "data" / "municipios" / "_index.json"
+CATALOG_INDEX = ROOT / "data" / "catalog" / "municipios_index.json"
+SRC_INDEX = ROOT / "src" / "lib" / "data" / "municipios_index.generated.json"
+MUN_DIR = ROOT / "data" / "municipios"
+
+
+def load_best_index() -> list:
+    if not INDEX.exists():
+        raise SystemExit("no municipio index at data/municipios/_index.json")
+    rows = json.loads(INDEX.read_text(encoding="utf-8"))
+    if not isinstance(rows, list) or not rows:
+        raise SystemExit("empty municipio index")
+    return rows
+
+
+def is_ficha_indexable(rec: dict) -> bool:
+    """Keep in lockstep with src/lib/seo/localSignals.ts (playbook ≥5 of 7)."""
+    n = 0
+    sede = rec.get("sede_url") or ""
+    if str(sede).startswith("http") and "rutatramite." not in str(sede).lower():
+        n += 1
+    online = rec.get("online")
+    cita_previa = rec.get("cita_previa")
+    if online in (True, False, "partial") or cita_previa in (
+        "required",
+        "recommended",
+        "walk-in",
+    ):
+        n += 1
+    if rec.get("cita_url") or cita_previa == "walk-in":
+        n += 1
+    oficinas = rec.get("oficinas") or []
+    if any(str(o.get("direccion") or "").strip() for o in oficinas):
+        n += 1
+    if any(str(o.get("telefono") or "").strip() for o in oficinas):
+        n += 1
+    if rec.get("docs_extra"):
+        n += 1
+    if rec.get("last_verified") and rec.get("source_urls"):
+        n += 1
+    return rec.get("status") == "published" and rec.get("confidence") == "official" and n >= 5
+
+
+def load_municipio_record(ine_code: str, fallback: dict) -> dict:
+    p = MUN_DIR / f"{ine_code}.json"
+    if p.exists():
+        try:
+            rec = json.loads(p.read_text(encoding="utf-8"))
+            if isinstance(rec, dict):
+                return rec
+        except json.JSONDecodeError:
+            pass
+    return fallback
+TERR = ROOT / "data" / "geo" / "territories.json"
+PUBLIC = ROOT / "public"
+ORIGIN = os.environ.get("NEXT_PUBLIC_SITE_URL", os.environ.get("SITE_ORIGIN", "https://rutatramite.com")).rstrip("/")
+
+# Split leftovers from the old index layout — remove so they cannot 200 with stale lists.
+LEGACY = ("sitemap-core.xml", "sitemap-provincias.xml", "sitemap-municipios.xml")
+
+CORE = [
+    "/",
+    "/empadronarse",
+    "/metodologia",
+    "/fuentes",
+    "/aviso-legal",
+    "/privacidad",
+    "/contacto",
+    "/empadronarse/con-contrato",
+    "/empadronarse/sin-contrato",
+    "/empadronarse/propietario",
+    "/empadronarse/casa-de-familiar",
+    "/empadronarse/menores",
+    "/empadronarse/extranjeros-ue",
+    "/empadronarse/extranjeros-no-ue",
+    "/empadronarse/sin-hogar",
+    "/empadronarse/volante-vs-certificado",
+    "/empadronarse/renovacion-2-anos",
+    "/empadronarse/cambio-de-domicilio",
+    "/empadronarse/baja",
+    "/dni",
+    "/dni/cita-previa",
+    "/dni/renovar-caducado",
+    "/dni/misma-cita-pasaporte",
+    "/dni/primera-expedicion-menor",
+    "/dni/checklist",
+    "/dni/caducado-viajar-ue",
+    "/dni/midni",
+    "/dni/unidades-moviles",
+    "/dni/cambio-domicilio",
+    "/pasaporte",
+    "/pasaporte/cita-previa",
+    "/pasaporte/urgente",
+    "/pasaporte/caducado-sin-cita",
+    "/mudanza",
+    "/hacienda/modelo-030",
+    "/extranjeria",
+    "/extranjeria/subsanar-regularizacion-correos",
+    "/extranjeria/mercurio",
+    "/extranjeria/cita-huellas-tie",
+    "/extranjeria/certificado-registro-ue",
+    "/extranjeria/nie",
+    "/extranjeria/arraigo-padron",
+    "/extranjeria/autorizacion-regreso",
+    "/extranjeria/no-hay-citas",
+    "/extranjeria/huellas-sin-citas-barcelona",
+    "/extranjeria/tie-caducada-viajar",
+    "/extranjeria/autorizacion-regreso-navidad",
+    "/extranjeria/regularizacion-2026-resolucion",
+    "/dni/no-hay-citas",
+    "/dni/a-que-hora-se-liberan-citas",
+    "/dni/paginas-clon-cita",
+    "/dni/urgente-sin-cita",
+    "/dni/perdido-volar",
+    "/dni/caducado-multa",
+    "/dni/caducado-banco",
+    "/dni/caducado-vueling",
+    "/pasaporte/bebe",
+    "/pasaporte/salvoconducto",
+    "/pasaporte/renovar-antes-caducar",
+    "/empadronarse/volante-online",
+    "/empadronarse/cita-previa-madrid",
+    "/colegio",
+    "/colegio/cambiar-de-colegio-fuera-de-plazo",
+    "/colegio/cambio-de-colegio-por-mudanza",
+    "/colegio/documentos-matricula-colegio",
+    "/colegio/autorizacion-recogida-menores",
+    "/colegio/no-he-matriculado-a-mi-hijo",
+    "/comedor",
+    "/comedor/beca-comedor-fuera-de-plazo",
+    "/comedor/no-puedo-pagar-comedor-escolar",
+    "/comedor/documentos-alergia-comedor-escolar",
+    "/comedor/impago-comedor-escolar",
+    "/comedor/ies-sin-comedor",
+    "/fp",
+    "/fp/matricula-fp-en-septiembre",
+    "/fp/convalidaciones-fp",
+    "/bebe",
+    "/bebe/tarjeta-sanitaria-bebe",
+    "/bebe/cartilla-de-vacunacion-donde-se-saca",
+    "/bebe/inscripcion-nacimiento-registro-civil",
+    "/becas",
+    "/becas/mec",
+    "/becas/mec/plazo",
+    "/becas/mec/modificar-datos",
+    "/becas/mec/cuando-se-cobra",
+    "/becas/mec/estado",
+    "/becas/mec/subsanacion",
+    "/becas/mec/alegaciones",
+    "/becas/mec/no-cobrada",
+    "/becas/mec/denegada/por-patrimonio",
+    "/becas/mec/compatibilidad/erasmus",
+    "/becas/colaboracion",
+    "/becas/autonomicas/beca-salario-gva",
+    "/becas/autonomicas/ayudas-estudio-cyl",
+    "/dni/consultar-cita",
+    "/dni/viajar-reino-unido",
+    "/extranjeria/nie-verde",
+    "/extranjeria/nie-vs-nif",
+    "/extranjeria/huellas-que-llevar",
+    "/extranjeria/tie-recogida-cuanto-tarda",
+    "/extranjeria/autorizacion-regreso-ex13",
+    "/extranjeria/certificado-digital-nie",
+    "/colegio/cambiar-de-colegio-a-mitad-de-curso",
+    "/colegio/cambio-de-colegio-por-acoso",
+    "/colegio/lista-espera-escuela-infantil",
+    "/colegio/inscripcion-extraescolares-ayuntamiento",
+    "/comedor/beca-comedor-2026-2027",
+    "/comedor/menu-especial-comedor",
+    "/comedor/t16-como-solicitar",
+    "/comedor/abono-joven-estudiante",
+    "/fp/cambiar-de-instituto-a-mitad-de-curso",
+    "/fp/documentos-matricula-eso",
+    "/fp/reserva-de-plaza-fp",
+    "/bebe/calendario-vacunal-madrid",
+    "/bebe/calendario-vacunal-castilla-y-leon",
+    "/bebe/certificado-vacunacion-descargar",
+    "/bebe/cartilla-vacunacion-digital",
+    "/bebe/libro-de-familia-vigente",
+    "/bebe/prestacion-por-nacimiento",
+    "/becas/mec/requisitos",
+    "/becas/mec/bachillerato",
+    "/becas/fp",
+    "/becas/mec/no-devolver",
+    "/becas/mec/cambio-estudios",
+    "/becas/mec/renuncia",
+    "/becas/muface",
+    "/becas/residencia",
+    "/becas/erasmus",
+    "/becas/erasmus/complemento-regional",
+    "/modelos",
+    "/modelo-baja-voluntaria",
+    "/baja-voluntaria-sin-preaviso",
+    "/baja-periodo-de-prueba",
+    "/modelo-finiquito",
+    "/he-firmado-finiquito-puedo-reclamar",
+    "/certificado-empresa-sepe",
+    "/modelo-excedencia-voluntaria",
+    "/modelo-reduccion-jornada",
+    "/solicitud-vacaciones",
+    "/reclamacion-salarios-modelo",
+    "/solicitud-permiso-retribuido",
+    "/preaviso-fin-alquiler",
+    "/no-renovacion-alquiler",
+    "/requerimiento-impago-alquiler",
+    "/inventario-fianza-alquiler",
+    "/autorizacion-empadronamiento",
+    "/declaracion-responsable-padron",
+    "/autorizacion-empadronar-menor",
+    "/autorizacion-recogida-colegio",
+    "/justificante-ausencia-escolar",
+    "/solicitud-comedor-escolar",
+    "/autorizacion-viaje-menor",
+    "/autorizacion-representacion-tramite",
+    "/acuse-de-recibo-modelo",
+    "/modelo-subsanacion",
+    "/modelo-030-cambio-domicilio",
+]
+
+
+def url_entry(path: str, lastmod: str | None = None) -> str:
+    loc = escape(f"{ORIGIN}{path}")
+    modified = f"<lastmod>{escape(lastmod)}</lastmod>" if lastmod else ""
+    return f"  <url><loc>{loc}</loc>{modified}</url>"
+
+
+def urlset(entries: list[str]) -> str:
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(entries)
+        + "\n</urlset>\n"
+    )
+
+
+def main() -> None:
+    PUBLIC.mkdir(exist_ok=True)
+    index = load_best_index()
+    terr = json.loads(TERR.read_text(encoding="utf-8"))
+    # Do not label a sitemap regeneration as a content review.
+    entries = [url_entry(p) for p in CORE]
+    for c in terr["ccaa"]:
+        entries.append(url_entry(f"/empadronarse/{c['slug']}"))
+        for code in c["province_codes"]:
+            p = terr["provinces"][code]
+            entries.append(url_entry(f"/empadronarse/{c['slug']}/{p['slug']}"))
+    for m in index:
+        rec = load_municipio_record(m["ine_code"], m)
+        if is_ficha_indexable(rec):
+            entries.append(url_entry(m["path"], rec.get("last_verified")))
+    (PUBLIC / "sitemap.xml").write_text(urlset(entries), encoding="utf-8")
+    for name in LEGACY:
+        p = PUBLIC / name
+        if p.exists():
+            p.unlink()
+    print("Wrote single sitemap.xml", len(entries), "urls origin=", ORIGIN)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,41 @@
+{
+  "ine_code": "21041",
+  "name": "Huelva",
+  "name_official_alt": null,
+  "slug": "huelva",
+  "province_code": "21",
+  "province_name": "Huelva",
+  "province_slug": "huelva",
+  "ccaa_name": "Andalucía",
+  "ccaa_slug": "andalucia",
+  "poblacion": 143215,
+  "poblacion_ref": "INE 1-ene-2025 (vía listado público; contrastar cifra vigente en ine.es)",
+  "sede_url": "http://www.huelva.es/portal/",
+  "tramite_alta_url": null,
+  "cita_url": null,
+  "certificado_url": null,
+  "online": "unknown",
+  "presencial": true,
+  "cita_previa": "unknown",
+  "oficinas": [],
+  "tasa_alta": 0,
+  "tasa_volante": null,
+  "tasa_certificado": null,
+  "docs_extra": [],
+  "peculiaridades": [],
+  "idiomas_sede": [
+    "es"
+  ],
+  "last_verified": "2026-09-03",
+  "source_urls": [
+    "http://www.huelva.es/portal/",
+    "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031"
+  ],
+  "confidence": "official",
+  "status": "published",
+  "oleada": "A",
+  "min_words": 1800,
+  "banda": "100k+",
+  "catalog_name": "Huelva",
+  "path": "/empadronarse/andalucia/huelva/huelva"
+}

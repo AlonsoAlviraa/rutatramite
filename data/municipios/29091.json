@@ -1,0 +1,40 @@
+{
+  "ine_code": "29091",
+  "name": "Torrox",
+  "name_official_alt": null,
+  "slug": "torrox",
+  "province_code": "29",
+  "province_name": "Málaga",
+  "province_slug": "malaga",
+  "ccaa_name": "Andalucía",
+  "ccaa_slug": "andalucia",
+  "poblacion": 22015,
+  "poblacion_ref": "INE 1-ene-2025 (vía listado público; contrastar cifra vigente en ine.es)",
+  "sede_url": null,
+  "tramite_alta_url": null,
+  "cita_url": null,
+  "certificado_url": null,
+  "online": "unknown",
+  "presencial": null,
+  "cita_previa": "unknown",
+  "oficinas": [],
+  "tasa_alta": 0,
+  "tasa_volante": null,
+  "tasa_certificado": null,
+  "docs_extra": [],
+  "peculiaridades": [],
+  "idiomas_sede": [
+    "es"
+  ],
+  "last_verified": "2026-09-03",
+  "source_urls": [
+    "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031"
+  ],
+  "confidence": "unverified",
+  "status": "published",
+  "oleada": "C",
+  "min_words": 1200,
+  "banda": "20-50k",
+  "catalog_name": "Torrox",
+  "path": "/empadronarse/andalucia/malaga/torrox"
+}

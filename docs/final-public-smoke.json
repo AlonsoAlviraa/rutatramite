@@ -1,0 +1,105 @@
+{
+  "build": "tSaLmQxc_8_5ek2TQNGHB",
+  "release": "/srv/tenants/slot2/releases/20260907T211050Z",
+  "generated": "2026-09-07T21:19:50.056075+00:00",
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "h1": 1,
+      "canonical": 1,
+      "display_font": true,
+      "bad_encoding": false
+    },
+    {
+      "path": "/dni",
+      "status": 200,
+      "h1": 1,
+      "canonical": 1,
+      "display_font": true,
+      "bad_encoding": false
+    },
+    {
+      "path": "/dni/cita-previa",
+      "status": 200,
+      "h1": 1,
+      "canonical": 1,
+      "display_font": true,
+      "bad_encoding": false
+    },
+    {
+      "path": "/dni/urgente-sin-cita",
+      "status": 200,
+      "h1": 1,
+      "canonical": 1,
+      "display_font": true,
+      "bad_encoding": false
+    },
+    {
+      "path": "/dni/caducado-multa",
+      "status": 200,
+      "h1": 1,
+      "canonical": 1,
+      "display_font": true,
+      "bad_encoding": false
+    },
+    {
+      "path": "/extranjeria/cita-huellas-tie",
+      "status": 200,
+      "h1": 1,
+      "canonical": 1,
+      "display_font": true,
+      "bad_encoding": false
+    },
+    {
+      "path": "/extranjeria/nie-vs-nif",
+      "status": 200,
+      "h1": 1,
+      "canonical": 1,
+      "display_font": true,
+      "bad_encoding": false
+    },
+    {
+      "path": "/becas/mec/no-devolver",
+      "status": 200,
+      "h1": 1,
+      "canonical": 1,
+      "display_font": true,
+      "bad_encoding": false
+    },
+    {
+      "path": "/colegio/cambiar-de-colegio-fuera-de-plazo",
+      "status": 200,
+      "h1": 1,
+      "canonical": 1,
+      "display_font": true,
+      "bad_encoding": false
+    },
+    {
+      "path": "/comedor/no-puedo-pagar-comedor-escolar",
+      "status": 200,
+      "h1": 1,
+      "canonical": 1,
+      "display_font": true,
+      "bad_encoding": false
+    },
+    {
+      "path": "/bebe/calendario-vacunal-madrid",
+      "status": 200,
+      "h1": 1,
+      "canonical": 1,
+      "display_font": true,
+      "bad_encoding": false
+    }
+  ],
+  "all_200": true,
+  "one_h1": true,
+  "one_canonical": true,
+  "bad_encoding": 0,
+  "font_evidence": {
+    "css_checked": true,
+    "public_sans": true,
+    "newsreader": true,
+    "woff2": true
+  }
+}

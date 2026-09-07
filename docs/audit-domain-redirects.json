@@ -1,0 +1,26 @@
+[
+  {
+    "url": "http://rutatramite.com",
+    "final_url": "https://rutatramite.com/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "http://www.rutatramite.com",
+    "final_url": "https://rutatramite.com/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://www.rutatramite.com",
+    "final_url": "https://rutatramite.com/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://rutatramite.com",
+    "final_url": "https://rutatramite.com",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8"
+  }
+]

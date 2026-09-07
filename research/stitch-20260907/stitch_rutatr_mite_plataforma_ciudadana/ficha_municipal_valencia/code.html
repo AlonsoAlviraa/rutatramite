@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-container":"#beead1","on-tertiary-fixed-variant":"#3f4c00","secondary":"#3f6653","error-container":"#ffdad6","surface-container-low":"#f6f3ee","background":"#fcf9f4","on-secondary-fixed-variant":"#274e3d","surface":"#fcf9f4","on-primary":"#ffffff","on-secondary-fixed":"#002114","on-background":"#1c1c19","surface-container-lowest":"#ffffff","surface-tint":"#2c694e","on-primary-fixed-variant":"#0e5138","secondary-fixed-dim":"#a5d0b9","error":"#ba1a1a","tertiary-fixed-dim":"#bcd068","primary-fixed-dim":"#95d4b3","primary-fixed":"#b1f0ce","inverse-surface":"#31302d","surface-bright":"#fcf9f4","on-surface-variant":"#404943","tertiary":"#404d00","on-primary-fixed":"#002114","tertiary-fixed":"#d8ec80","tertiary-container":"#566602","primary":"#0f5238","outline-variant":"#bfc9c1","surface-container-highest":"#e5e2dd","secondary-fixed":"#c1ecd4","surface-variant":"#e5e2dd","on-tertiary-fixed":"#181e00","surface-container-high":"#ebe8e3","inverse-primary":"#95d4b3","primary-container":"#2d6a4f","outline":"#707973","on-secondary-container":"#436b58","on-tertiary":"#ffffff","surface-dim":"#dcdad5","on-tertiary-container":"#cfe479","on-error-container":"#93000a","surface-container":"#f0ede9","inverse-on-surface":"#f3f0eb","on-secondary":"#ffffff","on-error":"#ffffff","on-surface":"#1c1c19","on-primary-container":"#a8e7c5"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"space-sm":"0.75rem","space-3xl":"4rem","space-3xs":"0.125rem","space-2xl":"3rem","space-xl":"2rem","space-4xl":"6rem","space-xs":"0.5rem","gutter-desktop":"2rem","space-lg":"1.5rem","container-max":"76rem","reading-max":"45rem","space-md":"1rem","space-2xs":"0.25rem","gutter-mobile":"1rem"},fontFamily:{"headline-md":["Newsreader"],"headline-lg-mobile":["Newsreader"],"display-hero":["Newsreader"],"headline-sm":["Newsreader"],"caption":["Inter"],"label-sm":["Inter"],"body-md":["Inter"],"display-hero-mobile":["Newsreader"],"title-editorial":["Newsreader"],"label-md":["Inter"],"headline-lg":["Newsreader"],"body-sm":["Inter"],"body-lead":["Inter"]},fontSize:{"headline-md":["1.875rem",{"lineHeight":"2.375rem","letterSpacing":"-0.01em","fontWeight":"500"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.01em","fontWeight":"500"}],"display-hero":["3.5rem",{"lineHeight":"4rem","letterSpacing":"-0.02em","fontWeight":"500"}],"headline-sm":["1.375rem",{"lineHeight":"1.875rem","fontWeight":"600"}],"caption":["0.75rem",{"lineHeight":"1.125rem","fontWeight":"400"}],"label-sm":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"600"}],"body-md":["1rem",{"lineHeight":"1.625rem","letterSpacing":"0em","fontWeight":"400"}],"display-hero-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.01em","fontWeight":"500"}],"title-editorial":["1.125rem",{"lineHeight":"1.625rem","fontWeight":"600"}],"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg":["2.5rem",{"lineHeight":"3rem","letterSpacing":"-0.015em","fontWeight":"500"}],"body-sm":["0.875rem",{"lineHeight":"1.375rem","fontWeight":"400"}],"body-lead":["1.25rem",{"lineHeight":"1.875rem","letterSpacing":"-0.005em","fontWeight":"400"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="max-w-container-max mx-auto px-gutter-mobile lg:px-gutter-desktop h-20 flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex flex-col" data-path="explorar-tramites" href="#"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">RutaTrámite</span><span class="font-caption text-caption text-on-surface-variant leading-tight mt-space-3xs hidden sm:block">Guía ciudadana independiente sin afiliación política ni oficial</span></a></div><nav class="hidden xl:flex items-center gap-space-lg h-full" data-active-classes="text-primary font-bold border-b-2 border-primary"><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors py-space-xs" data-path="explorar-tramites" href="#">Explorar trámites</a><a aria-current="page" class="transition-colors py-space-xs text-primary font-bold border-b-2 border-primary" data-path="por-municipio" href="#">Por municipio</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors py-space-xs" data-path="asistentes-paso-a-paso" href="#">Asistentes paso a paso</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors py-space-xs" data-path="modelos-y-plantillas" href="#">Modelos y plantillas</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors py-space-xs" data-path="metodologia-y-rigor" href="#">Metodología y rigor</a></nav><div class="flex items-center gap-space-sm"><div class="hidden md:flex items-center bg-surface-container-lowest rounded-lg px-space-sm py-space-2xs shadow-[0_1px_4px_rgba(0,0,0,0.04)] gap-space-2xs"><span class="material-symbols-outlined text-outline text-[18px]">search</span><input class="bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none w-44 lg:w-56" placeholder="Buscar trámite o certificado..." type="text"/><div class="h-4 w-[1px] bg-surface-container-highest mx-space-2xs"></div><div class="flex items-center gap-space-3xs"><span class="material-symbols-outlined text-outline text-[16px]">location_on</span><span class="font-label-sm text-label-sm text-on-surface-variant">Toda España</span></div></div><div class="hidden sm:inline-flex items-center px-space-xs py-space-3xs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">Sin registro ni rastreo</div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background flex-1"><div class="max-w-container-max mx-auto px-gutter-mobile lg:px-gutter-desktop py-space-xl"><div class="flex flex-col w-full">
+<!-- Cabecera de Municipio & Ficha de Auditoría -->
+<section class="relative w-full pb-space-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Columna Principal de Identidad -->
+<div class="lg:col-span-8 space-y-space-md">
+<!-- Rastro cívico y selector municipal -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm pb-space-xs">
+<div class="flex items-center gap-space-2xs text-on-surface-variant font-label-sm text-label-sm">
+<span>Comunitat Valenciana</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span>Provincia de Valencia</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-primary font-semibold">València</span>
+</div>
+<!-- Switcher Municipal Rápido -->
+<div class="relative flex items-center bg-surface-container-low px-space-sm py-space-3xs rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary mr-space-2xs">swap_horiz</span>
+<span class="font-caption text-caption text-on-surface-variant mr-space-2xs">¿Buscas otro municipio?</span>
+<input class="bg-transparent font-body-sm text-body-sm text-on-surface focus:outline-none w-44 placeholder:text-outline" placeholder="Escribe tu pueblo o ciudad..." type="text"/>
+</div>
+</div>
+<!-- Título Institucional y Emblema Arquitectónico -->
+<div class="flex items-start gap-space-md">
+<!-- Emblema cívico vectorial sobrio (geometría limpia de Valencia) -->
+<div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl bg-primary flex-shrink-0 flex items-center justify-center text-primary-fixed p-space-xs shadow-sm">
+<svg class="w-full h-full stroke-current" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<path d="M32 6L46 14V28C46 42 32 54 32 58C32 54 18 42 18 28V14L32 6Z"></path>
+<path d="M32 18V46"></path>
+<path d="M24 24L40 40"></path>
+<path d="M40 24L24 40"></path>
+<circle cx="32" cy="18" fill="currentColor" r="3"></circle>
+</svg>
+</div>
+<div class="space-y-space-3xs">
+<div class="inline-flex items-center gap-space-2xs bg-secondary-container px-space-xs py-space-3xs rounded-full text-on-secondary-container font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+              Ficha oficial auditada
+            </div>
+<h1 class="font-headline-lg text-headline-lg text-on-background tracking-tight">
+              Ajuntament de València
+            </h1>
+<p class="font-title-editorial text-title-editorial text-secondary">
+              Directorio de trámites públicos, ordenanzas y gestión de cita previa OAC
+            </p>
+</div>
+</div>
+<!-- Banner de Auditoría y Rigor Editorial -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-sm">
+<div class="flex items-center justify-between flex-wrap gap-space-xs">
+<div class="flex items-center gap-space-2xs text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span>Revisión cívica independiente conforme al BOPV y Sede Electrónica</span>
+</div>
+<span class="font-caption text-caption text-outline">Última auditoría: 12 de febrero de 2025</span>
+</div>
+<!-- Matriz de metadatos operativos -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-xs pt-space-xs">
+<div class="bg-surface-container-low p-space-sm rounded-lg">
+<span class="font-caption text-caption text-on-surface-variant block uppercase tracking-wider">Canal telemático</span>
+<span class="font-label-md text-label-md text-primary flex items-center gap-space-3xs mt-space-3xs">
+<span class="material-symbols-outlined text-[16px] text-tertiary">cloud_done</span>
+                sede.valencia.es (24/7)
+              </span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg">
+<span class="font-caption text-caption text-on-surface-variant block uppercase tracking-wider">Atención Presencial</span>
+<span class="font-label-md text-label-md text-on-surface flex items-center gap-space-3xs mt-space-3xs">
+<span class="material-symbols-outlined text-[16px] text-primary">event_seat</span>
+                Cita obligatoria en OAC
+              </span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg">
+<span class="font-caption text-caption text-on-surface-variant block uppercase tracking-wider">Teléfono Ciudadano</span>
+<span class="font-label-md text-label-md text-on-surface flex items-center gap-space-3xs mt-space-3xs">
+<span class="material-symbols-outlined text-[16px] text-secondary">phone_in_talk</span>
+                010 (Llamada Gratuita)
+              </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bloque Editorial Lateral: Contexto y Régimen Local -->
+<div class="lg:col-span-4 bg-surface-container-low p-space-lg rounded-xl shadow-sm space-y-space-md">
+<div class="space-y-space-3xs">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Régimen Municipal</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Capital de Comunitat</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Valencia aplica la Ley de Grandes Ciudades y cuenta con 19 distritos administrativos. La mayoría de trámites padronales y fiscales admiten resolución exprés con sistema Cl@ve.
+          </p>
+</div>
+<!-- Indicador de Carga de Citas -->
+<div class="bg-surface-container-lowest p-space-md rounded-lg space-y-space-2xs">
+<div class="flex justify-between items-center text-on-surface">
+<span class="font-label-md text-label-md">Disponibilidad de Cita OAC</span>
+<span class="inline-flex items-center px-space-2xs py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">
+              Media (3-5 días)
+            </span>
+</div>
+<!-- Barra de capacidad cívica -->
+<div class="w-full bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-primary-container h-full rounded-full" style="width: 58%;"></div>
+</div>
+<p class="font-caption text-caption text-outline pt-space-3xs">
+            Las citas presenciales se liberan habitualmente de lunes a viernes a las 08:30 h en la sede municipal.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 2: Accesos Directos Oficiales (Triple Acción Transparente) -->
+<section class="w-full py-space-xl">
+<div class="space-y-space-xs pb-space-md">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Pasarela Segura</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Enlaces directos a la administración electrónica</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-reading-max">
+        RutaTrámite enlaza exclusivamente a dominios institucionales seguros terminados en <span class="font-semibold text-on-surface">.valencia.es</span> sin desvíos, pasarelas de pago ni publicidad.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Botón A: Sede Electrónica -->
+<a class="group bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between space-y-space-md" href="https://sede.valencia.es" rel="noopener noreferrer" target="_blank">
+<div class="space-y-space-xs">
+<div class="w-12 h-12 rounded-lg bg-primary text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">terminal</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+            Sede Electrónica Oficial
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Tramitación digital integral con Cl@ve, DNIe o Certificado FNMT. Presentación en Registro Telemático General y carpeta ciudadana.
+          </p>
+</div>
+<div class="inline-flex items-center gap-space-2xs font-label-md text-label-md text-primary pt-space-xs">
+<span>Abrir sede.valencia.es</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">open_in_new</span>
+</div>
+</a>
+<!-- Botón B: Cita Previa Municipal -->
+<a class="group bg-primary text-on-primary p-space-lg rounded-xl shadow-md hover:bg-primary-container transition-all flex flex-col justify-between space-y-space-md" href="https://www.valencia.es/citaprevia" rel="noopener noreferrer" target="_blank">
+<div class="space-y-space-xs">
+<div class="w-12 h-12 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">calendar_month</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-primary">
+            Pedir Cita Previa OAC
+          </h3>
+<p class="font-body-sm text-body-sm text-primary-fixed leading-relaxed">
+            Sistema oficial de reserva presencial para Padrón, Registro, Plusvalías y Licencias Urbanísticas en cualquier distrito municipal.
+          </p>
+</div>
+<div class="inline-flex items-center gap-space-2xs font-label-md text-label-md text-tertiary-fixed pt-space-xs">
+<span>Reservar turno presencial</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</a>
+<!-- Botón C: Directorio de Oficinas Físicas -->
+<a class="group bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between space-y-space-md" href="#oficinas-oac">
+<div class="space-y-space-xs">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">account_balance</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+            Oficinas OAC y Horarios
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Guía de ubicación, accesibilidad para personas con movilidad reducida y conexiones de transporte público (Metrovalencia y EMT).
+          </p>
+</div>
+<div class="inline-flex items-center gap-space-2xs font-label-md text-label-md text-secondary pt-space-xs">
+<span>Ver red de oficinas</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-y-1 transition-transform">arrow_downward</span>
+</div>
+</a>
+</div>
+</section>
+<!-- SECCIÓN 3: Trámites Municipales Frecuentes (Reglas Locales Exclusivas de Valencia) -->
+<section class="w-full py-space-xl space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-3xs max-w-reading-max">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Guía Descriptiva y Requisitos</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Gestiones frecuentes según ordenanzas de Valencia</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Puntos críticos y particularidades que el Ayuntamiento de Valencia exige y que varían respecto a otras ciudades.
+        </p>
+</div>
+<!-- Filtro Rápido de Categorías de Trámite -->
+<div class="flex flex-wrap items-center gap-space-2xs" id="procedimiento-filtros">
+<button class="px-space-sm py-space-3xs rounded-full bg-primary text-on-primary font-label-sm text-label-sm">Todos</button>
+<button class="px-space-sm py-space-3xs rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-highest font-label-sm text-label-sm transition-colors">Padrón</button>
+<button class="px-space-sm py-space-3xs rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-highest font-label-sm text-label-sm transition-colors">Impuestos</button>
+<button class="px-space-sm py-space-3xs rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-highest font-label-sm text-label-sm transition-colors">Vía Pública y Ayudas</button>
+</div>
+</div>
+<!-- Rejilla de Trámites con Especificaciones Locales -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Trámite 1: Alta en Padrón -->
+<article class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex justify-between items-start">
+<span class="inline-flex items-center px-space-xs py-space-3xs rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-semibold">
+              Padrón Municipal
+            </span>
+<span class="text-tertiary-container font-label-sm text-label-sm flex items-center gap-space-3xs">
+<span class="material-symbols-outlined text-[16px]">priority_high</span>
+              Norma local
+            </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Alta y Cambio de Domicilio</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Inscripción habitual en la ciudad. <strong class="text-on-surface font-semibold">Regla específica de Valencia:</strong> si el contrato de arrendamiento tiene una vigencia menor a 1 año o está prorrogado, se exige aportar la última mensualidad pagada y autorización explícita firmada por el propietario junto a su DNI.
+          </p>
+<!-- Tarjeta de documentación obligatoria -->
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-space-2xs text-body-sm text-on-surface-variant">
+<div class="font-label-sm text-label-sm text-on-surface font-semibold">Requisitos clave:</div>
+<ul class="space-y-1 pl-space-xs">
+<li class="flex items-start gap-space-2xs">
+<span class="material-symbols-outlined text-[16px] text-secondary mt-0.5">check_circle</span>
+<span>DNI/NIE original de todos los convivientes mayores de edad.</span>
+</li>
+<li class="flex items-start gap-space-2xs">
+<span class="material-symbols-outlined text-[16px] text-secondary mt-0.5">check_circle</span>
+<span>Escritura de propiedad o IBI a nombre del declarante.</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md">
+<span class="text-outline">Plazo: En el acto presencial</span>
+<a class="text-primary hover:underline inline-flex items-center gap-space-3xs font-semibold" href="https://sede.valencia.es" rel="noopener noreferrer" target="_blank">
+            Iniciar trámite
+            <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</article>
+<!-- Trámite 2: Certificado y Volante de Empadronamiento -->
+<article class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex justify-between items-start">
+<span class="inline-flex items-center px-space-xs py-space-3xs rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-semibold">
+              Padrón Municipal
+            </span>
+<span class="text-secondary font-label-sm text-label-sm flex items-center gap-space-3xs">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+              Descarga Inmediata
+            </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Volante y Certificado Histórico</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            El volante es suficiente para la mayoría de gestiones estatales (DNI, Sanidad). En la Sede de Valencia la expedición mediante certificado digital o Cl@ve es automática en formato PDF con CSV (Código Seguro de Verificación).
+          </p>
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-space-2xs text-body-sm text-on-surface-variant">
+<div class="font-label-sm text-label-sm text-on-surface font-semibold">Diferencia de validez:</div>
+<p class="text-body-sm leading-snug">
+              El <strong>Volante</strong> caduca a los 3 meses y es gratuito. El <strong>Certificado</strong> requiere firma judicial si es para causas litigiosas o extranjería fuera de España.
+            </p>
+</div>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md">
+<span class="text-outline">Tasa: Gratuito</span>
+<a class="text-primary hover:underline inline-flex items-center gap-space-3xs font-semibold" href="https://sede.valencia.es" rel="noopener noreferrer" target="_blank">
+            Obtener al instante
+            <span class="material-symbols-outlined text-[16px]">download</span>
+</a>
+</div>
+</article>
+<!-- Trámite 3: Impuesto de Vehículos (IVTM) -->
+<article class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex justify-between items-start">
+<span class="inline-flex items-center px-space-xs py-space-3xs rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-semibold">
+              Hacienda Local
+            </span>
+<span class="text-primary font-label-sm text-label-sm flex items-center gap-space-3xs">
+<span class="material-symbols-outlined text-[16px]">eco</span>
+              Bonificación Verde
+            </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Impuesto de Vehículos (IVTM)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Gestión de alta, bajas temporales y pago de rodaje en Valencia. La ordenanza fiscal municipal contempla <strong class="text-on-surface font-semibold">hasta un 75% de bonificación</strong> durante los primeros años para vehículos con etiqueta CERO y un 50% para distintivo ECO.
+          </p>
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-space-2xs text-body-sm text-on-surface-variant">
+<div class="font-label-sm text-label-sm text-on-surface font-semibold">Calendario fiscal anual:</div>
+<p class="text-body-sm leading-snug">
+              Periodo voluntario habitual: del 1 de marzo al 30 de abril. Domiciliación bancaria disponible con un 2% de bonificación en cuenta.
+            </p>
+</div>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md">
+<span class="text-outline">Gestión: Tributaria</span>
+<a class="text-primary hover:underline inline-flex items-center gap-space-3xs font-semibold" href="https://sede.valencia.es" rel="noopener noreferrer" target="_blank">
+            Consultar recibo
+            <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</article>
+<!-- Trámite 4: Vados y Vía Pública -->
+<article class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex justify-between items-start">
+<span class="inline-flex items-center px-space-xs py-space-3xs rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-semibold">
+              Espacio Público
+            </span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Movilidad Urbana</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Vados y Reserva de Estacionamiento</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Autorización de entrada de carruajes a través de aceras y reserva de vía pública para mudanzas, obras o carga/descarga en el término municipal.
+          </p>
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-space-2xs text-body-sm text-on-surface-variant">
+<div class="font-label-sm text-label-sm text-on-surface font-semibold">Condición técnica:</div>
+<p class="text-body-sm leading-snug">
+              Exige plano acotado de emplazamiento, justificante de propiedad/alquiler del garaje y placa oficial homologada entregada por el Ayuntamiento tras liquidar la tasa.
+            </p>
+</div>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md">
+<span class="text-outline">Requiere informe técnico</span>
+<a class="text-primary hover:underline inline-flex items-center gap-space-3xs font-semibold" href="https://sede.valencia.es" rel="noopener noreferrer" target="_blank">
+            Ver ordenanza
+            <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</article>
+<!-- Trámite 5: Ayudas y Cheque Escolar -->
+<article class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex justify-between items-start">
+<span class="inline-flex items-center px-space-xs py-space-3xs rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-semibold">
+              Servicios Sociales y Educación
+            </span>
+<span class="text-secondary font-label-sm text-label-sm">Convocatoria Anual</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Cheque Escolar Infantil (0 a 3 años)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Subvención municipal destinada al pago de cuotas de escolarización infantil en centros privados autorizados de Valencia. Convocatoria reglada según baremo de renta familiar IPREM.
+          </p>
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-space-2xs text-body-sm text-on-surface-variant">
+<div class="font-label-sm text-label-sm text-on-surface font-semibold">Criterio excluyente:</div>
+<p class="text-body-sm leading-snug">
+              Todos los miembros de la unidad familiar deben figurar empadronados ininterrumpidamente en el municipio con anterioridad a la publicación de las bases.
+            </p>
+</div>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md">
+<span class="text-outline">Plazo según DOGV</span>
+<a class="text-primary hover:underline inline-flex items-center gap-space-3xs font-semibold" href="https://sede.valencia.es" rel="noopener noreferrer" target="_blank">
+            Bases de la ayuda
+            <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</article>
+<!-- Trámite 6: Ayuda Municipal al Alquiler -->
+<article class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex justify-between items-start">
+<span class="inline-flex items-center px-space-xs py-space-3xs rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-semibold">
+              Vivienda
+            </span>
+<span class="text-primary font-label-sm text-label-sm">Planes de Apoyo</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Subvención al Alquiler de Vivienda</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Programa municipal complementario para personas empadronadas con rentas de arrendamiento de hasta 700€/mes (o superior si se trata de familias numerosas o monoparentales).
+          </p>
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-space-2xs text-body-sm text-on-surface-variant">
+<div class="font-label-sm text-label-sm text-on-surface font-semibold">Pago bancario:</div>
+<p class="text-body-sm leading-snug">
+              Obligatorio justificar la transferencia mediante justificante bancario estricto; no se admiten recibos manuscritos en metálico.
+            </p>
+</div>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md">
+<span class="text-outline">Convocatoria periódica</span>
+<a class="text-primary hover:underline inline-flex items-center gap-space-3xs font-semibold" href="https://sede.valencia.es" rel="noopener noreferrer" target="_blank">
+            Revisar estado
+            <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</article>
+</div>
+</section>
+<!-- SECCIÓN 4: Documentos y Formularios Oficiales Descargables -->
+<section class="w-full py-space-xl">
+<div class="bg-surface-container-lowest p-space-lg lg:p-space-xl rounded-xl shadow-sm space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="space-y-space-3xs">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Modelos Normalizados</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Formularios oficiales para descargar e imprimir</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Documentos PDF estándar limpios para presentar en registro físico u online.
+          </p>
+</div>
+<!-- Aviso Cívico de Gratuidad -->
+<div class="inline-flex items-center gap-space-xs bg-secondary-container text-on-secondary-container px-space-md py-space-xs rounded-lg font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[20px] text-primary">shield</span>
+<span>Descarga directa y gratuita. Sin costes por formulario.</span>
+</div>
+</div>
+<!-- Lista de Descargables con Metadatos -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Documento 1 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-[28px]">picture_as_pdf</span>
+<span class="font-caption text-caption text-outline">PDF Oficial · 184 KB</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-snug">
+              Modelo Normalizado de Solicitud General
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Instancia genérica reglamentaria para cualquier petición o alegación ante las áreas del Ayuntamiento cuando no existe impreso específico.
+            </p>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-2xs bg-surface-container-highest hover:bg-secondary-container text-on-surface hover:text-on-secondary-container font-label-md text-label-md py-space-xs rounded transition-colors">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Descargar Modelo (PDF)</span>
+</button>
+</div>
+<!-- Documento 2 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-[28px]">picture_as_pdf</span>
+<span class="font-caption text-caption text-outline">PDF Oficial · 142 KB</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-snug">
+              Autorización de Representación Ciudadana
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Documento obligatorio si acudes en nombre de un familiar o tercero a tramitar padrón, certificados tributarios o gestiones presenciales OAC.
+            </p>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-2xs bg-surface-container-highest hover:bg-secondary-container text-on-surface hover:text-on-secondary-container font-label-md text-label-md py-space-xs rounded transition-colors">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Descargar Modelo (PDF)</span>
+</button>
+</div>
+<!-- Documento 3 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-[28px]">picture_as_pdf</span>
+<span class="font-caption text-caption text-outline">PDF Oficial · 198 KB</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-snug">
+              Declaración Jurada de Residencia Compartida
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Formulario indispensable cuando quien se empadrona reside en una vivienda ya ocupada por otras personas sin figurar en el contrato principal.
+            </p>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-2xs bg-surface-container-highest hover:bg-secondary-container text-on-surface hover:text-on-secondary-container font-label-md text-label-md py-space-xs rounded transition-colors">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Descargar Modelo (PDF)</span>
+</button>
+</div>
+</div>
+<div class="pt-space-2xs text-center">
+<p class="font-caption text-caption text-outline">
+          Todos los archivos han sido cotejados con el repositorio oficial del Ayuntamiento de Valencia. No modifique los encabezados institucionales para garantizar su admisión en ventanilla única.
+        </p>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 5: Red de Oficinas de Atención a la Ciudadanía (OAC) -->
+<section class="w-full py-space-xl space-y-space-lg" id="oficinas-oac">
+<div class="space-y-space-3xs max-w-reading-max">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Atención en Territorio</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Principales Oficinas de Atención Presencial (OAC)</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Consulta horarios de ventanilla, adaptaciones de accesibilidad universal y líneas directas de transporte público municipal.
+      </p>
+</div>
+<!-- Mapa Estático y Detalle de Oficinas Bento -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Fichas de Oficinas Físicas -->
+<div class="lg:col-span-8 space-y-space-md">
+<!-- Oficina 1: OAC Tabacalera -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm space-y-space-sm">
+<div class="flex flex-wrap items-start justify-between gap-space-xs">
+<div>
+<div class="inline-flex items-center gap-space-3xs text-primary font-label-sm text-label-sm font-semibold mb-space-3xs">
+<span class="material-symbols-outlined text-[16px]">domain</span> Sede Central de Trámites
+              </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">OAC Tabacalera</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Carrer d'Amadeu de Savoia, 11, 46010 València</p>
+</div>
+<span class="inline-flex items-center gap-space-3xs px-space-xs py-space-3xs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">accessible</span> 100% Accesible
+            </span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<div class="space-y-space-3xs">
+<span class="font-label-sm text-label-sm text-on-surface block font-semibold">Horario de Atención</span>
+<p>Lunes a viernes: 08:30 a 14:00 h</p>
+<p>Jueves ininterrumpido: 08:30 a 17:00 h (octubre a mayo)</p>
+</div>
+<div class="space-y-space-3xs">
+<span class="font-label-sm text-label-sm text-on-surface block font-semibold">Cómo llegar (Transporte)</span>
+<p class="flex items-center gap-space-2xs">
+<span class="px-1.5 py-0.5 bg-primary text-on-primary rounded text-caption font-bold">Metro</span>
+                Línea 3, 5, 7 o 9 (Estación Facultats / Aragón)
+              </p>
+<p class="flex items-center gap-space-2xs">
+<span class="px-1.5 py-0.5 bg-secondary text-on-secondary rounded text-caption font-bold">EMT</span>
+                Líneas 10, 12, 32, 70, 71, 93
+              </p>
+</div>
+</div>
+</div>
+<!-- Oficina 2: OAC Plaza del Ayuntamiento -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm space-y-space-sm">
+<div class="flex flex-wrap items-start justify-between gap-space-xs">
+<div>
+<div class="inline-flex items-center gap-space-3xs text-primary font-label-sm text-label-sm font-semibold mb-space-3xs">
+<span class="material-symbols-outlined text-[16px]">account_balance</span> Casa Consistorial
+              </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">OAC Plaça de l'Ajuntament</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Plaça de l'Ajuntament, 1, 46002 València</p>
+</div>
+<span class="inline-flex items-center gap-space-3xs px-space-xs py-space-3xs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">accessible</span> Rampa y bucle magnético
+            </span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<div class="space-y-space-3xs">
+<span class="font-label-sm text-label-sm text-on-surface block font-semibold">Horario de Atención</span>
+<p>Lunes a viernes: 08:30 a 14:00 h</p>
+<p class="text-outline">Sábados y festivos cerrado</p>
+</div>
+<div class="space-y-space-3xs">
+<span class="font-label-sm text-label-sm text-on-surface block font-semibold">Cómo llegar (Transporte)</span>
+<p class="flex items-center gap-space-2xs">
+<span class="px-1.5 py-0.5 bg-primary text-on-primary rounded text-caption font-bold">Metro</span>
+                Línea 3, 5 o 9 (Xàtiva / Colón)
+              </p>
+<p class="flex items-center gap-space-2xs">
+<span class="px-1.5 py-0.5 bg-secondary text-on-secondary rounded text-caption font-bold">EMT</span>
+                Líneas C1, 6, 8, 11, 14, 19, 35, 70, 72
+              </p>
+</div>
+</div>
+</div>
+<!-- Oficina 3: OAC Marítim -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm space-y-space-sm">
+<div class="flex flex-wrap items-start justify-between gap-space-xs">
+<div>
+<div class="inline-flex items-center gap-space-3xs text-primary font-label-sm text-label-sm font-semibold mb-space-3xs">
+<span class="material-symbols-outlined text-[16px]">location_city</span> Poblats Marítims
+              </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">OAC Marítim</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Carrer de la Reina, 117, 46011 València</p>
+</div>
+<span class="inline-flex items-center gap-space-3xs px-space-xs py-space-3xs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">accessible</span> Acceso cota cero
+            </span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<div class="space-y-space-3xs">
+<span class="font-label-sm text-label-sm text-on-surface block font-semibold">Horario de Atención</span>
+<p>Lunes a viernes: 08:30 a 14:00 h</p>
+<p class="text-outline">Atención padrón y registro de entrada</p>
+</div>
+<div class="space-y-space-3xs">
+<span class="font-label-sm text-label-sm text-on-surface block font-semibold">Cómo llegar (Transporte)</span>
+<p class="flex items-center gap-space-2xs">
+<span class="px-1.5 py-0.5 bg-primary text-on-primary rounded text-caption font-bold">Tranvía</span>
+                Línea 4 y 6 (Doctor Lluch)
+              </p>
+<p class="flex items-center gap-space-2xs">
+<span class="px-1.5 py-0.5 bg-secondary text-on-secondary rounded text-caption font-bold">EMT</span>
+                Líneas 19, 32, 92
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Ubicación Geográfica con data-location -->
+<div class="lg:col-span-4 space-y-space-md">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Mapa de Sedes y Oficinas</span>
+<span class="material-symbols-outlined text-primary text-[20px]">pin_drop</span>
+</div>
+<!-- Elemento de Mapa obligatorio con data-location -->
+<div class="w-full h-72 rounded-lg bg-cover bg-center overflow-hidden shadow-inner flex items-end p-space-sm" data-location="Plaza del Ayuntamiento 1, Valencia, Spain" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuARbJETBTxFG2qwAAuVzE2zRTY6mr_mpbaLf0FXKvSl1saE8fQsgTKwpmbqo_OxdUkMEcCujZ34uvsCcWtgAKjYnQ-9fmJNBNLi6tRPFlmpttLb9mmhlVPRo8QVK2zv8zb4M_swhF2nXjsyXveCo0-oRYNDPsBT8x2jGJAUeuXW7L7BFW4noG_3fWcSPodKoQGtGIsqDfkJylDhUGDLnmhnxTSsR_EQuWAqir7nMy0tYOSTOokaPTDE');">
+<div class="bg-surface/90 backdrop-blur-sm p-space-xs rounded font-caption text-caption text-on-surface">
+              Centro neurálgico OAC Valencia
+            </div>
+</div>
+<div class="space-y-space-2xs font-body-sm text-body-sm text-on-surface-variant">
+<p class="leading-relaxed">
+<strong>Consejo de visita:</strong> Si vas a acudir a la oficina central de Tabacalera sin cita previa sólo se atienden urgencias debidamente acreditadas de violencia de género o requerimientos judiciales inmediatos.
+            </p>
+</div>
+<div class="pt-space-xs">
+<a class="w-full inline-flex items-center justify-center gap-space-2xs bg-primary text-on-primary py-space-xs rounded font-label-md text-label-md hover:bg-primary-container transition-colors" href="https://www.valencia.es/citaprevia" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+<span>Pedir cita en estas oficinas</span>
+</a>
+</div>
+</div>
+<!-- Teléfono de Emergencias y Servicios Municipales -->
+<div class="bg-surface-container-low p-space-md rounded-xl space-y-space-2xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Atención Especializada</span>
+<div class="flex items-center justify-between text-on-surface font-label-md text-label-md pt-space-3xs">
+<span>Policía Local Valencia</span>
+<span class="font-semibold text-primary">092</span>
+</div>
+<div class="flex items-center justify-between text-on-surface font-label-md text-label-md">
+<span>Bomberos de Valencia</span>
+<span class="font-semibold text-primary">080</span>
+</div>
+<div class="flex items-center justify-between text-on-surface font-label-md text-label-md">
+<span>Servicios Sociales Valencia</span>
+<span class="font-semibold text-primary">962 08 22 22</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN CÍVICA FINAL: Declaración de Transparencia de la Ficha -->
+<section class="w-full pt-space-lg pb-space-2xl">
+<div class="bg-surface-container-low p-space-md lg:p-space-lg rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm max-w-reading-max">
+<span class="material-symbols-outlined text-secondary text-[24px] flex-shrink-0 mt-0.5">info</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Esta guía cívica se elabora mediante análisis directo de las ordenanzas fiscales y reguladoras publicadas en el Boletín Oficial de la Provincia de Valencia (BOPV). Si detectas alguna discordancia en los protocolos de atención, puedes reportarla a través del buzón cívico de revisión.
+        </p>
+</div>
+<div class="flex-shrink-0">
+<button class="inline-flex items-center gap-space-2xs text-secondary hover:text-primary font-label-md text-label-md transition-colors">
+<span class="material-symbols-outlined text-[18px]">flag</span>
+<span>Proponer corrección</span>
+</button>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Filtro ligero para los trámites en la ficha municipal
+  document.addEventListener('DOMContentLoaded', () => {
+    const filterButtons = document.querySelectorAll('#procedimiento-filtros button');
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary');
+          b.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+        btn.classList.add('bg-primary', 'text-on-primary');
+        btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+      });
+    });
+  });
+</script></div></main><footer class="w-full bg-surface-container-low shadow-[0_-1px_8px_rgba(0,0,0,0.02)] mt-space-3xl"><div class="max-w-container-max mx-auto px-gutter-mobile lg:px-gutter-desktop py-space-2xl"><div class="grid grid-cols-1 md:grid-cols-12 gap-space-xl pb-space-2xl"><div class="md:col-span-5 space-y-space-sm"><div class="flex items-baseline gap-space-xs"><span class="font-headline-sm text-headline-sm text-primary">RutaTrámite</span><span class="font-label-sm text-label-sm text-on-surface-variant">Archivo Cívico</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-reading-max leading-relaxed">Declaración de independencia: RutaTrámite es una guía cívica abierta y comunitaria. No somos organismo oficial ni gestionamos citas. Verificamos fuentes del BOE y sedes electrónicas para traducir la burocracia a un lenguaje comprensible.</p><div class="pt-space-2xs"><span class="inline-flex items-center gap-space-3xs font-label-sm text-label-sm text-primary"><span class="material-symbols-outlined text-[16px]">verified</span>Verificado con sedes electrónicas oficiales y BOE</span></div></div><div class="md:col-span-3 space-y-space-xs"><div class="font-label-md text-label-md text-on-surface uppercase tracking-wider font-semibold">Auditoría y Fuentes</div><ul class="space-y-space-2xs"><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="metodologia-y-rigor" href="#">Metodología de verificación</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="fuentes-auditadas" href="#">Fuentes oficiales auditadas</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="directorio-sedes" href="#">Directorio de sedes electrónicas</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="glosario-administrativo" href="#">Glosario administrativo sin tecnicismos</a></li></ul></div><div class="md:col-span-4 space-y-space-xs"><div class="font-label-md text-label-md text-on-surface uppercase tracking-wider font-semibold">Compromiso Cívico</div><ul class="space-y-space-2xs"><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="contacto-y-sugerencias" href="#">Contacto y sugerencias ciudadanas</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="declaracion-accesibilidad" href="#">Accesibilidad WCAG AA</a></li></ul><div class="p-space-sm bg-surface-container rounded-lg text-on-surface-variant font-caption text-caption space-y-space-3xs"><div class="font-label-sm text-label-sm text-on-surface flex items-center gap-space-3xs"><span class="material-symbols-outlined text-[16px] text-secondary">shield</span>Privacidad por arquitectura</div><div>Sin inicio de sesión forzado. Cero rastreadores analíticos de terceros. Los datos de simulación permanecen exclusivamente en tu navegador.</div></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-sm font-caption text-caption text-outline"><p>© 2024 RutaTrámite. Divulgación ciudadana y documentación administrativa de libre acceso.</p><p>Edición continua actualizada conforme al Boletín Oficial del Estado.</p></div></div></footer></body></html>
