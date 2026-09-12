@@ -57,7 +57,7 @@ Cambios de peso:
 Notas de **este** build de laboratorio (`next build` + `next start`, no CrUX):
 
 - First Load JS compartido: 103 kB; portada: 115 kB (chunk de página ~1.1 kB).
-- HTML de `/` medido en el servidor local de verificación: bajó de ~262 kB (índice embebido en el payload RSC) al quitar ese índice. Recalcular tras el deploy; no son Core Web Vitals de campo.
+- HTML de `/` en `next start` / standalone de **este** PR: ~60 kB con texto SSR (H1, respuesta, preguntas del asistente). La misma portada con el índice municipal embebido en el payload RSC medía ~262 kB en el build intermedio de esta rama. No son Core Web Vitals de campo.
 
 Medir después del deploy: PageSpeed / Lighthouse de laboratorio sobre `https://rutatramite.com/`. No atribuir un LCP de laboratorio a IndexNow ni a `llms.txt`.
 
