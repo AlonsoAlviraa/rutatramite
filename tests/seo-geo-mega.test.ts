@@ -5,7 +5,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
 import robots from "@/app/robots";
 import HomePage from "@/app/page";
-import { BuscarView } from "@/app/buscar/page";
+import { BuscarView } from "@/components/ui/BuscarView";
 import { GET as llmsFull } from "@/app/llms-full.txt/route";
 import { GET as aiSummary } from "@/app/ai/summary.json/route";
 import { GET as aiFaq } from "@/app/ai/faq.json/route";
