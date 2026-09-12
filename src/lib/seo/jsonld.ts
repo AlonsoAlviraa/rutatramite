@@ -1,4 +1,4 @@
-import { PRODUCT_NAME, SITE_ORIGIN } from "@/lib/types";
+import { CONTACT_EMAIL, PRODUCT_NAME, SITE_ORIGIN } from "@/lib/types";
 import { absoluteUrl } from "@/lib/geo/paths";
 import type { Guide } from "@/lib/tramites/types";
 
@@ -25,6 +25,14 @@ export function organizationJsonLd() {
       "trámites familiares",
       "modelos de escritos",
     ],
+    publishingPrinciples: `${SITE_ORIGIN}/metodologia`,
+    email: CONTACT_EMAIL,
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: CONTACT_EMAIL,
+      contactType: "editorial",
+      availableLanguage: "Spanish",
+    },
   };
 }
 
@@ -36,6 +44,14 @@ export function websiteJsonLd() {
     url: SITE_ORIGIN,
     inLanguage: "es-ES",
     publisher: { "@type": "Organization", name: PRODUCT_NAME, url: SITE_ORIGIN },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE_ORIGIN}/buscar?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
   };
 }
 

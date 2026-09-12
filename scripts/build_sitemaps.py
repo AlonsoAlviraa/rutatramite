@@ -233,6 +233,11 @@ CORE = [
 ]
 
 
+# Known editorial dates (do not stamp "today" on a sitemap regen).
+HUB_LASTMOD = "2026-09-07"
+PILAR_LASTMOD = "2026-09-03"
+
+
 def url_entry(path: str, lastmod: str | None = None) -> str:
     loc = escape(f"{ORIGIN}{path}")
     modified = f"<lastmod>{escape(lastmod)}</lastmod>" if lastmod else ""
@@ -252,8 +257,11 @@ def main() -> None:
     PUBLIC.mkdir(exist_ok=True)
     index = load_best_index()
     terr = json.loads(TERR.read_text(encoding="utf-8"))
-    # Do not label a sitemap regeneration as a content review.
-    entries = [url_entry(p) for p in CORE]
+    # Hubs and legal first, then the rest of CORE. Do not stamp regen time as lastmod.
+    entries = [
+        url_entry(p, PILAR_LASTMOD if p == "/empadronarse" else HUB_LASTMOD)
+        for p in CORE
+    ]
     for c in terr["ccaa"]:
         entries.append(url_entry(f"/empadronarse/{c['slug']}"))
         for code in c["province_codes"]:

@@ -4,9 +4,11 @@ import { JsonLd } from "@/components/empadronamiento/JsonLd";
 import { Wizard } from "@/components/empadronamiento/Wizard";
 import { PackCard } from "@/components/ui/PackCard";
 import { PageShell } from "@/components/ui/PageShell";
+import { GeoLead } from "@/components/ui/GeoLead";
 import { buildPilarModel } from "@/lib/pilar/content";
 import type { MunicipioIndexEntry } from "@/lib/types";
 import { LAST_VERIFIED } from "@/lib/tramites/facts";
+import { slimClientIndex } from "@/lib/wizard/clientIndex";
 
 export function PilarArticle({
   index,
@@ -58,12 +60,12 @@ export function PilarArticle({
       <p className="mt-2 text-sm text-ink/70">
         Actualizado <time dateTime={LAST_VERIFIED}>{LAST_VERIFIED}</time>
       </p>
-      <p className="mt-4 text-lg leading-relaxed">{model.lead}</p>
+      <GeoLead>{model.lead}</GeoLead>
 
       {includeWizard ? (
         <section className="wizard-panel mt-8" data-wizard-embed="">
           <h2 className="font-display text-2xl">Asistente: qué caso soy y en qué municipio</h2>
-          <Wizard index={index} />
+          <Wizard index={slimClientIndex(index)} />
         </section>
       ) : (
         <section className="mt-8" data-wizard-embed="">

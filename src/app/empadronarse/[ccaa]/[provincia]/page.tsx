@@ -31,9 +31,11 @@ export async function generateMetadata({
   const c = ccaaBySlug(ccaa);
   const p = Object.values(t.provinces).find((x) => x.slug === provincia);
   if (!c || !p) return {};
+  const municipios = loadIndex().filter((m) => m.ccaa_slug === c.slug && m.province_slug === p.slug);
+  const model = buildProvinciaHub(p.name, c.name, municipios);
   return pageMetadata({
-    title: `Empadronarse en ${p.name}: documentos, cita y sede 2026`,
-    description: `Municipios ≥10.000 de ${p.name} (${c.name}). El padrón es de cada ayuntamiento. Alta gratuita. RutaTrámite no es Administración.`,
+    title: model.title,
+    description: model.description,
     path: `/empadronarse/${c.slug}/${p.slug}`,
     type: "article",
     modified: "2026-09-07",

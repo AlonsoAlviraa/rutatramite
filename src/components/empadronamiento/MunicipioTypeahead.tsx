@@ -2,15 +2,15 @@
 
 import MiniSearch from "minisearch";
 import { useId, useMemo, useState } from "react";
-import type { MunicipioIndexEntry } from "@/lib/types";
+import type { ClientMunicipio } from "@/lib/wizard/clientIndex";
 
 type Props = {
-  index: MunicipioIndexEntry[];
+  index: ClientMunicipio[];
   value: string | null;
   onChange: (ine: string | null) => void;
 };
 
-type Hit = MunicipioIndexEntry & { id?: string };
+type Hit = ClientMunicipio & { id?: string };
 
 export function MunicipioTypeahead({ index, value, onChange }: Props) {
   const inputId = useId();
@@ -19,9 +19,9 @@ export function MunicipioTypeahead({ index, value, onChange }: Props) {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
   const mini = useMemo(() => {
-    const ms = new MiniSearch<MunicipioIndexEntry>({
+    const ms = new MiniSearch<ClientMunicipio>({
       fields: ["name", "province_name", "ccaa_name", "ine_code"],
-      storeFields: ["ine_code", "name", "province_name", "path", "poblacion"],
+      storeFields: ["ine_code", "name", "province_name", "path"],
       idField: "ine_code",
       searchOptions: { prefix: true, fuzzy: 0.2 },
     });

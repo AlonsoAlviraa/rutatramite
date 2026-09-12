@@ -5,7 +5,8 @@ import { MunicipioTypeahead } from "@/components/empadronamiento/MunicipioTypeah
 import { OfficialCta } from "@/components/empadronamiento/OfficialCta";
 import { RadioOption } from "@/components/ui/RadioOption";
 import { runWizard } from "@/lib/wizard/engine";
-import type { Housing, MunicipioIndexEntry, Nacionalidad, Tramite, WizardAnswers } from "@/lib/types";
+import type { ClientMunicipio } from "@/lib/wizard/clientIndex";
+import type { Housing, Nacionalidad, Tramite, WizardAnswers } from "@/lib/types";
 import { WIZARD_QUESTIONS } from "@/lib/types";
 import { escenarioPath } from "@/lib/geo/paths";
 
@@ -18,7 +19,7 @@ const empty: WizardAnswers = {
   tramite: null,
 };
 
-export function Wizard({ index }: { index: MunicipioIndexEntry[] }) {
+export function Wizard({ index }: { index: ClientMunicipio[] }) {
   const [answers, setAnswers] = useState<WizardAnswers>(empty);
   const [copied, setCopied] = useState(false);
   const [copyError, setCopyError] = useState(false);

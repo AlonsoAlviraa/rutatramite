@@ -3,6 +3,7 @@ import { JsonLd } from "@/components/empadronamiento/JsonLd";
 import { OfficialCta } from "@/components/empadronamiento/OfficialCta";
 import { PageShell } from "@/components/ui/PageShell";
 import { ModelBlock } from "@/components/tramites/ModelBlock";
+import { GeoLead } from "@/components/ui/GeoLead";
 import { articleJsonLd, guideFaqs, guideFaqJsonLd } from "@/lib/seo/jsonld";
 import { DISCLAIMER_CITA, LAST_VERIFIED } from "@/lib/tramites/facts";
 import { PACK_INDEX_PATH, type Guide } from "@/lib/tramites/types";
@@ -31,7 +32,7 @@ export function GuideView({ guide }: { guide: Guide }) {
       <p className="mt-2 text-sm text-ink/70">
         {guide.reviewedAt ? "Revisión editorial" : "Edición del contenido"} <time dateTime={modified}>{modified}</time>
       </p>
-      <p className="mt-4 text-lg leading-relaxed">{guide.lead}</p>
+      <GeoLead>{guide.lead}</GeoLead>
       <div className="mt-6 flex flex-wrap gap-3">
         <OfficialCta href={guide.cta.href} label={guide.cta.label} />
         {guide.secondaryCta ? (

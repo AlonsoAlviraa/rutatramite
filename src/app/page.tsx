@@ -4,9 +4,11 @@ import { Disclaimer } from "@/components/empadronamiento/Disclaimer";
 import { PackCard } from "@/components/ui/PackCard";
 import { PageShell } from "@/components/ui/PageShell";
 import { DirectorySearch } from "@/components/ui/DirectorySearch";
-import { ALL_GUIDES } from "@/lib/tramites/catalog";
+import { GeoLead } from "@/components/ui/GeoLead";
 import { loadIndex } from "@/lib/data/load";
 import { pageMetadata } from "@/lib/seo/meta";
+import { guideSearchEntries } from "@/lib/seo/siteSearch";
+import { slimClientIndex } from "@/lib/wizard/clientIndex";
 import { ESCENARIO_LABELS, WIZARD_QUESTIONS } from "@/lib/types";
 
 export const metadata: Metadata = pageMetadata({
@@ -72,20 +74,24 @@ const PACKS = [
 const CASOS = ["sin-contrato", "con-contrato", "extranjeros-no-ue", "volante-vs-certificado"] as const;
 
 export default function HomePage() {
-  const index = loadIndex();
+  const wizardIndex = slimClientIndex(loadIndex());
   return (
     <PageShell wide>
       <section className="rt-hero">
         <h1 className="hero-title font-display">Guías para hacer tus trámites en España</h1>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed">
-          Consulta los requisitos, prepara los documentos y accede a la sede oficial.
-          RutaTrámite es una guía independiente de la Administración.
-        </p>
-        <DirectorySearch entries={[
-          ...ALL_GUIDES.map((g) => ({ title: g.h1, href: g.path, category: "Guía de trámite" })),
-          ...index.map((m) => ({ title: `Empadronarse en ${m.name}`, href: m.path, category: m.province_name })),
-        ]} />
-        <div className="home-shortcuts"><span>Acceso directo</span><a href="/dni/cita-previa">Pedir cita para el DNI</a><a href="/empadronarse">Empadronarse</a><a href="/becas">Consultar becas</a></div>
+        <GeoLead>
+          RutaTrámite explica documentos, requisitos y sedes oficiales de trámites en España (padrón, DNI,
+          extranjería, becas y modelos). El trámite se presenta en el organismo responsable, no aquí. El alta en
+          el padrón es gratuita. No somos Administración.
+        </GeoLead>
+        <DirectorySearch entries={guideSearchEntries()} />
+        <div className="home-shortcuts">
+          <span>Acceso directo</span>
+          <a href="/dni/cita-previa">Pedir cita para el DNI</a>
+          <a href="/empadronarse">Empadronarse</a>
+          <a href="/becas">Consultar becas</a>
+          <a href="/buscar">Buscar</a>
+        </div>
       </section>
 
       <section id="tramites" className="mt-12" data-pack-grid="">
@@ -102,11 +108,20 @@ export default function HomePage() {
 
       <section id="asistente" className="mt-12 wizard-panel" data-home-wizard="">
         <div className="assistant-intro">
-        <h2 className="font-display text-2xl text-mossDark">Prepara tu empadronamiento</h2>
-        <p className="mt-3">Responde 6 preguntas para saber qué documentos preparar y dónde continuar.</p>
-        <p className="mt-3 text-sm text-ink/75">No pedimos DNI, dirección ni fotos. Tus respuestas se quedan en tu navegador.</p>
-        <ol className="sr-only">{WIZARD_QUESTIONS.map((q) => <li key={q}>{q}</li>)}</ol></div>
-        <div className="assistant-form"><Wizard index={index} /></div>
+          <h2 className="font-display text-2xl text-mossDark">Prepara tu empadronamiento</h2>
+          <p className="mt-3">Responde 6 preguntas para saber qué documentos preparar y dónde continuar.</p>
+          <p className="mt-3 text-sm text-ink/75">
+            No pedimos DNI, dirección ni fotos. Tus respuestas se quedan en tu navegador.
+          </p>
+          <ol className="sr-only">
+            {WIZARD_QUESTIONS.map((q) => (
+              <li key={q}>{q}</li>
+            ))}
+          </ol>
+        </div>
+        <div className="assistant-form">
+          <Wizard index={wizardIndex} />
+        </div>
       </section>
 
       <section className="mt-12">
@@ -126,11 +141,15 @@ export default function HomePage() {
       <section className="municipal-directory mt-12">
         <h2 className="font-display text-2xl text-mossDark">Buscar municipio</h2>
         <p className="mt-3 leading-relaxed">
-          Consulta {index.length} fichas municipales, con su estado de verificación. Empieza por la{" "}
+          Consulta {wizardIndex.length} fichas municipales, con su estado de verificación. Empieza por la{" "}
           <a className="font-semibold underline decoration-sand underline-offset-2" href="/empadronarse">
             guía nacional
-          </a>{" "}
-          o escribe el pueblo en el asistente.
+          </a>
+          , escribe el pueblo en el asistente o usa la{" "}
+          <a className="font-semibold underline decoration-sand underline-offset-2" href="/buscar">
+            búsqueda
+          </a>
+          .
         </p>
       </section>
       <Disclaimer className="mt-10" />
