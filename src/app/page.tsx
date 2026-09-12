@@ -83,7 +83,10 @@ export default function HomePage() {
           extranjería, becas y modelos). El trámite se presenta en el organismo responsable, no aquí. El alta en
           el padrón es gratuita. No somos Administración.
         </GeoLead>
-        <DirectorySearch entries={guideSearchEntries()} />
+        <DirectorySearch
+          entries={guideSearchEntries()}
+          hint="Busca una guía por trámite. Los municipios están en el padrón, el asistente o la búsqueda completa."
+        />
         <div className="home-shortcuts">
           <span>Acceso directo</span>
           <a href="/dni/cita-previa">Pedir cita para el DNI</a>
