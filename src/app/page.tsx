@@ -8,7 +8,6 @@ import { GeoLead } from "@/components/ui/GeoLead";
 import { loadIndex } from "@/lib/data/load";
 import { pageMetadata } from "@/lib/seo/meta";
 import { guideSearchEntries } from "@/lib/seo/siteSearch";
-import { slimClientIndex } from "@/lib/wizard/clientIndex";
 import { ESCENARIO_LABELS, WIZARD_QUESTIONS } from "@/lib/types";
 
 export const metadata: Metadata = pageMetadata({
@@ -74,7 +73,7 @@ const PACKS = [
 const CASOS = ["sin-contrato", "con-contrato", "extranjeros-no-ue", "volante-vs-certificado"] as const;
 
 export default function HomePage() {
-  const wizardIndex = slimClientIndex(loadIndex());
+  const municipioCount = loadIndex().length;
   return (
     <PageShell wide>
       <section className="rt-hero">
@@ -120,7 +119,7 @@ export default function HomePage() {
           </ol>
         </div>
         <div className="assistant-form">
-          <Wizard index={wizardIndex} />
+          <Wizard />
         </div>
       </section>
 
@@ -141,7 +140,7 @@ export default function HomePage() {
       <section className="municipal-directory mt-12">
         <h2 className="font-display text-2xl text-mossDark">Buscar municipio</h2>
         <p className="mt-3 leading-relaxed">
-          Consulta {wizardIndex.length} fichas municipales, con su estado de verificación. Empieza por la{" "}
+          Consulta {municipioCount} fichas municipales, con su estado de verificación. Empieza por la{" "}
           <a className="font-semibold underline decoration-sand underline-offset-2" href="/empadronarse">
             guía nacional
           </a>

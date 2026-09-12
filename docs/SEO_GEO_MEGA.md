@@ -50,12 +50,16 @@ No hay cifras de CrUX/Lighthouse de campo en este PR; no se inventan.
 Cambios de peso:
 
 - El buscador de portada ya **no** serializa las 769 fichas municipales al cliente. Solo las guías. Municipios: `/empadronarse`, asistente o `/buscar` (SSR).
-- El asistente recibe un índice recortado (`slimClientIndex`: ine, nombre, path, sede, docs).
+- El asistente **no** embebe el índice en el HTML: lo pide a `/api/municipios-index` (noindex) después de pintar el texto. Las 6 preguntas siguen en HTML (`sr-only` + formulario).
 - El buscador es un `<form action="/buscar">`: el HTML sirve sin JS.
 - `next/font` (Public Sans + Newsreader, `display: swap`) se mantiene. No hay LCP de imagen en portada; no se marca `priority` en ningún `next/image` inventado.
-- El asistente sigue en HTML (preguntas en texto) para que el crawl no dependa de hidratar un wizard vacío.
 
-Medir después del deploy: PageSpeed / Lighthouse de laboratorio sobre `https://rutatramite.com/`. Comparar peso de HTML y JS de portada con el build anterior; no atribuir un LCP de laboratorio a IndexNow ni a `llms.txt`.
+Notas de **este** build de laboratorio (`next build` + `next start`, no CrUX):
+
+- First Load JS compartido: 103 kB; portada: 115 kB (chunk de página ~1.1 kB).
+- HTML de `/` medido en el servidor local de verificación: bajó de ~262 kB (índice embebido en el payload RSC) al quitar ese índice. Recalcular tras el deploy; no son Core Web Vitals de campo.
+
+Medir después del deploy: PageSpeed / Lighthouse de laboratorio sobre `https://rutatramite.com/`. No atribuir un LCP de laboratorio a IndexNow ni a `llms.txt`.
 
 ## E) Capa de datos SEO
 

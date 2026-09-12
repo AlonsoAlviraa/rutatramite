@@ -8,7 +8,6 @@ import { GeoLead } from "@/components/ui/GeoLead";
 import { buildPilarModel } from "@/lib/pilar/content";
 import type { MunicipioIndexEntry } from "@/lib/types";
 import { LAST_VERIFIED } from "@/lib/tramites/facts";
-import { slimClientIndex } from "@/lib/wizard/clientIndex";
 
 export function PilarArticle({
   index,
@@ -65,7 +64,7 @@ export function PilarArticle({
       {includeWizard ? (
         <section className="wizard-panel mt-8" data-wizard-embed="">
           <h2 className="font-display text-2xl">Asistente: qué caso soy y en qué municipio</h2>
-          <Wizard index={slimClientIndex(index)} />
+          <Wizard />
         </section>
       ) : (
         <section className="mt-8" data-wizard-embed="">

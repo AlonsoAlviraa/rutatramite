@@ -1,11 +1,12 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { MunicipioTypeahead } from "@/components/empadronamiento/MunicipioTypeahead";
 import { OfficialCta } from "@/components/empadronamiento/OfficialCta";
 import { RadioOption } from "@/components/ui/RadioOption";
 import { runWizard } from "@/lib/wizard/engine";
 import type { ClientMunicipio } from "@/lib/wizard/clientIndex";
+import { loadRemoteClientIndex } from "@/lib/wizard/loadClientIndex";
 import type { Housing, Nacionalidad, Tramite, WizardAnswers } from "@/lib/types";
 import { WIZARD_QUESTIONS } from "@/lib/types";
 import { escenarioPath } from "@/lib/geo/paths";
@@ -19,15 +20,32 @@ const empty: WizardAnswers = {
   tramite: null,
 };
 
-export function Wizard({ index }: { index: ClientMunicipio[] }) {
+export function Wizard({ index }: { index?: ClientMunicipio[] }) {
+  const seeded = index && index.length > 0 ? index : null;
+  const [remote, setRemote] = useState<ClientMunicipio[] | null>(seeded);
+  useEffect(() => {
+    if (seeded) return;
+    let cancelled = false;
+    loadRemoteClientIndex()
+      .then((rows) => {
+        if (!cancelled) setRemote(rows);
+      })
+      .catch(() => {
+        if (!cancelled) setRemote([]);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [seeded]);
+  const rows = remote ?? [];
   const [answers, setAnswers] = useState<WizardAnswers>(empty);
   const [copied, setCopied] = useState(false);
   const [copyError, setCopyError] = useState(false);
   const [step, setStep] = useState(0);
   const panel = useRef<HTMLFormElement>(null);
   const municipio = useMemo(
-    () => index.find((m) => m.ine_code === answers.ineCode) ?? null,
-    [index, answers.ineCode],
+    () => rows.find((m) => m.ine_code === answers.ineCode) ?? null,
+    [rows, answers.ineCode],
   );
   const ready =
     answers.ineCode &&
@@ -82,7 +100,7 @@ export function Wizard({ index }: { index: ClientMunicipio[] }) {
 
       <div hidden={step !== 0}>
       <MunicipioTypeahead
-        index={index}
+        index={rows}
         value={answers.ineCode}
         onChange={(ine) => setAnswers((a) => ({ ...a, ineCode: ine }))}
       />

@@ -9,6 +9,7 @@ import { BuscarView } from "@/components/ui/BuscarView";
 import { GET as llmsFull } from "@/app/llms-full.txt/route";
 import { GET as aiSummary } from "@/app/ai/summary.json/route";
 import { GET as aiFaq } from "@/app/ai/faq.json/route";
+import { GET as municipiosIndex } from "@/app/api/municipios-index/route";
 import { SEARCH_CITATION_BOTS } from "@/lib/seo/crawlers";
 import { localeAlternates } from "@/lib/seo/hreflang";
 import {
@@ -127,6 +128,14 @@ describe("SEO+GEO mega contracts", () => {
     expect(slim[0]).toHaveProperty("ine_code");
     expect(slim[0]).not.toHaveProperty("oleada");
     expect(slim[0]).not.toHaveProperty("min_words");
+  });
+
+  it("wizard municipio index is a noindex JSON endpoint, not home HTML", async () => {
+    const res = await municipiosIndex();
+    expect(res.headers.get("x-robots-tag")).toMatch(/noindex/i);
+    const rows = (await res.json()) as { ine_code: string; path: string }[];
+    expect(rows.length).toBe(loadIndex().length);
+    expect(rows.some((r) => r.path.includes("/madrid/madrid"))).toBe(true);
   });
 
   it("CCAA hub leads with a citable answer and breadcrumbs", () => {
