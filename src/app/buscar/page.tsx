@@ -11,13 +11,7 @@ export const metadata: Metadata = pageMetadata({
   index: false,
 });
 
-export default async function BuscarPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ q?: string }>;
-}) {
-  const { q = "" } = await searchParams;
-  const query = q.trim();
+export function BuscarView({ query }: { query: string }) {
   const results = query ? searchSite(query, 25) : [];
   return (
     <PageShell>
@@ -64,4 +58,13 @@ export default async function BuscarPage({
       </p>
     </PageShell>
   );
+}
+
+export default async function BuscarPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
+  const { q = "" } = await searchParams;
+  return <BuscarView query={q.trim()} />;
 }

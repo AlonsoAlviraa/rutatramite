@@ -30,7 +30,7 @@ const STATIC_HUBS = [
 ] as const;
 
 function loc(path: string): string {
-  return `${SITE_ORIGIN}${path === "/" ? "" : path}`;
+  return path === "/" ? `${SITE_ORIGIN}/` : `${SITE_ORIGIN}${path}`;
 }
 
 export function buildSitemapEntries(): MetadataRoute.Sitemap {

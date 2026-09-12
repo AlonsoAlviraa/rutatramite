@@ -5,7 +5,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
 import robots from "@/app/robots";
 import HomePage from "@/app/page";
-import BuscarPage from "@/app/buscar/page";
+import { BuscarView } from "@/app/buscar/page";
 import { GET as llmsFull } from "@/app/llms-full.txt/route";
 import { GET as aiSummary } from "@/app/ai/summary.json/route";
 import { GET as aiFaq } from "@/app/ai/faq.json/route";
@@ -140,9 +140,7 @@ describe("SEO+GEO mega contracts", () => {
   it("server search finds DNI and Madrid without client JS", async () => {
     expect(searchSite("dni cita").some((h) => h.href.includes("/dni"))).toBe(true);
     expect(searchSite("madrid").some((h) => h.href.includes("/madrid/madrid"))).toBe(true);
-    const html = renderToStaticMarkup(
-      createElement(await BuscarPage({ searchParams: Promise.resolve({ q: "dni" }) })),
-    );
+    const html = renderToStaticMarkup(createElement(BuscarView, { query: "dni" }));
     expect(html).toContain("/dni");
     expect(html).toContain("data-geo-lead");
   });
