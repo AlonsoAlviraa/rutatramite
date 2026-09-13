@@ -1,11 +1,19 @@
 import { Breadcrumbs } from "@/components/empadronamiento/Breadcrumbs";
 import { Disclaimer } from "@/components/empadronamiento/Disclaimer";
 import { JsonLd } from "@/components/empadronamiento/JsonLd";
+import { GeoLead } from "@/components/ui/GeoLead";
 import { PageShell } from "@/components/ui/PageShell";
 import { DirectorySearch } from "@/components/ui/DirectorySearch";
 import type { HubModel } from "@/lib/hub/buildHub";
 import { ccaaPath, provinciaPath } from "@/lib/geo/paths";
 import { articleJsonLd } from "@/lib/seo/jsonld";
+
+const RELATED_ESCENARIOS = [
+  { href: "/empadronarse/sin-contrato", label: "Sin contrato" },
+  { href: "/empadronarse/con-contrato", label: "Con contrato" },
+  { href: "/empadronarse/volante-vs-certificado", label: "Volante y certificado" },
+  { href: "/empadronarse/extranjeros-no-ue", label: "Extranjeros no comunitarios" },
+] as const;
 
 export function HubView({
   model,
@@ -43,8 +51,13 @@ export function HubView({
       <p className="mt-2 text-sm text-ink/70">
         Actualizado <time dateTime={dateModified}>{dateModified}</time>
       </p>
-      <p className="mt-4 text-lg leading-relaxed">{model.lead}</p>
-      <DirectorySearch label="Buscar municipio" placeholder="Escribe el nombre del municipio" hint="Busca entre los municipios de este listado." entries={model.municipios.map((m) => ({title: m.name, href: m.path, category: "Ficha de empadronamiento"}))} />
+      <GeoLead>{model.lead}</GeoLead>
+      <DirectorySearch
+        label="Buscar municipio"
+        placeholder="Escribe el nombre del municipio"
+        hint="Busca entre los municipios de este listado."
+        entries={model.municipios.map((m) => ({ title: m.name, href: m.path, category: "Ficha de empadronamiento" }))}
+      />
       {model.paragraphs.map((p, i) => (
         <p key={i} className="mt-4 leading-relaxed">
           {p}
@@ -83,6 +96,16 @@ export function HubView({
           </ul>
         </>
       ) : null}
+      <h2 className="mt-10 font-display text-2xl text-mossDark">Situaciones frecuentes</h2>
+      <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-sm">
+        {RELATED_ESCENARIOS.map((item) => (
+          <li key={item.href}>
+            <a className="underline underline-offset-4" href={item.href}>
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
       <p className="mt-6 text-sm">
         <a className="font-semibold underline decoration-sand underline-offset-2" href="/empadronarse">
           Guía nacional de empadronarse

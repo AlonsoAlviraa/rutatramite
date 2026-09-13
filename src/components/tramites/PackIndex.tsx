@@ -3,6 +3,7 @@ import { Disclaimer } from "@/components/empadronamiento/Disclaimer";
 import { PackCard } from "@/components/ui/PackCard";
 import { PageShell } from "@/components/ui/PageShell";
 import { DirectorySearch } from "@/components/ui/DirectorySearch";
+import { GeoLead } from "@/components/ui/GeoLead";
 import { guidesByPack } from "@/lib/tramites/catalog";
 import { DISCLAIMER_GENERICO } from "@/lib/tramites/facts";
 import { PACK_INDEX_PATH, type GuidePack } from "@/lib/tramites/types";
@@ -64,7 +65,7 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
         ]}
       />
       <h1 className="mt-2 font-display text-4xl text-mossDark">{t.h1}</h1>
-      <p className="mt-4 text-lg leading-relaxed">{t.lead}</p>
+      <GeoLead>{t.lead}</GeoLead>
       <DirectorySearch label="Buscar en esta categoría" placeholder="Escribe el trámite o documento" hint={`Busca entre las ${guides.length} guías de esta categoría.`} entries={guides.map((g) => ({ title: g.h1, href: g.path, category: t.h1 }))} />
       <div className="topic-directory" data-pack-grid="">
         {guides.map((g) => (
@@ -89,6 +90,25 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
           Las guías pueden describir convocatorias cerradas. Revisa el año académico y los avisos del organismo antes de presentar una solicitud.
         </p>
       ) : null}
+      <p className="mt-8 text-sm">
+        Otras categorías:{" "}
+        <a className="underline decoration-sand underline-offset-2" href="/empadronarse">
+          padrón
+        </a>
+        {" · "}
+        <a className="underline decoration-sand underline-offset-2" href="/dni">
+          DNI
+        </a>
+        {" · "}
+        <a className="underline decoration-sand underline-offset-2" href="/extranjeria">
+          extranjería
+        </a>
+        {" · "}
+        <a className="underline decoration-sand underline-offset-2" href="/modelos">
+          modelos
+        </a>
+        .
+      </p>
       <footer className="mt-12 border-t border-sand pt-6">
         <Disclaimer text={DISCLAIMER_GENERICO} />
       </footer>

@@ -5,6 +5,7 @@ import { JsonLd } from "@/components/empadronamiento/JsonLd";
 import { SiteFooter } from "@/components/empadronamiento/SiteFooter";
 import { SiteHeader } from "@/components/empadronamiento/SiteHeader";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo/jsonld";
+import { localeAlternates } from "@/lib/seo/hreflang";
 import { PRODUCT_NAME, SITE_ORIGIN } from "@/lib/types";
 import messages from "../../messages/es.json";
 import "./globals.css";
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
   category: "reference",
   alternates: {
     canonical: SITE_ORIGIN,
-    languages: { es: SITE_ORIGIN },
+    languages: localeAlternates(SITE_ORIGIN),
   },
   openGraph: {
     type: "website",

@@ -38,6 +38,7 @@ a:hover { color:var(--moss-dark); }
 .rt-hero { padding:.5rem 0 2.5rem; max-width:850px; }
 .rt-hero .hero-title { max-width:740px; }
 .rt-hero > p { max-width:65ch; font-size:1rem; line-height:1.7; }
+.geo-lead,[data-geo-lead] { max-width:65ch; }
 .directory-search { margin-top:1.5rem; max-width:850px; position:relative; }
 .directory-search label { display:block; font-size:.9rem; font-weight:600; margin-bottom:.5rem; }
 .search-field { display:flex; gap:.75rem; align-items:center; background:#fff; border:1px solid #768279; border-radius:4px; padding:.25rem 1rem; }

@@ -1,0 +1,9 @@
+# AI discovery — RutaTrámite
+contact: mailto:hola@rutatramite.com
+llms: https://rutatramite.com/llms.txt
+llms-full: https://rutatramite.com/llms-full.txt
+sitemap: https://rutatramite.com/sitemap.xml
+summary: https://rutatramite.com/ai/summary.json
+faq: https://rutatramite.com/ai/faq.json
+language: es-ES
+publisher: RutaTrámite (guía ciudadana independiente; no es Administración Pública)

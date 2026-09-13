@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { Municipio } from "@/lib/types";
 import { PRODUCT_NAME, SITE_ORIGIN } from "@/lib/types";
 import { absoluteUrl } from "@/lib/geo/paths";
+import { localeAlternates } from "@/lib/seo/hreflang";
 import { isFichaIndexable } from "@/lib/seo/localSignals";
 
 export function clipMeta(text: string, max = 158): string {
@@ -46,7 +47,7 @@ export function pageMetadata(opts: {
     title: opts.title,
     description,
     ...(opts.keywords !== undefined ? { keywords: opts.keywords } : {}),
-    alternates: { canonical: url, languages: { es: url } },
+    alternates: { canonical: url, languages: localeAlternates(url) },
     robots: index ? { index: true, follow: true } : { index: false, follow: true },
     openGraph: {
       type: opts.type ?? "website",
