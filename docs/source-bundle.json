@@ -1,9 +1,15 @@
 {
-  "archive": "C:\\Users\\Mariano\\AppData\\Local\\Temp\\rutatramite-source-5w31jzoq\\source.tar.gz",
-  "sha256": "67e5aa1bfa3c15b75e8bdef7c961fb10691c9f233580854c74b8f600e5c37e1e",
-  "bytes": 829121,
+  "archive": "/opt/cursor/artifacts/rutatramite-source-c4976d3.tar.gz",
+  "sha256": "e92224962ba3d92f46527b87e2e48839b1d7d6875d39ee56c35d4cabc813ab0b",
+  "bytes": 831187,
+  "git_sha": "c4976d3bee50997e7fbde6305da2e17999229f75",
+  "artifact_filename": "rutatramite-source-c4976d3.tar.gz",
+  "sha256_file": "/opt/cursor/artifacts/rutatramite-source-c4976d3.tar.gz.sha256",
+  "pack_source_tmp": "/tmp/rutatramite-source-xpf8zir9/source.tar.gz",
+  "produced_by": "scripts/pack_source.py",
   "source_inputs": {
-    "files": 925,
-    "sha256": "a70eccfb2b3554f2016573af7a9b3bc95343eefd24cb0ecde35f6069ffe428ea"
-  }
+    "files": 944,
+    "sha256": "cf77696b1582c1e5a004e4973bb773fdbb09d77ef05ee02ac80ffa0778f11b7e"
+  },
+  "pr2_deploy_now_merged": false
 }
