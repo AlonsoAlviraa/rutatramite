@@ -54,6 +54,7 @@ for repo in ['rutatramite','visionsetil']:
         script += f"\ndef job = j.getItem({json.dumps(name)}) ?: j.createProject(WorkflowJob, {json.dumps(name)})\n".replace('def job','job' if 'job =' in script else 'def job')
         encoded = base64.b64encode(pipeline.encode()).decode()
         script += "job.setDefinition(new CpsFlowDefinition(new String('"+encoded+"'.decodeBase64(), 'UTF-8'), true))\n"
+        script += "job.addProperty(new ParametersDefinitionProperty(new StringParameterDefinition('SHA','','Commit exacto'), new StringParameterDefinition('BASE_SHA','','Base de la propuesta'), new ChoiceParameterDefinition('SOURCE',['github','local'] as String[],'Origen del código')))\n"
         script += "job.addProperty(new BuildDiscarderProperty(new LogRotator(30,-1,30,-1)))\njob.save()\n"
 script += "j.save(); println('Configured 6 isolated checking jobs; Actions unchanged.')\n"
 (ROOT/'migration/provision-jobs.json').write_text(json.dumps({'path':'scriptText','data':{'script':script}}))

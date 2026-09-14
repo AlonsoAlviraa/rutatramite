@@ -21,5 +21,7 @@ for repo in ['rutatramite','visionsetil']:
         encoded=base64.b64encode(pipeline.encode()).decode()
         variable='job'+repo+action
         script+=f"def {variable}=j.getItem('{name}') ?: j.createProject(org.jenkinsci.plugins.workflow.job.WorkflowJob,'{name}'); {variable}.setDefinition(new org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition(new String('{encoded}'.decodeBase64(),'UTF-8'),true)); {variable}.save();\n"
+        if action=='publish':
+            script+=f"{variable}.addProperty(new hudson.model.ParametersDefinitionProperty(new hudson.model.StringParameterDefinition('BUILD_NUMBER_TO_PUBLISH','','Build aprobado'),new hudson.model.ChoiceParameterDefinition('ACTION',['preview','publish'] as String[],'Operación manual'))); {variable}.save();\n"
 script+="println('Four manual publication/recovery jobs configured; no deployment executed.')"
 Path('C:/Users/Mariano/CI/migration/manual-setup.json').write_text(json.dumps({'path':'scriptText','data':{'script':script}}))
