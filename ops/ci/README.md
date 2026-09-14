@@ -1,0 +1,80 @@
+# CI privada: RutaTrámite y VisionSetil
+
+Estado: migración en validación; GitHub Actions todavía habilitado. No activar el corte hasta completar la lista de aceptación de este documento.
+
+GitHub conserva código y propuestas. Jenkins vive en el VPS existente, en <https://ci.rutatramite.com/>, y los trabajos pesados se ejecutan en contenedores Linux del PC Windows. No se ha contratado ningún servicio adicional. El PC necesita estar encendido y con la sesión de Mariano iniciada; si no está disponible los trabajos esperan. Publicar, revertir, cambiar Caddy y generar Android son operaciones manuales. No se sube automáticamente a Google Play.
+
+## Componentes instalados
+
+| Componente | Configuración |
+| --- | --- |
+| Controlador | Jenkins 2.568.3, Java 21, cero ejecutores, máximo 1.5 GiB y una CPU |
+| Acceso | HTTPS privado, registro deshabilitado, sin lectura anónima, noindex |
+| Windows | `windows-ci`, un ejecutor, WebSocket, tarea `RutaCI-Agent` al iniciar sesión |
+| Trabajo pesado | Docker, seis CPU, 6 GiB, reserva previa de 8 GiB de RAM libre y 20 GiB de disco |
+| Comprobaciones ligeras | `vps-probe`, usuario sin sudo, 512 MiB, media CPU; Node 22/Python 3.12 del VPS |
+| Eventos | Firma HMAC-SHA256, dos repositorios permitidos, SHA exacto, propuestas del mismo repositorio |
+| GitHub App | `RutaTramite VisionSetil CI`, App 4945898, instalación 161748368 |
+| Permisos App | Código/metadatos/PR de lectura, estados de commit de escritura |
+| Retención | Logs y resultados 30 días; paquetes publicados, AAB y recibos en archivo independiente |
+| Recuperación | Copia diaria 03:30 UTC, siete copias VPS; copia al PC a las 07:00 y al iniciar sesión |
+
+Las versiones de imágenes, dependencias Windows y plugins están en los archivos `*.lock.*`. El controlador ejecuta definiciones administradas; no ejecuta Jenkinsfiles aportados por una propuesta. Los contenedores de prueba no reciben el socket Docker, el perfil del usuario ni las credenciales de GitHub. Android recibe la firma únicamente para el SHA actual de main; comprueba además la huella del certificado histórico.
+
+## Equivalencia con Actions
+
+| Workflow anterior de VisionSetil | Sustitución |
+| --- | --- |
+| `ci.yml` | `visionsetil-pr`, `visionsetil-full` |
+| `deploy-frontend-production.yml` | `visionsetil-publish`, paquete de una ejecución completa aprobada |
+| `mobile-android-release.yml` | `visionsetil-android`, AAB firmado conservado en el PC |
+| `mobile-ios-smoke.yml` | Pendiente de Mac; no se declara compilación iOS en Windows |
+| `production-journeys.yml` | `visionsetil-journeys`, navegadores en el PC |
+| `production-operational-probe.yml` | `visionsetil-operational`, VPS |
+| `species-index-join-nightly.yml` | `visionsetil-species`, VPS; informe, no garantía de cobertura |
+| `reload-caddy-manifest-mime.yml` | `visionsetil-caddy`, manual, con comprobaciones y restauración |
+
+RutaTrámite añade `rutatramite-pr`, `rutatramite-full`, `rutatramite-publish` y `rutatramite-rollback`. Los temporizadores existentes de Search Console y crecimiento siguen independientes. Los horarios nuevos de comprobación aún están desactivados para evitar duplicarlos con Actions.
+
+## Uso
+
+1. Para comprobar una propuesta, indicar SHA y BASE_SHA completos. `SOURCE=github` usa la App; `SOURCE=local` queda reservado para validar la migración. Cambios compartidos o una base ausente ejecutan todas las comprobaciones pertinentes.
+2. Antes de publicar, ejecutar `<repositorio>-full` contra el SHA actual de main. El resultado tiene que ser SUCCESS, con todas las etapas aprobadas y paquete SHA256 verificado.
+3. Cuando el usuario pida publicar, abrir `<repositorio>-publish`, indicar el número de esa ejecución y seleccionar la operación. `preview` actualmente extrae y valida el paquete; **todavía no arranca un servidor de previsualización**. `publish` activa exactamente el paquete, comprueba salud y restaura el anterior si falla.
+4. Para revertir, ejecutar `<repositorio>-rollback`; usa el recibo de la última publicación válida. Los trabajos manuales comparten el bloqueo de producción/Caddy.
+5. Para Android, ejecutar `visionsetil-android` con el SHA actual de main. El AAB y la identidad quedan en `C:/Users/Mariano/CI/archive/android`. La subida a Play requiere una operación distinta.
+
+## Rutas y recuperación
+
+El directorio del PC es `C:/Users/Mariano/CI`; el del servidor es `/opt/ruta-ci`. Las credenciales están exclusivamente en sus carpetas privadas `secrets`. La contraseña del panel está en `secrets/jenkins-password` del PC. No pegar contraseñas, PEM, keystore ni copias de recuperación en GitHub o en comentarios.
+
+`ssh_transport.py` carga `secrets/vps.json` y `secrets/known_hosts`: rechaza claves de host desconocidas. Ya no depende de los scripts temporales del proyecto original. En otro PC hay que restaurar estos archivos privados y sus permisos, instalar las dependencias fijadas y ajustar las rutas de las tareas.
+
+`sync_backup.py` descarga una pareja de copias con la misma fecha, valida la extracción segura, las configuraciones XML de todos los trabajos y la presencia de la clave maestra separada. Guarda el recibo en `archive/controller/latest-verified.json`. Esta prueba todavía no acredita el arranque de un controlador restaurado.
+
+Para una recuperación real: detener el controlador, conservar su directorio averiado, restaurar `jenkins` y `config` de la copia de metadatos, restaurar `jenkins-master.key` como `jenkins/secrets/master.key` y las credenciales del paquete privado en `secrets`, restaurar propietarios y permisos, y arrancar Compose desde `/opt/ruta-ci/config`. Reponer los servicios systemd de agente, webhook y copia, y verificar acceso, agentes, eventos y una ejecución de aceptación antes de reactivar horarios. Usar las versiones fijadas del controlador y plugins. Nunca sobreescribir el Jenkins activo para ensayar una recuperación.
+
+Los scripts `provision_*.py` generan solicitudes administrativas revisables en `CI/migration`; no se ejecutan desde propuestas. `jenkins_api.py` permite aplicarlas por el canal administrativo del VPS. La definición manual de Caddy instalada también está conservada en las copias del controlador. `archive_actions.py` descarga artefactos de Actions, verifica ZIP y SHA256, y no borra originales.
+
+## Validación y corte pendiente
+
+- [x] HTTPS, acceso privado y agentes conectados.
+- [x] Ejecución de aceptación correcta; fallo deliberado visible y recuperación de cola tras reinicio.
+- [x] Pruebas de HMAC, selección de etapas, retención, paquete manipulado, escape de archivo y restauración del enlace anterior en un entorno temporal.
+- [x] Comprobación operativa y catálogo ejecutados en el VPS.
+- [x] 595 artefactos de Actions descargados y verificados, 621450302 bytes; ninguno eliminado.
+- [x] Copia independiente al PC y extracción de 14 configuraciones; claves separadas.
+- [x] App instalada únicamente en los dos repositorios.
+- [ ] Descargar/configurar la clave privada de la App; el navegador automatizado bloqueó la descarga. Revocar después la primera clave inaccesible.
+- [ ] Validar checkout privado, estado de commit y entrega real de webhook de GitHub.
+- [ ] Ejecutar PR, suites completas de ambos proyectos, recorridos públicos y Android firmado. Falta RAM disponible en el PC.
+- [ ] Arranque aislado de una copia restaurada y prueba real del paquete en preview; el ensayo de rollback actual usa servicios simulados.
+- [ ] Actualización atómica del código de sondas antes de horarios/publicación; la copia actual corresponde a `8505bc583fb9c5e039ef2835bfa8dc1704db1b62`.
+- [ ] Agrupar trabajos obsoletos por propuesta y reconciliar entregas de webhook que quedaron en estado `dispatching`.
+- [ ] Revisar/confirmar los cambios de código, publicar las ramas y validar los checks de sus commits exactos.
+- [ ] Refrescar el archivo de artefactos, esperar las ejecuciones activas, activar los horarios equivalentes y deshabilitar Actions en ambos repositorios.
+- [ ] Eliminar workflows y artefactos/cachés antiguos solo después del corte aceptado y de conservar la recuperación necesaria. Borrar archivos no devuelve los minutos ya consumidos.
+
+La línea base de RutaTrámite coincide con los 1097 archivos de entrada de la versión publicada `KV7Uq4eM6hwFir1Irn3wO`, huella `4f5162a6bc4d126bf459b0ab13c833080b89e278931983602e9df154362c466c`. `docs/ci-main-only-inputs.json` documenta los 21 archivos presentes en el main anterior que no formaban parte de esa publicación. Sus originales siguen en Git y en la carpeta compartida. No publicar el main antiguo sin integrar la línea base revisada.
+
+La revisión de secretos encontró 26 alertas: 24 versiones públicas de plugins y dos referencias a la clave pública IndexNow, comprobadas contra el archivo servido. Se conserva el informe bruto en `CI/migration/migration-gitleaks.json`; no se han rebajado las reglas para ocultarlo.

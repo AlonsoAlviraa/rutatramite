@@ -1,0 +1,19 @@
+services:
+  jenkins:
+    image: ruta-ci-controller:20260914
+    build: .
+    restart: unless-stopped
+    ports:
+      - '127.0.0.1:18080:8080'
+    environment:
+      JAVA_OPTS: '-Djenkins.install.runSetupWizard=false -Xms256m -Xmx768m'
+    mem_limit: 1536m
+    cpus: 1.0
+    volumes:
+      - /opt/ruta-ci/jenkins:/var/jenkins_home
+      - /opt/ruta-ci/secrets/admin-password:/run/secrets/admin-password:ro
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
