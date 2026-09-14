@@ -213,46 +213,99 @@ export const FP_BEBE_NICHOS2_GUIDES: Guide[] = [
     ],
   },
   {
-    id: "calendarioVacunalCastillaYLeon",
-    pack: "bebe",
-    path: "/bebe/calendario-vacunal-castilla-y-leon",
-    h1: "Calendario vacunal de Castilla y León (Sacyl): enlace oficial",
-    title: "Calendario vacunal Castilla y León: enlace oficial",
-    description:
-      "Dónde está el calendario vacunal oficial de Castilla y León (saludcastillayleon.es), cómo usar SACYL Conecta para la cita y qué documento pide el colegio. Guía administrativa.",
-    lead:
-      "Guía estrictamente administrativa del calendario vacunal de Castilla y León: dónde publica Sacyl el documento oficial, cómo funciona SACYL Conecta como vía digital para la cita y qué papel puede pedir el colegio (informativo, nunca condición de matrícula). Sin pautas clínicas: para eso están el calendario oficial y tu pediatra.",
-    cta: { href: "https://www.saludcastillayleon.es/", label: "Sanidad de Castilla y León (Sacyl)" },
-    related: [
-      { href: "/bebe/calendario-vacunal-madrid", label: "Calendario vacunal Madrid" },
-      { href: "/bebe/certificado-vacunacion-descargar", label: "Descargar el certificado de vacunación" },
-      { href: "/bebe/cartilla-vacunacion-digital", label: "Cartilla de vacunación digital" },
-      { href: "/bebe/tarjeta-sanitaria-bebe", label: "Tarjeta sanitaria del bebé" },
+    "id": "calendarioVacunalCastillaYLeon",
+    "pack": "bebe",
+    "path": "/bebe/calendario-vacunal-castilla-y-leon",
+    "h1": "Calendario vacunal de Castilla y León 2026: documento oficial",
+    "title": "Calendario vacunal Castilla y León 2026: Sacyl y cita",
+    "description": "Acceso al calendario oficial 2026 de Castilla y León y sus documentos. Canales de cita de Sacyl y cómo preparar una consulta administrativa.",
+    "lead": "Sacyl publica el calendario de vacunaciones e inmunizaciones para toda la vida de Castilla y León 2026, con su PDF y documentación técnica. Aquí tienes el acceso directo y los canales para preparar una consulta. Las pautas individuales deben revisarse con el profesional sanitario.",
+    "reviewedAt": "2026-09-14",
+    "cta": {
+      "href": "https://www.saludcastillayleon.es/profesionales/es/vacunaciones/nuevo-calendario-vacunaciones-inmunizaciones-toda-vida-cast",
+      "label": "Abrir el calendario oficial de Castilla y León 2026"
+    },
+    "secondaryCta": {
+      "href": "https://www.saludcastillayleon.es/es/citaprevia",
+      "label": "Cita previa con el centro de salud"
+    },
+    "sources": [
+      {
+        "href": "https://www.saludcastillayleon.es/profesionales/es/vacunaciones/nuevo-calendario-vacunaciones-inmunizaciones-toda-vida-cast",
+        "label": "Sacyl: calendario regional 2026 y adjuntos"
+      },
+      {
+        "href": "https://www.saludcastillayleon.es/es/sacylconecta",
+        "label": "Sacyl: aplicación oficial SACYL Conecta"
+      },
+      {
+        "href": "https://www.saludcastillayleon.es/es/citaprevia",
+        "label": "Sacyl: canales de cita previa"
+      }
     ],
-    disclaimer: DISCLAIMER_MEDICO,
-    sections: [
+    "disclaimer": "Guía administrativa. No somos Administración Pública. No reproduce dosis ni recomienda vacunas para un caso individual. Consulta el calendario oficial y a tu profesional sanitario.",
+    "related": [
       {
-        id: "donde-esta-oficial-cyl",
-        title: "Dónde está el calendario oficial de CyL",
-        paragraphs: [
-          "El calendario vacunal de Castilla y León lo publica el servicio de salud de la comunidad en su portal oficial, saludcastillayleon.es, que es el enlace del botón de arriba. El Ministerio de Sanidad mantiene además la página que agrega los calendarios de todas las comunidades, útil para comparar si acabas de llegar de otra región. La regla es la misma para todos: el documento que vale es el oficial y vigente de la consejería, no resúmenes de terceros. Si el PDF que tienes guardado es de una temporada anterior, descarga la versión actual antes de planificar nada: las comunidades actualizan sus calendarios con periodicidad y confírmalo siempre en tu comunidad.",
-        ],
+        "href": "/bebe/tarjeta-sanitaria-bebe",
+        "label": "Tarjeta sanitaria del bebé"
       },
       {
-        id: "sacyl-conecta",
-        title: "SACYL Conecta: la vía digital",
-        paragraphs: [
-          "SACYL Conecta es el canal digital de la sanidad castellanoleonesa: su aplicación y su web permiten identificarte, gestionar cita de atención primaria y consultar información de tu historia clínica desde el móvil. Para lo que aquí importa, su función es administrativa: localizar tu centro de salud, pedir la cita y consultar los documentos que Sacyl ponga a tu disposición en cada momento. Si no usas aplicaciones o no tienes certificado digital, el mostrador administrativo de tu centro de salud hace exactamente lo mismo en persona: la vía digital es una opción de comodidad, no una obligación. Y si al identificarte el sistema no te localiza, revisa primero que tus datos de filiación estén actualizados en el centro.",
-        ],
+        "href": "/bebe/cartilla-vacunacion-digital",
+        "label": "Cartilla de vacunación digital"
       },
       {
-        id: "cita-y-papel-del-cole",
-        title: "La cita en el centro de salud y el papel del cole",
-        paragraphs: [
-          "La vacunación del calendario se gestiona en atención primaria: en el centro de salud que te corresponde por domicilio y con el pediatra asignado al bebé, previa cita por cualquiera de los canales de Sacyl. En la matrícula escolar, el colegio puede pedir la cartilla o el certificado de vacunación como documento informativo para el expediente del alumno; ningún centro puede rechazar la escolarización por no presentarla, y si te lo plantean como condición, reclámalo por escrito ante la dirección y la consejería. El papel con valor oficial es el certificado de vacunación: cómo descargarlo por las tres vías (incluido el cambio de comunidad) está en la guía de descarga del certificado.",
-        ],
-      },
+        "href": "/bebe/calendario-vacunal-madrid",
+        "label": "Calendario de Madrid"
+      }
     ],
+    "sections": [
+      {
+        "id": "donde-esta-oficial-cyl",
+        "title": "Dónde descargar el calendario de 2026",
+        "paragraphs": [
+          "En la página oficial enlazada, busca el adjunto «calendario vacunal (Portal) 2026». La misma página reúne la orden autonómica y las instrucciones técnicas. El calendario común del Ministerio y el calendario de Castilla y León son documentos distintos: utiliza la fuente regional para consultar lo publicado por Sacyl."
+        ],
+        "lists": [
+          [
+            "Comprueba el año en el título antes de guardar el documento.",
+            "Guarda también el enlace a la página oficial para volver a sus actualizaciones.",
+            "Si tienes una copia de otro año o comunidad, lleva ambas a la consulta y explica de dónde procede cada una."
+          ]
+        ]
+      },
+      {
+        "id": "sacyl-conecta",
+        "title": "Cómo gestionar la cita",
+        "paragraphs": [
+          "SACYL Conecta permite acceder a la gestión de citas del centro de salud y a documentación clínica. La página de cita previa reúne los canales disponibles. No damos por hecho que cualquier cita o documento esté habilitado para todos los usuarios."
+        ],
+        "lists": [
+          [
+            "Accede desde los enlaces oficiales de esta guía.",
+            "Comprueba que estás gestionando los datos de la persona que necesita atención.",
+            "Si no encuentras el motivo adecuado o el sistema no reconoce tus datos, contacta con tu centro.",
+            "Guarda el justificante y comprueba centro, fecha y profesional."
+          ]
+        ]
+      },
+      {
+        "id": "preparar-consulta",
+        "title": "Qué preparar si te has mudado o falta información",
+        "paragraphs": [
+          "Organiza la cartilla, informes y documentos de los que ya dispongas por fecha y comunidad de origen. Anota qué información no aparece para preguntarlo en consulta. No completes por tu cuenta registros de vacunas ni interpretes una ausencia en la aplicación como prueba de que no se administró una dosis.",
+          "Si un colegio u otra entidad solicita un documento, pide que precise cuál necesita, para qué finalidad y cómo entregarlo. Después consulta con el centro sanitario cómo obtenerlo. El calendario publicado no es un certificado personal de vacunación."
+        ]
+      },
+      {
+        "id": "consultas-frecuentes-cyl",
+        "title": "Dudas administrativas habituales",
+        "paragraphs": [
+          "¿Basta con una captura del calendario? Sirve para localizar información general, pero no identifica las vacunas registradas de una persona. Para acreditar información individual, confirma el documento que pide la entidad destinataria.",
+          "¿Qué hago si el enlace del PDF cambia? Vuelve a la página regional y abre el archivo desde sus adjuntos. Esa es la razón de enlazar la página que los reúne.",
+          "¿Y si tengo una duda sobre una dosis o una edad? Anótala y consúltala con tu profesional sanitario; esta guía solo ayuda a localizar los canales y documentos."
+        ]
+      }
+    ]
   },
   {
     id: "certificadoVacunacionDescargar",

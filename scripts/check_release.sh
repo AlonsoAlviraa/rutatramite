@@ -39,6 +39,54 @@ def read(path):
         assert r.status==200,(path,r.status)
         return r.read().decode()
 home=read('/')
+passport=read('/pasaporte')
+assert 'tasas-documentos' in passport and 'REF_1086' in passport and 'REF_480' in passport
+pilar=read('/empadronarse')
+assert 'Git es la fuente de verdad' not in pilar and 'Oleada A:' not in pilar
+assert 'Cómo empadronarse, paso a paso' in pilar
+assert 'href="https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784"' in pilar
+import csv, io, json
+resources=read('/recursos')
+assert 'Dataset' in resources and '/datos/ayudas.csv' in resources
+with urlopen(base+'/datos/ayudas.json',timeout=20) as response:
+    assert response.headers.get('Content-Type','').startswith('application/json')
+    assert response.headers.get('X-Robots-Tag') == 'noindex'
+    assert response.headers.get('Access-Control-Allow-Origin') == '*'
+    dataset=json.load(response)
+assert len(dataset['records'])==8 and dataset['schema_version']=='1.1'
+assert len(dataset['coverage'])==68 and dataset['history']
+padron=json.loads(read('/datos/padron-municipal.json'))
+assert len(padron['records'])==21
+assert 'Dataset' in read('/recursos/padron-municipal')
+with urlopen(base+'/datos/ayudas.csv',timeout=20) as response:
+    assert response.headers.get('Content-Type','').startswith('text/csv')
+    assert response.headers.get('X-Content-Type-Options') == 'nosniff'
+    rows=list(csv.DictReader(io.StringIO(response.read().decode('utf-8-sig'))))
+assert [r['id'] for r in rows]==[r['id'] for r in dataset['records']]
+assert all(r['source_url'].startswith('https://') and r['checked_at'] for r in rows)
+print('DATA_DOWNLOADS_OK records=8 formats=2')
+import hashlib
+downloads=read('/descargas')
+downloads_text=re.sub(r'<!--.*?-->', '', downloads, flags=re.S)
+assert '33 formularios' in downloads_text and 'Cómo citar esta selección' in downloads_text
+assert 'cm-hoja-padronal.pdf' not in downloads
+pdf_manifest=json.loads(read('/pdf/manifest.json'))
+assert len(pdf_manifest['files'])==33
+for form in pdf_manifest['files']:
+    with urlopen(base+'/'+form['file'],timeout=20) as response:
+        data=response.read()
+        assert response.headers.get('Content-Type','').startswith('application/pdf'),form['file']
+        assert response.headers.get('X-Robots-Tag')=='noindex',form['file']
+        assert response.headers.get('X-Content-Type-Options')=='nosniff',form['file']
+    assert data.startswith(b'%PDF-') and len(data)==form['bytes']
+    assert hashlib.sha256(data).hexdigest()==form['sha256'],form['file']
+regreso=read('/extranjeria/autorizacion-regreso-ex13')
+assert '/pdf/ex13-autorizacion-regreso.pdf' in regreso and '/pdf/ex17-tie.pdf' not in regreso
+assert '/pdf/ex18-registro-ue.pdf' in read('/extranjeria/certificado-registro-ue')
+assert '/pdf/ex19-tarjeta-familiar-ue.pdf' not in read('/extranjeria/certificado-registro-ue')
+assert '/pdf/mad-hoja-padronal.pdf' in read('/empadronarse/cita-previa-madrid')
+assert '/pdf/mad-hoja-padronal.pdf' not in read('/empadronarse/con-contrato')
+print('PDF_DOWNLOADS_OK files=33 hashes=33 headers=33 associations=6')
 assert 'Guías para hacer tus trámites en España' in home
 dni=read('/dni/cita-previa')
 assert 'FAQPage' not in dni and 'href="#preguntas-frecuentes"' not in dni

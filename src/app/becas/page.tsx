@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { PackIndex } from "@/components/tramites/PackIndex";
 import { pageMetadata } from "@/lib/seo/meta";
+export const revalidate = 3600;
 
 export const metadata: Metadata = pageMetadata({
   title: "Becas 2026-27: MEC, autonómicas y municipales",

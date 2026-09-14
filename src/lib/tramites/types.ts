@@ -7,6 +7,7 @@ export type GuidePack =
   | "fp"
   | "bebe"
   | "becas"
+  | "alquiler"
   | "modelos";
 
 /** Index path of each pack (breadcrumbs and PackIndex). */
@@ -19,6 +20,7 @@ export const PACK_INDEX_PATH: Record<GuidePack, string> = {
   fp: "/fp",
   bebe: "/bebe",
   becas: "/becas",
+  alquiler: "/alquiler",
   modelos: "/modelos",
 };
 

@@ -6,14 +6,11 @@ Las guías orientan y enlazan al organismo responsable. Contrasta las condicione
 
 Las fichas siguen el patrón `/empadronarse/{ccaa}/{provincia}/{municipio}`. Las guías temáticas utilizan rutas como `/dni/{guia}` o `/extranjeria/{guia}`. La cita de DNI y pasaporte se solicita en citapreviadnie.es o en el 060. Los enlaces siguientes llevan a páginas HTML públicas, no a servicios de presentación de solicitudes.
 
-Versión extendida para agentes: [https://rutatramite.com/llms-full.txt](https://rutatramite.com/llms-full.txt). Resumen JSON: [https://rutatramite.com/ai/summary.json](https://rutatramite.com/ai/summary.json).
-
 ## Directorio de trámites
 
 - [Inicio](https://rutatramite.com/): buscador de guías y asistente de padrón.
 - [Empadronamiento](https://rutatramite.com/empadronarse): procedimiento general y directorio municipal.
 - [DNI y pasaporte](https://rutatramite.com/dni): cita, documentación y renovación.
-- [Pasaporte](https://rutatramite.com/pasaporte): cita, urgencia y menores.
 - [Extranjería](https://rutatramite.com/extranjeria): guías y canales de tramitación.
 - [Mudanza](https://rutatramite.com/mudanza): cambios de domicilio y gestiones relacionadas.
 - [Colegio](https://rutatramite.com/colegio): escolarización y cambios de centro.
@@ -22,31 +19,23 @@ Versión extendida para agentes: [https://rutatramite.com/llms-full.txt](https:/
 - [Bebé](https://rutatramite.com/bebe): gestiones administrativas familiares.
 - [Becas](https://rutatramite.com/becas): convocatorias, requisitos y seguimiento.
 - [Modelos y cartas](https://rutatramite.com/modelos): escritos para adaptar a cada caso.
+- [Descargas](https://rutatramite.com/descargas): formularios oficiales en PDF (hoja padronal, modelos EX de extranjería, permiso de viaje de menores, modelo 030, Registro Civil) con fuente y fecha de verificación; el índice máquina-legible está en /pdf/manifest.json.
 
 ## Padrón según la situación
 
-- [Con contrato de alquiler](https://rutatramite.com/empadronarse/con-contrato)
-- [Sin contrato de alquiler](https://rutatramite.com/empadronarse/sin-contrato)
-- [Propietario o usufructuario](https://rutatramite.com/empadronarse/propietario)
-- [Casa de un familiar](https://rutatramite.com/empadronarse/casa-de-familiar)
-- [Alta con menores](https://rutatramite.com/empadronarse/menores)
-- [Extranjeros UE / EEE / Suiza](https://rutatramite.com/empadronarse/extranjeros-ue)
-- [Extranjeros no comunitarios](https://rutatramite.com/empadronarse/extranjeros-no-ue)
-- [Sin hogar o infravivienda](https://rutatramite.com/empadronarse/sin-hogar)
-- [Volante, certificado e histórico](https://rutatramite.com/empadronarse/volante-vs-certificado)
-- [Renovación a los 2 años](https://rutatramite.com/empadronarse/renovacion-2-anos)
+- [Con contrato](https://rutatramite.com/empadronarse/con-contrato)
+- [Sin contrato](https://rutatramite.com/empadronarse/sin-contrato)
+- [Vivienda en propiedad](https://rutatramite.com/empadronarse/propietario)
+- [En casa de un familiar](https://rutatramite.com/empadronarse/casa-de-familiar)
+- [Menores](https://rutatramite.com/empadronarse/menores)
+- [Personas extranjeras de la UE](https://rutatramite.com/empadronarse/extranjeros-ue)
+- [Personas extranjeras de fuera de la UE](https://rutatramite.com/empadronarse/extranjeros-no-ue)
+- [Sin hogar](https://rutatramite.com/empadronarse/sin-hogar)
+- [Volante y certificado](https://rutatramite.com/empadronarse/volante-vs-certificado)
+- [Renovación cada dos años](https://rutatramite.com/empadronarse/renovacion-2-anos)
 - [Cambio de domicilio](https://rutatramite.com/empadronarse/cambio-de-domicilio)
 - [Baja en el padrón](https://rutatramite.com/empadronarse/baja)
-- [Volante de empadronamiento por internet](https://rutatramite.com/empadronarse/volante-online)
-- [Cita previa de empadronamiento en Madrid](https://rutatramite.com/empadronarse/cita-previa-madrid)
 - [Ficha de Madrid](https://rutatramite.com/empadronarse/comunidad-de-madrid/madrid/madrid): orientación y enlaces municipales disponibles.
-
-## Fuentes oficiales frecuentes
-
-- [Ley 7/1985 (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392): bases del régimen local y padrón.
-- [Instrucciones INE a los ayuntamientos (2015)](https://www.boe.es/buscar/doc.php?id=BOE-A-2015-3109).
-- [Cita DNI y pasaporte](https://www.citapreviadnie.es/).
-- [Becas MEC](https://www.becaseducacion.gob.es/).
 
 ## Criterios editoriales
 
@@ -55,3 +44,11 @@ Versión extendida para agentes: [https://rutatramite.com/llms-full.txt](https:/
 - [Contacto](https://rutatramite.com/contacto): comunicar errores sin enviar documentos personales.
 - [Privacidad](https://rutatramite.com/privacidad): funcionamiento del asistente y contacto.
 - [Aviso legal](https://rutatramite.com/aviso-legal): alcance informativo del sitio.
+
+## Ayudas a estudiantes y alquiler
+
+- [Datos y recursos](https://rutatramite.com/recursos): selección documentada, fuentes, revisión y descargas JSON y CSV. La generación del archivo no equivale a una revisión de fuentes.
+
+- [Ayudas y plazos](https://rutatramite.com/ayudas): convocatorias seleccionadas con fase, territorio, revisión y fuente oficial.
+- [Ayudas al alquiler](https://rutatramite.com/alquiler): Bono Joven, procedimientos regionales y nuevo Plan de Vivienda.
+- [Ayudas a estudiantes](https://rutatramite.com/becas/ayudas-estudiantes): orientación según estudios y domicilio.

@@ -160,25 +160,47 @@ El impago es causa de resolución (art. 27 LAU). Este escrito es un requerimient
     h1: "Inventario de entrada y salida y estado de la fianza",
     title: "Inventario de fianza de alquiler: entrada, salida y art. 36 LAU",
     description:
-      "Plantilla de inventario y escrito para reclamar la fianza. El casero tiene un mes desde la entrega de llaves para devolver lo que sobre (art. 36 LAU).",
+      "Modelos de inventario y reclamación de fianza: fotos, entrega de llaves, saldo pendiente y el interés legal del artículo 36 de la LAU.",
     lead:
-      "La fianza legal de vivienda es una mensualidad (art. 36 LAU). El arrendador debe depositarla en el organismo autonómico. Al terminar, tiene un mes desde la entrega de llaves para devolver el saldo; a partir de ahí hay interés. Un inventario con fotos en entrada y salida evita la pelea de «ya estaba rayado».",
+      "Prepara un inventario al entrar y otro al salir, deja constancia de la entrega de llaves y pide una liquidación detallada. El artículo 36.4 de la LAU establece interés legal sobre el saldo que deba devolverse si pasa un mes desde la entrega de llaves sin restituirlo.",
+    reviewedAt: "2026-09-14",
+    sources: [
+      { href: BOE_LAU_URL + "#a36", label: "BOE: LAU, fianza y saldo pendiente (art. 36)" },
+      { href: BOE_LAU_URL + "#datercera", label: "BOE: depósito autonómico de fianzas" },
+    ],
     cta: { href: BOE_LAU_URL, label: "LAU art. 36 (BOE)" },
     disclaimer: DISCLAIMER_MODELOS,
     related: relatedVivienda,
     sections: [
       {
+        id: "saldo-fianza",
+        title: "Qué significa el mes desde la entrega de llaves",
+        paragraphs: [
+          "Para vivienda, la fianza legal prevista en el artículo 36.1 equivale a una mensualidad. Diferencia esa cantidad de cualquier garantía adicional. El depósito ante un organismo autonómico depende de la normativa de la comunidad: no es la misma gestión que la liquidación entre arrendador e inquilino.",
+          "El artículo 36.4 se refiere al interés legal del saldo que deba restituirse. No permite concluir que siempre corresponda recuperar íntegramente todo lo entregado. Pide un desglose de las deducciones alegadas y su documentación: rentas, suministros o daños son conceptos que conviene identificar y revisar por separado.",
+          "Reúne contrato, justificante de la fianza, inventarios y entrega de llaves. Separa cantidades aceptadas y discutidas. No firmes como «saldo y finiquito» una liquidación que todavía no has revisado.",
+        ],
+      },
+      {
+        id: "usar-modelos",
+        title: "Antes de enviar una reclamación",
+        paragraphs: [
+          "Adapta las fechas y elimina lo que no proceda. El párrafo de intereses solo corresponde si ya ha transcurrido un mes desde la entrega de llaves y queda saldo que deba restituirse. Conserva prueba del contenido enviado y de su recepción. Este escrito no es una demanda judicial; si hay una disputa, consulta asesoramiento antes de acordar cantidades o reclamar judicialmente.",
+        ],
+      },
+      {
         id: "inventario",
         title: "Qué fotografiar y qué anotar",
         paragraphs: [
-          "Paredes, suelos, electrodomésticos, contadores, llaves, humedades y el número de serie si hay. Firman las dos partes. Sin inventario de entrada, el de salida pesa menos.",
+          "Utiliza las mismas estancias y numeración de fotos en la entrada y la salida. Describe lo que observas: «marca de 8 cm junto a la puerta» resulta más comprobable que «pared mal». Reserva una línea para lo que cada parte discute; no presentes una discrepancia como un hecho acordado.",
         ],
         lists: [
           [
             "Fecha, dirección, lecturas de luz/agua/gas.",
             "Estado de cada estancia (una línea y foto).",
             "Lista de mobiliario si el contrato es amueblado.",
-            "Firmas de arrendador e inquilino.",
+            "Firmas de las partes, copia del acta y lista de anexos para cada una.",
+            "Conserva las fotos originales y el envío del inventario a la otra parte.",
           ],
         ],
         models: [
@@ -187,18 +209,28 @@ El impago es causa de resolución (art. 27 LAU). Este escrito es un requerimient
             title: "Acta de inventario (entrada o salida)",
             body: `Inventario de [entrada / salida]
 Vivienda: [dirección]
-Fecha: [fecha]
+Inspección: [fecha y hora]
+Contrato de fecha: [fecha]
 Lecturas: luz [ ]  agua [ ]  gas [ ]
 
-Estancia / estado / observaciones
+Estancia / elemento / estado observado / número de foto
 - Salón:
 - Cocina:
 - Dormitorio 1:
 - Baño:
 - Otros:
 
-Fianza entregada / a liquidar: [importe] €
-Llaves: [número]
+Fianza entregada al inicio: [importe] €
+Garantía adicional, si existe: [importe y concepto]
+Importe devuelto en este acto: [importe y medio de pago]
+Saldo pendiente: [importe o pendiente de determinar]
+Llaves y mandos: [tipo y cantidad]
+Entrega de llaves: [fecha y hora]
+Anexos: [lista de fotos y documentos]
+Observaciones acordadas: [ ]
+Cuestiones sobre las que no existe acuerdo: [ ]
+
+Este acta recoge el estado observado y la entrega de llaves indicada. La firma no implica aceptar descuentos no detallados ni renunciar a reclamarlos. Cada parte recibe copia del acta y los anexos.
 
 Arrendador: [nombre, DNI, firma]
 Arrendatario: [nombre, DNI, firma]`,
@@ -212,7 +244,19 @@ A [arrendador]
 
 Asunto: Devolución de fianza (art. 36 LAU)
 
-El [fecha] entregué llaves de [dirección]. Ha transcurrido el mes legal. Ruego devolución de [importe] € de fianza, descontando solo desperfectos documentados ajenos al desgaste.
+El [fecha] entregué las llaves de [dirección], según [acta u otro justificante].
+
+Fianza abonada: [importe].
+Cantidad ya devuelta: [importe].
+Saldo cuya devolución solicito: [importe y cálculo].
+
+Solicito la devolución del saldo que corresponda y una liquidación detallada. Si se alegan deducciones, ruego identificar cada concepto, importe y documentación justificativa.
+
+[Incluir solo si procede: Ha transcurrido un mes desde la entrega de llaves sin restituirse el saldo debido. Solicito también el interés legal que corresponda conforme al artículo 36.4 de la LAU.]
+
+Esta solicitud no supone conformidad con descuentos no aceptados ni renuncia a las cantidades discutidas.
+Documentos adjuntos: [ ].
+Contacto para la respuesta: [ ].
 
 IBAN: [ ]
 

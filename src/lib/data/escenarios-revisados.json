@@ -1,0 +1,97 @@
+{
+  "con-contrato": {
+    "title": "Empadronarse con contrato: documentos y pasos",
+    "description": "Cómo preparar el padrón con contrato a tu nombre: recibo, prórroga, formulario municipal y alternativas si faltan pruebas del domicilio.",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=45f45704a7758810VgnVCM1000008a4a900aRCRD&vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD",
+      "/empadronarse/sin-contrato"
+    ],
+    "requiredTerms": [
+      "último recibo",
+      "solicitud de renovación",
+      "prórroga",
+      "requerimiento"
+    ],
+    "h1": "Empadronarse con contrato de alquiler a tu nombre",
+    "reviewedAt": "2026-09-14",
+    "headings": [
+      "Qué acredita el contrato",
+      "Documentos que conviene revisar",
+      "Pasos para presentar el alta",
+      "Si falta un documento o rechazan el alta",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿Basta con enseñar el contrato desde el móvil?",
+      "¿Un contrato caducado se renueva automáticamente para el padrón?",
+      "¿Todos los municipios exigen la misma duración del alquiler?",
+      "¿El padrón cambia también mi domicilio en otros organismos?"
+    ]
+  },
+  "sin-contrato": {
+    "title": "Empadronarse sin contrato: autorización y alternativas",
+    "description": "Qué hacer para empadronarte sin contrato propio, quién puede autorizar y cómo consultar otras vías para comprobar tu residencia.",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=45f45704a7758810VgnVCM1000008a4a900aRCRD&vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD",
+      "/empadronarse/sin-hogar"
+    ],
+    "requiredTerms": [
+      "posesión efectiva",
+      "representar",
+      "inspección",
+      "denegación"
+    ],
+    "h1": "Empadronarse sin contrato de alquiler",
+    "reviewedAt": "2026-09-14",
+    "headings": [
+      "Elige la vía según tu situación",
+      "Si otra persona puede autorizarte",
+      "Si no consigues autorización",
+      "Cómo presentar y seguir la solicitud",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿Un volante del titular sustituye su contrato o escritura?",
+      "¿Necesito que el propietario venga conmigo?",
+      "¿Puedo solicitar el padrón con un acuerdo verbal de alquiler?",
+      "¿Qué pasa si quien me alojaba ya se ha marchado?"
+    ]
+  },
+  "cita-previa-madrid": {
+    "title": "Cita de padrón en Madrid: oficinas y alternativa online",
+    "description": "Cita de padrón en Madrid capital: enlace oficial, oficinas, documentos y alternativa por internet. Diferencias entre alta y certificado.",
+    "requiredLinks": [
+      "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=45f45704a7758810VgnVCM1000008a4a900aRCRD&vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD",
+      "https://www.madrid.es/portales/munimadrid/es/OficinasAtencionCiudadano/Oficinas-de-Atencion-a-la-Ciudadania-Linea-Madrid-Informacion-y-gestiones/?vgnextchannel=2c07de294e585310VgnVCM2000000c205a0aRCRD&vgnextoid=858616622ee05310VgnVCM2000000c205a0aRCRD",
+      "/empadronarse/con-contrato"
+    ],
+    "requiredTerms": [
+      "Madrid capital",
+      "con independencia del domicilio",
+      "Aravaca",
+      "incidencias",
+      "a la vez"
+    ],
+    "h1": "Conseguir cita previa de empadronamiento en Madrid",
+    "reviewedAt": "2026-09-14",
+    "headings": [
+      "Qué gestión necesitas",
+      "Cómo reservar la cita oficial",
+      "Qué oficina puedes elegir",
+      "Documentos antes de la cita",
+      "Alternativa por internet y problemas de disponibilidad",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿La cita de Madrid sirve si vivo en Getafe o Alcobendas?",
+      "¿Tener una cita significa que ya estoy empadronado?",
+      "¿Puedo cambiar de oficina después de reservar?",
+      "¿Qué hago si falla el trámite electrónico?"
+    ]
+  }
+}

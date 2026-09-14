@@ -1,44 +1,35 @@
 # RutaTrámite: estado vigente
 
-Actualizado el 7 de septiembre de 2026. La auditoría SEO/GEO, la limpieza editorial, el rediseño y la publicación están desplegados en la release actual.
+Ampliación de los cuatro puntos publicada y verificada el 14 de septiembre de 2026. El objetivo de 1.000 impresiones y 50 clics diarios no está acreditado.
 
-## Publicación actual
+## Publicación
 
-- URL: https://rutatramite.com
-- Build: tSaLmQxc_8_5ek2TQNGHB
-- Release: /srv/tenants/slot2/releases/20260907T211050Z (anterior: /srv/tenants/slot2/releases/20260907T202312Z)
-- Artefacto: SHA-256 `d06bab21848f7d84ac6083bcd4d8906b6441c7f0279ac599bceebacea3eb7ac4`, 242.825.216 bytes.
-- Preview privado: `PREVIEW_OK`; servicio local comprobado antes de activar.
+- Build `KV7Uq4eM6hwFir1Irn3wO`; release `/srv/tenants/slot2/releases/20260914T192535Z`.
+- Versión anterior conservada: `/srv/tenants/slot2/releases/20260914T181705Z`.
+- SHA256 del paquete: `ce3912bac8e6d239482419f27eb7897c597e523351da12e4082e8af11c20737f`.
+- 258 URLs indexables, 1.009 páginas navegables, 1.010 HTML y 33 PDF aprobados.
+- [Activación](followup-deployed.json), [comprobación pública](followup-public-verification.json), [resultados](followup-final-verification.json).
 
-La compilación genera 1.006 rutas y la auditoría privada revisa 997 HTML, 228 páginas indexables y 228 URLs de sitemap sin incidencias. La auditoría de fragmentos cubre 16.418 enlaces y 1.190 IDs, también sin incidencias. Se corrigieron las últimas secuencias de codificación doble en textos de fichas y en el pack de municipios; la comprobación final no detecta marcadores U+00C3, U+00C2, U+00E2 ni U+FFFD.
+## Resultado de los cuatro puntos
 
-## Cambios realizados
+Revisados de nuevo los diez municipios pendientes: siete reúnen ahora evidencia suficiente. La comparación municipal tiene 18 verificados y tres pendientes: Gijón, Las Palmas de Gran Canaria y Vitoria-Gasteiz. Las limitaciones concretas y sus fuentes permanecen visibles. A Coruña mantiene el canal electrónico desconocido.
 
-| Área | Resultado y evidencia |
-| --- | --- |
-| SEO técnico | Sitemap único de 228 URLs, canonicals coherentes, un H1 por página, idioma `es`, JSON-LD válido y fichas sin señales locales suficientes fuera de indexación. [Auditoría](AUDITORIA-SEO-GEO-UX.md). |
-| Datos estructurados | HowTo genérico retirado; FAQ solo con preguntas visibles; Article en guías; sin direcciones municipales inventadas. |
-| GEO y enlaces | 768 destinos internos fuera del sitemap responden 200; cero duplicados de URLs, títulos o descripciones; `llms.txt` usa enlaces Markdown. |
-| Contenido | Disponibilidad de citas, horarios, tasas, canales locales y requisitos se expresa con alcance y fuente; se retiraron promesas no verificables. |
-| Codificación | Cero marcadores de mojibake en fuente, datos, pack y 11 rutas públicas de smoke. |
-| Diseño | Newsreader + Public Sans, fondo claro, verde cívico, filas de directorio, lectura editorial y controles sobrios. Sin gradientes, glassmorphism, desenfoques ni sombras grandes. [Reglas](../DESIGN.md). |
-| UX | Buscador contextual, directorios, TOC, typeahead municipal, asistente de seis pasos, estados sin resultados, skip link y menú móvil con Escape y retorno de foco. |
-| Accesibilidad estática | Auditoría global de 997 HTML y muestra pública de 8 páginas: cero IDs duplicados, controles o botones sin nombre, imágenes sin `alt` o landmarks `main` incorrectos. |
-| Validación | 12 archivos y 64 tests pasan; generador de escenarios en modo `--check`; preflight privado y crawl público final sin incidencias. |
+Los datos de ayudas pasan de 8 a 22 registros, con referencias seleccionadas de las 17 comunidades y la guía `/alquiler/ayudas-por-comunidad`. No es un catálogo exhaustivo ni son 17 solicitudes abiertas. Se diferencian convocatorias, justificaciones y programas propios. JSON/CSV 1.2 conservan fechas sin hora y calculan los cierres conocidos.
 
-## Evidencia final
+La medición diaria y semanal está instalada, actualizada y ejecutada. Se conservan los días definitivos, una referencia del 7 al 13 de septiembre y ventanas de 7, 14 y 28 días desde el 15 de septiembre. Las revisiones del 21 y 28 de septiembre y del 12 de octubre esperan sus datos definitivos. [Medición](four-points-ops.json).
 
-- [Auditoría SEO/GEO/UX](AUDITORIA-SEO-GEO-UX.md)
-- [Crawl público final](audit-production-20260907-editorial-post-final2.json)
-- [Smoke público](final-public-smoke.json)
-- [Accesibilidad global del build](audit-accessibility-build-final.json)
-- [Accesibilidad pública](audit-accessibility-public-final.json)
-- [Riesgo editorial](editorial-risk-scan-final.json)
-- [Codificación pública de las 228 URLs](audit-public-encoding-final.json)
-- [Enlaces externos](audit-external-links-final.json)
-- [Revisión visual](browser-visual-final.json)
-- [Manifiesto y recibo de despliegue](linux-release-manifest.json)
+Comprobadas las cinco conversaciones enviadas: ninguna respuesta observada. Las búsquedas en los cinco dominios no encontraron menciones indexadas; no se confirma ningún backlink nuevo. No se enviaron mensajes adicionales. [Recibo](four-points-outreach-readback.json).
 
-## Cobertura que sigue requiriendo revisión humana
+Copilot completado: diez preguntas originales enviadas una vez cada una en conversaciones independientes; diez respuestas completas observadas, 0 con citas a RutaTrámite y 0 con mención de marca. La verificación humana se completó con autorización del usuario. El control del navegador está recuperado. Modo Smart, región efectiva no verificada. [Resultados y límites](COPILOT-RESULTADOS-20260914.md).
 
-El escaneo de enlaces externos encuentra 57 URLs alcanzables y 25 no verificables por bloqueos, certificados o timeouts; no encuentra 404/410. El escaneo editorial es un inventario de frases variables, importes, urgencia y plazos; no convierte las coincidencias en errores automáticos. La conformidad WCAG completa, contraste con hardware real, lector de pantalla y rendimiento de campo necesitan una ronda manual. Los enlaces externos que devuelven 403 o timeout quedan documentados como no verificables por el bot, no como enlaces rotos.
+## Validación
+
+Pasaron 107 pruebas de aplicación, seis de crecimiento y dos de seguimiento; compilación y tipos correctos. El paquete supera 5.258 controles de descubrimiento (418 no aplicables), y los auditores de HTML, accesibilidad estática y referencias no detectan incidencias.
+
+Pasaron 1257 comprobaciones E2E de la previsualización: todas las rutas HTTP/PDF/datos, 40 vistas móviles y de escritorio de páginas afectadas y 102 recorridos funcionales en Chromium, Firefox y WebKit. Tras activar pasaron otras 1.115 comprobaciones HTTP/PDF/datos en producción con un solo trabajador y sin reintentos automáticos. Las dos pasadas paralelas previas terminaron cada una con 1.114 aprobadas y un corte ECONNRESET, en Camargo y en la portada. La causa sigue sin establecerse; la pasada secuencial no acredita que la incidencia concurrente esté resuelta. La repetición visual de todo el inventario se interrumpió por memoria y se conserva sin contabilizarla como aprobada. [Alcance y correcciones](SEGUIMIENTO-VALIDACION-20260914.md).
+
+El sitemap público está actualizado. El recibo distingue los permisos de envío a Google y su lectura; la propiedad ya tenía el sitemap registrado. IndexNow respondió con HTTP 200. La recepción no garantiza indexación ni tráfico. [Distribución](followup-search-distribution.json).
+
+Se mantiene el contador agregado privado, sin identificadores ni datos de consultas, con retención de 180 días. Las rutas de métricas privadas y el PDF excluido devuelven 404.
+
+[Seguimiento de los cuatro puntos](SEGUIMIENTO-CUATRO-PUNTOS-20260914.md). [Publicación anterior](plan-final-verification.json).

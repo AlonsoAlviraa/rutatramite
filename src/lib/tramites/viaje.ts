@@ -45,7 +45,7 @@ export const VIAJE_GUIDES: Guide[] = ([
         id: "como",
         title: "Cómo pedir la cita",
         paragraphs: [
-          `Entra en citapreviadnie.es, elige provincia y oficina de Policía Nacional, trámite DNI (o DNI y pasaporte) y el hueco. También el ${TELEFONO_CITA}, 24 horas. Guarda el localizador. Si una web te cobra por “gestionar” el mismo formulario, es un clon.`,
+          `Entra desde Interior en citapreviadnie.es y sigue las opciones de trámite, oficina y fecha que muestre el portal. También puedes consultar el ${TELEFONO_CITA}. Guarda el justificante. La reserva es gratuita; distingue la tasa oficial del documento de cualquier servicio privado de intermediación.`,
           DISCLAIMER_CITA,
         ],
         lists: [
@@ -124,7 +124,7 @@ export const VIAJE_GUIDES: Guide[] = ([
         id: "viaje",
         title: "Si te caduca con un viaje encima",
         paragraphs: [
-          "Dentro de la UE el DNI identifica. Caducado, la compañía o la frontera pueden discutirte el embarque: no lo dejes al azar. Fuera de la UE hace falta pasaporte. Ver DNI caducado para viajar por la UE y pasaporte urgente.",
+          "Comprueba la documentación admitida para tu nacionalidad, destino y escalas, además de las condiciones de la compañía. No des por válido un documento caducado. Hay destinos fuera de la UE que admiten DNI español en vigor: consulta las recomendaciones oficiales del país. La guía de viajes con DNI explica estas diferencias.",
         ],
       },
       tasasBox,

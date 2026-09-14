@@ -12,6 +12,7 @@ import ContactoPage from "@/app/contacto/page";
 import { loadIndex, loadMunicipio } from "@/lib/data/load";
 import { renderFichaHtml, renderGuideHtml, renderPilarHtml } from "@/lib/render/server";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo/jsonld";
+import { buildPilarModel } from "@/lib/pilar/content";
 import { isFichaIndexable } from "@/lib/seo/localSignals";
 import { clipMeta, fichaPageMetadata, fichaSeo } from "@/lib/seo/meta";
 import { CONTACT_EMAIL, SITE_ORIGIN } from "@/lib/types";
@@ -87,7 +88,7 @@ describe("SEO + GEO domain-ready contracts", () => {
     expect(html).toContain("GovernmentService");
     expect(html).toContain("Ayuntamiento de Madrid");
     expect(html).toContain("sede.madrid.es");
-    expect(html).toMatch(/<time dateTime="2026-09-03">|<time datetime="2026-09-03">/);
+    expect(html).toMatch(new RegExp(`<time (?:dateTime|datetime)="${madrid.last_verified}">`));
     expect(html).not.toContain("LocalBusiness");
     expect(html).toContain('aria-label="Migas de pan"');
     const oleadaD = loadMunicipio("28004");
@@ -108,7 +109,7 @@ describe("SEO + GEO domain-ready contracts", () => {
     expect(html).toContain("FAQPage");
     expect(html).toContain("GovernmentService");
     expect(html).toContain("BreadcrumbList");
-    expect(html).toMatch(/<time dateTime="2026-09-03">|<time datetime="2026-09-03">/);
+    expect(html).toMatch(new RegExp(`<time (?:dateTime|datetime)="${buildPilarModel().editedAt}">`));
     const gs = jsonLdBlocks(html).find((b) => b["@type"] === "GovernmentService");
     expect(gs, "pilar GovernmentService").toBeTruthy();
     expect(gs?.url, "pilar must not point GovernmentService.url at this host").toBeUndefined();

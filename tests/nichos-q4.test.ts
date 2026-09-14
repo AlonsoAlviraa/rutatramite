@@ -3,6 +3,7 @@ import { renderGuideHtml } from "@/lib/render/server";
 import { ALL_GUIDES, guidesByPack, guidesIn } from "@/lib/tramites/catalog";
 import { BEBE_GUIDES } from "@/lib/tramites/bebe";
 import { BECAS_GUIDES } from "@/lib/tramites/becas";
+import { AYUDAS_2026_GUIDES } from "@/lib/tramites/ayudas-2026";
 import { COLE_GUIDES } from "@/lib/tramites/cole";
 import { COMEDOR_GUIDES } from "@/lib/tramites/comedor";
 import { DNI_NICHOS_GUIDES } from "@/lib/tramites/nichos-dni";
@@ -109,7 +110,9 @@ describe("nichos Q4 2026: cinco pilares nuevos y ampliación de packs", () => {
   });
 
   it("becas packs live under /becas including the nested catch-all tree", () => {
-    expect(guidesIn("/becas")).toHaveLength(BECAS_GUIDES.length + BECAS_NICHOS2_GUIDES.length);
+    expect(guidesIn("/becas").map(g => g.path).sort()).toEqual([
+      ...BECAS_GUIDES, ...BECAS_NICHOS2_GUIDES, ...AYUDAS_2026_GUIDES.filter(g => g.pack === "becas"),
+    ].map(g => g.path).sort());
     expect(renderGuideHtml("/becas/mec/denegada/por-patrimonio")).toContain("patrimonio");
     expect(renderGuideHtml("/becas/mec/compatibilidad/erasmus")).toContain("Erasmus");
     expect(renderGuideHtml("/becas/erasmus/complemento-regional")).toContain("complemento");

@@ -10,11 +10,11 @@ RECORD = ROOT / 'docs/release-inputs.json'
 
 def fingerprint():
     paths = []
-    for name in ('src', 'data', 'content', 'public', 'messages'):
-        paths.extend(p for p in (ROOT/name).rglob('*') if p.is_file())
-    paths.extend(ROOT/name for name in ('package.json', 'package-lock.json', 'next.config.ts', 'tailwind.config.ts', 'postcss.config.mjs'))
+    for name in ('src', 'data', 'content', 'public', 'messages', 'scripts', 'tests', 'pack/rutatramite-empadronamiento-agent-pack/05_content/escenarios'):
+        paths.extend(p for p in (ROOT/name).rglob('*') if p.is_file() and '__pycache__' not in p.parts and '_drafts' not in p.parts)
+    paths.extend(ROOT/name for name in ('package.json', 'package-lock.json', 'next.config.ts', 'tailwind.config.ts', 'postcss.config.mjs', 'tsconfig.json', 'vitest.config.ts', 'playwright.config.ts'))
     digest = hashlib.sha256()
-    for path in sorted(paths):
+    for path in sorted(paths, key=lambda p: p.relative_to(ROOT).as_posix()):
         digest.update(path.relative_to(ROOT).as_posix().encode())
         digest.update(b'\0')
         digest.update(hashlib.sha256(path.read_bytes()).digest())

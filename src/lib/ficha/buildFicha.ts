@@ -193,7 +193,7 @@ function faqs(m: Municipio): FaqItem[] {
   return [
     {
       q: `¿Puedo empadronarme en ${m.name} sin contrato de alquiler?`,
-      a: `Sí, el padrón registra un hecho de residencia, no un contrato visado. En ${m.name} la vía habitual sin contrato a tu nombre es la autorización del titular de la vivienda (mejor en modelo municipal) más el documento del titular y prueba de que ese titular ocupa la casa. Si no hay papeles de ningún tipo, no inventes un recibo: pregunta comprobación de oficio o Servicios Sociales. Las instrucciones INE (resolución de 30 de enero de 2015 y línea posterior) detallan identidad y domicilio. Un rumor de foro no deroga el artículo 15 de la Ley 7/1985. ${sedeLine} El alta sigue siendo gratuita.`,
+      a: `Sí, el padrón registra un hecho de residencia, no un contrato visado. En ${m.name} la vía habitual sin contrato a tu nombre es la autorización del titular de la vivienda (mejor en modelo municipal) más el documento del titular y prueba de que ese titular ocupa la casa. Si no hay papeles de ningún tipo, no inventes un recibo: pregunta comprobación de oficio o Servicios Sociales. Las instrucciones INE (resolución de 17 de febrero de 2020, texto consolidado) detallan identidad y domicilio. Un rumor de foro no deroga el artículo 15 de la Ley 7/1985. ${sedeLine} El alta sigue siendo gratuita.`,
     },
     {
       q: `¿Hace falta cita previa para empadronarse en ${m.name}?`,
@@ -241,7 +241,7 @@ function faqs(m: Municipio): FaqItem[] {
     },
     {
       q: `¿Qué hago si el Ayuntamiento de ${m.name} me deniega el alta?`,
-      a: `Pide constancia por escrito del motivo. Si el motivo es «no tienes TIE», cita el artículo 15 y las instrucciones INE. Si es «el contrato no está a tu nombre», vuelve con autorización del titular. Si es «no hay cita», insiste en canal electrónico u otras oficinas del mismo ${m.name}. Puedes reclamar por los cauces de la Ley 39/2015. Organizaciones sociales y el Defensor del Pueblo autonómico existen. ${PRODUCT_NAME} no es un despacho y no presenta recursos por ti.`,
+      a: `Pide que te indiquen el motivo y los documentos que faltan. Si no hay citas, consulta al Ayuntamiento de ${m.name} qué oficinas y canales admite para ese procedimiento: una sede electrónica general no confirma que el alta esté disponible por internet. Ante una resolución desfavorable, revisa su notificación y los plazos y vías de recurso indicados. Si necesitas valorar tu caso, busca orientación jurídica. ${PRODUCT_NAME} no presenta recursos por ti.`,
     },
     {
       q: `¿Puedo empadronarme en ${m.name} en casa de un familiar?`,
@@ -351,9 +351,9 @@ function peculiar(m: Municipio): string[] {
 
 function legalBlock(m: Municipio): string[] {
   return [
-    `Marco estatal que ${m.name} no puede saltarse. Artículo 15 LBRL: obligación de inscribirse donde se reside habitualmente; la inscripción es independiente de la situación administrativa. Artículo 16: datos obligatorios, incluida la referencia catastral cuando exista. Reglamento de Población (RD 1690/1986): gestión, comprobación, altas por omisión, bajas, coordinación INE. Instrucciones técnicas INE (BOE-A-2015-3109 y línea 2020, BOE-A-2020-4784): identidad, vivienda, menores, renovación de no comunitarios, volante y certificación.`,
+    `Marco estatal que ${m.name} no puede saltarse. Artículo 15 LBRL: obligación de inscribirse donde se reside habitualmente; la inscripción es independiente de la situación administrativa. Artículo 16: datos obligatorios, incluida la referencia catastral cuando exista. Reglamento de Población (RD 1690/1986): gestión, comprobación, altas por omisión, bajas, coordinación INE. Instrucciones técnicas INE (BOE-A-2020-4784, texto consolidado): identidad, vivienda, menores, renovación de no comunitarios, volante y certificación.`,
     `El Ayuntamiento de ${m.name} puede identificar, pedir prueba razonable de vivienda, usar sus modelos, exigir cita, ofrecer Cl@ve, cruzar catastro y denegar un alta manifiestamente falsa. No puede cobrar el alta ordinaria, convertir el padrón en permiso de residencia, exigir que el contrato esté visado «porque sí» si la persona reside, ni rechazar a un menor cuando cabe declaración responsable. Si ves una práctica local dura, esta ficha la describiría como práctica local y enlazaría la norma. No la blanqueamos.`,
-    `Fuentes abiertas: Ley 7/1985 (BOE-A-1985-5392), instrucciones 2015 (BOE-A-2015-3109), repositorio de modelos idapadron.ine.es, relación de municipios INE, cifras 1-ene-2025. Última verificación de esta ficha: ${m.last_verified}. Confianza: ${m.confidence}. Estado: ${m.status}.`,
+    `Fuentes de referencia: Ley 7/1985 (BOE-A-1985-5392), instrucciones de gestión del padrón (BOE-A-2020-4784, texto consolidado), modelos y relación de municipios del INE. Fecha registrada en la ficha: ${m.last_verified}. La revisión local y los aspectos pendientes se indican por separado; esta fecha no acredita que todos los requisitos o canales municipales estén comprobados.`,
   ];
 }
 

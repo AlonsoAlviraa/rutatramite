@@ -1,16 +1,16 @@
 "use client";
 
 import MiniSearch from "minisearch";
-import { useId, useMemo, useState } from "react";
-import type { ClientMunicipio } from "@/lib/wizard/clientIndex";
+import { useEffect, useId, useMemo, useState } from "react";
+import type { MunicipioIndexEntry } from "@/lib/types";
 
 type Props = {
-  index: ClientMunicipio[];
+  index: MunicipioIndexEntry[];
   value: string | null;
   onChange: (ine: string | null) => void;
 };
 
-type Hit = ClientMunicipio & { id?: string };
+type Hit = MunicipioIndexEntry & { id?: string };
 
 export function MunicipioTypeahead({ index, value, onChange }: Props) {
   const inputId = useId();
@@ -18,10 +18,12 @@ export function MunicipioTypeahead({ index, value, onChange }: Props) {
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
+  const [ready, setReady] = useState(false);
+  useEffect(() => setReady(true), []);
   const mini = useMemo(() => {
-    const ms = new MiniSearch<ClientMunicipio>({
+    const ms = new MiniSearch<MunicipioIndexEntry>({
       fields: ["name", "province_name", "ccaa_name", "ine_code"],
-      storeFields: ["ine_code", "name", "province_name", "path"],
+      storeFields: ["ine_code", "name", "province_name", "path", "poblacion"],
       idField: "ine_code",
       searchOptions: { prefix: true, fuzzy: 0.2 },
     });
@@ -50,6 +52,7 @@ export function MunicipioTypeahead({ index, value, onChange }: Props) {
         id={inputId}
         className="mt-1 w-full rounded border border-sand bg-white px-3 py-2.5"
         value={q}
+        disabled={!ready}
         role="combobox"
         aria-expanded={hits.length > 0}
         aria-controls={hits.length ? listId : undefined}
@@ -94,6 +97,7 @@ export function MunicipioTypeahead({ index, value, onChange }: Props) {
                   role="option"
                   aria-selected={i === active}
                   className="typeahead-option w-full px-3 py-2.5 text-left"
+                  onMouseDown={(event) => event.preventDefault()}
                   onClick={() => pick(h)}
                 >
                   <span className="font-semibold">{h.name}</span>

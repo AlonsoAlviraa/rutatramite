@@ -45,5 +45,9 @@ export function localSignalCount(m: Municipio): number {
 
 /** Indexable only when published and the playbook anti-thin bar is met. */
 export function isFichaIndexable(m: Municipio): boolean {
-  return m.status === "published" && m.confidence === "official" && localSignalCount(m) >= 5;
+  const supported = ["alta", "docs_extra", "canal"].every(key => {
+    const e = m.evidence?.[key];
+    return e && isAyuntamientoUrl(e.source_url) && m.source_urls.includes(e.source_url) && /^\d{4}-\d{2}-\d{2}$/.test(e.checked_at);
+  });
+  return Boolean(supported && m.tramite_alta_url && m.docs_extra?.length && m.status === "published" && m.confidence === "official" && localSignalCount(m) >= 5);
 }

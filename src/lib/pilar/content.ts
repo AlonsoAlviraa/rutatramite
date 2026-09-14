@@ -1,8 +1,8 @@
-import { DISCLAIMER_SHORT, ESCENARIO_LABELS, ESCENARIO_SLUGS, PRODUCT_NAME } from "@/lib/types";
+import { DISCLAIMER_SHORT, ESCENARIO_LABELS, ESCENARIO_SLUGS } from "@/lib/types";
 import { escenarioPath } from "@/lib/geo/paths";
 
 export type PilarFaq = { q: string; a: string };
-export type PilarSection = { id: string; title: string; paragraphs: string[]; lists?: string[][]; tables?: { headers: string[]; rows: string[][] }[] };
+export type PilarSection = { id: string; title: string; paragraphs: string[]; links?: { href: string; label: string }[]; lists?: string[][]; tables?: { headers: string[]; rows: string[][] }[] };
 
 export function buildPilarModel() {
   const faqs: PilarFaq[] = [
@@ -16,7 +16,7 @@ export function buildPilarModel() {
     },
     {
       q: "¿Dónde se pide el alta?",
-      a: "En el ayuntamiento del término donde está la vivienda. No en Policía, no en extranjería, no en el 060, no en RutaTrámite. Si vives en Móstoles, no te empadronas en Madrid. El buscador de este site cruza el índice INE.",
+      a: "En el ayuntamiento del municipio donde está tu vivienda. Busca el nombre de tu localidad y comprueba la provincia antes de abrir la sede. Si vives en Móstoles, por ejemplo, el alta corresponde a Móstoles y no al municipio de Madrid.",
     },
     {
       q: "¿Cuánto cuesta el alta?",
@@ -52,7 +52,7 @@ export function buildPilarModel() {
     },
     {
       q: "¿Cómo detecto un clon de cita?",
-      a: "La cita se pide en el dominio del ayuntamiento (sede.*, ayto*, .gob.es municipales, .cat, .gal, .eus). No en un 807, no en un anuncio que cobra por 'hueco mañana'. Si esta ficha no tiene cita_url, no inventamos el enlace.",
+      a: "Accede al apartado de cita desde la web oficial de tu ayuntamiento. Un nombre parecido o un anuncio no acreditan que una página sea municipal. Comprueba el organismo y el procedimiento antes de introducir datos o reservar.",
     },
     {
       q: "¿Qué puede exigir el ayuntamiento y qué no?",
@@ -60,11 +60,11 @@ export function buildPilarModel() {
     },
     {
       q: "¿RutaTrámite es la Administración?",
-      a: "No. Somos una guía ciudadana independiente. El trámite se hace en el ayuntamiento. No pedimos DNI, pasaporte ni fotos. No vendemos citas. Paleta propia: no imitamos sede.gob.es, Policía ni 060.",
+      a: "No. Somos una guía ciudadana independiente. El trámite se hace en el ayuntamiento. No pedimos DNI, pasaporte ni fotos, ni vendemos citas. Los enlaces oficiales permiten continuar el trámite ante la administración competente.",
     },
     {
       q: "¿De dónde salen los datos de las 769 fichas?",
-      a: "Catálogo de municipios ≥10.000 habitantes (población pública 1-ene-2025), códigos INE, sedes leídas cuando el GET a la web municipal funciona, y el marco legal estatal. Si no hay sede leída, la ficha es larga pero lleva badge de no verificada y no inventa teléfono.",
+      a: "El directorio utiliza el catálogo de municipios y sus códigos INE. Cada ficha distingue la información municipal comprobada de los datos pendientes de revisión. Comprueba la fecha y el aviso de verificación antes de preparar la documentación o desplazarte.",
     },
   ];
 
@@ -156,7 +156,7 @@ export function buildPilarModel() {
       title: "Cómo saber tu municipio real (Móstoles no es Madrid)",
       paragraphs: [
         "España tiene 8.132 municipios (relación INE). El padrón es de término municipal, no de área metropolitana, no de provincia, no de 'yo vivo en Madrid' cuando el portal dice Móstoles, Getafe, Cornellà o Hospitalet. El error número uno retrasa el alta y, a veces, escolariza al niño en el distrito equivocado.",
-        "Este site cubre los 769 municipios de 10.000 habitantes o más del catálogo (población pública a 1 de enero de 2025). Escribe el nombre en el buscador. El código INE de cinco dígitos es el identificador estable. Si dos pueblos se llaman igual, la URL lleva siempre la provincia y la comunidad.",
+        "El directorio contiene 769 municipios del catálogo disponible. Escribe el nombre en el buscador y comprueba la provincia y la comunidad, especialmente si existen localidades con nombres iguales o parecidos. La cobertura es parcial.",
         "Getafe no hereda el teléfono de Leganés. Barcelona no empadrona a quien vive en L'Hospitalet. Valencia ciudad no es l'Eliana. La ficha de cada municipio lo dice en la primera frase: canal, órgano, fecha de verificación.",
       ],
     },
@@ -165,8 +165,8 @@ export function buildPilarModel() {
       title: "Cómo pedir cita y detectar un clon",
       paragraphs: [
         "La cita, cuando existe, se pide en el dominio del ayuntamiento. Hosts típicos: sede.*, seuelectronica, ayto, .gob.es municipales, .cat, .gal, .eus. No en un anuncio que cobra 40 € por 'hueco mañana'. No en un 807. No en un WhatsApp de gestor con enchufe.",
-        "RutaTrámite solo muestra botón de cita si el JSON del municipio tiene cita_url verificada. Si no está, no la inventamos. Madrid, por ejemplo, publica citaprevia en madrid.es; esa URL está en la ficha porque sale del sample oficial del pack y de la sede. El pueblo de al lado no reutiliza ese enlace.",
-        "Una cita, un domicilio, a menudo una persona o una unidad convivencial. En grandes ciudades (oleada A, 67 municipios ≥100.000) el cuello de botella es la saturación. Prueba juntas de distrito del mismo término, no el municipio vecino.",
+        "Abre la sede desde la ficha de tu municipio y busca el procedimiento de padrón. Si falta el enlace de cita o la ficha indica que está pendiente de revisión, consulta directamente al ayuntamiento. La disponibilidad de una oficina no sirve para otro municipio.",
+        "Antes de reservar, comprueba cuántas personas admite cada cita y qué oficina puede atenderte. Si no encuentras hueco, consulta las alternativas que publique tu ayuntamiento y evita reservar en otro municipio por proximidad.",
       ],
     },
     {
@@ -175,7 +175,7 @@ export function buildPilarModel() {
       paragraphs: [
         "Cl@ve, certificado electrónico o DNIe identifican al solicitante en muchas sedes. Adjunta PDFs nítidos: contrato entero, autorización firmada, DNI de ambas caras si lo piden. Guarda el justificante de registro. Eso no es el volante todavía.",
         "Qué no esperar: que 'te lo aprueben en 24 h' como eslogan. Que una instancia genérica de registro sea un trámite de padrón específico. Que Cl@ve sustituya la comprobación de la vivienda. Que el alta online cambie tu domicilio fiscal.",
-        "Si la sede es un laberinto, el canal presencial sigue existiendo. Si robots.txt bloquea a un bot de verificación, la ficha queda como no verificada: badge visible, sin teléfono inventado.",
+        "Si no puedes completar la solicitud electrónica, consulta el canal presencial y la ayuda que ofrezca la sede. Una ficha pendiente de verificación no confirma los horarios ni la disponibilidad de un trámite por internet.",
       ],
     },
     {
@@ -189,9 +189,7 @@ export function buildPilarModel() {
       id: "cobertura",
       title: "Mapa de cobertura: 769 municipios ≥10.000",
       paragraphs: [
-        "Oleada A: 67 ciudades de 100.000 habitantes o más. Ficha de 1.800 palabras o más, sede leída cuando el GET a la web municipal responde, JSON-LD HowTo + FAQPage + GovernmentService (el proveedor es el ayuntamiento, no RutaTrámite).",
-        "Oleada B: 84 municipios de 50.000 a 99.999. Oleadas C y D: 272 + 346. Todas las fichas indexables del catálogo tienen plantilla larga (≥1.200 palabras visibles). Unverified permitido; thin de 300 palabras, no. Municipios de menos de 10.000 no se publican como landings indexables en esta versión.",
-        "Hay hub por cada comunidad autónoma y por cada provincia (más Ceuta y Melilla). Cada hub lista todos los municipios ≥10k del catálogo en ese territorio. El pilar enlaza las 17 comunidades. Las URLs geo son /empadronarse/{ccaa}/{provincia}/{municipio}.",
+        "Elige tu comunidad o ciudad autónoma para consultar sus directorios territoriales y localidades disponibles. Cada ficha indica qué información municipal se ha comprobado. Si tu municipio no aparece, utiliza directamente su web oficial.",
       ],
     },
     {
@@ -243,72 +241,53 @@ export function buildPilarModel() {
     },
     {
       id: "metodologia",
-      title: "Metodología de datos",
+      title: "Cómo comprobar la información de tu municipio",
       paragraphs: [
-        "Los municipios salen del INE y del catálogo del pack (769 filas ≥10.000 habitantes a 1-ene-2025). Los códigos de cinco dígitos se reconcilian con CodeForSpain. Los nombres en forma castellana antigua (Hospitalet, La Coruña, Fuenterrabía) se resuelven a la forma oficial (L'Hospitalet de Llobregat, A Coruña, Hondarribia) sin inventar el ente.",
-        "Las URLs de sede de oleada A se toman de la web oficial del municipio (Wikidata P856 u origen de pack) y se comprueban con GET e User-Agent identificable RutaTramiteBot/0.1. Si el GET falla o robots bloquea, no se inventa el enlace ni el teléfono. Badge de no verificada. Madrid usa el sample del pack (sede.madrid.es y cita en madrid.es).",
-        "Git es la fuente de verdad. JSON por municipio, Ajv contra municipio.schema.json, tasa_alta siempre 0, source_urls ≥ 1. Detalle en /metodologia y /fuentes.",
+        "Comprueba que el nombre, la provincia y la comunidad corresponden a tu domicilio. Si el buscador no incluye tu localidad, acude a su web municipal: el directorio no cubre todos los municipios de España.",
+        "Revisa el estado de verificación y la fecha de la ficha. Los requisitos locales, horarios y canales de atención pueden cambiar; un dato pendiente de comprobación no debe interpretarse como una confirmación del ayuntamiento.",
+        "Contrasta los documentos que necesitas con el procedimiento oficial. Si encuentras una diferencia, conserva el enlace de la sede y comunícala mediante la página de contacto para que podamos revisarla.",
       ],
     },
     {
       id: "fuentes",
       title: "Fuentes BOE e INE",
       paragraphs: [
-        "Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local: https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
-        "Instrucciones técnicas a los ayuntamientos, Resolución de 30 de enero de 2015: https://www.boe.es/buscar/doc.php?id=BOE-A-2015-3109",
-        "Resolución de 17 de febrero de 2020 (BOE-A-2020-4784) y consolidado posterior.",
-        "Repositorio de modelos INE: https://idapadron.ine.es/",
-        "Relación de municipios INE: https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031",
-        "RD 1690/1986 (población y padrón). Cifras 1-ene-2025 (RD 1117/2025, BOE-A-2025-25362) a contrastar en ine.es.",
+        "Los artículos 15 y 16 de la Ley de Bases del Régimen Local y las instrucciones de gestión del padrón son las referencias nacionales. Para formularios, cita y oficinas, consulta además la sede de tu ayuntamiento.",
+      ],
+      links: [
+        { label: "BOE: Ley 7/1985, padrón y residencia habitual", href: "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392" },
+        { label: "BOE: instrucciones de gestión del padrón de 2020, texto consolidado", href: "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784" },
+        { label: "INE: información sobre el padrón municipal", href: "https://idapadron.ine.es/" },
+        { label: "Cómo verificamos las guías", href: "/metodologia" },
+        { label: "Directorio de fuentes oficiales", href: "/fuentes" },
       ],
     },
     {
       id: "disclaimer",
-      title: "Disclaimer",
+      title: "Alcance de esta guía",
       paragraphs: [DISCLAIMER_SHORT],
     },
   ];
 
-  // Expand FAQs to ~100 words each for the 3000-word floor, and add long-form legal narrative.
-  const longLegal: PilarSection[] = [
-    {
-      id: "pasos-nacionales",
-      title: "Cómo se hace, paso a paso (versión nacional)",
-      paragraphs: [
-        "Uno. Identifica el municipio real. El buscador de esta web cruza el índice de 769 municipios ≥10.000 habitantes y el código INE de cinco dígitos. Vivir «en Madrid» cuando el contrato dice Móstoles, Getafe, Leganés, Parla o Rivas es el error número uno. Lo mismo en el área de Barcelona (L'Hospitalet, Badalona, Cornellà) o en l'Horta de València. El padrón es de término municipal.",
-        "Dos. Abre la ficha de ese municipio. Mira sede_url, cita_previa, online y last_verified. Si hay badge de no verificada, el marco estatal sigue valiendo y el teléfono no se inventa. La primera frase nombra canal, órgano y fecha: es la frase pensada para que un modelo de lenguaje cite sin alucinar.",
-        "Tres. Elige escenario. Contrato a tu nombre, autorización, propietario, familiar, menores, UE, no UE, sin hogar, volante, certificado, renovación a dos años, cambio de domicilio o baja. Cada guía nacional supera las dos mil palabras. La ficha local no las copia.",
-        "Cuatro. Si hay canal electrónico y tienes Cl@ve, certificado o DNIe, úsalo. Adjunta PDFs legibles: contrato entero, autorización con dirección y documento del titular, identidad. Guarda el justificante de registro. Eso aún no es el volante.",
-        "Cinco. Si es presencial, pide cita en la URL municipal. No en un clon 807. No pagues la cita. Una cita, un domicilio. En oleada A prueba oficinas de distrito del mismo término, no el pueblo de al lado.",
-        "Seis. Lleva originales y fotocopias. En muchas OAC no hay fotocopiadora. El móvil con una foto del pasaporte no basta. Firman los mayores de edad que se inscriben.",
-        "Siete. Si el escenario es sin contrato, lleva la autorización del titular y al titular o su documentación bastante. Pregunta en la ficha si el titular debe acudir. Un papel de tres líneas en el bar no es un modelo municipal.",
-        "Ocho. Al salir, pide volante. Pregunta cómo se pide el certificado si lo necesitas para extranjería. Revisa nombre, documento y dirección. Un error de letra persigue el censo electoral y el histórico.",
-        "Nueve. Si te lo deniegan, pide el motivo por escrito. Contrasta con el artículo 15 y con el escenario. Recurso o nueva cita con el papel que faltaba. No pagues a un gestor que «tiene enchufe».",
-        "Diez. Si te has mudado de verdad, comunica también el domicilio fiscal (modelo 030). El padrón no lo hace por ti. Si eres no comunitario sin larga duración, anota la renovación a los dos años.",
-        "Once. Menores: anexos INE, consentimiento o resolución. Representación: Ley 39/2015 artículo 5. Sin techo: Servicios Sociales. Violencia de género: domicilio que indiquen SS.SS. Infravivienda: puede ser domicilio a efectos de padrón.",
-        "Doce. Contrasta siempre la sede. Esta guía se desactualiza. La sede gana para el cómo; la ley gana para el quién tiene derecho. RutaTrámite no presenta escritos por ti.",
-      ],
-    },
-    {
-      id: "ley-larga",
-      title: "El marco legal, sin recitar el BOE entero en cada pueblo",
-      paragraphs: [
-        "El artículo 15 de la Ley 7/1985 dice que toda persona que viva en España está obligada a inscribirse en el Padrón del municipio en el que resida habitualmente. Quien viva en varios municipios debe inscribirse en aquel en el que habite durante más tiempo al año. El que se traslada solicita la baja; en la práctica, el alta nueva dispara la coordinación INE y la baja en origen. La frase crítica para este producto: la inscripción padronal es independiente de la situación jurídico-administrativa de la persona en España.",
-        "El artículo 16 detalla los datos obligatorios: nombre y apellidos, sexo, domicilio habitual con referencia catastral cuando exista (o código equivalente en territorio foral), nacionalidad, lugar y fecha de nacimiento, número de DNI o, en extranjeros, el que corresponda (NIE, TIE, pasaporte, documento del país en UE/EEE/Suiza), título escolar o académico, y los datos precisos para el censo electoral. La referencia catastral no es un capricho de Valencia o Madrid: está en el 16.2.c vigente.",
-        "La inscripción de extranjeros no comunitarios sin autorización de residencia de larga duración o permanente se renueva cada dos años. Si no, puede declararse la caducidad y la baja. El Real Decreto 1690/1986 desarrolla población y padrón: gestión, comprobación, control, altas por omisión, bajas, coordinación con el INE. El ayuntamiento puede comprobar que la vivienda existe y que la persona reside. Algunas sedes se pasan de frenada. Otras aplican el padrón de forma laxa. La ficha describe lo que la sede publica.",
-        "La Resolución de 30 de enero de 2015 (BOE-A-2015-3109) y la línea 2020 (BOE-A-2020-4784) dictan instrucciones técnicas. Identidad: español mayor de 14, DNI; menor, libro de familia o nacimiento; UE, pasaporte o documento nacional; resto, TIE o pasaporte; alternativos previstos. Vivienda: escritura, nota simple, IBI, contrato, autorización del titular, informe de servicios sociales. Facturas de suministro: solo si esa sede lo dice. Menores: consentimiento, resolución o declaración responsable. Representación: Ley 39/2015 artículo 5. Sin techo: el empadronamiento no puede quedar bloqueado porque la persona no tenga contrato.",
-        "El volante es informativo. El certificado es documento público. El histórico acredita movimientos. No existe una caducidad legal única de tres meses para todo uso. Empadronarse no cambia por arte de magia el domicilio fiscal en la AEAT. El padrón tampoco es la TIE, ni el NIE, ni la tarjeta sanitaria, ni el censo electoral en sentido estricto, aunque alimenta el censo.",
-        "Infravivienda y sin techo: chabola, caravana, cueva o ausencia total de techo pueden ser domicilio. Si no hay dirección a la que notificar, Servicios Sociales fija una con referencia al callejero. Violencia de género: se puede inscribir en la dirección que indiquen SS.SS. por seguridad. Baja previa en origen: no es requisito. Empadronarse no crea título civil de ocupación: hay que decirlo para no alimentar el bulo de que el padrón legaliza una okupación.",
-        `${PRODUCT_NAME} cita estas normas. No improvisa doctrina. No convierte un rumor de oficina en norma estatal. Si una sede municipal contradice este marco en un requisito de canal (cita, Cl@ve, modelo propio), gana la sede para el cómo y gana la ley para el quién tiene derecho.`,
-      ],
-    },
-  ];
+  // Practical sequence; avoid repeating the same law to reach a word count.
+  const longLegal: PilarSection[] = [{
+    id: "pasos-nacionales",
+    title: "Cómo empadronarse, paso a paso",
+    paragraphs: [
+      "1. Localiza tu ayuntamiento. Busca el municipio de tu domicilio, no la capital de la provincia ni otra localidad cercana.",
+      "2. Consulta la ficha y la sede oficial. Revisa la fecha, el estado de verificación y los canales disponibles para el alta o el cambio de domicilio.",
+      "3. Elige la guía que corresponde a tu situación: contrato a tu nombre, vivienda de un familiar, ausencia de contrato, menores u otro supuesto. Comprueba los modelos municipales y prepara la documentación que indiquen.",
+      "4. Presenta la solicitud por el canal previsto. Si necesitas cita, resérvala desde el portal oficial. Si utilizas la sede electrónica, conserva el justificante de presentación y sigue los avisos del expediente.",
+      "5. Comprueba el resultado. Revisa nombre y domicilio, y solicita el volante o certificado que te hayan pedido para el siguiente trámite. Si falta un documento o hay una denegación, consulta el requerimiento y su plazo de respuesta.",
+    ],
+  }];
 
   return {
-    h1: "Empadronarse en España",
-    title: "Empadronarse en España: documentos, cita y sede de tu ayuntamiento 2026",
+    editedAt: "2026-09-14",
+    h1: "Empadronarse en España: documentos y pasos",
+    title: "Requisitos para empadronarse: documentos, pasos y cita 2026",
     description:
-      "Guía nacional para empadronarse: alta gratuita, documentos, 12 escenarios y 769 municipios ≥10k. RutaTrámite no es Administración.",
+      "Qué necesitas para empadronarte en España: documentos de identidad y vivienda, pasos del alta y cómo encontrar la sede de tu ayuntamiento.",
     lead:
       "RutaTrámite te dice dónde y con qué papeles empadronarte en tu municipio. El trámite se hace en el ayuntamiento, no aquí. El alta es gratuita. No somos Administración.",
     sections: [...sections.slice(0, 1), ...longLegal, ...sections.slice(1)],

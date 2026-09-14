@@ -26,7 +26,9 @@ export default function PrivacidadPage() {
         Los enlaces a sedes oficiales abren servicios de otros organismos, que tienen sus
         propias condiciones de privacidad. Revisa esas condiciones antes de facilitarles datos.
       </p>
-      <h2 className="pt-4 text-2xl font-semibold">Si nos escribes</h2>
+      <h2 className="pt-4 text-2xl font-semibold">Medición agregada del uso</h2>
+      <p>Contamos visitas a páginas y acciones como completar el asistente, copiar un modelo, pulsar una descarga o abrir una fuente oficial. Guardamos únicamente totales por día, página y tipo de acción durante un máximo de 180 días. Los informes son privados.</p>
+      <p>Este medidor no utiliza cookies, cuentas ni identificadores de visitante. No guarda búsquedas, respuestas del asistente, documentos, direcciones IP ni la página de procedencia. Respeta la señal Do Not Track. Los recuentos son acciones, no personas únicas ni solicitudes presentadas. La web sigue funcionando si el medidor falla.</p>
       <p>
         Puedes usar el <a className="underline" href="/contacto">correo de contacto</a> para
         avisar de un error. Incluye el enlace de la guía y una explicación, sin adjuntar

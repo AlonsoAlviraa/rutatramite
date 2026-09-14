@@ -17,6 +17,8 @@ INDEX = ROOT / "data" / "municipios" / "_index.json"
 CATALOG_INDEX = ROOT / "data" / "catalog" / "municipios_index.json"
 SRC_INDEX = ROOT / "src" / "lib" / "data" / "municipios_index.generated.json"
 MUN_DIR = ROOT / "data" / "municipios"
+REVIEWS_PATH = ROOT / "data" / "municipal-reviews.json"
+REVIEWS = json.loads(REVIEWS_PATH.read_text(encoding="utf-8")) if REVIEWS_PATH.exists() else {}
 
 
 def load_best_index() -> list:
@@ -53,7 +55,16 @@ def is_ficha_indexable(rec: dict) -> bool:
         n += 1
     if rec.get("last_verified") and rec.get("source_urls"):
         n += 1
-    return rec.get("status") == "published" and rec.get("confidence") == "official" and n >= 5
+    import re
+    evidence = rec.get("evidence") or {}
+    supported = all(
+        (e := evidence.get(key, {})).get("source_url", "").startswith(("http://", "https://"))
+        and "rutatramite." not in e["source_url"].lower()
+        and e["source_url"] in rec.get("source_urls", [])
+        and re.fullmatch(r"\d{4}-\d{2}-\d{2}", e.get("checked_at", ""))
+        for key in ("alta", "docs_extra", "canal")
+    )
+    return bool(supported and rec.get("tramite_alta_url") and rec.get("docs_extra") and rec.get("status") == "published" and rec.get("confidence") == "official" and n >= 5)
 
 
 def load_municipio_record(ine_code: str, fallback: dict) -> dict:
@@ -62,10 +73,10 @@ def load_municipio_record(ine_code: str, fallback: dict) -> dict:
         try:
             rec = json.loads(p.read_text(encoding="utf-8"))
             if isinstance(rec, dict):
-                return rec
+                return {**rec, **REVIEWS.get(ine_code, {})}
         except json.JSONDecodeError:
             pass
-    return fallback
+    return {**fallback, **REVIEWS.get(ine_code, {})}
 TERR = ROOT / "data" / "geo" / "territories.json"
 PUBLIC = ROOT / "public"
 ORIGIN = os.environ.get("NEXT_PUBLIC_SITE_URL", os.environ.get("SITE_ORIGIN", "https://rutatramite.com")).rstrip("/")
@@ -74,6 +85,17 @@ ORIGIN = os.environ.get("NEXT_PUBLIC_SITE_URL", os.environ.get("SITE_ORIGIN", "h
 LEGACY = ("sitemap-core.xml", "sitemap-provincias.xml", "sitemap-municipios.xml")
 
 CORE = [
+    "/recursos/padron-municipal",
+    "/ayudas",
+    "/alquiler",
+    "/alquiler/ayudas-por-comunidad",
+    "/alquiler/bono-alquiler-joven",
+    "/alquiler/plan-vivienda-2026-2030",
+    "/alquiler/bono-alquiler-joven-madrid",
+    "/alquiler/bono-alquiler-joven-andalucia",
+    "/alquiler/ayudas-alquiler-cataluna",
+    "/becas/ayudas-estudiantes",
+    "/becas/apoyo-educativo",
     "/",
     "/empadronarse",
     "/metodologia",
@@ -230,12 +252,8 @@ CORE = [
     "/acuse-de-recibo-modelo",
     "/modelo-subsanacion",
     "/modelo-030-cambio-domicilio",
+    "/descargas",
 ]
-
-
-# Known editorial dates (do not stamp "today" on a sitemap regen).
-HUB_LASTMOD = "2026-09-07"
-PILAR_LASTMOD = "2026-09-03"
 
 
 def url_entry(path: str, lastmod: str | None = None) -> str:
@@ -257,11 +275,9 @@ def main() -> None:
     PUBLIC.mkdir(exist_ok=True)
     index = load_best_index()
     terr = json.loads(TERR.read_text(encoding="utf-8"))
-    # Hubs and legal first, then the rest of CORE. Do not stamp regen time as lastmod.
-    entries = [
-        url_entry(p, PILAR_LASTMOD if p == "/empadronarse" else HUB_LASTMOD)
-        for p in CORE
-    ]
+    # Do not label a sitemap regeneration as a content review.
+    entries = [url_entry(p, "2026-09-14" if p in ("/empadronarse", "/dni", "/pasaporte") else None) for p in CORE]
+    entries.append(url_entry("/recursos", "2026-09-14"))
     for c in terr["ccaa"]:
         entries.append(url_entry(f"/empadronarse/{c['slug']}"))
         for code in c["province_codes"]:

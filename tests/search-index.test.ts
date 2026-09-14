@@ -27,10 +27,8 @@ describe("search engine + GEO discovery files (shipped public/)", () => {
       // Specific groups override '*'; each effective group must retain exclusions.
       const effective = rules.find((rule) => rule.userAgent === agent) ?? rules.find((rule) => rule.userAgent === "*");
       expect(effective?.allow).toBe("/");
-      const disallow = effective?.disallow;
-      const listed = Array.isArray(disallow) ? disallow : [disallow];
-      expect(listed).toContain("/api/");
-      expect(listed).toContain("/borrador/");
+      expect(effective?.disallow).toContain("/api/");
+      expect(effective?.disallow).toContain("/borrador/");
     }
   });
 

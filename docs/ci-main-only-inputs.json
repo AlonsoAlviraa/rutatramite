@@ -1,0 +1,26 @@
+{
+  "preserved_in_commit": "80f6023ef5ca092a7409c7fff02a5317b45ebd31",
+  "not_in_published_build": [
+    "src/app/sitemap.ts",
+    "src/app/ai/faq.json/route.ts",
+    "src/app/ai/summary.json/route.ts",
+    "src/app/api/indexnow/route.ts",
+    "src/app/api/municipios-index/route.ts",
+    "src/app/buscar/page.tsx",
+    "src/app/llms-full.txt/route.ts",
+    "src/app/llms.txt/route.ts",
+    "src/components/ui/BuscarView.tsx",
+    "src/components/ui/GeoLead.tsx",
+    "src/lib/seo/crawlers.ts",
+    "src/lib/seo/hreflang.ts",
+    "src/lib/seo/indexnow.ts",
+    "src/lib/seo/llms.ts",
+    "src/lib/seo/sitemapEntries.ts",
+    "src/lib/seo/siteSearch.ts",
+    "src/lib/wizard/clientIndex.ts",
+    "src/lib/wizard/loadClientIndex.ts",
+    "public/.well-known/ai.txt",
+    "tests/seo-geo-mega.test.ts",
+    "scripts/ping-indexnow.mjs"
+  ]
+}
