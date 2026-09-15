@@ -114,7 +114,11 @@ def main():
         elif not all((target/name).is_file() for name in ['server.js','public/sitemap.xml','data/municipios/_index.json']):
             raise ValueError('Standalone package is incomplete')
         if args.action == 'preview':
-            print(json.dumps({'status':'prepared','target':str(target),'sha':args.sha,'digest':args.digest}))
+            from preview import run_preview
+            record=run_preview(args.repository,target,args.sha,args.digest,receipts)
+            if LINKS[args.repository].resolve(strict=True) != previous:
+                raise RuntimeError('Production pointer changed during preview')
+            print(json.dumps(record))
             return
     activate_release(args.repository,target,args.action)
     record = {'action':args.action,'sha':args.sha,'digest':args.digest,'active':str(target),'previous':str(previous),'at':stamp}

@@ -1,0 +1,14 @@
+{
+  "installed_at": "2026-09-15T18:12:45.693569+00:00",
+  "files": {
+    "preview.py": "6e420fe9aa1b04cf54f60825ff0159667707c7de83408e8ed5677ae736e3354b",
+    "activate.py": "a3f228d74e0bde0985f295ae2f92b79908cb8b0108157ecadd51ec6148c1fc09"
+  },
+  "backup": "/opt/ruta-ci/preview-validation-20260915/installed-backup",
+  "production_pointers": [
+    "/srv/tenants/slot2/releases/20260915T171408Z",
+    "/opt/visionsetil/releases/frontend-8505bc583fb9c5e039ef2835bfa8dc1704db1b62/dist-app"
+  ],
+  "production_unchanged": true,
+  "scope": "Installed artifact preview helper. Jenkins successful-full/current-main publication gate unchanged. Rehearsals used already published artifacts, not a new Jenkins full build."
+}

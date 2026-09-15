@@ -42,7 +42,7 @@ RutaTrámite añade `rutatramite-pr`, `rutatramite-full`, `rutatramite-publish` 
 
 1. Para comprobar una propuesta, indicar SHA y BASE_SHA completos. `SOURCE=github` usa la App; `SOURCE=local` queda reservado para validar la migración. Cambios compartidos o una base ausente ejecutan todas las comprobaciones pertinentes.
 2. Antes de publicar, ejecutar `<repositorio>-full` contra el SHA actual de main. El resultado tiene que ser SUCCESS, con todas las etapas aprobadas y paquete SHA256 verificado.
-3. Cuando el usuario pida publicar, abrir `<repositorio>-publish`, indicar el número de esa ejecución y seleccionar la operación. `preview` actualmente extrae y valida el paquete; **todavía no arranca un servidor de previsualización**. `publish` activa exactamente el paquete, comprueba salud y restaura el anterior si falla.
+3. Cuando el usuario pida publicar, abrir `<repositorio>-publish`, indicar el número de esa ejecución y seleccionar la operación. `preview` verifica y extrae el paquete, arranca un servidor aislado en loopback, comprueba sus respuestas HTTP y lo detiene dejando un recibo. `publish` activa exactamente el paquete, comprueba salud y restaura el anterior si falla. La previsualización de VisionSetil comprueba los archivos estáticos y la portada prerenderizada; los recorridos, la API y las reglas de rutas de producción se validan aparte.
 4. Para revertir, ejecutar `<repositorio>-rollback`; usa el recibo de la última publicación válida. Los trabajos manuales comparten el bloqueo de producción/Caddy.
 5. Para Android, ejecutar `visionsetil-android` con el SHA actual de main. El AAB y la identidad quedan en `C:/Users/Mariano/CI/archive/android`. La subida a Play requiere una operación distinta.
 
@@ -70,7 +70,8 @@ Los scripts `provision_*.py` generan solicitudes administrativas revisables en `
 - [ ] Descargar/configurar la clave privada de la App; el navegador automatizado bloqueó la descarga. Revocar después la primera clave inaccesible.
 - [ ] Validar checkout privado, estado de commit y entrega real de webhook de GitHub.
 - [ ] Ejecutar PR, suites completas de ambos proyectos, recorridos públicos y Android firmado. Falta RAM disponible en el PC.
-- [ ] Arranque aislado de una copia restaurada y prueba real del paquete en preview; el ensayo de rollback actual usa servicios simulados.
+- [x] Servidor real de preview instalado y ensayado con los paquetes publicados de ambos proyectos. [Alcance y recibos](../../docs/CI-PREVIEW-20260915.md). Pendiente encadenarlo a una ejecución completa de Jenkins aprobada del main vigente.
+- [ ] Arranque aislado de una copia restaurada; el ensayo de rollback actual usa servicios simulados.
 - [ ] Actualización atómica del código de sondas antes de horarios/publicación; la copia actual corresponde a `8505bc583fb9c5e039ef2835bfa8dc1704db1b62`.
 - [ ] Agrupar trabajos obsoletos por propuesta y reconciliar entregas de webhook que quedaron en estado `dispatching`.
 - [ ] Revisar/confirmar los cambios de código, publicar las ramas y validar los checks de sus commits exactos.

@@ -36,3 +36,6 @@ Los primeros ensayos locales detectaron conexiones SQLite abiertas; se corrigió
 **Implementado y probado, todavía no instalado en el receptor activo.** La nueva consulta de revisión a GitHub requiere resolver la autenticación. Los archivos del temporizador de reconciliación están preparados, pero no habilitados. La revisión de alternativas solicitada no se interpreta como autorización para eliminar la infraestructura existente ni como elección de otra plataforma.
 
 Siguen pendientes la integración real, las suites completas y AAB con recursos suficientes, previsualización real, arranque de recuperación, actualización atómica de sondas, validación de los commits finales y corte de Actions. Cambiar de controlador no acredita ninguno de esos resultados por sí solo.
+
+
+La previsualizaci?n real se instal? y ensay? despu?s con los paquetes publicados: 258 p?ginas y 33 PDF de RutaTr?mite, 1.252 p?ginas est?ticas de VisionSetil y 34 pruebas de infraestructura aprobadas. [Alcance, instalaci?n y limitaciones](CI-PREVIEW-20260915.md).
