@@ -19,7 +19,7 @@ def token(repository,write_status=False,read_pr=False):
     import jwt
     configuration=json.loads(CONFIG.read_text())
     now=int(time.time())
-    signed=jwt.encode({'iat':now-60,'exp':now+540,'iss':configuration['app_id']},Path(configuration['private_key']).read_bytes(),algorithm='RS256')
+    signed=jwt.encode({'iat':now-60,'exp':now+540,'iss':str(configuration['app_id'])},Path(configuration['private_key']).read_bytes(),algorithm='RS256')
     permissions={'contents':'read','metadata':'read'}
     if write_status:
         permissions['statuses']='write'

@@ -2,7 +2,7 @@
 
 Estado: migración en validación; GitHub Actions todavía habilitado. No activar el corte hasta completar la lista de aceptación de este documento.
 
-Actualización del 15 de septiembre: agente Windows reconectado y ejecución `visionsetil-full #1` retomada, todavía esperando RAM. El usuario confirmó que no ha descargado la clave de la App y pidió comparar alternativas. La mejora de entregas y cola está implementada, con 28 pruebas de infraestructura aprobadas en Linux y ocho escenarios en el controlador real; todavía no está instalada en el receptor activo. [Comparación y estado comprobado](../../docs/ALTERNATIVAS-CI-20260915.md).
+Actualización del 15 de septiembre: App configurada y validada en PC/VPS; clonación de ambos repositorios privados y estados de autenticación comprobados. Refresco periódico de fuentes instalado y ejecutado correctamente. 49 pruebas de infraestructura aprobadas. Las suites pesadas siguen esperando RAM; webhook, despachador y corte pendientes. [Evidencia y límites](../../docs/CI-GITHUB-APP-20260915.md).
 
 GitHub conserva código y propuestas. Jenkins vive en el VPS existente, en <https://ci.rutatramite.com/>, y los trabajos pesados se ejecutan en contenedores Linux del PC Windows. No se ha contratado ningún servicio adicional. El PC necesita estar encendido y con la sesión de Mariano iniciada; si no está disponible los trabajos esperan. Publicar, revertir, cambiar Caddy y generar Android son operaciones manuales. No se sube automáticamente a Google Play.
 
@@ -48,7 +48,7 @@ RutaTrámite añade `rutatramite-pr`, `rutatramite-full`, `rutatramite-publish` 
 
 Las sondas usan generaciones inmutables en `/opt/ruta-ci/probe-sources`, con SHA y huellas por archivo. Antes de una ejecución manual, ejecutar desde el PC `python ops/ci/upload_probe_sources.py --sha <SHA-actual-de-main>` con el intérprete de `CI/runtime`; la herramienta contrasta main en GitHub antes y después de preparar el paquete. El job fija una generación y rechaza una confirmación de más de diez minutos. `SOURCE_SHA` permite exigir un commit concreto; `REQUIRE_IDENTIFY_AVAILABLE` conserva la opción equivalente del workflow anterior. El publicador de VisionSetil actualiza también las sondas después de validar el paquete y antes de activarlo.
 
-El refresco periódico con la App está preparado en `probe_refresh.py --github` y `ruta-ci-probe-refresh.service/.timer`, pero no habilitado hasta validar la clave y los accesos reales. Los horarios de las dos sondas siguen apagados. No se presenta la actualización manual como sincronización automática ya operativa. [Ensayos y resultados](../../docs/CI-PROBES-20260915.md).
+El refresco periódico con la App está instalado y activo mediante `probe_refresh.py --github` y `ruta-ci-probe-refresh.service/.timer`; su ejecución real pasó el 15 de septiembre. Los horarios de las dos sondas siguen apagados. No se presenta la actualización manual como sincronización automática ya operativa. [Ensayos y resultados](../../docs/CI-PROBES-20260915.md).
 
 ## Rutas y recuperación
 
@@ -73,15 +73,18 @@ Los scripts `provision_*.py` generan solicitudes administrativas revisables en `
 - [x] 595 artefactos de Actions descargados y verificados, 621450302 bytes; ninguno eliminado.
 - [x] Copia independiente al PC y extracción de 14 configuraciones; claves separadas.
 - [x] App instalada únicamente en los dos repositorios.
-- [ ] Descargar/configurar la clave privada de la App; el navegador automatizado bloqueó la descarga. Revocar después la primera clave inaccesible.
-- [ ] Validar checkout privado, estado de commit y entrega real de webhook de GitHub.
+- [x] Descargar/configurar la clave de la App y validar acceso desde PC/VPS.
+- [ ] Revocar las claves anteriores inaccesibles tras identificar la válida en GitHub.
+- [x] Validar clonación privada y estado de commit con tokens limitados por repositorio.
+- [ ] Validar entrega real de webhook de GitHub.
 - [ ] Ejecutar PR, suites completas de ambos proyectos, recorridos públicos y Android firmado. Falta RAM disponible en el PC.
 - [x] Servidor real de preview instalado y ensayado con los paquetes publicados de ambos proyectos. [Alcance y recibos](../../docs/CI-PREVIEW-20260915.md). Pendiente encadenarlo a una ejecución completa de Jenkins aprobada del main vigente.
 - [x] Arranque aislado de una copia restaurada, plugins, cuenta y descifrado de clave respaldada comprobados.
 - [x] Motor de rollback ensayado con Node, Caddy, enlaces y reinicios reales en entornos aislados: seis casos aprobados, con versiones publicadas y fallos provocados. [Alcance](../../docs/CI-ROLLBACK-20260915.md).
 - [ ] Completar la publicación y reversión desde Jenkins de un paquete aprobado del main vigente; los ensayos aislados no sustituyen esa aceptación.
 - [x] Generaciones de sondas verificadas y cambio atómico instalados; ambas sondas ejecutadas en Jenkins con `4242986869d59b9abc6d218b6cfeaafea1a5ea13`. El publicador incorpora la actualización previa.
-- [ ] Validar refresco periódico con la App y encadenarlo al corte de horarios; la integración de publicación sigue pendiente de su ejecución completa de aceptación.
+- [x] Instalar y ejecutar el refresco periódico con la App.
+- [ ] Encadenar el refresco al corte de horarios; la integración de publicación sigue pendiente de aceptación completa.
 - [ ] Agrupar trabajos obsoletos por propuesta y reconciliar entregas de webhook que quedaron en estado `dispatching`.
 - [ ] Revisar/confirmar los cambios de código, publicar las ramas y validar los checks de sus commits exactos.
 - [ ] Refrescar el archivo de artefactos, esperar las ejecuciones activas, activar los horarios equivalentes y deshabilitar Actions en ambos repositorios.
@@ -95,6 +98,6 @@ La revisión de secretos encontró 26 alertas: 24 versiones públicas de plugins
 
 `dispatch.py` conserva la intención en SQLite antes del envío. `dispatch.groovy` consulta y modifica la cola bajo el bloqueo de Jenkins, reconoce el evento en cola o en ejecuciones existentes, y sustituye exclusivamente comprobaciones automáticas de la misma propuesta/rama. Un orden persistente evita que una reconciliación antigua sustituya una entrega más reciente. La API de GitHub confirma además que el SHA, la base y el estado de la propuesta siguen vigentes antes de encolarla.
 
-Las intenciones antiguas sin contexto de propuesta solo se concilian si sobrevive evidencia en Jenkins; una ausencia no autoriza un relanzamiento. Los archivos `ruta-ci-reconcile.service` y `.timer` preparan una revisión cada cinco minutos. Su instalación, el registro de los tres parámetros nuevos de los jobs y el cambio del receptor se harán tras completar la autenticación y su validación real. La casilla de cola permanece pendiente por ese motivo.
+Las intenciones antiguas sin contexto de propuesta solo se concilian si sobrevive evidencia en Jenkins; una ausencia no autoriza un relanzamiento. Los archivos `ruta-ci-reconcile.service` y `.timer` preparan una revisión cada cinco minutos. La autenticación ya está validada. Siguen pendientes su instalación, el registro de los tres parámetros nuevos de los jobs y el cambio del receptor. La casilla de cola permanece pendiente por ese motivo.
 
 La base de aplicación se amplió posteriormente con la corrección de licencia de Google, publicada como `mc2BEFYMW13Izl_iG8j50`. El estado y las huellas vigentes están en `docs/ESTADO-AUDITORIA.md`; el párrafo anterior sobre los 1097 archivos documenta la base inicial de la migración.

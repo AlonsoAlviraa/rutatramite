@@ -1,0 +1,25 @@
+{
+  "app_id": 4945898,
+  "installation_id": 161748368,
+  "public_key_sha256": "HMaLyLCA67Ex4FHIXwaJsiLkel1PQOG8Zei/ZJ3lw/g=",
+  "repositories": {
+    "rutatramite": {
+      "main_sha": "80f6023ef5ca092a7409c7fff02a5317b45ebd31",
+      "private": true,
+      "scoped_token": true,
+      "authenticated_git": true
+    },
+    "visionsetil": {
+      "main_sha": "4242986869d59b9abc6d218b6cfeaafea1a5ea13",
+      "private": true,
+      "scoped_token": true,
+      "authenticated_git": true
+    }
+  },
+  "vps_main": {
+    "rutatramite": "80f6023ef5ca092a7409c7fff02a5317b45ebd31",
+    "visionsetil": "4242986869d59b9abc6d218b6cfeaafea1a5ea13"
+  },
+  "status": "passed",
+  "checked_at": "2026-09-15T20:05:22Z"
+}
