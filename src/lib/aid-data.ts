@@ -3,6 +3,7 @@ import { AIDS, aidPhase, aidStatus } from "@/lib/ayudas";
 import { SITE_ORIGIN, PRODUCT_NAME } from "@/lib/types";
 import { aidCoverage } from "@/lib/aid-coverage";
 import history from "../../data/aid-history.json";
+import { DATASET_LICENSE, DATASET_LICENSE_URL } from "@/lib/dataset-license";
 
 export const AID_DATA_PATH = "/recursos";
 export const AID_DATA_REVIEWED = AIDS.map(a => a.checkedAt).sort().at(-1)!;
@@ -15,6 +16,7 @@ export function aidDataset(now = new Date()) {
     title: "Convocatorias seleccionadas de ayudas a estudiantes y alquiler",
     publisher: PRODUCT_NAME,
     documentation_url: `${SITE_ORIGIN}${AID_DATA_PATH}`,
+    license_url: DATASET_LICENSE_URL,
     generated_at: now.toISOString(),
     last_editorial_review: AID_DATA_REVIEWED,
     scope: "Selección editorial, no exhaustiva. Información orientativa; consultar cada fuente oficial.",
@@ -53,6 +55,7 @@ export function aidDatasetJsonLd(): WithContext<Dataset> {
     creator: { "@type": "Organization", "@id": `${SITE_ORIGIN}#organization`, name: PRODUCT_NAME, url: SITE_ORIGIN },
     inLanguage: "es", dateModified: AID_DATA_REVIEWED,
     isAccessibleForFree: true,
+    license: DATASET_LICENSE,
     spatialCoverage: { "@type": "Place", name: "España" },
     citation: [...new Set(AIDS.map(a => a.source.href))],
     distribution: [

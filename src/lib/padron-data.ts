@@ -4,11 +4,13 @@ import { loadMunicipio } from "@/lib/data/load";
 import { isFichaIndexable, localSignalCount } from "@/lib/seo/localSignals";
 import { SITE_ORIGIN } from "@/lib/types";
 import { csvCell } from "@/lib/aid-data";
+import { DATASET_LICENSE_URL } from "@/lib/dataset-license";
 
 export function padronDataset() {
   const selected = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data/municipal-reviews.json"), "utf8"));
   return {
     schema_version: "1.0", documentation_url: `${SITE_ORIGIN}/recursos/padron-municipal`,
+    license_url: DATASET_LICENSE_URL,
     scope: "Madrid y 20 municipios seleccionados. Revisión del alta ordinaria; no cubre todos los procedimientos ni todos los municipios.",
     records: Object.keys(selected).map(code => {
       const m = loadMunicipio(code);

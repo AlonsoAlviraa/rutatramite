@@ -3,6 +3,7 @@ import { JsonLd } from "@/components/empadronamiento/JsonLd";
 import { PageShell } from "@/components/ui/PageShell";
 import { aidDataset, aidDatasetJsonLd, AID_DATA_REVIEWED } from "@/lib/aid-data";
 import { pageMetadata } from "@/lib/seo/meta";
+import { DatasetReuse } from "@/components/tramites/DatasetReuse";
 
 export const revalidate = 3600;
 export const metadata = pageMetadata({ title: "Datos de ayudas: fuentes, fechas y descargas JSON y CSV", description: "Consulta y descarga la selección de becas y ayudas al alquiler de RutaTrámite, con fuentes oficiales, revisión y documentación de cada campo.", path: "/recursos", modified: AID_DATA_REVIEWED });
@@ -43,6 +44,7 @@ export default function RecursosPage() {
     </section>
     <section id="cobertura-territorial" className="space-y-3"><h2 className="font-display text-2xl">Cobertura de las 17 comunidades</h2><p>La tabla documenta lo revisado en esta selección. Una referencia estatal no acredita que se haya comprobado la convocatoria de cada comunidad. Pendiente no significa que no exista ayuda.</p><div className="rt-table-wrap" role="region" aria-label="Cobertura por comunidad y categoría" tabIndex={0}><table className="rt-table"><caption className="sr-only">Cobertura por comunidad y categoría</caption><thead><tr><th>Comunidad</th><th>Categoría</th><th>Alcance revisado</th></tr></thead><tbody>{data.coverage.map(row=><tr key={`${row.territory_slug}-${row.category}`}><td>{row.territory}</td><td>{row.category}</td><td>{row.note} {row.record_ids.map(id=><a className="underline mr-2" key={id} href={data.records.find(r=>r.id===id)?.guide_url}>Ver referencia {id}</a>)}</td></tr>)}</tbody></table></div></section>
     <section className="space-y-3"><h2 className="font-display text-2xl">Historial de cambios</h2><ul>{data.history.map((entry,i)=><li key={i}><time dateTime={entry.date}>{entry.date}</time>: {entry.change}</li>)}</ul></section>
+    <DatasetReuse />
     <section className="space-y-3"><h2 className="font-display text-2xl">Cómo citar y contrastar</h2>
       <p>Al usar esta selección como referencia, identifica a RutaTrámite, enlaza esta página e indica la fecha de consulta. Para explicar requisitos o plazos, enlaza también la fuente oficial del registro. Un enlace ayuda al lector a comprobar qué versión y qué organismo sustentan la información.</p>
       <blockquote className="border-l-4 border-sand pl-4">RutaTrámite. «Datos de ayudas para consultar y citar». https://rutatramite.com/recursos. Consulta: [fecha]. Revisión del registro: [checked_at]. Fuente oficial: [source_url].</blockquote>

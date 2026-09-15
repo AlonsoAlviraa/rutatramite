@@ -53,10 +53,12 @@ with urlopen(base+'/datos/ayudas.json',timeout=20) as response:
     assert response.headers.get('X-Robots-Tag') == 'noindex'
     assert response.headers.get('Access-Control-Allow-Origin') == '*'
     dataset=json.load(response)
-assert len(dataset['records'])==8 and dataset['schema_version']=='1.1'
+assert len(dataset['records'])==22 and dataset['schema_version']=='1.2'
+assert sum(r['category']=='alquiler-joven' and r['coverage']=='referencia_autonomica' for r in dataset['coverage'])==17
 assert len(dataset['coverage'])==68 and dataset['history']
 padron=json.loads(read('/datos/padron-municipal.json'))
 assert len(padron['records'])==21
+assert sum(r['review_status']=='verificado' for r in padron['records'])==18
 assert 'Dataset' in read('/recursos/padron-municipal')
 with urlopen(base+'/datos/ayudas.csv',timeout=20) as response:
     assert response.headers.get('Content-Type','').startswith('text/csv')
@@ -64,7 +66,7 @@ with urlopen(base+'/datos/ayudas.csv',timeout=20) as response:
     rows=list(csv.DictReader(io.StringIO(response.read().decode('utf-8-sig'))))
 assert [r['id'] for r in rows]==[r['id'] for r in dataset['records']]
 assert all(r['source_url'].startswith('https://') and r['checked_at'] for r in rows)
-print('DATA_DOWNLOADS_OK records=8 formats=2')
+print('DATA_DOWNLOADS_OK records=22 formats=2 regions=17 municipal_verified=18')
 import hashlib
 downloads=read('/descargas')
 downloads_text=re.sub(r'<!--.*?-->', '', downloads, flags=re.S)
