@@ -42,3 +42,6 @@ La previsualizaci?n real se instal? y ensay? despu?s con los paquetes publicados
 
 
 Actualizaci?n posterior: la cach? de previsualizaci?n ya regenera en una copia temporal (35 pruebas de infraestructura aprobadas) y el arranque de una copia restaurada pas? con 14 trabajos, 71 plugins, autenticaci?n y clave recuperada. Los registros anteriores describen el estado de cada ensayo. [Restauraci?n y l?mites](CI-RESTORE-20260915.md). El corte de Actions contin?a pendiente.
+
+
+Las sondas se actualizaron despu?s mediante generaciones verificadas y cambio at?mico; las dos ejecuciones de Jenkins pasaron con el SHA `4242986869d59b9abc6d218b6cfeaafea1a5ea13`, y la suite de infraestructura alcanza 42 pruebas. El refresco peri?dico sigue pendiente de autenticar la App. [Resultados y l?mites](CI-PROBES-20260915.md).

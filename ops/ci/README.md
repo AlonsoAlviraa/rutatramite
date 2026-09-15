@@ -46,6 +46,10 @@ RutaTrámite añade `rutatramite-pr`, `rutatramite-full`, `rutatramite-publish` 
 4. Para revertir, ejecutar `<repositorio>-rollback`; usa el recibo de la última publicación válida. Los trabajos manuales comparten el bloqueo de producción/Caddy.
 5. Para Android, ejecutar `visionsetil-android` con el SHA actual de main. El AAB y la identidad quedan en `C:/Users/Mariano/CI/archive/android`. La subida a Play requiere una operación distinta.
 
+Las sondas usan generaciones inmutables en `/opt/ruta-ci/probe-sources`, con SHA y huellas por archivo. Antes de una ejecución manual, ejecutar desde el PC `python ops/ci/upload_probe_sources.py --sha <SHA-actual-de-main>` con el intérprete de `CI/runtime`; la herramienta contrasta main en GitHub antes y después de preparar el paquete. El job fija una generación y rechaza una confirmación de más de diez minutos. `SOURCE_SHA` permite exigir un commit concreto; `REQUIRE_IDENTIFY_AVAILABLE` conserva la opción equivalente del workflow anterior. El publicador de VisionSetil actualiza también las sondas después de validar el paquete y antes de activarlo.
+
+El refresco periódico con la App está preparado en `probe_refresh.py --github` y `ruta-ci-probe-refresh.service/.timer`, pero no habilitado hasta validar la clave y los accesos reales. Los horarios de las dos sondas siguen apagados. No se presenta la actualización manual como sincronización automática ya operativa. [Ensayos y resultados](../../docs/CI-PROBES-20260915.md).
+
 ## Rutas y recuperación
 
 El directorio del PC es `C:/Users/Mariano/CI`; el del servidor es `/opt/ruta-ci`. Las credenciales están exclusivamente en sus carpetas privadas `secrets`. La contraseña del panel está en `secrets/jenkins-password` del PC. No pegar contraseñas, PEM, keystore ni copias de recuperación en GitHub o en comentarios.
@@ -75,7 +79,8 @@ Los scripts `provision_*.py` generan solicitudes administrativas revisables en `
 - [x] Servidor real de preview instalado y ensayado con los paquetes publicados de ambos proyectos. [Alcance y recibos](../../docs/CI-PREVIEW-20260915.md). Pendiente encadenarlo a una ejecución completa de Jenkins aprobada del main vigente.
 - [x] Arranque aislado de una copia restaurada, plugins, cuenta y descifrado de clave respaldada comprobados.
 - [ ] Ensayar el rollback real de publicación; la prueba actual usa servicios simulados.
-- [ ] Actualización atómica del código de sondas antes de horarios/publicación; la copia actual corresponde a `8505bc583fb9c5e039ef2835bfa8dc1704db1b62`.
+- [x] Generaciones de sondas verificadas y cambio atómico instalados; ambas sondas ejecutadas en Jenkins con `4242986869d59b9abc6d218b6cfeaafea1a5ea13`. El publicador incorpora la actualización previa.
+- [ ] Validar refresco periódico con la App y encadenarlo al corte de horarios; la integración de publicación sigue pendiente de su ejecución completa de aceptación.
 - [ ] Agrupar trabajos obsoletos por propuesta y reconciliar entregas de webhook que quedaron en estado `dispatching`.
 - [ ] Revisar/confirmar los cambios de código, publicar las ramas y validar los checks de sus commits exactos.
 - [ ] Refrescar el archivo de artefactos, esperar las ejecuciones activas, activar los horarios equivalentes y deshabilitar Actions en ambos repositorios.

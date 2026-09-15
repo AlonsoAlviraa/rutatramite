@@ -1,0 +1,74 @@
+{
+  "mode": "species",
+  "status": "passed",
+  "at": "2026-09-15T18:41:52.341591+00:00",
+  "source": "/opt/ruta-ci/probe-sources/4242986869d59b9abc6d218b6cfeaafea1a5ea13-20260915T184054Z-57d03506",
+  "sha": "4242986869d59b9abc6d218b6cfeaafea1a5ea13",
+  "files": {
+    "backend/app/__init__.py": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "backend/app/ml/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "backend/app/ml/weight_discovery.py": {
+      "bytes": 17021,
+      "sha256": "e5bfc1f90db1e6d624a71f4e744105db9f4218eeeba7e932802353b5348bcbea"
+    },
+    "data/industrial_v1/labels/label2idx.json": {
+      "bytes": 1110,
+      "sha256": "5670fcd697bd28d30f6782e7c7122990fc029173c98f4dab4a1b389645d5f5fa"
+    },
+    "data/species_catalog/species_catalog_v2.json": {
+      "bytes": 854575,
+      "sha256": "3e6b0d2f8ff19829e01f38059a3803ca14e97e9a2a67730026a355cce817fe88"
+    },
+    "data/species_catalog/synonyms.yaml": {
+      "bytes": 863,
+      "sha256": "ea09bd705b4489b733a8758238bc24e08bef59c2c8882941c2211b63c7d9e3b8"
+    },
+    "frontend/scripts/verify-production-operational.mjs": {
+      "bytes": 5617,
+      "sha256": "4302b70e78172a2a74abd3f16cb4821459c1e47cd962f6f2e3d77e29f072472d"
+    },
+    "kaggle/datasets/visionsetil-e26c-weights/label2idx.json": {
+      "bytes": 4218,
+      "sha256": "0ed4258b2144c4d3b29f0268c406bfff12ec65a26a86855bc433ec7f4b0c3b1a"
+    },
+    "kaggle/datasets/visionsetil-e26d-weights/label2idx.json": {
+      "bytes": 4218,
+      "sha256": "0ed4258b2144c4d3b29f0268c406bfff12ec65a26a86855bc433ec7f4b0c3b1a"
+    },
+    "kaggle/kernel_output_v12/models/label2idx.json": {
+      "bytes": 30139,
+      "sha256": "6e7029198fcded93e9dc8f8ef595450166832db745d38462e8cd24bc9296e4e2"
+    },
+    "kaggle/kernel_output_v13/models/label2idx.json": {
+      "bytes": 30119,
+      "sha256": "af74329d64e966a2db44e64f03272007186f88f636934fbfefd9c02f9ac81f92"
+    },
+    "kaggle/kernel_output_v14/models/label2idx.json": {
+      "bytes": 3419,
+      "sha256": "6e1eb6d299b49078a300ac30bd57f7ee5959ee9b705936a641f8ac73bb3d54cd"
+    },
+    "kaggle/kernel_output_v9/models/label2idx.json": {
+      "bytes": 14910,
+      "sha256": "38edee6d260b56276f0b6615c6075c53cf0b9faf26c08a9d3cf888886f6bd8f2"
+    },
+    "scripts/build_species_index_join.py": {
+      "bytes": 20133,
+      "sha256": "676afc094c78952d12e7e86789dd93cd32f396fd09c513afd0c6d50cf3537dfa"
+    }
+  },
+  "installation": {
+    "sha": "4242986869d59b9abc6d218b6cfeaafea1a5ea13",
+    "digest": "86c637fb6ced9d530f14d5d3455558721692d7f7f4e48ac5915555e31eae87f0",
+    "installed_at": "2026-09-15T18:40:54.856830+00:00",
+    "source": "/opt/ruta-ci/probe-sources/4242986869d59b9abc6d218b6cfeaafea1a5ea13-20260915T184054Z-57d03506",
+    "previous": null
+  },
+  "exit_code": 0,
+  "finished_at": "2026-09-15T18:41:52.944878+00:00"
+}

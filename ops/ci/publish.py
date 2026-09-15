@@ -40,6 +40,10 @@ def main():
         shutil.copyfileobj(response,output)
     main_sha = subprocess.check_output(['C:/Program Files/GitHub CLI/gh.exe','api',f'repos/AlonsoAlviraa/{REPOS[args.repo]}/commits/main','--jq','.sha'],text=True).strip()
     digest = validate(report,args.repo,main_sha,package,build['result'])
+    if args.repo=='visionsetil':
+        from upload_probe_sources import refresh
+        source_receipt=refresh(main_sha)
+        (target/'probe-source.json').write_text(json.dumps(source_receipt,indent=2))
     client = vps.connect()
     try:
         remote = '/opt/ruta-ci/incoming/'+args.repo+'-'+main_sha+'-'+digest+'.tar'
