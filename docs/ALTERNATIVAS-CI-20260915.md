@@ -39,3 +39,6 @@ Siguen pendientes la integración real, las suites completas y AAB con recursos 
 
 
 La previsualizaci?n real se instal? y ensay? despu?s con los paquetes publicados: 258 p?ginas y 33 PDF de RutaTr?mite, 1.252 p?ginas est?ticas de VisionSetil y 34 pruebas de infraestructura aprobadas. [Alcance, instalaci?n y limitaciones](CI-PREVIEW-20260915.md).
+
+
+Actualizaci?n posterior: la cach? de previsualizaci?n ya regenera en una copia temporal (35 pruebas de infraestructura aprobadas) y el arranque de una copia restaurada pas? con 14 trabajos, 71 plugins, autenticaci?n y clave recuperada. Los registros anteriores describen el estado de cada ensayo. [Restauraci?n y l?mites](CI-RESTORE-20260915.md). El corte de Actions contin?a pendiente.

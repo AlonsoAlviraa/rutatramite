@@ -11,6 +11,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import uuid
+import preview_runtime
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -141,7 +142,8 @@ def unit_command(repository, target, unit, port):
         for value in ['HOSTNAME=127.0.0.1','PORT='+str(port),'NODE_ENV=production','NODE_OPTIONS=--max-old-space-size=384',
                       'NEXT_PUBLIC_SITE_URL='+ORIGINS[repository],'METRICS_DB_PATH=/run/'+unit+'/metrics.sqlite']:
             command += ['--setenv',value]
-        command += ['/usr/bin/node','server.js']
+        command += ['--setenv','PREVIEW_RUNTIME_REPORT=/run/'+unit+'/runtime.json']
+        command += ['/usr/bin/python3',str(Path(preview_runtime.__file__).resolve()),str(target)]
     else:
         config = target.parent/'preview-server.json'
         config.write_text(json.dumps({'admin':{'disabled':True},'apps':{'http':{'servers':{'preview':{
@@ -189,6 +191,13 @@ def run_preview(repository, target, sha, digest, receipts):
                 time.sleep(1)
         else: raise RuntimeError('Preview did not become reachable')
         record['checks'] = check_artifact(repository,target,sha,record['base'])
+        if repository=='rutatramite':
+            runtime=json.loads((Path('/run')/unit/'runtime.json').read_text())
+            pid=subprocess.check_output(['systemctl','show',unit,'--property=MainPID','--value'],text=True).strip()
+            if not pid.isdigit() or int(pid)<=0:raise RuntimeError('Preview runtime has no live process')
+            private=Path('/proc')/pid/'root'/runtime['root'].lstrip('/')
+            changed=[name for name,mtime in runtime['initial_html_mtimes'].items() if (private/name).stat().st_mtime_ns!=mtime]
+            record['checks']['runtime_cache']={'private_copy':True,'regenerated_html':changed}
         record['status'] = 'passed'
     except Exception as error:
         record.update(status='failed',error=type(error).__name__+': '+str(error))
@@ -196,6 +205,8 @@ def run_preview(repository, target, sha, digest, receipts):
     finally:
         logs=subprocess.run(['journalctl','-u',unit,'--no-pager','-n','80'],capture_output=True,text=True)
         record['service_log']=logs.stdout
+        if repository=='rutatramite' and ('EROFS' in logs.stdout or 'Failed to update prerender cache' in logs.stdout):
+            record.update(status='failed',error='Preview cache writes failed; inspect service_log')
         subprocess.run(['systemctl','stop',unit],capture_output=True,timeout=30)
         state=subprocess.run(['systemctl','is-active','--quiet',unit],capture_output=True)
         record['stopped']=state.returncode in (3,4)
@@ -203,4 +214,5 @@ def run_preview(repository, target, sha, digest, receipts):
         if not record['stopped']: record['status']='failed'
         save()
     if not record['stopped']: raise RuntimeError('Preview service did not stop')
+    if record['status']!='passed':raise RuntimeError(record.get('error','Preview checks failed'))
     return dict(record,receipt=str(receipt))

@@ -54,6 +54,8 @@ El directorio del PC es `C:/Users/Mariano/CI`; el del servidor es `/opt/ruta-ci`
 
 `sync_backup.py` descarga una pareja de copias con la misma fecha, valida la extracción segura, las configuraciones XML de todos los trabajos y la presencia de la clave maestra separada. Guarda el recibo en `archive/controller/latest-verified.json`. Esta prueba todavía no acredita el arranque de un controlador restaurado.
 
+`sudo python3 /opt/ruta-ci/config/restore_boot.py AAAAMMDDTHHMMSSZ.tar.gz` ensaya adicionalmente el arranque de una pareja existente en un contenedor sin red. Aparta cola, agentes e historiales exclusivamente en la copia temporal, deshabilita trabajos y valida plugins, configuraciones, acceso HTTP y una clave ya presente en esa copia. Detiene el contenedor y retira la copia al aprobar. El ensayo del 15 de septiembre pasó con 14 trabajos y 71 plugins; [recibos y límites](../../docs/CI-RESTORE-20260915.md). No prueba la reanudación de ejecuciones antiguas ni conecta agentes reales.
+
 Para una recuperación real: detener el controlador, conservar su directorio averiado, restaurar `jenkins` y `config` de la copia de metadatos, restaurar `jenkins-master.key` como `jenkins/secrets/master.key` y las credenciales del paquete privado en `secrets`, restaurar propietarios y permisos, y arrancar Compose desde `/opt/ruta-ci/config`. Reponer los servicios systemd de agente, webhook y copia, y verificar acceso, agentes, eventos y una ejecución de aceptación antes de reactivar horarios. Usar las versiones fijadas del controlador y plugins. Nunca sobreescribir el Jenkins activo para ensayar una recuperación.
 
 Los scripts `provision_*.py` generan solicitudes administrativas revisables en `CI/migration`; no se ejecutan desde propuestas. `jenkins_api.py` permite aplicarlas por el canal administrativo del VPS. La definición manual de Caddy instalada también está conservada en las copias del controlador. `archive_actions.py` descarga artefactos de Actions, verifica ZIP y SHA256, y no borra originales.
@@ -71,7 +73,8 @@ Los scripts `provision_*.py` generan solicitudes administrativas revisables en `
 - [ ] Validar checkout privado, estado de commit y entrega real de webhook de GitHub.
 - [ ] Ejecutar PR, suites completas de ambos proyectos, recorridos públicos y Android firmado. Falta RAM disponible en el PC.
 - [x] Servidor real de preview instalado y ensayado con los paquetes publicados de ambos proyectos. [Alcance y recibos](../../docs/CI-PREVIEW-20260915.md). Pendiente encadenarlo a una ejecución completa de Jenkins aprobada del main vigente.
-- [ ] Arranque aislado de una copia restaurada; el ensayo de rollback actual usa servicios simulados.
+- [x] Arranque aislado de una copia restaurada, plugins, cuenta y descifrado de clave respaldada comprobados.
+- [ ] Ensayar el rollback real de publicación; la prueba actual usa servicios simulados.
 - [ ] Actualización atómica del código de sondas antes de horarios/publicación; la copia actual corresponde a `8505bc583fb9c5e039ef2835bfa8dc1704db1b62`.
 - [ ] Agrupar trabajos obsoletos por propuesta y reconciliar entregas de webhook que quedaron en estado `dispatching`.
 - [ ] Revisar/confirmar los cambios de código, publicar las ramas y validar los checks de sus commits exactos.

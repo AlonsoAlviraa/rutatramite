@@ -5,9 +5,22 @@ from unittest.mock import patch
 from types import SimpleNamespace
 import json
 import preview
+import preview_runtime
 
 
 class PreviewTests(unittest.TestCase):
+    def test_runtime_cache_writes_do_not_change_verified_artifact(self):
+        with tempfile.TemporaryDirectory() as directory:
+            source=Path(directory)/'artifact'; cache=source/'.next/server/app';cache.mkdir(parents=True)
+            (cache/'page.html').write_text('verified original')
+            (source/'server.js').write_text('server')
+            destination=Path(directory)/'runtime'
+            initial=preview_runtime.prepare(source,destination)
+            (destination/'.next/server/app/page.html').write_text('regenerated')
+            self.assertEqual((cache/'page.html').read_text(),'verified original')
+            self.assertIn('.next/server/app/page.html',initial)
+            self.assertFalse((destination/'.next').is_symlink())
+
     def test_sitemap_cannot_escape_to_public_site_or_another_origin(self):
         self.assertEqual(preview.local_path('https://rutatramite.com/recursos','https://rutatramite.com'),'/recursos')
         for url in ['https://attacker.invalid/','//attacker.invalid/path','http://rutatramite.com/','/foo?redirect=x','relative']:
