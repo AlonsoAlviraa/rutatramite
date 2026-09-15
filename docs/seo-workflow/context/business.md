@@ -12,4 +12,4 @@ Objetivo autorizado: 1.000 impresiones y 50 clics diarios en Google orgánico. N
 
 Accesos comprobados: Search Console de dominio y prefijo; OAuth de lectura reutilizado; Chrome autenticado para los envíos; Bing Webmaster Tools. No hay GA4 operativo acreditado. Se ha publicado un contador propio de ocho eventos agregados, sin identificadores ni datos de las consultas, con retención de 180 días y reportes privados. No se habilitan productos de pago al aplicar estas propuestas.
 
-Producción vigente: build `KV7Uq4eM6hwFir1Irn3wO`, publicado el 14 de septiembre; recibo `docs/followup-deployed.json`. [Estado completo](../../ESTADO-AUDITORIA.md). El flujo de auditoría de esta carpeta no modifica la aplicación de producción.
+Producción vigente: build `mc2BEFYMW13Izl_iG8j50`, publicado el 15 de septiembre con la corrección de licencia de los conjuntos de datos; recibo `docs/google-license-published-20260915.json`. [Estado completo](../../ESTADO-AUDITORIA.md). El flujo de auditoría de esta carpeta no modifica la aplicación de producción.

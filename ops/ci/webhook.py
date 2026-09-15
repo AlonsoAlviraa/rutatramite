@@ -3,11 +3,9 @@ import hashlib
 import hmac
 import json
 import re
-import sqlite3
-import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from jenkins_api import api
+from dispatch import accept
 
 REPOS={'AlonsoAlviraa/rutatramite':'rutatramite','AlonsoAlviraa/VisionSetil':'visionsetil'}
 ROOT=Path('/opt/ruta-ci')
@@ -23,17 +21,22 @@ def select_event(event,payload):
         if pr['head'].get('repo',{}).get('full_name') != payload['repository']['full_name']:
             return None # Forks require a deliberate manual build in the private panel.
         sha,base=pr['head']['sha'],pr['base']['sha']
+        number=payload.get('number',pr.get('number'))
+        if type(number) is not int or number < 1:
+            raise ValueError('Invalid proposal number')
+        scope='pr/'+str(number)
     elif event=='push' and payload.get('ref') in ['refs/heads/main','refs/heads/master','refs/heads/develop','refs/heads/merge/best-of-both']:
         if payload.get('deleted'):
             return None
         sha,base=payload['after'],payload['before']
+        scope='branch/'+payload['ref'].removeprefix('refs/heads/')
         if base=='0'*40:
             base=''
     else:
         return None
     if not re.fullmatch('[a-f0-9]{40}',sha) or (base and not re.fullmatch('[a-f0-9]{40}',base)):
         raise ValueError('Invalid revision')
-    return {'repository':repository,'sha':sha,'base':base,'mode':'pr'}
+    return {'repository':repository,'sha':sha,'base':base,'mode':'pr','scope':scope}
 
 def valid_signature(body,signature,secret):
     expected='sha256='+hmac.new(secret,body,hashlib.sha256).hexdigest()
@@ -53,18 +56,7 @@ class Handler(BaseHTTPRequestHandler):
         try:
             job=select_event(self.headers.get('X-GitHub-Event',''),json.loads(body))
             if job:
-                key=':'.join([job['repository'],job['sha'],job['base'],job['mode']])
-                with sqlite3.connect(ROOT/'events.sqlite') as database:
-                    database.execute('CREATE TABLE IF NOT EXISTS deliveries (identity TEXT PRIMARY KEY, status TEXT, created_at TEXT DEFAULT CURRENT_TIMESTAMP)')
-                    old=database.execute('SELECT status FROM deliveries WHERE identity=?',(key,)).fetchone()
-                    if old:
-                        self.send_response(200); self.end_headers(); return
-                    # Preserve ambiguous dispatches for reconciliation rather than retrying blindly.
-                    database.execute('INSERT INTO deliveries(identity,status) VALUES (?,?)',(key,'dispatching'))
-                    database.commit()
-                    data=urllib.parse.urlencode({'SHA':job['sha'],'BASE_SHA':job['base'],'SOURCE':'github'}).encode()
-                    api('job/'+job['repository']+'-pr/buildWithParameters',data,'application/x-www-form-urlencoded')
-                    database.execute('UPDATE deliveries SET status=? WHERE identity=?',('queued',key))
+                accept(ROOT/'events.sqlite',job)
             self.send_response(202); self.end_headers()
         except (ValueError,KeyError):
             self.send_error(400)

@@ -2,6 +2,8 @@
 
 Estado: migración en validación; GitHub Actions todavía habilitado. No activar el corte hasta completar la lista de aceptación de este documento.
 
+Actualización del 15 de septiembre: agente Windows reconectado y ejecución `visionsetil-full #1` retomada, todavía esperando RAM. El usuario confirmó que no ha descargado la clave de la App y pidió comparar alternativas. La mejora de entregas y cola está implementada, con 28 pruebas de infraestructura aprobadas en Linux y ocho escenarios en el controlador real; todavía no está instalada en el receptor activo. [Comparación y estado comprobado](../../docs/ALTERNATIVAS-CI-20260915.md).
+
 GitHub conserva código y propuestas. Jenkins vive en el VPS existente, en <https://ci.rutatramite.com/>, y los trabajos pesados se ejecutan en contenedores Linux del PC Windows. No se ha contratado ningún servicio adicional. El PC necesita estar encendido y con la sesión de Mariano iniciada; si no está disponible los trabajos esperan. Publicar, revertir, cambiar Caddy y generar Android son operaciones manuales. No se sube automáticamente a Google Play.
 
 ## Componentes instalados
@@ -78,3 +80,11 @@ Los scripts `provision_*.py` generan solicitudes administrativas revisables en `
 La línea base de RutaTrámite coincide con los 1097 archivos de entrada de la versión publicada `KV7Uq4eM6hwFir1Irn3wO`, huella `4f5162a6bc4d126bf459b0ab13c833080b89e278931983602e9df154362c466c`. `docs/ci-main-only-inputs.json` documenta los 21 archivos presentes en el main anterior que no formaban parte de esa publicación. Sus originales siguen en Git y en la carpeta compartida. No publicar el main antiguo sin integrar la línea base revisada.
 
 La revisión de secretos encontró 26 alertas: 24 versiones públicas de plugins y dos referencias a la clave pública IndexNow, comprobadas contra el archivo servido. Se conserva el informe bruto en `CI/migration/migration-gitleaks.json`; no se han rebajado las reglas para ocultarlo.
+
+## Entregas de webhook preparadas
+
+`dispatch.py` conserva la intención en SQLite antes del envío. `dispatch.groovy` consulta y modifica la cola bajo el bloqueo de Jenkins, reconoce el evento en cola o en ejecuciones existentes, y sustituye exclusivamente comprobaciones automáticas de la misma propuesta/rama. Un orden persistente evita que una reconciliación antigua sustituya una entrega más reciente. La API de GitHub confirma además que el SHA, la base y el estado de la propuesta siguen vigentes antes de encolarla.
+
+Las intenciones antiguas sin contexto de propuesta solo se concilian si sobrevive evidencia en Jenkins; una ausencia no autoriza un relanzamiento. Los archivos `ruta-ci-reconcile.service` y `.timer` preparan una revisión cada cinco minutos. Su instalación, el registro de los tres parámetros nuevos de los jobs y el cambio del receptor se harán tras completar la autenticación y su validación real. La casilla de cola permanece pendiente por ese motivo.
+
+La base de aplicación se amplió posteriormente con la corrección de licencia de Google, publicada como `mc2BEFYMW13Izl_iG8j50`. El estado y las huellas vigentes están en `docs/ESTADO-AUDITORIA.md`; el párrafo anterior sobre los 1097 archivos documenta la base inicial de la migración.

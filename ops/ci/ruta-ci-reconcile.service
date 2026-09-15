@@ -1,0 +1,16 @@
+[Unit]
+Description=Reconcile GitHub deliveries with the Jenkins queue
+After=ruta-ci-webhook.service
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/opt/ruta-ci/config
+ExecStart=/usr/bin/python3 /opt/ruta-ci/config/dispatch.py
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/opt/ruta-ci
+UMask=0077
+TimeoutStartSec=180

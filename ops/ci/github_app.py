@@ -15,7 +15,7 @@ def request(path,token,data=None):
     with urllib.request.urlopen(req,timeout=30) as response:
         return json.load(response)
 
-def token(repository,write_status=False):
+def token(repository,write_status=False,read_pr=False):
     import jwt
     configuration=json.loads(CONFIG.read_text())
     now=int(time.time())
@@ -23,6 +23,8 @@ def token(repository,write_status=False):
     permissions={'contents':'read','metadata':'read'}
     if write_status:
         permissions['statuses']='write'
+    if read_pr:
+        permissions['pull_requests']='read'
     return request(f"app/installations/{configuration['installation_id']}/access_tokens",signed,{'repositories':[REPOS[repository].split('/')[1]],'permissions':permissions})['token']
 
 def main_sha(repository):
