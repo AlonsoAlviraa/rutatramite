@@ -1,0 +1,327 @@
+{
+  "original_report": "google-review-20260915T165638Z.json",
+  "completed_at": "2026-09-15T17:14:33.870289+00:00",
+  "retries": [
+    {
+      "url": "https://rutatramite.com/dni/urgente-sin-cita",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=ORb5DNK8J8t8ZbLrkxFkgw&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Descubierta: actualmente sin indexar",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+            "sitemap": [
+              "https://rutatramite.com/sitemap-core.xml",
+              "https://rutatramite.com/sitemap.xml",
+              "https://rutatramite.com/sitemap.xml"
+            ],
+            "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:13:53.607123+00:00"
+    },
+    {
+      "url": "https://rutatramite.com/empadronarse/castilla-la-mancha/toledo",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=Ac7xLjDjoVA5JPYfKTXTWQ&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Google no reconoce esta URL",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:13:53.677774+00:00"
+    },
+    {
+      "url": "https://rutatramite.com/empadronarse/cataluna",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=wnx0od-85n2HWuD80yPxlg&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Google no reconoce esta URL",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:14:00.408833+00:00"
+    },
+    {
+      "url": "https://rutatramite.com/empadronarse/cataluna/girona",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=kyH1TISxXqz3xxpFnRumEg&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Google no reconoce esta URL",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:14:00.305883+00:00"
+    },
+    {
+      "url": "https://rutatramite.com/empadronarse/cataluna/barcelona",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=QgIfyrNjjbC-0fTExzBQ1w&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Descubierta: actualmente sin indexar",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+            "sitemap": [
+              "https://rutatramite.com/sitemap-provincias.xml",
+              "https://rutatramite.com/sitemap.xml",
+              "https://rutatramite.com/sitemap.xml"
+            ],
+            "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:14:07.053045+00:00"
+    },
+    {
+      "url": "https://rutatramite.com/empadronarse/cataluna/tarragona",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=xy4YTaL90g-rWdrbr1SiGw&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Descubierta: actualmente sin indexar",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+            "sitemap": [
+              "https://rutatramite.com/sitemap-provincias.xml",
+              "https://rutatramite.com/sitemap.xml",
+              "https://rutatramite.com/sitemap.xml"
+            ],
+            "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:14:07.136971+00:00"
+    },
+    {
+      "url": "https://rutatramite.com/empadronarse/cataluna/lleida",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=c1bAcVR8a5OXah4WzZga2A&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Google no reconoce esta URL",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:14:14.001884+00:00"
+    },
+    {
+      "url": "https://rutatramite.com/empadronarse/extremadura/caceres",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=TfaOiqGmPpdHqcPt-Pft2A&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Descubierta: actualmente sin indexar",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+            "sitemap": [
+              "https://rutatramite.com/sitemap-provincias.xml",
+              "https://rutatramite.com/sitemap.xml",
+              "https://rutatramite.com/sitemap.xml"
+            ],
+            "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:14:13.938945+00:00"
+    },
+    {
+      "url": "https://rutatramite.com/empadronarse/galicia",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=YvWYUgqeJMN0qlsiKq0_mQ&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Descubierta: actualmente sin indexar",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+            "sitemap": [
+              "https://rutatramite.com/sitemap-provincias.xml",
+              "https://rutatramite.com/sitemap.xml",
+              "https://rutatramite.com/sitemap.xml"
+            ],
+            "referringUrls": [
+              "https://rutatramite.com/empadronarse/galicia/pontevedra/marin"
+            ],
+            "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:14:20.558956+00:00"
+    },
+    {
+      "url": "https://rutatramite.com/empadronarse/region-de-murcia",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=cznbWAqidCBSkScrr6yyrQ&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Descubierta: actualmente sin indexar",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+            "sitemap": [
+              "https://rutatramite.com/sitemap-provincias.xml",
+              "https://rutatramite.com/sitemap.xml",
+              "https://rutatramite.com/sitemap.xml"
+            ],
+            "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:14:20.764663+00:00"
+    },
+    {
+      "url": "https://rutatramite.com/empadronarse/region-de-murcia/murcia",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=fJEdLFjHzk6DoCWqow88UQ&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Google no reconoce esta URL",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:14:27.297832+00:00"
+    },
+    {
+      "url": "https://rutatramite.com/empadronarse/pais-vasco",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=dx1uiTcWjxp0EBtfBhdeYQ&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Google no reconoce esta URL",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:14:27.549075+00:00"
+    },
+    {
+      "url": "https://rutatramite.com/empadronarse/pais-vasco/alava",
+      "status": 200,
+      "data": {
+        "inspectionResult": {
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:rutatramite.com&id=jrltONzSCd7R-Z8782VQpA&utm_medium=link&utm_source=api",
+          "indexStatusResult": {
+            "verdict": "NEUTRAL",
+            "coverageState": "Google no reconoce esta URL",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+          },
+          "mobileUsabilityResult": {
+            "verdict": "VERDICT_UNSPECIFIED"
+          }
+        }
+      },
+      "checked_at": "2026-09-15T17:14:33.868716+00:00"
+    }
+  ],
+  "coverage_counts": {
+    "Descubierta: actualmente sin indexar": 68,
+    "Enviada e indexada": 13,
+    "Google no reconoce esta URL": 171,
+    "Rastreada: actualmente sin indexar": 6
+  },
+  "live_issues": [
+    {
+      "url": "https://rutatramite.com/",
+      "status": 200,
+      "final_url": "https://rutatramite.com/",
+      "canonical": [
+        "https://rutatramite.com"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "x_robots_tag": null,
+      "datasets": []
+    }
+  ],
+  "original_live_pages": 258
+}

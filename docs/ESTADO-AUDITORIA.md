@@ -1,14 +1,16 @@
 # RutaTrámite: estado vigente
 
-Ampliación de los cuatro puntos publicada y verificada el 14 de septiembre de 2026. El objetivo de 1.000 impresiones y 50 clics diarios no está acreditado.
+Corrección del aviso de licencia de Google publicada y verificada el 15 de septiembre de 2026, sobre la ampliación de los cuatro puntos del día 14. El objetivo de 1.000 impresiones y 50 clics diarios no está acreditado.
+
+Google ha iniciado la validación de los dos conjuntos de datos y ha aceptado el sitemap actualizado: 258 URLs, cero errores o avisos. La inspección individual de las 258 URLs confirma 13 indexadas, 68 descubiertas sin indexar, seis rastreadas sin indexar y 171 todavía no reconocidas por la inspección. Las validaciones siguen pendientes. [Correos, actuaciones y límites](GOOGLE-AVISOS-20260915.md).
 
 ## Publicación
 
-- Build `KV7Uq4eM6hwFir1Irn3wO`; release `/srv/tenants/slot2/releases/20260914T192535Z`.
-- Versión anterior conservada: `/srv/tenants/slot2/releases/20260914T181705Z`.
-- SHA256 del paquete: `ce3912bac8e6d239482419f27eb7897c597e523351da12e4082e8af11c20737f`.
+- Build `mc2BEFYMW13Izl_iG8j50`; release `/srv/tenants/slot2/releases/20260915T171408Z`.
+- Versión anterior conservada: `/srv/tenants/slot2/releases/20260914T192535Z`.
+- SHA256 del paquete: `eae3660d0c7ddb419d4efde1785ba4e2e7894b5e1851612b5590bf74c874079c`.
 - 258 URLs indexables, 1.009 páginas navegables, 1.010 HTML y 33 PDF aprobados.
-- [Activación](followup-deployed.json), [comprobación pública](followup-public-verification.json), [resultados](followup-final-verification.json).
+- [Publicación actual comprobada](google-license-published-20260915.json), [auditoría pública actual](google-postpublish-audit-20260915.json). [Activación anterior](followup-deployed.json), [resultados anteriores](followup-final-verification.json).
 
 ## Resultado de los cuatro puntos
 
@@ -24,7 +26,7 @@ Copilot completado: diez preguntas originales enviadas una vez cada una en conve
 
 ## Validación
 
-Pasaron 107 pruebas de aplicación, seis de crecimiento y dos de seguimiento; compilación y tipos correctos. El paquete supera 5.258 controles de descubrimiento (418 no aplicables), y los auditores de HTML, accesibilidad estática y referencias no detectan incidencias.
+El 15 de septiembre pasaron 110 pruebas de aplicación, seis de crecimiento y dos de seguimiento; compilación y tipos correctos. El paquete supera 5.258 controles de descubrimiento (418 no aplicables), y los auditores de HTML, accesibilidad estática y referencias no detectan incidencias. La auditoría pública posterior comprueba las 258 páginas del sitemap y 788 destinos enlazados adicionales sin incidencias. La matriz de tres navegadores descrita a continuación corresponde al 14 de septiembre y no se contabiliza como una ejecución nueva.
 
 Pasaron 1257 comprobaciones E2E de la previsualización: todas las rutas HTTP/PDF/datos, 40 vistas móviles y de escritorio de páginas afectadas y 102 recorridos funcionales en Chromium, Firefox y WebKit. Tras activar pasaron otras 1.115 comprobaciones HTTP/PDF/datos en producción con un solo trabajador y sin reintentos automáticos. Las dos pasadas paralelas previas terminaron cada una con 1.114 aprobadas y un corte ECONNRESET, en Camargo y en la portada. La causa sigue sin establecerse; la pasada secuencial no acredita que la incidencia concurrente esté resuelta. La repetición visual de todo el inventario se interrumpió por memoria y se conserva sin contabilizarla como aprobada. [Alcance y correcciones](SEGUIMIENTO-VALIDACION-20260914.md).
 

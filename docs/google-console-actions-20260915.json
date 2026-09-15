@@ -1,0 +1,48 @@
+{
+  "observation_date": "2026-09-15",
+  "method": "Authenticated Search Console UI; visible DOM snapshots",
+  "rutatramite": {
+    "manual_actions": "No se ha detectado ningún problema",
+    "security_issues": "No se ha detectado ningún problema",
+    "dataset_license": {
+      "affected_elements": 2,
+      "urls": ["https://rutatramite.com/recursos", "https://rutatramite.com/recursos/padron-municipal"],
+      "validation_status": "Iniciada",
+      "validation_start_date": "2026-09-15",
+      "validation_completed": false
+    },
+    "existing_discovered_validation": {
+      "validation_start_date": "2026-09-12",
+      "pending_urls": 968,
+      "failed_urls": 0,
+      "restarted": false
+    },
+    "sitemap": {
+      "ui_confirmation": "Se ha enviado el sitemap correctamente",
+      "status": "Correcto",
+      "discovered_pages": 258,
+      "api_readback_receipt": "google-sitemap-submission-20260915.json"
+    },
+    "individual_requests": [
+      {"url": "https://rutatramite.com/recursos", "confirmed": true, "ui_confirmation": "Se ha solicitado la indexación"},
+      {"url": "https://rutatramite.com/recursos/padron-municipal", "confirmed": false, "reason": "Browser connection lost before a separate request was confirmed; both URLs are included in the accepted Dataset validation."}
+    ]
+  },
+  "visionsetil": {
+    "soft_404": {
+      "urls": ["https://visionsetil.com/enciclopedia/exidia-glandulosa", "https://visionsetil.com/mapa?lang=eu"],
+      "live_receipt": "google-soft404-live-20260915.json",
+      "validation_status": "Iniciada",
+      "validation_start_date": "2026-09-15",
+      "validation_completed": false
+    },
+    "index_report_updated": "2026-09-04",
+    "indexed_urls_in_report": 1101,
+    "not_indexed_urls_in_report": 203
+  },
+  "monitoring": {
+    "daily_last_success": "2026-09-15T06:30:53Z",
+    "daily_next_observed": "2026-09-16T06:32:55Z",
+    "weekly_next_observed": "2026-09-21T07:00:00Z"
+  }
+}

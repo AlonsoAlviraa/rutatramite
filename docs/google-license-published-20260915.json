@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-09-15T17:15:01.317040+00:00",
+  "build_id": "mc2BEFYMW13Izl_iG8j50",
+  "release": "/srv/tenants/slot2/releases/20260915T171408Z",
+  "previous_release": "/srv/tenants/slot2/releases/20260914T192535Z",
+  "archive_sha256": "eae3660d0c7ddb419d4efde1785ba4e2e7894b5e1851612b5590bf74c874079c",
+  "pages": [
+    {
+      "url": "https://rutatramite.com/recursos",
+      "status": 200,
+      "license": {
+        "@type": "CreativeWork",
+        "name": "Condiciones de reutilización de los datos de RutaTrámite — versión 1",
+        "url": "https://rutatramite.com/recursos#licencia-datos-v1"
+      },
+      "visible_terms": true
+    },
+    {
+      "url": "https://rutatramite.com/recursos/padron-municipal",
+      "status": 200,
+      "license": {
+        "@type": "CreativeWork",
+        "name": "Condiciones de reutilización de los datos de RutaTrámite — versión 1",
+        "url": "https://rutatramite.com/recursos#licencia-datos-v1"
+      },
+      "visible_terms": true
+    }
+  ],
+  "downloads": [
+    {
+      "url": "https://rutatramite.com/datos/ayudas.json",
+      "status": 200,
+      "license_url": "https://rutatramite.com/recursos#licencia-datos-v1",
+      "x_robots_tag": "noindex"
+    },
+    {
+      "url": "https://rutatramite.com/datos/padron-municipal.json",
+      "status": 200,
+      "license_url": "https://rutatramite.com/recursos#licencia-datos-v1",
+      "x_robots_tag": "noindex"
+    }
+  ]
+}

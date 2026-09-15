@@ -1,0 +1,17 @@
+DATASET_LICENSE_PREVIEW_OK pages=2 downloads=2
+DATA_DOWNLOADS_OK records=22 formats=2 regions=17 municipal_verified=18
+PDF_DOWNLOADS_OK files=33 hashes=33 headers=33 associations=6
+HTTP_CHECKS_OK sitemap=258 checked_pages=258 assets=13
+Parsed 100/1010 HTML pages
+Parsed 200/1010 HTML pages
+Parsed 300/1010 HTML pages
+Parsed 400/1010 HTML pages
+Parsed 500/1010 HTML pages
+Parsed 600/1010 HTML pages
+Parsed 700/1010 HTML pages
+Parsed 800/1010 HTML pages
+Parsed 900/1010 HTML pages
+Parsed 1000/1010 HTML pages
+{"build_id": "mc2BEFYMW13Izl_iG8j50", "html_pages": 1010, "indexable_pages": 258, "sitemap_urls": 258, "issue_counts": {}}
+PREVIEW_OK artifact_html=1010 build_id=mc2BEFYMW13Izl_iG8j50
+PREVIEW=/srv/tenants/slot2/previews/20260915T170744Z

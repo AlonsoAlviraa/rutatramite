@@ -1,0 +1,191 @@
+
+added 317 packages in 26s
+npm notice
+npm notice New major version of npm available! 10.9.8 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+{"files": 1100, "sha256": "24d9fa4836524fd59600e3b275701d3b1bba9a3afcaf5b02f6406bad2e5f7335"}
+
+> rutatramite@0.1.0 build
+> next build
+
+   ▲ Next.js 15.5.25
+   - Experiments (use with caution):
+     · staticGenerationMaxConcurrency: 4
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 39.1s
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+(node:2524309) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+   Generating static pages (0/1023) ...
+   Generating static pages (255/1023) 
+   Generating static pages (511/1023) 
+   Generating static pages (767/1023) 
+ ✓ Generating static pages (1023/1023)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                                    Size  First Load JS  Revalidate  Expire
+┌ ○ /                                                       1.16 kB         116 kB
+├ ○ /_not-found                                               225 B         103 kB
+├ ● /[slug]                                                  2.4 kB         105 kB
+├   ├ /modelo-baja-voluntaria
+├   ├ /baja-voluntaria-sin-preaviso
+├   ├ /baja-periodo-de-prueba
+├   └ [+23 more paths]
+├ ○ /alquiler                                               1.38 kB         109 kB          1h      1y
+├ ● /alquiler/[slug]                                         2.4 kB         105 kB
+├   ├ /alquiler/ayudas-por-comunidad
+├   ├ /alquiler/bono-alquiler-joven
+├   ├ /alquiler/plan-vivienda-2026-2030
+├   └ [+3 more paths]
+├ ○ /api/guias                                                225 B         103 kB
+├ ƒ /api/metricas                                             225 B         103 kB
+├ ○ /aviso-legal                                              225 B         103 kB
+├ ○ /ayudas                                                   162 B         108 kB          1h      1y
+├ ○ /bebe                                                   1.38 kB         109 kB
+├ ● /bebe/[slug]                                             2.4 kB         105 kB
+├   ├ /bebe/tarjeta-sanitaria-bebe
+├   ├ /bebe/cartilla-de-vacunacion-donde-se-saca
+├   ├ /bebe/inscripcion-nacimiento-registro-civil
+├   └ [+6 more paths]
+├ ○ /becas                                                  1.38 kB         109 kB          1h      1y
+├ ● /becas/[...slug]                                         2.4 kB         105 kB
+├   ├ /becas/ayudas-estudiantes
+├   ├ /becas/apoyo-educativo
+├   ├ /becas/mec
+├   └ [+22 more paths]
+├ ○ /colegio                                                1.38 kB         109 kB
+├ ● /colegio/[slug]                                          2.4 kB         105 kB
+├   ├ /colegio/cambiar-de-colegio-fuera-de-plazo
+├   ├ /colegio/cambio-de-colegio-por-mudanza
+├   ├ /colegio/documentos-matricula-colegio
+├   └ [+6 more paths]
+├ ○ /comedor                                                1.38 kB         109 kB
+├ ● /comedor/[slug]                                          2.4 kB         105 kB
+├   ├ /comedor/beca-comedor-fuera-de-plazo
+├   ├ /comedor/no-puedo-pagar-comedor-escolar
+├   ├ /comedor/documentos-alergia-comedor-escolar
+├   └ [+6 more paths]
+├ ○ /contacto                                                 225 B         103 kB
+├ ○ /datos/ayudas.csv                                         225 B         103 kB          1h      1y
+├ ○ /datos/ayudas.json                                        225 B         103 kB          1h      1y
+├ ○ /datos/padron-municipal.csv                               225 B         103 kB
+├ ○ /datos/padron-municipal.json                              225 B         103 kB
+├ ○ /descargas                                                225 B         103 kB
+├ ○ /dni                                                    1.38 kB         109 kB
+├ ● /dni/[slug]                                              2.4 kB         105 kB
+├   ├ /dni/cita-previa
+├   ├ /dni/renovar-caducado
+├   ├ /dni/misma-cita-pasaporte
+├   └ [+16 more paths]
+├ ○ /empadronarse                                             166 B         115 kB
+├ ● /empadronarse/[ccaa]                                    1.34 kB         104 kB
+├   ├ /empadronarse/andalucia
+├   ├ /empadronarse/aragon
+├   ├ /empadronarse/principado-de-asturias
+├   └ [+16 more paths]
+├ ● /empadronarse/[ccaa]/[provincia]                        1.34 kB         104 kB
+├   ├ /empadronarse/andalucia/almeria
+├   ├ /empadronarse/andalucia/cadiz
+├   ├ /empadronarse/andalucia/cordoba
+├   └ [+49 more paths]
+├ ● /empadronarse/[ccaa]/[provincia]/[municipio]              225 B         103 kB
+├   ├ /empadronarse/comunidad-de-madrid/madrid/madrid
+├   ├ /empadronarse/cataluna/barcelona/barcelona
+├   ├ /empadronarse/comunidad-valenciana/valencia/valencia
+├   └ [+766 more paths]
+├ ○ /empadronarse/baja                                        225 B         103 kB
+├ ○ /empadronarse/cambio-de-domicilio                         225 B         103 kB
+├ ○ /empadronarse/casa-de-familiar                            225 B         103 kB
+├ ○ /empadronarse/cita-previa-madrid                          225 B         103 kB
+├ ○ /empadronarse/con-contrato                                225 B         103 kB
+├ ○ /empadronarse/extranjeros-no-ue                           225 B         103 kB
+├ ○ /empadronarse/extranjeros-ue                              225 B         103 kB
+├ ○ /empadronarse/menores                                     225 B         103 kB
+├ ○ /empadronarse/propietario                                 225 B         103 kB
+├ ○ /empadronarse/renovacion-2-anos                           225 B         103 kB
+├ ○ /empadronarse/sin-contrato                                225 B         103 kB
+├ ○ /empadronarse/sin-hogar                                   225 B         103 kB
+├ ○ /empadronarse/volante-online                              225 B         103 kB
+├ ○ /empadronarse/volante-vs-certificado                      225 B         103 kB
+├ ○ /extranjeria                                            1.38 kB         109 kB
+├ ● /extranjeria/[slug]                                      2.4 kB         105 kB
+├   ├ /extranjeria/subsanar-regularizacion-correos
+├   ├ /extranjeria/mercurio
+├   ├ /extranjeria/cita-huellas-tie
+├   └ [+15 more paths]
+├ ○ /fp                                                     1.38 kB         109 kB
+├ ● /fp/[slug]                                               2.4 kB         105 kB
+├   ├ /fp/matricula-fp-en-septiembre
+├   ├ /fp/convalidaciones-fp
+├   ├ /fp/cambiar-de-instituto-a-mitad-de-curso
+├   └ [+2 more paths]
+├ ○ /fuentes                                                  225 B         103 kB
+├ ○ /hacienda/modelo-030                                     2.4 kB         105 kB
+├ ○ /icon                                                     225 B         103 kB
+├ ○ /metodologia                                              225 B         103 kB
+├ ○ /modelos                                                1.38 kB         109 kB
+├ ○ /mudanza                                                 2.4 kB         105 kB
+├ ○ /opengraph-image                                          225 B         103 kB
+├ ○ /pasaporte                                              1.38 kB         109 kB
+├ ● /pasaporte/[slug]                                        2.4 kB         105 kB
+├   ├ /pasaporte/cita-previa
+├   ├ /pasaporte/urgente
+├   ├ /pasaporte/caducado-sin-cita
+├   └ [+3 more paths]
+├ ○ /privacidad                                               225 B         103 kB
+├ ○ /recursos                                                 225 B         103 kB          1h      1y
+├ ○ /recursos/padron-municipal                                225 B         103 kB
+├ ○ /robots.txt                                               225 B         103 kB
+├ ƒ /sitemap-core.xml                                         225 B         103 kB
+├ ƒ /sitemap-municipios.xml                                   225 B         103 kB
+└ ƒ /sitemap-provincias.xml                                   225 B         103 kB
++ First Load JS shared by all                                102 kB
+  ├ chunks/1255-2fe6d926c4227d60.js                         46.3 kB
+  ├ chunks/4bd1b696-f785427dddbba9fb.js                     54.2 kB
+  └ other shared chunks (total)                             1.93 kB
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+Release inputs unchanged
+Parsed 100/1010 HTML pages
+Parsed 200/1010 HTML pages
+Parsed 300/1010 HTML pages
+Parsed 400/1010 HTML pages
+Parsed 500/1010 HTML pages
+Parsed 600/1010 HTML pages
+Parsed 700/1010 HTML pages
+Parsed 800/1010 HTML pages
+Parsed 900/1010 HTML pages
+Parsed 1000/1010 HTML pages
+{"build_id": "mc2BEFYMW13Izl_iG8j50", "html_pages": 1010, "indexable_pages": 258, "sitemap_urls": 258, "issue_counts": {}}
+{"build_id": "mc2BEFYMW13Izl_iG8j50", "pages": 1010, "fragment_links": 16525, "id_references": 1234, "issues": [], "scope": "Static ID and fragment resolution; not full accessibility conformance"}
+{"build_id": "mc2BEFYMW13Izl_iG8j50", "html_pages": 1010, "scope": "Static HTML prerequisites only; not complete WCAG conformance", "issue_counts": {}}
+{"checked_at": "2026-09-15T17:05:42.078443+00:00", "build_id": "mc2BEFYMW13Izl_iG8j50", "scope": "Generated HTML: distinct page/rule pairs. Skipped rules excluded; no HTTP, ranking or AI citation guarantee.", "pages": 258, "counts": {"pass": 5258, "skipped": 418}, "maximum_click_depth": 3}
+{"build_id": "mc2BEFYMW13Izl_iG8j50", "pages": 1009, "targets": 1081, "pdfs": 33}
+Packaging .next into /tmp/rutatramite-release-jcsdv1vz/release.tar
+Adding package.json
+Adding .next
+Adding server.js
+Adding src
+Adding node_modules
+{"archive": "/tmp/rutatramite-release-jcsdv1vz/release.tar", "sha256": "eae3660d0c7ddb419d4efde1785ba4e2e7894b5e1851612b5590bf74c874079c", "bytes": 289331200, "build_dir": ".next", "build_id": "mc2BEFYMW13Izl_iG8j50"}
+LINUX_BUILD_OK
