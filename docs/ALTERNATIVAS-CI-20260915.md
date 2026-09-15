@@ -45,3 +45,6 @@ Actualizaci?n posterior: la cach? de previsualizaci?n ya regenera en una copia t
 
 
 Las sondas se actualizaron despu?s mediante generaciones verificadas y cambio at?mico; las dos ejecuciones de Jenkins pasaron con el SHA `4242986869d59b9abc6d218b6cfeaafea1a5ea13`, y la suite de infraestructura alcanza 42 pruebas. El refresco peri?dico sigue pendiente de autenticar la App. [Resultados y l?mites](CI-PROBES-20260915.md).
+
+
+El motor de rollback se corrigi? y pas? seis casos con Node/Caddy reales en entornos aislados, adem?s de 48 pruebas de infraestructura. Falta su aceptaci?n dentro de una publicaci?n completa de Jenkins. Chrome volvi? a conectar, pero bloque? la descarga de una nueva clave; se solicit? la descarga manual al usuario. [Estado y alcance](CI-ROLLBACK-20260915.md).

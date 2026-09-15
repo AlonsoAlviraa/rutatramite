@@ -1,0 +1,7 @@
+{
+  "at": "2026-09-15T19:04:16.002360+00:00",
+  "activate_sha256": "7ce0b792f5a16754bf306bdd9d0ab2d683e3ac928961869e7fe216b0c85b7545",
+  "backup": "/opt/ruta-ci/rollback-validation-20260915/activate-before-install.py",
+  "rehearsal": "20260915T190118Z-1e727a9e",
+  "scope": "Rollback engine installed. Full Jenkins publication/rollback acceptance remains pending."
+}

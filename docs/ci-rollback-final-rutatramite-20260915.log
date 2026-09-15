@@ -1,0 +1,43 @@
+Sep 15 19:01:19 vps-79f9a09d systemd[1]: Starting ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal...
+Sep 15 19:01:19 vps-79f9a09d systemd[1]: Started ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal.
+Sep 15 19:01:20 vps-79f9a09d python3[2563614]:    ▲ Next.js 15.5.25
+Sep 15 19:01:20 vps-79f9a09d python3[2563614]:    - Local:        http://127.0.0.1:18202
+Sep 15 19:01:20 vps-79f9a09d python3[2563614]:    - Network:      http://127.0.0.1:18202
+Sep 15 19:01:20 vps-79f9a09d python3[2563614]:  ✓ Starting...
+Sep 15 19:01:21 vps-79f9a09d python3[2563614]:  ✓ Ready in 238ms
+Sep 15 19:01:21 vps-79f9a09d python3[2563614]: (node:2563614) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+Sep 15 19:01:21 vps-79f9a09d python3[2563614]: (Use `node --trace-warnings ...` to show where the warning was created)
+Sep 15 19:01:22 vps-79f9a09d systemd[1]: Stopping ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal...
+Sep 15 19:01:22 vps-79f9a09d systemd[1]: ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service: Deactivated successfully.
+Sep 15 19:01:22 vps-79f9a09d systemd[1]: Stopped ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal.
+Sep 15 19:01:22 vps-79f9a09d systemd[1]: ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service: Consumed 2.618s CPU time.
+Sep 15 19:01:22 vps-79f9a09d systemd[1]: Starting ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal...
+Sep 15 19:01:22 vps-79f9a09d systemd[1]: Started ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal.
+Sep 15 19:01:23 vps-79f9a09d python3[2563743]:    ▲ Next.js 15.5.25
+Sep 15 19:01:23 vps-79f9a09d python3[2563743]:    - Local:        http://127.0.0.1:18202
+Sep 15 19:01:23 vps-79f9a09d python3[2563743]:    - Network:      http://127.0.0.1:18202
+Sep 15 19:01:23 vps-79f9a09d python3[2563743]:  ✓ Starting...
+Sep 15 19:01:23 vps-79f9a09d python3[2563743]:  ✓ Ready in 217ms
+Sep 15 19:01:24 vps-79f9a09d python3[2563743]: (node:2563743) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+Sep 15 19:01:24 vps-79f9a09d python3[2563743]: (Use `node --trace-warnings ...` to show where the warning was created)
+Sep 15 19:01:24 vps-79f9a09d systemd[1]: Stopping ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal...
+Sep 15 19:01:24 vps-79f9a09d systemd[1]: ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service: Deactivated successfully.
+Sep 15 19:01:24 vps-79f9a09d systemd[1]: Stopped ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal.
+Sep 15 19:01:24 vps-79f9a09d systemd[1]: ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service: Consumed 2.337s CPU time.
+Sep 15 19:01:24 vps-79f9a09d systemd[1]: Starting ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal...
+Sep 15 19:01:24 vps-79f9a09d systemd[1]: Started ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal.
+Sep 15 19:01:25 vps-79f9a09d systemd[1]: ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service: Main process exited, code=exited, status=7/NOTRUNNING
+Sep 15 19:01:25 vps-79f9a09d systemd[1]: ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service: Failed with result 'exit-code'.
+Sep 15 19:01:44 vps-79f9a09d systemd[1]: Starting ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal...
+Sep 15 19:01:44 vps-79f9a09d systemd[1]: Started ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal.
+Sep 15 19:01:45 vps-79f9a09d python3[2563862]:    ▲ Next.js 15.5.25
+Sep 15 19:01:45 vps-79f9a09d python3[2563862]:    - Local:        http://127.0.0.1:18202
+Sep 15 19:01:45 vps-79f9a09d python3[2563862]:    - Network:      http://127.0.0.1:18202
+Sep 15 19:01:45 vps-79f9a09d python3[2563862]:  ✓ Starting...
+Sep 15 19:01:46 vps-79f9a09d python3[2563862]:  ✓ Ready in 210ms
+Sep 15 19:01:46 vps-79f9a09d python3[2563862]: (node:2563862) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+Sep 15 19:01:46 vps-79f9a09d python3[2563862]: (Use `node --trace-warnings ...` to show where the warning was created)
+Sep 15 19:01:47 vps-79f9a09d systemd[1]: Stopping ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal...
+Sep 15 19:01:47 vps-79f9a09d systemd[1]: ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service: Deactivated successfully.
+Sep 15 19:01:47 vps-79f9a09d systemd[1]: Stopped ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal.
+Sep 15 19:01:47 vps-79f9a09d systemd[1]: ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e.service: Consumed 2.283s CPU time.

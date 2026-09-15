@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "at": "20260915T190118Z-1e727a9e",
+  "root": "/opt/ruta-ci/rollback-tests/20260915T190118Z-1e727a9e",
+  "scope": "Actual symlink changes, systemd restarts and HTTP identity checks using published packages in isolated tenants. No public rollback or successful Jenkins full-build publication is claimed.",
+  "cases": [
+    {
+      "repository": "rutatramite",
+      "case": "real_rollback",
+      "passed": true,
+      "served_identity": {
+        "kind": "next-build",
+        "id": "KV7Uq4eM6hwFir1Irn3wO"
+      }
+    },
+    {
+      "repository": "rutatramite",
+      "case": "stale_receipt_refused",
+      "passed": true
+    },
+    {
+      "repository": "rutatramite",
+      "case": "automatic_recovery_after_real_service_failure",
+      "passed": true,
+      "served_identity": {
+        "kind": "next-build",
+        "id": "KV7Uq4eM6hwFir1Irn3wO"
+      }
+    },
+    {
+      "repository": "visionsetil",
+      "case": "real_rollback",
+      "passed": true,
+      "served_identity": {
+        "kind": "git-sha",
+        "id": "6e6c774119790b3c98d36c7808242edc73d822a4"
+      }
+    },
+    {
+      "repository": "visionsetil",
+      "case": "stale_receipt_refused",
+      "passed": true
+    },
+    {
+      "repository": "visionsetil",
+      "case": "automatic_recovery_after_real_service_failure",
+      "passed": true,
+      "served_identity": {
+        "kind": "git-sha",
+        "id": "6e6c774119790b3c98d36c7808242edc73d822a4"
+      }
+    }
+  ],
+  "units": [
+    "ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e",
+    "ruta-ci-rollback-visionsetil-20260915t190118z-1e727a9e"
+  ],
+  "activate_sha256": "7ce0b792f5a16754bf306bdd9d0ab2d683e3ac928961869e7fe216b0c85b7545",
+  "production_before": {
+    "rutatramite": "/srv/tenants/slot2/releases/20260915T171408Z",
+    "visionsetil": "/opt/visionsetil/releases/frontend-4242986869d59b9abc6d218b6cfeaafea1a5ea13/dist-app"
+  },
+  "services": {
+    "rutatramite": {
+      "unit": "ruta-ci-rollback-rutatramite-20260915t190118z-1e727a9e",
+      "stopped": true,
+      "log": "/opt/ruta-ci/receipts/rollback-rehearsal-20260915T190118Z-1e727a9e-rutatramite.log"
+    },
+    "visionsetil": {
+      "unit": "ruta-ci-rollback-visionsetil-20260915t190118z-1e727a9e",
+      "stopped": true,
+      "log": "/opt/ruta-ci/receipts/rollback-rehearsal-20260915T190118Z-1e727a9e-visionsetil.log"
+    }
+  },
+  "production_after": {
+    "rutatramite": "/srv/tenants/slot2/releases/20260915T171408Z",
+    "visionsetil": "/opt/visionsetil/releases/frontend-4242986869d59b9abc6d218b6cfeaafea1a5ea13/dist-app"
+  },
+  "production_pointers_unchanged": true,
+  "finished_at": "2026-09-15T19:02:08.611663+00:00",
+  "temporary_tenants_removed": true
+}
