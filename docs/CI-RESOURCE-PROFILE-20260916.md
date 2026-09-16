@@ -1,5 +1,22 @@
 # Medición de memoria de VisionSetil
 
+## Aplicación autorizada a Jenkins
+
+El usuario pidió aplicar los ajustes y continuar la validación. El runner
+separa ahora descarga de código (0,5 GiB libres en Windows) y etapas de PR
+(2 GiB libres en Windows, contenedor limitado a 3 GiB, dos CPU y sin swap
+adicional). Son magnitudes distintas: no se suman memoria de Windows y WSL.
+Frontend usa Node 22 y heap de Node de 2 GiB, como en el ensayo aprobado.
+Seguridad, gitleaks, backend y comprobación editorial alemana usan ese
+techo como ensayo limitado: no se declaran aprobados sin su ejecución real.
+Los fallos conservan el resultado fallido y no se omiten comprobaciones.
+
+Android, recorridos, RutaTrámite y construcción de imagen conservan su
+reserva anterior; no quedan dimensionados por el ensayo frontend. Se
+conserva el mínimo de 20 GiB de disco. Las etapas basadas en las imágenes
+de Node guardan pico y eventos de memoria en `ci-results/resources-*.json`.
+Once pruebas de selección y reserva de recursos pasan antes de instalar.
+
 El requisito previo actual de 8 GiB de RAM libre se aplica a todas las etapas,
 pero no procede de medir cada una. El usuario requiere una solución sin
 gasto adicional.

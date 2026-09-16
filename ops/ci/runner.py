@@ -29,10 +29,30 @@ def available_memory():
         raise OSError('Cannot inspect memory; refusing heavy work')
     return result.available
 
-def wait_resources():
-    while available_memory() < 8*1024**3 or shutil.disk_usage(ROOT).free < 20*1024**3:
-        print('WAITING_RESOURCES: needs 8 GiB available RAM and 20 GiB free disk; no test has started.',flush=True)
+def resources_for(step):
+    # Host headroom is separate from the Docker/WSL container ceiling.
+    # Frontend passed the complete 3 GiB trial. Other PR stages are bounded
+    # trials at the same ceiling: any failure still fails the job.
+    if step == 'checkout':
+        return {'host_gib': 0.5, 'memory_gib': None, 'cpus': None}
+    if step in {'vision-frontend', 'vision-security', 'vision-german', 'vision-backend', 'gitleaks'}:
+        return {'host_gib': 2, 'memory_gib': 3, 'cpus': 2}
+    return {'host_gib': 8, 'memory_gib': 6, 'cpus': 6}
+
+
+def wait_resources(step):
+    minimum = resources_for(step)['host_gib']
+    while available_memory() < minimum*1024**3 or shutil.disk_usage(ROOT).free < 20*1024**3:
+        print(f'WAITING_RESOURCES: {step} needs {minimum:g} GiB available host RAM and 20 GiB free disk; this step has not started.',flush=True)
         time.sleep(30)
+
+
+def container_resources(step):
+    profile = resources_for(step)
+    args = ['--cpus', str(profile['cpus']), '--memory', str(profile['memory_gib'])+'g']
+    if profile['memory_gib'] == 3:
+        args += ['--memory-swap', '3g']
+    return args
 
 def validate_sha(value):
     if not re.fullmatch('[0-9a-f]{40}',value):
@@ -101,7 +121,7 @@ def main():
         (output/'result.json').write_text(json.dumps(report,indent=2))
         (destination/'result.json').write_text(json.dumps(report,indent=2))
     record()
-    wait_resources()
+    wait_resources('checkout')
     source = str(SOURCES[args.repo]) if args.source == 'local' else 'https://github.com/'+REPOSITORIES[args.repo]+'.git'
     report['status'] = 'running'
     record()
@@ -126,17 +146,20 @@ def main():
         changes = subprocess.check_output(['git','-C',str(work),'diff','--name-only',args.base,args.sha],text=True).splitlines() if args.base else []
         (work/'ci-results').mkdir(exist_ok=True)
         for step in choose_stages(args.repo,args.mode,changes):
-            wait_resources()
+            wait_resources(step)
             if step == 'docker-build':
                 command = ['docker','buildx','build','--builder','ruta-ci','--load','-f',str(work/'Dockerfile.cpu'),'-t','visionsetil-ci:'+args.sha,str(work)]
             else:
-                command = ['docker','run','--rm','--init','--cpus','6','--memory','6g','--pids-limit','512','--label','ruta-ci=true','--mount',f'type=bind,source={work},target=/workspace','-w','/workspace']
+                command = ['docker','run','--rm','--init',*container_resources(step),'--pids-limit','512','--label','ruta-ci=true','--mount',f'type=bind,source={work},target=/workspace','-w','/workspace']
                 if step == 'gitleaks':
                     command += ['zricethezav/gitleaks:v8.30.1','git','/workspace','--redact','--report-format','json','--report-path','/workspace/ci-results/gitleaks.json']
                 else:
-                    image = 'ruta-ci-android:20260914' if step == 'vision-android' else 'ruta-ci-node20:20260914'
-                    command += ['--mount',f'type=bind,source={SCRIPTS},target=/ci,readonly','-e','GITHUB_SHA='+args.sha,'-e','VITE_PUBLIC_APP_URL=https://visionsetil.com','-e','SEO_SITE_ORIGIN=https://visionsetil.com','-e','VITE_API_URL=/api',image,'bash','/ci/'+step+'.sh']
-            entry = {'name':step,'status':'running'}
+                    image = 'ruta-ci-android:20260914' if step == 'vision-android' else ('ruta-ci-node22:20260914' if step == 'vision-frontend' else 'ruta-ci-node20:20260914')
+                    command += ['--mount',f'type=bind,source={SCRIPTS},target=/ci,readonly','-e','GITHUB_SHA='+args.sha,'-e','VITE_PUBLIC_APP_URL=https://visionsetil.com','-e','SEO_SITE_ORIGIN=https://visionsetil.com','-e','VITE_API_URL=/api']
+                    if step == 'vision-frontend':
+                        command += ['-e','NODE_OPTIONS=--max-old-space-size=2048']
+                    command += [image,'bash','/ci/stage-profile.sh',step]
+            entry = {'name':step,'status':'running','resources':resources_for(step)}
             report['steps'].append(entry)
             record()
             try:
