@@ -6,7 +6,8 @@ npm ci
 npx tsc --noEmit
 npm run lint
 npm run seo:content && npm run seo:assets && npm run seo:prerender
-npm test -- --maxWorkers=2 --minWorkers=1
+# URL fallback tests require an unconfigured app URL; builds retain the runner URL.
+env -u VITE_PUBLIC_APP_URL npm test -- --maxWorkers=2 --minWorkers=1
 node --test scripts/score-seo-growth.test.mjs scripts/summarize-seo-growth.test.mjs scripts/verify-production-operational.test.mjs scripts/indexation-watchlist.test.mjs
 python -m unittest discover -s ../deploy -p test_patch_caddy_production_policy.py
 npm run store:check -- --maxWorkers=2 --minWorkers=1
