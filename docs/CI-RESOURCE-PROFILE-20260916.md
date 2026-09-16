@@ -85,7 +85,10 @@ rollback y PR #205 no quedan validados por este ensayo.
   sin privilegios y una comparación de separadores de rutas. Ese resultado
   se conserva como fallo; no equivale a la suite Linux aprobada previamente
   y no se han modificado sus criterios para hacerlo pasar.
-- No se ha sustituido el runner activo ni declarado aprobadas las PR de
-  aplicación. Se puede dimensionar la etapa frontend usando esta evidencia,
-  conservando las restantes etapas pendientes y la presión de memoria medida.
-  El runner actual usa Node 20 para frontend; el ensayo aprobado usó Node 22.
+- El 16 de septiembre se instaló el runner actualizado con Node 22 para
+  frontend y se verificó en Jenkins: `ci-acceptance #7` SUCCESS, 58 tests.
+  La PR #206 arrancó y pasó la etapa de seguridad con el nuevo límite,
+  pero `visionsetil-pr #3` terminó FAILURE por 21 hallazgos de Gitleaks
+  en el historial. El usuario pidió dejar intacta la credencial Kaggle
+  encontrada; no se eliminaron sus copias ni se ignoró el control.
+  Las PR de aplicación no están aprobadas ni publicadas.
