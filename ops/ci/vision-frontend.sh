@@ -16,9 +16,11 @@ git diff --exit-code -- ../content/guias public src/data/generated src/styles/ho
 npm run build:german
 git diff --exit-code -- ../sites/pilzbestimmung.com/feldwerkstatt
 node ../scripts/check_bundle_budget.mjs
+python3 /ci/frontend_artifact.py preserve /workspace
 cp mobile.env.example .env.native
 npm run mobile:build
 STORE_REQUIRE_DIST=1 npm run store:check -- --maxWorkers=2 --minWorkers=1
+python3 /ci/frontend_artifact.py restore /workspace
 npx playwright install --with-deps chromium
 npx playwright test e2e/identify-blocked.spec.ts e2e/media-smoke.spec.ts e2e/legal-cookies.spec.ts --project=chromium
 if [ -f ../sites/pilzbestimmung.com/scripts/validate-site.mjs ]; then npm run test:german; fi

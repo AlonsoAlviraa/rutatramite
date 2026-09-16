@@ -137,6 +137,9 @@ def main():
         run_command(['git','-C',str(work),'-c','core.autocrlf=false','checkout','--detach',args.sha],output/'revision.log')
         actual = subprocess.check_output(['git','-C',str(work),'rev-parse','HEAD'],text=True).strip()
         assert actual == args.sha
+        # CI evidence is not application source and must not dirty the release manifest.
+        with (work/'.git/info/exclude').open('a', encoding='utf-8') as exclusions:
+            exclusions.write('\n/ci-results/\n')
         if args.mode == 'android':
             main_sha = subprocess.check_output(['git','ls-remote','https://github.com/'+REPOSITORIES[args.repo]+'.git','refs/heads/main'],text=True).split()[0]
             assert args.sha == main_sha, 'Signing is restricted to the current reviewed main commit'
@@ -180,7 +183,8 @@ def main():
             (retained/'identity.json').write_text(json.dumps({'sha':args.sha,'package':report['package'],'certificate':json.loads((SCRIPTS/'android-certificate.json').read_text())},indent=2))
         if args.mode == 'full':
             if args.repo == 'visionsetil':
-                archive = Path(shutil.make_archive(str(output/'release'),'gztar',work/'frontend','dist-app'))
+                from frontend_artifact import package
+                archive = package(work, output, args.sha)
             else:
                 manifest = json.loads((work/'docs/release-manifest.json').read_text())
                 # pack_release currently writes to the container's /tmp; copy through a mounted output in the build script.

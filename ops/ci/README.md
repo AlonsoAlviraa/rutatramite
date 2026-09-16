@@ -13,7 +13,8 @@ GitHub conserva código y propuestas. Jenkins vive en el VPS existente, en <http
 | Controlador | Jenkins 2.568.3, Java 21, cero ejecutores, máximo 1.5 GiB y una CPU |
 | Acceso | HTTPS privado, registro deshabilitado, sin lectura anónima, noindex |
 | Windows | `windows-ci`, un ejecutor, WebSocket, tarea `RutaCI-Agent` al iniciar sesión |
-| Trabajo pesado | Docker, seis CPU, 6 GiB, reserva previa de 8 GiB de RAM libre y 20 GiB de disco |
+| Etapas de PR VisionSetil | Docker, dos CPU, máximo 3 GiB sin swap adicional; mínimo de 2 GiB libres en Windows y 20 GiB de disco. Frontend medido; las demás etapas se validan con ese límite |
+| Otros trabajos pesados | Conservan seis CPU, 6 GiB y reserva previa de 8 GiB libres; no se declaran dimensionados por el ensayo de frontend |
 | Comprobaciones ligeras | `vps-probe`, usuario sin sudo, 512 MiB, media CPU; Node 22/Python 3.12 del VPS |
 | Eventos | Firma HMAC-SHA256, dos repositorios permitidos, SHA exacto, propuestas del mismo repositorio |
 | GitHub App | `RutaTramite VisionSetil CI`, App 4945898, instalación 161748368 |
@@ -24,6 +25,18 @@ GitHub conserva código y propuestas. Jenkins vive en el VPS existente, en <http
 Las versiones de imágenes, dependencias Windows y plugins están en los archivos `*.lock.*`. El controlador ejecuta definiciones administradas; no ejecuta Jenkinsfiles aportados por una propuesta. Los contenedores de prueba no reciben el socket Docker, el perfil del usuario ni las credenciales de GitHub. Android recibe la firma únicamente para el SHA actual de main; comprueba además la huella del certificado histórico.
 
 ## Equivalencia con Actions
+
+Actualización del 16 de septiembre: el frontend usa Node 22, dos procesos
+Vitest y URL de producción fuera de las pruebas del estado sin configurar.
+Las mediciones de cada etapa quedan en `ci-results/resources-*.json`.
+Los resultados de CI se excluyen localmente de Git para no marcar como
+modificado el código con el que se genera el manifiesto de publicación.
+
+La compilación web se conserva antes de generar la versión móvil, que
+reutiliza `dist-app` y elimina sus archivos SEO. Tras validar la versión
+móvil se restaura el paquete web; el empaquetado exige manifiesto del SHA
+esperado, sitemap y portada prerenderizada. Las pruebas comprueban que
+la salida nativa no sustituya a la web que se va a publicar.
 
 | Workflow anterior de VisionSetil | Sustitución |
 | --- | --- |
