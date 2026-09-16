@@ -3,6 +3,7 @@ set -euo pipefail
 cd /ci
 node --version
 python --version
+python -m pip install --disable-pip-version-check -r /ci/requirements-windows.lock.txt
 python -B - <<'PY'
 import sys
 import unittest
