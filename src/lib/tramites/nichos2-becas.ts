@@ -31,6 +31,7 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
       { href: "/becas/mec/denegada/por-patrimonio", label: "Beca denegada por patrimonio: qué hacer" },
       { href: "/becas/mec/no-devolver", label: "No devolver la beca: los créditos que debes superar" },
       { href: "/becas/mec/cuando-se-cobra", label: "Cuándo se cobra la beca MEC" },
+      { href: "/alquiler", label: "Ayudas al alquiler por comunidad" },
     ],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
@@ -88,6 +89,7 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
       { href: "/becas/mec/requisitos", label: "Requisitos de la beca MEC: renta y nota" },
       { href: "/becas/mec", label: "Beca MEC: guía completa" },
       { href: "/becas/mec/cuando-se-cobra", label: "Cuándo se cobra la beca MEC" },
+      { href: "/alquiler", label: "Ayudas al alquiler por comunidad" },
     ],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
@@ -142,6 +144,7 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
       { href: "/fp/matricula-fp-en-septiembre", label: "Matrícula de FP en septiembre" },
       { href: "/becas/mec/requisitos", label: "Requisitos de la beca MEC" },
       { href: "/becas/mec/cuando-se-cobra", label: "Cuándo se cobra la beca MEC" },
+      { href: "/alquiler", label: "Ayudas al alquiler por comunidad" },
     ],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
@@ -193,6 +196,7 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
       { href: "/becas/mec/cambio-estudios", label: "Cambiar de carrera con beca MEC" },
       { href: "/becas/mec", label: "Beca MEC: guía completa" },
       { href: "/becas/mec/cuando-se-cobra", label: "Cuándo se cobra la beca MEC" },
+      { href: "/alquiler", label: "Ayudas al alquiler por comunidad" },
     ],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
@@ -296,6 +300,7 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
       { href: "/becas/mec/no-devolver", label: "No devolver la beca MEC: créditos y normas" },
       { href: "/becas/mec/cambio-estudios", label: "Cambiar de carrera con beca MEC" },
       { href: "/becas/mec/cuando-se-cobra", label: "Cuándo se cobra la beca MEC" },
+      { href: "/alquiler", label: "Ayudas al alquiler por comunidad" },
       { href: "/becas/mec", label: "Beca MEC: guía completa" },
     ],
     disclaimer: DISCLAIMER_GENERICO,
@@ -372,19 +377,22 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
   },
   {
     id: "mecaResidenciaComponente",
+    reviewedAt: "2026-09-14",
+    sources: [{ label: "Ministerio: componentes de la beca universitaria 2026-27", href: "https://www.becaseducacion.gob.es/becas-y-ayudas/universidad-grado-master/tipos-de-becas.html" }, { label: "Ministerio: actualización de datos", href: "https://www.becaseducacion.gob.es/novedades" }],
     pack: "becas",
     path: "/becas/residencia",
     h1: "Beca de residencia MEC: 2.700 € y cómo solicitarla",
     title: "Beca de residencia MEC: 2.700 € y cómo solicitarla",
     description:
-      "El componente de residencia de la beca MEC (2.700 € en 2026-27) se pide marcando la casilla de residir fuera del domicilio familiar. Erasmus de curso completo y residencias públicas, explicados.",
-    lead: `El componente de residencia de la beca MEC llega a ${MEC_RESIDENCIA_EUR} en el curso 2026-27 y no es una beca aparte: se pide dentro de la propia solicitud MEC marcando que vas a residir fuera del domicilio familiar por los estudios. La clave está en acreditar bien el desplazamiento y saber qué pasa con Erasmus y con las residencias universitarias.`,
+      "Beca MEC de residencia 2026-27: cuantía de 2.700 € sujeta a requisitos. Actualización del alojamiento, documentación y diferencias con ayudas al alquiler.",
+    lead: `El componente de residencia de la beca MEC llega a ${MEC_RESIDENCIA_EUR} en el curso 2026-27 y no es una beca aparte: se pide dentro de la propia solicitud MEC marcando que vas a residir fuera del domicilio familiar por los estudios. Su concesión depende de cumplir los requisitos generales, económicos y académicos y de justificar la necesidad de residir fuera.`,
     cta: { href: BECAS_URL, label: "Portal oficial de becas" },
     related: [
       { href: "/becas/mec/compatibilidad/erasmus", label: "Beca MEC y Erasmus: compatibilidad" },
       { href: "/becas/mec", label: "Beca MEC: guía completa" },
       { href: "/becas/erasmus", label: "Erasmus+ 2026-27: plazos por universidad" },
       { href: "/becas/mec/cuando-se-cobra", label: "Cuándo se cobra la beca MEC" },
+      { href: "/alquiler", label: "Ayudas al alquiler por comunidad" },
     ],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
@@ -401,14 +409,14 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
         title: "Cómo se pide: una casilla dentro de la solicitud MEC",
         paragraphs: [
           "No hay segunda solicitud: en el formulario de la beca MEC se marca la opción de residir fuera del domicilio familiar durante el curso, y eso activa la evaluación del componente. El error típico es dejarla sin marcar, o marcarla cuando el domicilio declarado no lo justifica: el cruce con los datos censales y de matrícula es automático, y una casilla incoherente puede costarte un requerimiento o una denegación parcial.",
-          `La convocatoria 2026-27 ya está cerrada (se pidió del ${MEC_PLAZO_2627}); quien la pidiera con la casilla correcta verá el componente en su resolución. Para 2027-28, la misma casilla, con los datos de domicilio preparados de antemano.`,
+          `La solicitud inicial 2026-27 está cerrada (se pidió del ${MEC_PLAZO_2627}). Si ya la presentaste, consulta las instrucciones de actualización del 7 al 28 de septiembre. Marcar la residencia no garantiza su concesión. Los formularios de 2027-28 deberán comprobarse cuando se publiquen.`,
         ],
       },
       {
         id: "erasmus",
-        title: "Erasmus de curso completo: puedes reclamarla",
+        title: "Si tienes una movilidad Erasmus",
         paragraphs: [
-          "Un matiz que beneficia a los estudiantes de movilidad: quienes hacen un Erasmus de curso completo pueden reclamar el componente de residencia, porque el desplazamiento existe y es aún mayor que el del estudiante que simplemente estudia en otra ciudad. La guía de compatibilidad de la beca MEC con Erasmus desarrolla qué componentes se cobran estando fuera y cómo se reclama.",
+          "Consulta con tu Unidad de Becas cómo debes declarar la movilidad y acreditar el alojamiento. La estancia Erasmus por sí sola no prueba el derecho a un componente concreto: revisa la convocatoria y los requisitos de tu expediente.",
         ],
       },
       {

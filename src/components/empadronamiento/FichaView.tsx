@@ -12,7 +12,7 @@ import { ccaaPath, provinciaPath } from "@/lib/geo/paths";
 export function FichaView({ model }: { model: FichaModel }) {
   const m = model.municipio;
   return (
-    <PageShell as="article" data-ficha={m.ine_code} data-oleada={m.oleada}>
+    <PageShell as="article" className="[overflow-wrap:anywhere]" data-ficha={m.ine_code} data-oleada={m.oleada}>
       <JsonLd data={model.jsonld} />
       <header className="space-y-3">
         <Breadcrumbs
@@ -30,6 +30,7 @@ export function FichaView({ model }: { model: FichaModel }) {
           <time dateTime={m.last_verified}>{m.last_verified}</time>
         </p>
         <UnverifiedBadge show={model.unverified} />
+        {m.review_note && <p className="rounded border border-sand p-4">{m.review_note}</p>}
         <p className="text-lg leading-relaxed" data-geo-lead="">
           {model.geoLead}
         </p>
@@ -38,6 +39,12 @@ export function FichaView({ model }: { model: FichaModel }) {
           {m.cita_url ? <OfficialCta href={m.cita_url} label="Pedir cita en la sede oficial" variant="secondary" /> : null}
         </div>
       </header>
+
+      {m.evidence && <section className="mt-6 space-y-2" aria-labelledby="revision-local"><h2 id="revision-local" className="font-display text-2xl">Qué hemos comprobado</h2>
+        <p>La comprobación corresponde al alta. Los certificados, cambios y renovaciones pueden tener otros requisitos.</p>
+        <ul className="list-disc pl-5">{Object.entries(m.evidence).map(([field, e]) => <li key={field}><a className="underline" href={e.source_url}>{({ alta: "Procedimiento de alta", docs_extra: "Documentación", canal: "Canales de presentación", cita: "Cita y atención", certificado: "Certificados" } as Record<string,string>)[field] ?? field}</a> · <time dateTime={e.checked_at}>{e.checked_at}</time></li>)}</ul>
+        <p><a className="underline" href="/recursos/padron-municipal">Comparar municipios y descargar los datos con fuentes</a></p>
+      </section>}
 
       <TableOfContents items={[...model.sections, { id: "howto", title: "Paso a paso" }, { id: "faq", title: "Preguntas frecuentes" }, { id: "vecinos", title: "Municipios y casos relacionados" }]} />
       {model.sections.map((section) => (
@@ -50,7 +57,7 @@ export function FichaView({ model }: { model: FichaModel }) {
           ))}
           {section.links?.length ? <ul className="space-y-2">{section.links.map((link) => <li key={link.href}><a href={link.href} className="underline underline-offset-4">{link.label}</a></li>)}</ul> : null}
           {section.tables?.map((t) => (
-            <div key={t.caption} className="rt-table-wrap">
+            <div key={t.caption} className="rt-table-wrap" role="region" aria-label={t.caption} tabIndex={0}>
               <table className="rt-table">
                 <caption className="sr-only">{t.caption}</caption>
                 <thead>

@@ -20,14 +20,9 @@ export async function generateMetadata({ params }: { params: Promise<{ ccaa: str
   const { ccaa } = await params;
   const c = ccaaBySlug(ccaa);
   if (!c) return {};
-  const index = loadIndex();
-  const municipios = index.filter((m) => m.ccaa_slug === c.slug);
-  const t = loadTerritories();
-  const provinceNames = c.province_codes.map((code) => t.provinces[code]?.name).filter(Boolean);
-  const model = buildCcaaHub(c.name, c.slug, municipios, provinceNames);
   return pageMetadata({
-    title: model.title,
-    description: model.description,
+    title: `Empadronarse en ${c.name}: municipios ≥10.000, documentos y sede 2026`,
+    description: `Municipios de 10.000 habitantes o más en ${c.name}. El padrón es municipal. Alta gratuita. RutaTrámite no es Administración.`,
     path: `/empadronarse/${c.slug}`,
     type: "article",
     modified: "2026-09-07",

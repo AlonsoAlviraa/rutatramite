@@ -1,8 +1,12 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Municipio, MunicipioIndexEntry } from "@/lib/types";
+import { isFichaIndexable } from "@/lib/seo/localSignals";
 
 const ROOT = process.cwd();
+const reviewPath = path.join(ROOT, "data", "municipal-reviews.json");
+const reviews: Record<string, Partial<Municipio>> = fs.existsSync(reviewPath) ? JSON.parse(fs.readFileSync(reviewPath, "utf8")) : {};
+function reviewed(m: Municipio): Municipio { return { ...m, ...reviews[m.ine_code] }; }
 const INE_POP_URL =
   "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031";
 
@@ -35,7 +39,12 @@ export function loadIndex(): MunicipioIndexEntry[] {
   if (!fs.existsSync(live)) {
     throw new Error("no municipio index at data/municipios/_index.json");
   }
-  cachedIndex = parseIndexFile(live);
+  cachedIndex = parseIndexFile(live).map((entry) => {
+    const file = path.join(dataDir(), `${entry.ine_code}.json`);
+    const full = reviewed(fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : synthesizeMunicipio(entry));
+    return { ...entry, sede_url: full.sede_url, cita_url: full.cita_url, confidence: full.confidence, docs_extra: full.docs_extra ?? [], local_verified: isFichaIndexable(full),
+      procedure_docs: full.procedure_docs, certificado_url: full.certificado_url, tramite_alta_url: full.tramite_alta_url };
+  });
   return cachedIndex;
 }
 
@@ -93,11 +102,11 @@ export function synthesizeMunicipio(e: MunicipioIndexEntry): Municipio {
 export function loadMunicipio(ineCode: string): Municipio {
   const p = path.join(dataDir(), `${ineCode}.json`);
   if (fs.existsSync(p)) {
-    return JSON.parse(fs.readFileSync(p, "utf8")) as Municipio;
+    return reviewed(JSON.parse(fs.readFileSync(p, "utf8")) as Municipio);
   }
   const hit = loadIndex().find((e) => e.ine_code === ineCode);
   if (!hit) throw new Error(`municipio ${ineCode} not in index`);
-  return synthesizeMunicipio(hit);
+  return reviewed(synthesizeMunicipio(hit));
 }
 
 export function loadAllMunicipios(): Municipio[] {

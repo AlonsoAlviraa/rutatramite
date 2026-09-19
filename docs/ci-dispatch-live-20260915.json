@@ -1,0 +1,92 @@
+{
+  "tests": [
+    {
+      "name": "first delivery queues",
+      "passed": true,
+      "details": {
+        "status": "queued",
+        "queue_id": 35,
+        "cancelled_queue_ids": [],
+        "stopped_builds": []
+      }
+    },
+    {
+      "name": "lost acknowledgement does not duplicate",
+      "passed": true,
+      "details": {
+        "status": "existing",
+        "queue_id": 35,
+        "build": 1
+      }
+    },
+    {
+      "name": "separate proposal queues independently",
+      "passed": true,
+      "details": {
+        "status": "queued",
+        "queue_id": 39,
+        "cancelled_queue_ids": [],
+        "stopped_builds": []
+      }
+    },
+    {
+      "name": "new proposal revision replaces its predecessor",
+      "passed": true,
+      "details": {
+        "status": "queued",
+        "queue_id": 41,
+        "cancelled_queue_ids": [],
+        "stopped_builds": [
+          1
+        ]
+      }
+    },
+    {
+      "name": "older dispatch cannot supersede the newer version",
+      "passed": true,
+      "details": {
+        "status": "superseded"
+      }
+    },
+    {
+      "name": "concurrent redelivery schedules once",
+      "passed": true,
+      "details": [
+        {
+          "status": "queued",
+          "queue_id": 43,
+          "cancelled_queue_ids": [],
+          "stopped_builds": []
+        },
+        {
+          "status": "existing",
+          "queue_id": 43,
+          "build": null
+        }
+      ]
+    },
+    {
+      "name": "same PR number in another repository is preserved",
+      "passed": true,
+      "details": {
+        "status": "existing",
+        "queue_id": 37,
+        "build": 1
+      }
+    },
+    {
+      "name": "unproven legacy dispatch does not launch a duplicate",
+      "passed": true,
+      "details": {
+        "status": "unresolved",
+        "reason": "No surviving controller evidence for legacy intent"
+      }
+    }
+  ],
+  "cleanup": {
+    "stopped": [
+      "ci-dispatch-validation-pr",
+      "ci-dispatch-other-pr"
+    ]
+  }
+}

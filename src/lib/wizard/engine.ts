@@ -4,6 +4,7 @@
  */
 import type { EscenarioSlug, Municipio, MunicipioIndexEntry, WizardAnswers } from "@/lib/types";
 import { ESCENARIO_LABELS } from "@/lib/types";
+import { isFichaIndexable } from "@/lib/seo/localSignals";
 
 export type WizardResult = {
   primary: EscenarioSlug;
@@ -40,8 +41,9 @@ export function detectCaso(answers: WizardAnswers): { primary: EscenarioSlug; ex
   if (answers.nacionalidad === "ue") extras.push("extranjeros-ue");
   if (answers.nacionalidad === "resto") extras.push("extranjeros-no-ue");
   if (answers.menores) extras.push("menores");
-  if (answers.housing === "no-contrato" && primary !== "sin-contrato") extras.push("sin-contrato");
-  if (answers.housing === "sin-techo" && primary !== "sin-hogar") extras.push("sin-hogar");
+  const registration = answers.tramite === "alta" || answers.tramite === "cambio";
+  if (registration && answers.housing === "no-contrato" && primary !== "sin-contrato") extras.push("sin-contrato");
+  if (registration && answers.housing === "sin-techo" && primary !== "sin-hogar") extras.push("sin-hogar");
 
   const uniq = extras.filter((s) => s !== primary);
   return { primary, extras: uniq };
@@ -56,12 +58,38 @@ export type WizardMunicipio = {
   path?: string | null;
   confidence?: Municipio["confidence"] | null;
   province_name?: string | null;
+  local_verified?: boolean;
+  procedure_docs?: Municipio["procedure_docs"];
+  certificado_url?: string | null;
+  tramite_alta_url?: string | null;
 };
 
 export function buildChecklist(answers: WizardAnswers, municipio: WizardMunicipio | null): string[] {
   const items: string[] = [];
   const nat = answers.nacionalidad;
   const nie = answers.nieTie;
+
+  // Existing certificates and renewal do not require a new registration checklist.
+  if (answers.tramite === "certificado" || answers.tramite === "volante") {
+    items.push("Identifícate para solicitar tus datos padronales por el canal que ofrece el ayuntamiento. Comprueba qué identificación admite la sede electrónica o la oficina.");
+    items.push(answers.tramite === "certificado"
+      ? "Indica si necesitas certificado individual, colectivo o histórico y para qué organismo. Comprueba el tipo de documento que te han solicitado."
+      : "Comprueba que el organismo destinatario acepta un volante; si exige certificado o histórico, solicita ese documento.");
+    if (answers.menores) items.push("Para solicitar datos de un menor, consulta cómo acreditar la representación y qué autorizaciones requiere ese ayuntamiento.");
+    items.push("Si actúa otra persona, consulta la autorización o representación exigida para obtener información padronal. Comprueba los canales, plazos y posibles tasas de este documento.");
+    for (const extra of municipio?.procedure_docs?.[answers.tramite] ?? []) items.push(`Peculiaridad local (${municipio!.name}): ${extra}`);
+    if (!municipio?.procedure_docs?.[answers.tramite]) items.push("La documentación local de este procedimiento está pendiente de comprobación en esta guía. Consulta su ficha oficial.");
+    return items;
+  }
+  if (answers.tramite === "renovacion") {
+    if (nat === "espanola" || nat === "ue") return ["La renovación padronal cada dos años no corresponde a personas españolas o de la UE/EEE/Suiza. Si has recibido un requerimiento municipal, consulta el procedimiento que indica antes de actuar."];
+    items.push("Comprueba que te corresponde la renovación: afecta a extranjeros no comunitarios sin residencia de larga duración. Esta guía no conoce el tipo de tu autorización; sigue el aviso del ayuntamiento.");
+    items.push("Prepara la identificación y la solicitud o declaración de renovación que indique tu ayuntamiento. No es una renovación de la TIE ni una nueva alta.");
+    if (answers.menores) items.push("Para un menor, consulta cómo debe acreditar su representación quien realiza la renovación.");
+    for (const extra of municipio?.procedure_docs?.renovacion ?? []) items.push(`Peculiaridad local (${municipio!.name}): ${extra}`);
+    if (!municipio?.procedure_docs?.renovacion) items.push("La documentación local de renovación está pendiente de comprobación. Consulta el aviso y la sede municipal.");
+    return items;
+  }
 
   items.push("Hoja padronal o solicitud del ayuntamiento, firmada por todos los mayores de edad que se inscriben.");
 
@@ -93,20 +121,15 @@ export function buildChecklist(answers: WizardAnswers, municipio: WizardMunicipi
     items.push("Documentación de cada menor (libro de familia o nacimiento, DNI si lo tiene) y consentimiento del otro progenitor, resolución judicial o declaración responsable de los anexos INE.");
   }
 
-  if (answers.tramite === "certificado") {
-    items.push("Identifícate para pedir el certificado (documento público fehaciente). No lo confundas con el volante informativo.");
-  } else if (answers.tramite === "volante") {
-    items.push("El volante es informativo y suele bastar para trámites internos; extranjería suele pedir certificado o histórico reciente.");
-  } else if (answers.tramite === "renovacion") {
-    items.push("La renovación a dos años aplica a extranjeros no comunitarios sin autorización de residencia de larga duración o permanente. No es lo mismo que renovar la TIE.");
-  } else if (answers.tramite === "cambio") {
+  if (answers.tramite === "cambio") {
     items.push("El cambio de domicilio se pide en el ayuntamiento del nuevo domicilio. La baja en origen la coordina el INE; no es un trámite previo que debas cerrar tú.");
   }
 
-  if (municipio?.docs_extra?.length) {
-    for (const extra of municipio.docs_extra) items.push(`Peculiaridad local (${municipio.name}): ${extra}`);
+  const localDocs = municipio?.procedure_docs?.[answers.tramite ?? "alta"] ?? (answers.tramite === "alta" ? municipio?.docs_extra : undefined);
+  if (localDocs?.length) {
+    for (const extra of localDocs) items.push(`Peculiaridad local (${municipio!.name}): ${extra}`);
   } else {
-    items.push("Este municipio no ha publicado documentos extra frente al marco INE. Confirma el modelo de solicitud en la sede o en la OAC.");
+    items.push("No hemos comprobado los documentos específicos de este procedimiento en tu municipio. La revisión local está pendiente: confirma los requisitos y el modelo en la sede o en la OAC.");
   }
 
   items.push("El alta en el padrón es gratuita (tasa 0 €). No pagues la cita ni un intermediario que venda turnos.");
@@ -116,8 +139,10 @@ export function buildChecklist(answers: WizardAnswers, municipio: WizardMunicipi
 export function runWizard(answers: WizardAnswers, municipio: WizardMunicipio | Municipio | MunicipioIndexEntry | null): WizardResult {
   const { primary, extras } = detectCaso(answers);
   const checklist = buildChecklist(answers, municipio);
-  const sedeUrl = municipio?.sede_url ?? null;
-  const citaUrl = municipio?.cita_url ?? null;
+  const documentRequest = answers.tramite === "certificado" || answers.tramite === "volante";
+  const sedeUrl = (documentRequest ? municipio?.certificado_url : answers.tramite === "alta" || answers.tramite === "cambio" ? municipio?.tramite_alta_url : null) || municipio?.sede_url || null;
+  const citaUrl = documentRequest || answers.tramite === "renovacion" ? null : municipio?.cita_url ?? null;
+  const verified = (municipio && "local_verified" in municipio ? municipio.local_verified : undefined) ?? (municipio && "online" in municipio ? isFichaIndexable(municipio as Municipio) : false);
   const name = municipio?.name ?? "tu municipio";
   return {
     primary,
@@ -127,7 +152,7 @@ export function runWizard(answers: WizardAnswers, municipio: WizardMunicipio | M
     checklist,
     sedeUrl,
     citaUrl,
-    confidence: municipio?.confidence ?? "unknown",
+    confidence: !municipio ? "unknown" : verified ? "official" : "unverified",
     searchHint: sedeUrl
       ? null
       : `Busca «empadronamiento sede ${name} ${municipio?.province_name ?? ""}» en la web del ayuntamiento. No uses clónicos de cita de pago.`,

@@ -1,0 +1,16 @@
+[Unit]
+Description=RutaTramite private weekly review packet
+After=rutatramite-growth.service
+
+[Service]
+Type=oneshot
+User=slot2
+Group=slot2
+WorkingDirectory=/srv/tenants/slot2/ops
+ExecStart=/usr/bin/python3 /srv/tenants/slot2/ops/weekly_review.py --reports /srv/tenants/slot2/metrics/reports
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/srv/tenants/slot2/metrics

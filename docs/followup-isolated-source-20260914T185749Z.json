@@ -1,0 +1,11 @@
+{
+  "snapshot": "C:\\Users\\Mariano\\Documents\\ALONSOO\\TRAMITE\\tmp\\followup-isolated-20260914T185749Z",
+  "source_before": {
+    "files": 1098,
+    "sha256": "3dfe6cc7e18196cd94ab23325885799e664b94c29b1b9be69547908183a4c67d"
+  },
+  "excluded_unreviewed_pdfs": [
+    "cm-hoja-padronal.pdf"
+  ],
+  "approved_pdfs": 33
+}

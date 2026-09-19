@@ -48,6 +48,8 @@ for url, count in Counter(sitemap_urls).items():
 
 indexable = {}
 public_targets = set('/' + f.relative_to(ROOT/'public').as_posix() for f in (ROOT/'public').rglob('*') if f.is_file())
+app_manifest = ROOT / args.build_dir / 'server/app-paths-manifest.json'
+route_targets = {p.removesuffix('/route') for p in json.loads(app_manifest.read_text()).keys() if p.endswith('/route')} if app_manifest.exists() else set()
 for path, p in pages.items():
     if 'noindex' not in p.meta.get('robots',''):
         indexable[path] = p
@@ -65,7 +67,7 @@ for path, p in pages.items():
         if url.netloc != 'rutatramite.com' or url.scheme not in ('http','https'): continue
         target = unquote(url.path) or '/'
         if target not in pages:
-            if target not in public_targets: issue(path,'missing internal target',href)
+            if target not in public_targets and target not in route_targets: issue(path,'missing internal target',href)
         elif url.fragment and unquote(url.fragment) not in pages[target].ids: issue(path,'missing fragment',href)
 
 for path in sitemap:

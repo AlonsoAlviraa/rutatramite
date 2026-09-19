@@ -8,6 +8,7 @@ const cols = [
       { href: "/dni", label: "DNI y pasaporte" },
       { href: "/extranjeria", label: "Extranjería" },
       { href: "/mudanza", label: "Mudanza" },
+      { href: "/alquiler", label: "Ayudas al alquiler" },
       { href: "/modelos", label: "Modelos y cartas" },
     ],
   },
@@ -19,6 +20,7 @@ const cols = [
       { href: "/fp", label: "FP" },
       { href: "/bebe", label: "Bebé" },
       { href: "/becas", label: "Becas" },
+      { href: "/ayudas", label: "Ayudas y plazos" },
     ],
   },
   {
@@ -26,6 +28,8 @@ const cols = [
     links: [
       { href: "/metodologia", label: "Cómo verificamos" },
       { href: "/fuentes", label: "Fuentes" },
+      { href: "/recursos", label: "Datos y recursos" },
+      { href: "/descargas", label: "Formularios oficiales" },
       { href: "/aviso-legal", label: "Aviso legal" },
       { href: "/privacidad", label: "Privacidad" },
       { href: "/contacto", label: "Contacto" },

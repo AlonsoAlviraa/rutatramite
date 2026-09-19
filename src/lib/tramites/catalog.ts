@@ -1,4 +1,5 @@
 import { BEBE_GUIDES } from "@/lib/tramites/bebe";
+import { AYUDAS_2026_GUIDES } from "@/lib/tramites/ayudas-2026";
 import { BECAS_GUIDES } from "@/lib/tramites/becas";
 import { COLE_GUIDES } from "@/lib/tramites/cole";
 import { COMEDOR_GUIDES } from "@/lib/tramites/comedor";
@@ -16,6 +17,7 @@ import type { Guide, GuidePack } from "@/lib/tramites/types";
 import { VIAJE_GUIDES } from "@/lib/tramites/viaje";
 
 export const ALL_GUIDES: Guide[] = [
+  ...AYUDAS_2026_GUIDES,
   ...VIAJE_GUIDES,
   ...DNI_NICHOS_GUIDES,
   ...MUDANZA_GUIDES,

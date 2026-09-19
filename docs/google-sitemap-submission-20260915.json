@@ -1,0 +1,35 @@
+{
+  "submitted_at": "2026-09-15T17:23:58.162826+00:00",
+  "google_submission": {
+    "status": 403,
+    "body": "Request had insufficient authentication scopes (attempt 2026-09-15; sitemap subsequently submitted successfully in Search Console UI)"
+  },
+  "google_readback": {
+    "status": 200,
+    "data": {
+      "path": "https://rutatramite.com/sitemap.xml",
+      "lastSubmitted": "2026-09-15T17:18:25.372Z",
+      "isPending": false,
+      "isSitemapsIndex": false,
+      "type": "sitemap",
+      "lastDownloaded": "2026-09-15T17:18:26.454Z",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "258",
+          "indexed": "0"
+        }
+      ]
+    }
+  },
+  "indexnow": {
+    "status": 200,
+    "body": "",
+    "urls": [
+      "https://rutatramite.com/recursos",
+      "https://rutatramite.com/recursos/padron-municipal"
+    ]
+  }
+}

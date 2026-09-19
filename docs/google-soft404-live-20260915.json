@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://visionsetil.com/enciclopedia/exidia-glandulosa",
+    "status": 200,
+    "final_url": "https://visionsetil.com/enciclopedia/exidia-glandulosa",
+    "checked_at": "2026-09-15T17:05:38.924867+00:00",
+    "title": [
+      "Exidia glandulosa: hongo gelatinoso de madera | VisionSetil"
+    ],
+    "h1": [
+      "Exidia glandulosa: hongo gelatinoso sobre madera"
+    ],
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://visionsetil.com/enciclopedia/exidia-glandulosa\">"
+    ],
+    "robots": [
+      "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">"
+    ],
+    "html_bytes": 15807,
+    "x_robots_tag": null
+  },
+  {
+    "url": "https://visionsetil.com/mapa?lang=eu",
+    "status": 200,
+    "final_url": "https://visionsetil.com/mapa",
+    "checked_at": "2026-09-15T17:05:39.236324+00:00",
+    "title": [
+      "Mapa de setas en España — estudio | VisionSetil"
+    ],
+    "h1": [
+      "Mapa de setas en España (estudio, no setales)"
+    ],
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://visionsetil.com/mapa\">"
+    ],
+    "robots": [
+      "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">"
+    ],
+    "html_bytes": 20998,
+    "x_robots_tag": null
+  }
+]

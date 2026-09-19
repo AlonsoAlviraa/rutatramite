@@ -4,10 +4,9 @@ import { JsonLd } from "@/components/empadronamiento/JsonLd";
 import { Wizard } from "@/components/empadronamiento/Wizard";
 import { PackCard } from "@/components/ui/PackCard";
 import { PageShell } from "@/components/ui/PageShell";
-import { GeoLead } from "@/components/ui/GeoLead";
 import { buildPilarModel } from "@/lib/pilar/content";
 import type { MunicipioIndexEntry } from "@/lib/types";
-import { LAST_VERIFIED } from "@/lib/tramites/facts";
+import { allCcaaHubs } from "@/lib/geo/territories";
 
 export function PilarArticle({
   index,
@@ -17,7 +16,7 @@ export function PilarArticle({
   includeWizard?: boolean;
 }) {
   const model = buildPilarModel();
-  const ccaa = Array.from(new Map(index.map((m) => [m.ccaa_slug, m.ccaa_name])).entries());
+  const ccaa = allCcaaHubs().map(c => [c.slug, c.name]);
   const jsonld = [
     {
       "@context": "https://schema.org",
@@ -57,14 +56,14 @@ export function PilarArticle({
       />
       <h1 className="mt-2 font-display text-4xl text-mossDark">{model.h1}</h1>
       <p className="mt-2 text-sm text-ink/70">
-        Actualizado <time dateTime={LAST_VERIFIED}>{LAST_VERIFIED}</time>
+        Edición editorial <time dateTime={model.editedAt}>{model.editedAt}</time>
       </p>
-      <GeoLead>{model.lead}</GeoLead>
+      <p className="mt-4 text-lg leading-relaxed">{model.lead}</p>
 
       {includeWizard ? (
         <section className="wizard-panel mt-8" data-wizard-embed="">
           <h2 className="font-display text-2xl">Asistente: qué caso soy y en qué municipio</h2>
-          <Wizard />
+          <Wizard index={index} />
         </section>
       ) : (
         <section className="mt-8" data-wizard-embed="">
@@ -77,12 +76,12 @@ export function PilarArticle({
         <section key={section.id} id={section.id} className="mt-10 space-y-4">
           <h2 className="font-display text-2xl text-mossDark">{section.title}</h2>
           {section.paragraphs.map((p, i) => (
-            <p key={i} className="leading-relaxed">
+            <p key={i} className="[overflow-wrap:anywhere] leading-relaxed">
               {p}
             </p>
           ))}
           {section.tables?.map((t, ti) => (
-            <div key={ti} className="rt-table-wrap">
+            <div key={ti} className="rt-table-wrap" role="region" aria-label={`${section.title}: tabla ${ti + 1}`} tabIndex={0}>
               <table className="rt-table">
                 <thead>
                   <tr>
@@ -103,6 +102,7 @@ export function PilarArticle({
               </table>
             </div>
           ))}
+          {section.links && <ul className="space-y-3">{section.links.map(link => <li key={link.href}><a className="underline underline-offset-4" href={link.href}>{link.label}</a></li>)}</ul>}
           {section.lists?.map((list, li) => (
             <ul key={li} className="list-disc space-y-1 pl-5">
               {list.map((item) => (

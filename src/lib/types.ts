@@ -40,6 +40,10 @@ export type Municipio = {
   tasa_certificado: number | null;
   docs_extra: string[];
   peculiaridades: string[];
+  procedure_docs?: Partial<Record<Tramite, string[]>>;
+  evidence?: Record<string, { source_url: string; checked_at: string }>;
+  review_note?: string;
+  reviewed_on?: string;
   idiomas_sede: string[];
   last_verified: string;
   source_urls: string[];
@@ -71,6 +75,10 @@ export type MunicipioIndexEntry = {
   cita_url: string | null;
   /** Copied onto the client index so the wizard checklist can use local extras without loading the full JSON. */
   docs_extra: string[];
+  local_verified?: boolean;
+  procedure_docs?: Partial<Record<Tramite, string[]>>;
+  certificado_url?: string | null;
+  tramite_alta_url?: string | null;
 };
 
 export type Housing =

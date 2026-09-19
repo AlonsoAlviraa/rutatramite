@@ -49,7 +49,7 @@ export const FP_GUIDES: Guide[] = [
         id: "beca",
         title: "La beca no espera al despiste",
         paragraphs: [
-          "Si consigues plaza en septiembre, revisa inmediatamente el estado de la beca MEC: la convocatoria general cerró en mayo, pero septiembre tiene ventanas concretas (modificación de datos del 7 al 28, ayudas de apoyo educativo y becas de colaboración). La guía de becas de esta web las ordena con sus plazos reales.",
+          "Si consigues plaza en septiembre, revisa inmediatamente el estado de la beca MEC: la convocatoria general cerró en mayo, pero la modificación de solicitudes presentadas tiene su ventana del 7 al 28 de septiembre; no permite una nueva solicitud de beca general. La guía de becas de esta web las ordena con sus plazos reales.",
         ],
       },
     ],

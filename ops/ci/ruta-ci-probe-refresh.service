@@ -1,0 +1,17 @@
+[Unit]
+Description=Refresh reviewed probe sources from current GitHub main
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/ruta-ci/config/probe_refresh.py --github
+TimeoutStartSec=180
+MemoryMax=256M
+CPUQuota=50%
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/opt/ruta-ci/probe-sources /run/lock
+UMask=0022

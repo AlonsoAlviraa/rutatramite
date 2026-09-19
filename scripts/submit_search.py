@@ -18,8 +18,8 @@ PUBLIC = ROOT / "public"
 ORIGIN = os.environ.get("SITE_ORIGIN", "https://rutatramite.com").rstrip("/")
 HOST = ORIGIN.replace("https://", "").replace("http://", "")
 INDEXNOW_KEY = "b7e4c91a0f3d28e65a1c47b90d2e8f36"
-GSC_TOKEN = Path.home() / ".grok" / "secrets" / "gsc" / "token.json"
-GSC_CLIENT = Path.home() / ".grok" / "secrets" / "gsc" / "client_secrets.json"
+GSC_TOKEN = Path(os.environ.get("GSC_TOKEN_PATH", str(Path.home() / ".grok" / "secrets" / "gsc" / "token.json")))
+GSC_CLIENT = Path(os.environ.get("GSC_CLIENT_PATH", str(Path.home() / ".grok" / "secrets" / "gsc" / "client_secrets.json")))
 GSC_SITE = f"{ORIGIN}/"
 
 
@@ -68,25 +68,6 @@ def ping_indexnow(urls: list[str]) -> None:
     for ep in endpoints:
         code, body = http_json(ep, payload)
         print(f"IndexNow {ep} -> {code} {body[:240].replace(chr(10), ' ')}")
-
-
-def ping_sitemap_get() -> None:
-    sitemap = f"{ORIGIN}/sitemap.xml"
-    gets = [
-        f"https://www.google.com/ping?sitemap={urllib.parse.quote(sitemap, safe='')}",
-        f"https://www.bing.com/ping?sitemap={urllib.parse.quote(sitemap, safe='')}",
-        f"https://webmaster.yandex.com/ping?sitemap={urllib.parse.quote(sitemap, safe='')}",
-    ]
-    for url in gets:
-        try:
-            req = urllib.request.Request(url, method="GET")
-            req.add_header("User-Agent", "RutaTramiteBot/0.1 indexing")
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                print(f"GET ping {url.split('?')[0]} -> {resp.status}")
-        except urllib.error.HTTPError as e:
-            print(f"GET ping {url.split('?')[0]} -> {e.code} {e.read()[:120]!r}")
-        except Exception as e:
-            print(f"GET ping {url.split('?')[0]} -> {e}")
 
 
 def gsc_refresh() -> str:
@@ -158,7 +139,6 @@ def main() -> int:
         print("no sitemap urls", file=sys.stderr)
         return 1
     ping_indexnow(urls)
-    ping_sitemap_get()
     try:
         access = gsc_refresh()
         gsc_submit(access)

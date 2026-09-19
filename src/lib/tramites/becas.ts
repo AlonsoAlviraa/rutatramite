@@ -1,3 +1,4 @@
+import { AID_SOURCES } from "@/lib/ayudas";
 import {
   BECAS_URL,
   DISCLAIMER_GENERICO,
@@ -20,7 +21,8 @@ const relMec = [
 export const BECAS_GUIDES: Guide[] = [
   {
     id: "mec-hub",
-    sources: [{ label: "BOE: prórroga del plazo de solicitud 2026-27", href: "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-16327" }],
+    reviewedAt: "2026-09-14",
+    sources: [AID_SOURCES.ministry, { label: "BOE: prórroga del plazo de solicitud 2026-27", href: "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-16327" }],
     pack: "becas",
     path: "/becas/mec",
     h1: "Beca MEC 2026-27: guía completa del trámite",
@@ -29,7 +31,7 @@ export const BECAS_GUIDES: Guide[] = [
       "Beca MEC 2026-27: solicitud cerrada el 19 de mayo, modificación en septiembre y consulta del estado. Enlaces oficiales para seguir tu expediente.",
     lead: `La beca MEC 2026-27 se solicitó en la sede electrónica del Ministerio de Educación entre el ${MEC_PLAZO_2627}. El plazo está cerrado: ahora toca modificar datos, subsanar, resolver y cobrar. Te explicamos cada fase con enlaces oficiales.`,
     cta: { href: BECAS_URL, label: "Portal oficial de becas" },
-    related: relMec,
+    related: [...relMec, { href: "/ayudas", label: "Calendario de ayudas" }, { href: "/becas/ayudas-estudiantes", label: "Ayudas para estudiantes" }],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
       {
@@ -50,14 +52,15 @@ export const BECAS_GUIDES: Guide[] = [
         id: "si-llegaste-tarde",
         title: "Si llegaste tarde en mayo",
         paragraphs: [
-          `La modificación de septiembre no sustituye la solicitud inicial. Puedes consultar las ayudas de apoyo educativo ACNEAE (hasta el ${MEC_ACNEAE_HASTA}), las becas de colaboración (hasta el ${MEC_COLABORACION_HASTA}) y otras convocatorias autonómicas o municipales. Cada una tiene requisitos propios; no todas sirven para los mismos estudios o situaciones.`,
+          `La modificación de septiembre no sustituye la solicitud inicial. Las ayudas de apoyo educativo ACNEAE también cerraron el ${MEC_ACNEAE_HASTA}. Las becas de colaboración tienen como fecha límite el ${MEC_COLABORACION_HASTA}; consulta su convocatoria y las ayudas autonómicas o municipales que correspondan a tu caso. Cada una tiene requisitos propios; no todas sirven para los mismos estudios o situaciones.`,
         ],
       },
     ],
   },
   {
     id: "mec-plazo",
-    sources: [{ label: "BOE: prórroga del plazo hasta el 19 de mayo", href: "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-16327" }],
+    reviewedAt: "2026-09-14",
+    sources: [AID_SOURCES.ministry, { label: "BOE: prórroga del plazo hasta el 19 de mayo", href: "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-16327" }],
     pack: "becas",
     path: "/becas/mec/plazo",
     h1: "Plazo de la beca MEC 2026-27: qué está abierto ahora",
@@ -66,14 +69,14 @@ export const BECAS_GUIDES: Guide[] = [
       "Solicitud MEC 2026-27 cerrada el 19 de mayo a las 15:00. Modificación del 7 al 28 de septiembre para solicitudes presentadas. Otras ayudas y sus plazos.",
     lead: `El plazo de solicitud de la beca MEC 2026-27 fue del ${MEC_PLAZO_2627}, con cierre a las 15:00, hora peninsular, tras la prórroga publicada en el BOE. La modificación de septiembre corresponde a solicitudes ya presentadas. Si no la solicitaste, consulta otras convocatorias disponibles.`,
     cta: { href: BECAS_URL, label: "Portal oficial de becas" },
-    related: relMec,
+    related: [...relMec, { href: "/ayudas", label: "Calendario de ayudas" }, { href: "/becas/ayudas-estudiantes", label: "Ayudas para estudiantes" }],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
       {
         id: "abierto",
-        title: "Lo que está abierto en estas fechas",
+        title: "Calendario de septiembre y octubre de 2026",
         paragraphs: [
-          `Modificación de datos: del ${MEC_MODIFICACION_VENTANA} (universidad, titulación, domicilio, cuenta). Ayudas de apoyo educativo ACNEAE: hasta el ${MEC_ACNEAE_HASTA}. Becas de colaboración: hasta el ${MEC_COLABORACION_HASTA}. Ayudas al estudio de MUFACE: hasta el ${MUFACE_HASTA}. Y varias autonómicas y municipales con calendario propio (la guía de becas autonómicas las sigue).`,
+          `Modificación de datos: del ${MEC_MODIFICACION_VENTANA} (universidad, titulación, domicilio, cuenta). Ayudas de apoyo educativo ACNEAE: solicitud cerrada el ${MEC_ACNEAE_HASTA}. Becas de colaboración: hasta el ${MEC_COLABORACION_HASTA}. Ayudas al estudio de MUFACE: hasta el ${MUFACE_HASTA}. Las autonómicas y municipales tienen calendario propio; comprueba cada convocatoria.`,
         ],
       },
       {
@@ -87,22 +90,24 @@ export const BECAS_GUIDES: Guide[] = [
   },
   {
     id: "mec-modificar",
+    sources: [AID_SOURCES.ministry],
+    reviewedAt: "2026-09-14",
     pack: "becas",
     path: "/becas/mec/modificar-datos",
     h1: "Modificar datos de la beca MEC (7-28 de septiembre)",
     title: "Modificar datos beca MEC: plazo del 7 al 28 de septiembre",
     description:
       "Universidad, titulación, domicilio o cuenta bancaria: el septiembre de la beca MEC tiene ventana propia del 7 al 28. Qué se puede cambiar y qué pasa fuera de plazo.",
-    lead: `Del ${MEC_MODIFICACION_VENTANA} puedes modificar tu solicitud de beca MEC 2026-27 en la sede electrónica del Ministerio: universidad, titulación, domicilio o cuenta bancaria. Es gratuito y no necesita intermediarios. Fuera de plazo, tendrás que dirigirte a tu Unidad de Becas.`,
-    cta: { href: BECAS_URL, label: "Sede electrónica del Ministerio" },
-    related: relMec,
+    lead: `Del ${MEC_MODIFICACION_VENTANA}, con apertura a las 08:00 del día 7 y cierre a las 15:00 del día 28 (hora peninsular), puedes modificar tu solicitud de beca MEC 2026-27 en la sede electrónica del Ministerio: universidad, titulación, domicilio o cuenta bancaria. Es gratuito y no necesita intermediarios. Fuera de plazo, tendrás que dirigirte a tu Unidad de Becas.`,
+    cta: { href: AID_SOURCES.ministry.href, label: "Instrucciones oficiales para modificar datos" },
+    related: [...relMec, { href: "/ayudas", label: "Calendario de ayudas" }, { href: "/becas/ayudas-estudiantes", label: "Ayudas para estudiantes" }],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
       {
         id: "que-cambia",
         title: "Qué se puede cambiar (y qué no)",
         paragraphs: [
-          "Sí: centro y titulación (el cambio típico tras la adjudicación de plaza en septiembre), domicilio, cuenta de cobro y datos académicos de la solicitud. No: los datos económicos de la unidad familiar del ejercicio cerrado (los contrasta la Agencia Tributaria) ni la convocatoria en sí. Si cambiaste de estudios, recuerda que la convocatoria exige matricular créditos adicionales a los que te falten: la modificación debe reflejar tu matrícula real.",
+          "El aviso ministerial permite actualizar datos académicos, estudios y cuenta corriente, y también aportar documentación o presentar alegaciones. Si discrepas de la información económica, sigue las instrucciones de tu notificación para alegar; no confundas un dato contrastado por la Administración con la imposibilidad de reclamar un error.",
         ],
       },
       {
@@ -384,7 +389,7 @@ export const BECAS_GUIDES: Guide[] = [
     lead:
       "Sí: la beca MEC es compatible con la beca Erasmus y con las becas de colaboración, lo dice el propio FAQ del Ministerio. Los matices que se te pueden torcer: los créditos reconocidos en destino no computan como matriculados y el rendimiento se acaba evaluando; si tu estancia es de curso completo, puedes reclamar el componente de residencia.",
     cta: { href: BECAS_URL, label: "FAQ oficial de becas" },
-    related: relMec,
+    related: [...relMec, { href: "/ayudas", label: "Calendario de ayudas" }, { href: "/becas/ayudas-estudiantes", label: "Ayudas para estudiantes" }],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
       {
@@ -404,32 +409,19 @@ export const BECAS_GUIDES: Guide[] = [
     ],
   },
   {
-    id: "colaboracion",
-    pack: "becas",
-    path: "/becas/colaboracion",
-    h1: "Becas de colaboración 2026: plazo hasta el 22 de septiembre",
-    title: "Becas de colaboración 2026: plazo hasta el 22 de septiembre",
-    description:
-      "2.000 euros colaborando en un departamento universitario: 2.111 plazas, nota de corte por rama (7,25 a 8,00) y cierre el 22 de septiembre de 2026. Requisitos y proyecto, paso a paso.",
-    lead: `Las becas de colaboración del Ministerio se piden este curso hasta el ${MEC_COLABORACION_HASTA} a las 15:00: 2.111 plazas de 2.000 euros por colaborar en un departamento. Requisitos duros: estar en último curso, tener el 75 por cien superado y nota mínima por rama. Compatible con la beca MEC.`,
-    cta: { href: BECAS_URL, label: "Solicitar (sede electrónica)" },
-    related: [{ href: "/becas/mec", label: "Beca MEC" }],
+    id: "colaboracion", reviewedAt: "2026-09-14", pack: "becas", path: "/becas/colaboracion",
+    h1: "Becas de colaboración 2026-27: requisitos y plazo",
+    title: "Becas de colaboración 2026-27: solicitud y requisitos",
+    description: "Becas de colaboración de 2.000 € para último curso de grado o primero de máster. Plazo hasta el 22 de septiembre de 2026 y proyecto de departamento.",
+    lead: "La convocatoria 2026-27 ofrece 2.111 becas de 2.000 € para colaboración en departamentos universitarios. La solicitud finaliza el 22 de septiembre a las 15:00, hora peninsular. Se dirige a último curso de grado o primero de máster oficial, con requisitos distintos según los estudios.",
+    cta: { ...AID_SOURCES.collaboration, label: "Consultar convocatoria y solicitud oficial" },
+    sources: [AID_SOURCES.collaboration],
+    related: [{ href: "/ayudas", label: "Calendario de ayudas" }, { href: "/becas/mec", label: "Beca general" }],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
-      {
-        id: "requisitos",
-        title: "Los requisitos que filtran",
-        paragraphs: [
-          "Estar matriculado de todo lo que te falta para terminar el grado o máster en el curso de la beca, tener superado al menos el 75 por cien de créditos y la nota media mínima por rama: 7,25 en Ingeniería y Arquitectura, 7,70 en Ciencias y Sociales-Jurídicas, 7,80 en Salud, 8,00 en Artes y Humanidades. La solicitud es 100 por cien telemática y necesita un proyecto avalado y puntuado por el departamento: sin profesor que avale, no hay beca.",
-        ],
-      },
-      {
-        id: "practica",
-        title: "Cómo se monta el proyecto",
-        paragraphs: [
-          "Habla en julio o principios de septiembre con el departamento (o centro del Ministerio) donde quieras colaborar: ellos rellenan la plantilla de proyecto que subes con la solicitud. Cuanto más concreto el proyecto y más puntúe el departamento, mejor posición en el baremo. La beca se disfruta durante el curso académico y el importe son 2.000 euros.",
-        ],
-      },
+      { id: "requisitos", title: "Comprueba los requisitos de grado o máster", paragraphs: ["No apliques al máster las condiciones de créditos del grado. Abre el apartado de requisitos de la convocatoria y localiza tu modalidad; comprueba matrícula, rendimiento académico y las condiciones sobre titulaciones previas."] },
+      { id: "proyecto", title: "Prepara el proyecto con el departamento", paragraphs: ["La solicitud incluye una plantilla con el proyecto, que evalúa el departamento. Descárgala desde la convocatoria y comprueba que está cumplimentada antes de adjuntarla."], lists: [["Contacta con el departamento con tiempo para acordar el proyecto.", "Revisa que todos los archivos se abran y sean legibles.", "Completa el registro y conserva el justificante de presentación."]] },
+      { id: "seguimiento", title: "Después del registro", paragraphs: ["Guarda una copia del proyecto que presentaste y revisa las notificaciones de la sede. El número de registro acredita la presentación, pero no equivale a una concesión. Si recibes un requerimiento, responde a lo que pide tu expediente dentro del plazo indicado."] },
     ],
   },
   {

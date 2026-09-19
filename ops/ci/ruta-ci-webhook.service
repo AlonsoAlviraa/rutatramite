@@ -1,0 +1,21 @@
+[Unit]
+Description=Signed GitHub event ingestion for Jenkins
+After=network-online.target docker.service
+
+[Service]
+User=ubuntu
+WorkingDirectory=/opt/ruta-ci/config
+ExecStart=/usr/bin/python3 /opt/ruta-ci/config/webhook.py
+Restart=always
+RestartSec=10
+MemoryMax=128M
+CPUQuota=25%
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/opt/ruta-ci
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

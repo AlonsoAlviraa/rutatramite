@@ -9,7 +9,7 @@ target=Path(tempfile.mkdtemp(prefix='rutatramite-source-'))/'source.tar.gz'
 roots=['src','data','content','public','messages','tests','scripts',
        'pack/rutatramite-empadronamiento-agent-pack/05_content/escenarios']
 files=['package.json','package-lock.json','next.config.ts','tailwind.config.ts',
-       'postcss.config.mjs','tsconfig.json','next-env.d.ts','vitest.config.ts']
+       'postcss.config.mjs','tsconfig.json','next-env.d.ts','vitest.config.ts','playwright.config.ts']
 def include(info):
     if any(part in ('__pycache__','_drafts') for part in Path(info.name).parts): return None
     return info

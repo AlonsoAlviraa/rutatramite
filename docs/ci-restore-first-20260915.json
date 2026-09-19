@@ -1,0 +1,32 @@
+{
+  "status": "failed",
+  "backup": "20260915T033001Z.tar.gz",
+  "metadata_sha256": "d02d11178fa0e0f16dccbb295aba5cdc07c4523428d97bafb75909a2af25efbe",
+  "recovery_sha256": "101d96bea1979ed0a9e22e9ab25d590a7dc4b08c70fc2412b7cf17d0f4a5952f",
+  "container_name": "ruta-ci-restore-20260915t182231z-dfa651f7",
+  "started_at": "20260915T182231Z-dfa651f7",
+  "scope": "Controller boot, restored jobs/plugins/account and key decryption. Saved builds/queue/agents quarantined in test copy; execution resumption is not tested.",
+  "image": "sha256:0ea8a0b3bac7e20e0184d1ecea0732d44a2bf30798dc716ee56d715d9398b7e4",
+  "expected_jobs": [
+    "ci-acceptance",
+    "rutatramite-full",
+    "rutatramite-pr",
+    "rutatramite-publish",
+    "rutatramite-rollback",
+    "visionsetil-android",
+    "visionsetil-caddy",
+    "visionsetil-full",
+    "visionsetil-journeys",
+    "visionsetil-operational",
+    "visionsetil-pr",
+    "visionsetil-publish",
+    "visionsetil-rollback",
+    "visionsetil-species"
+  ],
+  "container_id": "57c49f6f3ecf7f51389248706a6d637b40b3815fb2a5f34458f3012e585a2a33",
+  "error": "AssertionError: ",
+  "log": "/opt/ruta-ci/receipts/restore-20260915T182231Z-dfa651f7.log",
+  "stopped": true,
+  "container_removed": true,
+  "finished_at": "2026-09-15T18:23:05.150913+00:00"
+}

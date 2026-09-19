@@ -1,0 +1,290 @@
+{
+  "reviewed_at": "2026-09-14",
+  "files": {
+    "mad-hoja-padronal.pdf": {
+      "sha256": "1fcc56f90bfaa18abe3c76f1eac5362a3064a3dd2cffb3062b55a61fd8fdcb2d",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [
+        "/empadronarse/cita-previa-madrid"
+      ],
+      "purpose": "Hoja del Ayuntamiento de Madrid para alta o cambio de domicilio. Comprueba en la segunda página las instrucciones y los documentos que corresponden a tu caso. Solo sirve para el municipio de Madrid."
+    },
+    "cm-hoja-padronal.pdf": {
+      "sha256": "a0a23d1c9b0dd4c6d60373ee1d747304d15315db2def3252d9c3ea48308f6cd4",
+      "publish": false,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [],
+      "title": "Guía informativa antigua sobre el padrón (Comunidad de Madrid)",
+      "purpose": "Es un folleto informativo, no una hoja de solicitud municipal. Se conserva para revisión histórica y no se ofrece como formulario vigente."
+    },
+    "mad-autorizacion-empadronamiento.pdf": {
+      "sha256": "e7fba9e5f5a67f24a73dd6ae4ce29ce634254e6d6e219810864a818cf7c2d9bc",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [
+        "/empadronarse/cita-previa-madrid"
+      ],
+      "title": "Madrid: autorización para presentar la solicitud de empadronamiento",
+      "purpose": "Permite autorizar a otra persona a realizar las gestiones que se marquen. Identifica a quien autoriza y a su representante, marca el alcance y firma. No sustituye la acreditación del uso de la vivienda ni es una autorización genérica del propietario."
+    },
+    "ex00-estancia.pdf": {
+      "sha256": "dc2837160d9c7f9852ba96b77685d05ade830ad99a41e324a913aba1e8c4c95a",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [],
+      "title": "Modelo EX-00 — Autorización de estancia de larga duración"
+    },
+    "ex02-reagrupacion.pdf": {
+      "sha256": "699977b07aefa1852b1a280f6adba7b550e2ddc2d3525b48cdd0cab8df323795",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex04-practicas.pdf": {
+      "sha256": "ee68e581b245ce1ba20e039c0890a90d25d400aa4c6184d17e068bc0edc10572",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex06-temporada.pdf": {
+      "sha256": "e40fd50c5d44cc017912d30f4c3ce9b00bd2daa958002d4cdf197d12eb869a06",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex07-cuenta-propia.pdf": {
+      "sha256": "c489bc5b659e51fa31576d5dbe8d65e40111ae4655a49da467f0dddc9c4f7320",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex09-excepcion-trabajo.pdf": {
+      "sha256": "fb9239aa423bfc68ad0c893271d3505080f81b858dc8c7bbfcb856e3a51a9a25",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [],
+      "title": "Modelo EX-09 — Residencia temporal con excepción de la autorización de trabajo"
+    },
+    "ex10-circunstancias-excepcionales.pdf": {
+      "sha256": "b690598b328909bd8352e6e4fcb29df24779e3062d3c8d645b5376e909911550",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex11-larga-duracion.pdf": {
+      "sha256": "8cd2f96a3bdce21cc5f5a3c676f62ac0d49c922dde88e34e4d8ee21678e5cb0b",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex13-autorizacion-regreso.pdf": {
+      "sha256": "9cbec61d2c037b8a8193f866cac41d38c4de1a58fd3a105ecd252df5ed2853e6",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [
+        "/extranjeria/autorizacion-regreso",
+        "/extranjeria/autorizacion-regreso-ex13",
+        "/extranjeria/autorizacion-regreso-navidad"
+      ],
+      "purpose": "Solicitud de autorización de regreso. Completa los datos personales, la representación si existe y el domicilio de notificaciones; marca el supuesto de la segunda página que corresponda a tu situación y consulta las instrucciones antes de firmar."
+    },
+    "ex15-nie-certificados.pdf": {
+      "sha256": "2defc88df4530464a4dd24e4cad394dff952f60764eb395db95af7fe29d35ed2",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [
+        "/extranjeria/nie",
+        "/extranjeria/nie-vs-nif"
+      ],
+      "purpose": "Permite solicitar un número de identidad de extranjero o los certificados de residencia/no residencia que identifica el impreso. En la segunda página distingue el documento solicitado y explica el motivo. No es la solicitud del certificado digital ni de la tarjeta TIE."
+    },
+    "ex16-cedula-inscripcion-titulo-viaje.pdf": {
+      "sha256": "3f98b95be0655b22c4bd0727a00f73c66017fae55bf80c826ffea07f9bb6a8ff",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex17-tie.pdf": {
+      "sha256": "968e47b0429ae7c93bbba4a2cf6316704d623c4fae14d355efbb0288b327530a",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [
+        "/extranjeria/cita-huellas-tie",
+        "/extranjeria/huellas-que-llevar"
+      ],
+      "purpose": "Solicitud de tarjeta de identidad de extranjero. Revisa el tipo de tarjeta, los datos personales y las instrucciones. El propio impreso exige presentación personal ante la unidad competente de Policía Nacional; no lo presentes por un registro público genérico."
+    },
+    "ex18-registro-ue.pdf": {
+      "sha256": "c4825d1f1289039fb1f6fbdc7ec67d81066aaba758bb3274ce12e94b714776fb",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [
+        "/extranjeria/nie-verde",
+        "/extranjeria/certificado-registro-ue"
+      ],
+      "purpose": "Solicitud de inscripción en el Registro Central de Extranjeros para residencia de ciudadano de la UE. Revisa el supuesto de inscripción y las instrucciones del documento. La tarjeta de familiar de ciudadano de la UE corresponde a otro modelo."
+    },
+    "ex19-tarjeta-familiar-ue.pdf": {
+      "sha256": "233fe7d753723a65ef2ee1d3eceb98f2bdb81e5dd86be8e81c061f157ceebae7",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex20-uk-art50.pdf": {
+      "sha256": "da510793db4785a875dd2d23ad275826dc593b179e621c93ed73a180ed2257be",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex21-uk-familiares.pdf": {
+      "sha256": "05a47b0ee57526da64fbce7bafdb1faa79c280a7fdfd3f71d99456fa7b4cd0f0",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex22-uk-fronterizo.pdf": {
+      "sha256": "126caea6e416d2f4923238e9523439f0e4d6192f1d37af8f8fb2f87528d55289",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex23-uk-tarjeta-retirada.pdf": {
+      "sha256": "68f75fc0eeaf8d95cc0e933df011e63fb18ec8fe1bb451956f5f08245a182ee5",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex24-familiares-espanoles.pdf": {
+      "sha256": "5fff7465f370dc46d61f9b8fa9318ec2413be0c112422800ceac8877a09b05cb",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex25-menores-desplazamiento.pdf": {
+      "sha256": "a6dd6ebbade2fe43dc98aa726dd29b15d6caa5f498cf13410cd6a08e70a446ab",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex26-modificacion.pdf": {
+      "sha256": "46d145beb886fc0a80ec28556f41c20b595c77bcc914f52cbcf3c71c09990f00",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex28-dt2-rd1155-2024.pdf": {
+      "sha256": "b421dc71aaf62ae986f244dab5f8c145e1f4f056f01b2d8928b226c53705f511",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex29-prorroga-corta-duracion.pdf": {
+      "sha256": "129f544ca52a7cdbe4d0489c5d00b45598d8a14eef9fd61074cabdc22b40aa2a",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": []
+    },
+    "ex31-arraigo.pdf": {
+      "sha256": "6f9d906b535c29570fe787439603bd987e7a97baf50613a9a192ed19d3f5fe80",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [],
+      "title": "Modelo EX-31 — Disposición adicional 20ª: personas solicitantes de protección internacional",
+      "purpose": "Modelo específico de la disposición adicional vigésima que identifica su cabecera. No debe utilizarse como impreso genérico para cualquier arraigo. Comprueba el supuesto y las instrucciones oficiales antes de elegirlo."
+    },
+    "ex32-arraigo-extraordinario.pdf": {
+      "sha256": "163a42f459f6697189491f376ce9c6101df06770ad99f3135e145ec7a4d6c3e3",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [],
+      "title": "Modelo EX-32 — Disposición adicional 21ª: circunstancias excepcionales por arraigo",
+      "purpose": "Modelo específico de la disposición adicional vigesimoprimera que identifica su cabecera. La existencia del PDF no acredita un plazo abierto ni que se cumplan los requisitos."
+    },
+    "cnp-autorizacion-viaje-menores.pdf": {
+      "sha256": "ee56282513846bddbca83c81f0df6738a023a9cd5896aa5113ea9c6300289698",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [
+        "/autorizacion-viaje-menor"
+      ],
+      "purpose": "Declaración de permiso de viaje fuera de España de menores españoles residentes en España que viajan sin sus representantes legales. Revisa la guía policial adjunta; la comparecencia se cumplimenta en la dependencia policial."
+    },
+    "cnp-guia-permiso-viaje-menores.pdf": {
+      "sha256": "ffc5590e0105910340f134c40c5cf4b04c14f36436b9a333b370b02fca76f932",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "guia",
+      "related_guides": [
+        "/autorizacion-viaje-menor"
+      ],
+      "purpose": "Guía explicativa de la Policía Nacional: ámbito, comparecencia, datos y firma del permiso. Es documentación de apoyo, no el formulario de declaración."
+    },
+    "gc-permiso-viaje-menores.pdf": {
+      "sha256": "02e3fb687d73f476181f2b6909c774103a5460fb4799a7289d34f17d7ff92c04",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [
+        "/autorizacion-viaje-menor"
+      ],
+      "purpose": "Modelo de declaración de permiso de salida de menores ante Guardia Civil. Es una alternativa según el organismo ante el que se comparece; no se exige presentar también el modelo de Policía Nacional."
+    },
+    "aeat-modelo-030.pdf": {
+      "sha256": "c6a4b24d9ef3b8d2843fd5f726ec7dd0117546e695aacf92cc5b3ed67841261f",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [
+        "/hacienda/modelo-030",
+        "/modelo-030-cambio-domicilio"
+      ],
+      "purpose": "Modelo censal 030: identifica la causa de presentación y completa los apartados afectados. Conserva los ejemplares e instrucciones del archivo y consulta la AEAT para confirmar que este modelo corresponde a tu situación censal."
+    },
+    "justicia-modelo-solicitud-certificado-nacimiento.pdf": {
+      "sha256": "e79599db5cc74f01a8825104aeca19217f0d6217f574aacdf5cba610c0662138",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [],
+      "purpose": "Pide un certificado de un nacimiento ya inscrito. Identifica a la persona, el Registro Civil y la finalidad del certificado; revisa la forma de recogida. No es el impreso para inscribir por primera vez un nacimiento."
+    },
+    "justicia-solicitud-inscripcion-nacimiento-fuera-espana.pdf": {
+      "sha256": "94c91df8f1c0ec93d268aa500e3ae7a8b4d2ec96d559e866c069cc42ae7db436",
+      "publish": true,
+      "reviewed_at": "2026-09-14",
+      "kind": "formulario",
+      "related_guides": [],
+      "purpose": "Solicitud específica de inscripción de nacimiento de español ocurrido fuera de España. Comprueba la competencia del Registro Civil y la documentación de la segunda página. No es el formulario general para un nacimiento ocurrido en España."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "origin": "https://visionsetil.com",
+  "checked_at": "2026-09-15T18:41:55.566Z",
+  "require_identify_available": false,
+  "status": "degraded",
+  "checks": [
+    {
+      "name": "home",
+      "url": "https://visionsetil.com/",
+      "status": 200,
+      "duration_ms": 275,
+      "passed": true,
+      "severity": "error",
+      "detail": "Expected HTTP 200 with text/html."
+    },
+    {
+      "name": "web_manifest",
+      "url": "https://visionsetil.com/manifest.webmanifest",
+      "status": 200,
+      "duration_ms": 12,
+      "passed": true,
+      "severity": "error",
+      "detail": "Expected HTTP 200 with application/manifest+json."
+    },
+    {
+      "name": "api_health",
+      "url": "https://visionsetil.com/api/healthz",
+      "status": 200,
+      "duration_ms": 68,
+      "passed": true,
+      "severity": "error",
+      "detail": "Expected HTTP 200 and JSON status \"ok\"."
+    },
+    {
+      "name": "release_manifest",
+      "url": "https://visionsetil.com/RELEASE_MANIFEST.json",
+      "status": 200,
+      "duration_ms": 4,
+      "passed": true,
+      "severity": "error",
+      "detail": "Expected a clean, identifiable release with analytics configured.",
+      "git_sha": "4242986869d59b9abc6d218b6cfeaafea1a5ea13"
+    },
+    {
+      "name": "analytics_script",
+      "url": "https://visionsetil.com/umami.js",
+      "status": 200,
+      "duration_ms": 15,
+      "passed": true,
+      "severity": "error",
+      "detail": "Tracker download only; this does not prove event persistence."
+    },
+    {
+      "name": "api_readiness",
+      "url": "https://visionsetil.com/api/readyz",
+      "status": 200,
+      "duration_ms": 20,
+      "passed": false,
+      "severity": "warning",
+      "detail": "Identify is safely unavailable; this is a warning until a reviewed model release is expected.",
+      "ready": true,
+      "identify_available": false,
+      "degraded": true
+    }
+  ]
+}

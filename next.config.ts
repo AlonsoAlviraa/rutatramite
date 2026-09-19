@@ -16,12 +16,24 @@ const nextConfig: NextConfig = {
     staticGenerationMaxConcurrency: 4,
   },
   outputFileTracingRoot: path.join(__dirname),
+  async headers() {
+    return [{ source: "/pdf/:path*", headers: [
+      { key: "X-Robots-Tag", value: "noindex" },
+      { key: "X-Content-Type-Options", value: "nosniff" },
+    ] }];
+  },
   async redirects() {
     return [
       {
         source: "/:path*",
         has: [{ type: "host", value: "www.rutatramite.es" }],
-        destination: "https://rutatramite.es/:path*",
+        destination: "https://rutatramite.com/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "rutatramite.es" }],
+        destination: "https://rutatramite.com/:path*",
         permanent: true,
       },
       {

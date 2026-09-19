@@ -4,6 +4,7 @@ import {
   SEDE_AAPP_URL,
   TASA_DNI_LABEL,
   TASA_PASAPORTE_LABEL,
+  DOCUMENT_PAYMENT_NOTE,
 } from "@/lib/tramites/facts";
 import type { Guide } from "@/lib/tramites/types";
 
@@ -27,10 +28,11 @@ export const IDENTIDAD_NICHOS2_GUIDES: Guide[] = [
     title: "Consultar, cambiar o anular la cita del DNI",
     description:
       "Tienes cita pero no recuerdas el día, quieres moverla o cancelarla: dónde consultarla en citapreviadnie.es sin certificado y cómo recuperar el PDF de confirmación.",
-    lead: `La cita del DNI no se consulta por teléfono ni en la ventanilla de la comisaría: se gestiona en ${CITA_DNI_HOST}, en el apartado de gestión de citas. No hace falta certificado electrónico: con los datos con los que hiciste la reserva el sistema te localiza, y desde ahí puedes consultar tu cita, cambiarla y anularla en un par de minutos.`,
-    reviewedAt: "2026-09-07",
+    lead: `Consulta o anula tu cita de DNI y pasaporte en ${CITA_DNI_HOST}, utilizando los datos con los que la reservaste. Conserva el justificante y sigue las opciones que muestre el portal. La gestión de cita y el pago de la tasa del documento son operaciones distintas.`,
+    reviewedAt: "2026-09-14",
     sources: [
       { label: "Interior: cita previa del DNI y pasaporte", href: "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/dni/cita-previa/" },
+      { label: "BOE: pago telemático de las tasas de DNI y pasaporte", href: "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-1206" },
     ],
     cta: { href: CITA_DNI_URL, label: `Gestionar tu cita en ${CITA_DNI_HOST}` },
     related: [
@@ -43,7 +45,7 @@ export const IDENTIDAD_NICHOS2_GUIDES: Guide[] = [
         title: "Dónde se consulta (y qué hace falta)",
         paragraphs: [
           `Entra en citapreviadnie.es y busca el apartado de gestión de citas, que es distinto del formulario para pedir cita nueva. El sistema no te pide certificado digital ni Cl@ve: te identifica con los datos de la reserva, los del documento con el que pediste el hueco. Con eso el portal te muestra la cita que tienes asignada, con la oficina, el día y la hora.`,
-          "Si en su día reservaste DNI y pasaporte en la misma gestión, la consulta te los enseña juntos: las dos expediciones comparten expediente cuando se pidieron a la vez. Y si aparece más de una cita suelta de gestiones anteriores que no usaste, anula las que no valgan: agenda limpia, cabeza limpia.",
+          "Comprueba el documento o documentos incluidos en tu reserva, la oficina, la fecha y la hora. Si reservaste para varias personas, revisa también quiénes están incluidos. Guarda los justificantes que facilite el sistema.",
         ],
       },
       {
@@ -51,7 +53,7 @@ export const IDENTIDAD_NICHOS2_GUIDES: Guide[] = [
         title: "Anular: medio minuto que libera un hueco",
         paragraphs: [
           "Anular la cita evita que mantengas una reserva que ya no vas a utilizar. La ayuda oficial explica que debes entrar con los mismos datos de la reserva y usar su número de justificante. Conserva la confirmación de la anulación.",
-          "Cambiar de fecha es, en la práctica, anular y volver a pedir. El orden importa: el sistema no siempre te deja mantener dos citas activas para el mismo trámite, así que la secuencia segura es consultar la que tienes, reservar la nueva cuando veas hueco mejor y anular la vieja en cuanto la nueva esté confirmada. Nunca al revés, o te puedes quedar sin ninguna.",
+          "Para cambiar de fecha, utiliza las opciones que ofrezca la gestión de tu reserva. Antes de confirmar una anulación, lee sus efectos y comprueba la disponibilidad que muestra el portal. Esta guía no presupone que puedas mantener dos reservas simultáneas ni garantiza un hueco alternativo.",
         ],
       },
       {
@@ -59,15 +61,15 @@ export const IDENTIDAD_NICHOS2_GUIDES: Guide[] = [
         title: "Recuperar el PDF de confirmación",
         paragraphs: [
           "El justificante de la cita es un PDF con un código que el portal te muestra al terminar la reserva y que conviene llevar impreso o en el móvil. Si lo borraste, no pasa nada: la consulta de tu cita en el mismo apartado de gestión te permite volver a ver los datos y recuperar el PDF de confirmación para imprimirlo o guardarlo otra vez.",
-          "Ese PDF no es un documento de identidad ni un resguardo de expediente: es la carta de presentación de tu cita. Lo importante es lo que contiene: comisaría, fecha y hora. El día de la cita, el documento anterior y la foto corren de tu cuenta; la tasa, no: se paga al recoger.",
+          "El justificante identifica la reserva y no sustituye a tu documento de identidad ni a la documentación de expedición. Comprueba los requisitos de tu caso antes de acudir y conserva, si procede, el justificante del pago telemático.",
         ],
       },
       {
         id: "sinDatos",
         title: "Si perdiste todos los datos de la reserva",
         paragraphs: [
-          "Si no conservas ni el PDF ni el documento con el que reservaste y la consulta no te localiza, la salida práctica es pedir cita nueva desde cero: la anterior, al no usarse, caduca por sí sola cuando llegue su fecha y deja de ocupar agenda. Si el sistema te deja anularla antes, mejor; si ya no la encuentras, no te obsesiones buscando lo que el propio portal terminará descartando.",
-          `Y los importes de 2026, para que nadie te las pinte: la cita en sí es gratuita, la tasa del DNI son ${TASA_DNI_LABEL} y la del pasaporte ${TASA_PASAPORTE_LABEL}, y se abonan al recoger el documento, no al reservar el hueco. Nadie legítimo te va a pedir dinero por consultar, mover o anular una cita en citapreviadnie.es.`,
+          "Revisa las confirmaciones que conserves y utiliza la ayuda del portal oficial si los datos no permiten recuperar la reserva. Evita introducir tus documentos en páginas ajenas. Si ya no vas a acudir y consigues localizar la cita, utiliza su opción de anulación.",
+          `La tasa general del DNI es ${TASA_DNI_LABEL} y la del pasaporte ${TASA_PASAPORTE_LABEL}, salvo exención. ${DOCUMENT_PAYMENT_NOTE} Consulta la guía de tasas para distinguir el pago oficial de los cobros de intermediarios.`,
         ],
       },
     ],
@@ -116,7 +118,7 @@ export const IDENTIDAD_NICHOS2_GUIDES: Guide[] = [
         id: "pasaporte",
         title: "El plan del pasaporte, a tiempo",
         paragraphs: [
-          `Si tu pasaporte está caducado o anda justo de validez, la cita se pide en citapreviadnie.es, el único portal oficial: la cita es gratuita y la tasa del pasaporte es de ${TASA_PASAPORTE_LABEL} en 2026 (la del DNI, ${TASA_DNI_LABEL}, se abona igualmente al recoger; ninguna se paga al reservar). En temporada alta el hueco tarda en aparecer, así que no dejes la cita para la semana del vuelo.`,
+          `Si necesitas renovar el pasaporte, consulta la disponibilidad en citapreviadnie.es. La tasa ordinaria es ${TASA_PASAPORTE_LABEL}; la del DNI es ${TASA_DNI_LABEL}, salvo exención. ${DOCUMENT_PAYMENT_NOTE}`,
           "Puedes renovar en cualquier oficina de expedición del territorio nacional, no solo en tu provincia: ampliar municipios puede ayudarte a encontrar una fecha anterior. Si el viaje ya está encima, la guía del pasaporte urgente explica qué documentación presentar y cómo consultar la atención excepcional de cada unidad; un billete por sí solo no garantiza prioridad.",
         ],
       },
@@ -188,7 +190,7 @@ export const IDENTIDAD_NICHOS2_GUIDES: Guide[] = [
         title: "El certificado digital de la FNMT: una credencial, no una identidad",
         paragraphs: [
           "El tercer papel del cajón es el certificado digital de la FNMT. No lo expide extranjería y no dice nada de tu situación residencial: es una credencial que instalas en tu navegador o en un soporte físico para identificarte y firmar en internet (Hacienda, Seguridad Social, sedes electrónicas). No sustituye al NIE, al verde A4 ni a la TIE: puedes tener los tres y seguir necesitando enseñar el papel físico cuando te lo pidan en persona.",
-          "Si lo que necesitas es sacarlo usando tu NIE como documento de identificación, la guía paso a paso del certificado digital con NIE explica el circuito completo: configurar el navegador, solicitar el código, validarlo en una oficina de registro o por carta y descargarlo.",
+          "La guía del certificado digital con NIE explica la solicitud y la acreditación presencial de identidad ante una oficina admitida por la FNMT. El número NIE por sí solo no identifica a su titular; comprueba los documentos exigidos y las condiciones de la modalidad elegida.",
         ],
       },
       {
@@ -441,14 +443,16 @@ export const IDENTIDAD_NICHOS2_GUIDES: Guide[] = [
   },
   {
     id: "certificadoDigitalNie",
+    reviewedAt: "2026-09-14",
+    sources: [{ href: "https://www.sede.fnmt.gob.es/certificados/persona-fisica/obtener-certificado-software/acreditar-identidad", label: "FNMT: acreditación presencial y documentos para extranjeros" }, { href: "https://www.sede.fnmt.gob.es/certificados/persona-fisica", label: "FNMT: modalidades del certificado de persona física" }],
     pack: "extranjeria",
     path: "/extranjeria/certificado-digital-nie",
     h1: "Certificado digital con NIE: paso a paso",
     title: "Certificado digital con NIE: cómo sacarlo paso a paso",
     description:
-      "Cómo obtener el certificado digital de la FNMT con NIE: configurar el navegador, solicitar el código, validar en una oficina de registro (AEAT, por ejemplo) o por carta, y errores típicos.",
+      "Certificado FNMT con NIE: solicitud, acreditación presencial de identidad, documentos y descarga. Comprueba la modalidad y la oficina admitida.",
     lead:
-      "El certificado digital de la FNMT también se obtiene con NIE, y el circuito es el mismo que con DNI: solicitarlo en la sede de personas físicas, validar tu identidad en una oficina de registro (en una de la Agencia Tributaria, por ejemplo) o por carta, y luego descargarlo e instalarlo. La parte que hace tropezar es meter bien el NIE y el nombre. Vamos por pasos.",
+      "Esta guía explica la modalidad de certificado software FNMT con acreditación presencial para personas con NIE: prepara el equipo, solicita el código, acredita tu identidad en una oficina admitida y descarga el certificado. No se valida recibiendo una carta en casa. Comprueba en la FNMT la documentación y las condiciones de cualquier otra modalidad.",
     cta: { href: "https://www.sede.fnmt.gob.es/", label: "Sede electrónica de la FNMT" },
     related: [
       { href: "/extranjeria/nie", label: "NIE" },
@@ -475,9 +479,10 @@ export const IDENTIDAD_NICHOS2_GUIDES: Guide[] = [
       },
       {
         id: "validacion",
-        title: "Paso 3: validar la identidad, presencial o por carta",
+        title: "Paso 3: acreditar la identidad en una oficina admitida",
         paragraphs: [
-          "El certificado no se descarga hasta que la FNMT comprueba que eres tú, y hay dos vías. Presencial: con el código de solicitud y tu pasaporte o TIE, en una oficina de registro; una de la Agencia Tributaria, por ejemplo, o cualquiera de las admitidas que te resulte cercana. O por carta: pidiendo que el código de activación te llegue al domicilio. La presencial suele ser más rápida y evita sustos de correo perdido.",
+          "Lleva el código de solicitud y la documentación que indique la FNMT para tu nacionalidad: el documento que acredita tu NIE debe acompañarse del pasaporte en vigor o, para ciudadanos de la UE, del documento de identidad del país de origen admitido. Consulta la lista vigente y la cita previa de la oficina. El NIE o la TIE por sí solos no sustituyen esa comprobación.",
+          "La modalidad presencial no se realiza por carta ni en oficinas de Correos. Si no puedes acudir personalmente, la FNMT describe una vía con legitimación notarial de la firma; consulta sus condiciones antes de enviar a otra persona. Las modalidades por vídeo o aplicación tienen sus propios requisitos y no se presuponen disponibles para todos los documentos.",
           "Validada la identidad, vuelve a la sede de la FNMT con el mismo navegador y el mismo ordenador de la solicitud, teclea el código y descarga e instala el certificado. Exporta enseguida una copia de seguridad con contraseña a un USB o soporte propio: si el equipo se formatea sin copia, el certificado se pierde y toca empezar de cero.",
         ],
       },

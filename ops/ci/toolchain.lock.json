@@ -1,0 +1,21 @@
+{
+  "worker-image.log": [
+    "docker.io/library/node:20-bookworm-slim@sha256:2cf067cfed83d5ea958367df9f966191a942351a2df77d6f0193e162b5febfc0",
+    "docker.io/library/python:3.11.14-bookworm@sha256:7489d7e0542e9e5548fb1b0a8689ae7dfefc10bae31c21aa11f1046a2e5bc37f"
+  ],
+  "worker-node22.log": [
+    "docker.io/library/node:22-bookworm-slim@sha256:83f487e0a63425e5b4d146fb5e5be574bcbe1b7b843d3ebafdd95eaf7767a7e5",
+    "docker.io/library/python:3.11.14-bookworm@sha256:7489d7e0542e9e5548fb1b0a8689ae7dfefc10bae31c21aa11f1046a2e5bc37f"
+  ],
+  "android-image.log": [
+    "docker.io/library/eclipse-temurin:21-jdk@sha256:1f79c73404fb0cccf9a3459eda22892f368d994b1028d6fb1ae871c1f49749a6",
+    "docker.io/library/ruta-ci-node22:20260914@sha256:76be17036bd5ba8ada0657775c5ddc2bb5fc8e89b0f6279425684d2458ecdb8f"
+  ],
+  "controller-install.log": [
+    "docker.io/jenkins/jenkins:2.568.3-jdk21@sha256:c1e4c349365f6d16d88595b2c5f7e8ff39b8ae1d061f62420bac193b4b9616d0"
+  ],
+  "ruta-ci-node20:20260914": "sha256:f3b0c1eb8c9d3d3e18481b1a11319a1c5949584b387a40b27af51fe8f743e172",
+  "ruta-ci-node22:20260914": "sha256:76be17036bd5ba8ada0657775c5ddc2bb5fc8e89b0f6279425684d2458ecdb8f",
+  "ruta-ci-android:20260914": "sha256:7f061efe7e4f393c24887b58f875e844d2a4ebf3e2d0865cf5899d565ee6ae76",
+  "zricethezav/gitleaks:v8.30.1": "sha256:c00b6bd0aeb3071cbcb79009cb16a60dd9e0a7c60e2be9ab65d25e6bc8abbb7f"
+}

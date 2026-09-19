@@ -1,0 +1,8 @@
+[Unit]
+Description=Consistent Jenkins metadata backup with separate recovery keys
+After=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/ruta-ci/config/backup_controller.py
+UMask=0077

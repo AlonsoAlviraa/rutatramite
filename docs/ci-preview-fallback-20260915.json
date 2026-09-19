@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "repository": "rutatramite",
+  "sha": "48345696e934a0d23240ca97ca69a6a2b03a86f5",
+  "digest": "eae3660d0c7ddb419d4efde1785ba4e2e7894b5e1851612b5590bf74c874079c",
+  "target": "/opt/ruta-ci/previews/rutatramite/ci-20260915T181804Z-48345696e934",
+  "unit": "ruta-ci-preview-rutatramite-625432350362",
+  "at": "20260915T182852Z",
+  "base": "http://127.0.0.1:18190",
+  "checks": {
+    "scope": "Targeted fallback diagnosis only; not a new full artifact audit",
+    "requests": [
+      {
+        "path": "/",
+        "status": 200,
+        "bytes": 615768,
+        "new_fallback_messages": 0
+      },
+      {
+        "path": "/ci-preview-route-that-does-not-exist",
+        "status": 404,
+        "bytes": 20672,
+        "new_fallback_messages": 1
+      },
+      {
+        "path": "/ci-preview-route-that-does-not-exist",
+        "status": 404,
+        "bytes": 20672,
+        "new_fallback_messages": 1
+      },
+      {
+        "path": "/",
+        "status": 200,
+        "bytes": 615768,
+        "new_fallback_messages": 0
+      }
+    ],
+    "runtime_cache": {
+      "private_copy": true,
+      "regenerated_html": []
+    }
+  },
+  "service_log": "Sep 15 18:28:52 vps-79f9a09d systemd[1]: Starting ruta-ci-preview-rutatramite-625432350362.service - /usr/bin/python3 /opt/ruta-ci/config/preview_runtime.py /opt/ruta-ci/previews/rutatramite/ci-20260915T181804Z-48345696e934...\nSep 15 18:28:52 vps-79f9a09d systemd[1]: Started ruta-ci-preview-rutatramite-625432350362.service - /usr/bin/python3 /opt/ruta-ci/config/preview_runtime.py /opt/ruta-ci/previews/rutatramite/ci-20260915T181804Z-48345696e934.\nSep 15 18:28:55 vps-79f9a09d python3[2553003]:    \u25b2 Next.js 15.5.25\nSep 15 18:28:55 vps-79f9a09d python3[2553003]:    - Local:        http://127.0.0.1:18190\nSep 15 18:28:55 vps-79f9a09d python3[2553003]:    - Network:      http://127.0.0.1:18190\nSep 15 18:28:55 vps-79f9a09d python3[2553003]:  \u2713 Starting...\nSep 15 18:28:55 vps-79f9a09d python3[2553003]:  \u2713 Ready in 230ms\nSep 15 18:28:56 vps-79f9a09d python3[2553003]: (node:2553003) ExperimentalWarning: SQLite is an experimental feature and might change at any time\nSep 15 18:28:56 vps-79f9a09d python3[2553003]: (Use `node --trace-warnings ...` to show where the warning was created)\nSep 15 18:28:57 vps-79f9a09d python3[2553003]: Error: Internal: NoFallbackError\nSep 15 18:28:57 vps-79f9a09d python3[2553003]:     at n (.next/server/app/[slug]/page.js:2:1062)\nSep 15 18:28:57 vps-79f9a09d python3[2553003]:     at responseGenerator (.next/server/app/[slug]/page.js:2:1918)\nSep 15 18:28:57 vps-79f9a09d python3[2553003]: Error: Internal: NoFallbackError\nSep 15 18:28:57 vps-79f9a09d python3[2553003]:     at n (.next/server/app/[slug]/page.js:2:1062)\nSep 15 18:28:57 vps-79f9a09d python3[2553003]:     at responseGenerator (.next/server/app/[slug]/page.js:2:1918)\n",
+  "stopped": true,
+  "finished_at": "2026-09-15T18:28:58.949959+00:00",
+  "receipt": "/opt/ruta-ci/receipts/rutatramite/preview-20260915T182852Z-625432350362.json"
+}

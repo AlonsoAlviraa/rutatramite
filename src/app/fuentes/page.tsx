@@ -1,31 +1,40 @@
 import { PageShell } from "@/components/ui/PageShell";
+import { Breadcrumbs } from "@/components/empadronamiento/Breadcrumbs";
+import { AID_SOURCES } from "@/lib/ayudas";
 import { pageMetadata } from "@/lib/seo/meta";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Fuentes: BOE, INE y sedes municipales",
-  description: "BOE, INE y sedes municipales que usa RutaTrámite para la guía de empadronamiento en España.",
+  title: "Fuentes oficiales de padrón, becas, alquiler y salud",
+  description: "Dónde contrastar las guías de RutaTrámite: normas del BOE, INE, convocatorias de becas y alquiler, sedes municipales y sanidad autonómica.",
   path: "/fuentes",
 });
 
 const fuentes = [
   ["Ley 7/1985 (LBRL)", "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"],
-  ["Instrucciones técnicas INE 2015", "https://www.boe.es/buscar/doc.php?id=BOE-A-2015-3109"],
-  ["Resolución INE 17 febrero 2020", "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-4784"],
+  ["Instrucciones padronales INE 2020: texto consolidado con modificaciones", "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784"],
   ["Modelos padronales INE", "https://idapadron.ine.es/"],
   ["Relación de municipios INE", "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177031&idp=1254735976614&menu=ultiDatos"],
-  ["CodeForSpain organización administrativa", "https://github.com/codeforspain/ds-organizacion-administrativa"],
 ];
 
 export default function FuentesPage() {
   return (
     <PageShell as="article" className="space-y-4">
-      <h1 className="font-display text-4xl">Fuentes</h1>
+      <Breadcrumbs items={[{ name: "Inicio", path: "/" }, { name: "Fuentes", path: "/fuentes" }]} />
+      <h1 className="font-display text-4xl">Fuentes y cómo comprobar una guía</h1>
       <p>
         Cada guía enlaza las referencias que permiten ampliar y comprobar su contenido.
         Para conocer el canal de presentación, los documentos y los avisos actuales,
         consulta la sede del organismo responsable.
       </p>
+      <p className="text-sm">Directorio revisado el <time dateTime="2026-09-14">14 de septiembre de 2026</time>. La revisión de cada guía figura en su propia página.</p>
+      <h2 className="pt-4 text-2xl font-semibold">Qué fuente resuelve cada duda</h2>
+      <ul className="list-disc space-y-2 pl-5">
+        <li>Para saber qué establece una norma: consulta el BOE y revisa su versión y disposiciones aplicables.</li>
+        <li>Para saber dónde presentar, qué adjuntar o si hay un plazo abierto: consulta la ficha del organismo que tramita.</li>
+        <li>Para conocer el estado de tu solicitud: entra en el expediente oficial. Una noticia o guía no acredita tu concesión.</li>
+        <li>Para comprobar datos de un municipio: usa el INE. Esos datos no acreditan sus requisitos de padrón.</li>
+      </ul>
       <h2 className="pt-4 text-2xl font-semibold">Directorio municipal y padrón</h2>
       <ul className="list-disc space-y-2 pl-5">
         {fuentes.map(([label, href]) => (
@@ -37,15 +46,25 @@ export default function FuentesPage() {
         ))}
       </ul>
       <p>
-        Población de referencia: listado público a 1 de enero de 2025, a contrastar con la operación
-        vigente en ine.es. RD 1117/2025 (BOE-A-2025-25362) cuando aplique.
+        El directorio utiliza datos de referencia municipal; contrasta la fecha y las cifras en la operación del INE enlazada.
       </p>
       <p>
         Las fichas municipales muestran las fuentes disponibles. Un enlace al INE acredita
         datos del municipio, pero no confirma sus requisitos de empadronamiento. Las fichas
         pendientes de revisión local lo indican expresamente.
       </p>
-      <h2 className="pt-4 text-2xl font-semibold">Otros trámites</h2>
+      <h2 className="pt-4 text-2xl font-semibold">Becas y ayudas al alquiler</h2>
+      <p>El <a className="underline" href="/ayudas">calendario de ayudas</a> diferencia solicitud, modificación, cierre y normativa publicada. La aprobación de una norma no implica que exista una solicitud abierta en tu comunidad.</p>
+      <ul className="list-disc space-y-2 pl-5">
+        {Object.values(AID_SOURCES).map((source) => <li key={source.href}><a className="underline" href={source.href}>{source.label}</a></li>)}
+      </ul>
+      <h2 className="pt-4 text-2xl font-semibold">Alquiler y documentos sanitarios</h2>
+      <ul className="list-disc space-y-2 pl-5">
+        <li><a className="underline" href="https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003#a36">LAU, artículo 36: fianza y saldo pendiente</a>. Consulta también la normativa autonómica sobre depósitos.</li>
+        <li><a className="underline" href="https://www.saludcastillayleon.es/profesionales/es/vacunaciones/nuevo-calendario-vacunaciones-inmunizaciones-toda-vida-cast">Sacyl: calendario regional de 2026</a>. Para una pauta individual, consulta a tu profesional sanitario.</li>
+      </ul>
+      <h2 className="pt-4 text-2xl font-semibold">Datos auxiliares y otras guías</h2>
+      <p><a className="underline" href="https://github.com/codeforspain/ds-organizacion-administrativa">CodeForSpain</a> es una fuente auxiliar de organización territorial, no una Administración ni una sede de tramitación.</p>
       <p>
         Las referencias de DNI, becas, extranjería y los demás temas se encuentran en la
         sección «Fuentes y comprobación» de cada guía. Puedes consultar

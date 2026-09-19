@@ -1,0 +1,23 @@
+[Unit]
+Description=Jenkins agent for reviewed lightweight production probes
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=ruta-ci-probe
+Group=ruta-ci-probe
+WorkingDirectory=/opt/ruta-ci/probe
+ExecStart=/opt/ruta-ci/java/bin/java -Xmx128m -jar /opt/ruta-ci/probe/agent.jar -url https://ci.rutatramite.com/ -secret @/opt/ruta-ci/probe/agent.secret -name vps-probe -webSocket -workDir /opt/ruta-ci/probe
+Restart=always
+RestartSec=20
+MemoryMax=512M
+CPUQuota=50%
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/opt/ruta-ci/probe
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

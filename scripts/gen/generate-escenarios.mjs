@@ -14,6 +14,7 @@ import { execSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { BRIEFS, H2_SKELETON } from "./escenarios-briefs.mjs";
+import { REVIEWS, validateReviewed } from "./escenarios-revisados.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..", "..");
 const CONTENT_DIR = path.join(ROOT, "content", "escenarios");
@@ -271,6 +272,7 @@ function extractFaqAnswers(md) {
 }
 
 function validateDoc(brief, rawMd) {
+  if (REVIEWS[brief.slug]) return validateReviewed(brief.slug, rawMd);
   const md = rawMd.replace(/<!--[\s\S]*?-->/g, "").trim() + "\n";
   const errors = [];
   if (!md.startsWith(`# ${brief.h1}`)) errors.push(`El documento no empieza con el H1 literal «${brief.h1}»`);
@@ -437,12 +439,16 @@ async function main() {
       const md = fs.readFileSync(path.join(CONTENT_DIR, `${brief.slug}.md`), "utf8");
       const { errors, total } = validateDoc(brief, md);
       if (errors.length) throw new Error(`${brief.slug}:\n- ${errors.join("\n- ")}`);
-      console.log(`  ${brief.slug}: OK (${total} palabras, 15 respuestas)`);
+      console.log(`  ${brief.slug}: OK (${total} palabras, ${REVIEWS[brief.slug] ? "revisión manual" : "brief generado"})`);
     }
     console.log("\n--check: todo correcto.");
     return;
   }
   for (const brief of briefs) {
+    if (REVIEWS[brief.slug]) {
+      console.log(`  ${brief.slug}: revisión manual protegida; no se regenera.`);
+      continue;
+    }
     const result = await generateBrief(brief);
     // Persistencia incremental: cada pieza se escribe en cuanto converge
     const contentPath = path.join(CONTENT_DIR, `${brief.slug}.md`);

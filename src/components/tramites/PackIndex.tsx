@@ -1,9 +1,10 @@
 import { Breadcrumbs } from "@/components/empadronamiento/Breadcrumbs";
+import { AidCalendar } from "@/components/tramites/AidCalendar";
+import { DocumentFees } from "@/components/tramites/DocumentFees";
 import { Disclaimer } from "@/components/empadronamiento/Disclaimer";
 import { PackCard } from "@/components/ui/PackCard";
 import { PageShell } from "@/components/ui/PageShell";
 import { DirectorySearch } from "@/components/ui/DirectorySearch";
-import { GeoLead } from "@/components/ui/GeoLead";
 import { guidesByPack } from "@/lib/tramites/catalog";
 import { DISCLAIMER_GENERICO } from "@/lib/tramites/facts";
 import { PACK_INDEX_PATH, type GuidePack } from "@/lib/tramites/types";
@@ -41,6 +42,10 @@ const titles: Record<GuidePack, { h1: string; lead: string }> = {
     h1: "Becas: MEC, autonómicas y municipales",
     lead: "Guías sobre la beca MEC y ayudas autonómicas: solicitud, estado, cobro y devolución. Comprueba el curso y el plazo de cada convocatoria en su sede oficial.",
   },
+  alquiler: {
+    h1: "Ayudas al alquiler: Bono Joven y nuevas convocatorias",
+    lead: "Consulta las ayudas de vivienda según tu comunidad: requisitos, plazos y seguimiento. Diferencia el Bono Alquiler Joven del nuevo Plan Estatal de Vivienda 2026-2030.",
+  },
   modelos: {
     h1: "Modelos y cartas para copiar",
     lead: "Baja voluntaria, finiquito, padrón, alquiler y colegio: textos para entregar hoy. No somos Administración ni despacho. Adapta el modelo a tu convenio y a la sede oficial.",
@@ -65,7 +70,9 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
         ]}
       />
       <h1 className="mt-2 font-display text-4xl text-mossDark">{t.h1}</h1>
-      <GeoLead>{t.lead}</GeoLead>
+      <p className="mt-4 text-lg leading-relaxed">{t.lead}</p>
+      {pack === "viaje" && <DocumentFees passport={passport} />}
+      {(pack === "becas" || pack === "alquiler") && <><p className="mt-4"><a className="underline" href="/ayudas">Ver el calendario conjunto de becas y alquiler</a></p><AidCalendar category={pack} /></>}
       <DirectorySearch label="Buscar en esta categoría" placeholder="Escribe el trámite o documento" hint={`Busca entre las ${guides.length} guías de esta categoría.`} entries={guides.map((g) => ({ title: g.h1, href: g.path, category: t.h1 }))} />
       <div className="topic-directory" data-pack-grid="">
         {guides.map((g) => (
@@ -90,25 +97,6 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
           Las guías pueden describir convocatorias cerradas. Revisa el año académico y los avisos del organismo antes de presentar una solicitud.
         </p>
       ) : null}
-      <p className="mt-8 text-sm">
-        Otras categorías:{" "}
-        <a className="underline decoration-sand underline-offset-2" href="/empadronarse">
-          padrón
-        </a>
-        {" · "}
-        <a className="underline decoration-sand underline-offset-2" href="/dni">
-          DNI
-        </a>
-        {" · "}
-        <a className="underline decoration-sand underline-offset-2" href="/extranjeria">
-          extranjería
-        </a>
-        {" · "}
-        <a className="underline decoration-sand underline-offset-2" href="/modelos">
-          modelos
-        </a>
-        .
-      </p>
       <footer className="mt-12 border-t border-sand pt-6">
         <Disclaimer text={DISCLAIMER_GENERICO} />
       </footer>

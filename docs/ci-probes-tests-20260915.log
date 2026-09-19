@@ -1,0 +1,47 @@
+test_failed_health_restores_previous_symlink (test_activate.ActivationTests.test_failed_health_restores_previous_symlink) ... ok
+test_rejects_archive_path_escape (test_activate.ActivationTests.test_rejects_archive_path_escape) ... ok
+test_rejects_archive_symlink_escape (test_activate.ActivationTests.test_rejects_archive_symlink_escape) ... ok
+test_rejects_tampered_archive (test_activate.ActivationTests.test_rejects_tampered_archive) ... ok
+test_rejects_target_outside_tenant (test_activate.ActivationTests.test_rejects_target_outside_tenant) ... ok
+test_only_old_completed_run_is_removed (test_cleanup_runs.RetentionTests.test_only_old_completed_run_is_removed) ... ok
+test_duplicate_acknowledged_delivery_is_not_sent_again (test_dispatch.DeliveryTests.test_duplicate_acknowledged_delivery_is_not_sent_again) ... ok
+test_failed_reconciliation_preserves_pending_intent (test_dispatch.DeliveryTests.test_failed_reconciliation_preserves_pending_intent) ... ok
+test_legacy_ambiguous_delivery_is_recovered_without_inventing_pr (test_dispatch.DeliveryTests.test_legacy_ambiguous_delivery_is_recovered_without_inventing_pr) ... ok
+test_lost_controller_reply_is_reconciled_with_same_identity (test_dispatch.DeliveryTests.test_lost_controller_reply_is_reconciled_with_same_identity) ... ok
+test_out_of_order_first_delivery_is_rejected_using_current_github_head (test_dispatch.DeliveryTests.test_out_of_order_first_delivery_is_rejected_using_current_github_head) ... ok
+test_scopes_and_base_changes_have_distinct_delivery_identity (test_dispatch.DeliveryTests.test_scopes_and_base_changes_have_distinct_delivery_identity) ... ok
+test_failed_checks_stop_service_and_preserve_failure_receipt (test_preview.PreviewTests.test_failed_checks_stop_service_and_preserve_failure_receipt) ... ok
+test_preview_rejects_production_and_parent_directories (test_preview.PreviewTests.test_preview_rejects_production_and_parent_directories) ... ok
+test_redirects_do_not_validate_a_different_running_release (test_preview.PreviewTests.test_redirects_do_not_validate_a_different_running_release) ... ok
+test_runtime_cache_writes_do_not_change_verified_artifact (test_preview.PreviewTests.test_runtime_cache_writes_do_not_change_verified_artifact) ... ok
+test_server_uses_loopback_and_isolated_identity (test_preview.PreviewTests.test_server_uses_loopback_and_isolated_identity) ... ok
+test_sitemap_cannot_escape_to_public_site_or_another_origin (test_preview.PreviewTests.test_sitemap_cannot_escape_to_public_site_or_another_origin) ... ok
+test_static_preview_disables_caddy_admin_and_uses_candidate_root (test_preview.PreviewTests.test_static_preview_disables_caddy_admin_and_uses_candidate_root) ... ok
+test_archive_traversal_and_links_are_rejected (test_probe_sources.ProbeSourceTests.test_archive_traversal_and_links_are_rejected) ... ok
+test_changed_files_and_unlisted_files_fail_verification (test_probe_sources.ProbeSourceTests.test_changed_files_and_unlisted_files_fail_verification) ... ok
+test_new_model_inputs_require_explicit_scope_review (test_probe_sources.ProbeSourceTests.test_new_model_inputs_require_explicit_scope_review) ... ok
+test_requested_revision_must_match_the_pinned_bundle (test_probe_sources.ProbeSourceTests.test_requested_revision_must_match_the_pinned_bundle) ... ok
+test_stale_confirmation_cannot_produce_a_green_probe (test_probe_sources.ProbeSourceTests.test_stale_confirmation_cannot_produce_a_green_probe) ... ok
+test_switch_keeps_previous_generation_available_to_running_job (test_probe_sources.ProbeSourceTests.test_switch_keeps_previous_generation_available_to_running_job) ... ok
+test_tampered_contents_do_not_replace_current_generation (test_probe_sources.ProbeSourceTests.test_tampered_contents_do_not_replace_current_generation) ... ok
+test_accepts_exact_verified_package (test_release_gate.GateTests.test_accepts_exact_verified_package) ... ok
+test_rejects_jenkins_failure_even_when_receipt_claims_success (test_release_gate.GateTests.test_rejects_jenkins_failure_even_when_receipt_claims_success) ... ok
+test_rejects_missing_tests (test_release_gate.GateTests.test_rejects_missing_tests) ... ok
+test_rejects_modified_package (test_release_gate.GateTests.test_rejects_modified_package) ... ok
+test_rejects_old_revision (test_release_gate.GateTests.test_rejects_old_revision) ... ok
+test_rejects_pr_result (test_release_gate.GateTests.test_rejects_pr_result) ... ok
+test_backend_pr_keeps_security_and_backend (test_runner.RoutingTests.test_backend_pr_keeps_security_and_backend) ... ok
+test_full_release_always_includes_all_gates (test_runner.RoutingTests.test_full_release_always_includes_all_gates) ... ok
+test_german_change_checks_frontend_integration (test_runner.RoutingTests.test_german_change_checks_frontend_integration) ... ok
+test_missing_diff_fails_closed_to_full_coverage (test_runner.RoutingTests.test_missing_diff_fails_closed_to_full_coverage) ... ok
+test_rejects_branch_names_and_command_injection (test_runner.RoutingTests.test_rejects_branch_names_and_command_injection) ... ok
+test_shared_change_expands_checks (test_runner.RoutingTests.test_shared_change_expands_checks) ... ok
+test_branch_deletion_does_not_build_zero_commit (test_webhook.WebhookTests.test_branch_deletion_does_not_build_zero_commit) ... ok
+test_owned_pr_is_accepted (test_webhook.WebhookTests.test_owned_pr_is_accepted) ... ok
+test_signature_rejects_altered_body (test_webhook.WebhookTests.test_signature_rejects_altered_body) ... ok
+test_unknown_repository_is_ignored (test_webhook.WebhookTests.test_unknown_repository_is_ignored) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.163s
+
+OK

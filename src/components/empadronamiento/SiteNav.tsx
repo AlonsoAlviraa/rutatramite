@@ -8,7 +8,7 @@ export const NAV_LINKS = [
   { href: "/empadronarse", label: "Padrón" },
   { href: "/dni", label: "DNI y pasaporte" },
   { href: "/modelos", label: "Modelos" },
-  { href: "/metodologia", label: "Cómo verificamos" },
+  { href: "/ayudas", label: "Ayudas y plazos" },
 ] as const;
 
 export function SiteNav() {

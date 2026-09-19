@@ -5,6 +5,8 @@ import {
   TASA_DNI_LABEL,
   TASA_PASAPORTE_LABEL,
   TELEFONO_CITA,
+  PASAPORTE_RENOVACION_MESES,
+  DOCUMENT_PAYMENT_NOTE,
 } from "@/lib/tramites/facts";
 import type { Guide } from "@/lib/tramites/types";
 
@@ -124,6 +126,8 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
   },
   {
     id: "clones",
+    reviewedAt: "2026-09-14",
+    sources: [{ href: "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/tasas/dni/", label: "Interior: tasa y pago oficial del DNI" }, { href: "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/dni/cita-previa/", label: "Interior: canales oficiales de cita" }],
     pack: "viaje",
     path: "/dni/paginas-clon-cita",
     h1: "Páginas clon de la cita del DNI: cómo evitarlas",
@@ -131,7 +135,7 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
     description:
       "Cómo distinguir la web oficial de la cita (citapreviadnie.es) de los clones que cobran, cómo reclamar lo pagado y qué hacer si ya diste tus datos.",
     lead:
-      "La única web oficial para la cita de DNI y pasaporte es citapreviadnie.es, enlazada desde interior.gob.es; el teléfono oficial es el 060. Las páginas que cobran por gestionar la cita son clones: la cita es gratuita. Comprueba el dominio exacto antes de teclear tus datos.",
+      "Reserva en citapreviadnie.es, enlazada desde Interior, o consulta el 060. La reserva es gratuita, pero la tasa del documento puede pagarse anticipadamente en el portal oficial. Un intermediario de pago no es la Administración; que cobre no demuestra por sí solo una suplantación. Comprueba el dominio, quién presta el servicio y qué concepto te cobran.",
     cta: { href: CITA_DNI_URL, label: "Portal oficial (gratuito)" },
     related: relatedDni,
     sections: [
@@ -139,12 +143,13 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
         id: "detectar",
         title: "Cómo se detecta un clon",
         paragraphs: [
-          "El clon imita colores y formularios del portal oficial, pero el dominio no es exactamente citapreviadnie.es: añade guiones, palabras como gestion o cita, o termina en .com cuando el oficial es .es. Segunda señal inequívoca: pide pago por adelantado (tarjeta, transferencia o Bizum). La cita oficial no cuesta nada; solo pagas la tasa del documento al recogerlo (DNI 12 €, pasaporte 30 €).",
+          "Una página que imita a la Administración puede utilizar un dominio parecido. Accede desde Interior y comprueba el destino antes de introducir datos. Distingue la reserva de cita, que es gratuita, de la tasa de expedición y de un servicio privado de intermediación. La apariencia de la página o el momento del pago no bastan para determinar su legitimidad.",
+          DOCUMENT_PAYMENT_NOTE,
         ],
         lists: [
           [
             "Dominio exacto: citapreviadnie.es, sin adornos. Si dudas, entra desde interior.gob.es o llama al 060.",
-            "Pago previo = clon. La cita es gratuita, siempre.",
+            "Comprueba el concepto: reservar cita es gratuito; la tasa del documento admite pago telemático oficial.",
             "Ojo también con los SMS y correos que anuncian huecos a cambio de suscripción: son el mismo negocio.",
           ],
         ],
@@ -153,7 +158,7 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
         id: "reclamar",
         title: "Si ya pagaste: cómo reclamar",
         paragraphs: [
-          "Primero, comprueba si la cita que te dieron existe de verdad en el portal oficial (consulta o anulación de cita). Después, reclama el pago a tu banco alegando servicio no solicitado o publicidad engañosa: los bancos pueden revertir cargos por servicios no prestados. Denuncia la web en la Oficina Virtual de Denuncias de la Policía o personándote en comisaría: estas webs operan a escala y cada denuncia cuenta. Si además entregaste copia de tu DNI o pasaporte al clon, vigila movimientos y considera el aviso a tu banco.",
+          "Conserva la página, las condiciones del servicio y el justificante de pago. Comprueba la reserva en el portal oficial. Si el cargo no fue autorizado o el servicio no coincide con lo contratado, explica los hechos reales a tu banco y consulta cómo reclamar; no se garantiza una devolución. Si sospechas una suplantación o has entregado documentos a una web fraudulenta, contacta con la Policía y con tu banco para valorar las medidas pertinentes.",
         ],
       },
       {
@@ -259,6 +264,8 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
   },
   {
     id: "caducado-multa",
+    reviewedAt: "2026-09-14",
+    sources: [{ href: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442", label: "BOE: identificación e infracciones, artículos 16, 36, 37 y 39" }],
     pack: "viaje",
     path: "/dni/caducado-multa",
     h1: "Multa por DNI caducado: cuándo te la ponen",
@@ -266,7 +273,7 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
     description:
       "Llevar el DNI caducado no se multa por sí solo; lo que se sanciona es negarte a identificarte ante la Policía: de 601 a 30.000 € (LO 4/2015). Cifras y matices.",
     lead:
-      "Llevar el DNI caducado no se multa por sí solo, pero equivale a ir sin documento: si la Policía te requiere y no te identificas, la sanción por desobediencia va de 601 a 30.000 euros. Perderlo o estropearlo de forma reiterada: 100 a 600 euros. Renovarlo cuesta 12 euros.",
+      "La caducidad del DNI no equivale por sí misma a negarse a una identificación policial. La Ley Orgánica 4/2015 distingue las comprobaciones de identidad de conductas sancionables como la negativa a identificarse o aportar datos falsos. Si recibes una propuesta de sanción, revisa los hechos y el artículo concreto que cita.",
     cta: { href: CITA_DNI_URL, label: "Pedir cita para renovar" },
     related: relatedDni,
     sections: [
@@ -274,14 +281,14 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
         id: "cifras",
         title: "Las cifras, sin mitos",
         paragraphs: [
-          "La Ley Orgánica 4/2015 de protección de la seguridad ciudadana, artículo 36.6, sanciona como infracción grave la negativa a colaborar o la resistencia a la identificación: multa de 601 a 30.000 euros. La pérdida o deterioro reiterado del documento se sanciona entre 100 y 600 euros. Pero la caducidad en sí no está tipificada como infracción: no existe la multa automática por llevar el DNI vencido. El problema real es práctico: bancos, notarías, aerolíneas y fronteras.",
+          "El artículo 36.6 recoge la negativa a identificarse a requerimiento de la autoridad y aportar datos falsos o inexactos, entre otras conductas. El artículo 39 establece multas de 601 a 30.000 euros para las infracciones graves. El artículo 37.11 considera negligencia en la custodia la tercera y posteriores pérdidas o extravíos en un año; las infracciones leves se sancionan con 100 a 600 euros. No se aplica esa regla automáticamente a cualquier pérdida, deterioro o documento caducado.",
         ],
       },
       {
         id: "practica",
         title: "Lo que te vas a encontrar de verdad",
         paragraphs: [
-          "El banco puede bloquear la operativa mientras tu DNI conste caducado (normativa antilavado). En vuelos nacionales, varias aerolíneas aceptan el DNI caducado; para cruzar una frontera, comprueba el documento y las reglas del destino porque no debes darlo por válido. Y para casi todo contrato te pedirán documento en vigor. Renovar sale más barato que cualquier multa: la tasa es de 12 euros y se puede pedir cita dentro de los 180 días previos a la caducidad.",
+          "Comprueba los documentos aceptados en cada trámite y trayecto. Para problemas con una cuenta bancaria, consulta la guía específica: la caducidad no justifica por sí sola cualquier restricción. La renovación ordinaria del DNI puede solicitarse dentro de sus últimos 180 días de vigencia; revisa la tasa y las exenciones de tu caso.",
         ],
         lists: [["Tasa de renovación del DNI: 12 € (2026).", "Pasaporte: 30 €.", "La cita: gratuita, solo en citapreviadnie.es."]],
       },
@@ -290,21 +297,23 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
         title: "La opción más segura: renovar",
         paragraphs: [
           "La renovación con DNI caducado existe, no lleva recargo y usa el mismo circuito que cualquier renovación: cita en citapreviadnie.es, foto reciente, el documento anterior y la tasa. Puedes renovar en cualquier oficina de expedición del territorio nacional, no necesariamente en tu provincia, lo que en épocas de atasco abre el abanico de municipios cercanos. Si la caducidad coincide con un viaje inminente, la guía de DNI urgente sin cita explica los límites de la atención excepcional y cómo consultar a la unidad de documentación.",
-          "Un último apunte de convivencia: la sanción por negativa a identificarse se aplica por la conducta (desatender el requerimiento policial), no por el papel vencido. Identificarte por cualquier vía válida aunque el DNI esté caducado (pasaporte, comprobación en el acto) cierra el episodio sin multa. El marco legal está en la Ley Orgánica 4/2015; el sentido común, en renovar en los 180 días previos y ahorrarse la conversación.",
+          "El artículo 16 permite comprobar la identidad por distintos medios en los supuestos legales. Colabora con el requerimiento y explica qué documentación tienes. Esta guía no puede garantizar el resultado de una actuación policial ni sustituye la revisión de una notificación concreta y sus plazos de alegación.",
         ],
       },
     ],
   },
   {
     id: "caducado-banco",
+    reviewedAt: "2026-09-14",
+    sources: [{ href: "https://clientebancario.bde.es/pcb/en/menu-horizontal/podemosayudarte/criterios/medidas-restrictivas-por-falta-de-documentacion-e-informacion.html", label: "Banco de España: proporcionalidad de las restricciones y DNI caducado" }, { href: "https://clientebancario.bde.es/pcb/es/menu-horizontal/productosservici/cuentasdepositos/cuentascorriente/guia-textual/vidacuenta/Bloqueo_de_la_cuenta.html", label: "Banco de España: causas del bloqueo de cuentas" }],
     pack: "viaje",
     path: "/dni/caducado-banco",
-    h1: "DNI caducado en el banco: te pueden bloquear",
+    h1: "DNI caducado en el banco: actualización y límites del bloqueo",
     title: "El banco y el DNI caducado: qué hacer",
     description:
-      "CaixaBank, BBVA y demás entidades pueden limitar la operativa si tu DNI consta caducado (antiblanqueo). Cómo evitarlo y qué aceptan mientras renovas.",
+      "Qué comprobar si el banco solicita renovar tu identificación. El Banco de España distingue la caducidad del DNI de otras causas de restricción.",
     lead:
-      "Tu banco puede bloquear la operativa si el DNI consta caducado: la normativa antilavado le obliga a tener tus datos actualizados. CaixaBank y BBVA suelen avisar antes por la app. Pide cita ya y guarda el resguardo: algunas entidades lo aceptan temporalmente.",
+      "Atiende las solicitudes de actualización de identidad de tu banco y pide que te expliquen cualquier restricción. El Banco de España considera desproporcionado restringir la operativa solo por un DNI caducado, salvo razones justificadas, como no poder acreditar la identidad del cliente. La respuesta depende de los hechos y de la documentación solicitada.",
     cta: { href: CITA_DNI_URL, label: "Pedir cita (oficial)" },
     related: relatedDni,
     sections: [
@@ -312,21 +321,21 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
         id: "porque",
         title: "Por qué te lo hacen",
         paragraphs: [
-          "Las entidades de crédito están obligadas a mantener identificación vigente de sus clientes (prevención de blanqueo de capitales). Cuando tu DNI vence, dejan de tener un documento válido y reaccionan limitando operaciones: desde la contratación online hasta movimientos sensibles. No es un castigo: es cumplimiento. Pero te afecta igual.",
+          "El banco debe identificar a sus clientes y puede solicitar información para cumplir sus obligaciones de prevención de blanqueo. Desatender reiteradamente los requerimientos puede justificar restricciones, que deben valorarse con proporcionalidad. La caducidad por sí sola no equivale a incumplir todas esas obligaciones ni convierte en correcto cualquier bloqueo.",
         ],
       },
       {
         id: "plan",
         title: "El plan en tres pasos",
         paragraphs: [
-          "Primero, acepta el aviso de la app o del correo oficial y comprueba la fecha límite que te dan (suelen dar semanas, no días). Segundo, pide cita en citapreviadnie.es: recuerda que puedes renovar dentro de los 180 días previos a la caducidad, así que el bloqueo es casi siempre evitable con un mínimo de antelación. Tercero, si la cita te queda lejos, pregunta en tu oficina si aceptan el resguardo de solicitud mientras llega el nuevo DNI: algunas entidades lo admiten como documento en trámite.",
+          "Accede por la aplicación o web habitual del banco y verifica el requerimiento. Anota qué documento solicita, el plazo y el canal seguro de entrega. Pide cita para renovar el DNI y consulta a la entidad qué alternativa admite mientras tanto. Un resguardo de cita no garantiza que se levante una restricción.",
         ],
       },
       {
         id: "ya-bloqueado",
         title: "Si ya te han bloqueado",
         paragraphs: [
-          "Con la cita pedida y el justificante en la mano, la oficina puede reactivar la operativa o al menos las gestiones básicas. Si no ceden, pide la hoja de reclamaciones y presenta queja por servicio: el bloqueo es legal, pero la entidad debe documentar el motivo y ofrecer cauce. La renovación del DNI cuesta 12 euros; la del pasaporte, 30.",
+          "Pide una explicación del motivo, de las operaciones afectadas y de cómo subsanar lo requerido. Conserva las comunicaciones y los justificantes de entrega. Si discrepas, consulta el servicio de atención al cliente de la entidad y los cauces de reclamación del Banco de España. No presupongas que toda restricción es correcta o que presentar un resguardo resuelve cualquier causa.",
         ],
       },
     ],
@@ -443,7 +452,12 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
     description:
       "Pierdes el pasaporte en el extranjero y tienes que volver: denuncia, consulado de España y salvoconducto (documento de viaje único de regreso). Requisitos reales.",
     lead:
-      "El salvoconducto es el documento de viaje que expide el consulado de España para un regreso concreto cuando has perdido o te han robado el pasaporte en el extranjero. Es individual, intransferible y gratuito. Primero denuncia, luego consulado.",
+      "Si estás en el extranjero sin documentación y necesitas regresar urgentemente a España, contacta con el consulado competente. Puede valorar la expedición de un salvoconducto para ese viaje. Es gratuito; la expedición y el itinerario deben confirmarse con la oficina consular.",
+    reviewedAt: "2026-09-14",
+    sources: [
+      { label: "BOE: expedición del salvoconducto", href: "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24098" },
+      { label: "Administración: documentación perdida en el extranjero", href: "https://administracion.gob.es/pag_Home/Tu-espacio-europeo/derechos-obligaciones/ciudadanos/viajes/documentos/pasaportes-perdidos.html" },
+    ],
     cta: { href: "https://www.exteriores.gob.es/", label: "Ministerio de Exteriores (consulados)" },
     related: [
       { href: "/dni/perdido-volar", label: "Perder el DNI y volar" },
@@ -453,24 +467,24 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
     sections: [
       {
         id: "pasos",
-        title: "Los tres pasos, en orden",
+        title: "Contactar y preparar la solicitud",
         paragraphs: [
-          "Uno: denuncia ante la policía local del país donde estés (o la comisaría española si estás en España antes de un vuelo de conexión: ahí la solución es otra). Dos: cita o presencia en el consulado u embajada de España más cercana, con la denuncia, dos fotos tipo carnet y tu DNI si lo conservas. Tres: el consulado valora tu caso y expide el salvoconducto para el viaje de regreso, o directamente un pasaporte ordinario si el plazo lo permite.",
+          "Comunica la pérdida o sustracción al consulado español competente y pregunta cómo presentar la solicitud. La denuncia ante la policía local es recomendable para dejar constancia de lo ocurrido. Prepara los documentos o copias que permitan comprobar tu identidad y nacionalidad, junto con los datos del viaje urgente. Confirma con esa oficina la fotografía y los demás documentos que requiere: no presupongas que todas las oficinas piden dos fotos ni que la entrega será inmediata.",
         ],
       },
       {
         id: "limites",
         title: "Qué es y qué no es",
         paragraphs: [
-          "El salvoconducto sirve para volver a España en una fecha e itinerario concretos: no sirve para seguir viajando, no es renovable y no lo recibes si el consulado comprueba que puedes obtener pasaporte a tiempo. Es gratuito. Y ojo: el DNI no se expide en el extranjero, así que si perdiste el DNI (no el pasaporte), la vía consular es la misma: pasaporte para volver y renovación del DNI al llegar.",
+          "Para una persona española sin documentación, esta vía atiende el regreso urgente a España. No sustituye un pasaporte para continuar cualquier itinerario. Consulta con el consulado y la compañía las condiciones del trayecto, incluidas las escalas, y sigue las instrucciones de entrega del documento al regresar. El DNI se tramita en España; perderlo en el extranjero no implica que siempre necesites un nuevo pasaporte si conservas otro documento de viaje válido.",
         ],
       },
       {
         id: "prevencion",
         title: "Antes de viajar: la prevención que ahorra el trámite",
         paragraphs: [
-          "La causa número uno de salvoconductos es la vigencia olvidada: muchos países exigen al pasaporte seis meses de validez restante a la entrada, y la gente descubre la regla en el mostrador de embarque. La guía de con cuánta antelación renovar el pasaporte resume la regla y los destinos más exigentes. La segunda causa es el robo en destino: una fotocopia del pasaporte guardada separada del original (o una foto en el móvil con la página de datos legible) acelera mucho la gestión consular, porque identifica el número de documento en el primer trámite.",
-          "Con el documento a salvo, el salvoconducto casi nunca es necesario: es el paracaídas del viajero, no un trámite rutinario. Si tu consulado ofrece cita electrónica, pídela nada más descubrir la pérdida: en temporada alta (julio, agosto y Navidad) las agendas consulares se comportan como las de las comisarías españolas, y el billete de vuelta no espera al número de la sala.",
+          "Antes de viajar, comprueba la vigencia y los requisitos documentales del destino y del tránsito. Si pierdes el pasaporte o te lo roban, contacta con el consulado español competente para conocer la documentación y las opciones de regreso que corresponden a tu caso.",
+          "Una copia puede ayudar a identificar el documento perdido, pero no sustituye el original ni garantiza una expedición inmediata. Sigue el procedimiento del consulado y confirma cómo puede afectar a tu itinerario.",
         ],
       },
     ],
@@ -484,7 +498,13 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
     description:
       "Cuándo conviene renovar el pasaporte antes de su caducidad, la regla de los 6 meses de validez del destino y qué pasa con la validez restante. Tasa 30 €.",
     lead:
-      "Puedes renovar el pasaporte en cualquier momento, y la Policía recomienda hacerlo con margen: muchas webs aconsejan hasta seis meses antes de caducar porque buena parte del mundo exige al menos seis meses de validez restante a la entrada. Al renovar, la validez anterior no se suma.",
+      `Puedes solicitar un nuevo pasaporte con la validez ordinaria cuando el anterior está en sus últimos ${PASAPORTE_RENOVACION_MESES} meses de vigencia. Existen supuestos excepcionales que deben acreditarse. Antes de viajar, comprueba los requisitos del destino y de los países de tránsito.`,
+    reviewedAt: "2026-09-14",
+    sources: [
+      { label: "Interior: validez, renovación y sustitución del pasaporte", href: "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/pasaporte/validez/" },
+      { label: "BOE: pago telemático de las tasas", href: "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-1206" },
+      { label: "Exteriores: recomendaciones de viaje por país", href: "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Recomendaciones-de-viaje.aspx" },
+    ],
     cta: { href: CITA_DNI_URL, label: "Pedir cita (oficial)" },
     related: relatedPas,
     sections: [
@@ -492,22 +512,22 @@ export const DNI_NICHOS_GUIDES: Guide[] = [
         id: "regla",
         title: "La regla que de verdad importa: la del destino",
         paragraphs: [
-          "España no te exige renovar con antelación mínima; el requisito de seis meses lo ponen los países de destino (y a veces la aerolínea al embarcarte). Con un pasaporte que caduca en cinco meses puedes volar a muchos sitios de la UE, pero quedarte en tierra con destino a buena parte de Asia o América. Antes de reservar, comprueba la validez exigida en la web del consulado o embajada del país, o en la información oficial de viaje del Ministerio de Exteriores.",
+          "La validez exigida para entrar en otro país depende del destino y de tu situación. Comprueba también el tránsito en la información oficial de Exteriores y de las autoridades de destino. No hay una regla de seis meses que permita resolver todos los itinerarios.",
         ],
       },
       {
         id: "practico",
         title: "Detalles prácticos de la renovación",
         paragraphs: [
-          "La renovación es igual que la expedición: cita en citapreviadnie.es, foto reciente, el pasaporte anterior y 30 euros de tasa. La validez restante del documento anterior se pierde (no se acumula). Si viajas en noviembre-diciembre, recuerda que es la temporada en la que las citas se agotan antes: con dos meses de margen no sueles tener problema; con dos semanas, revisa la disponibilidad real y las instrucciones de Interior; esta guía no presupone un cupo especial ni atención en aeropuerto.",
+          `Consulta la documentación exigida para tu edad y situación, conserva el pasaporte anterior y comprueba la tasa y sus exenciones. ${DOCUMENT_PAYMENT_NOTE} La disponibilidad depende de la oficina; esta guía no garantiza citas con una antelación concreta.`,
         ],
       },
       {
         id: "calendario",
         title: "El calendario del viajero organizado",
         paragraphs: [
-          "Un cuadro mental que evita sustos: pasaporte con más de seis meses de validez, viajas casi a cualquier destino sin mirar nada; entre seis y tres meses, comprueba el requisito del país en fuentes oficiales antes de reservar; menos de tres meses con viaje extra-Schengen previsto, renueva ya. Dentro de la UE y con DNI en vigor, el pasaporte ni siquiera es necesario en la mayoría de trayectos: la combinación DNI vigente para Europa y pasaporte para el resto reparte el desgaste de los dos documentos.",
-          "Y una nota sobre menores: sus pasaportes caducan antes (dos o cinco años según la edad), así que la regla de los seis meses les pilla más a menudo. Si el viaje familiar es a un destino exigente, revisa primero los pasaportes de los peques: son los que suelen derribar la reserva en el mostrador. La guía del pasaporte para bebés detalla validez por edades y quién debe acompañar a la cita.",
+          "Tener más de seis meses de vigencia no acredita que cumplas todos los requisitos de entrada. Revisa visado o autorización electrónica, nacionalidad, motivo del viaje y tránsito en las fuentes del destino. Interior contempla una nueva expedición excepcional cuando las exigencias de validez del país se justifican; aporta los documentos que acrediten tu caso.",
+          "Revisa el documento de cada menor por separado. La validez ordinaria del pasaporte es de dos años para menores de cinco años y de cinco años desde los cinco hasta antes de cumplir treinta. Consulta la documentación y los consentimientos necesarios antes de reservar la cita.",
         ],
       },
     ],

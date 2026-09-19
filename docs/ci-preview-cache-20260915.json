@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-09-15T17:59:41.756864+00:00",
+  "active_preview_units": "",
+  "active_release": "/srv/tenants/slot2/releases/20260915T171408Z",
+  "free_before": 9202745344,
+  "targets": [
+    {
+      "path": "/srv/tenants/slot2/previews/20260907T161140Z",
+      "build_id": "p_EKMAwSYh_NFg3aWcxOD"
+    },
+    {
+      "path": "/srv/tenants/slot2/previews/20260907T162439Z",
+      "build_id": "54VVvPPvLEA0edOVlXUgw"
+    },
+    {
+      "path": "/srv/tenants/slot2/previews/20260907T163747Z",
+      "build_id": "kZBa7tYcSJ6oWwaVolsCW"
+    },
+    {
+      "path": "/srv/tenants/slot2/previews/20260907T164357Z",
+      "build_id": "AQ5bJuT18uHCEROo5UIk6"
+    },
+    {
+      "path": "/srv/tenants/slot2/previews/20260907T165258Z",
+      "build_id": "OUux4xhIi-1ynsMjTOwZi"
+    },
+    {
+      "path": "/srv/tenants/slot2/previews/20260907T171738Z",
+      "build_id": "2cZCC0ynKJrkD3LqvT-sR"
+    },
+    {
+      "path": "/srv/tenants/slot2/previews/20260907T174000Z",
+      "build_id": "L-05cugpz-NUvEvR3rrvp"
+    },
+    {
+      "path": "/srv/tenants/slot2/previews/20260907T180208Z",
+      "build_id": "o4LHVWt6IesDDNJNXXX5O"
+    },
+    {
+      "path": "/srv/tenants/slot2/previews/20260907T183143Z",
+      "build_id": "_CTE4yTcaCDVrXreqf0x3"
+    },
+    {
+      "path": "/srv/tenants/slot2/previews/20260907T185422Z",
+      "build_id": "hGuo2gal8DqvNlu7-AWky"
+    },
+    {
+      "path": "/srv/tenants/slot2/previews/20260907T211037Z",
+      "build_id": "tSaLmQxc_8_5ek2TQNGHB"
+    }
+  ],
+  "free_after": 12217970688,
+  "completed_at": "2026-09-15T17:59:43.638816+00:00"
+}

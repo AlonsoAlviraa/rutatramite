@@ -1,0 +1,21 @@
+Sep 15 19:01:47 vps-79f9a09d systemd[1]: Starting ruta-ci-rollback-visionsetil-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal...
+Sep 15 19:01:47 vps-79f9a09d systemd[1]: Started ruta-ci-rollback-visionsetil-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal.
+Sep 15 19:01:47 vps-79f9a09d caddy[2563880]: {"level":"info","ts":1789498907.1367486,"msg":"maxprocs: Updating GOMAXPROCS=1: determined from CPU quota"}
+Sep 15 19:01:47 vps-79f9a09d caddy[2563880]: {"level":"info","ts":1789498907.1367803,"msg":"GOMEMLIMIT is updated","GOMEMLIMIT":483183820,"previous":9223372036854775807}
+Sep 15 19:01:47 vps-79f9a09d caddy[2563880]: {"level":"info","ts":1789498907.1367855,"msg":"using config from file","file":"/opt/ruta-ci/rollback-tests/20260915T190118Z-1e727a9e/visionsetil/caddy.json"}
+Sep 15 19:01:47 vps-79f9a09d caddy[2563880]: {"level":"warn","ts":1789498907.1367917,"logger":"admin","msg":"admin endpoint disabled"}
+Sep 15 19:01:47 vps-79f9a09d caddy[2563880]: {"level":"warn","ts":1789498907.1378975,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":"127.0.0.1:18203"}
+Sep 15 19:01:47 vps-79f9a09d caddy[2563880]: {"level":"warn","ts":1789498907.1379123,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":"127.0.0.1:18203"}
+Sep 15 19:01:47 vps-79f9a09d caddy[2563880]: {"level":"info","ts":1789498907.1379166,"logger":"http.log","msg":"server running","name":"rehearsal","protocols":["h1","h2","h3"]}
+Sep 15 19:01:47 vps-79f9a09d caddy[2563880]: {"level":"info","ts":1789498907.1380343,"msg":"autosaved config (load with --resume flag)","file":"/run/ruta-ci-rollback-visionsetil-20260915t190118z-1e727a9e/.config/caddy/autosave.json"}
+Sep 15 19:01:47 vps-79f9a09d caddy[2563880]: {"level":"info","ts":1789498907.1380455,"msg":"serving initial configuration"}
+Sep 15 19:01:47 vps-79f9a09d caddy[2563880]: {"level":"info","ts":1789498907.138313,"logger":"tls","msg":"cleaning storage unit","storage":"FileStorage:/run/ruta-ci-rollback-visionsetil-20260915t190118z-1e727a9e/.local/share/caddy"}
+Sep 15 19:01:47 vps-79f9a09d caddy[2563880]: {"level":"info","ts":1789498907.1384478,"logger":"tls","msg":"finished cleaning storage units"}
+Sep 15 19:01:47 vps-79f9a09d caddy[2563880]: {"level":"info","ts":1789498907.138494,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x1b524700ea80"}
+Sep 15 19:02:08 vps-79f9a09d caddy[2563880]: {"level":"info","ts":1789498928.1715853,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+Sep 15 19:02:08 vps-79f9a09d caddy[2563880]: {"level":"warn","ts":1789498928.171653,"msg":"exiting; byeee!! 👋","signal":"SIGTERM"}
+Sep 15 19:02:08 vps-79f9a09d caddy[2563880]: {"level":"info","ts":1789498928.1717243,"logger":"http","msg":"servers shutting down with eternal grace period"}
+Sep 15 19:02:08 vps-79f9a09d caddy[2563880]: {"level":"info","ts":1789498928.1719255,"msg":"shutdown complete","signal":"SIGTERM","exit_code":0}
+Sep 15 19:02:08 vps-79f9a09d systemd[1]: Stopping ruta-ci-rollback-visionsetil-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal...
+Sep 15 19:02:08 vps-79f9a09d systemd[1]: ruta-ci-rollback-visionsetil-20260915t190118z-1e727a9e.service: Deactivated successfully.
+Sep 15 19:02:08 vps-79f9a09d systemd[1]: Stopped ruta-ci-rollback-visionsetil-20260915t190118z-1e727a9e.service - Isolated rollback rehearsal.
