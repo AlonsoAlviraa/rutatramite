@@ -1,6 +1,9 @@
 import { PRODUCT_NAME } from "@/lib/types";
+import { YOUTUBE_CHANNEL_URL } from "@/lib/youtube/shorts";
 
-const cols = [
+type FooterLink = { href: string; label: string; external?: boolean };
+
+const cols: { title: string; links: FooterLink[] }[] = [
   {
     title: "Trámites",
     links: [
@@ -29,6 +32,7 @@ const cols = [
       { href: "/aviso-legal", label: "Aviso legal" },
       { href: "/privacidad", label: "Privacidad" },
       { href: "/contacto", label: "Contacto" },
+      { href: YOUTUBE_CHANNEL_URL, label: "YouTube", external: true },
     ],
   },
 ];
@@ -46,7 +50,9 @@ export function SiteFooter() {
               <ul className="mt-3 space-y-2 text-sm">
                 {col.links.map((l) => (
                   <li key={l.href}>
-                    <a href={l.href}>{l.label}</a>
+                    <a href={l.href} {...(l.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
+                      {l.label}
+                    </a>
                   </li>
                 ))}
               </ul>

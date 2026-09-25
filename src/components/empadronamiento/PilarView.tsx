@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { Breadcrumbs } from "@/components/empadronamiento/Breadcrumbs";
 import { Disclaimer } from "@/components/empadronamiento/Disclaimer";
 import { JsonLd } from "@/components/empadronamiento/JsonLd";
@@ -8,6 +9,7 @@ import { GeoLead } from "@/components/ui/GeoLead";
 import { buildPilarModel } from "@/lib/pilar/content";
 import type { MunicipioIndexEntry } from "@/lib/types";
 import { LAST_VERIFIED } from "@/lib/tramites/facts";
+import { GuideShort } from "@/components/youtube/GuideShort";
 
 export function PilarArticle({
   index,
@@ -73,8 +75,9 @@ export function PilarArticle({
         </section>
       )}
 
-      {model.sections.map((section) => (
-        <section key={section.id} id={section.id} className="mt-10 space-y-4">
+      {model.sections.map((section, index) => (
+        <Fragment key={section.id}>
+          <section id={section.id} className="mt-10 space-y-4">
           <h2 className="font-display text-2xl text-mossDark">{section.title}</h2>
           {section.paragraphs.map((p, i) => (
             <p key={i} className="leading-relaxed">
@@ -128,7 +131,9 @@ export function PilarArticle({
               ))}
             </ul>
           ) : null}
-        </section>
+          </section>
+          {index === 0 ? <GuideShort path="/empadronarse" /> : null}
+        </Fragment>
       ))}
 
       <section id="faq" className="mt-10 space-y-4">
