@@ -110,6 +110,12 @@ a:hover { color:var(--moss-dark); }
 .md-body pre { overflow-x:auto; }
 .site-footer { margin-top:3rem; border-top:1px solid var(--sand); background:var(--mist); }
 .site-footer a { display:inline-block; padding:.3rem 0; text-decoration:underline; text-underline-offset:3px; }
+.yt-short-block { margin-top:2rem; display:grid; justify-items:start; gap:.75rem; max-width:36rem; }
+.yt-short { position:relative; background:var(--mist); border:1px solid var(--sand); border-radius:12px; overflow:hidden; }
+.yt-short-hit { position:absolute; inset:0; width:100%; height:100%; margin:0; padding:0; border:0; background:#1b4332; cursor:pointer; }
+.yt-short-hit img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.yt-short iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+.yt-short-play { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); background:var(--moss-dark); color:#fff; border-radius:999px; padding:.55rem .95rem; font-size:.85rem; font-weight:650; }
 @media (min-width:1000px) { #asistente { display:grid; grid-template-columns:.8fr 1.2fr; gap:3rem; align-items:start; } .assistant-form { margin-top:0; } }
 @media (min-width:1280px) { [data-guide],[data-ficha] { max-width:1120px; padding-left:304px; position:relative; } [data-guide] > nav[aria-label='En esta guía'],[data-ficha] > .guide-toc { position:absolute; left:16px; top:3rem; width:246px; margin:0; padding:1.25rem; background:var(--mist); font-size:.9rem; } }
 @media (max-width:999px) { .nav-toggle { display:inline-flex; align-items:center; } .site-nav { display:none; } .site-nav.is-open { display:flex; width:100%; flex-direction:column; align-items:stretch; padding:.75rem 0; max-height:75vh; overflow-y:auto; border-top:1px solid var(--sand); } .site-nav a { font-size:.95rem; } }

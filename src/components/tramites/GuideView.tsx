@@ -1,9 +1,11 @@
+import { Fragment } from "react";
 import { Breadcrumbs } from "@/components/empadronamiento/Breadcrumbs";
 import { JsonLd } from "@/components/empadronamiento/JsonLd";
 import { OfficialCta } from "@/components/empadronamiento/OfficialCta";
 import { PageShell } from "@/components/ui/PageShell";
 import { ModelBlock } from "@/components/tramites/ModelBlock";
 import { GeoLead } from "@/components/ui/GeoLead";
+import { GuideShort } from "@/components/youtube/GuideShort";
 import { articleJsonLd, guideFaqs, guideFaqJsonLd } from "@/lib/seo/jsonld";
 import { DISCLAIMER_CITA, LAST_VERIFIED } from "@/lib/tramites/facts";
 import { PACK_INDEX_PATH, type Guide } from "@/lib/tramites/types";
@@ -46,25 +48,28 @@ export function GuideView({ guide }: { guide: Guide }) {
           {faqs.length > 0 && <li><a className="underline underline-offset-4" href="#preguntas-frecuentes">Preguntas frecuentes</a></li>}
         </ul>
       </nav>
-      {guide.sections.map((s) => (
-        <section key={s.id} id={s.id} className="mt-10 space-y-4">
-          <h2 className="font-display text-2xl text-mossDark">{s.title}</h2>
-          {s.paragraphs.map((p) => (
-            <p key={p.slice(0, 40)} className="leading-relaxed">
-              {p}
-            </p>
-          ))}
-          {s.lists?.map((list, i) => (
-            <ul key={i} className="list-disc space-y-1 pl-5">
-              {list.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          ))}
-          {s.models?.map((m) => (
-            <ModelBlock key={m.id} model={m} />
-          ))}
-        </section>
+      {guide.sections.map((s, index) => (
+        <Fragment key={s.id}>
+          <section id={s.id} className="mt-10 space-y-4">
+            <h2 className="font-display text-2xl text-mossDark">{s.title}</h2>
+            {s.paragraphs.map((p) => (
+              <p key={p.slice(0, 40)} className="leading-relaxed">
+                {p}
+              </p>
+            ))}
+            {s.lists?.map((list, i) => (
+              <ul key={i} className="list-disc space-y-1 pl-5">
+                {list.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            ))}
+            {s.models?.map((m) => (
+              <ModelBlock key={m.id} model={m} />
+            ))}
+          </section>
+          {index === 0 ? <GuideShort path={guide.path} /> : null}
+        </Fragment>
       ))}
       <section id="fuentes" className="mt-10 border-t border-sand pt-5">
         <h2 className="font-display text-2xl text-mossDark">Fuentes y comprobación</h2>

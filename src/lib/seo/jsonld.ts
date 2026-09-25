@@ -1,6 +1,7 @@
 import { CONTACT_EMAIL, PRODUCT_NAME, SITE_ORIGIN } from "@/lib/types";
 import { absoluteUrl } from "@/lib/geo/paths";
 import type { Guide } from "@/lib/tramites/types";
+import { YOUTUBE_CHANNEL_URL } from "@/lib/youtube/shorts";
 
 export type Crumb = { name: string; path: string };
 
@@ -27,6 +28,7 @@ export function organizationJsonLd() {
     ],
     publishingPrinciples: `${SITE_ORIGIN}/metodologia`,
     email: CONTACT_EMAIL,
+    sameAs: [YOUTUBE_CHANNEL_URL],
     contactPoint: {
       "@type": "ContactPoint",
       email: CONTACT_EMAIL,
