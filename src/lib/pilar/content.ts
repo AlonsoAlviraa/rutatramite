@@ -304,11 +304,12 @@ export function buildPilarModel() {
     },
   ];
 
+  const heading = "Cómo empadronarse en España: gratis, requisitos y pasos";
   return {
-    h1: "Empadronarse en España",
-    title: "Empadronarse en España: documentos, cita y sede de tu ayuntamiento 2026",
+    h1: heading,
+    title: heading,
     description:
-      "Guía nacional para empadronarse: alta gratuita, documentos, 12 escenarios y 769 municipios ≥10k. RutaTrámite no es Administración.",
+      "Empadronarse es gratis. Requisitos en España: documentos de identidad y de vivienda, pasos del alta y cómo encontrar la sede de tu ayuntamiento.",
     lead:
       "RutaTrámite te dice dónde y con qué papeles empadronarte en tu municipio. El trámite se hace en el ayuntamiento, no aquí. El alta es gratuita. No somos Administración.",
     sections: [...sections.slice(0, 1), ...longLegal, ...sections.slice(1)],

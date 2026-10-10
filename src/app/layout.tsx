@@ -10,6 +10,9 @@ import { PRODUCT_NAME, SITE_ORIGIN } from "@/lib/types";
 import messages from "../../messages/es.json";
 import "./globals.css";
 
+/** Umami (sin cookies) servido en el mismo origen vía Caddy /stats. Inactivo si no se define NEXT_PUBLIC_UMAMI_WEBSITE_ID en el build. */
+const UMAMI_WEBSITE_ID = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID;
+
 const sans = Public_Sans({
   subsets: ["latin"],
   variable: "--font-source-sans",
@@ -78,6 +81,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main id="contenido">{children}</main>
           <SiteFooter />
         </NextIntlClientProvider>
+        {UMAMI_WEBSITE_ID ? (
+          <script defer src="/stats/script.js" data-website-id={UMAMI_WEBSITE_ID} data-host-url="/stats" data-do-not-track="true" />
+        ) : null}
       </body>
     </html>
   );
