@@ -4,13 +4,20 @@ import { PackCard } from "@/components/ui/PackCard";
 import { PageShell } from "@/components/ui/PageShell";
 import { DirectorySearch } from "@/components/ui/DirectorySearch";
 import { GeoLead } from "@/components/ui/GeoLead";
-import { guidesByPack } from "@/lib/tramites/catalog";
+import { ALL_GUIDES, guidesByPack } from "@/lib/tramites/catalog";
 import { DISCLAIMER_GENERICO } from "@/lib/tramites/facts";
 import { PACK_INDEX_PATH, type GuidePack } from "@/lib/tramites/types";
+import { RELATED_LINKS } from "@/lib/seo/relatedLinks";
+
+/** Shared document heading for the hubs whose title and H1 must match. */
+export const PACK_DOCUMENT_HEADINGS = {
+  viaje: "Precio DNI y pasaporte en España: 12 € y 30 €, cita previa",
+  pasaporte: "Cuánto cuesta el pasaporte en España: 30 €, cita y urgente",
+} as const;
 
 const titles: Record<GuidePack, { h1: string; lead: string }> = {
   viaje: {
-    h1: "DNI y pasaporte",
+    h1: PACK_DOCUMENT_HEADINGS.viaje,
     lead: "Cita oficial en citapreviadnie.es. La cita es gratuita. Tasas 2026: DNI 12 €, pasaporte 30 €. No somos Policía.",
   },
   mudanza: {
@@ -47,10 +54,23 @@ const titles: Record<GuidePack, { h1: string; lead: string }> = {
   },
 };
 
+function RelatedLinks({ path }: { path: string }) {
+  const items = (RELATED_LINKS[path] ?? []).map((p) => ALL_GUIDES.find((g) => g.path === p)).filter((g): g is NonNullable<typeof g> => Boolean(g));
+  if (!items.length) return null;
+  return (
+    <nav aria-labelledby="relacionadas-title" className="mt-8" data-related-links="">
+      <h2 id="relacionadas-title" className="font-display text-2xl text-mossDark">También te puede servir</h2>
+      <ul className="mt-3 list-disc space-y-1 pl-5">
+        {items.map((g) => (<li key={g.path}><a className="underline" href={g.path}>{g.h1}</a></li>))}
+      </ul>
+    </nav>
+  );
+}
+
 export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte" }) {
   const passport = pack === "viaje" && focus === "pasaporte";
   const t = passport ? {
-    h1: "Pasaporte: cita, documentos y renovación",
+    h1: PACK_DOCUMENT_HEADINGS.pasaporte,
     lead: "Encuentra cómo pedir cita, preparar los documentos y renovar el pasaporte. Consulta también los requisitos para menores y qué hacer ante un viaje próximo o una pérdida en el extranjero.",
   } : titles[pack];
   const guides = guidesByPack(pack).filter((guide) => !passport ||
@@ -66,6 +86,7 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
       />
       <h1 className="mt-2 font-display text-4xl text-mossDark">{t.h1}</h1>
       <GeoLead>{t.lead}</GeoLead>
+      <RelatedLinks path={passport ? "/pasaporte" : PACK_INDEX_PATH[pack]} />
       <DirectorySearch label="Buscar en esta categoría" placeholder="Escribe el trámite o documento" hint={`Busca entre las ${guides.length} guías de esta categoría.`} entries={guides.map((g) => ({ title: g.h1, href: g.path, category: t.h1 }))} />
       <div className="topic-directory" data-pack-grid="">
         {guides.map((g) => (

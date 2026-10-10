@@ -30,6 +30,26 @@ function mdLink(label: string, path: string): string {
   return `- [${label}](${SITE_ORIGIN}${path})`;
 }
 
+const LLMS_LISTED = new Set<string>([
+  "/", "/empadronarse", "/dni", "/pasaporte", "/extranjeria", "/mudanza", "/colegio", "/comedor", "/fp", "/bebe",
+  "/becas", "/ayudas", "/alquiler", "/transporte", "/elecciones", "/modelos", "/descargas", "/recursos",
+]);
+/** Guías con demanda en buscadores primero (vault RutaTrámite, 2026-10-10). */
+const LLMS_PRIORITY = ["/dni/cita-previa", "/extranjeria/autorizacion-regreso", "/inventario-fianza-alquiler"];
+const LLMS_PER_PACK = 7;
+
+function renderGuideSection(): string {
+  const rank = (p: string) => (LLMS_PRIORITY.includes(p) ? LLMS_PRIORITY.indexOf(p) : LLMS_PRIORITY.length);
+  const blocks = PACK_ORDER.map((pack) => {
+    const guides = ALL_GUIDES.filter((g) => g.pack === pack && !LLMS_LISTED.has(g.path))
+      .sort((a, b) => rank(a.path) - rank(b.path))
+      .slice(0, LLMS_PER_PACK);
+    if (!guides.length) return "";
+    return `### ${PACK_HEADING[pack]}\n${guides.map((g) => mdLink(g.h1, g.path)).join("\n")}`;
+  }).filter(Boolean);
+  return `## Guías destacadas por trámite\n\n${blocks.join("\n")}`;
+}
+
 /** Short llms.txt (llmstxt.org): H1, blockquote, H2 sections, keep under ~200 lines. */
 export function renderLlmsTxt(): string {
   return `# ${PRODUCT_NAME}
@@ -56,6 +76,8 @@ ${mdLink("Formación Profesional", "/fp")}: matrícula, convalidaciones y becas.
 ${mdLink("Bebé", "/bebe")}: gestiones administrativas familiares.
 ${mdLink("Becas", "/becas")}: convocatorias, requisitos y seguimiento.
 ${mdLink("Modelos y cartas", "/modelos")}: escritos para adaptar a cada caso.
+
+${renderGuideSection()}
 
 ## Padrón según la situación
 
