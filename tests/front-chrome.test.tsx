@@ -8,7 +8,9 @@ import { SiteHeader } from "@/components/empadronamiento/SiteHeader";
 import { SiteNav, navCallToAction } from "@/components/empadronamiento/SiteNav";
 import { SiteFooter } from "@/components/empadronamiento/SiteFooter";
 import { PackIndex } from "@/components/tramites/PackIndex";
+import { TableOfContents } from "@/components/ui/TableOfContents";
 import PassportPage from "@/app/pasaporte/page";
+import { metadata as padronMetadata } from "@/app/empadronarse/page";
 import { renderFichaHtml, renderPilarHtml, renderEscenarioHtml, renderGuideHtml } from "@/lib/render/server";
 import { loadMunicipio } from "@/lib/data/load";
 import { OfficialCta } from "@/components/empadronamiento/OfficialCta";
@@ -211,6 +213,75 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
     const home = renderToStaticMarkup(createElement(SiteNav, { pathname: "/" }));
     expect(home).toContain('<a class="nav-cta" href="/#tramites">Explorar trámites</a>');
     expect(home).not.toContain("Asistente de padrón");
+  });
+
+  it("keeps the long DNI guide index and reading column within a 390px viewport", () => {
+    const html = renderGuideHtml("/dni/renovar-caducado");
+    expect(html).toContain('data-guide="renovar-dni"');
+    expect(html).toContain("page-shell");
+    expect(html).toContain("w-full");
+    expect(html).toContain("min-w-0");
+    expect(html).toContain("px-4");
+    expect(html).toContain("guide-layout");
+    expect(html).toContain('aria-label="En esta guía"');
+    expect(html).toContain('data-reading-column=""');
+    expect(html).toContain("guide-reading");
+    expect(html).toContain("minmax(0,1fr)");
+    expect(html).toContain('href="#caducidad"');
+    const layoutAt = html.indexOf("guide-layout");
+    const tocAt = html.indexOf('aria-label="En esta guía"');
+    const readingAt = html.indexOf("data-reading-column");
+    expect(tocAt).toBeGreaterThan(layoutAt);
+    expect(readingAt).toBeGreaterThan(tocAt);
+    expect(html.indexOf('id="caducidad"')).toBeGreaterThan(readingAt);
+    expect(html.indexOf("data-disclaimer")).toBeGreaterThan(readingAt);
+
+    const toc = renderToStaticMarkup(
+      createElement(TableOfContents, {
+        items: [{ id: "caducidad", title: "Caducidad y cambio de datos" }],
+      }),
+    );
+    expect(toc).toContain("guide-toc");
+    expect(toc).toContain("min-w-0");
+    expect(toc).toContain('aria-label="En esta página"');
+    expect(toc).toContain('href="#caducidad"');
+
+    const ficha = renderFichaHtml(loadMunicipio("28079"));
+    expect(ficha).toContain("guide-toc");
+    expect(ficha).toContain("min-w-0");
+
+    const css = fs.readFileSync(path.join(process.cwd(), "src/app/globals.css"), "utf8");
+    expect(css).toContain(".guide-layout { display:grid; grid-template-columns:minmax(0,1fr); min-width:0; }");
+    expect(css).toContain("grid-template-columns:minmax(0,246px) minmax(0,1fr); column-gap:2.5rem;");
+    expect(css).toContain("[data-guide] { max-width:1120px; }");
+    expect(css).toContain("[data-ficha] > .guide-toc");
+    expect(css).not.toContain("[data-guide] > nav");
+    expect(css).toContain("overflow-wrap:anywhere");
+
+    const shellPadding = 32;
+    const mobileInner = Math.min(768, 390) - shellPadding;
+    expect(mobileInner).toBe(358);
+    expect(mobileInner).toBeLessThanOrEqual(390);
+    const desktopShell = Math.min(1120, 1280);
+    const desktopInner = desktopShell - shellPadding;
+    const tocWidth = 246;
+    const columnGap = 40;
+    const reading = desktopInner - tocWidth - columnGap;
+    expect(desktopShell).toBe(1120);
+    expect(reading).toBe(802);
+    expect(tocWidth + columnGap + reading).toBe(desktopInner);
+    expect(reading).toBeGreaterThan(0);
+  });
+
+  it("hub /empadronarse uses the same principal phrase in the title and the h1", () => {
+    const title = padronMetadata.title;
+    expect(title).toBe("Empadronarse en España: documentos y pasos");
+    const html = renderPilarHtml();
+    const match = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/);
+    expect(match).toBeTruthy();
+    const visible = match![1].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+    expect(visible).toBe(title);
+    expect(visible).not.toContain(`· ${PRODUCT_NAME}`);
   });
 
 });

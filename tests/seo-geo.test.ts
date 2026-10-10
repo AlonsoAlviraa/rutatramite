@@ -1,3 +1,4 @@
+import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { createElement } from "react";
@@ -6,14 +7,21 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { GET as goneCore } from "@/app/sitemap-core.xml/route";
 import { GET as goneMun } from "@/app/sitemap-municipios.xml/route";
 import { GET as goneProv } from "@/app/sitemap-provincias.xml/route";
+import robots from "@/app/robots";
 import { generateMetadata as fichaGenerateMetadata } from "@/app/empadronarse/[ccaa]/[provincia]/[municipio]/page";
 import AvisoLegalPage from "@/app/aviso-legal/page";
 import ContactoPage from "@/app/contacto/page";
 import { loadIndex, loadMunicipio } from "@/lib/data/load";
+import { absoluteUrl } from "@/lib/geo/paths";
 import { renderFichaHtml, renderGuideHtml, renderPilarHtml } from "@/lib/render/server";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo/jsonld";
+import { indexNowUrlList } from "@/lib/seo/indexnow";
+import { renderLlmsTxt } from "@/lib/seo/llms";
+import { buildPilarModel } from "@/lib/pilar/content";
 import { isFichaIndexable } from "@/lib/seo/localSignals";
-import { clipMeta, fichaPageMetadata, fichaSeo } from "@/lib/seo/meta";
+import { clipMeta, fichaPageMetadata, fichaSeo, pageMetadata } from "@/lib/seo/meta";
+import { canonicalSiteOrigin, withoutLegacyEsHost } from "@/lib/seo/origin";
+import { sitemapXml } from "@/lib/seo/sitemapEntries";
 import { CONTACT_EMAIL, SITE_ORIGIN } from "@/lib/types";
 
 function jsonLdBlocks(html: string): Record<string, unknown>[] {
@@ -52,6 +60,98 @@ describe("SEO + GEO domain-ready contracts", () => {
     expect(SITE_ORIGIN.endsWith("/")).toBe(false);
   });
 
+  it("canonical and og:url use https://rutatramite.com and no generator emits rutatramite.es", () => {
+    expect(canonicalSiteOrigin("https://rutatramite.es")).toBe("https://rutatramite.com");
+    expect(canonicalSiteOrigin("http://www.rutatramite.es/")).toBe("https://rutatramite.com");
+    expect(canonicalSiteOrigin("https://rutatramite.com/")).toBe("https://rutatramite.com");
+    expect(canonicalSiteOrigin("https://preview.example")).toBe("https://preview.example");
+    expect(withoutLegacyEsHost("https://rutatramite.es/dni")).toBe("https://rutatramite.com/dni");
+    expect(withoutLegacyEsHost("http://www.rutatramite.es/empadronarse")).toBe(
+      "https://rutatramite.com/empadronarse",
+    );
+    expect(absoluteUrl("https://rutatramite.es/dni")).toBe("https://rutatramite.com/dni");
+    expect(absoluteUrl("/dni")).toBe(`${SITE_ORIGIN}/dni`);
+    expect(SITE_ORIGIN).not.toContain("rutatramite.es");
+
+    const configured = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://rutatramite.com").replace(/\/+$/, "");
+    const productionHost =
+      !process.env.NEXT_PUBLIC_SITE_URL ||
+      configured === "https://rutatramite.com" ||
+      /^https?:\/\/(?:www\.)?rutatramite\.es$/i.test(configured);
+    if (productionHost) {
+      expect(SITE_ORIGIN).toBe("https://rutatramite.com");
+    }
+
+    const metas = [
+      pageMetadata({
+        title: "Inicio",
+        description: "Guia ciudadana independiente de tramites en Espana, con enlaces a las sedes oficiales.",
+        path: "/",
+      }),
+      pageMetadata({
+        title: "DNI",
+        description: "Guia ciudadana independiente de tramites en Espana, con enlaces a las sedes oficiales.",
+        path: "/dni",
+      }),
+      fichaPageMetadata(loadMunicipio("28079")),
+    ];
+    const expected = [
+      `${SITE_ORIGIN}/`,
+      `${SITE_ORIGIN}/dni`,
+      `${SITE_ORIGIN}/empadronarse/comunidad-de-madrid/madrid/madrid`,
+    ];
+    metas.forEach((meta, i) => {
+      const canonical = meta.alternates?.canonical;
+      const og =
+        meta.openGraph && typeof meta.openGraph === "object" && !Array.isArray(meta.openGraph) && "url" in meta.openGraph
+          ? meta.openGraph.url
+          : undefined;
+      expect(canonical, `canonical ${expected[i]}`).toBe(expected[i]);
+      expect(og, `og:url ${expected[i]}`).toBe(expected[i]);
+      expect(meta.alternates?.languages).toEqual({ es: expected[i], "x-default": expected[i] });
+      expect(JSON.stringify(meta)).not.toContain("rutatramite.es");
+    });
+
+    const root = process.cwd();
+    const layout = fs.readFileSync(path.join(root, "src/app/layout.tsx"), "utf8");
+    expect(layout).toContain("metadataBase: new URL(SITE_ORIGIN)");
+    expect(layout).toContain("canonical: SITE_ORIGIN");
+    expect(layout).toContain("url: SITE_ORIGIN");
+    expect(layout).not.toContain("rutatramite.es");
+
+    const generated = [
+      sitemapXml(),
+      fs.readFileSync(path.join(root, "public/sitemap.xml"), "utf8"),
+      renderLlmsTxt(),
+      fs.readFileSync(path.join(root, "public/llms.txt"), "utf8"),
+      JSON.stringify(organizationJsonLd()),
+      JSON.stringify(websiteJsonLd()),
+      JSON.stringify(robots()),
+    ].join("\n");
+    expect(generated).not.toContain("rutatramite.es");
+    expect(generated).toContain(`${SITE_ORIGIN}/empadronarse`);
+
+    expect(indexNowUrlList(["/dni"], "https://www.rutatramite.es")).toEqual(["https://rutatramite.com/dni"]);
+    expect(indexNowUrlList(["https://rutatramite.es/pasaporte"], "https://rutatramite.es")).toEqual([
+      "https://rutatramite.com/pasaporte",
+    ]);
+
+    const pyOut = execFileSync(
+      "python",
+      [
+        "-c",
+        "import importlib.util,sys; p=sys.argv[1]; s=importlib.util.spec_from_file_location('sitemaps', p); assert s and s.loader; m=importlib.util.module_from_spec(s); s.loader.exec_module(m); print(m.canonical_origin('https://rutatramite.es')); print(m.canonical_origin('http://www.rutatramite.es/')); print(m.canonical_origin('https://preview.example'))",
+        path.join(root, "scripts/build_sitemaps.py"),
+      ],
+      { encoding: "utf8", cwd: root },
+    );
+    expect(pyOut.trim().split(/\r?\n/)).toEqual([
+      "https://rutatramite.com",
+      "https://rutatramite.com",
+      "https://preview.example",
+    ]);
+  });
+
   it("Organization and WebSite JSON-LD are honest (no LocalBusiness, no our phone as padrón)", () => {
     const org = JSON.stringify(organizationJsonLd());
     const web = JSON.stringify(websiteJsonLd());
@@ -59,6 +159,7 @@ describe("SEO + GEO domain-ready contracts", () => {
     expect(web).toContain("WebSite");
     expect(org).not.toContain("LocalBusiness");
     expect(web).not.toContain("LocalBusiness");
+    expect(web).not.toContain("SearchAction");
     expect(org).toContain(SITE_ORIGIN);
     expect(org.toLowerCase()).not.toMatch(/tel:\+/);
   });
@@ -87,7 +188,7 @@ describe("SEO + GEO domain-ready contracts", () => {
     expect(html).toContain("GovernmentService");
     expect(html).toContain("Ayuntamiento de Madrid");
     expect(html).toContain("sede.madrid.es");
-    expect(html).toMatch(/<time dateTime="2026-09-03">|<time datetime="2026-09-03">/);
+    expect(html).toMatch(new RegExp(`<time (?:dateTime|datetime)="${madrid.last_verified}">`));
     expect(html).not.toContain("LocalBusiness");
     expect(html).toContain('aria-label="Migas de pan"');
     const oleadaD = loadMunicipio("28004");
@@ -108,10 +209,30 @@ describe("SEO + GEO domain-ready contracts", () => {
     expect(html).toContain("FAQPage");
     expect(html).toContain("GovernmentService");
     expect(html).toContain("BreadcrumbList");
-    expect(html).toMatch(/<time dateTime="2026-09-03">|<time datetime="2026-09-03">/);
+    expect(html).toMatch(new RegExp(`<time (?:dateTime|datetime)="${buildPilarModel().editedAt}">`));
     const gs = jsonLdBlocks(html).find((b) => b["@type"] === "GovernmentService");
     expect(gs, "pilar GovernmentService").toBeTruthy();
     expect(gs?.url, "pilar must not point GovernmentService.url at this host").toBeUndefined();
+  });
+
+  it("national padron hub links Madrid, Barcelona and Valencia with relative hrefs", () => {
+    const html = renderPilarHtml();
+    const rows = [
+      { ine: "28079", index: true },
+      { ine: "08019", index: true },
+      { ine: "46250", index: true },
+    ] as const;
+    expect(html).toContain('aria-label="Fichas de Madrid, Barcelona y València"');
+    for (const row of rows) {
+      const m = loadMunicipio(row.ine);
+      expect(m.path.startsWith("/"), m.name).toBe(true);
+      expect(m.path.startsWith("//"), m.name).toBe(false);
+      expect(html, m.name).toContain(`href="${m.path}"`);
+      expect(html, m.name).not.toContain(`href="${SITE_ORIGIN}${m.path}"`);
+      expect(html, m.name).not.toContain(`href="https://rutatramite.es${m.path}"`);
+      expect(isFichaIndexable(m), m.name).toBe(row.index);
+      expect(fichaPageMetadata(m).robots).toEqual({ index: row.index, follow: true });
+    }
   });
 
   it("one urlset sitemap.xml lists every indexable URL (no sitemapindex hop)", () => {
@@ -189,6 +310,8 @@ describe("SEO + GEO domain-ready contracts", () => {
     expect(aviso).toContain(CONTACT_EMAIL);
     expect(aviso).not.toContain("rutatramite.es");
     expect(aviso).not.toContain("hola@rutatramite.es");
+    expect(aviso).toContain("sobre los trámites en España");
+    expect(aviso).not.toContain("sobre el trámites");
   });
 
   it("leftover split-sitemap routes return 404 text, not XML", async () => {

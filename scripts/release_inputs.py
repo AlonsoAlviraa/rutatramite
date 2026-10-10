@@ -7,14 +7,28 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RECORD = ROOT / 'docs/release-inputs.json'
 
+SECRET_FILE_NAMES = frozenset({
+    'servidor.env', 'token.json', 'client_secrets.json', 'id_rsa', 'id_ed25519', 'id_ecdsa',
+})
+
+
+def release_skipped(path: Path) -> bool:
+    # Env files and private keys stay out of the release fingerprint and the archive.
+    name = path.name
+    if name in SECRET_FILE_NAMES or name == '.env' or name.startswith('.env.') or name.endswith('.env'):
+        return True
+    if name.endswith(('.pem', '.key')):
+        return True
+    return '__pycache__' in path.parts or '_drafts' in path.parts
+
 
 def fingerprint():
     paths = []
-    for name in ('src', 'data', 'content', 'public', 'messages'):
-        paths.extend(p for p in (ROOT/name).rglob('*') if p.is_file())
-    paths.extend(ROOT/name for name in ('package.json', 'package-lock.json', 'next.config.ts', 'tailwind.config.ts', 'postcss.config.mjs'))
+    for name in ('src', 'data', 'content', 'public', 'messages', 'scripts', 'tests', 'pack/rutatramite-empadronamiento-agent-pack/05_content/escenarios'):
+        paths.extend(p for p in (ROOT/name).rglob('*') if p.is_file() and not release_skipped(p))
+    paths.extend(ROOT/name for name in ('package.json', 'package-lock.json', 'next.config.ts', 'tailwind.config.ts', 'postcss.config.mjs', 'tsconfig.json', 'vitest.config.ts', 'playwright.config.ts'))
     digest = hashlib.sha256()
-    for path in sorted(paths):
+    for path in sorted(paths, key=lambda p: p.relative_to(ROOT).as_posix()):
         digest.update(path.relative_to(ROOT).as_posix().encode())
         digest.update(b'\0')
         digest.update(hashlib.sha256(path.read_bytes()).digest())

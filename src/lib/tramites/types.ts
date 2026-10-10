@@ -4,9 +4,12 @@ export type GuidePack =
   | "extranjeria"
   | "colegio"
   | "comedor"
+  | "transporte"
   | "fp"
   | "bebe"
   | "becas"
+  | "alquiler"
+  | "elecciones"
   | "modelos";
 
 /** Index path of each pack (breadcrumbs and PackIndex). */
@@ -16,9 +19,12 @@ export const PACK_INDEX_PATH: Record<GuidePack, string> = {
   extranjeria: "/extranjeria",
   colegio: "/colegio",
   comedor: "/comedor",
+  transporte: "/transporte",
   fp: "/fp",
   bebe: "/bebe",
   becas: "/becas",
+  alquiler: "/alquiler",
+  elecciones: "/elecciones",
   modelos: "/modelos",
 };
 

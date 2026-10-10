@@ -17,6 +17,8 @@ INDEX = ROOT / "data" / "municipios" / "_index.json"
 CATALOG_INDEX = ROOT / "data" / "catalog" / "municipios_index.json"
 SRC_INDEX = ROOT / "src" / "lib" / "data" / "municipios_index.generated.json"
 MUN_DIR = ROOT / "data" / "municipios"
+REVIEWS_PATH = ROOT / "data" / "municipal-reviews.json"
+REVIEWS = json.loads(REVIEWS_PATH.read_text(encoding="utf-8")) if REVIEWS_PATH.exists() else {}
 
 
 def load_best_index() -> list:
@@ -53,7 +55,16 @@ def is_ficha_indexable(rec: dict) -> bool:
         n += 1
     if rec.get("last_verified") and rec.get("source_urls"):
         n += 1
-    return rec.get("status") == "published" and rec.get("confidence") == "official" and n >= 5
+    import re
+    evidence = rec.get("evidence") or {}
+    supported = all(
+        (e := evidence.get(key, {})).get("source_url", "").startswith(("http://", "https://"))
+        and "rutatramite." not in e["source_url"].lower()
+        and e["source_url"] in rec.get("source_urls", [])
+        and re.fullmatch(r"\d{4}-\d{2}-\d{2}", e.get("checked_at", ""))
+        for key in ("alta", "docs_extra", "canal")
+    )
+    return bool(supported and rec.get("tramite_alta_url") and rec.get("docs_extra") and rec.get("status") == "published" and rec.get("confidence") == "official" and n >= 5)
 
 
 def load_municipio_record(ine_code: str, fallback: dict) -> dict:
@@ -62,18 +73,52 @@ def load_municipio_record(ine_code: str, fallback: dict) -> dict:
         try:
             rec = json.loads(p.read_text(encoding="utf-8"))
             if isinstance(rec, dict):
-                return rec
+                return {**rec, **REVIEWS.get(ine_code, {})}
         except json.JSONDecodeError:
             pass
-    return fallback
+    return {**fallback, **REVIEWS.get(ine_code, {})}
 TERR = ROOT / "data" / "geo" / "territories.json"
 PUBLIC = ROOT / "public"
-ORIGIN = os.environ.get("NEXT_PUBLIC_SITE_URL", os.environ.get("SITE_ORIGIN", "https://rutatramite.com")).rstrip("/")
+
+
+def canonical_origin(raw: str | None) -> str:
+    origin = (raw or "https://rutatramite.com").strip().rstrip("/")
+    if origin.lower() in {
+        "https://rutatramite.es",
+        "http://rutatramite.es",
+        "https://www.rutatramite.es",
+        "http://www.rutatramite.es",
+    }:
+        return "https://rutatramite.com"
+    return origin
+
+
+ORIGIN = canonical_origin(os.environ.get("NEXT_PUBLIC_SITE_URL", os.environ.get("SITE_ORIGIN", "https://rutatramite.com")))
 
 # Split leftovers from the old index layout — remove so they cannot 200 with stale lists.
 LEGACY = ("sitemap-core.xml", "sitemap-provincias.xml", "sitemap-municipios.xml")
 
 CORE = [
+    "/recursos/padron-municipal",
+    "/ayudas",
+    "/transporte",
+    "/alquiler",
+    "/alquiler/ayudas-por-comunidad",
+    "/alquiler/bono-alquiler-joven",
+    "/alquiler/plan-vivienda-2026-2030",
+    "/alquiler/bono-alquiler-joven-madrid",
+    "/alquiler/bono-alquiler-joven-andalucia",
+    "/alquiler/ayudas-alquiler-cataluna",
+    "/alquiler/decretos-vivienda-derogados-octubre-2026",
+    "/alquiler/propuestas-vivienda-6-octubre-2026",
+    "/elecciones",
+    "/elecciones/voto-por-correo",
+    "/elecciones/calendario-29-noviembre",
+    "/elecciones/quien-puede-votar",
+    "/elecciones/nuevo-partido-coalicion",
+    "/elecciones/huelga-general-sindicatos",
+    "/becas/ayudas-estudiantes",
+    "/becas/apoyo-educativo",
     "/",
     "/empadronarse",
     "/metodologia",
@@ -182,8 +227,8 @@ CORE = [
     "/colegio/inscripcion-extraescolares-ayuntamiento",
     "/comedor/beca-comedor-2026-2027",
     "/comedor/menu-especial-comedor",
-    "/comedor/t16-como-solicitar",
-    "/comedor/abono-joven-estudiante",
+    "/transporte/t16-como-solicitar",
+    "/transporte/abono-joven-estudiante",
     "/fp/cambiar-de-instituto-a-mitad-de-curso",
     "/fp/documentos-matricula-eso",
     "/fp/reserva-de-plaza-fp",
@@ -230,6 +275,8 @@ CORE = [
     "/acuse-de-recibo-modelo",
     "/modelo-subsanacion",
     "/modelo-030-cambio-domicilio",
+    "/descargas",
+    "/recursos",
 ]
 
 
@@ -253,7 +300,7 @@ def main() -> None:
     index = load_best_index()
     terr = json.loads(TERR.read_text(encoding="utf-8"))
     # Do not label a sitemap regeneration as a content review.
-    entries = [url_entry(p) for p in CORE]
+    entries = [url_entry(p, "2026-09-14" if p in ("/empadronarse", "/dni", "/pasaporte", "/recursos") else None) for p in CORE]
     for c in terr["ccaa"]:
         entries.append(url_entry(f"/empadronarse/{c['slug']}"))
         for code in c["province_codes"]:
