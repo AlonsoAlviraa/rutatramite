@@ -29,6 +29,9 @@ a:hover { color:var(--moss-dark); }
 .header-inner { min-height:80px; }
 .brand-lockup { line-height:1.15; color:var(--moss-dark); font-size:1.35rem; font-weight:700; letter-spacing:-.04em; text-decoration:none; }
 .brand-kicker { display:block; font-size:.7rem; font-weight:400; letter-spacing:0; color:var(--ink); margin-top:.35rem; }
+.brand-mark { display:inline-flex; align-items:center; justify-content:center; width:28px; height:28px; flex:none; background:#1B4332; color:#FAF7F2; font-size:1rem; font-weight:700; line-height:1; }
+.brand-ruta { color:#252B26; }
+.brand-tramite { color:#1B4332; }
 .site-nav { display:flex; align-items:center; gap:1.1rem; }
 .site-nav a { display:inline-flex; align-items:center; min-height:44px; font-size:.8rem; color:var(--ink); text-decoration:none; }
 .site-nav a:hover,.site-nav a[aria-current=page] { color:var(--moss); text-decoration:underline; text-underline-offset:5px; }
