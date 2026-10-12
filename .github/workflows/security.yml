@@ -71,6 +71,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Dependency review
+        id: review
+        continue-on-error: true
         uses: actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294 # v5.0.0
         with:
           fail-on-severity: high
+      - name: Fail closed unless the dependency graph is disabled
+        if: steps.review.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COMPARE_URL: https://api.github.com/repos/${{ github.repository }}/dependency-graph/compare/${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          code="$(curl -sS -o /tmp/dependency-review.json -w '%{http_code}' \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "$COMPARE_URL")"
+          if [[ "$code" == "403" || "$code" == "404" ]]; then
+            message="$(python3 -c 'import json; print(json.load(open("/tmp/dependency-review.json")).get("message","dependency graph unavailable"))')"
+            echo "::warning title=dependency-review::Dependency review could not run (${code}: ${message}). Enable the dependency graph under Settings → Advanced Security. High-severity findings still fail this job once the graph is on."
+            exit 0
+          fi
+          echo "Dependency review failed and the compare API returned HTTP ${code}."
+          python3 -c 'import pathlib; print(pathlib.Path("/tmp/dependency-review.json").read_text()[:2000])'
+          exit 1
