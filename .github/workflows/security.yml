@@ -1,0 +1,76 @@
+name: Security
+
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  npm-audit:
+    name: npm-audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup project
+        uses: ./.github/actions/setup-project
+      - name: Audit high severity
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          if [[ ! -f package.json ]]; then
+            echo "No package.json; skipping audit."
+            exit 0
+          fi
+          bash .github/scripts/pm.sh audit
+
+  gitleaks:
+    name: gitleaks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - name: Install gitleaks
+        run: |
+          set -euo pipefail
+          version="8.30.1"
+          asset="gitleaks_${version}_linux_x64.tar.gz"
+          expected="551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb"
+          curl -sSfL -o "/tmp/${asset}" "https://github.com/gitleaks/gitleaks/releases/download/v${version}/${asset}"
+          echo "${expected}  /tmp/${asset}" | sha256sum -c -
+          tar -xzf "/tmp/${asset}" -C /tmp gitleaks
+          sudo install -m 0755 /tmp/gitleaks /usr/local/bin/gitleaks
+          gitleaks version
+      - name: Scan git history
+        run: |
+          set -euo pipefail
+          args=(detect --source . --redact --no-banner --exit-code 1)
+          if [[ -f .gitleaks.toml ]]; then
+            args+=(--config .gitleaks.toml)
+          fi
+          gitleaks "${args[@]}"
+
+  dependency-review:
+    name: dependency-review
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Dependency review
+        uses: actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294 # v5.0.0
+        with:
+          fail-on-severity: high

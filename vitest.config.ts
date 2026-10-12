@@ -11,6 +11,12 @@ export default defineConfig({
     hookTimeout: 180_000,
     teardownTimeout: 180_000,
     fileParallelism: false,
+    coverage: {
+      provider: "v8",
+      reporter: ["text-summary", "json-summary", "lcov"],
+      reportsDirectory: "coverage",
+      include: ["src/**/*.{ts,tsx}"],
+    },
   },
   resolve: {
     alias: {
