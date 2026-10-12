@@ -1,5 +1,7 @@
 # RutaTrámite
 
+[![CI](https://github.com/AlonsoAlviraa/rutatramite/actions/workflows/ci.yml/badge.svg)](https://github.com/AlonsoAlviraa/rutatramite/actions/workflows/ci.yml)
+
 Guía ciudadana para orientarse en trámites frecuentes y empadronarse en municipios de España de 10.000 habitantes o más.
 
 **Producción:** [rutatramite.com](https://rutatramite.com). El servicio está desplegado en un VPS con inquilino aislado. La guía explica la ruta y enlaza a la sede oficial; RutaTrámite no es una Administración Pública y el alta en el padrón es gratuita.
@@ -41,6 +43,19 @@ python scripts/audit_external_links.py
 ```
 
 Stack: Next.js App Router, TypeScript, Tailwind, next-intl (`es`), MiniSearch, Ajv y React Markdown.
+
+## CI
+
+GitHub Actions runs on every push, on pull requests, on manual dispatch, and nightly at 04:00 UTC. The workflow picks the package manager from the lockfile and the Node.js version from `.nvmrc` or `engines.node` (Node 22 when neither is set). A step is skipped when the npm script or config it needs is not in the tree.
+
+Blocking checks are install, lint (when configured), typecheck, unit tests, the Next.js build, Playwright smoke tests, and the internal lychee crawl. Accessibility (axe) reports warnings and does not fail the job. Lighthouse CI uses lenient budgets and is non-blocking. `npm audit` at high severity is non-blocking. [Security](.github/workflows/security.yml) runs gitleaks and, on pull requests, dependency review. Dependency review fails on high-severity changes when the repository dependency graph is enabled; if that setting is off, the job warns and continues. [CodeQL](.github/workflows/codeql.yml) analyzes JavaScript and TypeScript. Dependabot opens weekly updates for npm and GitHub Actions.
+
+```bash
+npm test
+npm run test:coverage
+npm run test:e2e
+npm run test:a11y
+```
 
 ## Despliegue
 

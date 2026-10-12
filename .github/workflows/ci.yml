@@ -1,0 +1,308 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  install:
+    name: install
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup project
+        uses: ./.github/actions/setup-project
+
+  lint:
+    name: lint
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup project
+        uses: ./.github/actions/setup-project
+      - name: Lint
+        run: bash .github/scripts/run-lint.sh
+
+  typecheck:
+    name: typecheck
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup project
+        uses: ./.github/actions/setup-project
+      - name: Typecheck
+        run: bash .github/scripts/run-typecheck.sh
+
+  unit:
+    name: unit
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup project
+        uses: ./.github/actions/setup-project
+      - name: Unit tests
+        run: bash .github/scripts/run-unit.sh
+      - name: Upload coverage
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: coverage
+          path: coverage
+          if-no-files-found: ignore
+          retention-days: 14
+          include-hidden-files: true
+
+  build:
+    name: build
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup project
+        uses: ./.github/actions/setup-project
+      - name: Next.js build
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
+        run: |
+          set -euo pipefail
+          if bash .github/scripts/pm.sh has-script build; then
+            bash .github/scripts/pm.sh run build
+          else
+            echo "No build script; skipping."
+          fi
+      - name: Upload build output
+        if: success()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: next-build
+          path: |
+            .next
+            !.next/cache
+            !.next/standalone
+          if-no-files-found: ignore
+          retention-days: 1
+          compression-level: 1
+          include-hidden-files: true
+
+  seo:
+    name: seo
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup project
+        uses: ./.github/actions/setup-project
+      - name: Sitemap, llms, and metadata scripts
+        run: bash .github/scripts/run-seo.sh
+
+  e2e:
+    name: e2e
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup project
+        uses: ./.github/actions/setup-project
+      - name: Download build output
+        id: download-build
+        continue-on-error: true
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: next-build
+          path: next-artifact
+      - name: Restore Next.js build
+        if: steps.download-build.outcome == 'success'
+        run: bash .github/scripts/restore-next.sh next-artifact
+      - name: Install Playwright Chromium
+        run: |
+          set -euo pipefail
+          if [[ -x node_modules/.bin/playwright ]]; then
+            bash .github/scripts/pm.sh exec playwright install --with-deps chromium
+          else
+            echo "Playwright is not installed; skipping browser install."
+          fi
+      - name: Playwright smoke
+        id: smoke
+        run: |
+          set -euo pipefail
+          if [[ ! -d .next && ! -d out ]]; then
+            echo "No build output; skipping Playwright."
+            exit 0
+          fi
+          if bash .github/scripts/pm.sh has-script test:e2e; then
+            bash .github/scripts/pm.sh run test:e2e
+          elif compgen -G "playwright.config.*" > /dev/null; then
+            bash .github/scripts/pm.sh exec playwright test
+          else
+            echo "No Playwright config or test:e2e script; skipping."
+          fi
+      - name: Upload Playwright report
+        if: failure()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: playwright-report
+          path: |
+            playwright-report
+            test-results
+          if-no-files-found: ignore
+          retention-days: 14
+          include-hidden-files: true
+
+  accessibility:
+    name: accessibility
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup project
+        uses: ./.github/actions/setup-project
+      - name: Download build output
+        id: download-build
+        continue-on-error: true
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: next-build
+          path: next-artifact
+      - name: Restore Next.js build
+        if: steps.download-build.outcome == 'success'
+        run: bash .github/scripts/restore-next.sh next-artifact
+      - name: Install Playwright Chromium
+        run: |
+          set -euo pipefail
+          if [[ -x node_modules/.bin/playwright ]]; then
+            bash .github/scripts/pm.sh exec playwright install --with-deps chromium
+          fi
+      - name: axe (warn)
+        run: |
+          set -euo pipefail
+          if [[ ! -d .next && ! -d out ]]; then
+            echo "No build output; skipping accessibility."
+            exit 0
+          fi
+          if bash .github/scripts/pm.sh has-script test:a11y; then
+            bash .github/scripts/pm.sh run test:a11y
+          elif [[ -f e2e/a11y.spec.ts || -f tests/e2e/a11y.spec.ts ]]; then
+            args=()
+            [[ -f e2e/a11y.spec.ts ]] && args+=("e2e/a11y.spec.ts")
+            [[ -f tests/e2e/a11y.spec.ts ]] && args+=("tests/e2e/a11y.spec.ts")
+            bash .github/scripts/pm.sh exec playwright test "${args[@]}"
+          else
+            echo "No accessibility spec or test:a11y script; skipping."
+          fi
+
+  lighthouse:
+    name: lighthouse
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup project
+        uses: ./.github/actions/setup-project
+      - name: Download build output
+        id: download-build
+        continue-on-error: true
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: next-build
+          path: next-artifact
+      - name: Restore Next.js build
+        if: steps.download-build.outcome == 'success'
+        run: bash .github/scripts/restore-next.sh next-artifact
+      - name: Detect Lighthouse config
+        id: lh
+        run: |
+          set -euo pipefail
+          config=""
+          for candidate in lighthouserc.json lighthouserc.js lighthouserc.cjs .lighthouserc.json .lighthouserc.js .lighthouserc.cjs; do
+            if [[ -f "$candidate" ]]; then
+              config="$candidate"
+              break
+            fi
+          done
+          if [[ -z "$config" ]]; then
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "No Lighthouse CI config; skipping."
+          else
+            echo "present=true" >> "$GITHUB_OUTPUT"
+            echo "path=$config" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Start Next.js server
+        if: steps.lh.outputs.present == 'true'
+        run: bash .github/scripts/start-next.sh
+      - name: Lighthouse CI
+        if: steps.lh.outputs.present == 'true'
+        continue-on-error: true
+        uses: treosh/lighthouse-ci-action@3e7e23fb74242897f95c0ba9cabad3d0227b9b18 # v12.6.2
+        with:
+          configPath: ${{ steps.lh.outputs.path }}
+          uploadArtifacts: true
+          temporaryPublicStorage: false
+
+  lychee:
+    name: lychee
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup project
+        uses: ./.github/actions/setup-project
+      - name: Download build output
+        id: download-build
+        continue-on-error: true
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: next-build
+          path: next-artifact
+      - name: Restore Next.js build
+        if: steps.download-build.outcome == 'success'
+        run: bash .github/scripts/restore-next.sh next-artifact
+      - name: Start Next.js server
+        id: server
+        run: |
+          set -euo pipefail
+          if [[ ! -d .next && ! -d out ]]; then
+            echo "up=false" >> "$GITHUB_OUTPUT"
+            echo "No build output; skipping link check."
+            exit 0
+          fi
+          if ! bash .github/scripts/pm.sh has-script start; then
+            echo "up=false" >> "$GITHUB_OUTPUT"
+            echo "No start script; skipping link check."
+            exit 0
+          fi
+          bash .github/scripts/start-next.sh
+          bash .github/scripts/lychee-internal.sh lychee.ci.toml
+          echo "up=true" >> "$GITHUB_OUTPUT"
+      - name: Internal links
+        if: steps.server.outputs.up == 'true'
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          lycheeVersion: v0.24.2
+          failIfEmpty: true
+          args: --config lychee.ci.toml http://127.0.0.1:3000/ http://127.0.0.1:3000/sitemap.xml http://127.0.0.1:3000/robots.txt http://127.0.0.1:3000/llms.txt
+          jobSummary: true

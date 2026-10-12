@@ -37,6 +37,8 @@
     "src/**/*.tsx",
     "tests/**/*.ts",
     "tests/**/*.tsx",
+    "e2e/**/*.ts",
+    "playwright.config.ts",
     ".next-antislop/types/**/*.ts"
   ],
   "exclude": [
