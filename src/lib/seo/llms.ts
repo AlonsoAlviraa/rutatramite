@@ -15,6 +15,7 @@ const PACK_HEADING: Record<GuidePack, string> = {
   alquiler: "Ayudas al alquiler",
   elecciones: "Elecciones 29 de noviembre de 2026",
   "ayudas-gobierno": "Ayudas del Estado según cada gobierno",
+  "promesas-29n": "Promesas electorales del 29-N por partido, tema, comunidad y perfil",
   modelos: "Modelos y cartas",
   trabajo: "Trabajo, paro y prestaciones",
 };
@@ -32,6 +33,7 @@ const PACK_ORDER: GuidePack[] = [
   "alquiler",
   "elecciones",
   "ayudas-gobierno",
+  "promesas-29n",
   "trabajo",
   "modelos",
 ];
@@ -50,7 +52,7 @@ const LLMS_PER_PACK = 7;
 
 function renderGuideSection(): string {
   const rank = (p: string) => (LLMS_PRIORITY.includes(p) ? LLMS_PRIORITY.indexOf(p) : LLMS_PRIORITY.length);
-  const blocks = PACK_ORDER.map((pack) => {
+  const blocks = PACK_ORDER.filter((pack) => pack !== "promesas-29n").map((pack) => {
     const guides = ALL_GUIDES.filter((g) => g.pack === pack && !LLMS_LISTED.has(g.path))
       .sort((a, b) => rank(a.path) - rank(b.path))
       .slice(0, pack === "elecciones" ? 12 : LLMS_PER_PACK);
@@ -88,7 +90,7 @@ ${mdLink("Becas", "/becas")}: convocatorias, requisitos y seguimiento.
 ${mdLink("Ayudas y plazos", "/ayudas")}: convocatorias seleccionadas con fase, territorio, revisión y fuente oficial.
 ${mdLink("Ayudas al alquiler", "/alquiler")}: Bono Joven, procedimientos regionales y Plan Estatal de Vivienda.
 ${mdLink("Transporte", "/transporte")}: abonos y tarjetas de transporte joven.
-${mdLink("Elecciones 29 de noviembre de 2026", "/elecciones")}: voto por correo, calendario, censo, coaliciones y la huelga anunciada.
+${mdLink("Elecciones 29 de noviembre de 2026", "/elecciones")}: voto por correo, calendario, censo, coaliciones y la huelga anunciada. Promesas por partido, tema, comunidad y perfil: ${SITE_ORIGIN}/elecciones/promesas
 ${mdLink("Ayudas del Estado según cada gobierno desde 1996", "/ayudas-por-gobierno")}: estudiantes, familias, jóvenes, jubilados, autónomos, parados y dependencia; creaciones y recortes con su norma del BOE, sin valoraciones.
 ${mdLink("Modelos y cartas", "/modelos")}: escritos para adaptar a cada caso.
 ${mdLink("Descargas", "/descargas")}: formularios oficiales en PDF, con fuente y fecha de verificación.

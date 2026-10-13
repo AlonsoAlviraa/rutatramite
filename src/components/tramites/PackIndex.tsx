@@ -16,6 +16,7 @@ import { RELATED_LINKS } from "@/lib/seo/relatedLinks";
 import { ALL_GUIDES } from "@/lib/tramites/catalog";
 import { JsonLd } from "@/components/empadronamiento/JsonLd";
 import { AYUDAS_GOBIERNO_NOTE } from "@/lib/tramites/ayudas-por-gobierno";
+import { PROMESAS_29N_NOTE, PROMESAS_29N_UPDATED } from "@/lib/tramites/promesas-29n";
 import { absoluteUrl } from "@/lib/geo/paths";
 
 /** Shared document heading for the hubs whose title and H1 must match. */
@@ -74,6 +75,10 @@ const titles: Record<GuidePack, { h1: string; lead: string }> = {
   "ayudas-gobierno": {
     h1: "Ayudas del Estado según cada gobierno desde 1996: estudiantes, familias, jóvenes, jubilados, autónomos, parados y dependencia",
     lead: "Respuesta corta: los cuatro gobiernos desde 1996 (Aznar, Zapatero, Rajoy y Sánchez) crearon ayudas estatales y también recortaron o suprimieron otras. Elige tu perfil para ver, en una tabla cronológica, cada cambio con su año y su norma del BOE.",
+  },
+  "promesas-29n": {
+    h1: "Promesas electorales del 29-N: qué propone cada partido y cómo te afecta",
+    lead: "Respuesta corta: a 13 de octubre de 2026 ningún partido principal ha publicado su programa completo para las generales del 29 de noviembre. Aquí recogemos cada medida anunciada por PP, PSOE, Vox, Frente Amplio y Podemos (orden por votos en 2023), con su cita, fuente y fecha, y explicamos cómo afectaría según tu comunidad y tu perfil.",
   },
   trabajo: {
     h1: "Trabajo, paro y prestaciones",
@@ -189,8 +194,19 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
           <p className="mt-4 text-sm" data-neutrality-note="">{AYUDAS_GOBIERNO_NOTE} Revisión editorial <time dateTime="2026-10-12">2026-10-12</time>.</p>
         </>
       ) : null}
+      {pack === "promesas-29n" ? (
+        <>
+          <JsonLd data={{ "@context": "https://schema.org", "@type": "ItemList", name: t.h1, itemListElement: guides.map((g, i) => ({ "@type": "ListItem", position: i + 1, name: g.h1, url: absoluteUrl(g.path) })) }} />
+          <JsonLd data={{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
+            { "@type": "Question", name: "¿Qué se vota el 29 de noviembre de 2026?", acceptedAnswer: { "@type": "Answer", text: "Elecciones generales al Congreso (350 diputados) y al Senado, convocadas por el Real Decreto 806/2026. No hay elecciones autonómicas ese día." } },
+            { "@type": "Question", name: "¿Están publicados los programas electorales?", acceptedAnswer: { "@type": "Answer", text: "A 13 de octubre de 2026, no. Recogemos los anuncios con fuente y fecha y marcamos lo demás como pendiente de programa." } },
+            { "@type": "Question", name: "¿Recomendáis algún voto?", acceptedAnswer: { "@type": "Answer", text: "No. Mismo formato para todos los partidos y sin valoraciones." } },
+          ] }} />
+          <p className="mt-4 text-sm" data-neutrality-note="">{PROMESAS_29N_NOTE} Actualizado el <time dateTime={PROMESAS_29N_UPDATED}>{PROMESAS_29N_UPDATED}</time>. <a className="underline" href="/elecciones/promesas/metodologia">Metodología</a></p>
+        </>
+      ) : null}
       {pack === "elecciones" ? (
-        <p className="mt-4 text-sm"><a className="underline" href="/ayudas-por-gobierno">Ayudas del Estado según cada gobierno desde 1996 (informativo, no partidista)</a></p>
+        <p className="mt-4 text-sm"><a className="underline" href="/elecciones/promesas">Promesas del 29-N: qué propone cada partido, por comunidad y perfil</a> · <a className="underline" href="/ayudas-por-gobierno">Ayudas del Estado según cada gobierno desde 1996 (informativo, no partidista)</a></p>
       ) : null}
       {pack === "becas" ? (
         <p className="mt-4 text-sm">

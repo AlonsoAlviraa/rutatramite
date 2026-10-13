@@ -24,7 +24,7 @@ Versión extendida para agentes: [https://rutatramite.com/llms-full.txt](https:/
 - [Ayudas y plazos](https://rutatramite.com/ayudas): convocatorias seleccionadas con fase, territorio, revisión y fuente oficial.
 - [Ayudas al alquiler](https://rutatramite.com/alquiler): Bono Joven, procedimientos regionales y Plan Estatal de Vivienda.
 - [Transporte](https://rutatramite.com/transporte): abonos y tarjetas de transporte joven.
-- [Elecciones 29 de noviembre de 2026](https://rutatramite.com/elecciones): voto por correo, calendario, censo, coaliciones y la huelga anunciada.
+- [Elecciones 29 de noviembre de 2026](https://rutatramite.com/elecciones): voto por correo, calendario, censo, coaliciones y la huelga anunciada. Promesas por partido, tema, comunidad y perfil: https://rutatramite.com/elecciones/promesas
 - [Ayudas del Estado según cada gobierno desde 1996](https://rutatramite.com/ayudas-por-gobierno): estudiantes, familias, jóvenes, jubilados, autónomos, parados y dependencia; creaciones y recortes con su norma del BOE, sin valoraciones.
 - [Modelos y cartas](https://rutatramite.com/modelos): escritos para adaptar a cada caso.
 - [Descargas](https://rutatramite.com/descargas): formularios oficiales en PDF, con fuente y fecha de verificación.

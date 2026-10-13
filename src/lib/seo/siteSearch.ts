@@ -19,6 +19,7 @@ const PACK_LABEL: Record<GuidePack, string> = {
   alquiler: "Ayudas al alquiler",
   elecciones: "Elecciones 29 de noviembre de 2026",
   "ayudas-gobierno": "Ayudas según cada gobierno",
+  "promesas-29n": "Promesas del 29-N",
   modelos: "Modelos y cartas",
   trabajo: "Trabajo y prestaciones",
 };

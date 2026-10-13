@@ -179,6 +179,8 @@ function packLabel(pack: Guide["pack"]): string {
       return "Elecciones";
     case "ayudas-gobierno":
       return "Ayudas según cada gobierno";
+    case "promesas-29n":
+      return "Promesas del 29-N";
     case "trabajo":
       return "Trabajo y prestaciones";
     case "modelos":

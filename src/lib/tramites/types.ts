@@ -11,6 +11,7 @@ export type GuidePack =
   | "alquiler"
   | "elecciones"
   | "ayudas-gobierno"
+  | "promesas-29n"
   | "modelos"
   | "trabajo";
 
@@ -28,6 +29,7 @@ export const PACK_INDEX_PATH: Record<GuidePack, string> = {
   alquiler: "/alquiler",
   elecciones: "/elecciones",
   "ayudas-gobierno": "/ayudas-por-gobierno",
+  "promesas-29n": "/elecciones/promesas",
   modelos: "/modelos",
   trabajo: "/trabajo",
 };

@@ -6,7 +6,7 @@ export const dynamic = "force-static";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return guidesIn("/elecciones").map((g) => ({ slug: g.path.slice("/elecciones/".length) }));
+  return guidesIn("/elecciones").filter((g) => !g.path.slice("/elecciones/".length).includes("/")).map((g) => ({ slug: g.path.slice("/elecciones/".length) }));
 }
 
 export function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
