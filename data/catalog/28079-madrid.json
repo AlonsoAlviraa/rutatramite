@@ -1,0 +1,54 @@
+{
+  "ine_code": "28079",
+  "name": "Madrid",
+  "name_official_alt": null,
+  "slug": "madrid",
+  "province_code": "28",
+  "province_name": "Madrid",
+  "province_slug": "madrid",
+  "ccaa_name": "Comunidad de Madrid",
+  "ccaa_slug": "comunidad-de-madrid",
+  "poblacion": null,
+  "poblacion_ref": "INE — verificar cifra oficial vigente",
+  "sede_url": "https://sede.madrid.es/",
+  "tramite_alta_url": "https://sede.madrid.es/sites/v/index.jsp?vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD",
+  "cita_url": "https://www.madrid.es/citaprevia",
+  "certificado_url": "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextoid=23ccdd9d6baed010VgnVCM2000000c205a0aRCRD",
+  "online": true,
+  "presencial": true,
+  "cita_previa": "required",
+  "oficinas": [
+    {
+      "nombre": "Oficinas de Atención a la Ciudadanía Línea Madrid",
+      "direccion": "Consultar listado oficial OAC / Juntas de Distrito",
+      "cp": null,
+      "lat": null,
+      "lon": null,
+      "horario": "Según oficina",
+      "telefono": "010 (desde Madrid) / 91 480 00 10",
+      "cita": true
+    }
+  ],
+  "tasa_alta": 0,
+  "tasa_volante": 0,
+  "tasa_certificado": 0,
+  "docs_extra": [
+    "Solicitud firmada por los mayores de edad que se empadronan",
+    "Documentos de identidad en vigor",
+    "Documentos que acrediten el uso de la vivienda y autorizaciones"
+  ],
+  "peculiaridades": [
+    "Alta y cambio de domicilio también por sede electrónica con identificación",
+    "Cita presencial: 1 cita por persona cada 30 días",
+    "Una cita = gestiones de un mismo domicilio",
+    "Certificado de empadronamiento gratuito; con Cl@ve se obtiene en el acto (desde 1/3/1991)"
+  ],
+  "idiomas_sede": ["es"],
+  "last_verified": "2026-09-03",
+  "source_urls": [
+    "https://sede.madrid.es/",
+    "https://www.madrid.es/citaprevia"
+  ],
+  "confidence": "official",
+  "status": "published"
+}

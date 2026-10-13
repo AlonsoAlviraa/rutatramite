@@ -1,0 +1,40 @@
+{
+  "ine_code": "43092",
+  "name": "Montroig",
+  "name_official_alt": null,
+  "slug": "montroig",
+  "province_code": "43",
+  "province_name": "Tarragona",
+  "province_slug": "tarragona",
+  "ccaa_name": "Cataluña",
+  "ccaa_slug": "cataluna",
+  "poblacion": 13592,
+  "poblacion_ref": "INE 1-ene-2025 (vía listado público; contrastar cifra vigente en ine.es)",
+  "sede_url": null,
+  "tramite_alta_url": null,
+  "cita_url": null,
+  "certificado_url": null,
+  "online": "unknown",
+  "presencial": null,
+  "cita_previa": "unknown",
+  "oficinas": [],
+  "tasa_alta": 0,
+  "tasa_volante": null,
+  "tasa_certificado": null,
+  "docs_extra": [],
+  "peculiaridades": [],
+  "idiomas_sede": [
+    "es"
+  ],
+  "last_verified": "2026-09-03",
+  "source_urls": [
+    "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031"
+  ],
+  "confidence": "unverified",
+  "status": "published",
+  "oleada": "D",
+  "min_words": 1200,
+  "banda": "10-20k",
+  "catalog_name": "Montroig",
+  "path": "/empadronarse/cataluna/tarragona/montroig"
+}

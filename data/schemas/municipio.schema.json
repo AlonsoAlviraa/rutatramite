@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rutatramite.es/schema/municipio.json",
+  "title": "MunicipioEmpadronamiento",
+  "type": "object",
+  "required": [
+    "ine_code",
+    "name",
+    "slug",
+    "province_code",
+    "province_slug",
+    "ccaa_slug",
+    "confidence",
+    "status",
+    "last_verified",
+    "source_urls"
+  ],
+  "properties": {
+    "ine_code": { "type": "string", "pattern": "^[0-9]{5}$" },
+    "name": { "type": "string", "minLength": 1 },
+    "name_official_alt": { "type": ["string", "null"] },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "province_code": { "type": "string", "pattern": "^[0-9]{2}$" },
+    "province_name": { "type": "string" },
+    "province_slug": { "type": "string" },
+    "ccaa_name": { "type": "string" },
+    "ccaa_slug": { "type": "string" },
+    "poblacion": { "type": ["integer", "null"], "minimum": 0 },
+    "poblacion_ref": { "type": ["string", "null"], "description": "INE 1-ene-AAAA" },
+    "sede_url": { "type": ["string", "null"], "format": "uri" },
+    "tramite_alta_url": { "type": ["string", "null"], "format": "uri" },
+    "cita_url": { "type": ["string", "null"], "format": "uri" },
+    "certificado_url": { "type": ["string", "null"], "format": "uri" },
+    "online": { "enum": [true, false, "partial", "unknown"] },
+    "presencial": { "type": ["boolean", "null"] },
+    "cita_previa": {
+      "enum": ["required", "recommended", "walk-in", "unknown"]
+    },
+    "oficinas": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/oficina" }
+    },
+    "tasa_alta": { "type": "number", "const": 0 },
+    "tasa_volante": { "type": ["number", "null"] },
+    "tasa_certificado": { "type": ["number", "null"] },
+    "docs_extra": { "type": "array", "items": { "type": "string" } },
+    "peculiaridades": { "type": "array", "items": { "type": "string" } },
+    "idiomas_sede": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "last_verified": { "type": "string", "format": "date" },
+    "source_urls": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "format": "uri" }
+    },
+    "confidence": { "enum": ["official", "inferred", "unverified"] },
+    "status": { "enum": ["published", "stub", "draft"] }
+  },
+  "$defs": {
+    "oficina": {
+      "type": "object",
+      "required": ["nombre"],
+      "properties": {
+        "nombre": { "type": "string" },
+        "direccion": { "type": ["string", "null"] },
+        "cp": { "type": ["string", "null"] },
+        "lat": { "type": ["number", "null"] },
+        "lon": { "type": ["number", "null"] },
+        "horario": { "type": ["string", "null"] },
+        "telefono": { "type": ["string", "null"] },
+        "cita": { "type": ["boolean", "null"] }
+      }
+    }
+  }
+}

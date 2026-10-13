@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-container":"#beead1","on-tertiary-fixed-variant":"#3f4c00","secondary":"#3f6653","error-container":"#ffdad6","surface-container-low":"#f6f3ee","background":"#fcf9f4","on-secondary-fixed-variant":"#274e3d","surface":"#fcf9f4","on-primary":"#ffffff","on-secondary-fixed":"#002114","on-background":"#1c1c19","surface-container-lowest":"#ffffff","surface-tint":"#2c694e","on-primary-fixed-variant":"#0e5138","secondary-fixed-dim":"#a5d0b9","error":"#ba1a1a","tertiary-fixed-dim":"#bcd068","primary-fixed-dim":"#95d4b3","primary-fixed":"#b1f0ce","inverse-surface":"#31302d","surface-bright":"#fcf9f4","on-surface-variant":"#404943","tertiary":"#404d00","on-primary-fixed":"#002114","tertiary-fixed":"#d8ec80","tertiary-container":"#566602","primary":"#0f5238","outline-variant":"#bfc9c1","surface-container-highest":"#e5e2dd","secondary-fixed":"#c1ecd4","surface-variant":"#e5e2dd","on-tertiary-fixed":"#181e00","surface-container-high":"#ebe8e3","inverse-primary":"#95d4b3","primary-container":"#2d6a4f","outline":"#707973","on-secondary-container":"#436b58","on-tertiary":"#ffffff","surface-dim":"#dcdad5","on-tertiary-container":"#cfe479","on-error-container":"#93000a","surface-container":"#f0ede9","inverse-on-surface":"#f3f0eb","on-secondary":"#ffffff","on-error":"#ffffff","on-surface":"#1c1c19","on-primary-container":"#a8e7c5"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"space-sm":"0.75rem","space-3xl":"4rem","space-3xs":"0.125rem","space-2xl":"3rem","space-xl":"2rem","space-4xl":"6rem","space-xs":"0.5rem","gutter-desktop":"2rem","space-lg":"1.5rem","container-max":"76rem","reading-max":"45rem","space-md":"1rem","space-2xs":"0.25rem","gutter-mobile":"1rem"},fontFamily:{"headline-md":["Newsreader"],"headline-lg-mobile":["Newsreader"],"display-hero":["Newsreader"],"headline-sm":["Newsreader"],"caption":["Inter"],"label-sm":["Inter"],"body-md":["Inter"],"display-hero-mobile":["Newsreader"],"title-editorial":["Newsreader"],"label-md":["Inter"],"headline-lg":["Newsreader"],"body-sm":["Inter"],"body-lead":["Inter"]},fontSize:{"headline-md":["1.875rem",{"lineHeight":"2.375rem","letterSpacing":"-0.01em","fontWeight":"500"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.01em","fontWeight":"500"}],"display-hero":["3.5rem",{"lineHeight":"4rem","letterSpacing":"-0.02em","fontWeight":"500"}],"headline-sm":["1.375rem",{"lineHeight":"1.875rem","fontWeight":"600"}],"caption":["0.75rem",{"lineHeight":"1.125rem","fontWeight":"400"}],"label-sm":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"600"}],"body-md":["1rem",{"lineHeight":"1.625rem","letterSpacing":"0em","fontWeight":"400"}],"display-hero-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.01em","fontWeight":"500"}],"title-editorial":["1.125rem",{"lineHeight":"1.625rem","fontWeight":"600"}],"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg":["2.5rem",{"lineHeight":"3rem","letterSpacing":"-0.015em","fontWeight":"500"}],"body-sm":["0.875rem",{"lineHeight":"1.375rem","fontWeight":"400"}],"body-lead":["1.25rem",{"lineHeight":"1.875rem","letterSpacing":"-0.005em","fontWeight":"400"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="max-w-container-max mx-auto px-gutter-mobile lg:px-gutter-desktop h-20 flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex flex-col" data-path="explorar-tramites" href="#"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">RutaTrámite</span><span class="font-caption text-caption text-on-surface-variant leading-tight mt-space-3xs hidden sm:block">Guía ciudadana independiente sin afiliación política ni oficial</span></a></div><nav class="hidden xl:flex items-center gap-space-lg h-full" data-active-classes="text-primary font-bold border-b-2 border-primary"><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors py-space-xs" data-path="explorar-tramites" href="#">Explorar trámites</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors py-space-xs" data-path="por-municipio" href="#">Por municipio</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors py-space-xs" data-path="asistentes-paso-a-paso" href="#">Asistentes paso a paso</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors py-space-xs" data-path="modelos-y-plantillas" href="#">Modelos y plantillas</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors py-space-xs" data-path="metodologia-y-rigor" href="#">Metodología y rigor</a></nav><div class="flex items-center gap-space-sm"><div class="hidden md:flex items-center bg-surface-container-lowest rounded-lg px-space-sm py-space-2xs shadow-[0_1px_4px_rgba(0,0,0,0.04)] gap-space-2xs"><span class="material-symbols-outlined text-outline text-[18px]">search</span><input class="bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none w-44 lg:w-56" placeholder="Buscar trámite o certificado..." type="text"/><div class="h-4 w-[1px] bg-surface-container-highest mx-space-2xs"></div><div class="flex items-center gap-space-3xs"><span class="material-symbols-outlined text-outline text-[16px]">location_on</span><span class="font-label-sm text-label-sm text-on-surface-variant">Toda España</span></div></div><div class="hidden sm:inline-flex items-center px-space-xs py-space-3xs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">Sin registro ni rastreo</div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background flex-1"><div class="max-w-container-max mx-auto px-gutter-mobile lg:px-gutter-desktop py-space-xl"><div class="flex flex-col w-full">
+<!-- BREADCRUMBS -->
+<nav class="flex items-center gap-space-xs text-on-surface-variant font-caption text-caption mb-space-md">
+<a class="hover:text-primary transition-colors" href="#">Inicio</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Padrón municipal</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-on-surface font-semibold">Alta por cambio de domicilio</span>
+</nav>
+<!-- CABECERA EDITORIAL -->
+<header class="mb-space-2xl">
+<div class="flex flex-wrap items-center gap-space-xs mb-space-sm">
+<span class="px-space-xs py-space-3xs rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase tracking-wider">
+        Trámite Municipal Obligatorio
+      </span>
+<span class="inline-flex items-center gap-space-3xs px-space-xs py-space-3xs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+        Verificado según Ley de Bases de Régimen Local • Actualizado: Febrero 2025
+      </span>
+</div>
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight mb-space-lg max-w-reading-max">
+      Cómo empadronarse en un nuevo municipio: requisitos, documentos y cita
+    </h1>
+<!-- Resumen ejecutivo -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm relative overflow-hidden">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-primary"></div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md mb-space-lg">
+<div class="space-y-space-3xs">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider flex items-center gap-space-3xs">
+<span class="material-symbols-outlined text-[18px] text-primary">schedule</span>
+            Plazo Legal
+          </div>
+<div class="font-headline-sm text-headline-sm text-on-surface">Máximo 3 meses</div>
+<p class="font-caption text-caption text-on-surface-variant">Desde el traslado efectivo a tu nueva vivienda habitual.</p>
+</div>
+<div class="space-y-space-3xs">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider flex items-center gap-space-3xs">
+<span class="material-symbols-outlined text-[18px] text-primary">payments</span>
+            Coste Administrativo
+          </div>
+<div class="font-headline-sm text-headline-sm text-primary">0 € (Gratuito)</div>
+<p class="font-caption text-caption text-on-surface-variant">Fijado por ley estatal. Ningún consistorio puede cobrar tasa.</p>
+</div>
+<div class="space-y-space-3xs">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider flex items-center gap-space-3xs">
+<span class="material-symbols-outlined text-[18px] text-primary">apartment</span>
+            Organismo Competente
+          </div>
+<div class="font-headline-sm text-headline-sm text-on-surface">Ayuntamiento local</div>
+<p class="font-caption text-caption text-on-surface-variant">Oficina de Atención Ciudadana (OAC) o Padrón municipal.</p>
+</div>
+</div>
+<div class="pt-space-md bg-surface-container-lowest rounded-lg p-space-md shadow-[0_1px_4px_rgba(0,0,0,0.03)] flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-md">
+<div class="space-y-space-3xs max-w-2xl">
+<div class="font-label-md text-label-md text-on-surface flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">info</span>
+            Aviso de rigor institucional
+          </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            RutaTrámite no gestiona citas intermediadas ni cobra comisiones. Este acceso te deriva directamente a la sede telemática oficial de tu administración pública.
+          </p>
+</div>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-primary text-on-primary font-label-md text-label-md rounded-lg hover:bg-primary-container transition-all shadow-sm shrink-0" href="https://sede.administracion.gob.es" rel="noopener noreferrer" target="_blank">
+<span>Ir a la Sede Oficial (con o sin Cl@ve)</span>
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+</header>
+<!-- CONTENEDOR 2 COLUMNAS (ASIMÉTRICO 1/4 + 3/4) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- COLUMNA IZQUIERDA: ÍNDICE FLOTANTE (3 COLUMNAS) -->
+<aside class="hidden lg:block lg:col-span-4 sticky top-24 space-y-space-md">
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm">
+<div class="font-label-md text-label-md text-on-surface uppercase tracking-wider mb-space-sm flex items-center justify-between">
+<span>Índice del Trámite</span>
+<span class="font-caption text-caption text-outline">7 apartados</span>
+</div>
+<nav class="space-y-space-2xs text-body-sm font-body-sm">
+<a class="toc-link flex items-center justify-between py-space-2xs px-space-xs rounded text-primary font-semibold bg-surface-container" href="#seccion-quien">
+<span>1. ¿Quién debe empadronarse?</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+<a class="toc-link flex items-center justify-between py-space-2xs px-space-xs rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" href="#seccion-documentos">
+<span>2. Documentos obligatorios</span>
+<span class="material-symbols-outlined text-[16px] opacity-0">arrow_forward</span>
+</a>
+<a class="toc-link flex items-center justify-between py-space-2xs px-space-xs rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" href="#seccion-casos">
+<span>3. Alquiler o vivienda compartida</span>
+<span class="material-symbols-outlined text-[16px] opacity-0">arrow_forward</span>
+</a>
+<a class="toc-link flex items-center justify-between py-space-2xs px-space-xs rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" href="#seccion-pasos">
+<span>4. Paso a paso para realizarlo</span>
+<span class="material-symbols-outlined text-[16px] opacity-0">arrow_forward</span>
+</a>
+<a class="toc-link flex items-center justify-between py-space-2xs px-space-xs rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" href="#seccion-errores">
+<span>5. Errores habituales</span>
+<span class="material-symbols-outlined text-[16px] opacity-0">arrow_forward</span>
+</a>
+<a class="toc-link flex items-center justify-between py-space-2xs px-space-xs rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" href="#seccion-faq">
+<span>6. Preguntas frecuentes</span>
+<span class="material-symbols-outlined text-[16px] opacity-0">arrow_forward</span>
+</a>
+<a class="toc-link flex items-center justify-between py-space-2xs px-space-xs rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" href="#seccion-fuentes">
+<span>7. Fuentes jurídicas auditadas</span>
+<span class="material-symbols-outlined text-[16px] opacity-0">arrow_forward</span>
+</a>
+</nav>
+<div class="mt-space-md pt-space-sm border-t border-surface-container-highest space-y-space-xs">
+<button class="w-full inline-flex items-center justify-center gap-space-2xs py-space-xs px-space-sm bg-surface-container-lowest hover:bg-surface-container text-on-surface font-label-md text-label-md rounded-lg shadow-sm transition-colors" onclick="window.print()">
+<span class="material-symbols-outlined text-[18px]">print</span>
+<span>Imprimir / Guardar en PDF</span>
+</button>
+<div class="text-center font-caption text-caption text-outline">
+            Formato optimizado para llevar impreso a la oficina
+          </div>
+</div>
+</div>
+<!-- Ficha de síntesis visual -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-xs">
+<div class="font-label-sm text-label-sm text-primary uppercase font-bold flex items-center gap-space-3xs">
+<span class="material-symbols-outlined text-[16px]">verified_user</span>
+          Efectos del empadronamiento
+        </div>
+<p class="font-caption text-caption text-on-surface-variant leading-relaxed">
+          El alta causa la baja automática en tu municipio anterior. Da acceso directo a médico de cabecera en tu centro de salud asignado, plaza escolar, tarjeta de estacionamiento para residentes y censo electoral.
+        </p>
+</div>
+</aside>
+<!-- COLUMNA PRINCIPAL DE CONTENIDO (8 COLUMNAS) -->
+<main class="col-span-1 lg:col-span-8 space-y-space-3xl">
+<!-- SECCIÓN 1: ¿QUIÉN DEBE EMPADRONARSE? -->
+<section class="scroll-mt-24 space-y-space-md" id="seccion-quien">
+<div class="flex items-center gap-space-xs">
+<span class="text-headline-sm font-headline-sm text-primary">01</span>
+<h2 class="text-headline-md font-headline-md text-on-surface">¿Quién debe empadronarse por cambio de domicilio?</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Toda persona de nacionalidad española o extranjera que pase a residir habitualmente en un término municipal diferente o cambie de casa dentro de la misma localidad. La legislación española estipula que es un deber civil y un derecho subjetivo que no depende del estatus legal del inmueble ni de la regularidad administrativa de la estancia.
+        </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md pt-space-xs">
+<div class="bg-surface-container-low rounded-xl p-space-md space-y-space-2xs">
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+              Obligación legal
+            </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Inscribirse en el lugar donde se viva la mayor parte del año. Si vives en varios municipios, debes empadronarte en aquel donde residas más tiempo.
+            </p>
+</div>
+<div class="bg-surface-container-low rounded-xl p-space-md space-y-space-2xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[20px]">sync_saved_locally</span>
+              Baja telemática automática
+            </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              No tienes que acudir a tu antiguo ayuntamiento a darte de baja. El Instituto Nacional de Estadística (INE) coordina la transferencia entre consistorios.
+            </p>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 2: DOCUMENTOS OBLIGATORIOS (CHECKLIST INTERACTIVA) -->
+<section class="scroll-mt-24 space-y-space-md" id="seccion-documentos">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="text-headline-sm font-headline-sm text-primary">02</span>
+<h2 class="text-headline-md font-headline-md text-on-surface">Documentación obligatoria para la cita</h2>
+</div>
+<span class="hidden sm:inline-block px-space-xs py-space-3xs bg-secondary-container text-on-secondary-container rounded font-label-sm text-label-sm">
+            Checklist interactivo
+          </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Marca los documentos conforme los reúnas. Recuerda presentar siempre originales más copia simple si acudes de forma presencial.
+        </p>
+<!-- Checklist -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-sm" id="checklist-container">
+<label class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors cursor-pointer select-none">
+<input class="mt-1 w-5 h-5 rounded text-primary accent-primary focus:ring-0 cursor-pointer" type="checkbox"/>
+<div class="space-y-space-3xs">
+<span class="font-title-editorial text-title-editorial text-on-surface block">
+                1. Documento de Identidad en vigor
+              </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                DNI o Pasaporte para ciudadanos españoles. Tarjeta de Identidad de Extranjero (TIE/NIE) o pasaporte en vigor junto al certificado de registro de ciudadano de la Unión para ciudadanos comunitarios.
+              </p>
+</div>
+</label>
+<label class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors cursor-pointer select-none">
+<input class="mt-1 w-5 h-5 rounded text-primary accent-primary focus:ring-0 cursor-pointer" type="checkbox"/>
+<div class="space-y-space-3xs">
+<span class="font-title-editorial text-title-editorial text-on-surface block">
+                2. Título acreditativo de la posesión de la vivienda
+              </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+<strong>En propiedad:</strong> Escritura de compraventa, nota simple actualizada del Registro de la Propiedad (máximo 3 meses) o último recibo del IBI a tu nombre.<br/>
+<strong>En alquiler:</strong> Contrato de arrendamiento en vigor (mínimo 6 meses) con liquidación de ITP o fianza en el organismo autonómico.
+              </p>
+</div>
+</label>
+<label class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors cursor-pointer select-none">
+<input class="mt-1 w-5 h-5 rounded text-primary accent-primary focus:ring-0 cursor-pointer" type="checkbox"/>
+<div class="space-y-space-3xs">
+<span class="font-title-editorial text-title-editorial text-on-surface block">
+                3. Última factura reciente de suministro domiciliario
+              </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Recibo de agua, luz, gas o telefonía fija emitido a nombre de la persona solicitante en los últimos tres meses, donde figure de forma inequívoca la dirección exacta.
+              </p>
+</div>
+</label>
+<label class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors cursor-pointer select-none">
+<input class="mt-1 w-5 h-5 rounded text-primary accent-primary focus:ring-0 cursor-pointer" type="checkbox"/>
+<div class="space-y-space-3xs">
+<span class="font-title-editorial text-title-editorial text-on-surface block">
+                4. Hoja padronal o Modelo de Solicitud municipal oficial
+              </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Cumplimentada debidamente y firmada por todos los miembros mayores de edad que se trasladen a la vivienda.
+              </p>
+</div>
+</label>
+</div>
+<!-- Indicador interactivo de progreso -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container rounded-lg text-body-sm font-body-sm">
+<div class="flex items-center gap-space-2xs text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-primary">inventory_2</span>
+<span>Progreso de preparación documental:</span>
+</div>
+<span class="font-label-md text-label-md text-primary font-bold" id="checklist-counter">0 de 4 listos</span>
+</div>
+</section>
+<!-- SECCIÓN 3: CASOS ESPECIALES (PESTAÑAS / ACORDEONES) -->
+<section class="scroll-mt-24 space-y-space-md" id="seccion-casos">
+<div class="flex items-center gap-space-xs">
+<span class="text-headline-sm font-headline-sm text-primary">03</span>
+<h2 class="text-headline-md font-headline-md text-on-surface">Casos especiales: alquiler, habitaciones y menores</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          No todos los empadronamientos corresponden a un titular único con escritura. La normativa contempla soluciones garantistas para cada realidad habitacional.
+        </p>
+<!-- Acordeón interactivo accesible -->
+<div class="space-y-space-xs" id="accordion-group">
+<!-- Caso 1 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm">
+<button class="w-full p-space-md flex items-center justify-between text-left hover:bg-surface-container-low transition-colors accordion-toggle">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">meeting_room</span>
+<div>
+<h3 class="font-title-editorial text-title-editorial text-on-surface">Vivir de alquiler en habitación o piso compartido</h3>
+<span class="font-caption text-caption text-on-surface-variant">Sin contrato a tu nombre o subarriendo de habitación</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline transition-transform duration-200 accordion-icon">expand_more</span>
+</button>
+<div class="accordion-content p-space-md pt-0 bg-surface-container-lowest">
+<div class="p-space-sm bg-surface-container-low rounded-lg space-y-space-2xs text-body-sm font-body-sm text-on-surface-variant">
+<p>
+                  Si no figuras como titular en el contrato de arrendamiento, necesitas que la <strong>persona titular del contrato o propietaria empadronada</strong> firme una <em>Autorización de empadronamiento</em> y aporte una copia de su DNI.
+                </p>
+<p>
+                  Muchos ayuntamientos exigen que el autorizante comparezca en persona o presente el contrato original junto al último recibo de pago del alquiler.
+                </p>
+</div>
+</div>
+</div>
+<!-- Caso 2 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm">
+<button class="w-full p-space-md flex items-center justify-between text-left hover:bg-surface-container-low transition-colors accordion-toggle">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">gavel</span>
+<div>
+<h3 class="font-title-editorial text-title-editorial text-on-surface">Alquiler sin contrato formal o vivienda sin título</h3>
+<span class="font-caption text-caption text-on-surface-variant">El padrón acredita residencia efectiva, no legalidad arrendaticia</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline transition-transform duration-200 accordion-icon">expand_more</span>
+</button>
+<div class="accordion-content hidden p-space-md pt-0 bg-surface-container-lowest">
+<div class="p-space-sm bg-surface-container-low rounded-lg space-y-space-2xs text-body-sm font-body-sm text-on-surface-variant">
+<p>
+                  La Resolución del INE y el BOE establece claramente que el Padrón debe reflejar el domicilio real, con independencia de controversias jurídico-privadas.
+                </p>
+<p>
+                  Si el propietario se niega a firmar, puedes solicitar la <strong>comprobación de residencia de oficio</strong>. La Policía Local o los servicios sociales municipales acudirán a la vivienda para verificar que efectivamente pernoctas allí y emitirán un informe vinculante.
+                </p>
+</div>
+</div>
+</div>
+<!-- Caso 3 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm">
+<button class="w-full p-space-md flex items-center justify-between text-left hover:bg-surface-container-low transition-colors accordion-toggle">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">family_restroom</span>
+<div>
+<h3 class="font-title-editorial text-title-editorial text-on-surface">Menores de edad empadronados con un solo progenitor</h3>
+<span class="font-caption text-caption text-on-surface-variant">Custodia compartida o separación legal</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline transition-transform duration-200 accordion-icon">expand_more</span>
+</button>
+<div class="accordion-content hidden p-space-md pt-0 bg-surface-container-lowest">
+<div class="p-space-sm bg-surface-container-low rounded-lg space-y-space-2xs text-body-sm font-body-sm text-on-surface-variant">
+<p>
+                  Se requiere el Libro de Familia o certificado de nacimiento literal. Si los progenitores están separados, es indispensable:
+                </p>
+<ul class="list-disc list-inside space-y-space-3xs text-on-surface">
+<li>Resolución judicial firme con asignación de guarda y custodia.</li>
+<li>Consentimiento expreso firmado del otro progenitor acompañado de su DNI.</li>
+<li>O bien una <em>Declaración responsable de progenitor único</em> en casos de imposibilidad manifiesta de localización o tutela exclusiva.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 4: PASO A PASO SECUENCIAL -->
+<section class="scroll-mt-24 space-y-space-md" id="seccion-pasos">
+<div class="flex items-center gap-space-xs">
+<span class="text-headline-sm font-headline-sm text-primary">04</span>
+<h2 class="text-headline-md font-headline-md text-on-surface">Paso a paso para tramitar el alta</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          El proceso se ejecuta en 4 fases lineales. Puedes optar por la vía telemática si dispones de certificado FNMT o Cl@ve permanente, o por la vía presencial solicitando cita previa.
+        </p>
+<!-- Timeline Steps -->
+<div class="relative pl-8 space-y-space-xl before:absolute before:left-3.5 before:top-3 before:bottom-3 before:w-0.5 before:bg-outline-variant">
+<!-- Paso 1 -->
+<div class="relative">
+<div class="absolute -left-8 top-1 w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-sm text-label-sm font-bold shadow-sm">
+              1
+            </div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-2xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Reunir originales y copias legibles</h3>
+<span class="px-space-xs py-space-3xs bg-surface-container text-on-surface font-caption text-caption rounded">Previo a la cita</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Prepara DNI/NIE original de todos los convivientes, contrato de alquiler o escrituras y la última factura domiciliada. Si vas en persona, lleva una fotocopia de cada uno para que la cotejen y no te cobren por fotocopias en ventanilla.
+              </p>
+</div>
+</div>
+<!-- Paso 2 -->
+<div class="relative">
+<div class="absolute -left-8 top-1 w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-sm text-label-sm font-bold shadow-sm">
+              2
+            </div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-2xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Solicitar cita previa en la OAC del Ayuntamiento</h3>
+<span class="px-space-xs py-space-3xs bg-surface-container text-on-surface font-caption text-caption rounded">Canal Presencial / Telefónico</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Entra en el portal de citas de tu ayuntamiento (ej. Madrid 010, Barcelona Cita Prèvia, Valencia, Sevilla). Selecciona el trámite específico: <em>"Padrón de Habitantes - Altas y cambios de domicilio"</em>.
+              </p>
+<div class="p-space-xs bg-surface-container-low rounded text-caption font-caption text-on-surface flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[16px] text-secondary">tips_and_updates</span>
+<span>En muchas capitales las citas se abren diariamente entre las 08:30 y las 09:00 de la mañana.</span>
+</div>
+</div>
+</div>
+<!-- Paso 3 -->
+<div class="relative">
+<div class="absolute -left-8 top-1 w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-sm text-label-sm font-bold shadow-sm">
+              3
+            </div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-2xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Acudir a la oficina o firmar mediante Sede Electrónica</h3>
+<span class="px-space-xs py-space-3xs bg-primary-fixed text-on-primary-fixed font-caption text-caption rounded font-semibold">Resolución del trámite</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Si es <strong>online</strong>: adjunta los PDFs escaneados a través del registro electrónico. Se firma con Autofirma o Cl@ve Firma.<br/>
+                Si es <strong>presencial</strong>: el funcionario revisa los documentos, te hace firmar la hoja padronal y registra el alta de inmediato.
+              </p>
+</div>
+</div>
+<!-- Paso 4 -->
+<div class="relative">
+<div class="absolute -left-8 top-1 w-7 h-7 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-label-sm text-label-sm font-bold shadow-sm">
+              4
+            </div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-2xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Obtener el Volante o Certificado de Empadronamiento</h3>
+<span class="px-space-xs py-space-3xs bg-secondary-container text-on-secondary-container font-caption text-caption rounded font-semibold">Listo</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Al terminar el trámite presencial te entregarán en el acto el volante individual o familiar. Con este volante ya puedes acudir a tu Centro de Salud para que te asignen médico y tramitar el cambio de domicilio fiscal en la AEAT.
+              </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 5: ERRORES HABITUALES -->
+<section class="scroll-mt-24 space-y-space-md" id="seccion-errores">
+<div class="flex items-center gap-space-xs">
+<span class="text-headline-sm font-headline-sm text-primary">05</span>
+<h2 class="text-headline-md font-headline-md text-on-surface">Errores habituales que retrasan el alta</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div class="p-space-md bg-surface-container-low rounded-xl space-y-space-2xs">
+<div class="flex items-center gap-space-2xs text-error font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px]">error</span>
+              DNI o TIE caducado
+            </div>
+<p class="font-caption text-caption text-on-surface-variant leading-relaxed">
+              No admiten documentos de identidad vencidos salvo que aportes justificante oficial de la cita de renovación de la Policía Nacional.
+            </p>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-xl space-y-space-2xs">
+<div class="flex items-center gap-space-2xs text-error font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px]">error</span>
+              Facturas antiguas (&gt;3 meses)
+            </div>
+<p class="font-caption text-caption text-on-surface-variant leading-relaxed">
+              Las facturas de suministros deben ser del trimestre en curso. Facturas anuales (ej. seguro del hogar) suelen ser rechazadas.
+            </p>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-xl space-y-space-2xs">
+<div class="flex items-center gap-space-2xs text-error font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px]">error</span>
+              Falta de firmas conjuntas
+            </div>
+<p class="font-caption text-caption text-on-surface-variant leading-relaxed">
+              Si se empadronan cónyuges o compañeros, todos los adultos deben firmar la hoja de inscripción antes de presentarla en ventanilla.
+            </p>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 6: PREGUNTAS FRECUENTES -->
+<section class="scroll-mt-24 space-y-space-md" id="seccion-faq">
+<div class="flex items-center gap-space-xs">
+<span class="text-headline-sm font-headline-sm text-primary">06</span>
+<h2 class="text-headline-md font-headline-md text-on-surface">Preguntas frecuentes sin rodeos</h2>
+</div>
+<div class="space-y-space-xs">
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-2xs">
+<div class="font-title-editorial text-title-editorial text-on-surface">
+              ¿Qué diferencia hay entre volante y certificado de empadronamiento?
+            </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              El <strong>volante</strong> es un documento informativo gratuito que sirve para el 90% de los trámites habituales: médico, colegio, bonobús o DGT. El <strong>certificado</strong> es un documento público formal firmado por el Secretario del Ayuntamiento, necesario para trámites ante juzgados, extranjería, bodas civiles o herencias.
+            </p>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-2xs">
+<div class="font-title-editorial text-title-editorial text-on-surface">
+              ¿Tiene caducidad el padrón municipal?
+            </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Para ciudadanos españoles y comunitarios con residencia permanente, el alta en el padrón no caduca. Únicamente los ciudadanos extracomunitarios sin autorización de residencia permanente deben renovar su inscripción cada 2 años.
+            </p>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-2xs">
+<div class="font-title-editorial text-title-editorial text-on-surface">
+              ¿Puede el casero prohibirme el empadronamiento por contrato?
+            </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              No. Cualquier cláusula en un contrato de alquiler que prohíba empadronarse es radicalmente nula de pleno derecho. El empadronamiento es una obligación legal del ciudadano que ninguna estipulación privada puede revocar.
+            </p>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 7: FUENTES JURÍDICAS AUDITADAS -->
+<section class="scroll-mt-24 space-y-space-md" id="seccion-fuentes">
+<div class="flex items-center gap-space-xs">
+<span class="text-headline-sm font-headline-sm text-primary">07</span>
+<h2 class="text-headline-md font-headline-md text-on-surface">Fuentes jurídicas y base legal contrastada</h2>
+</div>
+<div class="bg-surface-container-low rounded-xl p-space-lg space-y-space-md">
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Esta guía se redacta y revisa siguiendo estrictamente el marco normativo consolidado del Estado español publicado en el Boletín Oficial del Estado:
+          </p>
+<div class="space-y-space-xs">
+<a class="flex items-center justify-between p-space-sm bg-surface-container-lowest rounded-lg hover:bg-surface-container transition-colors shadow-sm" href="https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392" rel="noopener noreferrer" target="_blank">
+<div class="space-y-space-3xs">
+<span class="font-label-md text-label-md text-primary block">Ley 7/1985, de 2 de abril (Artículos 15 al 18)</span>
+<span class="font-caption text-caption text-on-surface-variant">Reguladora de las Bases del Régimen Local (derechos y deberes de los vecinos).</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px]">open_in_new</span>
+</a>
+<a class="flex items-center justify-between p-space-sm bg-surface-container-lowest rounded-lg hover:bg-surface-container transition-colors shadow-sm" href="https://www.boe.es/buscar/act.php?id=BOE-A-1997-1361" rel="noopener noreferrer" target="_blank">
+<div class="space-y-space-3xs">
+<span class="font-label-md text-label-md text-primary block">Real Decreto 2612/1996, de 20 de diciembre</span>
+<span class="font-caption text-caption text-on-surface-variant">Modificación del Reglamento de Población y Demarcación Territorial de las Entidades Locales.</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px]">open_in_new</span>
+</a>
+<a class="flex items-center justify-between p-space-sm bg-surface-container-lowest rounded-lg hover:bg-surface-container transition-colors shadow-sm" href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-4784" rel="noopener noreferrer" target="_blank">
+<div class="space-y-space-3xs">
+<span class="font-label-md text-label-md text-primary block">Resolución de 17 de febrero de 2020 (INE y DGCGM)</span>
+<span class="font-caption text-caption text-on-surface-variant">Instrucciones técnicas a los Ayuntamientos sobre gestión del Padrón municipal.</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px]">open_in_new</span>
+</a>
+</div>
+<div class="p-space-sm bg-surface-container rounded-lg text-caption font-caption text-on-surface-variant space-y-space-3xs">
+<span class="font-semibold text-on-surface flex items-center gap-space-3xs">
+<span class="material-symbols-outlined text-[16px] text-primary">menu_book</span>
+              Nota de auditoría cívica
+            </span>
+<p>
+              Toda la información expuesta es analizada mensualmente por documentalistas cívicos independientes para verificar su correspondencia con las directrices de la Dirección General de Cooperación Autonómica y Local.
+            </p>
+</div>
+</div>
+</section>
+</main>
+</div>
+</div>
+<script>
+  (function() {
+    // 1. Checklist Counter Micro-interaction
+    const container = document.getElementById('checklist-container');
+    const counter = document.getElementById('checklist-counter');
+    if (container && counter) {
+      const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+      const total = checkboxes.length;
+
+      function updateCounter() {
+        const checkedCount = container.querySelectorAll('input[type="checkbox"]:checked').length;
+        counter.textContent = checkedCount + ' de ' + total + ' listos';
+        if (checkedCount === total) {
+          counter.classList.add('text-secondary');
+        } else {
+          counter.classList.remove('text-secondary');
+        }
+      }
+
+      checkboxes.forEach(cb => cb.addEventListener('change', updateCounter));
+    }
+
+    // 2. Accordion Functionality
+    const accordions = document.querySelectorAll('.accordion-toggle');
+    accordions.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const content = btn.nextElementSibling;
+        const icon = btn.querySelector('.accordion-icon');
+        const isHidden = content.classList.contains('hidden');
+        
+        if (isHidden) {
+          content.classList.remove('hidden');
+          if (icon) icon.style.transform = 'rotate(180deg)';
+        } else {
+          content.classList.add('hidden');
+          if (icon) icon.style.transform = 'rotate(0deg)';
+        }
+      });
+    });
+
+    // 3. ScrollSpy for Sticky TOC
+    const sections = document.querySelectorAll('section[id]');
+    const tocLinks = document.querySelectorAll('.toc-link');
+
+    window.addEventListener('scroll', () => {
+      let currentId = '';
+      const scrollPos = window.scrollY + 120;
+
+      sections.forEach(sec => {
+        if (sec.offsetTop <= scrollPos) {
+          currentId = sec.getAttribute('id');
+        }
+      });
+
+      tocLinks.forEach(link => {
+        const href = link.getAttribute('href').replace('#', '');
+        const arrow = link.querySelector('.material-symbols-outlined');
+        if (href === currentId) {
+          link.classList.add('text-primary', 'font-semibold', 'bg-surface-container');
+          link.classList.remove('text-on-surface-variant');
+          if (arrow) arrow.classList.remove('opacity-0');
+        } else {
+          link.classList.remove('text-primary', 'font-semibold', 'bg-surface-container');
+          link.classList.add('text-on-surface-variant');
+          if (arrow) arrow.classList.add('opacity-0');
+        }
+      });
+    });
+  })();
+</script></div></main><footer class="w-full bg-surface-container-low shadow-[0_-1px_8px_rgba(0,0,0,0.02)] mt-space-3xl"><div class="max-w-container-max mx-auto px-gutter-mobile lg:px-gutter-desktop py-space-2xl"><div class="grid grid-cols-1 md:grid-cols-12 gap-space-xl pb-space-2xl"><div class="md:col-span-5 space-y-space-sm"><div class="flex items-baseline gap-space-xs"><span class="font-headline-sm text-headline-sm text-primary">RutaTrámite</span><span class="font-label-sm text-label-sm text-on-surface-variant">Archivo Cívico</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-reading-max leading-relaxed">Declaración de independencia: RutaTrámite es una guía cívica abierta y comunitaria. No somos organismo oficial ni gestionamos citas. Verificamos fuentes del BOE y sedes electrónicas para traducir la burocracia a un lenguaje comprensible.</p><div class="pt-space-2xs"><span class="inline-flex items-center gap-space-3xs font-label-sm text-label-sm text-primary"><span class="material-symbols-outlined text-[16px]">verified</span>Verificado con sedes electrónicas oficiales y BOE</span></div></div><div class="md:col-span-3 space-y-space-xs"><div class="font-label-md text-label-md text-on-surface uppercase tracking-wider font-semibold">Auditoría y Fuentes</div><ul class="space-y-space-2xs"><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="metodologia-y-rigor" href="#">Metodología de verificación</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="fuentes-auditadas" href="#">Fuentes oficiales auditadas</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="directorio-sedes" href="#">Directorio de sedes electrónicas</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="glosario-administrativo" href="#">Glosario administrativo sin tecnicismos</a></li></ul></div><div class="md:col-span-4 space-y-space-xs"><div class="font-label-md text-label-md text-on-surface uppercase tracking-wider font-semibold">Compromiso Cívico</div><ul class="space-y-space-2xs"><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="contacto-y-sugerencias" href="#">Contacto y sugerencias ciudadanas</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="declaracion-accesibilidad" href="#">Accesibilidad WCAG AA</a></li></ul><div class="p-space-sm bg-surface-container rounded-lg text-on-surface-variant font-caption text-caption space-y-space-3xs"><div class="font-label-sm text-label-sm text-on-surface flex items-center gap-space-3xs"><span class="material-symbols-outlined text-[16px] text-secondary">shield</span>Privacidad por arquitectura</div><div>Sin inicio de sesión forzado. Cero rastreadores analíticos de terceros. Los datos de simulación permanecen exclusivamente en tu navegador.</div></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-sm font-caption text-caption text-outline"><p>© 2024 RutaTrámite. Divulgación ciudadana y documentación administrativa de libre acceso.</p><p>Edición continua actualizada conforme al Boletín Oficial del Estado.</p></div></div></footer></body></html>

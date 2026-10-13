@@ -1,0 +1,3 @@
+Editorial audit note (7 September 2026)
+
+The latest claim review is documented in docs/identity-editorial-review.md, docs/tie-travel-review.md and docs/technical-crawl-current.md. Those reports point to the active build and primary sources. This file replaces an earlier raw grep capture that predated the final copy corrections.

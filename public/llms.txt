@@ -1,0 +1,57 @@
+﻿# RutaTrámite
+
+> Guía ciudadana independiente sobre trámites en España: padrón, documentación, extranjería, educación, familia y modelos de escritos. No somos Administración Pública ni gestionamos expedientes.
+
+Las guías orientan y enlazan al organismo responsable. Contrasta las condiciones y los plazos en la fuente oficial. La fecha de edición no equivale a una revisión reciente de todos los datos. Las fichas con datos locales pendientes lo indican; no deben interpretarse como requisitos municipales verificados.
+
+Las fichas siguen el patrón `/empadronarse/{ccaa}/{provincia}/{municipio}`. Las guías temáticas utilizan rutas como `/dni/{guia}` o `/extranjeria/{guia}`. La cita de DNI y pasaporte se solicita en citapreviadnie.es o en el 060. Los enlaces siguientes llevan a páginas HTML públicas, no a servicios de presentación de solicitudes.
+
+Versión extendida para agentes: [https://rutatramite.com/llms-full.txt](https://rutatramite.com/llms-full.txt). Resumen JSON: [https://rutatramite.com/ai/summary.json](https://rutatramite.com/ai/summary.json).
+
+## Directorio de trámites
+
+- [Inicio](https://rutatramite.com/): buscador de guías y asistente de padrón.
+- [Empadronamiento](https://rutatramite.com/empadronarse): procedimiento general y directorio municipal.
+- [DNI y pasaporte](https://rutatramite.com/dni): cita, documentación y renovación.
+- [Pasaporte](https://rutatramite.com/pasaporte): cita, urgencia y menores.
+- [Extranjería](https://rutatramite.com/extranjeria): guías y canales de tramitación.
+- [Mudanza](https://rutatramite.com/mudanza): cambios de domicilio y gestiones relacionadas.
+- [Colegio](https://rutatramite.com/colegio): escolarización y cambios de centro.
+- [Comedor y transporte escolar](https://rutatramite.com/comedor): ayudas y movilidad de estudiantes.
+- [Formación Profesional](https://rutatramite.com/fp): matrícula, convalidaciones y becas.
+- [Bebé](https://rutatramite.com/bebe): gestiones administrativas familiares.
+- [Becas](https://rutatramite.com/becas): convocatorias, requisitos y seguimiento.
+- [Modelos y cartas](https://rutatramite.com/modelos): escritos para adaptar a cada caso.
+
+## Padrón según la situación
+
+- [Con contrato de alquiler](https://rutatramite.com/empadronarse/con-contrato)
+- [Sin contrato de alquiler](https://rutatramite.com/empadronarse/sin-contrato)
+- [Propietario o usufructuario](https://rutatramite.com/empadronarse/propietario)
+- [Casa de un familiar](https://rutatramite.com/empadronarse/casa-de-familiar)
+- [Alta con menores](https://rutatramite.com/empadronarse/menores)
+- [Extranjeros UE / EEE / Suiza](https://rutatramite.com/empadronarse/extranjeros-ue)
+- [Extranjeros no comunitarios](https://rutatramite.com/empadronarse/extranjeros-no-ue)
+- [Sin hogar o infravivienda](https://rutatramite.com/empadronarse/sin-hogar)
+- [Volante, certificado e histórico](https://rutatramite.com/empadronarse/volante-vs-certificado)
+- [Renovación a los 2 años](https://rutatramite.com/empadronarse/renovacion-2-anos)
+- [Cambio de domicilio](https://rutatramite.com/empadronarse/cambio-de-domicilio)
+- [Baja en el padrón](https://rutatramite.com/empadronarse/baja)
+- [Volante de empadronamiento por internet](https://rutatramite.com/empadronarse/volante-online)
+- [Cita previa de empadronamiento en Madrid](https://rutatramite.com/empadronarse/cita-previa-madrid)
+- [Ficha de Madrid](https://rutatramite.com/empadronarse/comunidad-de-madrid/madrid/madrid): orientación y enlaces municipales disponibles.
+
+## Fuentes oficiales frecuentes
+
+- [Ley 7/1985 (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392): bases del régimen local y padrón.
+- [Instrucciones INE a los ayuntamientos (2015)](https://www.boe.es/buscar/doc.php?id=BOE-A-2015-3109).
+- [Cita DNI y pasaporte](https://www.citapreviadnie.es/).
+- [Becas MEC](https://www.becaseducacion.gob.es/).
+
+## Criterios editoriales
+
+- [Cómo verificamos](https://rutatramite.com/metodologia): fuentes, fechas y límites de la revisión.
+- [Fuentes](https://rutatramite.com/fuentes): referencias del directorio y fuentes de cada guía.
+- [Contacto](https://rutatramite.com/contacto): comunicar errores sin enviar documentos personales.
+- [Privacidad](https://rutatramite.com/privacidad): funcionamiento del asistente y contacto.
+- [Aviso legal](https://rutatramite.com/aviso-legal): alcance informativo del sitio.

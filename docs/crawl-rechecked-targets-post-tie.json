@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/empadronarse/cataluna/barcelona/badalona",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/cataluna/barcelona/badalona"
+  },
+  {
+    "path": "/empadronarse/cataluna/barcelona/berga",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/cataluna/barcelona/berga"
+  },
+  {
+    "path": "/empadronarse/cataluna/girona/la-escala",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/cataluna/girona/la-escala"
+  },
+  {
+    "path": "/empadronarse/cataluna/girona/lloret-de-mar",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/cataluna/girona/lloret-de-mar"
+  },
+  {
+    "path": "/empadronarse/cataluna/tarragona/montroig",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/cataluna/tarragona/montroig"
+  },
+  {
+    "path": "/empadronarse/comunidad-valenciana/alicante/castalla",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/comunidad-valenciana/alicante/castalla"
+  },
+  {
+    "path": "/empadronarse/region-de-murcia/murcia/santomera",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/region-de-murcia/murcia/santomera"
+  },
+  {
+    "path": "/empadronarse/region-de-murcia/murcia/torre-pacheco",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/region-de-murcia/murcia/torre-pacheco"
+  }
+]

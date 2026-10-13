@@ -1,0 +1,48 @@
+{
+  "build_id": "RG-IFGkNbtj4GhuWqm1Tl",
+  "scope": "Static HTML prerequisites only; not a complete accessibility audit",
+  "pages": [
+    {
+      "path": "/",
+      "issues": [],
+      "controls": 19,
+      "buttons": 3
+    },
+    {
+      "path": "/dni",
+      "issues": [],
+      "controls": 1,
+      "buttons": 1
+    },
+    {
+      "path": "/dni/cita-previa",
+      "issues": [],
+      "controls": 0,
+      "buttons": 1
+    },
+    {
+      "path": "/empadronarse",
+      "issues": [],
+      "controls": 18,
+      "buttons": 3
+    },
+    {
+      "path": "/empadronarse/comunidad-de-madrid/madrid/madrid",
+      "issues": [],
+      "controls": 0,
+      "buttons": 1
+    },
+    {
+      "path": "/becas/muface",
+      "issues": [],
+      "controls": 0,
+      "buttons": 1
+    },
+    {
+      "path": "/contacto",
+      "issues": [],
+      "controls": 0,
+      "buttons": 1
+    }
+  ]
+}

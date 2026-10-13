@@ -1,0 +1,890 @@
+{
+  "build_id": "tSaLmQxc_8_5ek2TQNGHB",
+  "indexed_pages": 228,
+  "method": "External anchors; HEAD, GET only if HEAD unsupported. HTTP success does not establish factual correctness. Blocks/timeouts require manual verification.",
+  "counts": {
+    "reachable": 57,
+    "unverified": 25
+  },
+  "links": [
+    {
+      "url": "https://administracion.gob.es/pagFront/buscadoractuaciones/detalleActuacion.htm?codSia=994235&retorno=true",
+      "status": 200,
+      "final_url": "https://administracion.gob.es/pagFront/buscadoractuaciones/detalleActuacion.htm?codSia=994235&retorno=true",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/nie-verde"
+      ]
+    },
+    {
+      "url": "https://administracion.gob.es/pag_Home/Tramites/ServiciosElectronicosFrecuentes/Obtencion-Certificado-Electronico-FNMT.html",
+      "status": 200,
+      "final_url": "https://administracion.gob.es/pag_Home/Tramites/ServiciosElectronicosFrecuentes/Obtencion-Certificado-Electronico-FNMT.html",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/nie-verde"
+      ]
+    },
+    {
+      "url": "https://administracion.gob.es/pag_Home/Tu-espacio-europeo/derechos-obligaciones/ciudadanos/residencia/obtencion-residencia/residencia-permanente.html",
+      "status": 200,
+      "final_url": "https://administracion.gob.es/pag_Home/Tu-espacio-europeo/derechos-obligaciones/ciudadanos/residencia/obtencion-residencia/residencia-permanente.html",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/nie-verde"
+      ]
+    },
+    {
+      "url": "https://github.com/codeforspain/ds-organizacion-administrativa",
+      "status": 200,
+      "final_url": "https://github.com/codeforspain/ds-organizacion-administrativa",
+      "result": "reachable",
+      "pages": [
+        "/fuentes"
+      ]
+    },
+    {
+      "url": "https://help.vueling.com/hc/es/articles/19798843861393-Documentaci%C3%B3n-para-viajar",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/dni/caducado-vueling"
+      ]
+    },
+    {
+      "url": "https://idapadron.ine.es",
+      "status": 200,
+      "final_url": "https://idapadron.ine.es/idapadron-web/",
+      "result": "reachable",
+      "pages": [
+        "/empadronarse/volante-vs-certificado"
+      ]
+    },
+    {
+      "url": "https://idapadron.ine.es/",
+      "status": 200,
+      "final_url": "https://idapadron.ine.es/idapadron-web/",
+      "result": "reachable",
+      "pages": [
+        "/autorizacion-empadronamiento",
+        "/autorizacion-empadronar-menor",
+        "/declaracion-responsable-padron",
+        "/fuentes"
+      ]
+    },
+    {
+      "url": "https://muface.sede.gob.es/procedimiento/portada?idProc=132654",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/becas/muface"
+      ]
+    },
+    {
+      "url": "https://sede.administracionespublicas.gob.es/",
+      "status": 200,
+      "final_url": "https://sede.administracionespublicas.gob.es/",
+      "result": "reachable",
+      "pages": [
+        "/colegio/autorizacion-recogida-menores",
+        "/extranjeria/arraigo-padron",
+        "/extranjeria/autorizacion-regreso",
+        "/extranjeria/autorizacion-regreso-ex13",
+        "/extranjeria/autorizacion-regreso-navidad",
+        "/extranjeria/certificado-registro-ue",
+        "/extranjeria/cita-huellas-tie",
+        "/extranjeria/huellas-que-llevar",
+        "/extranjeria/huellas-sin-citas-barcelona",
+        "/extranjeria/nie",
+        "/extranjeria/nie-verde",
+        "/extranjeria/nie-vs-nif",
+        "/extranjeria/no-hay-citas",
+        "/extranjeria/subsanar-regularizacion-correos",
+        "/extranjeria/tie-caducada-viajar",
+        "/extranjeria/tie-recogida-cuanto-tarda"
+      ]
+    },
+    {
+      "url": "https://sede.administracionespublicas.gob.es/ayuda/faq/extranjeria",
+      "status": 200,
+      "final_url": "https://sede.administracionespublicas.gob.es/ayuda/faq/extranjeria",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/huellas-sin-citas-barcelona",
+        "/extranjeria/no-hay-citas"
+      ]
+    },
+    {
+      "url": "https://sede.administracionespublicas.gob.es/pagina/index/directorio/ayuda_cita_previa",
+      "status": 200,
+      "final_url": "https://sede.administracionespublicas.gob.es/pagina/index/directorio/ayuda_cita_previa",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/huellas-sin-citas-barcelona",
+        "/extranjeria/no-hay-citas"
+      ]
+    },
+    {
+      "url": "https://sede.administracionespublicas.gob.es/pagina/index/directorio/expedientes_extranjeria",
+      "status": 200,
+      "final_url": "https://sede.administracionespublicas.gob.es/pagina/index/directorio/expedientes_extranjeria",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/mercurio"
+      ]
+    },
+    {
+      "url": "https://sede.administracionespublicas.gob.es/pagina/index/directorio/mercurio2",
+      "status": 200,
+      "final_url": "https://sede.administracionespublicas.gob.es/pagina/index/directorio/mercurio2",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/mercurio"
+      ]
+    },
+    {
+      "url": "https://sede.agenciatributaria.gob.es/",
+      "status": 200,
+      "final_url": "https://sede.agenciatributaria.gob.es/",
+      "result": "reachable",
+      "pages": [
+        "/hacienda/modelo-030",
+        "/modelo-030-cambio-domicilio"
+      ]
+    },
+    {
+      "url": "https://sede.dgt.gob.es/",
+      "status": 500,
+      "result": "unverified",
+      "pages": [
+        "/hacienda/modelo-030"
+      ]
+    },
+    {
+      "url": "https://sede.madrid.es/",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/empadronarse/comunidad-de-madrid/madrid/madrid"
+      ]
+    },
+    {
+      "url": "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=45f45704a7758810VgnVCM1000008a4a900aRCRD&vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/empadronarse/comunidad-de-madrid/madrid/madrid"
+      ]
+    },
+    {
+      "url": "https://sede.mjusticia.gob.es/tramites/inscripcion-nacimiento",
+      "status": 200,
+      "final_url": "https://sede.mjusticia.gob.es/tramites/inscripcion-nacimiento",
+      "result": "reachable",
+      "pages": [
+        "/bebe/inscripcion-nacimiento-registro-civil",
+        "/bebe/libro-de-familia-vigente"
+      ]
+    },
+    {
+      "url": "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_tarjeta_residencia_residenciaytrabajo.php/index.php",
+      "status": 200,
+      "final_url": "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_tarjeta_residencia_residenciaytrabajo.php/index.php",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/huellas-que-llevar",
+        "/extranjeria/huellas-sin-citas-barcelona",
+        "/extranjeria/tie-recogida-cuanto-tarda"
+      ]
+    },
+    {
+      "url": "https://sede.seg-social.gob.es/",
+      "status": 200,
+      "final_url": "https://sede.seg-social.gob.es/wps/portal/sede/sede/Inicio",
+      "result": "reachable",
+      "pages": [
+        "/bebe/prestacion-por-nacimiento",
+        "/bebe/tarjeta-sanitaria-bebe"
+      ]
+    },
+    {
+      "url": "https://sede.sepe.gob.es/",
+      "status": 200,
+      "final_url": "https://sede.sepe.gob.es/portalSede",
+      "result": "reachable",
+      "pages": [
+        "/certificado-empresa-sepe"
+      ]
+    },
+    {
+      "url": "https://www.aena.es/es/adolfo-suarez-madrid-barajas/servicios-del-aeropuerto/categorias-y-terminales/seguridad.html",
+      "status": 200,
+      "final_url": "https://www.aena.es/es/adolfo-suarez-madrid-barajas/servicios-del-aeropuerto/categorias-y-terminales/seguridad.html",
+      "result": "reachable",
+      "pages": [
+        "/dni/urgente-sin-cita"
+      ]
+    },
+    {
+      "url": "https://www.aena.es/es/pasajeros/documentacion-visados/documentacion-para-viajar.html",
+      "status": 200,
+      "final_url": "https://www.aena.es/es/pasajeros/documentacion-visados/documentacion-para-viajar.html",
+      "result": "reachable",
+      "pages": [
+        "/dni/perdido-volar"
+      ]
+    },
+    {
+      "url": "https://www.becaseducacion.gob.es/",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/becas/colaboracion",
+        "/becas/erasmus",
+        "/becas/erasmus/complemento-regional",
+        "/becas/fp",
+        "/becas/mec",
+        "/becas/mec/alegaciones",
+        "/becas/mec/bachillerato",
+        "/becas/mec/cambio-estudios",
+        "/becas/mec/compatibilidad/erasmus",
+        "/becas/mec/cuando-se-cobra",
+        "/becas/mec/denegada/por-patrimonio",
+        "/becas/mec/estado",
+        "/becas/mec/modificar-datos",
+        "/becas/mec/no-cobrada",
+        "/becas/mec/no-devolver",
+        "/becas/mec/plazo",
+        "/becas/mec/renuncia",
+        "/becas/mec/requisitos",
+        "/becas/residencia"
+      ]
+    },
+    {
+      "url": "https://www.becaseducacion.gob.es/becas-y-ayudas/fp-bachillerato-otros/que-necesitas.html",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/becas/fp",
+        "/becas/mec/bachillerato"
+      ]
+    },
+    {
+      "url": "https://www.becaseducacion.gob.es/becas-y-ayudas/fp-bachillerato-otros/tipos-de-becas.html",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/becas/fp"
+      ]
+    },
+    {
+      "url": "https://www.becaseducacion.gob.es/becas-y-ayudas/universidad-grado-master/que-necesitas.html",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/becas/mec/requisitos"
+      ]
+    },
+    {
+      "url": "https://www.becaseducacion.gob.es/dudas/asi-de-facil.html",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/becas/mec/cuando-se-cobra",
+        "/becas/mec/no-cobrada"
+      ]
+    },
+    {
+      "url": "https://www.becaseducacion.gob.es/dudas/faqs.html",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/becas/fp",
+        "/becas/mec/cuando-se-cobra",
+        "/becas/mec/no-cobrada"
+      ]
+    },
+    {
+      "url": "https://www.becaseducacion.gob.es/dudas/que-significa.html",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/becas/mec/subsanacion"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "result": "reachable",
+      "pages": [
+        "/fuentes"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+      "result": "reachable",
+      "pages": [
+        "/inventario-fianza-alquiler",
+        "/no-renovacion-alquiler",
+        "/preaviso-fin-alquiler",
+        "/requerimiento-impago-alquiler"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20977",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20977",
+      "result": "reachable",
+      "pages": [
+        "/becas/mec/renuncia"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "result": "reachable",
+      "pages": [
+        "/acuse-de-recibo-modelo",
+        "/autorizacion-representacion-tramite",
+        "/becas/mec/renuncia",
+        "/becas/mec/subsanacion",
+        "/modelo-subsanacion"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "result": "reachable",
+      "pages": [
+        "/baja-periodo-de-prueba",
+        "/baja-voluntaria-sin-preaviso",
+        "/certificado-empresa-sepe",
+        "/he-firmado-finiquito-puedo-reclamar",
+        "/modelo-baja-voluntaria",
+        "/modelo-excedencia-voluntaria",
+        "/modelo-finiquito",
+        "/modelo-reduccion-jornada",
+        "/reclamacion-salarios-modelo",
+        "/solicitud-permiso-retribuido",
+        "/solicitud-vacaciones"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3109",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3109",
+      "result": "reachable",
+      "pages": [
+        "/empadronarse/volante-vs-certificado"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "result": "reachable",
+      "pages": [
+        "/empadronarse/volante-vs-certificado"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24098",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24098",
+      "result": "reachable",
+      "pages": [
+        "/dni/perdido-volar"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2015-3109",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2015-3109",
+      "result": "reachable",
+      "pages": [
+        "/fuentes"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18093",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18093",
+      "result": "reachable",
+      "pages": [
+        "/dni/caducado-viajar-ue",
+        "/dni/checklist",
+        "/dni/cita-previa",
+        "/dni/midni",
+        "/dni/misma-cita-pasaporte",
+        "/dni/primera-expedicion-menor",
+        "/dni/renovar-caducado",
+        "/dni/unidades-moviles",
+        "/pasaporte/caducado-sin-cita",
+        "/pasaporte/cita-previa",
+        "/pasaporte/urgente"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-12056",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-12056",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/autorizacion-regreso-ex13",
+        "/extranjeria/autorizacion-regreso-navidad",
+        "/extranjeria/huellas-que-llevar",
+        "/extranjeria/tie-caducada-viajar"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10876",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10876",
+      "result": "reachable",
+      "pages": [
+        "/becas/muface"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-814",
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-814",
+      "result": "reachable",
+      "pages": [
+        "/dni/perdido-volar"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-4784",
+      "status": 200,
+      "final_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-4784",
+      "result": "reachable",
+      "pages": [
+        "/fuentes"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-16327",
+      "status": 200,
+      "final_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-16327",
+      "result": "reachable",
+      "pages": [
+        "/becas/mec",
+        "/becas/mec/plazo"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/eli/es/l/1985/04/02/7/con",
+      "status": 200,
+      "final_url": "https://www.boe.es/eli/es/l/1985/04/02/7/con",
+      "result": "reachable",
+      "pages": [
+        "/empadronarse/volante-vs-certificado"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/eli/es/l/2015/10/01/39/con",
+      "status": 200,
+      "final_url": "https://www.boe.es/eli/es/l/2015/10/01/39/con",
+      "result": "reachable",
+      "pages": [
+        "/empadronarse/volante-vs-certificado"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/eli/es/rd/1986/07/11/1690",
+      "status": 200,
+      "final_url": "https://www.boe.es/eli/es/rd/1986/07/11/1690",
+      "result": "reachable",
+      "pages": [
+        "/empadronarse/volante-vs-certificado"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/eli/es/rd/2003/07/11/896/con",
+      "status": 200,
+      "final_url": "https://www.boe.es/eli/es/rd/2003/07/11/896/con",
+      "result": "reachable",
+      "pages": [
+        "/pasaporte/bebe"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/eli/es/rd/2024/11/19/1155/",
+      "status": 200,
+      "final_url": "https://www.boe.es/eli/es/rd/2024/11/19/1155/",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/autorizacion-regreso-ex13",
+        "/extranjeria/autorizacion-regreso-navidad",
+        "/extranjeria/tie-caducada-viajar"
+      ]
+    },
+    {
+      "url": "https://www.boe.es/eli/es/rd/2025/04/01/255",
+      "status": 200,
+      "final_url": "https://www.boe.es/eli/es/rd/2025/04/01/255",
+      "result": "reachable",
+      "pages": [
+        "/dni/checklist",
+        "/dni/primera-expedicion-menor",
+        "/dni/urgente-sin-cita",
+        "/pasaporte/cita-previa"
+      ]
+    },
+    {
+      "url": "https://www.citapreviadnie.es/",
+      "status": 200,
+      "final_url": "https://www.citapreviadnie.es/",
+      "result": "reachable",
+      "pages": [
+        "/dni/a-que-hora-se-liberan-citas",
+        "/dni/caducado-banco",
+        "/dni/caducado-multa",
+        "/dni/caducado-viajar-ue",
+        "/dni/caducado-vueling",
+        "/dni/cambio-domicilio",
+        "/dni/checklist",
+        "/dni/cita-previa",
+        "/dni/consultar-cita",
+        "/dni/midni",
+        "/dni/misma-cita-pasaporte",
+        "/dni/no-hay-citas",
+        "/dni/paginas-clon-cita",
+        "/dni/perdido-volar",
+        "/dni/primera-expedicion-menor",
+        "/dni/renovar-caducado",
+        "/dni/unidades-moviles",
+        "/dni/urgente-sin-cita",
+        "/dni/viajar-reino-unido",
+        "/pasaporte/bebe",
+        "/pasaporte/caducado-sin-cita",
+        "/pasaporte/cita-previa",
+        "/pasaporte/renovar-antes-caducar",
+        "/pasaporte/urgente"
+      ]
+    },
+    {
+      "url": "https://www.correos.es/es/es/particulares/para-el-ciudadano/regularizacion-extraordinaria-personas-migrantes",
+      "status": 200,
+      "final_url": "https://www.correos.es/es/es/particulares/para-el-ciudadano/regularizacion-extraordinaria-personas-migrantes",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/regularizacion-2026-resolucion",
+        "/extranjeria/subsanar-regularizacion-correos"
+      ]
+    },
+    {
+      "url": "https://www.crtm.es/",
+      "status": 200,
+      "final_url": "https://www.crtm.es/",
+      "result": "reachable",
+      "pages": [
+        "/comedor/abono-joven-estudiante"
+      ]
+    },
+    {
+      "url": "https://www.educa.jcyl.es/universidad/es/becas_universitarias/ayudas-estudio",
+      "status": 200,
+      "final_url": "https://www.educa.jcyl.es/universidad/es/becas_universitarias/ayudas-estudio",
+      "result": "reachable",
+      "pages": [
+        "/becas/autonomicas/ayudas-estudio-cyl"
+      ]
+    },
+    {
+      "url": "https://www.educacion.gob.es/",
+      "status": 200,
+      "final_url": "https://www.educacionfpydeportes.gob.es/portada.html",
+      "result": "reachable",
+      "pages": [
+        "/autorizacion-recogida-colegio",
+        "/colegio/cambiar-de-colegio-a-mitad-de-curso",
+        "/colegio/cambiar-de-colegio-fuera-de-plazo",
+        "/colegio/cambio-de-colegio-por-acoso",
+        "/colegio/cambio-de-colegio-por-mudanza",
+        "/colegio/documentos-matricula-colegio",
+        "/colegio/inscripcion-extraescolares-ayuntamiento",
+        "/colegio/lista-espera-escuela-infantil",
+        "/colegio/no-he-matriculado-a-mi-hijo",
+        "/comedor/beca-comedor-2026-2027",
+        "/comedor/beca-comedor-fuera-de-plazo",
+        "/comedor/documentos-alergia-comedor-escolar",
+        "/comedor/ies-sin-comedor",
+        "/comedor/impago-comedor-escolar",
+        "/comedor/menu-especial-comedor",
+        "/comedor/no-puedo-pagar-comedor-escolar",
+        "/justificante-ausencia-escolar",
+        "/solicitud-comedor-escolar"
+      ]
+    },
+    {
+      "url": "https://www.exteriores.gob.es/",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/pasaporte/salvoconducto"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/eta/what-you-can-cannot-do",
+      "status": 200,
+      "final_url": "https://www.gov.uk/eta/what-you-can-cannot-do",
+      "result": "reachable",
+      "pages": [
+        "/dni/viajar-reino-unido"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/eta/when-not-need-eta",
+      "status": 200,
+      "final_url": "https://www.gov.uk/eta/when-not-need-eta",
+      "result": "reachable",
+      "pages": [
+        "/dni/viajar-reino-unido"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/uk-border-control/before-you-leave-for-the-uk",
+      "status": 200,
+      "final_url": "https://www.gov.uk/uk-border-control/before-you-leave-for-the-uk",
+      "result": "reachable",
+      "pages": [
+        "/dni/viajar-reino-unido"
+      ]
+    },
+    {
+      "url": "https://www.gva.es/es/inicio/procedimientos?id_proc=95885",
+      "status": 200,
+      "final_url": "https://sede.gva.es/es/detall-tramit?id_proc=95885",
+      "result": "reachable",
+      "pages": [
+        "/becas/autonomicas/beca-salario-gva"
+      ]
+    },
+    {
+      "url": "https://www.inclusion.gob.es/ca/w/el-plazo-de-presentacion-de-solicitud-para-la-regularizacion-extraordinaria-concluye-con-1.174.978-solicitudes-recibidas",
+      "status": null,
+      "result": "unverified",
+      "reason": "The read operation timed out",
+      "pages": [
+        "/extranjeria/regularizacion-2026-resolucion"
+      ]
+    },
+    {
+      "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177031&idp=1254735976614&menu=ultiDatos",
+      "status": 200,
+      "final_url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177031&idp=1254735976614&menu=ultiDatos",
+      "result": "reachable",
+      "pages": [
+        "/fuentes"
+      ]
+    },
+    {
+      "url": "https://www.interior.gob.es/",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/autorizacion-viaje-menor"
+      ]
+    },
+    {
+      "url": "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/dni/cita-previa/",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/dni/a-que-hora-se-liberan-citas",
+        "/dni/consultar-cita",
+        "/dni/no-hay-citas"
+      ]
+    },
+    {
+      "url": "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/dni/documentacion-necesaria-para-su-tramitacion/index.html",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/dni/checklist",
+        "/dni/primera-expedicion-menor",
+        "/pasaporte/cita-previa"
+      ]
+    },
+    {
+      "url": "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/pasaporte/procedimiento-de-expedicion/",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/dni/checklist",
+        "/dni/primera-expedicion-menor",
+        "/pasaporte/bebe",
+        "/pasaporte/cita-previa"
+      ]
+    },
+    {
+      "url": "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/tasas/dni/",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/dni/caducado-viajar-ue",
+        "/dni/checklist",
+        "/dni/cita-previa",
+        "/dni/midni",
+        "/dni/misma-cita-pasaporte",
+        "/dni/primera-expedicion-menor",
+        "/dni/renovar-caducado",
+        "/dni/unidades-moviles",
+        "/pasaporte/caducado-sin-cita",
+        "/pasaporte/cita-previa",
+        "/pasaporte/urgente"
+      ]
+    },
+    {
+      "url": "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/tasas/pasaporte/index.html",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/dni/caducado-viajar-ue",
+        "/dni/checklist",
+        "/dni/cita-previa",
+        "/dni/midni",
+        "/dni/misma-cita-pasaporte",
+        "/dni/primera-expedicion-menor",
+        "/dni/renovar-caducado",
+        "/dni/unidades-moviles",
+        "/pasaporte/bebe",
+        "/pasaporte/caducado-sin-cita",
+        "/pasaporte/cita-previa",
+        "/pasaporte/urgente"
+      ]
+    },
+    {
+      "url": "https://www.madrid.es/citaprevia",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/empadronarse/comunidad-de-madrid/madrid/madrid"
+      ]
+    },
+    {
+      "url": "https://www.midni.gob.es/",
+      "status": 200,
+      "final_url": "https://www.midni.gob.es/",
+      "result": "reachable",
+      "pages": [
+        "/dni/midni"
+      ]
+    },
+    {
+      "url": "https://www.mites.gob.es/",
+      "status": null,
+      "result": "unverified",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
+      "pages": [
+        "/modelo-baja-voluntaria",
+        "/reclamacion-salarios-modelo"
+      ]
+    },
+    {
+      "url": "https://www.policia.es/",
+      "status": 200,
+      "final_url": "https://www.policia.es/_es/cookies.php",
+      "result": "reachable",
+      "pages": [
+        "/autorizacion-viaje-menor"
+      ]
+    },
+    {
+      "url": "https://www.policia.es/_es/extranjeria_extranjeros.php/1000",
+      "status": 200,
+      "final_url": "https://www.policia.es/_es/cookies.php",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/autorizacion-regreso-ex13",
+        "/extranjeria/tie-caducada-viajar"
+      ]
+    },
+    {
+      "url": "https://www.saludcastillayleon.es/",
+      "status": 200,
+      "final_url": "https://www.saludcastillayleon.es/es",
+      "result": "reachable",
+      "pages": [
+        "/bebe/calendario-vacunal-castilla-y-leon"
+      ]
+    },
+    {
+      "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/vacunaciones/calendario/home.htm",
+      "status": 200,
+      "final_url": "https://www.sanidad.gob.es/areas/promocionPrevencion/vacunaciones/calendario/home.htm",
+      "result": "reachable",
+      "pages": [
+        "/bebe/calendario-vacunal-madrid",
+        "/bebe/cartilla-de-vacunacion-donde-se-saca",
+        "/bebe/cartilla-vacunacion-digital",
+        "/bebe/certificado-vacunacion-descargar"
+      ]
+    },
+    {
+      "url": "https://www.sede.fnmt.gob.es/",
+      "status": 200,
+      "final_url": "https://www.sede.fnmt.gob.es/",
+      "result": "reachable",
+      "pages": [
+        "/extranjeria/certificado-digital-nie"
+      ]
+    },
+    {
+      "url": "https://www.sepie.es/",
+      "status": null,
+      "result": "unverified",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
+      "pages": [
+        "/becas/erasmus"
+      ]
+    },
+    {
+      "url": "https://www.tmb.cat/es/tarifas-metro-bus-barcelona/t-16",
+      "status": 200,
+      "final_url": "https://www.tmb.cat/es/tarifas-metro-bus-barcelona/t-16",
+      "result": "reachable",
+      "pages": [
+        "/comedor/t16-como-solicitar"
+      ]
+    },
+    {
+      "url": "https://www.tmb.cat/es/tarifas-metro-bus-barcelona/t-mobilitat/bonificaciones-y-descuentos/t-16-t-jove",
+      "status": 200,
+      "final_url": "https://www.tmb.cat/es/tarifas-metro-bus-barcelona/t-mobilitat/bonificaciones-y-descuentos/t-16-t-jove",
+      "result": "reachable",
+      "pages": [
+        "/comedor/t16-como-solicitar"
+      ]
+    },
+    {
+      "url": "https://www.todofp.es/",
+      "status": 403,
+      "result": "unverified",
+      "pages": [
+        "/fp/cambiar-de-instituto-a-mitad-de-curso",
+        "/fp/convalidaciones-fp",
+        "/fp/documentos-matricula-eso",
+        "/fp/matricula-fp-en-septiembre",
+        "/fp/reserva-de-plaza-fp"
+      ]
+    },
+    {
+      "url": "https://www.ubu.es/te-interesa/ayudas-al-estudio-de-la-junta-de-castilla-y-leon-para-alumnos-de-grado-y-master",
+      "status": null,
+      "result": "unverified",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
+      "pages": [
+        "/becas/autonomicas/ayudas-estudio-cyl"
+      ]
+    }
+  ],
+  "release": "/srv/tenants/slot2/releases/20260907T211050Z"
+}

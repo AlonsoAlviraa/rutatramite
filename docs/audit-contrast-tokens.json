@@ -1,0 +1,47 @@
+{
+  "scope": "Selected declared CSS color pairs; not computed styles or all rendered elements",
+  "pairs": [
+    {
+      "use": "body",
+      "foreground": "#252b26",
+      "background": "#ffffff",
+      "ratio": 14.46
+    },
+    {
+      "use": "links",
+      "foreground": "#2d6a4f",
+      "background": "#ffffff",
+      "ratio": 6.39
+    },
+    {
+      "use": "primary button",
+      "foreground": "#ffffff",
+      "background": "#1b4332",
+      "ratio": 11.08
+    },
+    {
+      "use": "primary button hover",
+      "foreground": "#ffffff",
+      "background": "#2d6a4f",
+      "ratio": 6.39
+    },
+    {
+      "use": "secondary text",
+      "foreground": "#596155",
+      "background": "#ffffff",
+      "ratio": 6.43
+    },
+    {
+      "use": "wizard step",
+      "foreground": "#596155",
+      "background": "#f3f6f4",
+      "ratio": 5.91
+    },
+    {
+      "use": "focus outline",
+      "foreground": "#0f5c4c",
+      "background": "#ffffff",
+      "ratio": 7.91
+    }
+  ]
+}

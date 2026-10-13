@@ -1,0 +1,126 @@
+{
+  "method": "One HTTP sample, gzip requested; timings include DNS/TLS and local network. Referenced assets include conditional polyfills and exclude later browser requests. No browser execution, cache simulation or Core Web Vitals.",
+  "page": {
+    "path": "/",
+    "status": 200,
+    "transfer_bytes": 56442,
+    "decoded_bytes": 512450,
+    "headers_ms": 385,
+    "total_ms": 551,
+    "cache_control": "s-maxage=31536000",
+    "encoding": "gzip"
+  },
+  "assets": [
+    {
+      "path": "/_next/static/chunks/1255-7316b50163a428e6.js",
+      "status": 200,
+      "transfer_bytes": 46492,
+      "decoded_bytes": 173688,
+      "headers_ms": 255,
+      "total_ms": 327,
+      "cache_control": "public, max-age=31536000, immutable",
+      "encoding": "gzip"
+    },
+    {
+      "path": "/_next/static/chunks/2795-df2ccedefedd3b5e.js",
+      "status": 200,
+      "transfer_bytes": 5374,
+      "decoded_bytes": 15289,
+      "headers_ms": 281,
+      "total_ms": 282,
+      "cache_control": "public, max-age=31536000, immutable",
+      "encoding": "gzip"
+    },
+    {
+      "path": "/_next/static/chunks/3424-f58a59f280c52efe.js",
+      "status": 200,
+      "transfer_bytes": 5744,
+      "decoded_bytes": 17672,
+      "headers_ms": 207,
+      "total_ms": 208,
+      "cache_control": "public, max-age=31536000, immutable",
+      "encoding": "gzip"
+    },
+    {
+      "path": "/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "status": 200,
+      "transfer_bytes": 54359,
+      "decoded_bytes": 173020,
+      "headers_ms": 233,
+      "total_ms": 303,
+      "cache_control": "public, max-age=31536000, immutable",
+      "encoding": "gzip"
+    },
+    {
+      "path": "/_next/static/chunks/app/layout-7a61e641bb517159.js",
+      "status": 200,
+      "transfer_bytes": 1877,
+      "decoded_bytes": 4282,
+      "headers_ms": 176,
+      "total_ms": 207,
+      "cache_control": "public, max-age=31536000, immutable",
+      "encoding": "gzip"
+    },
+    {
+      "path": "/_next/static/chunks/app/page-1a63cf570c671252.js",
+      "status": 200,
+      "transfer_bytes": 1016,
+      "decoded_bytes": 1858,
+      "headers_ms": 145,
+      "total_ms": 146,
+      "cache_control": "public, max-age=31536000, immutable",
+      "encoding": "gzip"
+    },
+    {
+      "path": "/_next/static/chunks/main-app-026faaa280a44a4d.js",
+      "status": 200,
+      "transfer_bytes": 232,
+      "decoded_bytes": 560,
+      "headers_ms": 206,
+      "total_ms": 208,
+      "cache_control": "public, max-age=31536000, immutable",
+      "encoding": "gzip"
+    },
+    {
+      "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "transfer_bytes": 39627,
+      "decoded_bytes": 112594,
+      "headers_ms": 180,
+      "total_ms": 213,
+      "cache_control": "public, max-age=31536000, immutable",
+      "encoding": "gzip"
+    },
+    {
+      "path": "/_next/static/chunks/webpack-a141ce0472491a2b.js",
+      "status": 200,
+      "transfer_bytes": 1675,
+      "decoded_bytes": 3336,
+      "headers_ms": 167,
+      "total_ms": 170,
+      "cache_control": "public, max-age=31536000, immutable",
+      "encoding": "gzip"
+    },
+    {
+      "path": "/_next/static/css/745cd32a48cb19cb.css",
+      "status": 200,
+      "transfer_bytes": 5549,
+      "decoded_bytes": 20815,
+      "headers_ms": 181,
+      "total_ms": 183,
+      "cache_control": "public, max-age=31536000, immutable",
+      "encoding": "gzip"
+    },
+    {
+      "path": "/_next/static/media/8bf7b2ceda89477b-s.p.woff2",
+      "status": 200,
+      "transfer_bytes": 26636,
+      "decoded_bytes": 26636,
+      "headers_ms": 192,
+      "total_ms": 230,
+      "cache_control": "public, max-age=31536000, immutable",
+      "encoding": null
+    }
+  ],
+  "referenced_transfer_bytes": 245023
+}

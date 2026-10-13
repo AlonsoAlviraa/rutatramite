@@ -1,0 +1,167 @@
+[
+  {
+    "path": "/dni/cita-previa",
+    "checks": {
+      "http_200": true,
+      "call_cost": true,
+      "loss_not_exemption": true,
+      "dni_source": true,
+      "passport_source": true,
+      "phone_source": true,
+      "no_false_loss_exemption": true,
+      "no_wrong_payment_form": true,
+      "no_seo_instructions": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/pasaporte/cita-previa",
+    "checks": {
+      "http_200": true,
+      "call_cost": true,
+      "loss_not_exemption": true,
+      "dni_source": true,
+      "passport_source": true,
+      "phone_source": true,
+      "no_false_loss_exemption": true,
+      "no_wrong_payment_form": true,
+      "no_seo_instructions": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/dni/renovar-caducado",
+    "checks": {
+      "http_200": true,
+      "call_cost": true,
+      "loss_not_exemption": true,
+      "dni_source": true,
+      "passport_source": true,
+      "phone_source": true,
+      "no_false_loss_exemption": true,
+      "no_wrong_payment_form": true,
+      "no_seo_instructions": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/dni/misma-cita-pasaporte",
+    "checks": {
+      "http_200": true,
+      "call_cost": true,
+      "loss_not_exemption": true,
+      "dni_source": true,
+      "passport_source": true,
+      "phone_source": true,
+      "no_false_loss_exemption": true,
+      "no_wrong_payment_form": true,
+      "no_seo_instructions": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/dni/primera-expedicion-menor",
+    "checks": {
+      "http_200": true,
+      "call_cost": true,
+      "loss_not_exemption": true,
+      "dni_source": true,
+      "passport_source": true,
+      "phone_source": true,
+      "no_false_loss_exemption": true,
+      "no_wrong_payment_form": true,
+      "no_seo_instructions": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/pasaporte/urgente",
+    "checks": {
+      "http_200": true,
+      "call_cost": true,
+      "loss_not_exemption": true,
+      "dni_source": true,
+      "passport_source": true,
+      "phone_source": true,
+      "no_false_loss_exemption": true,
+      "no_wrong_payment_form": true,
+      "no_seo_instructions": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/dni/checklist",
+    "checks": {
+      "http_200": true,
+      "call_cost": true,
+      "loss_not_exemption": true,
+      "dni_source": true,
+      "passport_source": true,
+      "phone_source": true,
+      "no_false_loss_exemption": true,
+      "no_wrong_payment_form": true,
+      "no_seo_instructions": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/dni/caducado-viajar-ue",
+    "checks": {
+      "http_200": true,
+      "call_cost": true,
+      "loss_not_exemption": true,
+      "dni_source": true,
+      "passport_source": true,
+      "phone_source": true,
+      "no_false_loss_exemption": true,
+      "no_wrong_payment_form": true,
+      "no_seo_instructions": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/pasaporte/caducado-sin-cita",
+    "checks": {
+      "http_200": true,
+      "call_cost": true,
+      "loss_not_exemption": true,
+      "dni_source": true,
+      "passport_source": true,
+      "phone_source": true,
+      "no_false_loss_exemption": true,
+      "no_wrong_payment_form": true,
+      "no_seo_instructions": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/dni/midni",
+    "checks": {
+      "http_200": true,
+      "call_cost": true,
+      "loss_not_exemption": true,
+      "dni_source": true,
+      "passport_source": true,
+      "phone_source": true,
+      "no_false_loss_exemption": true,
+      "no_wrong_payment_form": true,
+      "no_seo_instructions": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/dni/unidades-moviles",
+    "checks": {
+      "http_200": true,
+      "call_cost": true,
+      "loss_not_exemption": true,
+      "dni_source": true,
+      "passport_source": true,
+      "phone_source": true,
+      "no_false_loss_exemption": true,
+      "no_wrong_payment_form": true,
+      "no_seo_instructions": true
+    },
+    "passed": true
+  }
+]

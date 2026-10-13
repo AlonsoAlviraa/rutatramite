@@ -1,0 +1,46 @@
+[
+  {
+    "path": "/dni/primera-expedicion-menor",
+    "checks": {
+      "http_200": true,
+      "visible_corrections": true,
+      "official_procedure_source": true,
+      "no_family_book_alternative": true,
+      "no_vague_consent": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/pasaporte/bebe",
+    "checks": {
+      "http_200": true,
+      "visible_corrections": true,
+      "official_procedure_source": true,
+      "no_family_book_alternative": true,
+      "no_vague_consent": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/dni/checklist",
+    "checks": {
+      "http_200": true,
+      "visible_corrections": true,
+      "official_procedure_source": true,
+      "no_family_book_alternative": true,
+      "no_vague_consent": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/pasaporte/cita-previa",
+    "checks": {
+      "http_200": true,
+      "visible_corrections": true,
+      "official_procedure_source": true,
+      "no_family_book_alternative": true,
+      "no_vague_consent": true
+    },
+    "passed": true
+  }
+]

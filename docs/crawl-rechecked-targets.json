@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/empadronarse/andalucia/jaen/torredelcampo",
+    "status": 200,
+    "detail": "OK"
+  },
+  {
+    "path": "/empadronarse/andalucia/jaen/torredonjimeno",
+    "status": 200,
+    "detail": "OK"
+  },
+  {
+    "path": "/empadronarse/principado-de-asturias/asturias/siero",
+    "status": 200,
+    "detail": "OK"
+  }
+]

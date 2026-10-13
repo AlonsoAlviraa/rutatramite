@@ -1,0 +1,23 @@
+{
+  "generated": "2026-09-07T21:24:57.130897+00:00",
+  "build": "tSaLmQxc_8_5ek2TQNGHB",
+  "base": "https://rutatramite.com",
+  "sitemap_count": 228,
+  "status_counts": {
+    "200": 228
+  },
+  "marker_counts": {
+    "Ã": 0,
+    "Â": 0,
+    "â": 0,
+    "�": 0
+  },
+  "bad_pages": [],
+  "scope": "Rendered text on every sitemap URL; no claim about external documents",
+  "retry_resolution": {
+    "path": "/becas/mec/requisitos",
+    "status": 200,
+    "attempts": 1
+  },
+  "release": "/srv/tenants/slot2/releases/20260907T211050Z"
+}

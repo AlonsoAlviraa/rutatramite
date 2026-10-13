@@ -1,0 +1,5 @@
+Anti-slop scan (7 September 2026)
+
+Current UI direction: Newsreader for headlines, Public Sans for UI, white paper background, civic green, thin borders, underlined links and directory rows. No decorative gradients, glassmorphism, backdrop filters or oversized card shadows are used in src/app/globals.css. The repeated PackCard component is an intentional directory row with a bottom rule, not a promotional card grid.
+
+The current production evidence is documented in DESIGN.md and ESTADO-AUDITORIA.md. This note replaces an earlier raw grep capture so it does not preserve stale copy findings.

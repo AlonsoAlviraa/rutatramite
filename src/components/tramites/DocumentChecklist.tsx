@@ -1,0 +1,7 @@
+"use client";
+import { useState, useId } from "react";
+import { DOCUMENT_CHECKLISTS, type DocumentProcedure } from "@/lib/tramites/document-checklists";
+export function DocumentChecklist({ initial="dni-renovacion" }: { initial?: DocumentProcedure }) {
+  const [procedure,setProcedure]=useState<DocumentProcedure>(initial); const id=useId(); const selected=DOCUMENT_CHECKLISTS[procedure];
+  return <section className="mt-8 space-y-4 rounded border border-sand p-5" aria-labelledby={id}><h2 id={id} className="font-display text-2xl">Prepara los documentos de tu trámite</h2><label className="block">Procedimiento<select className="mt-2 block w-full rounded border p-3" value={procedure} onChange={e=>setProcedure(e.target.value as DocumentProcedure)}>{Object.entries(DOCUMENT_CHECKLISTS).map(([key,value])=><option value={key} key={key}>{value.title}</option>)}</select></label><ul className="list-disc space-y-2 pl-5" aria-live="polite">{selected.items.map(item=><li key={item}>{item}</li>)}</ul><p className="text-sm">Expedición en España. Revisión de esta lista: <time dateTime="2026-09-14">14 de septiembre de 2026</time>. <a className="underline" data-official-source href={selected.source}>Documentación y excepciones en Interior</a>.</p><p className="text-sm">Para residencia en el extranjero, representación o situaciones especiales, comprueba el apartado correspondiente de Interior. Esta lista no confirma una cita ni la admisión en un destino.</p></section>;
+}

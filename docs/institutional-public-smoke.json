@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-09-07T21:27:13.500510+00:00",
+  "checks": {
+    "privacidad": {
+      "status_200": true,
+      "no_padron_notice": true,
+      "no_internal_jargon": true,
+      "contact_link": true,
+      "section_headings": true
+    },
+    "contacto": {
+      "status_200": true,
+      "no_padron_notice": true,
+      "no_internal_jargon": true,
+      "email_link": true,
+      "section_headings": true
+    },
+    "metodologia": {
+      "status_200": true,
+      "no_padron_notice": true,
+      "no_internal_jargon": true,
+      "section_headings": true
+    },
+    "fuentes": {
+      "status_200": true,
+      "no_padron_notice": true,
+      "no_internal_jargon": true,
+      "contact_link": true,
+      "section_headings": true
+    },
+    "aviso-legal": {
+      "status_200": true,
+      "no_padron_notice": true,
+      "no_internal_jargon": true,
+      "email_link": true,
+      "contact_link": true
+    }
+  }
+}

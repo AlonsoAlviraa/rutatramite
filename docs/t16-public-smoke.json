@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-09-07T21:27:13.059841+00:00",
+  "url": "https://rutatramite.com",
+  "status": {
+    "guide": 200,
+    "sources": 200
+  },
+  "checks": {
+    "age_and_expiry": true,
+    "online_application": true,
+    "child_attendance_optional": true,
+    "support_cost": true,
+    "specific_official_link": true,
+    "review_date": true,
+    "no_language_claim": true,
+    "ine_corrected": true
+  }
+}

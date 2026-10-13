@@ -1,0 +1,60 @@
+{
+  "generated": "2026-09-07T17:02:50.720273+00:00",
+  "base": "https://rutatramite.com",
+  "results": [
+    {
+      "path": "/empadronarse/cataluna/lleida/tarrega",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 126810,
+          "url": "https://rutatramite.com/empadronarse/cataluna/lleida/tarrega"
+        },
+        {
+          "attempt": 2,
+          "status": 200,
+          "bytes": 126810,
+          "url": "https://rutatramite.com/empadronarse/cataluna/lleida/tarrega"
+        }
+      ],
+      "status": 200
+    },
+    {
+      "path": "/empadronarse/cataluna/tarragona/amposta",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 127256,
+          "url": "https://rutatramite.com/empadronarse/cataluna/tarragona/amposta"
+        },
+        {
+          "attempt": 2,
+          "status": 200,
+          "bytes": 127256,
+          "url": "https://rutatramite.com/empadronarse/cataluna/tarragona/amposta"
+        }
+      ],
+      "status": 200
+    },
+    {
+      "path": "/empadronarse/cataluna/tarragona/calafell",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 127606,
+          "url": "https://rutatramite.com/empadronarse/cataluna/tarragona/calafell"
+        },
+        {
+          "attempt": 2,
+          "status": 200,
+          "bytes": 127606,
+          "url": "https://rutatramite.com/empadronarse/cataluna/tarragona/calafell"
+        }
+      ],
+      "status": 200
+    }
+  ]
+}

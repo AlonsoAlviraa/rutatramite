@@ -1,0 +1,16 @@
+[
+  {
+    "route": "/becas/mec/cuando-se-cobra",
+    "status": 200,
+    "official_source": true,
+    "removed_45_days": true,
+    "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'"
+  },
+  {
+    "route": "/becas/mec/no-cobrada",
+    "status": 200,
+    "official_source": true,
+    "removed_45_days": true,
+    "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'"
+  }
+]

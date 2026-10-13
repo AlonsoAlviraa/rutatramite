@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/empadronarse/andalucia/granada/albolote",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/andalucia/granada/albolote",
+    "attempt": 1
+  },
+  {
+    "path": "/empadronarse/andalucia/granada/armilla",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/andalucia/granada/armilla",
+    "attempt": 1
+  },
+  {
+    "path": "/empadronarse/andalucia/jaen/jodar",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/andalucia/jaen/jodar",
+    "attempt": 1
+  },
+  {
+    "path": "/empadronarse/andalucia/jaen/torredonjimeno",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/andalucia/jaen/torredonjimeno",
+    "attempt": 1
+  },
+  {
+    "path": "/empadronarse/comunidad-valenciana/alicante/santa-pola",
+    "status": 200,
+    "final": "https://rutatramite.com/empadronarse/comunidad-valenciana/alicante/santa-pola",
+    "attempt": 1
+  }
+]

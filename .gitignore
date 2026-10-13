@@ -1,0 +1,13 @@
+node_modules
+.next
+.next-*/
+out
+.DS_Store
+*.log
+.env*.local
+next-env.d.ts
+tsconfig.tsbuildinfo
+tmp/
+__pycache__/
+*.py[cod]
+scripts/gen/_drafts/

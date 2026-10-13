@@ -1,0 +1,57 @@
+[
+  {
+    "path": "/extranjeria/tie-caducada-viajar",
+    "status": 200,
+    "has_boe": true,
+    "has_tax_order": true,
+    "removed_90_percent": true,
+    "removed_30_45": true,
+    "removed_october_claim": true,
+    "removed_first_hour": true,
+    "removed_safe_guarantee": true
+  },
+  {
+    "path": "/extranjeria/autorizacion-regreso-navidad",
+    "status": 200,
+    "has_boe": true,
+    "has_tax_order": true,
+    "removed_90_percent": true,
+    "removed_30_45": true,
+    "removed_october_claim": true,
+    "removed_first_hour": true,
+    "removed_safe_guarantee": true
+  },
+  {
+    "path": "/extranjeria/huellas-que-llevar",
+    "status": 200,
+    "has_boe": false,
+    "has_tax_order": true,
+    "removed_90_percent": true,
+    "removed_30_45": true,
+    "removed_october_claim": true,
+    "removed_first_hour": true,
+    "removed_safe_guarantee": true
+  },
+  {
+    "path": "/extranjeria/tie-recogida-cuanto-tarda",
+    "status": 200,
+    "has_boe": false,
+    "has_tax_order": false,
+    "removed_90_percent": true,
+    "removed_30_45": true,
+    "removed_october_claim": true,
+    "removed_first_hour": true,
+    "removed_safe_guarantee": true
+  },
+  {
+    "path": "/extranjeria/autorizacion-regreso-ex13",
+    "status": 200,
+    "has_boe": true,
+    "has_tax_order": true,
+    "removed_90_percent": true,
+    "removed_30_45": true,
+    "removed_october_claim": true,
+    "removed_first_hour": true,
+    "removed_safe_guarantee": true
+  }
+]

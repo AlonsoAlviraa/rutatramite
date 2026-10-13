@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "expected_copy": true
+  },
+  {
+    "path": "/modelos",
+    "status": 200,
+    "expected_copy": true
+  },
+  {
+    "path": "/empadronarse/comunidad-de-madrid",
+    "status": 200,
+    "expected_copy": true
+  }
+]

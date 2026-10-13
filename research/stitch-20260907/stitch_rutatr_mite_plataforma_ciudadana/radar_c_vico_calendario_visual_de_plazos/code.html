@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"secondary":"#3f6653","surface-dim":"#dcdad5","inverse-on-surface":"#f3f0eb","primary-container":"#2d6a4f","on-surface":"#1c1c19","surface-container-high":"#ebe8e3","on-secondary-fixed":"#002114","on-primary-fixed":"#002114","outline-variant":"#bfc9c1","error":"#ba1a1a","on-tertiary-container":"#cfe479","primary-fixed-dim":"#95d4b3","surface-container-highest":"#e5e2dd","surface-container-lowest":"#ffffff","on-primary-container":"#a8e7c5","tertiary":"#404d00","inverse-surface":"#31302d","error-container":"#ffdad6","on-secondary-container":"#436b58","on-tertiary":"#ffffff","secondary-container":"#beead1","on-primary":"#ffffff","surface-variant":"#e5e2dd","tertiary-fixed":"#d8ec80","on-error":"#ffffff","outline":"#707973","tertiary-fixed-dim":"#bcd068","surface-tint":"#2c694e","secondary-fixed":"#c1ecd4","on-primary-fixed-variant":"#0e5138","surface-container-low":"#f6f3ee","inverse-primary":"#95d4b3","secondary-fixed-dim":"#a5d0b9","on-background":"#1c1c19","surface":"#fcf9f4","tertiary-container":"#566602","primary":"#0f5238","on-tertiary-fixed":"#181e00","on-error-container":"#93000a","surface-container":"#f0ede9","background":"#fcf9f4","on-tertiary-fixed-variant":"#3f4c00","on-secondary":"#ffffff","on-surface-variant":"#404943","on-secondary-fixed-variant":"#274e3d","surface-bright":"#fcf9f4","primary-fixed":"#b1f0ce"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-2xs":"0.25rem","space-xl":"2rem","container-max":"76rem","space-2xl":"3rem","space-sm":"0.75rem","space-xs":"0.5rem","reading-max":"45rem","gutter-mobile":"1rem","space-3xl":"4rem","space-3xs":"0.125rem","space-md":"1rem","space-lg":"1.5rem","gutter-desktop":"2rem","space-4xl":"6rem"},"fontFamily":{"label-md":["Inter"],"display-hero-mobile":["Newsreader"],"headline-sm":["Newsreader"],"body-md":["Inter"],"body-lead":["Inter"],"display-hero":["Newsreader"],"body-sm":["Inter"],"headline-lg":["Newsreader"],"headline-lg-mobile":["Newsreader"],"title-editorial":["Newsreader"],"headline-md":["Newsreader"],"caption":["Inter"],"label-sm":["Inter"]},"fontSize":{"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"display-hero-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.01em","fontWeight":"500"}],"headline-sm":["1.375rem",{"lineHeight":"1.875rem","fontWeight":"600"}],"body-md":["1rem",{"lineHeight":"1.625rem","letterSpacing":"0em","fontWeight":"400"}],"body-lead":["1.25rem",{"lineHeight":"1.875rem","letterSpacing":"-0.005em","fontWeight":"400"}],"display-hero":["3.5rem",{"lineHeight":"4rem","letterSpacing":"-0.02em","fontWeight":"500"}],"body-sm":["0.875rem",{"lineHeight":"1.375rem","fontWeight":"400"}],"headline-lg":["2.5rem",{"lineHeight":"3rem","letterSpacing":"-0.015em","fontWeight":"500"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.01em","fontWeight":"500"}],"title-editorial":["1.125rem",{"lineHeight":"1.625rem","fontWeight":"600"}],"headline-md":["1.875rem",{"lineHeight":"2.375rem","letterSpacing":"-0.01em","fontWeight":"500"}],"caption":["0.75rem",{"lineHeight":"1.125rem","fontWeight":"400"}],"label-sm":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-container-max mx-auto px-gutter-desktop flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md"><img alt="Brand logo. - Primary color: #2d6a4f
+- Font: newsreader
+- Mode: light
+- Roundness: rounded-sm
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VLTuUWMxqekouMqrMNSZJfS51RS6JQP86Ba5iu8T_aYbgTLlOMWzYofIFPyQ0Ng1FPdPNEYVE0yGfzyftrhPEZqv456QqB7ZeADEFEwR1lqS0R5bPLOKfYR8i6JsWvd9yTcguKQPMnI7SAXVnor3RSoxBv34bmQMGc5pbCebm7-g4aW4kgyXlo8buwUP-gwRJrMYlkElaCd6dyAZOHbDJDesu4FIrg9_xuMWh57LRQ9uypBx8K1Ks0LKg"/><a class="font-headline-sm text-headline-sm text-primary tracking-tight font-medium" data-path="tramites-populares" href="#">RutaTrámite</a><span class="hidden xl:inline-block text-outline-variant">|</span><span class="hidden xl:inline-block font-caption text-caption uppercase tracking-wider text-on-surface-variant">Guía Cívica Independiente</span></div><div class="hidden md:flex items-center bg-surface-container-lowest rounded-lg px-space-sm py-space-2xs shadow-[0_1px_4px_rgba(0,0,0,0.03)]"><span class="material-symbols-outlined text-outline text-[20px] mr-space-xs">search</span><input class="bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none w-48 lg:w-64" placeholder="Buscar trámite, ayuda o cita..." type="text"/><div class="h-4 w-px bg-surface-container-high mx-space-xs"></div><span class="material-symbols-outlined text-outline text-[18px] mr-space-3xs">location_on</span><select class="bg-transparent font-label-sm text-label-sm text-on-surface-variant focus:outline-none cursor-pointer pr-space-2xs"><option>Toda España</option><option>Madrid</option><option>Barcelona</option><option>Valencia</option><option>Sevilla</option><option>Zaragoza</option><option>Málaga</option></select></div><nav class="hidden lg:flex items-center gap-space-md font-label-md text-label-md" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg px-space-sm py-space-xs"><a class="text-on-surface-variant hover:text-on-surface py-space-xs px-space-xs transition-colors" data-path="tramites-populares" href="#">Trámites Populares</a><a class="text-on-surface-variant hover:text-on-surface py-space-xs px-space-xs transition-colors" data-path="asistentes-visuales" href="#">Asistentes Visuales</a><a class="text-on-surface-variant hover:text-on-surface py-space-xs px-space-xs transition-colors" data-path="directorio-local" href="#">Directorio Local</a><a class="text-on-surface-variant hover:text-on-surface py-space-xs px-space-xs transition-colors" data-path="modelos-formularios" href="#">Modelos y Formularios</a><a class="text-on-surface-variant hover:text-on-surface py-space-xs px-space-xs transition-colors" data-path="comparador-plazos" href="#">Comparador y Plazos</a></nav><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Master Control & Sub-header Area -->
+<section class="max-w-container-max mx-auto px-gutter-mobile lg:px-gutter-desktop w-full pt-space-xl pb-space-lg">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg">
+<div class="space-y-space-xs">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-3xs rounded-full bg-secondary-container text-on-secondary-container">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Radar Cívico Estatal • Ejercicio 2025</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          Observatorio de Plazos, Convocatorias y Citas
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-reading-max">
+          Monitorización sincronizada con el Boletín Oficial del Estado y sedes autonómicas. Cómputo de plazos hábiles e inhábiles en tiempo real.
+        </p>
+</div>
+<!-- Quick Metrics Ribbon -->
+<div class="flex items-center gap-space-xs sm:gap-space-sm overflow-x-auto pb-space-2xs">
+<div class="bg-surface-container-low px-space-md py-space-xs rounded-lg flex items-center gap-space-sm shadow-sm">
+<div class="w-9 h-9 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</div>
+<div>
+<p class="font-caption text-caption text-on-surface-variant uppercase tracking-wider">Partidas Activas</p>
+<p class="font-headline-sm text-headline-sm text-primary leading-none">2.430 M€</p>
+</div>
+</div>
+<div class="bg-surface-container-low px-space-md py-space-xs rounded-lg flex items-center gap-space-sm shadow-sm">
+<div class="w-9 h-9 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">update</span>
+</div>
+<div>
+<p class="font-caption text-caption text-on-surface-variant uppercase tracking-wider">Actualización</p>
+<p class="font-label-md text-label-md text-on-surface leading-none">Hoy, 06:00 BOE</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Radar Timeline (12 Months Architectural Ribbon) -->
+<section class="max-w-container-max mx-auto px-gutter-mobile lg:px-gutter-desktop w-full mb-space-2xl">
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">calendar_month</span>
+<span class="font-title-editorial text-title-editorial text-on-surface">Malla Temporal de Ventanas 2025</span>
+<span class="font-caption text-caption px-space-xs py-space-3xs bg-surface-container-high rounded text-on-surface-variant">Mes actual: ABRIL</span>
+</div>
+<!-- Category Color Legend -->
+<div class="flex flex-wrap items-center gap-space-xs sm:gap-space-md font-caption text-caption text-on-surface-variant">
+<span class="inline-flex items-center gap-space-2xs"><span class="w-2.5 h-2.5 rounded-full bg-primary"></span>Educación / Becas</span>
+<span class="inline-flex items-center gap-space-2xs"><span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>Vivienda y Alquiler</span>
+<span class="inline-flex items-center gap-space-2xs"><span class="w-2.5 h-2.5 rounded-full bg-tertiary"></span>Renta / IRPF</span>
+<span class="inline-flex items-center gap-space-2xs"><span class="w-2.5 h-2.5 rounded-full bg-primary-container"></span>Familias &amp; IMV</span>
+</div>
+</div>
+<!-- Month Columns Container -->
+<div class="overflow-x-auto pb-space-sm">
+<div class="min-w-[940px] grid grid-cols-12 gap-space-2xs relative pt-space-xs">
+<!-- Month Markers -->
+<div class="text-center font-label-sm text-label-sm text-outline pb-space-xs">ENE</div>
+<div class="text-center font-label-sm text-label-sm text-outline pb-space-xs">FEB</div>
+<div class="text-center font-label-sm text-label-sm text-outline pb-space-xs">MAR</div>
+<div class="text-center font-label-sm text-label-sm text-primary font-bold pb-space-xs relative">
+<span class="px-space-2xs py-space-3xs bg-primary-fixed text-on-primary-fixed-variant rounded">ABR</span>
+</div>
+<div class="text-center font-label-sm text-label-sm text-on-surface pb-space-xs">MAY</div>
+<div class="text-center font-label-sm text-label-sm text-on-surface pb-space-xs">JUN</div>
+<div class="text-center font-label-sm text-label-sm text-on-surface pb-space-xs">JUL</div>
+<div class="text-center font-label-sm text-label-sm text-on-surface pb-space-xs">AGO</div>
+<div class="text-center font-label-sm text-label-sm text-on-surface pb-space-xs">SEP</div>
+<div class="text-center font-label-sm text-label-sm text-on-surface pb-space-xs">OCT</div>
+<div class="text-center font-label-sm text-label-sm text-on-surface pb-space-xs">NOV</div>
+<div class="text-center font-label-sm text-label-sm text-on-surface pb-space-xs">DIC</div>
+<!-- Active Month Vertical Cursor Indicator -->
+<div class="absolute left-[29.5%] top-8 bottom-0 w-1.5 bg-primary/20 rounded-full pointer-events-none z-10 flex flex-col items-center">
+<div class="w-2.5 h-2.5 bg-primary rounded-full -mt-1 shadow-sm"></div>
+</div>
+<!-- Gantt Tracks -->
+<div class="col-span-12 space-y-space-xs pt-space-xs">
+<!-- Track 1: Beca MEC -->
+<div class="h-8 bg-surface-container-low rounded-lg relative flex items-center px-space-xs">
+<span class="font-caption text-caption text-on-surface-variant w-24 truncate">Beca MEC '25</span>
+<div class="absolute left-[22%] right-[55%] h-6 bg-primary rounded text-on-primary px-space-xs flex items-center justify-between text-[11px] font-medium shadow-sm">
+<span class="truncate">Ventana Solicitud General</span>
+<span class="bg-primary-container px-1 py-0.5 rounded text-[10px]">10 MAY</span>
+</div>
+</div>
+<!-- Track 2: Renta y Patrimonio -->
+<div class="h-8 bg-surface-container-low rounded-lg relative flex items-center px-space-xs">
+<span class="font-caption text-caption text-on-surface-variant w-24 truncate">Campaña IRPF</span>
+<div class="absolute left-[25%] right-[44%] h-6 bg-tertiary-container rounded text-on-tertiary-container px-space-xs flex items-center justify-between text-[11px] font-medium shadow-sm">
+<span class="truncate">Presentación Online / Tel / Presencial</span>
+<span class="bg-tertiary text-on-tertiary px-1 py-0.5 rounded text-[10px]">1 JUL</span>
+</div>
+</div>
+<!-- Track 3: Bono Alquiler Joven -->
+<div class="h-8 bg-surface-container-low rounded-lg relative flex items-center px-space-xs">
+<span class="font-caption text-caption text-on-surface-variant w-24 truncate">Bono Alquiler</span>
+<div class="absolute left-[8.3%] right-[25%] h-6 bg-secondary-container text-on-secondary-container rounded px-space-xs flex items-center justify-between text-[11px] font-semibold">
+<span class="truncate">Partidas Autonómicas Concurrentes (Hasta agotar fondos)</span>
+<span class="font-caption text-caption text-on-secondary-container">Fase II</span>
+</div>
+</div>
+<!-- Track 4: Cheque Térmico y Bono Social -->
+<div class="h-8 bg-surface-container-low rounded-lg relative flex items-center px-space-xs">
+<span class="font-caption text-caption text-on-surface-variant w-24 truncate">Bono Térmico</span>
+<div class="absolute left-[0%] right-[70%] h-6 bg-surface-container-high rounded text-on-surface px-space-xs flex items-center justify-between text-[11px]">
+<span class="truncate">Reconocimiento Automático</span>
+<span class="text-outline text-[10px]">Finalizado</span>
+</div>
+<div class="absolute left-[78%] right-[5%] h-6 bg-surface-container rounded text-on-surface-variant px-space-xs flex items-center justify-between text-[11px]">
+<span class="truncate">Convocatoria Invierno '26</span>
+<span class="text-[10px]">Previsto</span>
+</div>
+</div>
+<!-- Track 5: Desgravación Vivienda & IRPF Autonómico -->
+<div class="h-8 bg-surface-container-low rounded-lg relative flex items-center px-space-xs">
+<span class="font-caption text-caption text-on-surface-variant w-24 truncate">Familia &amp; IMV</span>
+<div class="absolute left-[0%] right-[0%] h-6 bg-primary-fixed/40 rounded text-on-surface px-space-xs flex items-center justify-between text-[11px]">
+<span class="truncate">Ventanilla Continua Abierta Todo el Año (Seguridad Social)</span>
+<span class="font-label-sm text-label-sm text-primary">365 DÍAS</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Filter Bar (Badges with icons and counters) -->
+<section class="max-w-container-max mx-auto px-gutter-mobile lg:px-gutter-desktop w-full mb-space-xl">
+<div class="flex flex-wrap items-center gap-space-xs sm:gap-space-sm">
+<button class="px-space-md py-space-xs rounded-full bg-primary text-on-primary font-label-md text-label-md flex items-center gap-space-xs shadow-sm hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">bolt</span>
+<span>Abierto hoy</span>
+<span class="px-1.5 py-0.5 rounded-full bg-on-primary/20 text-on-primary text-caption font-bold">14</span>
+</button>
+<button class="px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center gap-space-xs shadow-sm hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-error text-[18px]">timer</span>
+<span>Finaliza en &lt;7 días</span>
+<span class="px-1.5 py-0.5 rounded-full bg-error-container text-on-error-container text-caption font-bold">3</span>
+</button>
+<button class="px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center gap-space-xs shadow-sm hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-secondary text-[18px]">event_upcoming</span>
+<span>Próximo mes</span>
+<span class="px-1.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container text-caption font-bold">6</span>
+</button>
+<button class="px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md flex items-center gap-space-xs shadow-sm hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span>Concesión Directa</span>
+<span class="px-1.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant text-caption">8</span>
+</button>
+<button class="px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md flex items-center gap-space-xs shadow-sm hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[18px]">school</span>
+<span>Educación</span>
+</button>
+<button class="px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md flex items-center gap-space-xs shadow-sm hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[18px]">apartment</span>
+<span>Vivienda</span>
+</button>
+<button class="ml-auto px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm flex items-center gap-space-3xs">
+<span class="material-symbols-outlined text-[16px]">tune</span>
+<span>Ajustar filtros de CCAA</span>
+</button>
+</div>
+</section>
+<!-- Primary Infographic Grid: 8 cols Procedures + 4 cols Citas Semáforo -->
+<section class="max-w-container-max mx-auto px-gutter-mobile lg:px-gutter-desktop w-full mb-space-3xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- 8-Column Left Stream: Infographic Widgets -->
+<div class="lg:col-span-8 space-y-space-lg">
+<!-- WIDGET 1: BECA MEC 2025/2026 -->
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-primary text-on-primary flex items-center justify-center font-headline-sm">
+                M
+              </div>
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">Ministerio de Educación y FP</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Beca General MEC 2025 / 2026</h3>
+</div>
+</div>
+<!-- Urgency Badge -->
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-2xs rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-error animate-ping"></span>
+<span>Quedan 18 días hábiles</span>
+</div>
+</div>
+<!-- Time Remaining Progress Bar -->
+<div class="mb-space-lg">
+<div class="flex justify-between items-center text-caption font-caption text-on-surface-variant mb-space-3xs">
+<span>Apertura: 19 Mar</span>
+<span class="font-bold text-on-surface">65% transcurrido del plazo</span>
+<span>Límite: 10 May (15:00h peninsular)</span>
+</div>
+<div class="h-3 w-full bg-surface-container-high rounded-full overflow-hidden flex">
+<div class="h-full bg-primary" style="width: 65%;"></div>
+<div class="h-full bg-error-container flex-1 animate-pulse"></div>
+</div>
+</div>
+<!-- Visual Threshold Infographic + 3 Min Docs -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md pt-space-xs">
+<!-- Graphic Thresholds (Umbrales de Renta) -->
+<div class="bg-surface-container-low p-space-md rounded-lg">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Umbral Renta Familiar (3 miembros)</span>
+<span class="font-caption text-caption text-secondary">BOE Sec. III</span>
+</div>
+<!-- Bar gauge -->
+<div class="space-y-space-xs">
+<div>
+<div class="flex justify-between text-[11px] text-on-surface-variant">
+<span>Umbral 1 (Beca Completa + Residencia)</span>
+<span class="font-bold text-on-surface">≤ 21.054 €</span>
+</div>
+<div class="h-2 w-full bg-surface-container-highest rounded-full mt-1">
+<div class="h-2 bg-primary rounded-full" style="width: 45%;"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-[11px] text-on-surface-variant">
+<span>Umbral 2 (Matrícula + Fija Cuantía)</span>
+<span class="font-bold text-on-surface">≤ 36.421 €</span>
+</div>
+<div class="h-2 w-full bg-surface-container-highest rounded-full mt-1">
+<div class="h-2 bg-secondary rounded-full" style="width: 75%;"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-[11px] text-on-surface-variant">
+<span>Umbral 3 (Exención de Tasas Universitarias)</span>
+<span class="font-bold text-on-surface">≤ 39.543 €</span>
+</div>
+<div class="h-2 w-full bg-surface-container-highest rounded-full mt-1">
+<div class="h-2 bg-surface-variant rounded-full" style="width: 90%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Documents Checklist Icons -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold mb-space-xs block">
+                  Documentos Imprescindibles para Presentar
+                </span>
+<div class="grid grid-cols-3 gap-space-xs text-center">
+<div class="bg-surface-container-lowest p-space-xs rounded flex flex-col items-center">
+<span class="material-symbols-outlined text-primary text-[24px]">badge</span>
+<span class="font-caption text-caption text-on-surface mt-1 leading-tight">DNI/NIE de todos</span>
+<span class="text-[10px] text-primary font-bold">Válido</span>
+</div>
+<div class="bg-surface-container-lowest p-space-xs rounded flex flex-col items-center">
+<span class="material-symbols-outlined text-primary text-[24px]">account_balance</span>
+<span class="font-caption text-caption text-on-surface mt-1 leading-tight">IBAN Cuenta Titular</span>
+<span class="text-[10px] text-secondary font-bold">Solicitante</span>
+</div>
+<div class="bg-surface-container-lowest p-space-xs rounded flex flex-col items-center">
+<span class="material-symbols-outlined text-primary text-[24px]">home_pin</span>
+<span class="font-caption text-caption text-on-surface mt-1 leading-tight">Contrato Alquiler</span>
+<span class="text-[10px] text-on-surface-variant">Si aplica</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xs flex items-center justify-between">
+<span class="font-caption text-caption text-on-surface-variant">No adjuntar renta (cruce AEAT automático)</span>
+<a class="px-space-sm py-space-2xs bg-primary text-on-primary rounded font-label-sm text-label-sm inline-flex items-center gap-1 hover:bg-primary-container" href="#">
+<span>Acceso Sede</span>
+<span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+<!-- WIDGET 2: BONO ALQUILER JOVEN -->
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-secondary text-on-secondary flex items-center justify-center font-headline-sm">
+                V
+              </div>
+<div>
+<div class="flex items-center gap-space-2xs">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">Plan Estatal de Vivienda</span>
+<span class="px-space-2xs py-3xs bg-tertiary-fixed text-on-tertiary-fixed text-[11px] font-bold rounded">Orden de Llegada</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Bono Alquiler Joven (250 €/mes)</h3>
+</div>
+</div>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-2xs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">hourglass_top</span>
+<span>Fondos al 72% consumidos</span>
+</div>
+</div>
+<!-- Territorial Funds Status Heatstrip -->
+<div class="bg-surface-container-low p-space-md rounded-lg mb-space-md">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">map</span>
+                Disponibilidad de Partida por Comunidades Autónomas
+              </span>
+<span class="font-caption text-caption text-on-surface-variant">Concurrencia no competitiva</span>
+</div>
+<!-- Visual State Blocks -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-xs">
+<div class="p-space-xs bg-surface-container-lowest rounded flex flex-col justify-between">
+<div class="flex justify-between items-center">
+<span class="font-label-sm text-label-sm font-bold text-on-surface">Madrid</span>
+<span class="w-2 h-2 rounded-full bg-error"></span>
+</div>
+<div class="mt-2 flex items-baseline justify-between">
+<span class="text-[10px] text-error font-semibold uppercase">Agotado</span>
+<span class="text-[11px] text-on-surface-variant">Lista espera</span>
+</div>
+</div>
+<div class="p-space-xs bg-surface-container-lowest rounded flex flex-col justify-between">
+<div class="flex justify-between items-center">
+<span class="font-label-sm text-label-sm font-bold text-on-surface">Cataluña</span>
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+</div>
+<div class="mt-2 flex items-baseline justify-between">
+<span class="text-[10px] text-tertiary font-semibold uppercase">Último 15%</span>
+<span class="text-[11px] text-on-surface-variant">Cierre 30 Abr</span>
+</div>
+</div>
+<div class="p-space-xs bg-surface-container-lowest rounded flex flex-col justify-between">
+<div class="flex justify-between items-center">
+<span class="font-label-sm text-label-sm font-bold text-on-surface">Andalucía</span>
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+</div>
+<div class="mt-2 flex items-baseline justify-between">
+<span class="text-[10px] text-primary font-semibold uppercase">Abierto</span>
+<span class="text-[11px] text-on-surface-variant">Cupo activo</span>
+</div>
+</div>
+<div class="p-space-xs bg-surface-container-lowest rounded flex flex-col justify-between">
+<div class="flex justify-between items-center">
+<span class="font-label-sm text-label-sm font-bold text-on-surface">C. Valenciana</span>
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+</div>
+<div class="mt-2 flex items-baseline justify-between">
+<span class="text-[10px] text-primary font-semibold uppercase">Abierto</span>
+<span class="text-[11px] text-on-surface-variant">Ventana Mayo</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Micro-summary -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm text-body-sm text-body-sm">
+<div class="flex items-center gap-space-md text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> 18 a 35 años</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> Renta anual &lt; 3 x IPREM (25.200 €)</span>
+</div>
+<a class="font-label-sm text-label-sm text-secondary hover:text-primary font-semibold inline-flex items-center gap-1" href="#">
+              Ver convocatorias por provincia <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- WIDGET 3: CAMPAÑA DE LA RENTA 2024 / 2025 -->
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-tertiary-container text-on-tertiary-container flex items-center justify-center font-headline-sm font-bold">
+                %
+              </div>
+<div>
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider font-semibold">Agencia Tributaria (AEAT)</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Campaña de la Renta 2024</h3>
+</div>
+</div>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-2xs rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">laptop_mac</span>
+<span>Canal telemático abierto</span>
+</div>
+</div>
+<!-- Visual Stepper: Online vs Telefónica vs Presencial -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md my-space-md">
+<!-- Step 1: Online -->
+<div class="p-space-md bg-surface-container-low rounded-lg relative overflow-hidden">
+<div class="flex items-center justify-between mb-space-2xs">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-bold text-caption flex items-center justify-center">1</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">ACTIVO</span>
+</div>
+<h4 class="font-label-md text-label-md text-on-surface mb-1">Renta WEB / App</h4>
+<p class="font-caption text-caption text-on-surface-variant mb-space-xs">Borrador online mediante Cl@ve, Certificado o Referencia.</p>
+<div class="pt-space-2xs bg-surface-container-lowest px-space-xs py-1 rounded text-[11px] font-medium text-on-surface">
+                Desde: <strong>3 de Abril</strong>
+</div>
+</div>
+<!-- Step 2: Confección Telefónica -->
+<div class="p-space-md bg-surface-container rounded-lg relative">
+<div class="flex items-center justify-between mb-space-2xs">
+<span class="w-7 h-7 rounded-full bg-surface-container-highest text-on-surface font-bold text-caption flex items-center justify-center">2</span>
+<span class="font-label-sm text-label-sm text-outline">EN 14 DÍAS</span>
+</div>
+<h4 class="font-label-md text-label-md text-on-surface mb-1">Plan Le Llamamos</h4>
+<p class="font-caption text-caption text-on-surface-variant mb-space-xs">Cita previa para confección por teléfono con técnico de AEAT.</p>
+<div class="pt-space-2xs bg-surface-container-lowest px-space-xs py-1 rounded text-[11px] font-medium text-on-surface">
+                Citas: <strong>29 Abr</strong> | Llamadas: <strong>7 May</strong>
+</div>
+</div>
+<!-- Step 3: Presencial en Oficinas -->
+<div class="p-space-md bg-surface-container rounded-lg relative">
+<div class="flex items-center justify-between mb-space-2xs">
+<span class="w-7 h-7 rounded-full bg-surface-container-highest text-on-surface font-bold text-caption flex items-center justify-center">3</span>
+<span class="font-label-sm text-label-sm text-outline">JUNIO</span>
+</div>
+<h4 class="font-label-md text-label-md text-on-surface mb-1">Atención Presencial</h4>
+<p class="font-caption text-caption text-on-surface-variant mb-space-xs">Confección en oficinas físicas de la Agencia Tributaria.</p>
+<div class="pt-space-2xs bg-surface-container-lowest px-space-xs py-1 rounded text-[11px] font-medium text-on-surface">
+                Citas: <strong>29 May</strong> | Desde: <strong>3 Junio</strong>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center justify-between text-body-sm text-body-sm">
+<span class="text-on-surface-variant">Límite domiciliación en cuenta: <strong>26 de Junio 2025</strong></span>
+<span class="text-on-surface font-semibold">Fin total de campaña: 1 de Julio</span>
+</div>
+</article>
+<!-- WIDGET 4: SIMULADOR VISUAL IMV & AYUDA A LA INFANCIA -->
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">family_restroom</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">Seguridad Social (INSS)</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Ingreso Mínimo Vital &amp; Complemento a la Infancia</h3>
+</div>
+</div>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-2xs rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">all_inclusive</span>
+<span>Plazo Abierto Permanente</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+            Simulador estimativo instantáneo según la unidad de convivencia fijada en el Real Decreto-ley 2/2024.
+          </p>
+<!-- 3 Visual Sliders / Steppers -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg bg-surface-container-low p-space-md rounded-lg mb-space-md">
+<!-- Slider 1: Adultos -->
+<div class="space-y-space-2xs">
+<div class="flex justify-between items-center">
+<label class="font-label-sm text-label-sm text-on-surface font-semibold">Adultos en el hogar</label>
+<span class="font-bold text-primary text-headline-sm leading-none" id="adultCount">2</span>
+</div>
+<input class="w-full accent-primary h-2 bg-surface-container-highest rounded-lg cursor-pointer" id="adultSlider" max="4" min="1" type="range" value="2"/>
+<div class="flex justify-between text-[10px] text-on-surface-variant">
+<span>1</span>
+<span>2</span>
+<span>3</span>
+<span>4+</span>
+</div>
+</div>
+<!-- Slider 2: Menores -->
+<div class="space-y-space-2xs">
+<div class="flex justify-between items-center">
+<label class="font-label-sm text-label-sm text-on-surface font-semibold">Menores a cargo</label>
+<span class="font-bold text-primary text-headline-sm leading-none" id="childCount">1</span>
+</div>
+<input class="w-full accent-primary h-2 bg-surface-container-highest rounded-lg cursor-pointer" id="childSlider" max="4" min="0" type="range" value="1"/>
+<div class="flex justify-between text-[10px] text-on-surface-variant">
+<span>0</span>
+<span>1</span>
+<span>2</span>
+<span>3</span>
+<span>4+</span>
+</div>
+</div>
+<!-- Slider 3: Ingresos mensuales promedio -->
+<div class="space-y-space-2xs">
+<div class="flex justify-between items-center">
+<label class="font-label-sm text-label-sm text-on-surface font-semibold">Ingresos hogar / mes</label>
+<span class="font-bold text-primary text-headline-sm leading-none" id="incomeCount">350€</span>
+</div>
+<input class="w-full accent-primary h-2 bg-surface-container-highest rounded-lg cursor-pointer" id="incomeSlider" max="1500" min="0" step="50" type="range" value="350"/>
+<div class="flex justify-between text-[10px] text-on-surface-variant">
+<span>0 €</span>
+<span>500 €</span>
+<span>1.000 €</span>
+<span>1.500 €</span>
+</div>
+</div>
+</div>
+<!-- Dynamic Result Strip -->
+<div class="p-space-md rounded-lg bg-surface-container-highest flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div>
+<span class="font-caption text-caption text-on-surface-variant uppercase tracking-wider block">Prestación Mensual Estimada Garantizada</span>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-lg text-headline-lg text-primary font-bold" id="resultIMV">604,80 €</span>
+<span class="font-caption text-caption text-secondary font-semibold">+ 80,50 € / mes (Tramo Infancia)</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<a class="px-space-md py-space-xs bg-primary text-on-primary font-label-md text-label-md rounded hover:bg-primary-container transition-colors" href="#">
+                Tramitar con Cl@ve
+              </a>
+</div>
+</div>
+</article>
+</div>
+<!-- 4-Column Right Sidebar: 'Semáforo de Citas Previas' -->
+<aside class="lg:col-span-4 space-y-space-md">
+<!-- Live Traffic Light Box -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm sticky top-24">
+<div class="flex items-center justify-between pb-space-sm mb-space-sm border-b border-surface-container">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">traffic</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Semáforo de Citas</h3>
+</div>
+<span class="inline-flex items-center gap-1 font-caption text-caption text-secondary">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+              En vivo
+            </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+            Disponibilidad estimada de turnos presenciales por satélite administrativo en las últimas 3 horas:
+          </p>
+<!-- Toggle Filter DNI vs Padrón vs Extranjería -->
+<div class="grid grid-cols-2 gap-space-3xs p-space-3xs bg-surface-container rounded-lg mb-space-md text-center font-label-sm text-label-sm">
+<button class="py-space-2xs rounded bg-surface-container-lowest text-on-surface font-semibold shadow-xs" id="btnTabDni">DNI / Pasaporte</button>
+<button class="py-space-2xs rounded text-on-surface-variant hover:text-on-surface" id="btnTabPadron">Padrón / Ayunt.</button>
+</div>
+<!-- Province List with Gauge Dots -->
+<div class="space-y-space-xs" id="trafficList">
+<!-- Madrid -->
+<div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm">
+<span class="w-3.5 h-3.5 rounded-full bg-error flex-shrink-0 shadow-xs"></span>
+<div>
+<h4 class="font-label-md text-label-md text-on-surface leading-tight">Madrid</h4>
+<p class="font-caption text-caption text-on-surface-variant">Próxima: 28 días vista</p>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-error font-bold block">Saturado</span>
+<span class="font-caption text-caption text-outline">Recarga 09:00h</span>
+</div>
+</div>
+<!-- Barcelona -->
+<div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm">
+<span class="w-3.5 h-3.5 rounded-full bg-error flex-shrink-0 shadow-xs"></span>
+<div>
+<h4 class="font-label-md text-label-md text-on-surface leading-tight">Barcelona</h4>
+<p class="font-caption text-caption text-on-surface-variant">Próxima: 21 días vista</p>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-error font-bold block">Saturado</span>
+<span class="font-caption text-caption text-outline">Recarga 08:30h</span>
+</div>
+</div>
+<!-- Valencia -->
+<div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm">
+<span class="w-3.5 h-3.5 rounded-full bg-tertiary flex-shrink-0 shadow-xs"></span>
+<div>
+<h4 class="font-label-md text-label-md text-on-surface leading-tight">Valencia</h4>
+<p class="font-caption text-caption text-on-surface-variant">Próxima: 9 días vista</p>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-tertiary font-bold block">Moderado</span>
+<span class="font-caption text-caption text-outline">Comisaría Centro</span>
+</div>
+</div>
+<!-- Sevilla -->
+<div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm">
+<span class="w-3.5 h-3.5 rounded-full bg-primary flex-shrink-0 shadow-xs"></span>
+<div>
+<h4 class="font-label-md text-label-md text-on-surface leading-tight">Sevilla</h4>
+<p class="font-caption text-caption text-on-surface-variant">Próxima: 48 horas</p>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-primary font-bold block">Fluido</span>
+<span class="font-caption text-caption text-secondary">Turnos libres</span>
+</div>
+</div>
+<!-- Zaragoza -->
+<div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm">
+<span class="w-3.5 h-3.5 rounded-full bg-primary flex-shrink-0 shadow-xs"></span>
+<div>
+<h4 class="font-label-md text-label-md text-on-surface leading-tight">Zaragoza</h4>
+<p class="font-caption text-caption text-on-surface-variant">Próxima: Mañana</p>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-primary font-bold block">Disponible</span>
+<span class="font-caption text-caption text-secondary">Excelente</span>
+</div>
+</div>
+<!-- Málaga -->
+<div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm">
+<span class="w-3.5 h-3.5 rounded-full bg-tertiary flex-shrink-0 shadow-xs"></span>
+<div>
+<h4 class="font-label-md text-label-md text-on-surface leading-tight">Málaga</h4>
+<p class="font-caption text-caption text-on-surface-variant">Próxima: 11 días vista</p>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-tertiary font-bold block">Moderado</span>
+<span class="font-caption text-caption text-outline">Rotación diaria</span>
+</div>
+</div>
+</div>
+<!-- Alert Subscribe Banner -->
+<div class="mt-space-md p-space-sm rounded-lg bg-secondary-container/40 flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-2xs text-on-secondary-container font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">notifications_active</span>
+<span>Alerta de Cancelaciones</span>
+</div>
+<p class="font-caption text-caption text-on-surface-variant">
+              Te avisamos de citas liberadas al instante en tu comisaría u oficina más próxima.
+            </p>
+<div class="flex gap-space-2xs mt-space-3xs">
+<input class="w-full text-caption px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface focus:outline-none" placeholder="tu@email.es" type="email"/>
+<button class="px-space-xs py-1 bg-primary text-on-primary rounded text-caption font-semibold">Avisar</button>
+</div>
+</div>
+<!-- Official Portal Redirect -->
+<div class="mt-space-md text-center">
+<a class="text-secondary hover:text-primary font-label-sm text-label-sm inline-flex items-center gap-1" href="https://www.citapreviadnie.es" rel="noopener" target="_blank">
+<span>Acceso Sede DNI Policía Nacional</span>
+<span class="material-symbols-outlined text-[14px]">launch</span>
+</a>
+</div>
+</div>
+</aside>
+</div>
+</section>
+<!-- Editorial Citizen Note / BOE Assurance Strip -->
+<section class="max-w-container-max mx-auto px-gutter-mobile lg:px-gutter-desktop w-full pb-space-2xl">
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md shadow-xs">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">account_balance_wallet</span>
+</div>
+<div>
+<h4 class="font-title-editorial text-title-editorial text-on-surface">Cómputo en Días Hábiles vs Inhábiles</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-reading-max">
+            Según la Ley 39/2015 del Procedimiento Administrativo Común, los sábados, domingos y festivos nacionales o autonómicos no computan en plazos expresados en días hábiles.
+          </p>
+</div>
+</div>
+<div class="flex-shrink-0">
+<button class="px-space-md py-space-xs rounded bg-surface-container-lowest text-on-surface font-label-md text-label-md hover:bg-surface-container transition-colors flex items-center gap-space-xs shadow-xs">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Descargar Calendario Laboral 2025</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Micro-interactions Script (Sliders & Tabs) -->
+<script>
+    (function() {
+      // IMV Calculator Logic
+      const adultSlider = document.getElementById('adultSlider');
+      const childSlider = document.getElementById('childSlider');
+      const incomeSlider = document.getElementById('incomeSlider');
+
+      const adultCount = document.getElementById('adultCount');
+      const childCount = document.getElementById('childCount');
+      const incomeCount = document.getElementById('incomeCount');
+      const resultIMV = document.getElementById('resultIMV');
+
+      // Base IMV scales (approx for 2025 standard guarantee)
+      const baseRentaGarantizada = {
+        '1-0': 604.80,
+        '1-1': 786.24,
+        '1-2': 967.68,
+        '1-3': 1149.12,
+        '1-4': 1330.56,
+        '2-0': 786.24,
+        '2-1': 967.68,
+        '2-2': 1149.12,
+        '2-3': 1330.56,
+        '2-4': 1391.04,
+        '3-0': 967.68,
+        '3-1': 1149.12,
+        '3-2': 1330.56,
+        '4-0': 1149.12
+      };
+
+      function updateIMV() {
+        const a = parseInt(adultSlider.value);
+        const c = parseInt(childSlider.value);
+        const inc = parseInt(incomeSlider.value);
+
+        adultCount.textContent = a;
+        childCount.textContent = c;
+        incomeCount.textContent = inc + '€';
+
+        const key = a + '-' + (c > 4 ? 4 : c);
+        const base = baseRentaGarantizada[key] || (604.80 + (a * 150) + (c * 170));
+        
+        let differential = base - inc;
+        if (differential < 0) differential = 0;
+
+        resultIMV.textContent = differential.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €';
+      }
+
+      if (adultSlider && childSlider && incomeSlider) {
+        adultSlider.addEventListener('input', updateIMV);
+        childSlider.addEventListener('input', updateIMV);
+        incomeSlider.addEventListener('input', updateIMV);
+      }
+
+      // Semáforo Tab Switcher
+      const btnTabDni = document.getElementById('btnTabDni');
+      const btnTabPadron = document.getElementById('btnTabPadron');
+      const trafficList = document.getElementById('trafficList');
+
+      if (btnTabDni && btnTabPadron && trafficList) {
+        btnTabDni.addEventListener('click', function() {
+          btnTabDni.className = 'py-space-2xs rounded bg-surface-container-lowest text-on-surface font-semibold shadow-xs';
+          btnTabPadron.className = 'py-space-2xs rounded text-on-surface-variant hover:text-on-surface';
+          
+          trafficList.innerHTML = `
+            <div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+              <div class="flex items-center gap-space-sm">
+                <span class="w-3.5 h-3.5 rounded-full bg-error flex-shrink-0 shadow-xs"></span>
+                <div>
+                  <h4 class="font-label-md text-label-md text-on-surface leading-tight">Madrid</h4>
+                  <p class="font-caption text-caption text-on-surface-variant">Próxima: 28 días vista</p>
+                </div>
+              </div>
+              <div class="text-right">
+                <span class="font-label-sm text-label-sm text-error font-bold block">Saturado</span>
+                <span class="font-caption text-caption text-outline">Recarga 09:00h</span>
+              </div>
+            </div>
+            <div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+              <div class="flex items-center gap-space-sm">
+                <span class="w-3.5 h-3.5 rounded-full bg-error flex-shrink-0 shadow-xs"></span>
+                <div>
+                  <h4 class="font-label-md text-label-md text-on-surface leading-tight">Barcelona</h4>
+                  <p class="font-caption text-caption text-on-surface-variant">Próxima: 21 días vista</p>
+                </div>
+              </div>
+              <div class="text-right">
+                <span class="font-label-sm text-label-sm text-error font-bold block">Saturado</span>
+                <span class="font-caption text-caption text-outline">Recarga 08:30h</span>
+              </div>
+            </div>
+            <div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+              <div class="flex items-center gap-space-sm">
+                <span class="w-3.5 h-3.5 rounded-full bg-tertiary flex-shrink-0 shadow-xs"></span>
+                <div>
+                  <h4 class="font-label-md text-label-md text-on-surface leading-tight">Valencia</h4>
+                  <p class="font-caption text-caption text-on-surface-variant">Próxima: 9 días vista</p>
+                </div>
+              </div>
+              <div class="text-right">
+                <span class="font-label-sm text-label-sm text-tertiary font-bold block">Moderado</span>
+                <span class="font-caption text-caption text-outline">Comisaría Centro</span>
+              </div>
+            </div>
+            <div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+              <div class="flex items-center gap-space-sm">
+                <span class="w-3.5 h-3.5 rounded-full bg-primary flex-shrink-0 shadow-xs"></span>
+                <div>
+                  <h4 class="font-label-md text-label-md text-on-surface leading-tight">Sevilla</h4>
+                  <p class="font-caption text-caption text-on-surface-variant">Próxima: 48 horas</p>
+                </div>
+              </div>
+              <div class="text-right">
+                <span class="font-label-sm text-label-sm text-primary font-bold block">Fluido</span>
+                <span class="font-caption text-caption text-secondary">Turnos libres</span>
+              </div>
+            </div>
+          `;
+        });
+
+        btnTabPadron.addEventListener('click', function() {
+          btnTabPadron.className = 'py-space-2xs rounded bg-surface-container-lowest text-on-surface font-semibold shadow-xs';
+          btnTabDni.className = 'py-space-2xs rounded text-on-surface-variant hover:text-on-surface';
+          
+          trafficList.innerHTML = `
+            <div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+              <div class="flex items-center gap-space-sm">
+                <span class="w-3.5 h-3.5 rounded-full bg-primary flex-shrink-0 shadow-xs"></span>
+                <div>
+                  <h4 class="font-label-md text-label-md text-on-surface leading-tight">Madrid (OAC)</h4>
+                  <p class="font-caption text-caption text-on-surface-variant">Próxima: En el día</p>
+                </div>
+              </div>
+              <div class="text-right">
+                <span class="font-label-sm text-label-sm text-primary font-bold block">Fluido</span>
+                <span class="font-caption text-caption text-secondary">Sin cita en Distrito</span>
+              </div>
+            </div>
+            <div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+              <div class="flex items-center gap-space-sm">
+                <span class="w-3.5 h-3.5 rounded-full bg-tertiary flex-shrink-0 shadow-xs"></span>
+                <div>
+                  <h4 class="font-label-md text-label-md text-on-surface leading-tight">Barcelona (OAC)</h4>
+                  <p class="font-caption text-caption text-on-surface-variant">Próxima: 4 días vista</p>
+                </div>
+              </div>
+              <div class="text-right">
+                <span class="font-label-sm text-label-sm text-tertiary font-bold block">Moderado</span>
+                <span class="font-caption text-caption text-outline">Trámite digital al 100%</span>
+              </div>
+            </div>
+            <div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between hover:bg-surface-container transition-colors">
+              <div class="flex items-center gap-space-sm">
+                <span class="w-3.5 h-3.5 rounded-full bg-error flex-shrink-0 shadow-xs"></span>
+                <div>
+                  <h4 class="font-label-md text-label-md text-on-surface leading-tight">Palma de Mallorca</h4>
+                  <p class="font-caption text-caption text-on-surface-variant">Próxima: 18 días vista</p>
+                </div>
+              </div>
+              <div class="text-right">
+                <span class="font-label-sm text-label-sm text-error font-bold block">Saturado</span>
+                <span class="font-caption text-caption text-outline">Alta estacional</span>
+              </div>
+            </div>
+          `;
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-4xl"><div class="max-w-container-max mx-auto px-gutter-desktop py-space-3xl"><div class="grid grid-cols-1 md:grid-cols-4 gap-space-2xl mb-space-2xl"><div class="md:col-span-2"><div class="flex items-center gap-space-xs mb-space-sm"><span class="font-headline-sm text-headline-sm text-primary">RutaTrámite</span><span class="bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm px-space-xs py-space-3xs rounded-full">Cívico &amp; Abierto</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-reading-max mb-space-md">Iniciativa independiente de cartografía y simplificación de procedimientos administrativos en España. Información redactada con criterio editorial, libre de jerga burocrática y contrastada con boletines oficiales.</p><div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[16px]">verified</span><span>Protocolo de neutralidad informativa y código abierto</span></div></div><div><h4 class="font-label-md text-label-md text-on-surface uppercase tracking-wider mb-space-md">Fuentes Oficiales</h4><ul class="space-y-space-xs font-body-sm text-body-sm"><li class="flex items-center gap-space-2xs text-on-surface-variant hover:text-on-surface"><span class="material-symbols-outlined text-[14px]">open_in_new</span><a class="transition-colors" href="#">Boletín Oficial del Estado (BOE)</a></li><li class="flex items-center gap-space-2xs text-on-surface-variant hover:text-on-surface"><span class="material-symbols-outlined text-[14px]">open_in_new</span><a class="transition-colors" href="#">Sede Punto de Acceso General</a></li><li class="flex items-center gap-space-2xs text-on-surface-variant hover:text-on-surface"><span class="material-symbols-outlined text-[14px]">open_in_new</span><a class="transition-colors" href="#">Seguridad Social e Ingreso Mínimo</a></li><li class="flex items-center gap-space-2xs text-on-surface-variant hover:text-on-surface"><span class="material-symbols-outlined text-[14px]">open_in_new</span><a class="transition-colors" href="#">Agencia Tributaria (AEAT)</a></li></ul></div><div><h4 class="font-label-md text-label-md text-on-surface uppercase tracking-wider mb-space-md">Garantía Editorial</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li>Verificación cruzada quincenal</li><li>Guías adaptadas a lectura fácil</li><li>Sin afiliación partidista ni tasas</li><li>Privacidad por diseño (sin rastreo)</li></ul></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-caption text-caption text-on-surface-variant"><p>© 2024 RutaTrámite. Información para la ciudadanía con vocación de servicio público.</p><div class="flex gap-space-lg"><a class="hover:text-on-surface transition-colors" href="#">Metodología de Verificación</a><a class="hover:text-on-surface transition-colors" href="#">Registro de Cambios BOE</a><a class="hover:text-on-surface transition-colors" href="#">Accesibilidad Ciudadana</a></div></div></div></footer></body></html>

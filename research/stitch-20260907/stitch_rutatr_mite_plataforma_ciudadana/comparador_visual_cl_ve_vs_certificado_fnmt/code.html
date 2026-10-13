@@ -1,0 +1,675 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"secondary":"#3f6653","surface-dim":"#dcdad5","inverse-on-surface":"#f3f0eb","primary-container":"#2d6a4f","on-surface":"#1c1c19","surface-container-high":"#ebe8e3","on-secondary-fixed":"#002114","on-primary-fixed":"#002114","outline-variant":"#bfc9c1","error":"#ba1a1a","on-tertiary-container":"#cfe479","primary-fixed-dim":"#95d4b3","surface-container-highest":"#e5e2dd","surface-container-lowest":"#ffffff","on-primary-container":"#a8e7c5","tertiary":"#404d00","inverse-surface":"#31302d","error-container":"#ffdad6","on-secondary-container":"#436b58","on-tertiary":"#ffffff","secondary-container":"#beead1","on-primary":"#ffffff","surface-variant":"#e5e2dd","tertiary-fixed":"#d8ec80","on-error":"#ffffff","outline":"#707973","tertiary-fixed-dim":"#bcd068","surface-tint":"#2c694e","secondary-fixed":"#c1ecd4","on-primary-fixed-variant":"#0e5138","surface-container-low":"#f6f3ee","inverse-primary":"#95d4b3","secondary-fixed-dim":"#a5d0b9","on-background":"#1c1c19","surface":"#fcf9f4","tertiary-container":"#566602","primary":"#0f5238","on-tertiary-fixed":"#181e00","on-error-container":"#93000a","surface-container":"#f0ede9","background":"#fcf9f4","on-tertiary-fixed-variant":"#3f4c00","on-secondary":"#ffffff","on-surface-variant":"#404943","on-secondary-fixed-variant":"#274e3d","surface-bright":"#fcf9f4","primary-fixed":"#b1f0ce"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-2xs":"0.25rem","space-xl":"2rem","container-max":"76rem","space-2xl":"3rem","space-sm":"0.75rem","space-xs":"0.5rem","reading-max":"45rem","gutter-mobile":"1rem","space-3xl":"4rem","space-3xs":"0.125rem","space-md":"1rem","space-lg":"1.5rem","gutter-desktop":"2rem","space-4xl":"6rem"},"fontFamily":{"label-md":["Inter"],"display-hero-mobile":["Newsreader"],"headline-sm":["Newsreader"],"body-md":["Inter"],"body-lead":["Inter"],"display-hero":["Newsreader"],"body-sm":["Inter"],"headline-lg":["Newsreader"],"headline-lg-mobile":["Newsreader"],"title-editorial":["Newsreader"],"headline-md":["Newsreader"],"caption":["Inter"],"label-sm":["Inter"]},"fontSize":{"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"display-hero-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.01em","fontWeight":"500"}],"headline-sm":["1.375rem",{"lineHeight":"1.875rem","fontWeight":"600"}],"body-md":["1rem",{"lineHeight":"1.625rem","letterSpacing":"0em","fontWeight":"400"}],"body-lead":["1.25rem",{"lineHeight":"1.875rem","letterSpacing":"-0.005em","fontWeight":"400"}],"display-hero":["3.5rem",{"lineHeight":"4rem","letterSpacing":"-0.02em","fontWeight":"500"}],"body-sm":["0.875rem",{"lineHeight":"1.375rem","fontWeight":"400"}],"headline-lg":["2.5rem",{"lineHeight":"3rem","letterSpacing":"-0.015em","fontWeight":"500"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.01em","fontWeight":"500"}],"title-editorial":["1.125rem",{"lineHeight":"1.625rem","fontWeight":"600"}],"headline-md":["1.875rem",{"lineHeight":"2.375rem","letterSpacing":"-0.01em","fontWeight":"500"}],"caption":["0.75rem",{"lineHeight":"1.125rem","fontWeight":"400"}],"label-sm":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface min-h-screen flex items-center justify-center"><main class="w-full" style="background-color: rgb(245, 242, 234); color: rgb(22, 62, 43); min-height: 100vh; font-family: &quot;Plus Jakarta Sans&quot;, sans-serif;"><div class="flex flex-col w-full">
+<!-- Top Gazette Editorial Sub-bar -->
+<header class="w-full px-6 md:px-12 py-3.5 hairline-b flex items-center justify-between" style="background-color: rgb(237, 232, 221);">
+  <div class="max-w-7xl mx-auto w-full flex flex-wrap items-center justify-between gap-4">
+    <div class="flex items-center gap-3">
+      <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] tracking-wider uppercase" style="background-color: #BFDD43; color: #163E2B;">GACETA OFICIAL</span>
+      <span class="h-3.5 w-px" style="background-color: #D3CCC0;"></span>
+      <span class="text-[12px] font-semibold tracking-wide uppercase text-[#476353]">Servicio Cívico de Orientación Telemática • Guía 2024</span>
+    </div>
+    <div class="flex items-center gap-4 text-[12px] font-medium text-[#476353]">
+      <span class="inline-flex items-center gap-1.5">
+        <span class="material-symbols-outlined" style="font-size:15px; color: #163E2B;">check_circle</span>
+        Actualizado RDL 6/2023
+      </span>
+      <span class="text-[#C7BFB1]">/</span>
+      <span class="">Auditoría independiente</span>
+      <span class="text-[#C7BFB1]">/</span>
+      <span class="font-semibold text-[#163E2B]">Sin jerga administrativa</span>
+    </div>
+  </div>
+</header>
+<!-- Visual Compact Intent Hero -->
+<section class="w-full px-6 md:px-12 py-14 hairline-b" style="background-color: rgb(245, 242, 234);">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-end justify-between gap-8">
+    <div class="max-w-3xl">
+      <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-sm text-[11px] font-bold tracking-widest uppercase mb-4" style="background-color: #E2DDD4; color: #163E2B;">
+        <span class="material-symbols-outlined" style="font-size:14px;">balance</span>
+        Matriz de Decisión Gubernamental
+      </div>
+      <h1 class="font-editorial-serif text-5xl md:text-6xl lg:text-7xl font-normal leading-[1.05] tracking-tight text-[#163E2B]">
+        Identifícate ante el Estado <em>sin perder la paciencia</em>.
+      </h1>
+      <p class="font-editorial-sans text-[16px] md:text-[18px] text-[#476353] mt-5 max-w-2xl leading-relaxed">
+        Tres llaves oficiales, tres niveles de soberanía telemática. Elige tu urgencia para descartar atascos burocráticos y software incompatible antes de comenzar.
+      </p>
+    </div>
+    <div class="flex flex-col gap-3 w-full md:w-auto md:min-w-[340px]">
+      <span class="text-[11px] font-bold uppercase tracking-wider text-[#476353]">Filtro rápido por caso práctico</span>
+      <div class="flex flex-col gap-1.5 p-1.5 rounded-md bg-[#EDE8DD] hairline-border" id="intentSelector">
+        <button type="button" onclick="selectIntent('movil')" data-intent="movil" class="intent-btn text-left px-3.5 py-2.5 rounded-sm font-semibold text-[13px] flex items-center justify-between transition-all text-white shadow-sm" style="background-color: #163E2B;">
+          <span class="flex items-center gap-2">
+            <span class="material-symbols-outlined" style="font-size: 18px;">smartphone</span>
+            Solo con mi teléfono móvil
+          </span>
+          <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span>
+        </button>
+        <button type="button" onclick="selectIntent('urgente')" data-intent="urgente" class="intent-btn text-left px-3.5 py-2.5 rounded-sm font-semibold text-[13px] flex items-center justify-between transition-all text-[#163E2B] hover:bg-[#E2DDD4]" style="background-color: transparent;">
+          <span class="flex items-center gap-2">
+            <span class="material-symbols-outlined" style="font-size: 18px;">bolt</span>
+            Hoy mismo, sin cita ni esperas
+          </span>
+          <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span>
+        </button>
+        <button type="button" onclick="selectIntent('hacienda')" data-intent="hacienda" class="intent-btn text-left px-3.5 py-2.5 rounded-sm font-semibold text-[13px] flex items-center justify-between transition-all text-[#163E2B] hover:bg-[#E2DDD4]" style="background-color: transparent;">
+          <span class="flex items-center gap-2">
+            <span class="material-symbols-outlined" style="font-size: 18px;">signature</span>
+            Firma legal, IRPF o Becas MEC
+          </span>
+          <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span>
+        </button>
+      </div>
+      <div class="flex items-center gap-2 px-3 py-2 rounded-sm text-[12px] font-medium hairline-border" style="background-color: #FFFFFF; color: #163E2B;" id="intentPill">
+        <span class="w-2 h-2 rounded-full" style="background-color: #163E2B;"></span>
+        <span id="intentText" class="">Ruta aconsejada: <strong class="font-bold">Cl@ve Móvil</strong> (Sin lectores ni certificado)</span>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Core Comparative 3-Pillar Matrix -->
+<section class="w-full py-16 px-6 md:px-12 hairline-b" style="background-color: rgb(245, 242, 234);">
+  <div class="max-w-7xl mx-auto flex flex-col gap-10">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+      <div>
+        <span class="text-[11px] font-bold uppercase tracking-widest text-[#476353]">Inspección Técnica</span>
+        <h2 class="font-editorial-serif text-4xl md:text-5xl font-normal text-[#163E2B] mt-1">Las Tres Llaves Públicas</h2>
+      </div>
+      <p class="text-[14px] text-[#476353] max-w-md leading-relaxed">
+        Evaluación imparcial de resistencia criptográfica, compatibilidad de navegadores y complejidad de instalación.
+      </p>
+    </div>
+
+    <!-- Asymmetric 3-Column Editorial Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+      <!-- CARD 1: Cl@ve Móvil (lg:col-span-4) -->
+      <article id="card-clave" class="lg:col-span-4 flex flex-col bg-white rounded-md hairline-border p-6 transition-all duration-200">
+        <div class="flex items-center justify-between pb-4 hairline-b mb-5">
+          <span class="px-2 py-0.5 rounded-sm font-bold text-[10px] tracking-wider uppercase" style="background-color: #BFDD43; color: #163E2B;">MÁS VELOZ</span>
+          <span class="text-[11px] font-mono text-[#74877C]">MÉTODO 01</span>
+        </div>
+        <div class="flex items-start justify-between gap-3 mb-5">
+          <div>
+            <h3 class="font-editorial-serif text-3xl font-normal text-[#163E2B] leading-tight">Cl@ve Móvil</h3>
+            <p class="text-[12px] font-medium text-[#74877C] mt-0.5">PIN Dinámico • Cl@ve Permanente</p>
+          </div>
+          <div class="w-10 h-10 rounded-sm flex items-center justify-center text-[#163E2B] hairline-border" style="background-color: #F5F2EA;">
+            <span class="material-symbols-outlined" style="font-size:22px;">phonelink_ring</span>
+          </div>
+        </div>
+
+        <!-- Metrics Matrix -->
+        <div class="grid grid-cols-3 gap-px bg-[#E2DDD4] hairline-border rounded-sm mb-5 text-center overflow-hidden">
+          <div class="bg-white p-2.5">
+            <span class="block text-[10px] uppercase font-bold text-[#74877C]">Tiempo</span>
+            <span class="text-[14px] font-bold text-[#163E2B]">5 min</span>
+          </div>
+          <div class="bg-white p-2.5">
+            <span class="block text-[10px] uppercase font-bold text-[#74877C]">Validez</span>
+            <span class="text-[14px] font-bold text-[#163E2B]">2 años</span>
+          </div>
+          <div class="bg-white p-2.5">
+            <span class="block text-[10px] uppercase font-bold text-[#74877C]">Seguridad</span>
+            <span class="text-[14px] font-bold text-[#163E2B]">Media</span>
+          </div>
+        </div>
+
+        <!-- 3 Step Activation -->
+        <div class="p-3.5 rounded-sm mb-5" style="background-color: #F5F2EA;">
+          <span class="text-[11px] font-bold uppercase tracking-wider text-[#163E2B] block mb-2.5">Activación inmediata</span>
+          <ol class="space-y-2 text-[12px] text-[#476353]">
+            <li class="flex items-center gap-2">
+              <span class="w-4 h-4 rounded-sm flex items-center justify-center font-bold text-[10px] bg-white hairline-border text-[#163E2B]">1</span>
+              <span class="">Instala la app oficial Cl@ve</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="w-4 h-4 rounded-sm flex items-center justify-center font-bold text-[10px] bg-white hairline-border text-[#163E2B]">2</span>
+              <span class="">Escanea el código de soporte DNI</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="w-4 h-4 rounded-sm flex items-center justify-center font-bold text-[10px] bg-white hairline-border text-[#163E2B]">3</span>
+              <span class="">Autoriza por biometría/push</span>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Ideal for -->
+        <div class="flex-grow space-y-2 mb-6">
+          <span class="text-[11px] font-bold uppercase tracking-wider text-[#74877C] block">Casos recomendados</span>
+          <div class="flex items-start gap-2 text-[13px] text-[#163E2B]">
+            <span class="material-symbols-outlined text-[#163E2B] mt-0.5" style="font-size:16px;">check</span>
+            <span class="">Puntos del carnet DGT y cita médica</span>
+          </div>
+          <div class="flex items-start gap-2 text-[13px] text-[#163E2B]">
+            <span class="material-symbols-outlined text-[#163E2B] mt-0.5" style="font-size:16px;">check</span>
+            <span class="">Vida laboral instantánea y SEPE</span>
+          </div>
+          <div class="flex items-start gap-2 text-[13px] text-[#163E2B]">
+            <span class="material-symbols-outlined text-[#163E2B] mt-0.5" style="font-size:16px;">check</span>
+            <span class="">Consulta y confirmación Renta AEAT</span>
+          </div>
+        </div>
+
+        <div class="pt-3 hairline-t flex items-center justify-between text-[12px]">
+          <span class="text-[#74877C]">Cero hardware externo</span>
+          <a href="#" class="font-bold text-[#163E2B] inline-flex items-center gap-1 hover:underline">
+            Ver guía app <span class="material-symbols-outlined" style="font-size:14px;">arrow_forward</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- CARD 2: Certificado FNMT (lg:col-span-5 Featured Prominent Card) -->
+      <article id="card-fnmt" class="lg:col-span-5 flex flex-col bg-white rounded-md p-7 relative transition-all duration-200" style="border: 2px solid #163E2B;">
+        <div class="flex items-center justify-between pb-4 hairline-b mb-5">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded-sm font-bold text-[10px] tracking-wider uppercase text-white" style="background-color: #163E2B;">ESTÁNDAR UNIVERSAL</span>
+            <span class="px-2 py-0.5 rounded-sm font-bold text-[10px] tracking-wider uppercase" style="background-color: #BFDD43; color: #163E2B;">MÁS COMPATIBLE</span>
+          </div>
+          <span class="text-[11px] font-mono text-[#74877C]">MÉTODO 02</span>
+        </div>
+
+        <div class="flex items-start justify-between gap-3 mb-5">
+          <div>
+            <h3 class="font-editorial-serif text-3xl md:text-4xl font-normal text-[#163E2B] leading-tight">Certificado FNMT</h3>
+            <p class="text-[12px] font-medium text-[#74877C] mt-0.5">Fichero criptográfico .p12 • Firma Avanzada AutoFirma</p>
+          </div>
+          <div class="w-12 h-12 rounded-sm flex items-center justify-center text-white shrink-0" style="background-color: #163E2B;">
+            <span class="material-symbols-outlined" style="font-size:24px;">badge</span>
+          </div>
+        </div>
+
+        <!-- Metrics Matrix -->
+        <div class="grid grid-cols-3 gap-px bg-[#E2DDD4] hairline-border rounded-sm mb-5 text-center overflow-hidden">
+          <div class="bg-white p-2.5">
+            <span class="block text-[10px] uppercase font-bold text-[#74877C]">Emisión</span>
+            <span class="text-[14px] font-bold text-[#163E2B]">24-48h</span>
+          </div>
+          <div class="bg-white p-2.5" style="background-color: #F8F6F0;">
+            <span class="block text-[10px] uppercase font-bold text-[#163E2B]">Validez</span>
+            <span class="text-[14px] font-bold text-[#163E2B]">4 Años</span>
+          </div>
+          <div class="bg-white p-2.5">
+            <span class="block text-[10px] uppercase font-bold text-[#74877C]">Alcance</span>
+            <span class="text-[14px] font-bold text-[#163E2B]">100% Sedes</span>
+          </div>
+        </div>
+
+        <!-- Step block with editorial style -->
+        <div class="p-4 rounded-sm mb-5 hairline-border" style="background-color: #F5F2EA;">
+          <span class="text-[11px] font-bold uppercase tracking-wider text-[#163E2B] block mb-2.5">Proceso de Acreditación Oficial</span>
+          <div class="grid grid-cols-3 gap-2 text-center">
+            <div class="bg-white p-2 rounded-sm hairline-border">
+              <span class="font-editorial-serif text-lg text-[#163E2B] block">1. Solicitud</span>
+              <span class="text-[11px] text-[#74877C]">Código web</span>
+            </div>
+            <div class="bg-white p-2 rounded-sm hairline-border">
+              <span class="font-editorial-serif text-lg text-[#163E2B] block">2. Acreditar</span>
+              <span class="text-[11px] text-[#74877C]">Oficina o Vídeo</span>
+            </div>
+            <div class="bg-white p-2 rounded-sm hairline-border">
+              <span class="font-editorial-serif text-lg text-[#163E2B] block">3. Descarga</span>
+              <span class="text-[11px] text-[#74877C]">Instalar en browser</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ideal for list -->
+        <div class="flex-grow space-y-2 mb-6">
+          <span class="text-[11px] font-bold uppercase tracking-wider text-[#74877C] block">Ineludible para:</span>
+          <div class="flex items-start gap-2 text-[13px] text-[#163E2B]">
+            <span class="material-symbols-outlined text-[#163E2B] mt-0.5" style="font-size:16px;">check_circle</span>
+            <span class=""><strong>Firma legal de PDFs</strong> con AutoFirma oficial</span>
+          </div>
+          <div class="flex items-start gap-2 text-[13px] text-[#163E2B]">
+            <span class="material-symbols-outlined text-[#163E2B] mt-0.5" style="font-size:16px;">check_circle</span>
+            <span class="">Becas Ministerio de Educación y Oposiciones BOE</span>
+          </div>
+          <div class="flex items-start gap-2 text-[13px] text-[#163E2B]">
+            <span class="material-symbols-outlined text-[#163E2B] mt-0.5" style="font-size:16px;">check_circle</span>
+            <span class="">Autónomos, apoderamientos y sedes municipales pequeñas</span>
+          </div>
+        </div>
+
+        <div class="pt-3 hairline-t flex items-center justify-between text-[12px]">
+          <span class="font-semibold text-[#163E2B]">Compatible con macOS, Windows y Linux</span>
+          <button type="button" class="px-3 py-1.5 rounded-sm font-bold text-[12px] text-white flex items-center gap-1.5" style="background-color: #163E2B;">
+            Paso a paso <span class="material-symbols-outlined" style="font-size:14px;">arrow_forward</span>
+          </button>
+        </div>
+      </article>
+
+      <!-- CARD 3: DNIe 4.0 (lg:col-span-3) -->
+      <article id="card-dnie" class="lg:col-span-3 flex flex-col bg-white rounded-md hairline-border p-6 transition-all duration-200">
+        <div class="flex items-center justify-between pb-4 hairline-b mb-5">
+          <span class="px-2 py-0.5 rounded-sm font-bold text-[10px] tracking-wider uppercase" style="background-color: #E2DDD4; color: #163E2B;">FÍSICO + HARDWARE</span>
+          <span class="text-[11px] font-mono text-[#74877C]">MÉTODO 03</span>
+        </div>
+        <div class="flex items-start justify-between gap-3 mb-5">
+          <div>
+            <h3 class="font-editorial-serif text-3xl font-normal text-[#163E2B] leading-tight">DNIe 4.0</h3>
+            <p class="text-[12px] font-medium text-[#74877C] mt-0.5">Chip NFC • Lector Smartcard</p>
+          </div>
+          <div class="w-10 h-10 rounded-sm flex items-center justify-center text-[#163E2B] hairline-border" style="background-color: #F5F2EA;">
+            <span class="material-symbols-outlined" style="font-size:22px;">contactless</span>
+          </div>
+        </div>
+
+        <!-- Metrics Matrix -->
+        <div class="grid grid-cols-3 gap-px bg-[#E2DDD4] hairline-border rounded-sm mb-5 text-center overflow-hidden">
+          <div class="bg-white p-2.5">
+            <span class="block text-[10px] uppercase font-bold text-[#74877C]">Tiempo</span>
+            <span class="text-[14px] font-bold text-[#163E2B]">Inmediato</span>
+          </div>
+          <div class="bg-white p-2.5">
+            <span class="block text-[10px] uppercase font-bold text-[#74877C]">Validez</span>
+            <span class="text-[14px] font-bold text-[#163E2B]">5 años</span>
+          </div>
+          <div class="bg-white p-2.5">
+            <span class="block text-[10px] uppercase font-bold text-[#74877C]">Seguridad</span>
+            <span class="text-[14px] font-bold text-[#163E2B]">Máxima</span>
+          </div>
+        </div>
+
+        <!-- Warnings / Requirements -->
+        <div class="p-3.5 rounded-sm mb-5" style="background-color: #F5F2EA;">
+          <span class="text-[11px] font-bold uppercase tracking-wider text-[#163E2B] block mb-2.5">Barreras de uso</span>
+          <div class="space-y-1.5 text-[12px] text-[#476353]">
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-[#BA1A1A]" style="font-size: 15px;">cancel</span>
+              <span class="">Requiere PIN (sobre ciego)</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-[#476353]" style="font-size: 15px;">sync_problem</span>
+              <span class="">NFC sensible a movimientos</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ideal for list -->
+        <div class="flex-grow space-y-2 mb-6">
+          <span class="text-[11px] font-bold uppercase tracking-wider text-[#74877C] block">Casos ideales:</span>
+          <div class="flex items-start gap-2 text-[13px] text-[#163E2B]">
+            <span class="material-symbols-outlined text-[#163E2B] mt-0.5" style="font-size:16px;">check</span>
+            <span class="">Puestos de trabajo con lector USB</span>
+          </div>
+          <div class="flex items-start gap-2 text-[13px] text-[#163E2B]">
+            <span class="material-symbols-outlined text-[#163E2B] mt-0.5" style="font-size:16px;">check</span>
+            <span class="">Renovación exprés padrón</span>
+          </div>
+        </div>
+
+        <div class="pt-3 hairline-t flex items-center justify-between text-[12px]">
+          <span class="text-[#74877C]">Requiere cabina policía</span>
+          <a href="#" class="font-bold text-[#163E2B] inline-flex items-center gap-1 hover:underline">
+            Configurar NFC <span class="material-symbols-outlined" style="font-size:14px;">arrow_forward</span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- Visual Interactive Flow Diagram: '¿Cuál necesitas según tu caso?' -->
+<section class="w-full py-16 px-6 md:px-12 hairline-b" style="background-color: rgb(237, 232, 221);">
+  <div class="max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10 pb-4 hairline-b">
+      <div>
+        <span class="text-[11px] font-bold uppercase tracking-widest text-[#476353]">Árbol de Decisión Gráfico</span>
+        <h2 class="font-editorial-serif text-4xl md:text-5xl font-normal text-[#163E2B] mt-1">¿Cuál es tu camino crítico?</h2>
+      </div>
+      <p class="text-[14px] text-[#476353] max-w-md">
+        Sigue las tres bifurcaciones oficiales para no perder horas en pasarelas que rechazan tu método a mitad del formulario.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Path A -->
+      <div class="flex flex-col bg-white p-6 rounded-md hairline-border">
+        <div class="flex items-center justify-between pb-3 hairline-b mb-4">
+          <span class="w-6 h-6 rounded-sm flex items-center justify-center font-bold text-[12px] bg-[#EDE8DD] text-[#163E2B]">A</span>
+          <span class="px-2 py-0.5 rounded-sm font-bold text-[10px] tracking-wider uppercase text-white" style="background-color: #BA1A1A;">URGENCIA &lt; 1 HORA</span>
+        </div>
+        <h3 class="font-editorial-serif text-2xl text-[#163E2B] mb-2">Tengo 1 hora de plazo límite</h3>
+        <p class="text-[13px] text-[#476353] mb-5 leading-relaxed">
+          Debes pagar una sanción, presentar un alegato de última hora o consultar puntos sin trámites previos.
+        </p>
+        <div class="mt-auto p-3.5 rounded-sm flex flex-col gap-2.5 hairline-border" style="background-color: #F5F2EA;">
+          <div class="flex items-center gap-2.5 text-[12px] text-[#163E2B]">
+            <span class="font-mono font-bold text-[11px] text-[#74877C]">01</span>
+            <span class="">Descarga la <strong>App Cl@ve</strong> en iOS o Android</span>
+          </div>
+          <div class="w-full h-px" style="background-color: #E2DDD4;"></div>
+          <div class="flex items-center gap-2.5 text-[12px] text-[#163E2B]">
+            <span class="font-mono font-bold text-[11px] text-[#74877C]">02</span>
+            <span class="">Validación por videollamada oficial o SMS</span>
+          </div>
+          <div class="w-full h-px" style="background-color: #E2DDD4;"></div>
+          <div class="flex items-center gap-2.5 text-[12px] font-bold text-[#163E2B]">
+            <span class="w-2 h-2 rounded-full" style="background-color: #163E2B;"></span>
+            <span class="">Completado en 10 minutos reales</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Path B -->
+      <div class="flex flex-col bg-white p-6 rounded-md hairline-border">
+        <div class="flex items-center justify-between pb-3 hairline-b mb-4">
+          <span class="w-6 h-6 rounded-sm flex items-center justify-center font-bold text-[12px] bg-[#EDE8DD] text-[#163E2B]">B</span>
+          <span class="px-2 py-0.5 rounded-sm font-bold text-[10px] tracking-wider uppercase" style="background-color: #BFDD43; color: #163E2B;">100% SMARTPHONE</span>
+        </div>
+        <h3 class="font-editorial-serif text-2xl text-[#163E2B] mb-2">Sin tocar un ordenador</h3>
+        <p class="text-[13px] text-[#476353] mb-5 leading-relaxed">
+          Quieres liquidar impuestos autonómicos o pedir citas con confirmación biométrica (TouchID / FaceID).
+        </p>
+        <div class="mt-auto p-3.5 rounded-sm flex flex-col gap-2.5 hairline-border" style="background-color: #F5F2EA;">
+          <div class="flex items-center gap-2.5 text-[12px] text-[#163E2B]">
+            <span class="font-mono font-bold text-[11px] text-[#74877C]">01</span>
+            <span class="">Alta en <strong>Cl@ve Permanente</strong></span>
+          </div>
+          <div class="w-full h-px" style="background-color: #E2DDD4;"></div>
+          <div class="flex items-center gap-2.5 text-[12px] text-[#163E2B]">
+            <span class="font-mono font-bold text-[11px] text-[#74877C]">02</span>
+            <span class="">Asocia tu huella dactilar o rostro</span>
+          </div>
+          <div class="w-full h-px" style="background-color: #E2DDD4;"></div>
+          <div class="flex items-center gap-2.5 text-[12px] font-bold text-[#163E2B]">
+            <span class="w-2 h-2 rounded-full" style="background-color: #163E2B;"></span>
+            <span class="">Acceso directo por PIN push</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Path C -->
+      <div class="flex flex-col bg-white p-6 rounded-md hairline-border">
+        <div class="flex items-center justify-between pb-3 hairline-b mb-4">
+          <span class="w-6 h-6 rounded-sm flex items-center justify-center font-bold text-[12px] bg-[#EDE8DD] text-[#163E2B]">C</span>
+          <span class="px-2 py-0.5 rounded-sm font-bold text-[10px] tracking-wider uppercase text-white" style="background-color: #163E2B;">ALTA COMPLEJIDAD</span>
+        </div>
+        <h3 class="font-editorial-serif text-2xl text-[#163E2B] mb-2">Burocracia pesada y firma</h3>
+        <p class="text-[13px] text-[#476353] mb-5 leading-relaxed">
+          Subvenciones NextGen, matrículas universitarias, oposiciones ministeriales o Renta con deducción compleja.
+        </p>
+        <div class="mt-auto p-3.5 rounded-sm flex flex-col gap-2.5 hairline-border" style="background-color: #F5F2EA;">
+          <div class="flex items-center gap-2.5 text-[12px] text-[#163E2B]">
+            <span class="font-mono font-bold text-[11px] text-[#74877C]">01</span>
+            <span class="">Solicitud de <strong>Certificado FNMT</strong></span>
+          </div>
+          <div class="w-full h-px" style="background-color: #E2DDD4;"></div>
+          <div class="flex items-center gap-2.5 text-[12px] text-[#163E2B]">
+            <span class="font-mono font-bold text-[11px] text-[#74877C]">02</span>
+            <span class="">Instalación de AutoFirma oficial</span>
+          </div>
+          <div class="w-full h-px" style="background-color: #E2DDD4;"></div>
+          <div class="flex items-center gap-2.5 text-[12px] font-bold text-[#163E2B]">
+            <span class="w-2 h-2 rounded-full" style="background-color: #163E2B;"></span>
+            <span class="">Validez universal garantizada</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Traffic-Light (Semáforo) Compatibility Matrix -->
+<section class="w-full py-16 px-6 md:px-12 hairline-b" style="background-color: rgb(245, 242, 234);">
+  <div class="max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+      <div>
+        <span class="text-[11px] font-bold uppercase tracking-widest text-[#476353]">Mapa de Compatibilidad en Sedes</span>
+        <h2 class="font-editorial-serif text-4xl md:text-5xl font-normal text-[#163E2B] mt-1">Semáforo Oficial de Pasarelas</h2>
+      </div>
+      <div class="flex items-center gap-5 p-2 px-3 rounded-sm hairline-border bg-white text-[12px] font-medium text-[#163E2B]">
+        <span class="inline-flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm inline-block" style="background-color: #163E2B;"></span> 100% Nativo</span>
+        <span class="inline-flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm inline-block" style="background-color: #BFDD43;"></span> Precisa app/lector</span>
+        <span class="inline-flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm inline-block" style="background-color: #BA1A1A;"></span> Fallos continuos</span>
+      </div>
+    </div>
+
+    <!-- Authoritative Tabular Matrix -->
+    <div class="overflow-x-auto bg-white rounded-md hairline-border">
+      <table class="w-full text-left border-collapse">
+        <thead>
+          <tr class="hairline-b text-[11px] uppercase tracking-wider font-bold text-[#163E2B]" style="background-color: #EDE8DD;">
+            <th class="py-3.5 px-5">Organismo / Sede Electrónica</th>
+            <th class="py-3.5 px-4 text-center">Cl@ve Móvil</th>
+            <th class="py-3.5 px-4 text-center">Certificado FNMT</th>
+            <th class="py-3.5 px-4 text-center">DNI Electrónico</th>
+            <th class="py-3.5 px-5">Dictamen Práctico</th>
+          </tr>
+        </thead>
+        <tbody class="text-[13px] text-[#163E2B]">
+          <!-- Row 1 -->
+          <tr class="hairline-b hover:bg-[#FAF8F5] transition-colors">
+            <td class="py-4 px-5 font-semibold flex items-center gap-2.5">
+              <span class="material-symbols-outlined text-[#163E2B]" style="font-size:18px;">account_balance</span>
+              Agencia Tributaria (AEAT)
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-white" style="background-color: #163E2B;">NATIVO</span>
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-white" style="background-color: #163E2B;">NATIVO</span>
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-white" style="background-color: #163E2B;">NATIVO</span>
+            </td>
+            <td class="py-4 px-5 text-[12px] text-[#476353]">Soporte total sin interrupciones. La declaración se ratifica en 60 segundos con Cl@ve.</td>
+          </tr>
+          <!-- Row 2 -->
+          <tr class="hairline-b hover:bg-[#FAF8F5] transition-colors" style="background-color: #FAF8F5;">
+            <td class="py-4 px-5 font-semibold flex items-center gap-2.5">
+              <span class="material-symbols-outlined text-[#163E2B]" style="font-size:18px;">health_and_safety</span>
+              Seguridad Social (INSS / SEPE)
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-white" style="background-color: #163E2B;">NATIVO</span>
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-white" style="background-color: #163E2B;">NATIVO</span>
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-[#163E2B]" style="background-color: #E2DDD4;">INESTABLE</span>
+            </td>
+            <td class="py-4 px-5 text-[12px] text-[#476353]">El chip DNIe sufre timeouts continuos si la firma del expediente supera los 3 minutos.</td>
+          </tr>
+          <!-- Row 3 -->
+          <tr class="hairline-b hover:bg-[#FAF8F5] transition-colors">
+            <td class="py-4 px-5 font-semibold flex items-center gap-2.5">
+              <span class="material-symbols-outlined text-[#163E2B]" style="font-size:18px;">directions_car</span>
+              Dirección General de Tráfico (DGT)
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-white" style="background-color: #163E2B;">NATIVO</span>
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-white" style="background-color: #163E2B;">NATIVO</span>
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-[#163E2B]" style="background-color: #E2DDD4;">INESTABLE</span>
+            </td>
+            <td class="py-4 px-5 text-[12px] text-[#476353]">La aplicación móvil miDGT opera de forma inmediata vinculada a Cl@ve PIN.</td>
+          </tr>
+          <!-- Row 4 -->
+          <tr class="hairline-b hover:bg-[#FAF8F5] transition-colors" style="background-color: #FAF8F5;">
+            <td class="py-4 px-5 font-semibold flex items-center gap-2.5">
+              <span class="material-symbols-outlined text-[#163E2B]" style="font-size:18px;">apartment</span>
+              Sedes Municipales (Ayuntamientos)
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-[#163E2B]" style="background-color: #BFDD43;">PARCIAL</span>
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-white" style="background-color: #163E2B;">NATIVO</span>
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-[#163E2B]" style="background-color: #BFDD43;">PARCIAL</span>
+            </td>
+            <td class="py-4 px-5 text-[12px] text-[#476353]">Municipios de &lt; 20.000 hab. carecen de Cl@ve. El certificado FNMT es mandatorio.</td>
+          </tr>
+          <!-- Row 5 -->
+          <tr class="hover:bg-[#FAF8F5] transition-colors">
+            <td class="py-4 px-5 font-semibold flex items-center gap-2.5">
+              <span class="material-symbols-outlined text-[#163E2B]" style="font-size:18px;">gavel</span>
+              Ministerio de Justicia (Certificados Penales)
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-white" style="background-color: #BA1A1A;">BLOQUEADO</span>
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-white" style="background-color: #163E2B;">NATIVO</span>
+            </td>
+            <td class="py-4 px-4 text-center">
+              <span class="px-2 py-0.5 rounded-sm font-bold text-[11px] uppercase tracking-wider text-white" style="background-color: #163E2B;">NATIVO</span>
+            </td>
+            <td class="py-4 px-5 text-[12px] text-[#476353]">Exige firma avanzada de clave pública con AutoFirma. Cl@ve queda totalmente excluida.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<!-- Troubleshooting & Visual Micro-Tutorials -->
+<section class="w-full py-16 px-6 md:px-12 hairline-b" style="background-color: rgb(237, 232, 221);">
+  <div class="max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10 pb-4 hairline-b">
+      <div>
+        <span class="text-[11px] font-bold uppercase tracking-widest text-[#476353]">Protocolos de Resolución</span>
+        <h2 class="font-editorial-serif text-4xl md:text-5xl font-normal text-[#163E2B] mt-1">Puntos de Fricción Frecuentes</h2>
+      </div>
+      <p class="text-[14px] text-[#476353] max-w-md">
+        El 85% de los abandonos telemáticos responden a 4 desajustes técnicos menores fácilmente subsanables.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+      <!-- Error 1 -->
+      <div class="flex flex-col bg-white rounded-md hairline-border overflow-hidden">
+        <div class="h-32 bg-[#F5F2EA] relative overflow-hidden">
+          <img class="w-full h-full object-cover" alt="AutoFirma configuration screen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPwtw8rQYNi-PhU_MULx9EfLjFpK3AixC3K9kTWDW7YVCdQ_G5TjwG5H161U5IOP9MAHG-GWneuUXlvtgJiMupyVTh0yrE7aWj93n0v-VQVaLmf-ogsWg9qoyOWING-y2d6IvtyOGRcSGgNrUqWhpx0dZKjHDwDh1Fxi1JFyvuaqlzjaDTd7dSHnFw71Qv8YWnnf9hGeygEHt3mEOrW4uXqshAihRxjsiXqv84qppHt9MnK-25zrlE">
+          <span class="absolute bottom-2 left-2 px-2 py-0.5 rounded-sm text-[10px] font-bold tracking-wider uppercase text-white" style="background-color: #163E2B;">PROTOCOLO LOCAL</span>
+        </div>
+        <div class="p-4 flex flex-col flex-grow">
+          <h3 class="font-editorial-serif text-2xl text-[#163E2B] mb-1.5 leading-snug">El bucle de AutoFirma</h3>
+          <p class="text-[12px] text-[#476353] leading-relaxed flex-grow">
+            Chrome bloquea la llamada al cliente local. Marca <em>"Permitir siempre a autofirma abrir estos enlaces"</em> en la barra superior.
+          </p>
+          <div class="mt-3 pt-2.5 hairline-t flex items-center gap-1.5 text-[11px] font-bold text-[#163E2B]">
+            <span class="material-symbols-outlined" style="font-size:15px;">handyman</span>
+            <span class="">Solución: Autorizar handler</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Error 2 -->
+      <div class="flex flex-col bg-white rounded-md hairline-border overflow-hidden">
+        <div class="h-32 bg-[#F5F2EA] relative overflow-hidden">
+          <img class="w-full h-full object-cover" alt="Caducidad certificado digital" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyQMB17xe-hmHMDwcDAtOundXMpd9rF5wvUF77T5t_FuHOYfnD9xgERBQrBUIWbtmj2jCCB_9C21zGMnrn1QecMcQcxGzL1CFrXDU6j76Uf_GfzHBPXTqSf3AHkhcK6UhMA6ROqjfM-KglZEUKq72ZQjAn8TTwmCkRy-Z8mR1Pm6EZmABaoFMcuJmhEkucsnIGM1tYOZgAsgV_PDLfKWvJIUX0gPKYVAtiOGn0Q8aKxBNZ-Eccv2ZB">
+          <span class="absolute bottom-2 left-2 px-2 py-0.5 rounded-sm text-[10px] font-bold tracking-wider uppercase text-white" style="background-color: #163E2B;">PLAZOS FNMT</span>
+        </div>
+        <div class="p-4 flex flex-col flex-grow">
+          <h3 class="font-editorial-serif text-2xl text-[#163E2B] mb-1.5 leading-snug">Certificado vencido</h3>
+          <p class="text-[12px] text-[#476353] leading-relaxed flex-grow">
+            El certificado FNMT expira a los 4 años. Renuévalo telemáticamente en 2 minutos durante los 60 días previos a la fecha final.
+          </p>
+          <div class="mt-3 pt-2.5 hairline-t flex items-center gap-1.5 text-[11px] font-bold text-[#163E2B]">
+            <span class="material-symbols-outlined" style="font-size:15px;">update</span>
+            <span class="">Solución: Sede FNMT telemática</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Error 3 -->
+      <div class="flex flex-col bg-white rounded-md hairline-border overflow-hidden">
+        <div class="h-32 bg-[#F5F2EA] relative overflow-hidden">
+          <img class="w-full h-full object-cover" alt="Lectura NFC smartphone" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKCyFd8GLiCPOwnWt823Nrdgp-9CwkmyRIY42wOfNIqkQ9GTlk2TNN63aNKoGccWIOicgBp0t2A8Bjz7it-iEmVz2oqdsO_jZg29y5sRHNVmHyyZwK9g1aNUWaAdpuuMKH698hqJ1rYNHSP9r_poS18NvIDcs6Ws-JwrVDDBMkTArY1qk8AWiMjSECie-4qszpvPIGTREZln-2EiKGi42VAzyF51b4wSUufwEG6fMWc1IilgO5NiTU">
+          <span class="absolute bottom-2 left-2 px-2 py-0.5 rounded-sm text-[10px] font-bold tracking-wider uppercase text-white" style="background-color: #163E2B;">ANTENA DNIe</span>
+        </div>
+        <div class="p-4 flex flex-col flex-grow">
+          <h3 class="font-editorial-serif text-2xl text-[#163E2B] mb-1.5 leading-snug">Corte en lectura NFC</h3>
+          <p class="text-[12px] text-[#476353] leading-relaxed flex-grow">
+            Retira fundas gruesas de policarbonato. Sitúa la esquina superior izquierda del chip pegada a la lente de la cámara 5 segundos.
+          </p>
+          <div class="mt-3 pt-2.5 hairline-t flex items-center gap-1.5 text-[11px] font-bold text-[#163E2B]">
+            <span class="material-symbols-outlined" style="font-size:15px;">contactless</span>
+            <span class="">Solución: Alinear chip y bobina</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Error 4 -->
+      <div class="flex flex-col bg-white rounded-md hairline-border overflow-hidden">
+        <div class="h-32 bg-[#F5F2EA] relative overflow-hidden">
+          <img class="w-full h-full object-cover" alt="PIN Cl@ve vencimiento" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6jkHr-02F5yHT9vvzge_8609WKmHDUsgf6IyJPVuqZuDNV_FVMhj4dPEnJq_7mE1UD9EjE3Sjjfdt842SFZByAAINB3sOZHd9KvzbMJpRfETWw0WQeFe9DiZHxvVXRILsZws1kUuQgrBIcffpfSmWNJTSiTKvKwm5Wm_d7Pu1e5HV5qQFJx2j5i6hFXiE1G5NHQ7mOQfnukueD4rUuSx8ywhOshyaQuf1GgwhE9OkKZweDM3TEYAZ">
+          <span class="absolute bottom-2 left-2 px-2 py-0.5 rounded-sm text-[10px] font-bold tracking-wider uppercase text-white" style="background-color: #163E2B;">SESIÓN CÍVICA</span>
+        </div>
+        <div class="p-4 flex flex-col flex-grow">
+          <h3 class="font-editorial-serif text-2xl text-[#163E2B] mb-1.5 leading-snug">PIN expirado (10m)</h3>
+          <p class="text-[12px] text-[#476353] leading-relaxed flex-grow">
+            El token dinámico vence en 10 minutos. Solicita un nuevo código push en la app sin cerrar el navegador ni recargar la pestaña.
+          </p>
+          <div class="mt-3 pt-2.5 hairline-t flex items-center gap-1.5 text-[11px] font-bold text-[#163E2B]">
+            <span class="material-symbols-outlined" style="font-size:15px;">restart_alt</span>
+            <span class="">Solución: Regenerar sin recarga</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Interactive Decision Bar & Action Prompt -->
+<footer class="w-full py-12 px-6 md:px-12" style="background-color: rgb(245, 242, 234);">
+  <div class="max-w-7xl mx-auto p-8 rounded-md hairline-border flex flex-col md:flex-row items-center justify-between gap-6 bg-white">
+    <div class="flex items-center gap-4">
+      <div class="w-12 h-12 rounded-sm flex items-center justify-center text-white shrink-0" style="background-color: #163E2B;">
+        <span class="material-symbols-outlined" style="font-size:26px;">account_box</span>
+      </div>
+      <div>
+        <h4 class="font-editorial-serif text-2xl text-[#163E2B]">¿Requieres acreditación presencial de identidad?</h4>
+        <p class="text-[13px] text-[#476353] mt-0.5">Localiza oficinas de registro concertadas de la Seguridad Social, AEAT y comisarías de Policía.</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-3 w-full md:w-auto shrink-0">
+      <button type="button" class="w-full md:w-auto px-5 py-3 rounded-sm font-bold text-[13px] text-white flex items-center justify-center gap-2" style="background-color: #163E2B;">
+        <span class="">Directorio de Oficinas Públicas</span>
+        <span class="material-symbols-outlined" style="font-size:16px;">arrow_forward</span>
+      </button>
+    </div>
+  </div>
+</footer>
+</div>
+<script>
+  function selectIntent(type) {
+    const buttons = document.querySelectorAll('.intent-btn');
+    buttons.forEach(btn => {
+      btn.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+      btn.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+    });
+
+    const activeBtn = document.querySelector(`[data-intent="${type}"]`);
+    if(activeBtn) {
+      activeBtn.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+      activeBtn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+    }
+
+    const pillText = document.getElementById('intentText');
+    const cardClave = document.getElementById('card-clave');
+    const cardFnmt = document.getElementById('card-fnmt');
+    const cardDnie = document.getElementById('card-dnie');
+
+    // Reset card highlights
+    [cardClave, cardFnmt, cardDnie].forEach(card => {
+      card.classList.remove('ring-4', 'ring-primary', 'scale-[1.02]');
+    });
+
+    if (type === 'movil') {
+      pillText.innerHTML = 'Recomendación óptima: <strong>Cl@ve Móvil</strong> (Activación instantánea mediante app)';
+      cardClave.classList.add('scale-[1.02]');
+    } else if (type === 'urgente') {
+      pillText.innerHTML = 'Recomendación óptima: <strong>Cl@ve Móvil / PIN</strong> (Acceso sin lectores ni citas presenciales)';
+      cardClave.classList.add('scale-[1.02]');
+    } else if (type === 'hacienda') {
+      pillText.innerHTML = 'Recomendación óptima: <strong>Certificado FNMT</strong> (Firma documental íntegra y compatibilidad 100%)';
+      cardFnmt.classList.add('scale-[1.02]');
+    }
+  }
+</script></main>
+
+</body></html>

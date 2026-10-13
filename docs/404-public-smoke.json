@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/ruta-inexistente-auditoria",
+    "checks": {
+      "http_404": true,
+      "noindex": true,
+      "single_h1": true,
+      "search_loading_state": true,
+      "directory_link": true
+    },
+    "canonicals": [],
+    "title": "Página no encontrada · RutaTrámite"
+  },
+  {
+    "path": "/dni/ruta-inexistente-auditoria",
+    "checks": {
+      "http_404": true,
+      "noindex": true,
+      "single_h1": true,
+      "search_loading_state": true,
+      "directory_link": true
+    },
+    "canonicals": [],
+    "title": "Página no encontrada · RutaTrámite"
+  },
+  {
+    "path": "/becas/ruta-inexistente-auditoria",
+    "checks": {
+      "http_404": true,
+      "noindex": true,
+      "single_h1": true,
+      "search_loading_state": true,
+      "directory_link": true
+    },
+    "canonicals": [],
+    "title": "Página no encontrada · RutaTrámite"
+  },
+  {
+    "path": "/empadronarse/ruta-inexistente-auditoria",
+    "checks": {
+      "http_404": true,
+      "noindex": true,
+      "single_h1": true,
+      "search_loading_state": true,
+      "directory_link": true
+    },
+    "canonicals": [],
+    "title": "Página no encontrada · RutaTrámite"
+  },
+  {
+    "path": "/empadronarse/comunidad-de-madrid/madrid/ruta-inexistente-auditoria",
+    "checks": {
+      "http_404": true,
+      "noindex": true,
+      "single_h1": true,
+      "search_loading_state": true,
+      "directory_link": true
+    },
+    "canonicals": [],
+    "title": "Página no encontrada · RutaTrámite"
+  }
+]

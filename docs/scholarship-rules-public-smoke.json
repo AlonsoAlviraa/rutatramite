@@ -1,0 +1,69 @@
+[
+  {
+    "path": "/becas/mec/bachillerato",
+    "checks": {
+      "http_200": true,
+      "visible_corrections": true,
+      "no_false_repayment_escape": true,
+      "no_shortened_business_days": true,
+      "no_wait_for_dni": true,
+      "no_fp_hours_rule": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/becas/mec/renuncia",
+    "checks": {
+      "http_200": true,
+      "visible_corrections": true,
+      "no_false_repayment_escape": true,
+      "no_shortened_business_days": true,
+      "no_wait_for_dni": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/becas/mec/subsanacion",
+    "checks": {
+      "http_200": true,
+      "visible_corrections": true,
+      "no_false_repayment_escape": true,
+      "no_shortened_business_days": true,
+      "no_wait_for_dni": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/becas/mec/no-devolver",
+    "checks": {
+      "http_200": true,
+      "visible_corrections": true,
+      "no_false_repayment_escape": true,
+      "no_shortened_business_days": true,
+      "no_wait_for_dni": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/becas/mec/estado",
+    "checks": {
+      "http_200": true,
+      "visible_corrections": true,
+      "no_false_repayment_escape": true,
+      "no_shortened_business_days": true,
+      "no_wait_for_dni": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/becas",
+    "checks": {
+      "http_200": true,
+      "visible_corrections": true,
+      "no_false_repayment_escape": true,
+      "no_shortened_business_days": true,
+      "no_wait_for_dni": true
+    },
+    "passed": true
+  }
+]

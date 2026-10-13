@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "seconds": 0.969,
+    "expected_content": true
+  },
+  {
+    "path": "/becas/autonomicas/beca-salario-gva",
+    "status": 200,
+    "seconds": 0.317,
+    "expected_content": true
+  },
+  {
+    "path": "/becas/autonomicas/ayudas-estudio-cyl",
+    "status": 200,
+    "seconds": 0.427,
+    "expected_content": true
+  },
+  {
+    "path": "/_next/static/Q0kL8ZnTNf3l-fC6sQw7T/_buildManifest.js",
+    "status": 200,
+    "seconds": 0.291,
+    "expected_content": true
+  }
+]

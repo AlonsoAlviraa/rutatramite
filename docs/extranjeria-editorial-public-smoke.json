@@ -1,0 +1,82 @@
+[
+  {
+    "path": "/extranjeria/subsanar-regularizacion-correos",
+    "status": 200,
+    "has_official_source": true,
+    "removed_sector_legal_claim": true,
+    "removed_30_45": true,
+    "removed_90_percent": true,
+    "removed_october": true,
+    "removed_block_claim": true
+  },
+  {
+    "path": "/extranjeria/regularizacion-2026-resolucion",
+    "status": 200,
+    "has_official_source": true,
+    "removed_sector_legal_claim": true,
+    "removed_30_45": true,
+    "removed_90_percent": true,
+    "removed_october": true,
+    "removed_block_claim": true
+  },
+  {
+    "path": "/dni/consultar-cita",
+    "status": 200,
+    "has_official_source": true,
+    "removed_sector_legal_claim": true,
+    "removed_30_45": true,
+    "removed_90_percent": true,
+    "removed_october": true,
+    "removed_block_claim": true
+  },
+  {
+    "path": "/extranjeria/tie-caducada-viajar",
+    "status": 200,
+    "has_official_source": true,
+    "removed_sector_legal_claim": true,
+    "removed_30_45": true,
+    "removed_90_percent": true,
+    "removed_october": true,
+    "removed_block_claim": true
+  },
+  {
+    "path": "/extranjeria/autorizacion-regreso-navidad",
+    "status": 200,
+    "has_official_source": true,
+    "removed_sector_legal_claim": true,
+    "removed_30_45": true,
+    "removed_90_percent": true,
+    "removed_october": true,
+    "removed_block_claim": true
+  },
+  {
+    "path": "/extranjeria/huellas-que-llevar",
+    "status": 200,
+    "has_official_source": true,
+    "removed_sector_legal_claim": true,
+    "removed_30_45": true,
+    "removed_90_percent": true,
+    "removed_october": true,
+    "removed_block_claim": true
+  },
+  {
+    "path": "/extranjeria/tie-recogida-cuanto-tarda",
+    "status": 200,
+    "has_official_source": true,
+    "removed_sector_legal_claim": true,
+    "removed_30_45": true,
+    "removed_90_percent": true,
+    "removed_october": true,
+    "removed_block_claim": true
+  },
+  {
+    "path": "/extranjeria/autorizacion-regreso-ex13",
+    "status": 200,
+    "has_official_source": true,
+    "removed_sector_legal_claim": true,
+    "removed_30_45": true,
+    "removed_90_percent": true,
+    "removed_october": true,
+    "removed_block_claim": true
+  }
+]

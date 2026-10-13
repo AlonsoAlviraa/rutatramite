@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/dni/urgente-sin-cita",
+    "checks": {
+      "http_200": true,
+      "visible_corrections": true,
+      "no_guaranteed_rescue": true,
+      "no_hidden_quota": true,
+      "no_airport_dni_promise": true,
+      "review_date": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/dni/caducado-vueling",
+    "checks": {
+      "http_200": true,
+      "visible_corrections": true,
+      "no_guaranteed_rescue": true,
+      "no_hidden_quota": true,
+      "no_airport_dni_promise": true,
+      "review_date": true
+    },
+    "passed": true
+  }
+]

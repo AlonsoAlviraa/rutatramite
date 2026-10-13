@@ -1,0 +1,10 @@
+{
+  "status_200": true,
+  "report_not_identification": true,
+  "nationality_scope": true,
+  "no_report_and_photo_claim": true,
+  "no_blanket_passport_claim": true,
+  "current_aviation_source": true,
+  "aena_source": true,
+  "review_date": true
+}

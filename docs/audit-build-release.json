@@ -1,0 +1,20 @@
+{
+  "html_pages": 997,
+  "indexable_pages": 228,
+  "sitemap_urls": 228,
+  "issue_counts": {
+    "duplicate sitemap URL": 2
+  },
+  "issues": [
+    {
+      "path": "https://rutatramite.com/empadronarse/volante-online",
+      "kind": "duplicate sitemap URL",
+      "detail": 2
+    },
+    {
+      "path": "https://rutatramite.com/empadronarse/cita-previa-madrid",
+      "kind": "duplicate sitemap URL",
+      "detail": 2
+    }
+  ]
+}

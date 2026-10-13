@@ -1,0 +1,114 @@
+[
+  {
+    "path": "/dni",
+    "checks": {
+      "http_200": true,
+      "independent_notice": true,
+      "no_padron_notice": true,
+      "general_notice": true,
+      "search_label": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/pasaporte",
+    "checks": {
+      "http_200": true,
+      "independent_notice": true,
+      "no_padron_notice": true,
+      "general_notice": true,
+      "search_label": true,
+      "passport_heading": true,
+      "passport_guide": true,
+      "shared_minor_guide": true,
+      "no_dni_bank_guide": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/mudanza",
+    "checks": {
+      "http_200": true,
+      "independent_notice": true,
+      "no_padron_notice": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/extranjeria",
+    "checks": {
+      "http_200": true,
+      "independent_notice": true,
+      "no_padron_notice": true,
+      "general_notice": true,
+      "search_label": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/colegio",
+    "checks": {
+      "http_200": true,
+      "independent_notice": true,
+      "no_padron_notice": true,
+      "general_notice": true,
+      "search_label": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/comedor",
+    "checks": {
+      "http_200": true,
+      "independent_notice": true,
+      "no_padron_notice": true,
+      "general_notice": true,
+      "search_label": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/fp",
+    "checks": {
+      "http_200": true,
+      "independent_notice": true,
+      "no_padron_notice": true,
+      "general_notice": true,
+      "search_label": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/bebe",
+    "checks": {
+      "http_200": true,
+      "independent_notice": true,
+      "no_padron_notice": true,
+      "general_notice": true,
+      "search_label": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/becas",
+    "checks": {
+      "http_200": true,
+      "independent_notice": true,
+      "no_padron_notice": true,
+      "general_notice": true,
+      "search_label": true
+    },
+    "passed": true
+  },
+  {
+    "path": "/modelos",
+    "checks": {
+      "http_200": true,
+      "independent_notice": true,
+      "no_padron_notice": true,
+      "general_notice": true,
+      "search_label": true
+    },
+    "passed": true
+  }
+]
