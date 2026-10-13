@@ -20,6 +20,7 @@ const PACK_LABEL: Record<GuidePack, string> = {
   elecciones: "Elecciones 29 de noviembre de 2026",
   "ayudas-gobierno": "Ayudas según cada gobierno",
   modelos: "Modelos y cartas",
+  trabajo: "Trabajo y prestaciones",
 };
 
 export function normalizeSearch(s: string): string {

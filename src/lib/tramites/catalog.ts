@@ -20,6 +20,7 @@ import { FP_GUIDES } from "@/lib/tramites/fp";
 import { MUDANZA_GUIDES } from "@/lib/tramites/mudanza";
 import type { Guide, GuidePack } from "@/lib/tramites/types";
 import { VIAJE_GUIDES } from "@/lib/tramites/viaje";
+import { GESTIONES_CLAVE_GUIDES } from "@/lib/tramites/gestiones-clave-2026";
 
 export const ALL_GUIDES: Guide[] = [
   ...ACTUALIDAD_20261006_GUIDES,
@@ -27,6 +28,7 @@ export const ALL_GUIDES: Guide[] = [
   ...AYUDAS_GOBIERNO_GUIDES,
   ...AYUDAS_2026_GUIDES,
   ...VIAJE_GUIDES,
+  ...GESTIONES_CLAVE_GUIDES,
   ...DNI_NICHOS_GUIDES,
   ...MUDANZA_GUIDES,
   ...EXTRANJERIA_GUIDES,

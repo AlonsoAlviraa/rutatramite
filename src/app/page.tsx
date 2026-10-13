@@ -31,8 +31,9 @@ const PACKS = [
   {
     href: "/dni",
     title: "DNI y pasaporte",
-    blurb: "citapreviadnie.es. Cita gratuita. Tasas 2026: DNI 12 €, pasaporte 30 €.",
+    blurb: "Renovar el DNI cuesta 12 € y el pasaporte 30 €. Cita gratuita en citapreviadnie.es; documentos y pasos.",
   },
+  { href: "/trabajo", title: "Trabajo y paro", blurb: "Vida laboral, cita del SEPE e ingreso mínimo vital 2026." },
   {
     href: "/extranjeria",
     title: "Extranjería",
@@ -114,7 +115,7 @@ export default function HomePage() {
           entries={guideSearchEntries()}
           hint="Busca una guía por trámite. Los municipios están en el padrón, el asistente o la búsqueda completa."
         />
-        <div className="home-shortcuts"><span>Acceso directo</span><a href="/dni/cita-previa">Pedir cita para el DNI</a><a href="/empadronarse">Empadronarse</a><a href="/becas">Consultar becas</a><a href="/extranjeria">Extranjería</a></div>
+        <div className="home-shortcuts"><span>Acceso directo</span><a href="/dni/cita-previa">Pedir cita para el DNI</a><a href="/dni">Precio y renovación del DNI</a><a href="/empadronarse">Empadronarse</a><a href="/becas">Consultar becas</a><a href="/extranjeria">Extranjería</a></div>
       </section>
 
       <section id="tramites" className="mt-12" data-pack-grid="">

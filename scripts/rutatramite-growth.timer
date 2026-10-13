@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily RutaTramite metrics and finalized Search Console measurement
+
+[Timer]
+OnCalendar=*-*-* 06:30:00 UTC
+Persistent=true
+RandomizedDelaySec=300
+Unit=rutatramite-growth.service
+
+[Install]
+WantedBy=timers.target

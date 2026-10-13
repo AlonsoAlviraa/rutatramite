@@ -399,7 +399,7 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     cta: S.votoInfo,
     secondaryCta: { href: "/dni", label: "Renovar el DNI" },
     sources: [S.votoInfo, S.loreg("aochentaycinco", "artículo 85")],
-    related: [R.llevar, R.jornada, { href: "/dni/cita-previa", label: "Cita previa del DNI" }, R.faq],
+    related: [R.llevar, R.jornada, { href: "/dni/cita-previa", label: "Cita previa del DNI" }, { href: "/dni", label: "Renovar el DNI: precio (12 €), documentos y pasos" }, R.faq],
     faqs: [
       { q: "¿Y si he perdido el DNI?", a: "Puedes votar con el pasaporte o el permiso de conducir con foto. El resguardo de solicitud del DNI no vale porque no lleva fotografía." },
     ],

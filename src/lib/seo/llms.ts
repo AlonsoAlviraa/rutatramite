@@ -16,6 +16,7 @@ const PACK_HEADING: Record<GuidePack, string> = {
   elecciones: "Elecciones 29 de noviembre de 2026",
   "ayudas-gobierno": "Ayudas del Estado según cada gobierno",
   modelos: "Modelos y cartas",
+  trabajo: "Trabajo, paro y prestaciones",
 };
 
 const PACK_ORDER: GuidePack[] = [
@@ -31,6 +32,7 @@ const PACK_ORDER: GuidePack[] = [
   "alquiler",
   "elecciones",
   "ayudas-gobierno",
+  "trabajo",
   "modelos",
 ];
 

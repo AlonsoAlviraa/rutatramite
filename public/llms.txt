@@ -123,6 +123,10 @@ Versión extendida para agentes: [https://rutatramite.com/llms-full.txt](https:/
 - [Autónomos: qué ayudas creó y recortó cada gobierno desde 1996](https://rutatramite.com/ayudas-por-gobierno/autonomos)
 - [Personas desempleadas: qué ayudas creó y recortó cada gobierno desde 1996](https://rutatramite.com/ayudas-por-gobierno/desempleados)
 - [Discapacidad y dependencia: qué ayudas creó y recortó cada gobierno desde 1996](https://rutatramite.com/ayudas-por-gobierno/discapacidad-dependencia)
+### Trabajo, paro y prestaciones
+- [Informe de vida laboral: cómo descargarlo por SMS, Cl@ve o certificado](https://rutatramite.com/trabajo/vida-laboral)
+- [Cita previa del SEPE para el paro: cómo pedirla y alternativas](https://rutatramite.com/trabajo/cita-previa-sepe)
+- [Ingreso mínimo vital 2026: cuánto se cobra, requisitos y cómo pedirlo](https://rutatramite.com/trabajo/ingreso-minimo-vital)
 ### Modelos y cartas
 - [Inventario de entrada y salida y estado de la fianza](https://rutatramite.com/inventario-fianza-alquiler)
 - [Carta de baja voluntaria: comprobar preaviso y elegir modelo](https://rutatramite.com/modelo-baja-voluntaria)

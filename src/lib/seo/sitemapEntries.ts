@@ -25,6 +25,7 @@ const STATIC_HUBS = [
   "/ayudas",
   "/alquiler",
   "/transporte",
+  "/trabajo",
   "/recursos",
   "/recursos/padron-municipal",
   "/descargas",

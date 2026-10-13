@@ -11,7 +11,8 @@ export type GuidePack =
   | "alquiler"
   | "elecciones"
   | "ayudas-gobierno"
-  | "modelos";
+  | "modelos"
+  | "trabajo";
 
 /** Index path of each pack (breadcrumbs and PackIndex). */
 export const PACK_INDEX_PATH: Record<GuidePack, string> = {
@@ -28,6 +29,7 @@ export const PACK_INDEX_PATH: Record<GuidePack, string> = {
   elecciones: "/elecciones",
   "ayudas-gobierno": "/ayudas-por-gobierno",
   modelos: "/modelos",
+  trabajo: "/trabajo",
 };
 
 export type GuideModelBlock = {

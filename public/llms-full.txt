@@ -1,0 +1,316 @@
+# RutaTrámite — índice completo
+
+> Guía ciudadana independiente sobre trámites en España. Cada ficha o guía resume el trámite, apunta a la sede oficial y deja claro que RutaTrámite no es Administración. No inventamos plazos, tasas ni requisitos locales no verificados.
+
+Este archivo lista las páginas HTML públicas pensadas para citarse. La versión corta está en [https://rutatramite.com/llms.txt](https://rutatramite.com/llms.txt). El sitemap está en [https://rutatramite.com/sitemap.xml](https://rutatramite.com/sitemap.xml).
+
+## Cómo citar
+
+- La Ley 7/1985 obliga a inscribirse en el padrón del municipio de residencia habitual y no fija un precio nacional del alta. En Sevilla, el Ayuntamiento dice que el empadronamiento es gratuito y que cualquier pago exigido para empadronarse es un fraude. En Córdoba, el alta figura como no sujeta a tasas. El alta se pide en el ayuntamiento, no en esta web.
+- La cita de DNI y pasaporte se pide en citapreviadnie.es o en el 060. La reserva de cita es gratuita; las tasas 2026 del documento son DNI 12 € y pasaporte 30 €, salvo exención.
+- Las fichas municipales con datos pendientes de verificación lo indican; no deben leerse como un bando municipal.
+- Contrasta siempre el texto vigente en la sede oficial enlazada.
+
+## Pilares
+
+- [Inicio](https://rutatramite.com/)
+- [Empadronarse en España](https://rutatramite.com/empadronarse)
+- [DNI y pasaporte](https://rutatramite.com/dni)
+- [Pasaporte](https://rutatramite.com/pasaporte)
+- [Extranjería](https://rutatramite.com/extranjeria)
+- [Mudanza](https://rutatramite.com/mudanza)
+- [Colegio](https://rutatramite.com/colegio)
+- [Comedor](https://rutatramite.com/comedor)
+- [Transporte](https://rutatramite.com/transporte)
+- [Formación Profesional](https://rutatramite.com/fp)
+- [Bebé](https://rutatramite.com/bebe)
+- [Becas](https://rutatramite.com/becas)
+- [Ayudas al alquiler](https://rutatramite.com/alquiler)
+- [Ayudas y plazos](https://rutatramite.com/ayudas)
+- [Modelos y cartas](https://rutatramite.com/modelos)
+
+## Padrón: situaciones
+
+- [Con contrato de alquiler](https://rutatramite.com/empadronarse/con-contrato)
+- [Sin contrato de alquiler](https://rutatramite.com/empadronarse/sin-contrato)
+- [Propietario o usufructuario](https://rutatramite.com/empadronarse/propietario)
+- [Casa de un familiar](https://rutatramite.com/empadronarse/casa-de-familiar)
+- [Alta con menores](https://rutatramite.com/empadronarse/menores)
+- [Extranjeros UE / EEE / Suiza](https://rutatramite.com/empadronarse/extranjeros-ue)
+- [Extranjeros no comunitarios](https://rutatramite.com/empadronarse/extranjeros-no-ue)
+- [Sin hogar o infravivienda](https://rutatramite.com/empadronarse/sin-hogar)
+- [Volante, certificado e histórico](https://rutatramite.com/empadronarse/volante-vs-certificado)
+- [Renovación a los 2 años](https://rutatramite.com/empadronarse/renovacion-2-anos)
+- [Cambio de domicilio](https://rutatramite.com/empadronarse/cambio-de-domicilio)
+- [Baja en el padrón](https://rutatramite.com/empadronarse/baja)
+- [Volante de empadronamiento por internet](https://rutatramite.com/empadronarse/volante-online)
+- [Cita previa de empadronamiento en Madrid](https://rutatramite.com/empadronarse/cita-previa-madrid)
+
+## DNI y pasaporte
+
+- [Índice: DNI y pasaporte](https://rutatramite.com/dni)
+- [Cita DNI en citapreviadnie.es: pedir, consultar o anular](https://rutatramite.com/dni/cita-previa)
+- [Cita previa de pasaporte: reserva y documentos](https://rutatramite.com/pasaporte/cita-previa)
+- [Renovar el DNI caducado: plazo, cita y documentos](https://rutatramite.com/dni/renovar-caducado)
+- [DNI y pasaporte en la misma cita: requisitos y excepciones](https://rutatramite.com/dni/misma-cita-pasaporte)
+- [Primera expedición: DNI o pasaporte de un menor](https://rutatramite.com/dni/primera-expedicion-menor)
+- [Pasaporte urgente: atención excepcional y Barajas T4](https://rutatramite.com/pasaporte/urgente)
+- [Qué llevar a la cita de DNI o pasaporte: lista por trámite](https://rutatramite.com/dni/checklist)
+- [DNI caducado para viajar por la UE: documentos y controles](https://rutatramite.com/dni/caducado-viajar-ue)
+- [Pasaporte caducado sin cita: qué comprobar antes de viajar](https://rutatramite.com/pasaporte/caducado-sin-cita)
+- [MiDNI: identificación presencial, registro y límites de viaje](https://rutatramite.com/dni/midni)
+- [Unidades móviles DNI y pasaporte: calendario y cita municipal](https://rutatramite.com/dni/unidades-moviles)
+- [Cómo registrarse en Cl@ve: app, carta de invitación u oficina](https://rutatramite.com/dni/clave-registrarse)
+- [Certificado digital FNMT: cómo obtenerlo gratis paso a paso](https://rutatramite.com/dni/certificado-digital-fnmt)
+- [No hay citas para el DNI: qué hacer hoy](https://rutatramite.com/dni/no-hay-citas)
+- [A qué hora se liberan las citas del DNI](https://rutatramite.com/dni/a-que-hora-se-liberan-citas)
+- [Páginas clon de la cita del DNI: cómo evitarlas](https://rutatramite.com/dni/paginas-clon-cita)
+- [DNI urgente sin cita: qué puedes consultar](https://rutatramite.com/dni/urgente-sin-cita)
+- [He perdido el DNI y vuelo mañana: qué hacer](https://rutatramite.com/dni/perdido-volar)
+- [Multa por DNI caducado: cuándo te la ponen](https://rutatramite.com/dni/caducado-multa)
+- [DNI caducado en el banco: actualización y límites del bloqueo](https://rutatramite.com/dni/caducado-banco)
+- [¿Vueling acepta el DNI caducado?](https://rutatramite.com/dni/caducado-vueling)
+- [Pasaporte para bebés: requisitos y cita previa](https://rutatramite.com/pasaporte/bebe)
+- [Salvoconducto español: cómo pedirlo en el consulado](https://rutatramite.com/pasaporte/salvoconducto)
+- [Renovar el pasaporte antes de que caduque](https://rutatramite.com/pasaporte/renovar-antes-caducar)
+- [Consultar o anular tu cita del DNI](https://rutatramite.com/dni/consultar-cita)
+- [Viajar a Reino Unido con DNI: cuándo no basta](https://rutatramite.com/dni/viajar-reino-unido)
+
+## Extranjería
+
+- [Índice: Extranjería](https://rutatramite.com/extranjeria)
+- [Subsanar la regularización en Correos: servicio hasta el 30 de septiembre](https://rutatramite.com/extranjeria/subsanar-regularizacion-correos)
+- [Mercurio y consulta de expedientes de extranjería](https://rutatramite.com/extranjeria/mercurio)
+- [Cita de huellas TIE: portal y trámite correcto](https://rutatramite.com/extranjeria/cita-huellas-tie)
+- [Certificado de registro UE: requisitos y solicitud EX-18](https://rutatramite.com/extranjeria/certificado-registro-ue)
+- [Asignación de NIE](https://rutatramite.com/extranjeria/nie)
+- [Arraigo y padrón: cómo acreditar la permanencia en España](https://rutatramite.com/extranjeria/arraigo-padron)
+- [Autorización de regreso si la TIE está en trámite](https://rutatramite.com/extranjeria/autorizacion-regreso)
+- [No hay citas de extranjería: qué puedes hacer](https://rutatramite.com/extranjeria/no-hay-citas)
+- [No hay citas de huellas en Barcelona: qué hacer](https://rutatramite.com/extranjeria/huellas-sin-citas-barcelona)
+- [Viajar con la TIE caducada o en renovación](https://rutatramite.com/extranjeria/tie-caducada-viajar)
+- [Viaje de Navidad con TIE en trámite: preparar el regreso](https://rutatramite.com/extranjeria/autorizacion-regreso-navidad)
+- [Regularización 2026: plazo de resolución y silencio administrativo](https://rutatramite.com/extranjeria/regularizacion-2026-resolucion)
+- [NIE verde, TIE y certificado digital: qué acredita cada uno](https://rutatramite.com/extranjeria/nie-verde)
+- [NIE y NIF: qué número usar y cuándo pedir el NIF M](https://rutatramite.com/extranjeria/nie-vs-nif)
+- [Huellas de la TIE: documentos según tu solicitud](https://rutatramite.com/extranjeria/huellas-que-llevar)
+- [TIE después de las huellas: consulta y recogida](https://rutatramite.com/extranjeria/tie-recogida-cuanto-tarda)
+- [Autorización de regreso EX-13: documentos y tasa](https://rutatramite.com/extranjeria/autorizacion-regreso-ex13)
+- [Certificado FNMT con NIE y acreditación presencial](https://rutatramite.com/extranjeria/certificado-digital-nie)
+- [Me escriben para regular mi expediente](https://rutatramite.com/extranjeria/aviso-citacion-expediente)
+- [¿Me cobran por el certificado de la FNMT?](https://rutatramite.com/extranjeria/certificado-quien-cobra)
+
+## Mudanza
+
+- [Índice: Mudanza](https://rutatramite.com/mudanza)
+- [Me he mudado: padrón, domicilio fiscal y otros trámites](https://rutatramite.com/mudanza)
+- [Cambiar el domicilio del DNI: exención y documentos](https://rutatramite.com/dni/cambio-domicilio)
+- [Modelo 030: quién lo usa para cambiar de domicilio y en qué plazo](https://rutatramite.com/hacienda/modelo-030)
+- [Me quieren cobrar por empadronarme](https://rutatramite.com/empadronarse/me-quieren-cobrar)
+- [Me añaden dinero al contrato por empadronarme](https://rutatramite.com/empadronarse/cobro-en-el-contrato)
+
+## Colegio
+
+- [Índice: Colegio](https://rutatramite.com/colegio)
+- [Admisión escolar fuera de plazo: solicitar plaza y expresar preferencias](https://rutatramite.com/colegio/cambiar-de-colegio-fuera-de-plazo)
+- [Cambiar de colegio por mudanza: solicitud, domicilio y traslado](https://rutatramite.com/colegio/cambio-de-colegio-por-mudanza)
+- [Documentos de admisión y matrícula escolar: preparar lo que corresponde](https://rutatramite.com/colegio/documentos-matricula-colegio)
+- [Recogida de menores en el colegio: procedimiento, personas y cambios](https://rutatramite.com/colegio/autorizacion-recogida-menores)
+- [No he matriculado a mi hijo: comprobar plaza y regularizar la escolarización](https://rutatramite.com/colegio/no-he-matriculado-a-mi-hijo)
+- [Cambiar de colegio durante el curso: procedimiento y continuidad](https://rutatramite.com/colegio/cambiar-de-colegio-a-mitad-de-curso)
+- [Acoso escolar y cambio de centro: protección, comunicación y solicitud](https://rutatramite.com/colegio/cambio-de-colegio-por-acoso)
+- [Lista de espera de escuela infantil 0-3: baremo y vacantes](https://rutatramite.com/colegio/lista-espera-escuela-infantil)
+- [Extraescolares municipales: inscripción, sorteo y ayudas](https://rutatramite.com/colegio/inscripcion-extraescolares-ayuntamiento)
+- [Escuela infantil pública 0-3: plaza, baremo y plazo](https://rutatramite.com/colegio/escuela-infantil-publica)
+
+## Comedor escolar
+
+- [Índice: Comedor escolar](https://rutatramite.com/comedor)
+- [Beca de comedor fuera de plazo: comprobar las vías disponibles](https://rutatramite.com/comedor/beca-comedor-fuera-de-plazo)
+- [No puedo pagar el comedor escolar: cómo pedir apoyo](https://rutatramite.com/comedor/no-puedo-pagar-comedor-escolar)
+- [Alergia en el comedor: documentación y coordinación con el centro](https://rutatramite.com/comedor/documentos-alergia-comedor-escolar)
+- [Impago del comedor: revisar el aviso y sus consecuencias](https://rutatramite.com/comedor/impago-comedor-escolar)
+- [El instituto no tiene comedor: qué puedes solicitar](https://rutatramite.com/comedor/ies-sin-comedor)
+- [Beca de comedor 2026/27: fechas y convocatorias seleccionadas](https://rutatramite.com/comedor/beca-comedor-2026-2027)
+- [Menú especial en el comedor: motivos, solicitud y alternativas](https://rutatramite.com/comedor/menu-especial-comedor)
+
+## Transporte
+
+- [Índice: Transporte](https://rutatramite.com/transporte)
+- [T-16: cómo solicitarla para un menor en Barcelona](https://rutatramite.com/transporte/t16-como-solicitar)
+- [Abonos jóvenes de transporte: Madrid, T-jove y Abono Único](https://rutatramite.com/transporte/abono-joven-estudiante)
+
+## Formación Profesional
+
+- [Índice: Formación Profesional](https://rutatramite.com/fp)
+- [Matrícula de FP en septiembre: admisión y vacantes](https://rutatramite.com/fp/matricula-fp-en-septiembre)
+- [Convalidaciones de FP: solicitud, plazos y resolución](https://rutatramite.com/fp/convalidaciones-fp)
+- [Cambiar de instituto en FP con el curso empezado](https://rutatramite.com/fp/cambiar-de-instituto-a-mitad-de-curso)
+- [Documentos para matricularse en ESO: qué comprobar](https://rutatramite.com/fp/documentos-matricula-eso)
+- [Reserva de plaza en FP: adjudicación, matrícula y cupos](https://rutatramite.com/fp/reserva-de-plaza-fp)
+
+## Bebé y familia
+
+- [Índice: Bebé y familia](https://rutatramite.com/bebe)
+- [Cómo solicitar la tarjeta sanitaria del bebé](https://rutatramite.com/bebe/tarjeta-sanitaria-bebe)
+- [Dónde pedir la cartilla de vacunación del bebé](https://rutatramite.com/bebe/cartilla-de-vacunacion-donde-se-saca)
+- [Inscribir al bebé en el Registro Civil](https://rutatramite.com/bebe/inscripcion-nacimiento-registro-civil)
+- [Calendario vacunal de Madrid 2026: dónde consultarlo](https://rutatramite.com/bebe/calendario-vacunal-madrid)
+- [Calendario vacunal de Castilla y León 2026: documento oficial](https://rutatramite.com/bebe/calendario-vacunal-castilla-y-leon)
+- [Cómo obtener un documento de vacunación del menor](https://rutatramite.com/bebe/certificado-vacunacion-descargar)
+- [Cartilla de vacunación digital: acceso al registro del menor](https://rutatramite.com/bebe/cartilla-vacunacion-digital)
+- [Libro de familia: vigencia y certificados que puedes necesitar](https://rutatramite.com/bebe/libro-de-familia-vigente)
+- [Prestaciones por nacimiento: qué ayuda corresponde a tu caso](https://rutatramite.com/bebe/prestacion-por-nacimiento)
+- [Calendario vacunal según la comunidad autónoma](https://rutatramite.com/bebe/calendario-vacunal-por-comunidad)
+- [Calendario vacunal de Andalucía 2026: documento oficial](https://rutatramite.com/bebe/calendario-vacunal-andalucia)
+- [Calendario vacunal de Aragón: orden de 2024 aún citada](https://rutatramite.com/bebe/calendario-vacunal-aragon)
+- [Calendario vacunal de Cataluña: sigue vigente el de 2025](https://rutatramite.com/bebe/calendario-vacunal-cataluna)
+- [Calendario vacunal de la Comunitat Valenciana 2026](https://rutatramite.com/bebe/calendario-vacunal-comunitat-valenciana)
+- [Calendario vacunal de la Región de Murcia 2026](https://rutatramite.com/bebe/calendario-vacunal-murcia)
+- [Calendario vacunal de Galicia: instrucción 1/2026 del Sergas](https://rutatramite.com/bebe/calendario-vacunal-galicia)
+- [Calendario vacunal de Navarra 2026: documento oficial](https://rutatramite.com/bebe/calendario-vacunal-navarra)
+- [Dónde pedir apoyo a la lactancia materna](https://rutatramite.com/bebe/apoyo-lactancia)
+
+## Becas
+
+- [Índice: Becas](https://rutatramite.com/becas)
+- [Ayudas a estudiantes 2026-27: qué revisar según tus estudios](https://rutatramite.com/becas/ayudas-estudiantes)
+- [Ayudas de apoyo educativo NEAE 2026-27: plazo cerrado](https://rutatramite.com/becas/apoyo-educativo)
+- [Beca MEC 2026-27: guía completa del trámite](https://rutatramite.com/becas/mec)
+- [Plazo de la beca MEC 2026-27: qué está abierto ahora](https://rutatramite.com/becas/mec/plazo)
+- [Modificar datos de la beca MEC (7-28 de septiembre)](https://rutatramite.com/becas/mec/modificar-datos)
+- [Cuándo se cobra la beca MEC 2026-27](https://rutatramite.com/becas/mec/cuando-se-cobra)
+- [Consultar el estado de la beca MEC y sus notificaciones](https://rutatramite.com/becas/mec/estado)
+- [Subsanar la beca MEC: plazo de 10 días hábiles](https://rutatramite.com/becas/mec/subsanacion)
+- [Alegaciones a la beca MEC: plazos, escrito y recursos](https://rutatramite.com/becas/mec/alegaciones)
+- [No he cobrado la beca MEC: qué hacer](https://rutatramite.com/becas/mec/no-cobrada)
+- [Beca denegada por patrimonio: límites 2026-27 y reclamación](https://rutatramite.com/becas/mec/denegada/por-patrimonio)
+- [Beca MEC y Erasmus: compatibilidad, matrícula y residencia](https://rutatramite.com/becas/mec/compatibilidad/erasmus)
+- [Becas de colaboración 2026-27: requisitos y plazo](https://rutatramite.com/becas/colaboracion)
+- [Beca Manuela Solís GVA: curso y estado de la convocatoria](https://rutatramite.com/becas/autonomicas/beca-salario-gva)
+- [Ayudas al estudio de Castilla y León: requisitos y convocatoria](https://rutatramite.com/becas/autonomicas/ayudas-estudio-cyl)
+- [Requisitos de la beca MEC 2026-27: renta, patrimonio y nota](https://rutatramite.com/becas/mec/requisitos)
+- [Beca MEC para Bachillerato: qué nota necesitas en cada curso](https://rutatramite.com/becas/mec/bachillerato)
+- [Beca MEC para FP: requisitos, plazos y cobro](https://rutatramite.com/becas/fp)
+- [Devolver la beca MEC: créditos y causas de reintegro](https://rutatramite.com/becas/mec/no-devolver)
+- [Cambiar de carrera con beca MEC: matrícula y solicitud](https://rutatramite.com/becas/mec/cambio-estudios)
+- [Renunciar a la beca MEC: escrito, devolución y efectos](https://rutatramite.com/becas/mec/renuncia)
+- [Beca de estudio MUFACE 2026 para mutualistas](https://rutatramite.com/becas/muface)
+- [Beca de residencia MEC 2026-27: cuantías y requisitos](https://rutatramite.com/becas/residencia)
+- [Erasmus+: cómo consultar los plazos de tu universidad](https://rutatramite.com/becas/erasmus)
+- [Complemento Erasmus de Andalucía: cuantías 2026-27](https://rutatramite.com/becas/erasmus/complemento-regional)
+- [Me cobran por presentar la beca](https://rutatramite.com/becas/cobro-al-presentar)
+
+## Ayudas al alquiler
+
+- [Índice: Ayudas al alquiler](https://rutatramite.com/alquiler)
+- [El Congreso derogó el 2 de octubre los dos decretos de vivienda](https://rutatramite.com/alquiler/decretos-vivienda-derogados-octubre-2026)
+- [Propuestas de vivienda del Consejo de Ministros del 6 de octubre de 2026](https://rutatramite.com/alquiler/propuestas-vivienda-6-octubre-2026)
+- [Ayudas al alquiler por comunidad: convocatorias y plazos revisados](https://rutatramite.com/alquiler/ayudas-por-comunidad)
+- [Bono Alquiler Joven: 250 € al mes y convocatoria por comunidad](https://rutatramite.com/alquiler/bono-alquiler-joven)
+- [Plan de Vivienda 2026-2030: nueva ayuda al alquiler para jóvenes](https://rutatramite.com/alquiler/plan-vivienda-2026-2030)
+- [Bono Alquiler Joven de Madrid: solicitud y expediente A688](https://rutatramite.com/alquiler/bono-alquiler-joven-madrid)
+- [Bono Alquiler Joven en Andalucía: plazo cerrado y seguimiento](https://rutatramite.com/alquiler/bono-alquiler-joven-andalucia)
+- [Ayudas al alquiler en Cataluña 2026: Bono Joven y subvenciones](https://rutatramite.com/alquiler/ayudas-alquiler-cataluna)
+
+## Elecciones 29 de noviembre de 2026
+
+- [Índice: Elecciones 29 de noviembre de 2026](https://rutatramite.com/elecciones)
+- [Voto por correo para el 29 de noviembre de 2026](https://rutatramite.com/elecciones/voto-por-correo)
+- [Calendario de las elecciones del 29 de noviembre de 2026](https://rutatramite.com/elecciones/calendario-29-noviembre)
+- [Quién vota el 29 de noviembre de 2026](https://rutatramite.com/elecciones/quien-puede-votar)
+- [Nuevo partido de izquierdas o coalición: qué vale el 29 de noviembre](https://rutatramite.com/elecciones/nuevo-partido-coalicion)
+- [Huelga general de los sindicatos por la vivienda y los salarios](https://rutatramite.com/elecciones/huelga-general-sindicatos)
+- [Pedir el voto por correo por internet](https://rutatramite.com/elecciones/pedir-voto-por-correo-por-internet)
+- [Pedir el voto por correo en una oficina de Correos](https://rutatramite.com/elecciones/pedir-voto-por-correo-en-correos)
+- [Qué te llega a casa para votar por correo](https://rutatramite.com/elecciones/documentacion-voto-por-correo)
+- [Cómo enviar el voto por correo](https://rutatramite.com/elecciones/enviar-voto-por-correo)
+- [Si no te llega la documentación del voto por correo](https://rutatramite.com/elecciones/no-me-llega-voto-por-correo)
+- [Pedí el voto por correo: ¿puedo votar en la mesa?](https://rutatramite.com/elecciones/votar-en-persona-tras-pedir-correo)
+- [Votar si vives en el extranjero (CERA)](https://rutatramite.com/elecciones/voto-residentes-extranjero-cera)
+- [Votar si estás fuera de España una temporada (ERTA)](https://rutatramite.com/elecciones/voto-temporalmente-fuera-erta)
+- [Consultar el censo electoral y reclamar](https://rutatramite.com/elecciones/consultar-censo-electoral)
+- [Dónde voto: mesa y colegio electoral](https://rutatramite.com/elecciones/donde-voto-mesa-electoral)
+- [Qué documento llevar a votar](https://rutatramite.com/elecciones/que-llevar-a-votar)
+- [¿Puedo votar con el DNI caducado?](https://rutatramite.com/elecciones/dni-caducado-votar)
+- [Me ha tocado mesa electoral: qué hago](https://rutatramite.com/elecciones/miembro-de-mesa)
+- [Dieta y permisos de los miembros de mesa](https://rutatramite.com/elecciones/miembro-de-mesa-dieta-y-permisos)
+- [Permiso en el trabajo para ir a votar](https://rutatramite.com/elecciones/permiso-trabajo-para-votar)
+- [Voto accesible en braille](https://rutatramite.com/elecciones/voto-accesible-braille)
+- [Votar si estás hospitalizado o enfermo](https://rutatramite.com/elecciones/votar-hospitalizado-o-enfermo)
+- [Votar por primera vez](https://rutatramite.com/elecciones/votar-por-primera-vez)
+- [¿Pueden votar los extranjeros el 29 de noviembre?](https://rutatramite.com/elecciones/extranjeros-pueden-votar-generales)
+- [Voto nulo y voto en blanco: diferencias](https://rutatramite.com/elecciones/voto-nulo-y-voto-en-blanco)
+- [Cómo se reparten los escaños del Congreso](https://rutatramite.com/elecciones/como-se-reparten-los-escanos)
+- [Cómo se vota al Senado](https://rutatramite.com/elecciones/como-votar-al-senado)
+- [Jornada de reflexión: sábado 28 de noviembre](https://rutatramite.com/elecciones/jornada-de-reflexion)
+- [Encuestas: cuándo no se pueden publicar](https://rutatramite.com/elecciones/encuestas-prohibidas)
+- [Interventores y apoderados: quiénes son](https://rutatramite.com/elecciones/interventores-y-apoderados)
+- [Me he mudado: ¿dónde voto?](https://rutatramite.com/elecciones/cambio-de-domicilio-y-censo)
+- [Resultados y escrutinio: cómo y cuándo](https://rutatramite.com/elecciones/resultados-y-escrutinio)
+- [Qué es la Junta Electoral Central](https://rutatramite.com/elecciones/junta-electoral-central)
+- [Bulos y fraudes en las elecciones: cómo detectarlos](https://rutatramite.com/elecciones/bulos-y-fraudes-electorales)
+- [Preguntas frecuentes de las elecciones del 29-N](https://rutatramite.com/elecciones/preguntas-frecuentes-29n)
+- [Cómo se vota el 29 de noviembre, paso a paso](https://rutatramite.com/elecciones/como-votar-el-dia-29)
+
+## Ayudas del Estado según cada gobierno
+
+- [Índice: Ayudas del Estado según cada gobierno](https://rutatramite.com/ayudas-por-gobierno)
+- [Estudiantes: qué ayudas creó y recortó cada gobierno desde 1996](https://rutatramite.com/ayudas-por-gobierno/estudiantes)
+- [Familias con hijos: qué ayudas creó y recortó cada gobierno desde 1996](https://rutatramite.com/ayudas-por-gobierno/familias)
+- [Jóvenes y alquiler: qué ayudas creó y recortó cada gobierno desde 1996](https://rutatramite.com/ayudas-por-gobierno/jovenes-alquiler)
+- [Jubilados y pensionistas: qué ayudas creó y recortó cada gobierno desde 1996](https://rutatramite.com/ayudas-por-gobierno/jubilados)
+- [Autónomos: qué ayudas creó y recortó cada gobierno desde 1996](https://rutatramite.com/ayudas-por-gobierno/autonomos)
+- [Personas desempleadas: qué ayudas creó y recortó cada gobierno desde 1996](https://rutatramite.com/ayudas-por-gobierno/desempleados)
+- [Discapacidad y dependencia: qué ayudas creó y recortó cada gobierno desde 1996](https://rutatramite.com/ayudas-por-gobierno/discapacidad-dependencia)
+
+## Trabajo, paro y prestaciones
+
+- [Índice: Trabajo, paro y prestaciones](https://rutatramite.com/trabajo)
+- [Informe de vida laboral: cómo descargarlo por SMS, Cl@ve o certificado](https://rutatramite.com/trabajo/vida-laboral)
+- [Cita previa del SEPE para el paro: cómo pedirla y alternativas](https://rutatramite.com/trabajo/cita-previa-sepe)
+- [Ingreso mínimo vital 2026: cuánto se cobra, requisitos y cómo pedirlo](https://rutatramite.com/trabajo/ingreso-minimo-vital)
+
+## Modelos y cartas
+
+- [Índice: Modelos y cartas](https://rutatramite.com/modelos)
+- [Carta de baja voluntaria: comprobar preaviso y elegir modelo](https://rutatramite.com/modelo-baja-voluntaria)
+- [Baja voluntaria sin preaviso: revisar el descuento y pedir el desglose](https://rutatramite.com/baja-voluntaria-sin-preaviso)
+- [Baja durante el periodo de prueba: validez, preaviso y desempleo](https://rutatramite.com/baja-periodo-de-prueba)
+- [Solicitar el finiquito: desglose, pago y firma](https://rutatramite.com/modelo-finiquito)
+- [He firmado el finiquito: revisar lo firmado y los plazos para reclamar](https://rutatramite.com/he-firmado-finiquito-puedo-reclamar)
+- [Certificado de empresa para el SEPE: también tras baja voluntaria](https://rutatramite.com/certificado-empresa-sepe)
+- [Solicitar excedencia voluntaria: requisitos y reingreso](https://rutatramite.com/modelo-excedencia-voluntaria)
+- [Reducción de jornada por guarda legal: porcentaje y horario](https://rutatramite.com/modelo-reduccion-jornada)
+- [Solicitar vacaciones: fechas, acuerdo y situaciones de incapacidad](https://rutatramite.com/solicitud-vacaciones)
+- [Reclamar salarios pendientes: desglose y prescripción](https://rutatramite.com/reclamacion-salarios-modelo)
+- [Solicitar permiso retribuido o asuntos propios con causa acreditada](https://rutatramite.com/solicitud-permiso-retribuido)
+- [Preaviso del inquilino: desistimiento y otros plazos de alquiler](https://rutatramite.com/preaviso-fin-alquiler)
+- [No renovación del alquiler por el arrendador: cuándo cabe y preaviso](https://rutatramite.com/no-renovacion-alquiler)
+- [Requerimiento de alquiler impagado: deuda, recepción y pasos posteriores](https://rutatramite.com/requerimiento-impago-alquiler)
+- [Inventario de entrada y salida y estado de la fianza](https://rutatramite.com/inventario-fianza-alquiler)
+- [Autorización de empadronamiento: quién firma y cómo acreditar residencia](https://rutatramite.com/autorizacion-empadronamiento)
+- [Declaración de residencia sin contrato: solicitar comprobación para el padrón](https://rutatramite.com/declaracion-responsable-padron)
+- [Empadronar a un menor: consentimiento, custodia y modelos aplicables](https://rutatramite.com/autorizacion-empadronar-menor)
+- [Autorización para recoger a un menor en el colegio: modelo adaptable](https://rutatramite.com/autorizacion-recogida-colegio)
+- [Comunicar y justificar una ausencia escolar: modelo familiar](https://rutatramite.com/justificante-ausencia-escolar)
+- [Solicitud de alta o baja de comedor escolar](https://rutatramite.com/solicitud-comedor-escolar)
+- [Permiso de viaje de menores: cuándo se tramita y qué preparar](https://rutatramite.com/autorizacion-viaje-menor)
+- [Representación ante la Administración: autorización y acreditación](https://rutatramite.com/autorizacion-representacion-tramite)
+- [Justificante de registro: qué acredita y cómo pedirlo](https://rutatramite.com/acuse-de-recibo-modelo)
+- [Modelo de subsanación: responder al requerimiento y comprobar el plazo](https://rutatramite.com/modelo-subsanacion)
+- [Modelo 030 oficial: preparar, presentar y guardar el justificante](https://rutatramite.com/modelo-030-cambio-domicilio)
+
+## Ficha municipal de referencia
+
+- [Empadronarse en Madrid](https://rutatramite.com/empadronarse/comunidad-de-madrid/madrid/madrid)
+
+Las demás fichas siguen `/empadronarse/{ccaa}/{provincia}/{municipio}`. Solo se indexan las que superan el filtro editorial de señales locales verificadas.
+
+## Editorial
+
+- [Metodología](https://rutatramite.com/metodologia)
+- [Fuentes](https://rutatramite.com/fuentes)
+- [Contacto](https://rutatramite.com/contacto)
+- [Aviso legal](https://rutatramite.com/aviso-legal)
+- [Privacidad](https://rutatramite.com/privacidad)

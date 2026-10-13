@@ -295,8 +295,8 @@ describe("SEO + GEO domain-ready contracts", () => {
     const html = renderGuideHtml("/dni/cita-previa");
     expect(html).toContain("Article");
     expect(html).not.toContain("HowTo");
-    expect(html).not.toContain("FAQPage");
-    expect(html).not.toContain('href="#preguntas-frecuentes"');
+    // 2026-10-13: /dni/cita-previa has editorial `faqs` (not derived from sections); FAQPage must match them exactly.
+    expect(html.match(/"@type":"FAQPage"/g)?.length ?? 0).toBe(1);
     expect(html).toContain("citapreviadnie.es");
     expect(html).not.toContain("LocalBusiness");
   });

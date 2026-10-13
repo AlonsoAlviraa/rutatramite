@@ -1,6 +1,7 @@
 import { Breadcrumbs } from "@/components/empadronamiento/Breadcrumbs";
 import { AidCalendar } from "@/components/tramites/AidCalendar";
 import { DocumentFees } from "@/components/tramites/DocumentFees";
+import { DniQuickAnswers } from "@/components/tramites/DniQuickAnswers";
 import { Disclaimer } from "@/components/empadronamiento/Disclaimer";
 import { PackCard } from "@/components/ui/PackCard";
 import { PageShell } from "@/components/ui/PageShell";
@@ -74,6 +75,10 @@ const titles: Record<GuidePack, { h1: string; lead: string }> = {
     h1: "Ayudas del Estado según cada gobierno desde 1996: estudiantes, familias, jóvenes, jubilados, autónomos, parados y dependencia",
     lead: "Respuesta corta: los cuatro gobiernos desde 1996 (Aznar, Zapatero, Rajoy y Sánchez) crearon ayudas estatales y también recortaron o suprimieron otras. Elige tu perfil para ver, en una tabla cronológica, cada cambio con su año y su norma del BOE.",
   },
+  trabajo: {
+    h1: "Trabajo, paro y prestaciones",
+    lead: "Vida laboral, cita del SEPE para el paro e ingreso mínimo vital: qué hacer, en qué web oficial y gratis.",
+  },
   modelos: {
     h1: "Modelos y cartas para copiar",
     lead: "Baja voluntaria, finiquito, padrón, alquiler y colegio: modelos orientativos para preparar tu escrito. Comprueba el destinatario, el plazo y si existe un formulario obligatorio. No somos Administración ni despacho.",
@@ -127,7 +132,9 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
           <OfficialCta href={SEDE_AAPP_URL} label="Sede de extranjería" />
         </div>
       ) : null}
+      {pack === "viaje" && !passport && <DniQuickAnswers />}
       {pack === "viaje" && <DocumentFees passport={passport} />}
+      {passport ? <p className="mt-4 text-sm" data-dni-crosslink=""><a className="underline" href="/dni">Precio del DNI 2026 (12 €) y cómo renovarlo</a> · <a className="underline" href="/dni/cita-previa">Cita previa del DNI y del pasaporte</a></p> : null}
       <RelatedLinks path={passport ? "/pasaporte" : PACK_INDEX_PATH[pack]} />
       {pack === "bebe" ? (
         <>

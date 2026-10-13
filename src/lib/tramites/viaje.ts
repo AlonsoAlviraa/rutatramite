@@ -61,7 +61,18 @@ export const VIAJE_GUIDES: Guide[] = ([
       "href": "https://www.citapreviadnie.es/",
       "label": "Consultar cita en citapreviadnie.es"
     },
+    "faqs": [
+      { "q": "¿Cómo pido cita para el DNI?", "a": "En citapreviadnie.es (con los datos de tu DNI o con DNI electrónico) o llamando al 060. Eliges trámite, oficina, fecha y hora y guardas el justificante. La cita es gratuita." },
+      { "q": "¿Cómo consulto o anulo mi cita del DNI?", "a": "Entra en citapreviadnie.es con los mismos datos y elige consultar o anular. Allí verás la oficina, el día y la hora. Si anulas, puedes pedir una cita nueva." },
+      { "q": "¿Cuánto cuesta el DNI y cuándo se paga?", "a": "12 € (Ley 84/1978, art. 6). Se paga por internet al pedir la cita o en la oficina, en efectivo o con tarjeta. El pasaporte cuesta 30 €. Las familias numerosas no pagan ninguno de los dos." },
+      { "q": "¿Qué llevo a la cita?", "a": "Para renovar, el DNI anterior y una foto reciente de 32 × 26 mm con fondo blanco. Si cambias de domicilio, lleva también el certificado de empadronamiento. La primera vez, además, el certificado literal de nacimiento." },
+      { "q": "¿Puedo hacer DNI y pasaporte en la misma cita?", "a": "Sí, si la reserva incluye los dos documentos. En total pagas 42 €." }
+    ],
     "related": [
+      {
+        "href": "/dni",
+        "label": "Precio del DNI (12 €), documentos y pasos para renovarlo"
+      },
       {
         "href": "/dni/checklist",
         "label": "Documentos para la cita"

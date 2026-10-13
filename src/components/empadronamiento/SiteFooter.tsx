@@ -24,6 +24,7 @@ const cols = [
       { href: "/transporte", label: "Transporte" },
       { href: "/ayudas", label: "Ayudas y plazos" },
       { href: "/ayudas-por-gobierno", label: "Ayudas según cada gobierno" },
+      { href: "/trabajo", label: "Trabajo, paro e IMV" },
     ],
   },
   {

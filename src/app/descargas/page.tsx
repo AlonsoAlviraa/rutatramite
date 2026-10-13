@@ -104,7 +104,7 @@ export default function DescargasPage() {
           <a className="underline" href="https://sede.policia.gob.es/Tasa790_012/ImpresoRellenar">Sede de la Policía: generar la tasa 790, código 012</a>
           {" · "}
           <a className="underline" href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tasas.php">Importes de extranjería en la sede de la Policía</a>
-          . Este impreso no es la tasa del DNI ni la del pasaporte.
+          . Este impreso no es la tasa del DNI ni la del pasaporte: <a className="underline" href="/dni">el DNI cuesta 12 € y el pasaporte 30 €</a> y se pagan al pedir la <a className="underline" href="/dni/cita-previa">cita del DNI</a> o en la oficina.
         </p>
       </section>
       <section className="space-y-3">
