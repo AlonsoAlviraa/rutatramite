@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2026-09-14",
+    "record_ids": [
+      "mec-modificacion-2627",
+      "colaboracion-2627",
+      "neae-2627",
+      "bono-madrid",
+      "bono-andalucia",
+      "bono-catalunya",
+      "lloguer-joves",
+      "plan-vivienda"
+    ],
+    "change": "Versión inicial trazable del historial: se conservan los ocho registros y sus revisiones. Se añaden filtros y una matriz de cobertura con lagunas explícitas. Esta entrada no reconstruye cambios anteriores ni implica que todas las convocatorias estén abiertas."
+  },
+  {
+    "date": "2026-09-14",
+    "record_ids": [
+      "bono-aragon-2025",
+      "bono-asturias-enero-2026",
+      "bono-baleares-2026",
+      "bono-canarias-2025",
+      "bono-cantabria-2025",
+      "bono-castilla-la-mancha-2025",
+      "alquiler-castilla-leon-2025",
+      "bono-valenciana-2026",
+      "bono-extremadura-2026",
+      "bono-galicia-2025",
+      "bono-murcia-2025",
+      "emanzipa-navarra",
+      "gaztelagun-euskadi-2026",
+      "bono-rioja-2026"
+    ],
+    "change": "Se añaden catorce referencias territoriales de alquiler: veintidós registros en total y referencias seleccionadas para diecisiete comunidades. Incluye convocatorias cerradas, programas propios y fechas sin hora con precisión de día. No acredita cobertura exhaustiva ni diecisiete solicitudes abiertas."
+  },
+  {
+    "date": "2026-09-16",
+    "record_ids": [
+      "bono-andalucia"
+    ],
+    "change": "Se elimina la hora de cierre no acreditada de Andalucía: se conserva el 22 de junio de 2026 con precisión de día y el estado cerrado. La fuente atribuye el cierre a alcanzar 15.000 solicitudes. No se amplía el plazo ni se revisan por esta corrección los demás registros."
+  },
+  {
+    "date": "2026-09-16",
+    "record_ids": [
+      "bono-cantabria-2025"
+    ],
+    "change": "Se explicitan las dos fechas oficiales de cierre de Cantabria: 28 de julio de 2025 en FOM/12/2025 y en el texto de la ficha; 29 de julio en su campo de cierre. Se conserva el estado cerrado y no se fabrica una fecha ni una hora estructurada. Las otras trece referencias regionales se contrastan sin modificar su contenido ni su fecha editorial."
+  }
+]

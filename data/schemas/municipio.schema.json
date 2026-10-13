@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://rutatramite.es/schema/municipio.json",
+  "$id": "https://rutatramite.com/schema/municipio.json",
   "title": "MunicipioEmpadronamiento",
   "type": "object",
   "required": [
@@ -44,6 +44,10 @@
     "tasa_volante": { "type": ["number", "null"] },
     "tasa_certificado": { "type": ["number", "null"] },
     "docs_extra": { "type": "array", "items": { "type": "string" } },
+    "procedure_docs": { "type": "object", "propertyNames": { "enum": ["alta", "cambio", "volante", "certificado", "renovacion"] }, "additionalProperties": { "type": "array", "items": { "type": "string" } } },
+    "evidence": { "type": "object", "additionalProperties": { "type": "object", "required": ["source_url", "checked_at"], "additionalProperties": false, "properties": { "source_url": { "type": "string", "format": "uri" }, "checked_at": { "type": "string", "format": "date" } } } },
+    "review_note": { "type": "string" },
+    "reviewed_on": { "type": "string", "format": "date" },
     "peculiaridades": { "type": "array", "items": { "type": "string" } },
     "idiomas_sede": {
       "type": "array",
