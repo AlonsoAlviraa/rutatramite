@@ -45,6 +45,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_ORIGIN,
     languages: { es: SITE_ORIGIN, "x-default": SITE_ORIGIN },
+    types: { "application/atom+xml": `${SITE_ORIGIN}/feed.xml` },
   },
   openGraph: {
     type: "website",

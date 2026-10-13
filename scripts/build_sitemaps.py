@@ -412,11 +412,14 @@ def main() -> None:
     terr = json.loads(TERR.read_text(encoding="utf-8"))
     # Do not label a sitemap regeneration as a content review.
     entries = [url_entry(p, "2026-09-14" if p in ("/empadronarse", "/dni", "/pasaporte", "/recursos") else None) for p in CORE]
+    # 2026-10-13: provincias only if they contain an indexable ficha (src/lib/seo/provinciaIndex.ts).
+    keep_prov = {f"{m['ccaa_slug']}/{m['province_slug']}" for m in index if is_ficha_indexable(load_municipio_record(m["ine_code"], m))}
     for c in terr["ccaa"]:
         entries.append(url_entry(f"/empadronarse/{c['slug']}"))
         for code in c["province_codes"]:
             p = terr["provinces"][code]
-            entries.append(url_entry(f"/empadronarse/{c['slug']}/{p['slug']}"))
+            if f"{c['slug']}/{p['slug']}" in keep_prov:
+                entries.append(url_entry(f"/empadronarse/{c['slug']}/{p['slug']}"))
     for m in index:
         rec = load_municipio_record(m["ine_code"], m)
         if is_ficha_indexable(rec):

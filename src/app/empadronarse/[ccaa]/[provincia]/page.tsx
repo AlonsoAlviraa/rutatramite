@@ -3,6 +3,7 @@ import { loadIndex } from "@/lib/data/load";
 import { ccaaBySlug, loadTerritories } from "@/lib/geo/territories";
 import { buildProvinciaHub, HUB_REVIEWED_AT } from "@/lib/hub/buildHub";
 import { pageMetadata } from "@/lib/seo/meta";
+import { isProvinciaIndexable } from "@/lib/seo/provinciaIndex";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -38,6 +39,7 @@ export async function generateMetadata({
     path: `/empadronarse/${c.slug}/${p.slug}`,
     type: "article",
     modified: HUB_REVIEWED_AT,
+    index: isProvinciaIndexable(c.slug, p.slug),
   });
 }
 
