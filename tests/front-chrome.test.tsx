@@ -18,6 +18,16 @@ import { OfficialCta } from "@/components/empadronamiento/OfficialCta";
 import { organizationJsonLd } from "@/lib/seo/jsonld";
 import { DISCLAIMER_SHORT, PRODUCT_NAME, SITE_ORIGIN, WIZARD_QUESTIONS } from "@/lib/types";
 
+function stripTags(input: string): string {
+  let previous = "";
+  let current = input;
+  while (current !== previous) {
+    previous = current;
+    current = current.replace(/<[^>]+>/g, "");
+  }
+  return current;
+}
+
 describe("front chrome and homepage hierarchy (shipped views)", () => {
   it("passport route has its own heading and relevant directory", () => {
     const html = renderToStaticMarkup(createElement(PassportPage));
@@ -282,7 +292,7 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
     const html = renderPilarHtml();
     const match = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/);
     expect(match).toBeTruthy();
-    const visible = match![1].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+    const visible = stripTags(match![1]).replace(/\s+/g, " ").trim();
     expect(visible).toBe(title);
     expect(visible).not.toContain(`· ${PRODUCT_NAME}`);
   });
@@ -318,7 +328,7 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
         expect(card).toMatch(/href="\/[^"]+"/);
         const description = card.match(/<p\b[^>]*>([\s\S]*?)<\/p>/);
         expect(description).toBeTruthy();
-        expect(description![1].replace(/<[^>]+>/g, "").trim().length).toBeGreaterThan(20);
+        expect(stripTags(description![1]).trim().length).toBeGreaterThan(20);
         expect(card).not.toMatch(/\b(?:min-h-|h-\d|h-\[)/);
         expect(card).not.toMatch(/\sstyle="[^"]*(?:height|min-height)/);
       }

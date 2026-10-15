@@ -271,9 +271,19 @@ function extractFaqAnswers(md) {
   return answers;
 }
 
+function stripHtmlComments(input) {
+  let previous = "";
+  let current = input;
+  while (current !== previous) {
+    previous = current;
+    current = current.replace(/<!--[\s\S]*?-->/g, "");
+  }
+  return current;
+}
+
 function validateDoc(brief, rawMd) {
   if (REVIEWS[brief.slug]) return validateReviewed(brief.slug, rawMd);
-  const md = rawMd.replace(/<!--[\s\S]*?-->/g, "").trim() + "\n";
+  const md = stripHtmlComments(rawMd).trim() + "\n";
   const errors = [];
   if (!md.startsWith(`# ${brief.h1}`)) errors.push(`El documento no empieza con el H1 literal «${brief.h1}»`);
   for (const h2 of H2_SKELETON) {

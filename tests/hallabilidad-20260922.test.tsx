@@ -27,6 +27,16 @@ import { isFichaIndexable } from "@/lib/seo/localSignals";
 import { CITA_DNI_URL, SEDE_AAPP_URL } from "@/lib/tramites/facts";
 import { PRODUCT_NAME } from "@/lib/types";
 
+function stripTags(input: string): string {
+  let previous = "";
+  let current = input;
+  while (current !== previous) {
+    previous = current;
+    current = current.replace(/<[^>]+>/g, "");
+  }
+  return current;
+}
+
 // Experimento 2026-10-10 (titleExperiment.ts): las rutas tratadas pueden publicar { absolute } sin sufijo
 // cuando title + « · RutaTrámite» supera 60 caracteres; el texto del title sigue siendo igual al H1.
 function heading(meta: Metadata): string {
@@ -38,7 +48,7 @@ function heading(meta: Metadata): string {
 function h1(html: string): string {
   const match = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/);
   if (!match) throw new Error("falta el H1");
-  return match[1].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  return stripTags(match[1]).replace(/\s+/g, " ").trim();
 }
 
 function before(html: string, marker: string): string {
