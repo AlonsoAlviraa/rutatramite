@@ -363,8 +363,8 @@ export const COLE_COMEDOR_NICHOS2_GUIDES: Guide[] = [
     "pack": "comedor",
     "path": "/comedor/beca-comedor-2026-2027",
     "h1": "Beca de comedor 2026/27: fechas y convocatorias seleccionadas",
-    "title": "Beca de comedor 2026/27: fechas y convocatorias seleccionadas",
-    "description": "Fechas contrastadas de Castilla y León, Barcelona, Madrid y Andalucía. Distingue curso, plazo familiar y subvención al centro; no es un catálogo de toda España.",
+    "title": "Becas comedor 2026/2027: plazos CyL, Madrid y Barcelona",
+    "description": "¿Cuándo pedir la beca de comedor 2026/2027? Plazos contrastados de Castilla y León, Madrid, Barcelona y Andalucía. Distingue plazo familiar y subvención al centro.",
     "lead": "Antes de solicitar, comprueba curso, territorio, etapa, tipo de centro y quién puede ser solicitante. Estas referencias seleccionadas se revisaron el 16 de septiembre de 2026. No son un mapa completo de España y una fase de recurso o una subvención al centro no equivale a un plazo de solicitud familiar.",
     "reviewedAt": "2026-09-16",
     "cta": {

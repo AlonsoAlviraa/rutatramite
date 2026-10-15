@@ -284,8 +284,8 @@ export const FP_BEBE_NICHOS2_GUIDES: Guide[] = [
     "pack": "bebe",
     "path": "/bebe/calendario-vacunal-castilla-y-leon",
     "h1": "Calendario vacunal de Castilla y León 2026: documento oficial",
-    "title": "Calendario vacunal Castilla y León 2026: Sacyl y cita",
-    "description": "Acceso al calendario oficial 2026 de Castilla y León y sus documentos. Canales de cita de Sacyl y cómo preparar una consulta administrativa.",
+    "title": "Calendario vacunas Sacyl 2026 (Castilla y León): PDF oficial",
+    "description": "Calendario de vacunación Sacyl 2026 en Castilla y León: PDF oficial, documentos técnicos y canales de cita. Consulta administrativa, no sustituye al profesional sanitario.",
     "lead": "Sacyl publica el calendario de vacunaciones e inmunizaciones para toda la vida de Castilla y León 2026, con su PDF y documentación técnica. Aquí tienes el acceso directo y los canales para preparar una consulta. Las pautas individuales deben revisarse con el profesional sanitario.",
     "reviewedAt": "2026-09-14",
     "cta": {

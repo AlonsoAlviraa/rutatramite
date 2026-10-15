@@ -65,9 +65,9 @@ export const BECAS_GUIDES: Guide[] = [
     pack: "becas",
     path: "/becas/mec/plazo",
     h1: "Plazo de la beca MEC 2026-27: qué está abierto ahora",
-    title: "Plazo beca MEC 2026-27: qué está abierto ahora",
+    title: "Plazo beca MEC 2026-27: cerrado, modificación y excepciones",
     description:
-      "Plazo ordinario MEC 2026-27 cerrado el 19 de mayo. Modificación del 7 al 28 de septiembre y supuestos excepcionales hasta diciembre: condiciones y canales.",
+      "¿Sigue abierto el plazo de la beca MEC 2026-27? Ordinario cerrado el 19 de mayo; modificación 7-28 septiembre; excepciones art. 48.2 hasta diciembre.",
     lead: `El plazo ordinario de solicitud de la beca general del Ministerio 2026-27 fue del ${MEC_PLAZO_2627}, con cierre a las 15:00, hora peninsular, tras la prórroga publicada en el BOE. La modificación de septiembre corresponde a solicitudes ya presentadas. Si no la solicitaste, comprueba los supuestos excepcionales del artículo 48.2 y otras convocatorias que correspondan a tu situación.`,
     cta: { href: BECAS_URL, label: "Portal oficial de becas" },
     related: [...relMec, { href: "/ayudas", label: "Calendario de ayudas" }, { href: "/becas/ayudas-estudiantes", label: "Ayudas para estudiantes" }],
