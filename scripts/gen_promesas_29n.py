@@ -48,6 +48,12 @@ def apply_in(pr, reg):
     if 'autonómica' in lvl:
         return "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
     return "Sí: es una medida estatal, igual en toda España."
+def apply_kind(pr, reg):
+    t = apply_in(pr, reg)
+    if t.startswith("Sí: "): return "igual"
+    if t.startswith("Sí, pero"): return "comunidad"
+    return "parcial"
+REGNAME = {"comun": "regimen_comun", "foral": "pais_vasco_navarra", "canarias": "canarias", "ceutamelilla": "ceuta_melilla"}
 def src(pr):
     return {"label": f"{pr['source_title']} ({fmtdate(pr['source_date'])}, {STYPE[pr['source_type']]})", "href": pr['source_url']}
 MESES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"]
@@ -169,19 +175,32 @@ for slug, name, dip, reg in CCAA:
             rows.append({"cells": [short(pid), "Pendiente de programa", "—"], "source": {"label": "Web del partido", "href": P[pid]['web']}})
         for p in mine:
             rows.append({"cells": [short(pid), p['measure'], apply_in(p, reg)], "source": {"label": f"{p['source_title']}, {fmtdate(p['source_date'])}", "href": p['source_url']}})
+    summary = []; cnt = {"igual": 0, "comunidad": 0, "parcial": 0}
+    for pid in ORDER:
+        c = {"igual": 0, "comunidad": 0, "parcial": 0}
+        mine = [p for p in PR if p['party'] == pid]
+        for p in mine: c[apply_kind(p, reg)] += 1
+        for k in cnt: cnt[k] += c[k]
+        prog = P[pid]['programa29n']
+        summary.append({"cells": [short(pid), str(len(mine)) if mine else "0 (pendiente de programa)", str(c['igual']), str(c['comunidad']), str(c['parcial']), prog], "source": {"label": ("Programa oficial" if prog.startswith("http") else f"Web oficial de {short(pid)}"), "href": prog if prog.startswith("http") else P[pid]['web']}})
+    pend = [short(pid) for pid in ORDER if not P[pid]['programa29n'].startswith("http")]
+    pend_txt = ("Ningún partido principal ha publicado aún su programa completo del 29-N." if len(pend) == len(ORDER) else ("Programa completo pendiente: " + ", ".join(pend) + ".") if pend else "")
     nota = {"canarias": "En Canarias, las propuestas de bajar el IVA (vivienda nueva, alimentos) no se aplicarían tal cual.",
             "ceutamelilla": f"En {name}, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
             "foral": f"En {name}, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
             "comun": f"En {name} se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico."}[reg]
     guide(f"comunidad-{slug}", f"Promesas del 29-N y cómo afectarían en {name}", f"Promesas electorales del 29-N en {name}",
           f"Cómo afectarían en {name} las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige {dip} diputados.",
-          f"Respuesta corta: {name} elige {dip} diputado{'s' if dip!=1 else ''} el 29-N (BOE, RD 806/2026). {nota}",
-          [{"id": "que-se-vota", "title": f"Qué se vota en {name} el 29-N", "paragraphs": [f"Se eligen {dip} diputado{'s' if dip!=1 else ''} al Congreso y los senadores de la circunscripción. No hay elecciones autonómicas convocadas para ese día por el Real Decreto 806/2026."]},
+          f"Respuesta corta (datos a {dU}): {name} elige {dip} diputado{'s' if dip!=1 else ''} el 29-N (BOE, RD 806/2026). De las {len(PR)} medidas con fuente que han anunciado los 5 partidos principales, {cnt['igual']} se aplicarían igual en {name}, {cnt['comunidad']} necesitarían además al gobierno autonómico y {cnt['parcial']} solo en parte o no tal cual. {pend_txt} {nota}",
+          [{"id": "resumen", "title": f"Resumen por partido en {name}", "paragraphs": [f"Última actualización de los datos: {dU}. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para {name}.", "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."], "table": {"caption": f"Medidas anunciadas para el 29-N y cómo se aplicarían en {name}, por partido (a {dU})", "head": ["Partido", "Medidas con fuente", "Igual que en el resto de España", "Necesitan también a la comunidad", "Solo en parte o no tal cual aquí", "Programa del 29-N"], "rows": summary}},
+           {"id": "que-se-vota", "title": f"Qué se vota en {name} el 29-N", "paragraphs": [f"Se eligen {dip} diputado{'s' if dip!=1 else ''} al Congreso y los senadores de la circunscripción. No hay elecciones autonómicas convocadas para ese día por el Real Decreto 806/2026."]},
            {"id": "competencias", "title": "Qué decide el Estado y qué decide tu comunidad", "paragraphs": [REGIME[reg], "Por eso una misma promesa estatal puede notarse distinto según dónde vivas. La columna «¿Se aplicaría aquí?» lo explica medida a medida."]},
            {"id": "tabla", "title": f"Todas las medidas y si se aplicarían en {name}", "paragraphs": [D['order_rule']], "table": {"caption": f"Promesas del 29-N y su aplicación en {name}", "head": ["Partido", "Medida", "¿Se aplicaría aquí?", "Fuente"], "rows": rows}}],
           [{"q": f"¿Cuántos diputados elige {name}?", "a": f"{dip}, según el anexo del Real Decreto 806/2026 de convocatoria."},
            {"q": f"¿Se vota también el parlamento de {name} el 29-N?", "a": "No. El Real Decreto 806/2026 solo convoca elecciones al Congreso y al Senado."},
-           {"q": "¿Por qué una promesa no se aplicaría en mi comunidad?", "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."}],
+           {"q": "¿Por qué una promesa no se aplicaría en mi comunidad?", "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."},
+           {"q": f"¿Cuántas medidas del 29-N se aplicarían igual en {name}?", "a": f"A {dU}, {cnt['igual']} de {len(PR)} medidas anunciadas con fuente se aplicarían igual que en el resto de España, {cnt['comunidad']} necesitarían también al gobierno autonómico y {cnt['parcial']} solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."},
+           {"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?", "a": f"Última actualización: {dU}. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."}],
           COMMON_REL, [RD, {"label": "BOE: Ley 35/2006 del IRPF", "href": LOIRPF}, {"label": "BOE: Ley 37/1992 del IVA", "href": LIVA}])
 # ---- profiles
 for k, (label, lower, ayg) in PROFILES.items():
@@ -216,6 +235,10 @@ guide("metodologia", "Metodología de las promesas del 29-N: fuentes, orden y ac
        {"q": "¿Puedo reutilizar los datos?", "a": "Sí, citando a RutaTrámite y la fuente original de cada medida."}],
       [{"href": BASE, "label": "Promesas del 29-N"}, {"href": "/metodologia", "label": "Metodología general de RutaTrámite"}, {"href": "/elecciones", "label": "Elecciones del 29-N"}], [RD])
 json.dump(G, open('data/promesas-29n/pages.json', 'w'), ensure_ascii=False)
+EXP = {"name": "Promesas electorales del 29-N (elecciones generales 2026) por partido y su aplicación territorial", "updated": UPD, "publisher": "RutaTrámite", "url": "https://rutatramite.com/elecciones/promesas", "methodology": "https://rutatramite.com/elecciones/promesas/metodologia", "license": "Reutilización libre citando a RutaTrámite y la fuente original de cada medida", "election": D['election'], "order_rule": D['order_rule'], "parties": D['parties'], "others": D['others'], "topics": D['topics'],
+       "territories": [{"id": s_, "name": n_, "diputados": d_, "regimen": REGNAME[r_]} for s_, n_, d_, r_ in CCAA],
+       "promises": [dict(p, aplicacion={REGNAME[r]: apply_in(p, r) for r in REGIME}) for p in PR]}
+json.dump(EXP, open('data/promesas-29n/export.json', 'w'), ensure_ascii=False, indent=1)
 paths = [g['path'] for g in G]
 assert len(set(paths)) == len(paths); assert len({g['title'] for g in G}) == len(G)
 print(len(G))

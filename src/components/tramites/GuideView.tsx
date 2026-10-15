@@ -7,6 +7,7 @@ import { articleJsonLd, guideFaqs, guideFaqJsonLd } from "@/lib/seo/jsonld";
 import { descargasForGuide } from "@/lib/descargas";
 import { DISCLAIMER_CITA, LAST_VERIFIED } from "@/lib/tramites/facts";
 import { PACK_INDEX_PATH, type Guide } from "@/lib/tramites/types";
+import { PromesasDataBar } from "@/components/tramites/PromesasData";
 import { DocumentChecklist } from "@/components/tramites/DocumentChecklist";
 import type { DocumentProcedure } from "@/lib/tramites/document-checklists";
 
@@ -36,6 +37,7 @@ export function GuideView({ guide }: { guide: Guide }) {
       <p className="mt-2 text-sm text-ink/70">
         {guide.reviewedAt ? "Revisión editorial" : "Edición del contenido"} <time dateTime={modified}>{modified}</time>
       </p>
+      {guide.pack === "promesas-29n" ? <PromesasDataBar /> : null}
       <p className="mt-4 text-lg leading-relaxed">{guide.lead}</p>
       <div className="mt-6 flex flex-wrap gap-3">
         <OfficialCta href={guide.cta.href} label={guide.cta.label} />

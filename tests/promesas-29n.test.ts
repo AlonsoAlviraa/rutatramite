@@ -49,3 +49,20 @@ describe("promesas 29-N", () => {
     expect(renderGuideHtml("/elecciones/iva-vivienda-4-por-ciento")).toContain("12.000");
   });
 });
+
+describe("promesas 29-N GEO data", () => {
+  it("CCAA pages have symmetric per-party summary first", () => {
+    const cc = PROMESAS_29N_GUIDES.filter((g) => g.path.includes("/comunidad-"));
+    for (const g of cc) {
+      expect(g.sections[0].id).toBe("resumen");
+      expect(g.sections[0].table!.rows.map((r) => r.cells[0])).toEqual(["PP", "PSOE", "Vox", "Frente Amplio", "Podemos"]);
+      for (const r of g.sections[0].table!.rows) expect(Number(r.cells[2]) + Number(r.cells[3]) + Number(r.cells[4])).toBe(parseInt(r.cells[1]));
+    }
+  });
+  it("renders dataset bar and matrix", () => {
+    const h = renderGuideHtml("/elecciones/promesas/comunidad-madrid");
+    expect(h).toContain("data-promesas-updated");
+    expect(h).toContain("/datos/promesas-29n.csv");
+    expect(h).toContain('"Dataset"');
+  });
+});

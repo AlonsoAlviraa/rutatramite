@@ -725,7 +725,7 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
       "Son personas que nombran los partidos y candidaturas para vigilar la votación y el recuento. Los interventores se sientan en una mesa concreta; los apoderados pueden moverse por los colegios. Los interventores se nombran hasta el 26 de noviembre de 2026.",
     cta: S.loreg("asetentayseis", "artículos 76 a 79: apoderados e interventores"),
     secondaryCta: S.jec,
-    sources: [S.jec, S.loreg("asetentayseis", "artículos 76 a 79")],
+    sources: [S.jec, S.loreg("asetentayseis", "artículos 76 a 79"), S.loreg("asetentaynueve", "artículo 79.2: interventores con voz pero sin voto")],
     related: [R.mesa, R.resultados, R.jornada, R.faq],
     faqs: [
       { q: "¿Puedo ser interventor?", a: "Tienes que ser elector y que te nombre una candidatura. Contacta con el partido o agrupación que te interese." },
@@ -734,7 +734,7 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
       {
         id: "diferencias",
         title: "Diferencias",
-        paragraphs: ["Interventor: está en una mesa, puede votar en ella y participa en sus deliberaciones con voz y voto. Apoderado: representa a la candidatura en los colegios y puede presenciar el escrutinio, sin sentarse en la mesa."],
+        paragraphs: ["Interventor: está en una mesa, puede votar en ella (LOREG art. 79.1) y participa en sus deliberaciones con voz pero sin voto (LOREG art. 79.2). Apoderado: representa a la candidatura en los colegios y puede presenciar el escrutinio, sin sentarse en la mesa."],
       },
     ],
   }),

@@ -16,6 +16,7 @@ import { RELATED_LINKS } from "@/lib/seo/relatedLinks";
 import { ALL_GUIDES } from "@/lib/tramites/catalog";
 import { JsonLd } from "@/components/empadronamiento/JsonLd";
 import { AYUDAS_GOBIERNO_NOTE } from "@/lib/tramites/ayudas-por-gobierno";
+import { fechaLarga, PromesasDataBar, PromesasMatrix } from "@/components/tramites/PromesasData";
 import { PROMESAS_29N_NOTE, PROMESAS_29N_UPDATED } from "@/lib/tramites/promesas-29n";
 import { absoluteUrl } from "@/lib/geo/paths";
 
@@ -201,7 +202,18 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
             { "@type": "Question", name: "¿Qué se vota el 29 de noviembre de 2026?", acceptedAnswer: { "@type": "Answer", text: "Elecciones generales al Congreso (350 diputados) y al Senado, convocadas por el Real Decreto 806/2026. No hay elecciones autonómicas ese día." } },
             { "@type": "Question", name: "¿Están publicados los programas electorales?", acceptedAnswer: { "@type": "Answer", text: "A 13 de octubre de 2026, no. Recogemos los anuncios con fuente y fecha y marcamos lo demás como pendiente de programa." } },
             { "@type": "Question", name: "¿Recomendáis algún voto?", acceptedAnswer: { "@type": "Answer", text: "No. Mismo formato para todos los partidos y sin valoraciones." } },
+            { "@type": "Question", name: "¿Cómo afectan las promesas en mi comunidad?", acceptedAnswer: { "@type": "Answer", text: "Cada una de las 19 páginas de comunidad o ciudad autónoma tiene una tabla por partido que indica qué medidas se aplicarían igual, cuáles necesitarían también al gobierno autonómico y cuáles solo en parte o no tal cual (por ejemplo, rebajas de IVA en Canarias, Ceuta y Melilla o de IRPF estatal en País Vasco y Navarra)." } },
+            { "@type": "Question", name: "¿Puedo descargar los datos?", acceptedAnswer: { "@type": "Answer", text: "Sí, en CSV y JSON en /datos/promesas-29n.csv y /datos/promesas-29n.json, con cita, enlace y fecha de cada medida. Reutilízalos citando a RutaTrámite y la fuente original." } },
           ] }} />
+          <PromesasDataBar />
+          <PromesasMatrix />
+          <section id="preguntas" className="mt-8 space-y-3" data-promesas-faq="">
+            <h2 className="font-display text-2xl text-mossDark">Preguntas frecuentes</h2>
+            <p><strong>¿Están publicados los programas electorales?</strong> A {fechaLarga(PROMESAS_29N_UPDATED)}, no. Recogemos los anuncios con fuente y fecha y marcamos lo demás como pendiente de programa.</p>
+            <p><strong>¿Cómo afectan las promesas en mi comunidad?</strong> Cada página de comunidad tiene una tabla por partido: qué medidas se aplicarían igual, cuáles necesitarían también al gobierno autonómico y cuáles solo en parte o no tal cual.</p>
+            <p><strong>¿Recomendáis algún voto?</strong> No. Mismo formato para todos los partidos y sin valoraciones.</p>
+            <p><strong>¿Puedo descargar los datos?</strong> Sí: <a className="underline" href="/datos/promesas-29n.csv">CSV</a> y <a className="underline" href="/datos/promesas-29n.json">JSON</a>, con cita, enlace y fecha de cada medida.</p>
+          </section>
           <p className="mt-4 text-sm" data-neutrality-note="">{PROMESAS_29N_NOTE} Actualizado el <time dateTime={PROMESAS_29N_UPDATED}>{PROMESAS_29N_UPDATED}</time>. <a className="underline" href="/elecciones/promesas/metodologia">Metodología</a></p>
         </>
       ) : null}

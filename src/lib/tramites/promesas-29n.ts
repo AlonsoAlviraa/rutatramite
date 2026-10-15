@@ -2404,7 +2404,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Andalucía",
 "title": "Promesas electorales del 29-N en Andalucía",
 "description": "Cómo afectarían en Andalucía las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 60 diputados.",
-"lead": "Respuesta corta: Andalucía elige 60 diputados el 29-N (BOE, RD 806/2026). En Andalucía se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Andalucía elige 60 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Andalucía, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Andalucía se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2458,9 +2458,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Andalucía?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Andalucía",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Andalucía.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Andalucía, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Andalucía el 29-N",
@@ -2812,7 +2911,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Aragón",
 "title": "Promesas electorales del 29-N en Aragón",
 "description": "Cómo afectarían en Aragón las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 13 diputados.",
-"lead": "Respuesta corta: Aragón elige 13 diputados el 29-N (BOE, RD 806/2026). En Aragón se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Aragón elige 13 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Aragón, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Aragón se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2866,9 +2965,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Aragón?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Aragón",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Aragón.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Aragón, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Aragón el 29-N",
@@ -3220,7 +3418,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Asturias",
 "title": "Promesas electorales del 29-N en Asturias",
 "description": "Cómo afectarían en Asturias las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 7 diputados.",
-"lead": "Respuesta corta: Asturias elige 7 diputados el 29-N (BOE, RD 806/2026). En Asturias se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Asturias elige 7 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Asturias, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Asturias se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -3274,9 +3472,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Asturias?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Asturias",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Asturias.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Asturias, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Asturias el 29-N",
@@ -3628,7 +3925,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Illes Balears",
 "title": "Promesas electorales del 29-N en Illes Balears",
 "description": "Cómo afectarían en Illes Balears las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 8 diputados.",
-"lead": "Respuesta corta: Illes Balears elige 8 diputados el 29-N (BOE, RD 806/2026). En Illes Balears se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Illes Balears elige 8 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Illes Balears, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Illes Balears se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -3682,9 +3979,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Illes Balears?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Illes Balears",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Illes Balears.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Illes Balears, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Illes Balears el 29-N",
@@ -4036,7 +4432,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Canarias",
 "title": "Promesas electorales del 29-N en Canarias",
 "description": "Cómo afectarían en Canarias las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 15 diputados.",
-"lead": "Respuesta corta: Canarias elige 15 diputados el 29-N (BOE, RD 806/2026). En Canarias, las propuestas de bajar el IVA (vivienda nueva, alimentos) no se aplicarían tal cual.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Canarias elige 15 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 16 se aplicarían igual en Canarias, 8 necesitarían además al gobierno autonómico y 4 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Canarias, las propuestas de bajar el IVA (vivienda nueva, alimentos) no se aplicarían tal cual.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -4090,9 +4486,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Canarias?",
+"a": "A 13 de octubre de 2026, 16 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 4 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Canarias",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Canarias.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Canarias, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"5",
+"2",
+"3",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"4",
+"0",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Canarias el 29-N",
@@ -4444,7 +4939,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Cantabria",
 "title": "Promesas electorales del 29-N en Cantabria",
 "description": "Cómo afectarían en Cantabria las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 5 diputados.",
-"lead": "Respuesta corta: Cantabria elige 5 diputados el 29-N (BOE, RD 806/2026). En Cantabria se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Cantabria elige 5 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Cantabria, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Cantabria se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -4498,9 +4993,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Cantabria?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Cantabria",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Cantabria.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Cantabria, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Cantabria el 29-N",
@@ -4852,7 +5446,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Castilla y León",
 "title": "Promesas electorales del 29-N en Castilla y León",
 "description": "Cómo afectarían en Castilla y León las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 31 diputados.",
-"lead": "Respuesta corta: Castilla y León elige 31 diputados el 29-N (BOE, RD 806/2026). En Castilla y León se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Castilla y León elige 31 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Castilla y León, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Castilla y León se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -4906,9 +5500,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Castilla y León?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Castilla y León",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Castilla y León.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Castilla y León, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Castilla y León el 29-N",
@@ -5260,7 +5953,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Castilla-La Mancha",
 "title": "Promesas electorales del 29-N en Castilla-La Mancha",
 "description": "Cómo afectarían en Castilla-La Mancha las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 21 diputados.",
-"lead": "Respuesta corta: Castilla-La Mancha elige 21 diputados el 29-N (BOE, RD 806/2026). En Castilla-La Mancha se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Castilla-La Mancha elige 21 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Castilla-La Mancha, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Castilla-La Mancha se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -5314,9 +6007,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Castilla-La Mancha?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Castilla-La Mancha",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Castilla-La Mancha.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Castilla-La Mancha, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Castilla-La Mancha el 29-N",
@@ -5668,7 +6460,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Cataluña",
 "title": "Promesas electorales del 29-N en Cataluña",
 "description": "Cómo afectarían en Cataluña las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 48 diputados.",
-"lead": "Respuesta corta: Cataluña elige 48 diputados el 29-N (BOE, RD 806/2026). En Cataluña se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Cataluña elige 48 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Cataluña, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Cataluña se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -5722,9 +6514,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Cataluña?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Cataluña",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Cataluña.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Cataluña, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Cataluña el 29-N",
@@ -6076,7 +6967,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Comunitat Valenciana",
 "title": "Promesas electorales del 29-N en Comunitat Valenciana",
 "description": "Cómo afectarían en Comunitat Valenciana las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 33…",
-"lead": "Respuesta corta: Comunitat Valenciana elige 33 diputados el 29-N (BOE, RD 806/2026). En Comunitat Valenciana se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Comunitat Valenciana elige 33 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Comunitat Valenciana, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Comunitat Valenciana se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -6130,9 +7021,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Comunitat Valenciana?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Comunitat Valenciana",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Comunitat Valenciana.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Comunitat Valenciana, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Comunitat Valenciana el 29-N",
@@ -6484,7 +7474,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Extremadura",
 "title": "Promesas electorales del 29-N en Extremadura",
 "description": "Cómo afectarían en Extremadura las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 9 diputados.",
-"lead": "Respuesta corta: Extremadura elige 9 diputados el 29-N (BOE, RD 806/2026). En Extremadura se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Extremadura elige 9 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Extremadura, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Extremadura se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -6538,9 +7528,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Extremadura?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Extremadura",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Extremadura.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Extremadura, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Extremadura el 29-N",
@@ -6892,7 +7981,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Galicia",
 "title": "Promesas electorales del 29-N en Galicia",
 "description": "Cómo afectarían en Galicia las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 23 diputados.",
-"lead": "Respuesta corta: Galicia elige 23 diputados el 29-N (BOE, RD 806/2026). En Galicia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Galicia elige 23 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Galicia, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Galicia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -6946,9 +8035,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Galicia?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Galicia",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Galicia.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Galicia, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Galicia el 29-N",
@@ -7300,7 +8488,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Comunidad de Madrid",
 "title": "Promesas electorales del 29-N en Comunidad de Madrid",
 "description": "Cómo afectarían en Comunidad de Madrid las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 38…",
-"lead": "Respuesta corta: Comunidad de Madrid elige 38 diputados el 29-N (BOE, RD 806/2026). En Comunidad de Madrid se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Comunidad de Madrid elige 38 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Comunidad de Madrid, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Comunidad de Madrid se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -7354,9 +8542,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Comunidad de Madrid?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Comunidad de Madrid",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Comunidad de Madrid.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Comunidad de Madrid, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Comunidad de Madrid el 29-N",
@@ -7708,7 +8995,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Región de Murcia",
 "title": "Promesas electorales del 29-N en Región de Murcia",
 "description": "Cómo afectarían en Región de Murcia las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 10 diputados.",
-"lead": "Respuesta corta: Región de Murcia elige 10 diputados el 29-N (BOE, RD 806/2026). En Región de Murcia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Región de Murcia elige 10 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Región de Murcia, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Región de Murcia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -7762,9 +9049,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Región de Murcia?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Región de Murcia",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Región de Murcia.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Región de Murcia, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Región de Murcia el 29-N",
@@ -8116,7 +9502,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Navarra",
 "title": "Promesas electorales del 29-N en Navarra",
 "description": "Cómo afectarían en Navarra las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 5 diputados.",
-"lead": "Respuesta corta: Navarra elige 5 diputados el 29-N (BOE, RD 806/2026). En Navarra, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Navarra elige 5 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 16 se aplicarían igual en Navarra, 8 necesitarían además al gobierno autonómico y 4 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Navarra, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -8170,9 +9556,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Navarra?",
+"a": "A 13 de octubre de 2026, 16 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 4 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Navarra",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Navarra.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Navarra, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"5",
+"2",
+"3",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"4",
+"0",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Navarra el 29-N",
@@ -8524,7 +10009,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en País Vasco",
 "title": "Promesas electorales del 29-N en País Vasco",
 "description": "Cómo afectarían en País Vasco las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 18 diputados.",
-"lead": "Respuesta corta: País Vasco elige 18 diputados el 29-N (BOE, RD 806/2026). En País Vasco, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): País Vasco elige 18 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 16 se aplicarían igual en País Vasco, 8 necesitarían además al gobierno autonómico y 4 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En País Vasco, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -8578,9 +10063,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en País Vasco?",
+"a": "A 13 de octubre de 2026, 16 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 4 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en País Vasco",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para País Vasco.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en País Vasco, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"5",
+"2",
+"3",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"4",
+"0",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en País Vasco el 29-N",
@@ -8932,7 +10516,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en La Rioja",
 "title": "Promesas electorales del 29-N en La Rioja",
 "description": "Cómo afectarían en La Rioja las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 4 diputados.",
-"lead": "Respuesta corta: La Rioja elige 4 diputados el 29-N (BOE, RD 806/2026). En La Rioja se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): La Rioja elige 4 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en La Rioja, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En La Rioja se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -8986,9 +10570,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en La Rioja?",
+"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en La Rioja",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para La Rioja.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en La Rioja, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"5",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en La Rioja el 29-N",
@@ -9340,7 +11023,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Ceuta",
 "title": "Promesas electorales del 29-N en Ceuta",
 "description": "Cómo afectarían en Ceuta las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 1 diputados.",
-"lead": "Respuesta corta: Ceuta elige 1 diputado el 29-N (BOE, RD 806/2026). En Ceuta, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Ceuta elige 1 diputado el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 16 se aplicarían igual en Ceuta, 8 necesitarían además al gobierno autonómico y 4 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Ceuta, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -9394,9 +11077,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Ceuta?",
+"a": "A 13 de octubre de 2026, 16 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 4 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Ceuta",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Ceuta.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Ceuta, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"5",
+"2",
+"3",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"4",
+"0",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Ceuta el 29-N",
@@ -9748,7 +11530,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Melilla",
 "title": "Promesas electorales del 29-N en Melilla",
 "description": "Cómo afectarían en Melilla las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 1 diputados.",
-"lead": "Respuesta corta: Melilla elige 1 diputado el 29-N (BOE, RD 806/2026). En Melilla, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
+"lead": "Respuesta corta (datos a 13 de octubre de 2026): Melilla elige 1 diputado el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 16 se aplicarían igual en Melilla, 8 necesitarían además al gobierno autonómico y 4 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Melilla, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -9802,9 +11584,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "q": "¿Por qué una promesa no se aplicaría en mi comunidad?",
 "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."
+},
+{
+"q": "¿Cuántas medidas del 29-N se aplicarían igual en Melilla?",
+"a": "A 13 de octubre de 2026, 16 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 4 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+},
+{
+"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
+"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
+{
+"id": "resumen",
+"title": "Resumen por partido en Melilla",
+"paragraphs": [
+"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Melilla.",
+"Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
+],
+"table": {
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Melilla, por partido (a 13 de octubre de 2026)",
+"head": [
+"Partido",
+"Medidas con fuente",
+"Igual que en el resto de España",
+"Necesitan también a la comunidad",
+"Solo en parte o no tal cual aquí",
+"Programa del 29-N"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"10",
+"5",
+"2",
+"3",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PP",
+"href": "https://www.pp.es/"
+}
+},
+{
+"cells": [
+"PSOE",
+"5",
+"4",
+"0",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de PSOE",
+"href": "https://www.psoe.es/"
+}
+},
+{
+"cells": [
+"Vox",
+"10",
+"4",
+"6",
+"0",
+"pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+],
+"source": {
+"label": "Web oficial de Vox",
+"href": "https://www.voxespana.es/"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"1",
+"1",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Frente Amplio",
+"href": "https://www.sumar.es/"
+}
+},
+{
+"cells": [
+"Podemos",
+"2",
+"2",
+"0",
+"0",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Podemos",
+"href": "https://podemos.info/"
+}
+}
+]
+}
+},
 {
 "id": "que-se-vota",
 "title": "Qué se vota en Melilla el 29-N",
