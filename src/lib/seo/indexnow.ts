@@ -1,4 +1,5 @@
 import { INDEXNOW_KEY } from "@/lib/seo/crawlers";
+import { canonicalSiteOrigin, withoutLegacyEsHost } from "@/lib/seo/origin";
 import { SITE_ORIGIN } from "@/lib/types";
 
 export { INDEXNOW_KEY };
@@ -6,7 +7,7 @@ export { INDEXNOW_KEY };
 export const INDEXNOW_ENDPOINT = "https://api.indexnow.org/indexnow";
 
 export function indexNowKeyLocation(origin = SITE_ORIGIN): string {
-  return `${origin.replace(/\/$/, "")}/${INDEXNOW_KEY}.txt`;
+  return `${canonicalSiteOrigin(origin)}/${INDEXNOW_KEY}.txt`;
 }
 
 /** Homepage + pillars + editorial. Keep the list short; IndexNow is for change pings, not a second sitemap. */
@@ -28,11 +29,11 @@ export const INDEXNOW_PILLARS = [
 ] as const;
 
 export function indexNowUrlList(paths: readonly string[] = INDEXNOW_PILLARS, origin = SITE_ORIGIN): string[] {
-  const host = origin.replace(/\/$/, "");
+  const host = canonicalSiteOrigin(origin);
   const seen = new Set<string>();
   const out: string[] = [];
   for (const path of paths) {
-    const url = path.startsWith("http") ? path : `${host}${path.startsWith("/") ? path : `/${path}`}`;
+    const url = path.startsWith("http") ? withoutLegacyEsHost(path) : `${host}${path.startsWith("/") ? path : `/${path}`}`;
     if (seen.has(url)) continue;
     seen.add(url);
     out.push(url);
@@ -52,7 +53,7 @@ export async function pingIndexNow(opts?: {
   origin?: string;
   fetchImpl?: typeof fetch;
 }): Promise<IndexNowResult> {
-  const origin = (opts?.origin ?? SITE_ORIGIN).replace(/\/$/, "");
+  const origin = canonicalSiteOrigin(opts?.origin ?? SITE_ORIGIN);
   const urlList = indexNowUrlList(opts?.paths ?? INDEXNOW_PILLARS, origin);
   const host = origin.replace(/^https?:\/\//, "");
   const body = {

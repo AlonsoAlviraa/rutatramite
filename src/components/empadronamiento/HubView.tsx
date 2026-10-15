@@ -4,9 +4,10 @@ import { JsonLd } from "@/components/empadronamiento/JsonLd";
 import { GeoLead } from "@/components/ui/GeoLead";
 import { PageShell } from "@/components/ui/PageShell";
 import { DirectorySearch } from "@/components/ui/DirectorySearch";
-import type { HubModel } from "@/lib/hub/buildHub";
+import { HUB_REVIEWED_AT, type HubModel } from "@/lib/hub/buildHub";
 import { ccaaPath, provinciaPath } from "@/lib/geo/paths";
 import { articleJsonLd } from "@/lib/seo/jsonld";
+import { ccaaBySlug, loadTerritories } from "@/lib/geo/territories";
 
 const RELATED_ESCENARIOS = [
   { href: "/empadronarse/sin-contrato", label: "Sin contrato" },
@@ -25,17 +26,19 @@ export function HubView({
   provinceSlug?: string;
 }) {
   const path = provinceSlug ? provinciaPath(ccaaSlug, provinceSlug) : ccaaPath(ccaaSlug);
+  const region = ccaaBySlug(ccaaSlug);
   const crumbs = [
     { name: "Inicio", path: "/" },
     { name: "Empadronarse", path: "/empadronarse" },
-    { name: model.h1.replace(/^Empadronarse en (la provincia de )?/, ""), path },
+    { name: provinceSlug ? loadTerritories().provinces[region?.province_codes.find(code => loadTerritories().provinces[code]?.slug === provinceSlug) ?? ""]?.name ?? model.h1 : region?.name ?? model.h1, path },
   ];
   if (provinceSlug) {
-    crumbs.splice(2, 0, { name: "Comunidad", path: ccaaPath(ccaaSlug) });
+    crumbs.splice(2, 0, { name: region?.name ?? "Territorio", path: ccaaPath(ccaaSlug) });
   }
   const top = model.municipios.slice(0, 10);
   const rest = model.municipios.slice(10);
-  const dateModified = "2026-09-07";
+  const dateModified = HUB_REVIEWED_AT;
+  const provinces = provinceSlug ? [] : (ccaaBySlug(ccaaSlug)?.province_codes ?? []).map(code => loadTerritories().provinces[code]).filter(Boolean);
   return (
     <PageShell as="article" data-hub={model.kind}>
       <JsonLd
@@ -49,15 +52,15 @@ export function HubView({
       <Breadcrumbs items={crumbs} />
       <h1 className="mt-2 font-display text-4xl text-mossDark">{model.h1}</h1>
       <p className="mt-2 text-sm text-ink/70">
-        Actualizado <time dateTime={dateModified}>{dateModified}</time>
+        Revisión del directorio: <time dateTime={dateModified}>{dateModified}</time>.
+        Esta fecha no actualiza la revisión de los trámites de cada ficha.
       </p>
       <GeoLead>{model.lead}</GeoLead>
-      <DirectorySearch
-        label="Buscar municipio"
-        placeholder="Escribe el nombre del municipio"
-        hint="Busca entre los municipios de este listado."
-        entries={model.municipios.map((m) => ({ title: m.name, href: m.path, category: "Ficha de empadronamiento" }))}
-      />
+      {provinces.length > 0 ? <nav aria-label="Directorios territoriales" className="mt-6">
+        <h2 className="font-display text-2xl text-mossDark">Explorar por territorio</h2>
+        <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2">{provinces.map(province => <li key={province.code}><a className="inline-flex min-h-11 items-center underline underline-offset-4" href={provinciaPath(ccaaSlug, province.slug)}>{province.name}</a></li>)}</ul>
+      </nav> : null}
+      {model.municipios.length > 0 ? <DirectorySearch label="Buscar municipio" placeholder="Escribe el nombre del municipio" hint="Busca entre los municipios de este listado." entries={model.municipios.map((m) => ({title: m.name, href: m.path, aliases: m.search_alias, category: "Ficha de empadronamiento"}))} /> : null}
       {model.paragraphs.map((p, i) => (
         <p key={i} className="mt-4 leading-relaxed">
           {p}
@@ -65,7 +68,7 @@ export function HubView({
       ))}
       {top.length > 0 ? (
         <>
-          <h2 className="mt-10 font-display text-2xl text-mossDark">Localidades más pobladas del directorio</h2>
+          <h2 className="mt-10 font-display text-2xl text-mossDark">Localidades por población de referencia</h2>
           <ul className="mt-4 flex flex-wrap gap-2 text-sm">
             {top.map((m) => (
               <li key={m.ine_code}>
@@ -79,7 +82,7 @@ export function HubView({
       ) : (
         <>
           <h2 className="mt-10 font-display text-2xl text-mossDark">Municipios de este territorio</h2>
-          <p>No hay municipios del catálogo INE en este territorio.</p>
+          <p>Aún no hemos incorporado fichas de este territorio a nuestro catálogo.</p>
         </>
       )}
       {rest.length > 0 ? (
@@ -106,6 +109,12 @@ export function HubView({
           </li>
         ))}
       </ul>
+      <p className="mt-6 text-sm">
+        Selección parcial de municipios. El orden utiliza las cifras oficiales del INE a
+        1 de enero de 2025; no representa población en tiempo real. Consulta las
+        <a className="underline" href="/fuentes"> fuentes</a> y la
+        <a className="underline" href="/metodologia"> metodología del catálogo</a>.
+      </p>
       <p className="mt-6 text-sm">
         <a className="font-semibold underline decoration-sand underline-offset-2" href="/empadronarse">
           Guía nacional de empadronarse

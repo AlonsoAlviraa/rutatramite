@@ -10,7 +10,7 @@ type Props = {
   onChange: (ine: string | null) => void;
 };
 
-type Hit = ClientMunicipio & { id?: string };
+type Hit = ClientMunicipio & { id?: string; poblacion?: number };
 
 export function MunicipioTypeahead({ index, value, onChange }: Props) {
   const inputId = useId();
@@ -20,7 +20,7 @@ export function MunicipioTypeahead({ index, value, onChange }: Props) {
   const [active, setActive] = useState(0);
   const mini = useMemo(() => {
     const ms = new MiniSearch<ClientMunicipio>({
-      fields: ["name", "province_name", "ccaa_name", "ine_code"],
+      fields: ["name", "search_alias", "province_name", "ccaa_name", "ine_code"],
       storeFields: ["ine_code", "name", "province_name", "path"],
       idField: "ine_code",
       searchOptions: { prefix: true, fuzzy: 0.2 },
@@ -94,6 +94,7 @@ export function MunicipioTypeahead({ index, value, onChange }: Props) {
                   role="option"
                   aria-selected={i === active}
                   className="typeahead-option w-full px-3 py-2.5 text-left"
+                  onMouseDown={(event) => event.preventDefault()}
                   onClick={() => pick(h)}
                 >
                   <span className="font-semibold">{h.name}</span>

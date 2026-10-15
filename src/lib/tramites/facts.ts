@@ -14,6 +14,8 @@ export const TASA_DNI_LABEL = "12 €";
 export const TASA_PASAPORTE_LABEL = "30 €";
 
 export const DNI_RENOVACION_DIAS = 180;
+export const PASAPORTE_RENOVACION_MESES = 12;
+export const DOCUMENT_PAYMENT_NOTE = "Las tasas pueden abonarse en la unidad de documentación o por vía telemática a través del portal oficial al solicitar la cita, con los requisitos de identificación del servicio. La reserva de cita es gratuita.";
 
 export const FOTO_DNI = "32 × 26 mm, color, fondo blanco, cabeza descubierta";
 

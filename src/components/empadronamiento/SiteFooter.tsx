@@ -4,10 +4,12 @@ const cols = [
   {
     title: "Trámites",
     links: [
+      { href: "/elecciones", label: "Elecciones 29 de noviembre" },
       { href: "/empadronarse", label: "Padrón" },
       { href: "/dni", label: "DNI y pasaporte" },
       { href: "/extranjeria", label: "Extranjería" },
       { href: "/mudanza", label: "Mudanza" },
+      { href: "/alquiler", label: "Ayudas al alquiler" },
       { href: "/modelos", label: "Modelos y cartas" },
     ],
   },
@@ -19,6 +21,10 @@ const cols = [
       { href: "/fp", label: "FP" },
       { href: "/bebe", label: "Bebé" },
       { href: "/becas", label: "Becas" },
+      { href: "/transporte", label: "Transporte" },
+      { href: "/ayudas", label: "Ayudas y plazos" },
+      { href: "/ayudas-por-gobierno", label: "Ayudas según cada gobierno" },
+      { href: "/trabajo", label: "Trabajo, paro e IMV" },
     ],
   },
   {
@@ -26,6 +32,8 @@ const cols = [
     links: [
       { href: "/metodologia", label: "Cómo verificamos" },
       { href: "/fuentes", label: "Fuentes" },
+      { href: "/recursos", label: "Datos y recursos" },
+      { href: "/descargas", label: "Formularios oficiales" },
       { href: "/aviso-legal", label: "Aviso legal" },
       { href: "/privacidad", label: "Privacidad" },
       { href: "/contacto", label: "Contacto" },

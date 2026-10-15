@@ -3,8 +3,8 @@ import { PackIndex } from "@/components/tramites/PackIndex";
 import { pageMetadata } from "@/lib/seo/meta";
 
 export const metadata: Metadata = pageMetadata({
-  title: "FP: matricularse en septiembre, vacantes y convalidaciones",
-  description: "Matrícula de FP fuera del plazo ordinario: extraordinario de septiembre, plazas vacantes, reservas y convalidaciones.",
+  title: "FP: admisión, vacantes y convalidaciones",
+  description: "Admisión en FP, vacantes, reservas y convalidaciones. El calendario lo marca la convocatoria de cada comunidad.",
   path: "/fp",
 });
 

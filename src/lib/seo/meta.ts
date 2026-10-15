@@ -4,6 +4,7 @@ import { PRODUCT_NAME, SITE_ORIGIN } from "@/lib/types";
 import { absoluteUrl } from "@/lib/geo/paths";
 import { localeAlternates } from "@/lib/seo/hreflang";
 import { isFichaIndexable } from "@/lib/seo/localSignals";
+import { titleWithExperiment } from "@/lib/seo/titleExperiment";
 
 export function clipMeta(text: string, max = 158): string {
   const t = text.replace(/\s+/g, " ").trim();
@@ -44,7 +45,7 @@ export function pageMetadata(opts: {
   const description = clipMeta(opts.description);
   const index = opts.index !== false;
   return {
-    title: opts.title,
+    title: titleWithExperiment(opts.title, opts.path),
     description,
     ...(opts.keywords !== undefined ? { keywords: opts.keywords } : {}),
     alternates: { canonical: url, languages: localeAlternates(url) },

@@ -1,0 +1,885 @@
+{
+ "name": "Promesas electorales del 29-N (elecciones generales 2026) por partido y su aplicación territorial",
+ "updated": "2026-10-13",
+ "publisher": "RutaTrámite",
+ "url": "https://rutatramite.com/elecciones/promesas",
+ "methodology": "https://rutatramite.com/elecciones/promesas/metodologia",
+ "license": "Reutilización libre citando a RutaTrámite y la fuente original de cada medida",
+ "election": {
+  "name": "Elecciones generales a Cortes (Congreso y Senado)",
+  "date": "2026-11-29",
+  "convocatoria": "Real Decreto 806/2026, de 5 de octubre (BOE núm. 248, 6-10-2026)",
+  "url": "https://www.boe.es/eli/es/rd/2026/10/05/806",
+  "note": "Solo se vota Congreso (350 diputados) y Senado. No hay elecciones autonómicas ni municipales convocadas para el 29-N por este real decreto."
+ },
+ "order_rule": "Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar).",
+ "parties": [
+  {
+   "id": "pp",
+   "name": "Partido Popular (PP)",
+   "leader": "Alberto Núñez Feijóo",
+   "votes2023": "33,1 % · 137 escaños",
+   "web": "https://www.pp.es/",
+   "programa29n": "pendiente de programa"
+  },
+  {
+   "id": "psoe",
+   "name": "Partido Socialista Obrero Español (PSOE)",
+   "leader": "Pedro Sánchez",
+   "votes2023": "31,7 % · 121 escaños",
+   "web": "https://www.psoe.es/",
+   "programa29n": "pendiente de programa"
+  },
+  {
+   "id": "vox",
+   "name": "Vox",
+   "leader": "Santiago Abascal",
+   "votes2023": "12,4 % · 33 escaños",
+   "web": "https://www.voxespana.es/",
+   "programa29n": "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
+  },
+  {
+   "id": "frente-amplio",
+   "name": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
+   "leader": "Ada Colau (propuesta el 12-10-2026, sin proclamar)",
+   "votes2023": "Como Sumar: 12,3 % · 31 escaños (incluía a Podemos)",
+   "web": "https://www.sumar.es/",
+   "programa29n": "pendiente de programa"
+  },
+  {
+   "id": "podemos",
+   "name": "Podemos",
+   "leader": "Irene Montero (precandidata; primarias el 14 y 15 de octubre)",
+   "votes2023": "Dentro de Sumar en 2023",
+   "web": "https://podemos.info/",
+   "programa29n": "pendiente de programa"
+  }
+ ],
+ "others": [
+  "ERC",
+  "Junts",
+  "EH Bildu",
+  "PNV",
+  "BNG",
+  "Coalición Canaria",
+  "UPN",
+  "Democracia 21 (nuevo, anunciado el 10-10-2026)"
+ ],
+ "topics": {
+  "vivienda": "Vivienda",
+  "impuestos": "Impuestos y coste de la vida",
+  "empleo": "Empleo y salarios",
+  "inmigracion": "Inmigración",
+  "administracion": "Burocracia y administración",
+  "pensiones": "Pensiones"
+ },
+ "territories": [
+  {
+   "id": "andalucia",
+   "name": "Andalucía",
+   "diputados": 60,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "aragon",
+   "name": "Aragón",
+   "diputados": 13,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "asturias",
+   "name": "Asturias",
+   "diputados": 7,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "illes-balears",
+   "name": "Illes Balears",
+   "diputados": 8,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "canarias",
+   "name": "Canarias",
+   "diputados": 15,
+   "regimen": "canarias"
+  },
+  {
+   "id": "cantabria",
+   "name": "Cantabria",
+   "diputados": 5,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "castilla-y-leon",
+   "name": "Castilla y León",
+   "diputados": 31,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "castilla-la-mancha",
+   "name": "Castilla-La Mancha",
+   "diputados": 21,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "cataluna",
+   "name": "Cataluña",
+   "diputados": 48,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "comunitat-valenciana",
+   "name": "Comunitat Valenciana",
+   "diputados": 33,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "extremadura",
+   "name": "Extremadura",
+   "diputados": 9,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "galicia",
+   "name": "Galicia",
+   "diputados": 23,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "madrid",
+   "name": "Comunidad de Madrid",
+   "diputados": 38,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "murcia",
+   "name": "Región de Murcia",
+   "diputados": 10,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "navarra",
+   "name": "Navarra",
+   "diputados": 5,
+   "regimen": "pais_vasco_navarra"
+  },
+  {
+   "id": "pais-vasco",
+   "name": "País Vasco",
+   "diputados": 18,
+   "regimen": "pais_vasco_navarra"
+  },
+  {
+   "id": "la-rioja",
+   "name": "La Rioja",
+   "diputados": 4,
+   "regimen": "regimen_comun"
+  },
+  {
+   "id": "ceuta",
+   "name": "Ceuta",
+   "diputados": 1,
+   "regimen": "ceuta_melilla"
+  },
+  {
+   "id": "melilla",
+   "name": "Melilla",
+   "diputados": 1,
+   "regimen": "ceuta_melilla"
+  }
+ ],
+ "promises": [
+  {
+   "id": "pp-iva-vivienda-4",
+   "party": "pp",
+   "topic": "vivienda",
+   "measure": "Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
+   "quote": "bajar el IVA de adquisición de la primera vivienda nueva del 10% al 4%",
+   "source_url": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/",
+   "source_title": "pp.es: moción del Grupo Popular aprobada en el Congreso",
+   "source_date": "2026-02-18",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": "iva",
+   "profiles": [
+    "joven-alquiler",
+    "familia"
+   ],
+   "cost": null,
+   "impact": "iva6",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "No aplica tal cual: aquí no hay IVA (IGIC).",
+    "ceuta_melilla": "No aplica tal cual: aquí no hay IVA (IPSI)."
+   }
+  },
+  {
+   "id": "pp-fraccionar-iva-itp",
+   "party": "pp",
+   "topic": "vivienda",
+   "measure": "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
+   "quote": "permitir el fraccionamiento del IVA y del Impuesto sobre Transmisiones Patrimoniales al ritmo del pago de la hipoteca",
+   "source_url": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/",
+   "source_title": "pp.es: moción del Grupo Popular aprobada en el Congreso",
+   "source_date": "2026-02-18",
+   "source_type": "oficial-partido",
+   "level": "estatal+autonómica",
+   "tax": "iva+itp",
+   "profiles": [
+    "joven-alquiler",
+    "familia"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "En parte: el ITP depende de la comunidad; el IVA es estatal.",
+    "pais_vasco_navarra": "En parte: el ITP depende de la Hacienda foral; el IVA es estatal.",
+    "canarias": "En parte: el ITP depende de la comunidad; y aquí no hay IVA, sino IGIC.",
+    "ceuta_melilla": "En parte: el ITP depende de la comunidad; y aquí no hay IVA, sino IPSI."
+   }
+  },
+  {
+   "id": "pp-irpf-jovenes",
+   "party": "pp",
+   "topic": "empleo",
+   "measure": "Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
+   "quote": "eliminar o bonificar el IRPF a los jóvenes durante los primeros 4 años de su vida laboral, de manera progresiva",
+   "source_url": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/",
+   "source_title": "pp.es: moción del Grupo Popular aprobada en el Congreso",
+   "source_date": "2026-02-18",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": "irpf",
+   "profiles": [
+    "estudiante",
+    "joven-alquiler"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "No directamente: el IRPF es foral; dependería de la Hacienda foral.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-avales-hucha",
+   "party": "pp",
+   "topic": "vivienda",
+   "measure": "Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
+   "quote": "una hucha hogar o avales públicos hasta el 95 o el 100% y reducciones de impuestos de hasta el 60%",
+   "source_url": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/",
+   "source_title": "pp.es: plan de vivienda de Feijóo",
+   "source_date": "2026-09-15",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler"
+   ],
+   "cost": "El PP estima entre 21.000 y 26.000 € de ayuda fiscal para un joven con salario medio que compre a los 30 años (cálculo del propio partido).",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-millon-viviendas",
+   "party": "pp",
+   "topic": "vivienda",
+   "measure": "Sentar las bases para construir un millón de viviendas en una legislatura, movilizando suelo público y con colaboración público-privada.",
+   "quote": "permitirán sentar las bases para la construcción de un millón de viviendas en una legislatura",
+   "source_url": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/",
+   "source_title": "pp.es: plan de vivienda de Feijóo",
+   "source_date": "2026-09-15",
+   "source_type": "oficial-partido",
+   "level": "estatal+autonómica",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "familia"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "pais_vasco_navarra": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "canarias": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "ceuta_melilla": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+   }
+  },
+  {
+   "id": "pp-plazos-urbanismo",
+   "party": "pp",
+   "topic": "vivienda",
+   "measure": "Reducir los plazos medios para producir vivienda de 10 a 4 años y favorecer el silencio administrativo positivo en licencias.",
+   "quote": "reducir los plazos medios de producción de 10 años a 4",
+   "source_url": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/",
+   "source_title": "pp.es: moción del Grupo Popular aprobada en el Congreso",
+   "source_date": "2026-02-18",
+   "source_type": "oficial-partido",
+   "level": "estatal+autonómica+municipal",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "autonomo"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "pais_vasco_navarra": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "canarias": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "ceuta_melilla": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+   }
+  },
+  {
+   "id": "pp-iva-cero-alimentos",
+   "party": "pp",
+   "topic": "impuestos",
+   "measure": "IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
+   "quote": "aplicar el IVA cero a los alimentos básicos y reducir la fiscalidad de los carburantes",
+   "source_url": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/",
+   "source_title": "pp.es: entrevista a Juan Bravo",
+   "source_date": "2026-10-09",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": "iva",
+   "profiles": [
+    "familia",
+    "jubilado",
+    "parado",
+    "dependencia",
+    "estudiante",
+    "joven-alquiler",
+    "autonomo"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "No aplica tal cual: aquí no hay IVA (IGIC).",
+    "ceuta_melilla": "No aplica tal cual: aquí no hay IVA (IPSI)."
+   }
+  },
+  {
+   "id": "pp-derechos-contribuyente",
+   "party": "pp",
+   "topic": "impuestos",
+   "measure": "Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
+   "quote": "Defendemos el Consejo Defensa del Contribuyente y una Ley de Derechos y Garantías",
+   "source_url": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/",
+   "source_title": "pp.es: entrevista a Juan Bravo",
+   "source_date": "2026-10-09",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "autonomo"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-deflactar-irpf",
+   "party": "pp",
+   "topic": "impuestos",
+   "measure": "Deflactar la tarifa del IRPF (ajustarla a la inflación).",
+   "quote": "Entre sus medidas prioritarias destaca la deflactación de la tarifa del IRPF",
+   "source_url": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html",
+   "source_title": "Expansión: Feijóo en el Congreso de la Empresa Familiar",
+   "source_date": "2026-10-05",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": "irpf",
+   "profiles": [
+    "familia",
+    "jubilado",
+    "autonomo",
+    "joven-alquiler"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "No directamente: el IRPF es foral; dependería de la Hacienda foral.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-derogar-ley-vivienda",
+   "party": "pp",
+   "topic": "vivienda",
+   "measure": "Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
+   "quote": "El Partido Popular se compromete a derogar la Ley de Vivienda actual, eliminar los controles de precios",
+   "source_url": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html",
+   "source_title": "El Español: el PP derogará los decretos de vivienda",
+   "source_date": "2026-10-13",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "familia"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "psoe-mantener-decretos",
+   "party": "psoe",
+   "topic": "vivienda",
+   "measure": "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
+   "quote": "Pedro Sánchez promete \"reforzar y mantener\" los decretos de vivienda",
+   "source_url": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html",
+   "source_title": "Expansión: mitin de Dos Hermanas",
+   "source_date": "2026-10-10",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "familia",
+    "jubilado"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "psoe-tu-casa",
+   "party": "psoe",
+   "topic": "vivienda",
+   "measure": "Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
+   "quote": "préstamos que permitirán financiar hasta el 20% del valor de la vivienda, con un límite máximo de 50.000 euros",
+   "source_url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx",
+   "source_title": "La Moncloa: medidas de los decretos de vivienda",
+   "source_date": "2026-10-08",
+   "source_type": "oficial-gobierno",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "familia"
+   ],
+   "cost": "10.000 millones de euros (dotación oficial).",
+   "impact": "tucasa",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "psoe-deduccion-alquiler",
+   "party": "psoe",
+   "topic": "vivienda",
+   "measure": "Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
+   "quote": "podrán deducirse el 10 % de las cantidades satisfechas en el período impositivo por el alquiler de su vivienda habitual",
+   "source_url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx",
+   "source_title": "La Moncloa: medidas de los decretos de vivienda",
+   "source_date": "2026-10-08",
+   "source_type": "oficial-gobierno",
+   "level": "estatal",
+   "tax": "irpf",
+   "profiles": [
+    "joven-alquiler",
+    "estudiante",
+    "familia"
+   ],
+   "cost": null,
+   "impact": "alquiler10",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "No directamente: el IRPF es foral; dependería de la Hacienda foral.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "psoe-prorroga-alquiler",
+   "party": "psoe",
+   "topic": "vivienda",
+   "measure": "Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
+   "quote": "podrán solicitar una prórroga extraordinaria de hasta dos años adicionales por plazos anuales",
+   "source_url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx",
+   "source_title": "La Moncloa: medidas de los decretos de vivienda",
+   "source_date": "2026-10-08",
+   "source_type": "oficial-gobierno",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "familia",
+    "jubilado"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "psoe-iva-protegida",
+   "party": "psoe",
+   "topic": "vivienda",
+   "measure": "IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
+   "quote": "La vivienda protegida de forma permanente o indefinida pasará a tener un IVA superreducido del 4 %",
+   "source_url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx",
+   "source_title": "La Moncloa: medidas de los decretos de vivienda",
+   "source_date": "2026-10-08",
+   "source_type": "oficial-gobierno",
+   "level": "estatal",
+   "tax": "iva",
+   "profiles": [
+    "joven-alquiler",
+    "familia"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "No aplica tal cual: aquí no hay IVA (IGIC).",
+    "ceuta_melilla": "No aplica tal cual: aquí no hay IVA (IPSI)."
+   }
+  },
+  {
+   "id": "vox-remigracion",
+   "party": "vox",
+   "topic": "inmigracion",
+   "measure": "«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
+   "quote": "El que viene ilegalmente a España tiene que ser repatriado",
+   "source_url": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011",
+   "source_title": "voxespana.es: acto de Estepona",
+   "source_date": "2026-10-11",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "vox-prioridad-nacional",
+   "party": "vox",
+   "topic": "vivienda",
+   "measure": "«Prioridad nacional»: que los españoles vayan primero en ayudas sociales y vivienda pública; construir vivienda social de forma masiva.",
+   "quote": "defendiendo la prioridad nacional, para que los españoles no sean discriminados en su propia patria",
+   "source_url": "https://www.voxespana.es/abascal/abascal-exige-elecciones-libres-limpias-y-sin-violencia-y-asegura-que-vox-esta-preparado-para-ofrecer-las-soluciones-que-espana-necesita-20261005",
+   "source_title": "voxespana.es: declaración tras la convocatoria",
+   "source_date": "2026-10-05",
+   "source_type": "oficial-partido",
+   "level": "estatal+autonómica",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "familia",
+    "parado",
+    "jubilado",
+    "dependencia"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "pais_vasco_navarra": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "canarias": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "ceuta_melilla": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+   }
+  },
+  {
+   "id": "vox-menos-impuestos",
+   "party": "vox",
+   "topic": "impuestos",
+   "measure": "Reducir la presión fiscal y revisar las prioridades del gasto.",
+   "quote": "Que los impuestos sean los menos y que sirvan mucho más a los intereses nacionales",
+   "source_url": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011",
+   "source_title": "voxespana.es: acto de Estepona",
+   "source_date": "2026-10-11",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "autonomo",
+    "familia"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "vox-pensiones",
+   "party": "vox",
+   "topic": "pensiones",
+   "measure": "Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
+   "quote": "se van a pagar al precio que sea y como sea",
+   "source_url": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011",
+   "source_title": "voxespana.es: acto de Estepona",
+   "source_date": "2026-10-11",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "jubilado"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "vox-fin-cita-previa",
+   "party": "vox",
+   "topic": "administracion",
+   "measure": "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
+   "quote": "Ninguna Administración podrá exigir cita previa como condición para atender al ciudadano",
+   "source_url": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf",
+   "source_title": "Vox: Programa de desregulación (PDF)",
+   "source_date": "2026-06",
+   "source_type": "oficial-partido",
+   "level": "estatal+autonómica+municipal",
+   "tax": null,
+   "profiles": [
+    "estudiante",
+    "familia",
+    "joven-alquiler",
+    "jubilado",
+    "autonomo",
+    "parado",
+    "dependencia"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "pais_vasco_navarra": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "canarias": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "ceuta_melilla": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+   }
+  },
+  {
+   "id": "vox-silencio-positivo",
+   "party": "vox",
+   "topic": "administracion",
+   "measure": "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
+   "quote": "Si la Administración no contesta en plazo, el ciudadano gana",
+   "source_url": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf",
+   "source_title": "Vox: Programa de desregulación (PDF)",
+   "source_date": "2026-06",
+   "source_type": "oficial-partido",
+   "level": "estatal+autonómica+municipal",
+   "tax": null,
+   "profiles": [
+    "autonomo"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "pais_vasco_navarra": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "canarias": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "ceuta_melilla": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+   }
+  },
+  {
+   "id": "vox-tres-por-una",
+   "party": "vox",
+   "topic": "administracion",
+   "measure": "Derogar tres normas por cada norma nueva que se apruebe.",
+   "quote": "Cada ley nueva tendrá que identificar, en su propio texto, qué tres normas vigentes deroga",
+   "source_url": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf",
+   "source_title": "Vox: Programa de desregulación (PDF)",
+   "source_date": "2026-06",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "autonomo"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "vox-mercado-abierto",
+   "party": "vox",
+   "topic": "administracion",
+   "measure": "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
+   "quote": "Lo que es legal en una región de España, lo es en toda España",
+   "source_url": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf",
+   "source_title": "Vox: Programa de desregulación (PDF)",
+   "source_date": "2026-06",
+   "source_type": "oficial-partido",
+   "level": "estatal+autonómica",
+   "tax": null,
+   "profiles": [
+    "autonomo"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "pais_vasco_navarra": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "canarias": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "ceuta_melilla": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+   }
+  },
+  {
+   "id": "vox-una-base-datos",
+   "party": "vox",
+   "topic": "administracion",
+   "measure": "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
+   "quote": "El ciudadano no volverá a entregar un papel, un certificado o un dato que la Administración ya tiene",
+   "source_url": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf",
+   "source_title": "Vox: Programa de desregulación (PDF)",
+   "source_date": "2026-06",
+   "source_type": "oficial-partido",
+   "level": "estatal+autonómica+municipal",
+   "tax": null,
+   "profiles": [
+    "estudiante",
+    "familia",
+    "joven-alquiler",
+    "jubilado",
+    "autonomo",
+    "parado",
+    "dependencia"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "pais_vasco_navarra": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "canarias": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "ceuta_melilla": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+   }
+  },
+  {
+   "id": "vox-vivienda-social",
+   "party": "vox",
+   "topic": "vivienda",
+   "measure": "Construir vivienda social «masivamente», liberalizar suelo, ayudas directas a jóvenes compradores y poder pagar ciertos impuestos a plazos.",
+   "quote": "construir \"masivamente\" vivienda social y adjudicarla siguiendo el criterio de \"prioridad nacional\"",
+   "source_url": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/11/6acb4be4468aebef4f8b459b.html",
+   "source_title": "Expansión: propuesta de Ignacio Garriga",
+   "source_date": "2026-10-11",
+   "source_type": "prensa",
+   "level": "estatal+autonómica",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "familia"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "pais_vasco_navarra": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "canarias": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+    "ceuta_melilla": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+   }
+  },
+  {
+   "id": "fa-vivienda",
+   "party": "frente-amplio",
+   "topic": "vivienda",
+   "measure": "Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
+   "quote": "Plantar cara a los fondos buitre, garantizar el derecho a la vivienda y seguir conquistando derechos",
+   "source_url": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml",
+   "source_title": "RTVE: comunicado del Frente Amplio",
+   "source_date": "2026-10-12",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "familia"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "podemos-smi-1800",
+   "party": "podemos",
+   "topic": "empleo",
+   "measure": "Subir el salario mínimo (SMI) a 1.800 € al mes.",
+   "quote": "prometiendo un salario mínimo de 1.800 euros",
+   "source_url": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html",
+   "source_title": "ABC: presentación de Irene Montero",
+   "source_date": "2026-09-12",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "parado",
+    "estudiante"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "podemos-30-horas",
+   "party": "podemos",
+   "topic": "empleo",
+   "measure": "Reducir la jornada laboral a 30 horas semanales.",
+   "quote": "la jornada semanal de 30 horas",
+   "source_url": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html",
+   "source_title": "ABC: presentación de Irene Montero",
+   "source_date": "2026-09-12",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "familia",
+    "autonomo"
+   ],
+   "cost": null,
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  }
+ ]
+}

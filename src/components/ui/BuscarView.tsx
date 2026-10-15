@@ -45,6 +45,8 @@ export function BuscarView({ query }: { query: string }) {
         <a className="underline" href="/extranjeria">extranjería</a>
         {" · "}
         <a className="underline" href="/becas">becas</a>
+        {" · "}
+        <a className="underline" href="/ayudas">ayudas</a>
       </p>
     </PageShell>
   );

@@ -1,607 +1,918 @@
-import {
-  BOE_ET_URL,
-  DISCLAIMER_MODELOS,
-  MITES_URL,
-  SEPE_URL,
-} from "@/lib/tramites/facts";
 import type { Guide } from "@/lib/tramites/types";
-
-const relatedTrabajo = [
-  { href: "/modelo-baja-voluntaria", label: "Carta de baja voluntaria (15 días)" },
-  { href: "/baja-voluntaria-sin-preaviso", label: "Baja sin preaviso y finiquito" },
-  { href: "/baja-periodo-de-prueba", label: "Baja en periodo de prueba" },
-  { href: "/modelo-finiquito", label: "Solicitud de finiquito" },
-  { href: "/he-firmado-finiquito-puedo-reclamar", label: "He firmado el finiquito" },
-  { href: "/certificado-empresa-sepe", label: "Certificado de empresa (SEPE)" },
-];
 
 export const MODELOS_TRABAJO: Guide[] = [
   {
-    id: "modelo-baja-voluntaria",
-    pack: "modelos",
-    path: "/modelo-baja-voluntaria",
-    h1: "Carta de baja voluntaria con preaviso de 15 días",
-    title: "Carta de baja voluntaria 15 días: modelo seco, cordial y por email",
-    description:
-      "Modelo de baja voluntaria con preaviso de 15 días en tres tonos (seco, cordial y por email). El plazo lo marca el convenio o el pacto, no un número único del Estatuto.",
-    lead:
-      "La baja voluntaria es una decisión tuya: no hace falta que la empresa la «acepte». El preaviso no es un número único del Estatuto de los Trabajadores: mira el convenio y tu contrato. 15 días naturales es el plazo más habitual cuando no hay otro, y es el que usa esta carta. Tres tonos para copiar: seco, cordial y por email. No somos Administración ni despacho.",
-    cta: { href: BOE_ET_URL, label: "Estatuto de los Trabajadores (BOE)" },
-    secondaryCta: { href: MITES_URL, label: "Ministerio de Trabajo" },
-    disclaimer: DISCLAIMER_MODELOS,
-    related: relatedTrabajo,
-    sections: [
+    "id": "modelo-baja-voluntaria",
+    "pack": "modelos",
+    "path": "/modelo-baja-voluntaria",
+    "h1": "Carta de baja voluntaria: comprobar preaviso y elegir modelo",
+    "title": "Carta de baja voluntaria: comprobar preaviso y elegir modelo",
+    "description": "Tres modelos de baja voluntaria con plazo adaptable. El artículo 49.1.d remite al convenio o costumbre; quince días no es una regla nacional supletoria.",
+    "lead": "Antes de comunicar una baja voluntaria, comprueba el preaviso que exige tu convenio o la costumbre aplicable y revisa las cláusulas válidas del contrato. El Estatuto no establece quince días como plazo universal ni como solución automática cuando el convenio guarda silencio. Las tres cartas permiten completar el plazo que hayas comprobado.",
+    "reviewedAt": "2026-09-16",
+    "cta": {
+      "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "label": "Consultar el Estatuto de los Trabajadores"
+    },
+    "disclaimer": "No somos Administración. Comprueba convenio, contrato, documentos y plazos antes de usar la plantilla. Para decidir una salida o impugnar un cese, solicita asesoramiento laboral sobre tu caso.",
+    "sources": [
       {
-        id: "plazo",
-        title: "El preaviso no es un dogma de 15 días en el ET",
-        paragraphs: [
-          "El artículo 49.1.d del Estatuto de los Trabajadores permite al trabajador dimitir. El preaviso concreto lo fija el convenio colectivo, el contrato o la costumbre del sector. El Estatuto no impone un único plazo nacional de 15 días. Si tu convenio dice 30, usa 30. Si no dice nada y el contrato tampoco, 15 días naturales es la práctica más extendida y el producto de esta página.",
-          "Cuenta el preaviso desde que la empresa recibe el escrito, no desde que lo redactas. Entrégalo con acuse (registro, burofax, email con confirmación de lectura más copia en mano). El último día de trabajo es el que pongas; no dejes que te «acepten» la baja para otro día sin tu consentimiento.",
-        ],
-        lists: [
-          [
-            "Mira el convenio y la cláusula de preaviso del contrato antes de copiar.",
-            "15 días naturales es lo habitual a falta de otro plazo: no lo presentes como mandato único del ET.",
-            "Pide por escrito la liquidación. El certificado de empresa para el SEPE no abre paro tras una baja voluntaria ordinaria.",
-            "Si estás en periodo de prueba, usa la guía específica: allí no hay preaviso legal (art. 14 ET).",
-          ],
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a49",
+        "label": "BOE: dimisión y liquidación"
       },
       {
-        id: "tres-tonos",
-        title: "Tres tonos: seco, cordial y por email",
-        paragraphs: [
-          "El tono no cambia el efecto jurídico. Cambia la relación que dejas. Copia uno, sustituye los corchetes y firma. Conserva una copia con fecha.",
-        ],
-        models: [
-          {
-            id: "seco",
-            title: "Tono seco",
-            body: `[Lugar], [fecha]
-
-A la atención de Dirección / Departamento de Personal
-[Razón social]
-[Dirección]
-
-Asunto: Baja voluntaria con preaviso de 15 días
-
-Por la presente comunico mi decisión de causar baja voluntaria en la empresa, al amparo del artículo 49.1.d del Estatuto de los Trabajadores, con efectos de [fecha del último día de trabajo], dando así un preaviso de 15 días naturales.
-
-Ruego se proceda a la liquidación de haberes, vacaciones no disfrutadas y resto de conceptos, y se me entregue la documentación de fin de contrato.
-
-Atentamente,
-[Nombre y apellidos]
-[DNI/NIE]
-[Firma]`,
-          },
-          {
-            id: "cordial",
-            title: "Tono cordial",
-            body: `[Lugar], [fecha]
-
-Estimados/as [nombre del responsable / equipo de personal]:
-
-Os escribo para comunicaros mi baja voluntaria. El último día de trabajo será el [fecha], con un preaviso de 15 días naturales.
-
-Agradezco el tiempo en [empresa]. Quedo a vuestra disposición estas dos semanas para el traspaso. Os ruego la liquidación y la documentación de cese en el plazo habitual.
-
-Un saludo,
-[Nombre y apellidos]
-[DNI/NIE]
-[Firma]`,
-          },
-          {
-            id: "por-email",
-            title: "Tono por email",
-            body: `Para: [email de personal / dirección]
-Asunto: Baja voluntaria — preaviso 15 días — [Nombre y apellidos]
-
-Hola:
-
-Comunico mi baja voluntaria. Último día de trabajo: [fecha], con 15 días de preaviso.
-
-Quedo para el traspaso. Por favor, enviadme la liquidación y la documentación de fin de contrato.
-
-Gracias,
-[Nombre y apellidos]
-[DNI/NIE]
-[Puesto]`,
-          },
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a3",
+        "label": "BOE: contrato, convenio y derechos indisponibles"
       },
       {
-        id: "despues",
-        title: "Qué pedir el último día (y qué no esperar)",
-        paragraphs: [
-          "Pide el desglose del finiquito antes de firmar. Firma «recibí» no es lo mismo que firmar «saldo y finiquito» como renuncia. Si no estás de acuerdo, firma solo la recepción o añade «no conforme». La baja voluntaria ordinaria no da derecho a prestación por desempleo: el certificado de empresa para el SEPE es otro trámite, pensado sobre todo tras un despido o un fin de contrato.",
-        ],
+        "href": "https://www.sepe.es/HomeSepe/preguntas-frecuentes/detalle-pregunta.html?detail=%2Fpreguntas%2Fprestaciones-por-desempleo%2Fremision-electronica-de-datos-de-trabajadores--CERTIFIC-2-%2Fla-empresa-debe-enviar-el-certificado-de-empresa-al-servicio-publico-de-empleo-estatal-si-la-persona-trabajadora-causa-baja-voluntaria",
+        "label": "SEPE: certificado incluso con baja voluntaria"
       },
+      {
+        "href": "https://sepe.es/HomeSepe/prestaciones-desempleo/situacion-legal-desempleo.html",
+        "label": "SEPE: situación legal de desempleo"
+      }
     ],
+    "related": [
+      {
+        "href": "/baja-periodo-de-prueba",
+        "label": "Salida durante la prueba"
+      },
+      {
+        "href": "/modelo-finiquito",
+        "label": "Pedir liquidación desglosada"
+      },
+      {
+        "href": "/he-firmado-finiquito-puedo-reclamar",
+        "label": "Revisar firma y plazos"
+      },
+      {
+        "href": "/certificado-empresa-sepe",
+        "label": "Certificado de empresa"
+      }
+    ],
+    "sections": [
+      {
+        "id": "plazo",
+        "title": "Determinar el preaviso",
+        "paragraphs": [
+          "El artículo 49.1.d remite a los convenios colectivos o a la costumbre del lugar. El contrato debe respetar la ley y el convenio: una cláusula no es válida solo por estar firmada. Si no identificas el plazo, contrástalo antes de elegir la fecha de efectos.",
+          "Si te corresponde un preaviso de 15 días, comprueba también si se computa en días naturales o hábiles. No uses ese número por defecto. Conserva prueba de la comunicación, su contenido y recepción por la empresa."
+        ]
+      },
+      {
+        "id": "tres-tonos",
+        "title": "Tres tonos: seco, cordial y por email",
+        "paragraphs": [
+          "Completa fechas y plazo antes de firmar. La carta debe expresar tu decisión real: no la uses para documentar como voluntario un cese decidido por la empresa."
+        ],
+        "models": [
+          {
+            "id": "seco",
+            "title": "Tono seco",
+            "body": "[Lugar], [fecha]\nA [empresa / personal]\n\nComunico mi baja voluntaria con efectos de [fecha del último día], conforme al artículo 49.1.d del Estatuto de los Trabajadores.\nPreaviso comprobado: [plazo y norma o base aplicable].\nSolicito liquidación desglosada y la documentación de cese, incluido el envío del certificado de empresa con la causa real.\n\n[Nombre, identificación y firma]"
+          },
+          {
+            "id": "cordial",
+            "title": "Tono cordial",
+            "body": "[Lugar], [fecha]\nEstimado/a [responsable]:\n\nComunico mi decisión de causar baja voluntaria el [fecha], aplicando el preaviso de [plazo comprobado].\nAgradezco la colaboración y propongo coordinar el traspaso hasta esa fecha. Solicito liquidación desglosada y documentación del cese con sus datos reales.\n\n[Nombre, identificación y firma]"
+          },
+          {
+            "id": "por-email",
+            "title": "Tono por email",
+            "body": "Para: [dirección de personal]\nAsunto: Comunicación de baja voluntaria — [nombre]\n\nComunico mi baja voluntaria con efectos de [fecha]. El preaviso aplicado es [plazo y base comprobados].\nRuego confirmar la recepción de esta comunicación y facilitar liquidación y documentación del cese.\n\n[Nombre, identificación y puesto]"
+          }
+        ]
+      },
+      {
+        "id": "despues",
+        "title": "Liquidación y certificado",
+        "paragraphs": [
+          "La baja voluntaria ordinaria no genera situación legal de desempleo por ese cese. La empresa debe enviar el certificado de empresa también en este caso: el documento y el derecho a la prestación son cuestiones distintas.",
+          "Pide el desglose del finiquito y revisa salario, vacaciones y demás conceptos devengados. El artículo 49.2 permite solicitar la presencia de un representante legal de los trabajadores al firmar el recibo. No declares recibido un dinero que aún no has cobrado."
+        ]
+      }
+    ]
   },
   {
-    id: "baja-voluntaria-sin-preaviso",
-    pack: "modelos",
-    path: "/baja-voluntaria-sin-preaviso",
-    h1: "Baja voluntaria sin preaviso: «me descuentan del finiquito»",
-    title: "Baja voluntaria sin preaviso: descuento del finiquito",
-    description:
-      "Si te vas sin preaviso, la empresa puede descontar del finiquito los días no preavisados. Qué es legal, qué no, y un modelo de escrito.",
-    lead:
-      "Te vas ya. La empresa dice que te descuenta del finiquito los días de preaviso que no diste. Eso no es una «multa» inventada: puede ser compensación por el incumplimiento del preaviso del convenio o del contrato. No es automático ni ilimitado. Esta guía explica el descuento y deja un modelo. No somos despacho.",
-    cta: { href: BOE_ET_URL, label: "Estatuto de los Trabajadores (BOE)" },
-    disclaimer: DISCLAIMER_MODELOS,
-    related: relatedTrabajo,
-    sections: [
+    "id": "baja-voluntaria-sin-preaviso",
+    "pack": "modelos",
+    "path": "/baja-voluntaria-sin-preaviso",
+    "h1": "Baja voluntaria sin preaviso: revisar el descuento y pedir el desglose",
+    "title": "Baja voluntaria sin preaviso: revisar el descuento y pedir el desglose",
+    "description": "Comprueba preaviso exigible, fundamento y cálculo de cualquier descuento. Modelo de comunicación inmediata sin aceptar una penalización automática.",
+    "lead": "Salir sin completar el preaviso puede generar una controversia económica, pero el Estatuto no fija un descuento automático de un día de salario por cada día omitido para todos los casos. Comprueba primero el plazo exigible y la regla que la empresa invoca para reclamar o descontar una cantidad.",
+    "reviewedAt": "2026-09-16",
+    "cta": {
+      "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "label": "Consultar el Estatuto de los Trabajadores"
+    },
+    "disclaimer": "No somos Administración. Comprueba convenio, contrato, documentos y plazos antes de usar la plantilla. Para decidir una salida o impugnar un cese, solicita asesoramiento laboral sobre tu caso.",
+    "sources": [
       {
-        id: "descuento",
-        title: "El descuento del finiquito, con nombre",
-        paragraphs: [
-          "Si el convenio o el contrato te obligaban a preavisar y no lo hiciste, la empresa puede reclamar los daños de esa falta de preaviso. En la práctica suele traducirse en un descuento en la liquidación equivalente a los días no preavisados (salario de esos días). No es un cajón libre: tiene que estar anclado en el preaviso que te correspondía, no en un número que se saquen de la manga.",
-          "El Estatuto no fija un descuento automático nacional. Lo que sí existe es la dimisión (art. 49.1.d) y la obligación de preavisar cuando convenio, contrato o costumbre lo imponen. Si estás en periodo de prueba, no hay preaviso legal (art. 14): no te pueden aplicar esta lógica. Si dimites por un incumplimiento grave de la empresa, puede ser extinción causal (art. 50), no una baja voluntaria: otro escrito y otro efecto sobre el paro.",
-        ],
-        lists: [
-          [
-            "Pide el desglose por escrito: qué días descuentan y con qué precepto de convenio o contrato.",
-            "No firmes «saldo y finiquito» si el descuento no te cuadra: «recibí, no conforme».",
-            "El descuento no borra vacaciones no disfrutadas ni pagas extra ya devengadas.",
-            "Baja voluntaria ordinaria: no hay prestación SEPE. El certificado de empresa no abre el paro en este caso.",
-          ],
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a49",
+        "label": "BOE: dimisión y liquidación"
       },
       {
-        id: "modelo",
-        title: "Modelo: me voy sin preaviso y pido el desglose",
-        paragraphs: [
-          "Úsalo si ya no vas a completar los 15 días (o el plazo de tu convenio) y quieres dejar constancia y pedir la liquidación desglosada.",
-        ],
-        models: [
-          {
-            id: "sin-preaviso",
-            title: "Escrito de baja inmediata y petición de liquidación",
-            body: `[Lugar], [fecha]
-
-A la atención de Dirección / Personal
-[Empresa]
-
-Asunto: Baja voluntaria con efectos inmediatos
-
-Comunico mi baja voluntaria con efectos de [fecha de hoy / último día efectivo], al no poder completar el preaviso.
-
-Ruego liquidación desglosada (salario, pagas, vacaciones y, si aplican, descuentos). Si descuentan días de preaviso, indiquen el precepto del convenio o del contrato en el que se apoyan.
-
-No firmaré un saldo y finiquito de renuncia sin ese desglose. Firmaré, en su caso, la recepción de cantidades.
-
-[Nombre y apellidos]
-[DNI/NIE]
-[Firma]`,
-          },
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a3",
+        "label": "BOE: contrato, convenio y derechos indisponibles"
       },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a14",
+        "label": "BOE: periodo de prueba"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a50",
+        "label": "BOE: solicitud de extinción por incumplimiento empresarial"
+      }
     ],
+    "related": [
+      {
+        "href": "/modelo-baja-voluntaria",
+        "label": "Comunicar una baja voluntaria"
+      },
+      {
+        "href": "/baja-periodo-de-prueba",
+        "label": "Salida durante la prueba"
+      },
+      {
+        "href": "/modelo-finiquito",
+        "label": "Pedir liquidación desglosada"
+      },
+      {
+        "href": "/he-firmado-finiquito-puedo-reclamar",
+        "label": "Revisar firma y plazos"
+      },
+      {
+        "href": "/certificado-empresa-sepe",
+        "label": "Certificado de empresa"
+      }
+    ],
+    "sections": [
+      {
+        "id": "descuento",
+        "title": "Separar obligación de preavisar y consecuencia económica",
+        "paragraphs": [
+          "Pide el precepto de convenio, cláusula válida u otra base alegada, el número de días, salario utilizado y operación de cálculo. Que exista obligación de preaviso no demuestra por sí solo que cualquier deducción sea correcta. Compara pagos, devengos y descuentos por separado.",
+          "Una cláusula contractual debe respetar las normas y el convenio. No aceptes un descuento solo porque aparece en el finiquito; tampoco afirmes que toda compensación por falta de preaviso es inválida sin revisar el caso."
+        ]
+      },
+      {
+        "id": "supuesto",
+        "title": "Comprobar por qué termina la relación",
+        "paragraphs": [
+          "Durante un periodo de prueba válido rige el artículo 14; revisa vigencia y condiciones antes de tratar el cese como dimisión ordinaria. La ausencia de preaviso legal general en prueba no permite ignorar sin examen cualquier pacto aplicable.",
+          "Si alegas incumplimiento grave empresarial, la solicitud de extinción del artículo 50 tiene requisitos y cauce propios. No la conviertas en una baja voluntaria inmediata por cambiar el título de la carta. Solicita asesoramiento antes de dejar el puesto por esa causa."
+        ]
+      },
+      {
+        "id": "modelo",
+        "title": "Comunicación inmediata y petición de liquidación",
+        "paragraphs": [
+          "Utiliza el escrito únicamente si has decidido dimitir. Pide confirmación de recepción y conserva copia. Distingue la baja voluntaria ordinaria de un despido o de una extinción judicial."
+        ],
+        "models": [
+          {
+            "id": "sin-preaviso",
+            "title": "Baja inmediata y solicitud de fundamento del descuento",
+            "body": "[Lugar], [fecha]\nA [empresa]\n\nComunico mi baja voluntaria con efectos de [fecha]. No completaré el preaviso de [plazo que corresponda].\nSolicito la liquidación desglosada de salarios, pagas, vacaciones y demás conceptos. Si se aplica un descuento, ruego indicar su fundamento, días, base salarial y cálculo.\nEsta petición no supone conformidad con un descuento no revisado ni declara recibido un importe pendiente de pago.\n\n[Nombre, identificación y firma]"
+          }
+        ]
+      }
+    ]
   },
   {
-    id: "baja-periodo-de-prueba",
-    pack: "modelos",
-    path: "/baja-periodo-de-prueba",
-    h1: "Baja en periodo de prueba: sin preaviso (art. 14 ET)",
-    title: "Baja en periodo de prueba sin preaviso: artículo 14 ET",
-    description:
-      "En periodo de prueba cualquiera de las dos partes puede extinguir el contrato sin preaviso y sin alegar causa, salvo pacto. Modelo de escrito.",
-    lead:
-      "El periodo de prueba tiene una regla propia: en el periodo de prueba el artículo 14 del Estatuto de los Trabajadores permite a cualquiera de las dos partes resolver el contrato sin alegar causa y sin preaviso, salvo que hayáis pactado otra cosa. No es una baja voluntaria de 15 días. Es otra figura. Copia el modelo y mira si tu contrato sí exigía aviso.",
-    cta: { href: BOE_ET_URL, label: "Artículo 14 ET (BOE)" },
-    disclaimer: DISCLAIMER_MODELOS,
-    related: relatedTrabajo,
-    sections: [
+    "id": "baja-periodo-de-prueba",
+    "pack": "modelos",
+    "path": "/baja-periodo-de-prueba",
+    "h1": "Baja durante el periodo de prueba: validez, preaviso y desempleo",
+    "title": "Baja durante el periodo de prueba: validez, preaviso y desempleo",
+    "description": "Comprueba pacto escrito, duración y funciones previas antes de desistir en prueba. Modelo del trabajador y diferencias con el cese decidido por la empresa.",
+    "lead": "El artículo 14 permite resolver la relación durante un periodo de prueba válido. Comprueba que se pactó por escrito, que no ha terminado y que respeta los límites aplicables. El Estatuto no fija para esa resolución un preaviso general; revisa cualquier pacto aplicable antes de comunicar efectos inmediatos.",
+    "reviewedAt": "2026-09-16",
+    "cta": {
+      "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "label": "Consultar el Estatuto de los Trabajadores"
+    },
+    "disclaimer": "No somos Administración. Comprueba convenio, contrato, documentos y plazos antes de usar la plantilla. Para decidir una salida o impugnar un cese, solicita asesoramiento laboral sobre tu caso.",
+    "sources": [
       {
-        id: "art14",
-        title: "Lo que dice el artículo 14 (y lo que no)",
-        paragraphs: [
-          "Durante el periodo de prueba, la empresa o tú podéis extinguir la relación laboral sin necesidad de preaviso y sin motivar la decisión, a no ser que el convenio o el contrato hayan pactado un aviso. El periodo tiene un tope legal (según tipo de contrato y cualificación); si ya se agotó, no estás en prueba: entonces sí aplica el preaviso de una baja ordinaria.",
-          "La empresa tampoco tiene que preavisarte si te «no supera» la prueba, salvo pacto. Si te echan pasado el periodo o el periodo es nulo (no consta por escrito cuando es preceptivo, o se encadena de forma abusiva), ya no es art. 14: puede ser un despido. Esta página no califica tu caso.",
-        ],
-        lists: [
-          [
-            "Sin preaviso legal en periodo de prueba, salvo pacto en contrario (art. 14 ET).",
-            "No uses la carta de 15 días si aún estás en prueba: mezclar figuras lía la liquidación.",
-            "Pide por escrito que te confirmen que el cese se tramita como no superación / desistimiento en prueba.",
-            "Prestación SEPE: el desistimiento en prueba por el trabajador suele tratarse como baja voluntaria a efectos de paro. El despido o la no superación por la empresa es otro supuesto.",
-          ],
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a14",
+        "label": "BOE: pacto y límites del periodo de prueba"
       },
       {
-        id: "modelo",
-        title: "Modelo de escrito (periodo de prueba)",
-        paragraphs: ["Corto a propósito. No prometas 15 días que el art. 14 no te exige."],
-        models: [
-          {
-            id: "prueba",
-            title: "Desistimiento en periodo de prueba",
-            body: `[Lugar], [fecha]
-
-A la atención de Personal
-[Empresa]
-
-Asunto: Extinción del contrato en periodo de prueba (art. 14 ET)
-
-Comunico que desisto del contrato en periodo de prueba, con efectos de [fecha], al amparo del artículo 14 del Estatuto de los Trabajadores. Salvo pacto escrito de preaviso, esta comunicación produce efectos sin plazo de aviso.
-
-Ruego liquidación de los días trabajados y conceptos devengados.
-
-[Nombre y apellidos]
-[DNI/NIE]
-[Firma]`,
-          },
-        ],
+        "href": "https://sepe.es/HomeSepe/prestaciones-desempleo/situacion-legal-desempleo.html",
+        "label": "SEPE: cese empresarial en prueba y empleo anterior"
       },
+      {
+        "href": "https://www.sepe.es/HomeSepe/preguntas-frecuentes/detalle-pregunta.html?detail=%2Fpreguntas%2Fprestaciones-por-desempleo%2Fremision-electronica-de-datos-de-trabajadores--CERTIFIC-2-%2Fla-empresa-debe-enviar-el-certificado-de-empresa-al-servicio-publico-de-empleo-estatal-si-la-persona-trabajadora-causa-baja-voluntaria",
+        "label": "SEPE: certificado tras salida voluntaria"
+      }
     ],
+    "related": [
+      {
+        "href": "/modelo-baja-voluntaria",
+        "label": "Comunicar una baja voluntaria"
+      },
+      {
+        "href": "/modelo-finiquito",
+        "label": "Pedir liquidación desglosada"
+      },
+      {
+        "href": "/he-firmado-finiquito-puedo-reclamar",
+        "label": "Revisar firma y plazos"
+      },
+      {
+        "href": "/certificado-empresa-sepe",
+        "label": "Certificado de empresa"
+      }
+    ],
+    "sections": [
+      {
+        "id": "validez",
+        "title": "Comprobar que realmente sigues en prueba",
+        "paragraphs": [
+          "El pacto es nulo si ya desempeñaste antes las mismas funciones en la empresa bajo cualquier modalidad contractual. La duración depende del convenio y de los límites legales; no basta con que la empresa llame «prueba» a los primeros meses.",
+          "El artículo 14 contempla interrupciones del cómputo por determinadas situaciones si existe acuerdo entre ambas partes. Una baja médica no amplía automáticamente cualquier prueba. Si el periodo ya terminó o el pacto no es válido, revisa la naturaleza real del cese."
+        ]
+      },
+      {
+        "id": "decision",
+        "title": "Quién decide el cese importa",
+        "paragraphs": [
+          "Si desistes tú voluntariamente, no hay prestación por desempleo por ese cese ordinario. No firmes una carta de desistimiento tuyo si quien decide finalizar es la empresa.",
+          "Para el cese en prueba a instancia empresarial, el SEPE exige que la relación anterior terminase en situación legal de desempleo o que hayan transcurrido tres meses desde su extinción, además de los restantes requisitos. No basta con cambiar de empresa después de dimitir para asegurar el paro.",
+          "La resolución empresarial tampoco permite discriminación: el artículo 14 recoge protección por embarazo o maternidad. Esta plantilla está dirigida a la decisión de la persona trabajadora, no a justificar cualquier decisión empresarial."
+        ]
+      },
+      {
+        "id": "modelo",
+        "title": "Modelo del trabajador",
+        "paragraphs": [
+          "Puede producirse sin preaviso legal general, pero completa la fecha después de revisar el pacto y la prueba. Solicita los conceptos devengados y el certificado con causa real."
+        ],
+        "models": [
+          {
+            "id": "prueba",
+            "title": "Desistimiento del trabajador durante una prueba válida",
+            "body": "[Lugar], [fecha]\nA [empresa / personal]\n\nComunico mi decisión de desistir de la relación laboral durante el periodo de prueba pactado por escrito el [fecha], con efectos de [fecha], conforme al artículo 14 del Estatuto de los Trabajadores.\nHe comprobado su vigencia y las condiciones aplicables de aviso: [indicar].\nSolicito liquidación de conceptos devengados y documentación de cese con la causa real.\n\n[Nombre, identificación y firma]"
+          }
+        ]
+      }
+    ]
   },
   {
-    id: "modelo-finiquito",
-    pack: "modelos",
-    path: "/modelo-finiquito",
-    h1: "Solicitud de finiquito: qué pedir y qué no firmar a ciegas",
-    title: "Solicitud de finiquito y saldo y finiquito: modelo",
-    description:
-      "Modelo para pedir el desglose del finiquito. Firmar «saldo y finiquito» no es un trámite cosmética: puede usarse como renuncia. Cómo pedir el papel sin tragar el miedo.",
-    lead:
-      "El miedo de verdad no es la carta de baja: es el papel del último día. «Saldo y finiquito» puede interpretarse como que no vas a reclamar. Puedes pedir el desglose, firmar solo que has recibido el dinero, o anotar «no conforme». Este modelo pide la liquidación. No somos despacho.",
-    cta: { href: BOE_ET_URL, label: "Estatuto de los Trabajadores (BOE)" },
-    disclaimer: DISCLAIMER_MODELOS,
-    related: relatedTrabajo,
-    sections: [
+    "id": "modelo-finiquito",
+    "pack": "modelos",
+    "path": "/modelo-finiquito",
+    "h1": "Solicitar el finiquito: desglose, pago y firma",
+    "title": "Solicitar el finiquito: desglose, pago y firma",
+    "description": "Modelo para pedir liquidación detallada, comprobar cantidades y solicitar presencia de un representante de los trabajadores al firmar.",
+    "lead": "Pide una liquidación desglosada y comprueba qué cantidades se han pagado realmente antes de firmar. El finiquito y una eventual indemnización por extinción son conceptos distintos. La frase «no conforme» no sustituye la revisión del documento ni conserva por sí sola los plazos para reclamar.",
+    "reviewedAt": "2026-09-16",
+    "cta": {
+      "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "label": "Consultar el Estatuto de los Trabajadores"
+    },
+    "disclaimer": "No somos Administración. Comprueba convenio, contrato, documentos y plazos antes de usar la plantilla. Para decidir una salida o impugnar un cese, solicita asesoramiento laboral sobre tu caso.",
+    "sources": [
       {
-        id: "que-es",
-        title: "Finiquito no es un hechizo",
-        paragraphs: [
-          "La liquidación debe incluir salario del mes, pagas extra al prorrateo o pagadas, vacaciones no disfrutadas y otros conceptos devengados. Un descuento de preaviso, si lo hay, tiene que ir desglosado. Firmar que has cobrado no equivale automáticamente a renunciar a horas extra, diferencias salariales o un despido mal etiquetado.",
-          "La doctrina de los tribunales no trata todo «saldo y finiquito» como una transacción cerrada. Aun así, no firmes a ciegas. Si te presionan en la puerta, escribe «recibí cantidades, no conforme» o no firmes el documento de renuncia. Conserva copia.",
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a49",
+        "label": "BOE: dimisión y liquidación"
       },
       {
-        id: "modelo",
-        title: "Modelo de solicitud de liquidación",
-        paragraphs: ["Entrégalo con la baja o en los días siguientes. Pide desglose, no un total opaco."],
-        models: [
-          {
-            id: "solicitud-finiquito",
-            title: "Petición de finiquito desglosado",
-            body: `[Lugar], [fecha]
-
-A la atención de Personal
-[Empresa]
-
-Asunto: Solicitud de liquidación / finiquito desglosado
-
-Tras el cese con efectos de [fecha], ruego me entreguen la liquidación desglosada: salario, pagas, vacaciones no disfrutadas, horas extra si constan, y cualquier descuento (con precepto de convenio o contrato).
-
-Firmaré la recepción de cantidades. No firmaré un saldo y finiquito de renuncia genérica sin ese desglose y sin tiempo para revisarlo.
-
-[Nombre y apellidos]
-[DNI/NIE]
-[Firma]`,
-          },
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a3",
+        "label": "BOE: contrato, convenio y derechos indisponibles"
       },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a59",
+        "label": "BOE: prescripción y caducidad"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936#a65",
+        "label": "BOE: efectos de la conciliación"
+      }
     ],
+    "related": [
+      {
+        "href": "/modelo-baja-voluntaria",
+        "label": "Comunicar una baja voluntaria"
+      },
+      {
+        "href": "/baja-periodo-de-prueba",
+        "label": "Salida durante la prueba"
+      },
+      {
+        "href": "/he-firmado-finiquito-puedo-reclamar",
+        "label": "Revisar firma y plazos"
+      },
+      {
+        "href": "/certificado-empresa-sepe",
+        "label": "Certificado de empresa"
+      }
+    ],
+    "sections": [
+      {
+        "id": "desglose",
+        "title": "Revisar conceptos y evitar duplicidades",
+        "paragraphs": [
+          "Comprueba salarios pendientes, parte devengada de pagas extraordinarias si no está ya abonada o prorrateada, vacaciones pendientes y otros conceptos que correspondan. Pide fundamento y cálculo separado de cada descuento y de cualquier indemnización.",
+          "Distingue importe bruto, deducciones, líquido y pagos ya realizados. No declares cobrado un importe por el mero hecho de recibir una propuesta de liquidación. Guarda nóminas, transferencia y copia del documento."
+        ]
+      },
+      {
+        "id": "firma",
+        "title": "Asistencia y alcance de la firma",
+        "paragraphs": [
+          "El artículo 49.2 permite pedir la presencia de un representante legal de los trabajadores al firmar el recibo del finiquito. Si la empresa impide su presencia, puede hacerse constar en el recibo.",
+          "El artículo 3.5 protege derechos indisponibles, pero no convierte cualquier acuerdo firmado en ineficaz. El alcance depende de su contenido y circunstancias. Expresa las discrepancias concretas y solicita revisión laboral antes de aceptar una transacción o una renuncia cuya consecuencia no comprendes."
+        ]
+      },
+      {
+        "id": "modelo",
+        "title": "Solicitud de liquidación detallada",
+        "paragraphs": [
+          "Esta carta pide información y cantidades. No sustituye conciliación o demanda ni suspende automáticamente un plazo de despido."
+        ],
+        "models": [
+          {
+            "id": "solicitud-finiquito",
+            "title": "Petición de finiquito desglosado",
+            "body": "[Lugar], [fecha]\nA [empresa / personal]\n\nTras el cese con efectos de [fecha], solicito propuesta de liquidación detallada: conceptos, periodos, importes brutos, deducciones, pagos anteriores y líquido pendiente.\nRuego indicar separadamente fundamento y cálculo de descuentos e indemnización, si procede.\n[Si se desea: solicito presencia de un representante legal de los trabajadores al firmar el recibo.]\nEsta solicitud no declara cobrado ningún importe pendiente ni acepta conceptos discutidos.\n\n[Nombre, identificación y firma]"
+          }
+        ]
+      }
+    ]
   },
   {
-    id: "he-firmado-finiquito-puedo-reclamar",
-    pack: "modelos",
-    path: "/he-firmado-finiquito-puedo-reclamar",
-    h1: "He firmado el finiquito: ¿puedo reclamar?",
-    title: "He firmado el saldo y finiquito: cuándo se puede reclamar",
-    description:
-      "Firmar el finiquito no cierra siempre todas las reclamaciones. Plazos, «no conforme» y el escrito previo al SMAC. No es asesoramiento de tu caso.",
-    lead:
-      "Sí se puede reclamar en muchos supuestos, pero no es un botón mágico. Un saldo y finiquito firmado bajo presión, sin desglose o dejando fuera conceptos (horas extra, diferencias, un despido disfrazado de baja) no es el final de la película. El plazo de caducidad de una acción de despido es corto. Esta página no sustituye a un profesional. Deja un modelo de reclamación previa.",
-    cta: { href: BOE_ET_URL, label: "Estatuto de los Trabajadores (BOE)" },
-    disclaimer: DISCLAIMER_MODELOS,
-    related: relatedTrabajo,
-    sections: [
+    "id": "he-firmado-finiquito-puedo-reclamar",
+    "pack": "modelos",
+    "path": "/he-firmado-finiquito-puedo-reclamar",
+    "h1": "He firmado el finiquito: revisar lo firmado y los plazos para reclamar",
+    "title": "He firmado el finiquito: revisar lo firmado y los plazos para reclamar",
+    "description": "Comprueba conceptos, pago y efectos de la firma. Distingue un año para cantidades y veinte días hábiles para despido; conciliación y carta a la empresa.",
+    "lead": "Firmar un finiquito no permite concluir por sí solo que toda reclamación esté cerrada ni que siempre puedas recuperar lo que pidas. Reúne el documento y los pagos y revisa qué se acordó. Si cuestionas un despido, atiende de inmediato al plazo de veinte días hábiles; no esperes una respuesta de la empresa para comprobarlo.",
+    "reviewedAt": "2026-09-16",
+    "cta": {
+      "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "label": "Consultar el Estatuto de los Trabajadores"
+    },
+    "disclaimer": "No somos Administración. Comprueba convenio, contrato, documentos y plazos antes de usar la plantilla. Para decidir una salida o impugnar un cese, solicita asesoramiento laboral sobre tu caso.",
+    "sources": [
       {
-        id: "cuando",
-        title: "Qué suele importar (sin calificar tu caso)",
-        paragraphs: [
-          "Los tribunales miran si había transacción real, si conocías lo que firmabas, si el documento lista conceptos o es una fórmula vacía, y si hay vicio de consentimiento. Un «no conforme» manuscrito ayuda. Un finiquito que no menciona las horas extra no las borra por arte de magia.",
-          "El despido tiene plazo de caducidad de 20 días hábiles desde la extinción (art. 59.3 ET), con papeleta de conciliación (SMAC u órgano autonómico equivalente) que interrumpe. Las cantidades (salarios) tienen plazo de prescripción más largo (un año, art. 59.1). No dejes pasar el corto si lo que discutes es que te echaron.",
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a49",
+        "label": "BOE: dimisión y liquidación"
       },
       {
-        id: "modelo",
-        title: "Modelo: he firmado y reclamo",
-        paragraphs: ["Es un escrito a la empresa, previo a la papeleta. No es la demanda."],
-        models: [
-          {
-            id: "reclamo-finiquito",
-            title: "Reclamación tras firmar finiquito",
-            body: `[Lugar], [fecha]
-
-A [empresa]
-Asunto: Reclamación de cantidades / impugnación de efectos del finiquito
-
-El [fecha] firmé un documento de liquidación. Reclamo [conceptos: diferencias salariales / horas extra / vacaciones / indemnización] por importe de [cantidad] €, que no quedaron saldados de forma consciente y desglosada.
-
-El finiquito no implica renuncia a estos conceptos. Ruego abono o respuesta escrita en 7 días. En caso contrario, formularé papeleta de conciliación.
-
-[Nombre]
-[DNI/NIE]
-[Firma]`,
-          },
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a3",
+        "label": "BOE: contrato, convenio y derechos indisponibles"
       },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a59",
+        "label": "BOE: plazo de cantidades"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936#a103",
+        "label": "BOE: veinte días hábiles para despido"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936#a65",
+        "label": "BOE: suspensión y reanudación por conciliación"
+      }
     ],
+    "related": [
+      {
+        "href": "/modelo-baja-voluntaria",
+        "label": "Comunicar una baja voluntaria"
+      },
+      {
+        "href": "/baja-periodo-de-prueba",
+        "label": "Salida durante la prueba"
+      },
+      {
+        "href": "/modelo-finiquito",
+        "label": "Pedir liquidación desglosada"
+      },
+      {
+        "href": "/certificado-empresa-sepe",
+        "label": "Certificado de empresa"
+      }
+    ],
+    "sections": [
+      {
+        "id": "documentos",
+        "title": "Qué revisar del finiquito",
+        "paragraphs": [
+          "Comprueba conceptos, importes, fecha, pagos y manifestaciones de conformidad o discrepancia. La indisponibilidad de ciertos derechos del artículo 3.5 no elimina automáticamente cualquier acuerdo válido. No afirmes que la firma carece de efectos sin examinar el documento.",
+          "Conserva pruebas de circunstancias que puedan afectar al consentimiento y explica las discrepancias concretas a quien revise tu caso. No haber escrito «no conforme» no resuelve por sí solo la cuestión; haberlo escrito tampoco garantiza ganar la reclamación."
+        ]
+      },
+      {
+        "id": "plazos",
+        "title": "Separar prescripción y caducidad",
+        "paragraphs": [
+          "Para percepciones económicas, el artículo 59.2 cuenta el año desde que cada acción pudo ejercitarse: no desde que decidas revisar el finiquito. Para despido, el artículo 103 de la LRJS establece veinte días hábiles, excluyendo sábados, domingos y festivos en la sede judicial.",
+          "Según el artículo 65 LRJS, presentar conciliación o mediación interrumpe la prescripción y suspende la caducidad. El plazo de despido se reanuda con los días restantes, no con veinte días nuevos, al día siguiente de intentado el acto o de transcurridos quince días hábiles sin celebrarse.",
+          "Los treinta días hábiles del apartado 2 para tener por terminado el trámite no son treinta días de suspensión del plazo de despido. Una carta a la empresa no sustituye la papeleta ni suspende por sí sola esa caducidad. Comprueba el trámite exigible y sus excepciones con asesoramiento laboral."
+        ]
+      },
+      {
+        "id": "modelo",
+        "title": "Reclamación de cantidades a la empresa",
+        "paragraphs": [
+          "Puede documentar la discrepancia; no es requisito para esperar antes de actuar por la vía correspondiente. No incluye un plazo de espera que consuma tu plazo judicial."
+        ],
+        "models": [
+          {
+            "id": "reclamo-finiquito",
+            "title": "Reclamación de conceptos concretos",
+            "body": "[Lugar], [fecha]\nA [empresa]\n\nEl [fecha] firmé el documento de liquidación relativo al cese de [fecha]. Discrepo de [conceptos e importes] por [razones concretas].\nPagos recibidos: [detalle]. Cantidad que reclamo: [importe y cálculo]. Documentos de apoyo: [lista].\nSolicito revisión y abono de la cantidad que corresponda y respuesta escrita. Esta comunicación no implica renuncia a acciones ni sustituye los trámites y plazos legales aplicables.\n\n[Nombre, identificación y firma]"
+          }
+        ]
+      }
+    ]
   },
   {
-    id: "certificado-empresa-sepe",
-    pack: "modelos",
-    path: "/certificado-empresa-sepe",
-    h1: "Certificado de empresa para el SEPE (tras despido, no tras baja voluntaria)",
-    title: "Certificado de empresa SEPE: despido, no baja voluntaria",
-    description:
-      "El certificado de empresa se pide para la prestación por desempleo tras un despido o fin de contrato. La baja voluntaria ordinaria no abre el paro. Modelo de solicitud a la empresa.",
-    lead:
-      "Este papel no es el hermano de la carta de dimisión. El certificado de empresa lo usa el SEPE para la prestación por desempleo cuando el cese es un despido, un fin de contrato, un ERE u otro supuesto legal de paro. Tras una baja voluntaria ordinaria no hay prestación: pedir el certificado «por si acaso» no cambia esa regla. La empresa debe transmitirlo por certific@2. Tú puedes reclamarle copia.",
-    cta: { href: SEPE_URL, label: "Sede SEPE" },
-    secondaryCta: { href: BOE_ET_URL, label: "Estatuto de los Trabajadores (BOE)" },
-    disclaimer: DISCLAIMER_MODELOS,
-    related: relatedTrabajo,
-    sections: [
+    "id": "certificado-empresa-sepe",
+    "pack": "modelos",
+    "path": "/certificado-empresa-sepe",
+    "h1": "Certificado de empresa para el SEPE: también tras baja voluntaria",
+    "title": "Certificado de empresa para el SEPE: también tras baja voluntaria",
+    "description": "La empresa debe enviar el certificado incluso tras una baja voluntaria. Distingue documento y derecho al paro, vacaciones pendientes y falta de documentación.",
+    "lead": "La empresa debe enviar el certificado al SEPE también cuando causas baja voluntaria, aunque no solicites prestación o esta sea denegada. El documento recoge los datos del cese; no concede por sí solo el paro. Tras una baja voluntaria ordinaria no hay prestación por ese cese, mientras que un despido o fin de contrato exige comprobar los demás requisitos.",
+    "reviewedAt": "2026-09-16",
+    "cta": {
+      "href": "https://sede.sepe.gob.es/portalSede/procedimientos-y-servicios/personas/proteccion-por-desempleo/certificados-empresa.html",
+      "label": "Consultar certificados en la sede del SEPE"
+    },
+    "disclaimer": "No somos Administración. Comprueba convenio, contrato, documentos y plazos antes de usar la plantilla. Para decidir una salida o impugnar un cese, solicita asesoramiento laboral sobre tu caso.",
+    "sources": [
       {
-        id: "cuando",
-        title: "Cuándo sí y cuándo no",
-        paragraphs: [
-          "Sí: te han despedido (objetivo, disciplinario, improcedente reconocido), se te acaba el temporal, hay un ERE, o un supuesto específico que la ley trata como situación legal de desempleo. Entonces la empresa envía el certificado al SEPE y tú pides la prestación en la sede electrónica con Cl@ve, en el plazo de 15 días hábiles desde el cese.",
-          "No: te has ido tú con una baja voluntaria ordinaria. El SEPE no te va a reconocer el paro por ese cese. Hay excepciones muy tasadas (traslado que obliga a irse, impago grave que se articula como art. 50, etc.): no las improvises en esta carta. Si tu caso es dimisión, usa las guías de baja; no este certificado como talismán.",
-        ],
-        lists: [
-          [
-            "Tras despido o fin de contrato: sí, certificado de empresa + solicitud de prestación en sede.sepe.gob.es.",
-            "Tras baja voluntaria ordinaria: no hay prestación; este certificado no la abre.",
-            "La empresa lo tramita por certific@2. Si no lo hace, reclama por escrito y al SEPE.",
-            "Plazo típico de solicitud de paro: 15 días hábiles desde el cese.",
-          ],
-        ],
+        "href": "https://www.sepe.es/HomeSepe/preguntas-frecuentes/detalle-pregunta.html?detail=%2Fpreguntas%2Fprestaciones-por-desempleo%2Fremision-electronica-de-datos-de-trabajadores--CERTIFIC-2-%2Fla-empresa-debe-enviar-el-certificado-de-empresa-al-servicio-publico-de-empleo-estatal-si-la-persona-trabajadora-causa-baja-voluntaria",
+        "label": "SEPE: obligación de enviar tras baja voluntaria"
       },
       {
-        id: "modelo",
-        title: "Modelo de solicitud a la empresa (solo si el cese da paro)",
-        paragraphs: ["No lo uses para maquillar una dimisión."],
-        models: [
-          {
-            id: "cert-empresa",
-            title: "Petición de certificado de empresa",
-            body: `[Lugar], [fecha]
-
-A Personal / [empresa]
-
-Asunto: Certificado de empresa para el SEPE
-
-Tras el cese de [fecha] por [despido / fin de contrato / otro supuesto de desempleo], ruego transmitan el certificado de empresa al SEPE por certific@2 y me entreguen copia.
-
-Este escrito no corresponde a una baja voluntaria.
-
-[Nombre]
-[DNI/NIE]
-[Nº SS si lo tienes]
-[Firma]`,
-          },
-        ],
+        "href": "https://sede.sepe.gob.es/portalSede/procedimientos-y-servicios/personas/proteccion-por-desempleo/certificados-empresa.html",
+        "label": "SEPE: consultar certificados enviados"
       },
+      {
+        "href": "https://www.sepe.es/HomeSepe/prestaciones-desempleo/prestacion-contributiva/prestacion-contributiva-mas-de-un-anyo.html",
+        "label": "SEPE: prestación contributiva y vacaciones pendientes"
+      },
+      {
+        "href": "https://www.sepe.es/HomeSepe/es/preguntas-frecuentes/preguntas-frecuentes-prestaciones-desempleo.html",
+        "label": "SEPE: falta de certificado y carencia de documentación"
+      }
     ],
+    "related": [
+      {
+        "href": "/modelo-baja-voluntaria",
+        "label": "Comunicar una baja voluntaria"
+      },
+      {
+        "href": "/baja-periodo-de-prueba",
+        "label": "Salida durante la prueba"
+      },
+      {
+        "href": "/modelo-finiquito",
+        "label": "Pedir liquidación desglosada"
+      },
+      {
+        "href": "/he-firmado-finiquito-puedo-reclamar",
+        "label": "Revisar firma y plazos"
+      }
+    ],
+    "sections": [
+      {
+        "id": "envio",
+        "title": "Envío y datos que debes comprobar",
+        "paragraphs": [
+          "El SEPE establece el envío electrónico por Certific@2 como regla. Si excepcionalmente no es posible, sus preguntas frecuentes contemplan entrega del modelo oficial al trabajador. Comprueba causa y fecha real del cese, cotizaciones y vacaciones retribuidas pendientes.",
+          "Puedes consultar los certificados enviados mediante el servicio oficial. Pide corregir errores, pero no una causa ficticia para obtener una prestación. La carta de esta página solicita documentación, no la concesión del desempleo."
+        ]
+      },
+      {
+        "id": "plazo",
+        "title": "Solicitud de prestación contributiva",
+        "paragraphs": [
+          "Si reúnes los requisitos, el plazo general es de quince días hábiles después del último día trabajado. Cuando se abonan vacaciones no disfrutadas, se cuenta desde que termina el periodo equivalente a esas vacaciones; deben constar en el certificado.",
+          "No esperes indefinidamente a la empresa. Si se niega a entregar documentación o ha desaparecido, el SEPE indica solicitar la prestación acompañando la declaración de carencia de documentación. Consulta su cauce y cumple el plazo aplicable; reclamar el certificado a la empresa no sustituye esa solicitud."
+        ]
+      },
+      {
+        "id": "modelo",
+        "title": "Petición válida también tras dimisión",
+        "paragraphs": [
+          "Indica la causa real, incluida la baja voluntaria cuando proceda. No declares que el certificado garantiza prestación."
+        ],
+        "models": [
+          {
+            "id": "cert-empresa",
+            "title": "Solicitud de envío y copia del certificado",
+            "body": "[Lugar], [fecha]\nA [empresa / personal]\n\nTras el cese de [fecha] por [causa real, incluida baja voluntaria si corresponde], solicito el envío del certificado de empresa al SEPE por el cauce oficial y confirmación de su remisión o copia.\nRuego comprobar fechas, cotizaciones, causa del cese y vacaciones retribuidas no disfrutadas.\nEsta solicitud se refiere a la documentación del cese y no presupone derecho a prestación.\n\n[Nombre, identificación y firma]"
+          }
+        ]
+      }
+    ]
   },
   {
-    id: "modelo-excedencia-voluntaria",
-    pack: "modelos",
-    path: "/modelo-excedencia-voluntaria",
-    h1: "Carta de excedencia voluntaria",
-    title: "Modelo de excedencia voluntaria (art. 46 ET)",
-    description:
-      "Excedencia voluntaria: un año de antigüedad, entre 4 meses y 5 años, reingreso preferente no reserva del mismo puesto. Carta para copiar.",
-    lead:
-      "La excedencia voluntaria (art. 46.2 ET) exige al menos un año de antigüedad. Dura entre cuatro meses y cinco años. No reserva el mismo puesto: hay un derecho preferente de reingreso cuando hay vacante. El convenio puede mejorar esto. Preavisa con el plazo del convenio; 15-30 días es lo habitual.",
-    cta: { href: BOE_ET_URL, label: "Artículo 46 ET (BOE)" },
-    disclaimer: DISCLAIMER_MODELOS,
-    related: relatedTrabajo,
-    sections: [
+    "id": "modelo-excedencia-voluntaria",
+    "pack": "modelos",
+    "path": "/modelo-excedencia-voluntaria",
+    "h1": "Solicitar excedencia voluntaria: requisitos y reingreso",
+    "title": "Solicitar excedencia voluntaria: requisitos y reingreso",
+    "description": "Un año de antigüedad, duración de cuatro meses a cinco años y cuatro años desde el fin de una excedencia anterior. Modelo y límites del reingreso.",
+    "lead": "La excedencia voluntaria ordinaria exige un año de antigüedad y dura entre cuatro meses y cinco años. Para volver a ejercer este derecho deben haber pasado cuatro años desde el final de la anterior excedencia voluntaria. Conservas preferencia de reingreso en vacantes de igual o similar categoría, sin reserva general del mismo puesto.",
+    "reviewedAt": "2026-09-16",
+    "cta": {
+      "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a46",
+      "label": "Consultar artículo 46 del Estatuto"
+    },
+    "disclaimer": "Plantilla orientativa para relaciones laborales sujetas al Estatuto de los Trabajadores. Comprueba el convenio y los hechos del caso. No somos Administración ni presentamos la solicitud por ti.",
+    "sources": [
       {
-        id: "reglas",
-        title: "Reglas que la carta no puede saltarse",
-        paragraphs: [
-          "No es un permiso. No cotizas (salvo convenios especiales). No hay paro por el mero hecho de pedirla. Para volver, solicita el reingreso por escrito antes de que acabe. Si no hay vacante, el derecho preferente sigue; no es un despido automático.",
-        ],
-        models: [
-          {
-            id: "excedencia",
-            title: "Solicitud de excedencia voluntaria",
-            body: `[Lugar], [fecha]
-
-A Personal / [empresa]
-
-Asunto: Excedencia voluntaria (art. 46.2 ET)
-
-Solicito excedencia voluntaria de [duración, entre 4 meses y 5 años], con inicio el [fecha], al cumplir el requisito de un año de antigüedad.
-
-Ruego acuse de recibo. Solicitaré el reingreso por escrito antes del fin del periodo.
-
-[Nombre]
-[DNI/NIE]
-[Firma]`,
-          },
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a46",
+        "label": "BOE: excedencias y reingreso"
       },
+      {
+        "href": "https://www.sepe.es/HomeSepe/es/preguntas-frecuentes/preguntas-frecuentes-prestaciones-desempleo.html",
+        "label": "SEPE: excedencia y desempleo"
+      }
     ],
+    "related": [
+      {
+        "href": "/modelos",
+        "label": "Modelos y cartas"
+      },
+      {
+        "href": "/modelo-reduccion-jornada",
+        "label": "Reducción de jornada"
+      },
+      {
+        "href": "/solicitud-vacaciones",
+        "label": "Vacaciones"
+      },
+      {
+        "href": "/reclamacion-salarios-modelo",
+        "label": "Reclamar salarios"
+      }
+    ],
+    "sections": [
+      {
+        "id": "requisitos",
+        "title": "Comprobar modalidad, fechas y convenio",
+        "paragraphs": [
+          "Esta plantilla se refiere al artículo 46.2, no a la excedencia por cuidado de familiares del apartado 3, que tiene otro régimen. Comprueba antigüedad, duración y, si ya disfrutaste otra, fecha de finalización.",
+          "El artículo 46.2 no fija un preaviso general de quince o treinta días. Revisa el convenio para solicitud y reingreso y pide respuesta escrita. No trates el silencio como autorización automática para dejar de acudir al trabajo."
+        ]
+      },
+      {
+        "id": "reingreso",
+        "title": "Preparar el reingreso y distinguir desempleo",
+        "paragraphs": [
+          "Solicita el reingreso antes de finalizar el periodo y cumple el plazo del convenio aplicable. El artículo 46.5 limita la preferencia a vacantes de igual o similar categoría. Conserva solicitud y respuesta; una falta de vacante y una negativa definitiva del vínculo necesitan valoración distinta.",
+          "La excedencia por sí sola no da derecho al paro. Si trabajas después para otra empresa y cesas, el SEPE distingue la causa del cese, la duración pendiente y la respuesta a la solicitud de reingreso. No deduzcas el derecho a prestación solo de estar en excedencia."
+        ]
+      },
+      {
+        "id": "modelo",
+        "title": "Solicitud con fechas comprobadas",
+        "paragraphs": [
+          "Adapta los campos a la situación real y conserva prueba de entrega."
+        ],
+        "models": [
+          {
+            "id": "excedencia",
+            "title": "Solicitud de excedencia voluntaria",
+            "body": "[Lugar], [fecha]\nA [empresa / Personal]\n\nSolicito excedencia voluntaria del artículo 46.2 ET, desde [inicio] hasta [fin], por [duración entre cuatro meses y cinco años].\nFecha de ingreso en la empresa: [fecha].\n[No he disfrutado excedencia voluntaria anterior / La anterior finalizó el [fecha], hace al menos cuatro años.]\nHe comprobado el preaviso aplicable: [convenio y plazo, si existe].\nSolicito respuesta escrita y conservaré el derecho preferente de reingreso en los términos del artículo 46.5 y del convenio. Solicitaré reingreso antes del fin, con el preaviso aplicable.\n\n[Nombre, identificación y firma]"
+          }
+        ]
+      }
+    ]
   },
   {
-    id: "modelo-reduccion-jornada",
-    pack: "modelos",
-    path: "/modelo-reduccion-jornada",
-    h1: "Reducción de jornada por guarda legal",
-    title: "Modelo de reducción de jornada por guarda legal (art. 37.6 ET)",
-    description:
-      "Guarda legal de menor de 12 años o persona con discapacidad: reducción de jornada con disminución proporcional del salario. Preaviso y concreción horaria.",
-    lead:
-      "El artículo 37.6 del Estatuto reconoce la reducción de jornada por guarda legal de un menor de 12 años (o persona con discapacidad que no trabaje). El salario baja en la misma proporción. Tú propones el horario; la empresa no puede negarlo a capricho, aunque puede haber negociación y, si hay conflicto, el cauce es el del art. 139 LRJS. Preavisa 15 días o el plazo del convenio.",
-    cta: { href: BOE_ET_URL, label: "Artículo 37 ET (BOE)" },
-    disclaimer: DISCLAIMER_MODELOS,
-    related: relatedTrabajo,
-    sections: [
+    "id": "modelo-reduccion-jornada",
+    "pack": "modelos",
+    "path": "/modelo-reduccion-jornada",
+    "h1": "Reducción de jornada por guarda legal: porcentaje y horario",
+    "title": "Reducción de jornada por guarda legal: porcentaje y horario",
+    "description": "Modelo para cuidado directo de menor de doce años o persona con discapacidad sin actividad retribuida. Límites, jornada diaria, fechas y discrepancias.",
+    "lead": "La guarda legal del artículo 37.6 permite reducir la jornada diaria entre un octavo y la mitad, con disminución proporcional del salario, para el cuidado directo de un menor de doce años o de una persona con discapacidad que no desempeñe actividad retribuida. La concreción corresponde a la persona trabajadora dentro de su jornada ordinaria, atendiendo a los criterios del convenio.",
+    "reviewedAt": "2026-09-16",
+    "cta": {
+      "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a37",
+      "label": "Consultar artículo 37 del Estatuto"
+    },
+    "disclaimer": "Plantilla orientativa para relaciones laborales sujetas al Estatuto de los Trabajadores. Comprueba el convenio y los hechos del caso. No somos Administración ni presentamos la solicitud por ti.",
+    "sources": [
       {
-        id: "como",
-        title: "Qué tiene que decir el escrito",
-        paragraphs: [
-          "Identifica al menor o la persona a cargo, el porcentaje de reducción y el horario concreto. Adjunta libro de familia o certificado. No es un favor: es un derecho. El convenio puede concretar el preaviso.",
-        ],
-        models: [
-          {
-            id: "guarda",
-            title: "Solicitud de reducción por guarda legal",
-            body: `[Lugar], [fecha]
-
-A Personal / [empresa]
-
-Asunto: Reducción de jornada por guarda legal (art. 37.6 ET)
-
-Solicito reducción de jornada del [porcentaje] % por guarda legal de [nombre del menor / persona], nacido/a el [fecha], con concreción horaria de [días y horas].
-
-Fecha de efectos: [fecha, respetando el preaviso del convenio o 15 días].
-Adjunto [libro de familia / certificado].
-
-[Nombre]
-[DNI/NIE]
-[Firma]`,
-          },
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a37",
+        "label": "BOE: guarda legal y preaviso"
       },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a34",
+        "label": "BOE: adaptación de jornada"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936#a139",
+        "label": "BOE: discrepancias de conciliación"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936#a64",
+        "label": "BOE: excepción de conciliación previa"
+      }
     ],
+    "related": [
+      {
+        "href": "/modelos",
+        "label": "Modelos y cartas"
+      },
+      {
+        "href": "/solicitud-vacaciones",
+        "label": "Vacaciones"
+      },
+      {
+        "href": "/reclamacion-salarios-modelo",
+        "label": "Reclamar salarios"
+      }
+    ],
+    "sections": [
+      {
+        "id": "alcance",
+        "title": "Precisar porcentaje y modalidad",
+        "paragraphs": [
+          "En este supuesto ordinario, un octavo equivale al 12,5 % y la mitad al 50 %. Indica jornada diaria actual, reducción y horario resultante. No confundas esta reducción con la adaptación de jornada del artículo 34.8 ni con las reducciones especiales por enfermedad grave, que tienen condiciones diferentes.",
+          "El artículo 37.6 también contempla otros cuidados con sus propios requisitos. Si dos personas de la misma empresa solicitan por el mismo sujeto causante, una limitación simultánea exige razones objetivas motivadas por escrito y un plan alternativo en los términos legales."
+        ]
+      },
+      {
+        "id": "aviso",
+        "title": "Fechas, documentación y respuesta",
+        "paragraphs": [
+          "Salvo fuerza mayor, preavisa quince días o el plazo del convenio, indicando inicio y finalización. Aporta documentación que acredite la guarda y el cuidado, según el supuesto; no hay un único justificante válido para todos.",
+          "Ante negativa o disconformidad empresarial, el artículo 139 LRJS establece veinte días desde su comunicación para presentar demanda. El proceso está exceptuado de conciliación o mediación previa obligatoria por el artículo 64. No consumas el plazo esperando una negociación indefinida; revisa su cómputo y cauce."
+        ]
+      },
+      {
+        "id": "modelo",
+        "title": "Solicitud de guarda legal",
+        "paragraphs": [
+          "Completa también la fecha de fin y comprueba el porcentaje."
+        ],
+        "models": [
+          {
+            "id": "guarda",
+            "title": "Solicitud de reducción por guarda legal",
+            "body": "[Lugar], [fecha]\nA [empresa / Personal]\n\nSolicito reducción de mi jornada diaria por guarda legal y cuidado directo de [menor de doce años / persona con discapacidad sin actividad retribuida], conforme al artículo 37.6 ET.\nJornada actual: [días y horas]. Reducción: [porcentaje entre 12,5 % y 50 %], con disminución proporcional del salario. Horario resultante dentro de mi jornada ordinaria: [detalle].\nInicio: [fecha]. Finalización: [fecha]. Preaviso aplicado: [quince días o plazo del convenio; si hay fuerza mayor, describir].\nAcredito el supuesto mediante [documentación]. Solicito respuesta escrita sobre cualquier discrepancia.\n\n[Nombre, identificación y firma]"
+          }
+        ]
+      }
+    ]
   },
   {
-    id: "solicitud-vacaciones",
-    pack: "modelos",
-    path: "/solicitud-vacaciones",
-    h1: "Solicitud de vacaciones por escrito",
-    title: "Modelo de solicitud de vacaciones (art. 38 ET)",
-    description:
-      "Las vacaciones se conocen con dos meses de antelación. Un escrito evita el «ya te diré». Modelo corto para convenio y calendario.",
-    lead:
-      "El artículo 38 ET dice que el periodo se fija de común acuerdo y que el calendario de vacaciones se conoce al menos con dos meses de antelación. Un email no es burocracia inútil: deja fecha, días y acuse. El convenio manda sobre turnos y puentes. No hay un modelo ministerial.",
-    cta: { href: BOE_ET_URL, label: "Artículo 38 ET (BOE)" },
-    disclaimer: DISCLAIMER_MODELOS,
-    related: relatedTrabajo,
-    sections: [
+    "id": "solicitud-vacaciones",
+    "pack": "modelos",
+    "path": "/solicitud-vacaciones",
+    "h1": "Solicitar vacaciones: fechas, acuerdo y situaciones de incapacidad",
+    "title": "Solicitar vacaciones: fechas, acuerdo y situaciones de incapacidad",
+    "description": "Modelo para pedir vacaciones. Conocer fechas con dos meses de antelación, excepciones al año natural y cauce judicial si no hay acuerdo.",
+    "lead": "Las fechas se fijan de común acuerdo, conforme a la planificación del convenio, y debes conocer las que te correspondan al menos dos meses antes del disfrute. Ese plazo no es una regla nacional que obligue a presentar cualquier solicitud con dos meses de antelación. Comprueba el procedimiento de tu empresa y convenio.",
+    "reviewedAt": "2026-09-16",
+    "cta": {
+      "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a38",
+      "label": "Consultar artículo 38 del Estatuto"
+    },
+    "disclaimer": "Plantilla orientativa para relaciones laborales sujetas al Estatuto de los Trabajadores. Comprueba el convenio y los hechos del caso. No somos Administración ni presentamos la solicitud por ti.",
+    "sources": [
       {
-        id: "modelo",
-        title: "Modelo",
-        paragraphs: [
-          "Si te las niegan, pide la razón por escrito. No «compensarlas» en dinero salvo fin de contrato. El año natural y el convenio marcan cuándo caducan.",
-        ],
-        models: [
-          {
-            id: "vacaciones",
-            title: "Solicitud de vacaciones",
-            body: `[Lugar], [fecha]
-
-A [responsable / Personal]
-
-Asunto: Solicitud de vacaciones
-
-Solicito vacaciones del [fecha inicio] al [fecha fin], ambos inclusive ([n] días laborables / naturales según convenio).
-
-Ruego confirmación escrita.
-
-[Nombre]
-[DNI/NIE]
-[Firma]`,
-          },
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a38",
+        "label": "BOE: vacaciones anuales y coincidencias"
       },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936#a125",
+        "label": "BOE: fijación judicial de vacaciones"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936#a64",
+        "label": "BOE: excepción de conciliación previa"
+      }
     ],
+    "related": [
+      {
+        "href": "/modelos",
+        "label": "Modelos y cartas"
+      },
+      {
+        "href": "/modelo-reduccion-jornada",
+        "label": "Reducción de jornada"
+      },
+      {
+        "href": "/reclamacion-salarios-modelo",
+        "label": "Reclamar salarios"
+      }
+    ],
+    "sections": [
+      {
+        "id": "fechas",
+        "title": "Duración y confirmación",
+        "paragraphs": [
+          "El mínimo anual es de treinta días naturales. Comprueba el periodo devengado y cómo expresa el convenio los días antes de calcular tu solicitud; no equipares automáticamente días naturales y laborables. Pide confirmación y conserva el calendario.",
+          "La solicitud no equivale por sí sola a acuerdo sobre fechas. El artículo 38 impide sustituir el disfrute por dinero durante la relación laboral; al extinguirse, la liquidación de vacaciones pendientes requiere su cálculo específico."
+        ]
+      },
+      {
+        "id": "coincidencias",
+        "title": "Cuando coincide con incapacidad o suspensión",
+        "paragraphs": [
+          "No afirmes que toda vacación pendiente caduca automáticamente el 31 de diciembre. Si coincide con incapacidad derivada de embarazo, parto o lactancia natural, o con las suspensiones de los apartados 4, 5 y 7 del artículo 48, el artículo 38.3 permite disfrutarla en otra fecha al finalizar la suspensión aunque termine el año.",
+          "Para otras incapacidades temporales que impidan disfrutarla en el año correspondiente, se permite hacerlo al finalizar la incapacidad siempre que no hayan pasado más de dieciocho meses desde el final del año en que se originó. Revisa la causa y el periodo concreto; no apliques ese límite a todos los supuestos."
+        ]
+      },
+      {
+        "id": "conflicto",
+        "title": "Si no hay acuerdo",
+        "paragraphs": [
+          "El artículo 125 LRJS distingue: si la fecha ya está fijada en los supuestos legales, veinte días desde que la conozcas para demandar; si no está señalada, la demanda debe presentarse al menos dos meses antes del disfrute pretendido. Es un plazo procesal distinto del aviso del calendario.",
+          "El disfrute de vacaciones está exceptuado de conciliación previa obligatoria por el artículo 64 LRJS. Consulta la vía correspondiente a tiempo en lugar de esperar una respuesta indefinida."
+        ]
+      },
+      {
+        "id": "modelo",
+        "title": "Solicitud de fechas",
+        "paragraphs": [
+          "Indica el sistema de cómputo aplicable."
+        ],
+        "models": [
+          {
+            "id": "vacaciones",
+            "title": "Solicitud de vacaciones",
+            "body": "[Lugar], [fecha]\nA [empresa / Personal]\n\nSolicito vacaciones desde [inicio] hasta [fin], ambos inclusive, por [número de días y si son naturales o laborables según convenio], correspondientes al periodo [año / devengo].\nLa propuesta tiene en cuenta [calendario y convenio aplicables].\n[Si procede: solicito nueva fecha por coincidencia con [situación del artículo 38.3], del [inicio] al [fin], con documentación justificativa.]\nSolicito confirmación escrita de las fechas acordadas.\n\n[Nombre, identificación y firma]"
+          }
+        ]
+      }
+    ]
   },
   {
-    id: "reclamacion-salarios-modelo",
-    pack: "modelos",
-    path: "/reclamacion-salarios-modelo",
-    h1: "Reclamación de salarios atrasados (previa al SMAC)",
-    title: "Modelo de reclamación de salarios antes del SMAC",
-    description:
-      "Escrito a la empresa reclamando salarios. Es el paso previo razonable a la papeleta de conciliación (SMAC u órgano autonómico). No es la demanda.",
-    lead:
-      "Antes de la papeleta de conciliación, deja rastro: un escrito con cantidades, meses y plazo de pago. El SMAC (o el órgano de tu comunidad) es el paso previo a demanda, no un producto que vendamos. Prescripción típica: un año (art. 59.1 ET). No somos el servicio de conciliación.",
-    cta: { href: MITES_URL, label: "Ministerio de Trabajo" },
-    secondaryCta: { href: BOE_ET_URL, label: "Artículo 59 ET (BOE)" },
-    disclaimer: DISCLAIMER_MODELOS,
-    related: relatedTrabajo,
-    sections: [
+    "id": "reclamacion-salarios-modelo",
+    "pack": "modelos",
+    "path": "/reclamacion-salarios-modelo",
+    "h1": "Reclamar salarios pendientes: desglose y prescripción",
+    "title": "Reclamar salarios pendientes: desglose y prescripción",
+    "description": "Modelo de reclamación de salarios. Un año desde que cada cantidad pudo exigirse; carta, conciliación y demanda tienen funciones distintas.",
+    "lead": "Detalla los salarios pendientes por periodos, conceptos y pagos recibidos. El artículo 59.2 cuenta el año desde que cada cantidad pudo reclamarse, no desde el fin del contrato. La carta a la empresa puede acreditar una reclamación extrajudicial; no es un requisito general que obligue a esperar diez días antes de acudir al cauce competente.",
+    "reviewedAt": "2026-09-16",
+    "cta": {
+      "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a59",
+      "label": "Consultar artículo 59 del Estatuto"
+    },
+    "disclaimer": "Plantilla orientativa para relaciones laborales sujetas al Estatuto de los Trabajadores. Comprueba el convenio y los hechos del caso. No somos Administración ni presentamos la solicitud por ti.",
+    "sources": [
       {
-        id: "previo",
-        title: "Para qué sirve este papel",
-        paragraphs: [
-          "Sirve para que no digan que no reclamaste. Detalla mes a mes. Si hay pluses o horas extra, sepáralos. Da un plazo corto (7-10 días). Si no pagan, la papeleta de conciliación se presenta en el organismo de tu comunidad (SMAC, CMAC, UMAC…): busca la sede autonómica, no un gestor.",
-        ],
-        models: [
-          {
-            id: "salarios",
-            title: "Reclamación previa de salarios",
-            body: `[Lugar], [fecha]
-
-A [empresa]
-
-Asunto: Reclamación de salarios atrasados
-
-Reclamo [importe] € en concepto de salarios de [meses], según el siguiente desglose:
-- [mes]: [importe] €
-- [mes]: [importe] €
-
-Ruego ingreso en [IBAN] en 10 días. En caso contrario, presentaré papeleta de conciliación.
-
-[Nombre]
-[DNI/NIE]
-[Firma]`,
-          },
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a59",
+        "label": "BOE: prescripción de cantidades"
       },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a29",
+        "label": "BOE: pago del salario"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763#art1973",
+        "label": "BOE: interrupción por reclamación extrajudicial"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936#a63",
+        "label": "BOE: conciliación o mediación previa"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936#a64",
+        "label": "BOE: excepciones"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936#a65",
+        "label": "BOE: efectos sobre los plazos"
+      }
     ],
+    "related": [
+      {
+        "href": "/modelos",
+        "label": "Modelos y cartas"
+      },
+      {
+        "href": "/modelo-reduccion-jornada",
+        "label": "Reducción de jornada"
+      },
+      {
+        "href": "/solicitud-vacaciones",
+        "label": "Vacaciones"
+      }
+    ],
+    "sections": [
+      {
+        "id": "cantidades",
+        "title": "Dejar una reclamación comprobable",
+        "paragraphs": [
+          "Separa salario base, complementos, horas extraordinarias y pagos parciales; indica periodos, vencimientos, cantidades y documentos. Conserva nóminas, justificantes y prueba del contenido y recepción de la reclamación.",
+          "El artículo 1973 del Código Civil contempla interrupción de la prescripción por reclamación extrajudicial. Su eficacia exige poder acreditar una reclamación concreta; no des por conservado el plazo por redactar o guardar una carta sin comunicarla."
+        ]
+      },
+      {
+        "id": "cauce",
+        "title": "No confundir carta, conciliación y demanda",
+        "paragraphs": [
+          "Con carácter general se exige intento de conciliación o mediación antes del proceso laboral, con las excepciones del artículo 64 LRJS. El organismo y canal dependen del territorio; esta plantilla no es su papeleta oficial. La presentación de la solicitud de conciliación interrumpe la prescripción según el artículo 65.",
+          "No hay aquí un plazo obligatorio de siete o diez días para esperar a la empresa. Si además discutes un despido, tiene un plazo distinto y la reclamación salarial no lo sustituye. Revisa cada acción antes de dejar pasar días."
+        ]
+      },
+      {
+        "id": "modelo",
+        "title": "Reclamación de cantidades concretas",
+        "paragraphs": [
+          "Completa el desglose sin declarar pagos que no has recibido."
+        ],
+        "models": [
+          {
+            "id": "salarios",
+            "title": "Reclamación de salarios pendientes",
+            "body": "[Lugar], [fecha]\nA [empresa]\n\nReclamo [importe] por salarios pendientes:\n- [periodo, concepto, vencimiento e importe].\n- [periodo, concepto, vencimiento e importe].\nPagos parciales recibidos: [detalle]. Total pendiente: [importe]. Documentos de apoyo: [relación].\nSolicito el abono de la cantidad que corresponda y respuesta escrita. Esta comunicación no implica renuncia a acciones ni sustituye los trámites y plazos legales aplicables.\n\n[Nombre, identificación y firma]"
+          }
+        ]
+      }
+    ]
   },
   {
-    id: "solicitud-permiso-retribuido",
-    pack: "modelos",
-    path: "/solicitud-permiso-retribuido",
-    h1: "Solicitud de permiso retribuido o días de asuntos propios",
-    title: "Modelo de permiso retribuido y asuntos propios según convenio",
-    description:
-      "Permisos del artículo 37 ET (matrimonio, fallecimiento, mudanza…) y asuntos propios si el convenio los crea. El Estatuto no inventa «asuntos propios» universales.",
-    lead:
-      "El artículo 37 ET lista permisos retribuidos tasados (matrimonio, accidente de familiar, mudanza, deber inexcusable…). Los «días de asuntos propios» no son un derecho estatal genérico: salen del convenio. Lee el tuyo antes de copiar. Adjunta el justificante que pida el convenio.",
-    cta: { href: BOE_ET_URL, label: "Artículo 37 ET (BOE)" },
-    disclaimer: DISCLAIMER_MODELOS,
-    related: relatedTrabajo,
-    sections: [
+    "id": "solicitud-permiso-retribuido",
+    "pack": "modelos",
+    "path": "/solicitud-permiso-retribuido",
+    "h1": "Solicitar permiso retribuido o asuntos propios con causa acreditada",
+    "title": "Solicitar permiso retribuido o asuntos propios con causa acreditada",
+    "description": "Modelo adaptable a un permiso del Estatuto o del convenio y a asuntos propios reconocidos por convenio o pacto. Causa, duración y aviso.",
+    "lead": "Para usar un permiso retribuido, identifica la causa y sus requisitos, la duración y la norma o pacto aplicable. El artículo 37.3 regula varios permisos con aviso y justificación. Los asuntos propios no son un derecho general creado por ese artículo: comprueba si los reconoce el convenio o un pacto aplicable y en qué condiciones.",
+    "reviewedAt": "2026-09-16",
+    "cta": {
+      "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a37",
+      "label": "Consultar artículo 37 del Estatuto"
+    },
+    "disclaimer": "Plantilla orientativa para relaciones laborales sujetas al Estatuto de los Trabajadores. Comprueba el convenio y los hechos del caso. No somos Administración ni presentamos la solicitud por ti.",
+    "sources": [
       {
-        id: "modelo",
-        title: "Modelo",
-        paragraphs: [
-          "Indica el precepto (art. 37.3 ET o artículo del convenio). Si son asuntos propios, cita el convenio. Un permiso no es vacaciones.",
-        ],
-        models: [
-          {
-            id: "permiso",
-            title: "Solicitud de permiso",
-            body: `[Lugar], [fecha]
-
-A Personal / [empresa]
-
-Asunto: Permiso retribuido / asuntos propios
-
-Solicito permiso el/los día(s) [fechas] por [causa: matrimonio / fallecimiento / mudanza / deber público / asuntos propios del convenio art. X], al amparo de [art. 37 ET / convenio].
-
-Adjunto [justificante].
-
-[Nombre]
-[DNI/NIE]
-[Firma]`,
-          },
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a37",
+        "label": "BOE: permisos y fuerza mayor familiar"
       },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a3",
+        "label": "BOE: fuentes de la relación laboral"
+      }
     ],
+    "related": [
+      {
+        "href": "/modelos",
+        "label": "Modelos y cartas"
+      },
+      {
+        "href": "/modelo-reduccion-jornada",
+        "label": "Reducción de jornada"
+      },
+      {
+        "href": "/solicitud-vacaciones",
+        "label": "Vacaciones"
+      },
+      {
+        "href": "/reclamacion-salarios-modelo",
+        "label": "Reclamar salarios"
+      }
+    ],
+    "sections": [
+      {
+        "id": "causa",
+        "title": "Elegir el permiso correcto",
+        "paragraphs": [
+          "No basta con escribir «accidente de familiar»: hay que comprobar gravedad, hospitalización u otra circunstancia exigida por la letra correspondiente, vínculo y demás requisitos. Traslado de domicilio habitual, fallecimiento y matrimonio o registro de pareja tienen supuestos y duraciones distintos.",
+          "La fuerza mayor por motivos familiares urgentes del artículo 37.9 tiene un régimen específico; no exige que una emergencia se haya previsto con antelación. Comunica lo sucedido y aporta acreditación cuando corresponda. No la confundas con asuntos propios de libre disposición."
+        ]
+      },
+      {
+        "id": "justificacion",
+        "title": "Indicar fechas y fundamento",
+        "paragraphs": [
+          "Comprueba días u horas que corresponden, cómputo y justificante conforme al supuesto y convenio. No presupongas que todos los permisos tienen igual duración o se cuentan de la misma forma. Para asuntos propios, cita la cláusula que los reconoce y si son retribuidos.",
+          "Esta plantilla se dirige a personal laboral sujeto al Estatuto. El régimen funcionarial requiere consultar su normativa específica; la carta no acredita por sí sola que un permiso esté concedido."
+        ]
+      },
+      {
+        "id": "modelo",
+        "title": "Comunicación o solicitud del permiso",
+        "paragraphs": [
+          "Adapta la redacción al tipo de permiso y a las condiciones comprobadas."
+        ],
+        "models": [
+          {
+            "id": "permiso",
+            "title": "Permiso con causa y fechas",
+            "body": "[Lugar], [fecha]\nA [empresa / Personal]\n\nComunico / solicito [permiso retribuido / asuntos propios reconocidos por convenio o pacto] por [causa concreta y circunstancias].\nFundamento: [apartado legal o cláusula aplicable].\nFechas y duración: [días u horas y cómputo aplicado].\nJustificación: [documentación que acredita el supuesto / explicación de la urgencia y documentación que se aportará cuando proceda].\nSolicito acuse de recibo y respuesta sobre cualquier discrepancia en el encuadre o las fechas.\n\n[Nombre, identificación y firma]"
+          }
+        ]
+      }
+    ]
   },
+
 ];

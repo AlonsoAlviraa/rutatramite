@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { PackIndex } from "@/components/tramites/PackIndex";
+import { PACK_DOCUMENT_HEADINGS, PackIndex } from "@/components/tramites/PackIndex";
 import { pageMetadata } from "@/lib/seo/meta";
 
 export const metadata: Metadata = pageMetadata({
-  title: "DNI 2026: cita previa, renovar, tasas 12 € y MiDNI",
-  description: "Cita DNI en citapreviadnie.es. Cita gratuita. Tasa 12 €. Pasaporte 30 €. No somos Policía.",
+  title: PACK_DOCUMENT_HEADINGS.viaje,
+  description: "Renovar el DNI cuesta 12 € y el pasaporte 30 €, salvo exención. Casos gratuitos, cómo pagar y qué documentos preparar antes de pedir la cita oficial, que es gratuita.",
   path: "/dni",
   keywords: [],
 });

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "bono-aragon-2025", "territory": "Aragón", "territorySlug": "aragon", "name": "Bono Alquiler Joven de Aragón: convocatoria 2025", "phase": "cerrada", "checkedAt": "2026-09-14",
+    "deadline": "La convocatoria revisada admitió solicitudes del 8 de julio al 20 de agosto de 2025; cierre a las 14:00.",
+    "summary": "Referencia FOM/668/2025. Su revisión no acredita una nueva apertura en 2026. Crear el formulario no sustituye su firma y registro.",
+    "source": { "href": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1399791170909", "label": "Aragón: Orden FOM/668/2025 en el BOA" }
+  },
+  {
+    "id": "bono-asturias-enero-2026", "territory": "Principado de Asturias", "territorySlug": "principado-de-asturias", "name": "Bono Alquiler Joven de Asturias: convocatoria de enero de 2026", "phase": "cerrada", "checkedAt": "2026-09-14",
+    "deadline": "Solicitudes del 20 de enero al 19 de febrero de 2026, según la convocatoria de enero.",
+    "summary": "La ficha conserva la denominación de convocatoria 2025 y recoge la resolución de enero de 2026. El periodo de solicitud ya terminó; comprueba el expediente y los meses subvencionables.",
+    "source": { "href": "https://miprincipado.asturias.es/ast/-/dboid-6269000325334571907573", "label": "Asturias: ficha del Bono Alquiler Joven" }
+  },
+  {
+    "id": "bono-baleares-2026", "territory": "Illes Balears", "territorySlug": "illes-balears", "name": "Bono Alquiler Joven de Baleares 2026-2027", "phase": "solicitud", "checkedAt": "2026-09-14", "opensOn": "2026-09-01", "closesOn": "2026-09-30",
+    "deadline": "Del 1 al 30 de septiembre de 2026. Consulta la sede para la hora límite de registro.",
+    "summary": "Convocatoria para 2026 y 2027. Los periodos posteriores para aportar recibos no son otra apertura de solicitudes. Revisa contrato, padrón, ingresos y acreditación bancaria.",
+    "source": { "href": "https://www.caib.es/seucaib/es/200/personas/tramites/tramite/6513013", "label": "Baleares: solicitud del Bono 2026-2027" }
+  },
+  {
+    "id": "bono-canarias-2025", "territory": "Canarias", "territorySlug": "canarias", "name": "Bono Alquiler Joven de Canarias: convocatoria 2025", "phase": "cerrada", "checkedAt": "2026-09-14",
+    "deadline": "Solicitud cerrada: del 29 de septiembre al 17 de octubre de 2025, a las 23:59, hora canaria.",
+    "summary": "El procedimiento 7410 conserva la convocatoria 2025. La aportación de documentación y el abono de ayudas durante 2026 corresponden al seguimiento; no acreditan una nueva solicitud abierta.",
+    "source": { "href": "https://sede.gobiernodecanarias.org/sede/tramites/7410", "label": "Canarias: procedimiento 7410" }
+  },
+  {
+    "id": "bono-cantabria-2025", "territory": "Cantabria", "territorySlug": "cantabria", "name": "Bono Alquiler Joven de Cantabria: segunda convocatoria", "phase": "cerrada", "checkedAt": "2026-09-16",
+    "deadline": "Convocatoria cerrada. La Orden FOM/12/2025 fija del 26 de mayo al 28 de julio de 2025; el campo de cierre de la ficha oficial muestra el 29 de julio.",
+    "summary": "La ficha contiene las dos fechas de cierre. Si necesitas acreditar la presentación en el último día, consulta el cómputo aplicable al órgano gestor y conserva el registro. Los periodos para entregar recibos son de justificación; esta ficha no acredita una apertura nueva de 2026.",
+    "source": { "href": "https://sede.cantabria.es/sede/catalogo-de-tramites/convocatoria/2-convocatoria-bono-alquiler-joven-orden-fom-7-2025-real-decreto-42-2022/2328/pdf/febe5f2bc23678f1a0532eb4be89b88eb55ec80b788fe8eaef510c5e73d36e5a", "label": "Cantabria: ficha oficial de la segunda convocatoria (PDF)" }
+  },
+  {
+    "id": "bono-castilla-la-mancha-2025", "territory": "Castilla-La Mancha", "territorySlug": "castilla-la-mancha", "name": "Bono Alquiler Joven de Castilla-La Mancha: convocatoria 2025", "phase": "cerrada", "checkedAt": "2026-09-14",
+    "deadline": "Solicitud del 10 de diciembre de 2025 al 16 de febrero de 2026, ya finalizada.",
+    "summary": "La convocatoria se refiere a rentas de 2025. Revisa los avisos del expediente si ya solicitaste; el año en que se presentan documentos no cambia los meses de alquiler subvencionables.",
+    "source": { "href": "https://vivienda.castillalamancha.es/ayudas-y-subvenciones/ayudas-al-alquiler/ayudas-bono-alquiler-joven-convocatoria-2025", "label": "Castilla-La Mancha: convocatoria del Bono 2025" }
+  },
+  {
+    "id": "alquiler-castilla-leon-2025", "territory": "Castilla y León", "territorySlug": "castilla-y-leon", "name": "Ayudas al alquiler de Castilla y León 2025, incluido tramo joven", "phase": "cerrada", "checkedAt": "2026-09-14",
+    "deadline": "Solicitudes del 1 de diciembre de 2025 al 30 de enero de 2026, ya finalizadas.",
+    "summary": "Ayuda general al alquiler con condiciones para jóvenes; es distinta del Bono Alquiler Joven. Cubre rentas de 2025 y no acredita una convocatoria del Bono abierta en 2026.",
+    "source": { "href": "https://www.tramitacastillayleon.jcyl.es/web/jcyl/AdministracionElectronica/es/Plantilla100Detalle/1251181050732/Ayuda012/1285570689448/Propuesta", "label": "Castilla y León: ayudas al alquiler 2025" }
+  },
+  {
+    "id": "bono-valenciana-2026", "territory": "Comunitat Valenciana", "territorySlug": "comunidad-valenciana", "name": "Bono Alquiler Joven de la Comunitat Valenciana 2026", "phase": "cerrada", "checkedAt": "2026-09-14", "opensOn": "2026-08-24", "closesOn": "2026-09-11",
+    "deadline": "Solicitudes del 24 de agosto al 11 de septiembre de 2026, ambos incluidos; plazo terminado.",
+    "summary": "Convocatoria 2026, procedimiento G110699. La corrección publicada el 31 de agosto cambia a enero de 2025 la referencia inicial de los recibos; consulta el texto corregido y el seguimiento del expediente.",
+    "source": { "href": "https://habitatge.gva.es/es/web/vivienda-y-calidad-en-la-edificacion/bono-lloguer-jove-2026/bases-i-convocatoria", "label": "Generalitat Valenciana: bases, convocatoria 2026 y corrección" }
+  },
+  {
+    "id": "bono-extremadura-2026", "territory": "Extremadura", "territorySlug": "extremadura", "name": "Bono Alquiler Joven de Extremadura 2026-2027", "phase": "cerrada", "checkedAt": "2026-09-14", "opensOn": "2026-07-15", "closesOn": "2026-08-28",
+    "deadline": "Cierre anticipado el 28 de agosto de 2026. La fecha inicial del 15 de octubre ya no es válida para solicitar.",
+    "summary": "La ficha 6073 actualiza el plazo de la convocatoria 2026-2027. Si ya presentaste, utiliza las acciones de tu expediente y atiende los requerimientos de la Junta.",
+    "source": { "href": "https://www.juntaex.es/w/6073", "label": "Extremadura: procedimiento 6073 y aviso de cierre" }
+  },
+  {
+    "id": "bono-galicia-2025", "territory": "Galicia", "territorySlug": "galicia", "name": "Bono alugueiro mocidade de Galicia: convocatoria 2025", "phase": "cerrada", "checkedAt": "2026-09-14",
+    "deadline": "La convocatoria VI482E de 2025 admitió solicitudes del 28 de febrero al 28 de marzo de 2025.",
+    "summary": "Referencia seleccionada del Bono, con plazo terminado. No permite concluir que todas las ayudas gallegas estén cerradas ni acredita una nueva convocatoria de este programa en 2026.",
+    "source": { "href": "https://sede.xunta.gal/detalle-procedemento?ano=2025&codtram=VI482E&lang=glcidadans&numpub=1", "label": "Xunta de Galicia: VI482E, convocatoria 2025" }
+  },
+  {
+    "id": "bono-murcia-2025", "territory": "Región de Murcia", "territorySlug": "region-de-murcia", "name": "Bono Alquiler Joven de la Región de Murcia: procedimiento 3934", "phase": "cerrada", "checkedAt": "2026-09-14",
+    "deadline": "La sede indica solicitud cerrada; la convocatoria revisada finalizó el 30 de junio de 2025.",
+    "summary": "El formulario electrónico sigue visible aunque el plazo esté cerrado. Las acciones para justificar y pedir el pago corresponden a expedientes existentes; no equivalen a una nueva convocatoria.",
+    "source": { "href": "https://sede.carm.es/web/pagina?IDCONTENIDO=3934&IDTIPO=240", "label": "Región de Murcia: procedimiento 3934" }
+  },
+  {
+    "id": "emanzipa-navarra", "territory": "Comunidad Foral de Navarra", "territorySlug": "comunidad-foral-de-navarra", "name": "Emanzipa: ayuda al alquiler joven en Navarra", "phase": "solicitud", "checkedAt": "2026-09-14",
+    "deadline": "La ficha indica trámite en plazo, sin fecha de cierre mostrada. Requiere renovación anual.",
+    "summary": "Programa propio para personas de 23 a 35 años, con condiciones de renta e ingresos. Prevén el 50 % del alquiler, hasta 280 € al mes. La solicitud y la entrega de justificantes son acciones diferentes.",
+    "source": { "href": "https://www.navarra.es/es/tramites/on/-/line/ayudas-al-alquiler-joven-emanzipa?pageBackId=7579485", "label": "Gobierno de Navarra: Emanzipa" }
+  },
+  {
+    "id": "gaztelagun-euskadi-2026", "territory": "País Vasco", "territorySlug": "pais-vasco", "name": "Gaztelagun: alquiler joven en Euskadi 2026", "phase": "solicitud", "checkedAt": "2026-09-14", "closesOn": "2026-12-31",
+    "deadline": "La convocatoria 2026 permite presentar solicitudes hasta el 31 de diciembre. Consulta la sede para la hora límite.",
+    "summary": "Gaztelagun es un programa propio de Euskadi. Revisa sus requisitos de edad, ingresos, residencia y contrato; no traslades automáticamente los del Bono estatal.",
+    "source": { "href": "https://www.euskadi.eus/bopv2/datos/2026/06/2602608a.shtml", "label": "Euskadi: Orden de 5 de junio de 2026, Gaztelagun" }
+  },
+  {
+    "id": "bono-rioja-2026", "territory": "La Rioja", "territorySlug": "la-rioja", "name": "Bono Alquiler Joven de La Rioja 2026", "phase": "solicitud", "checkedAt": "2026-09-14", "opensOn": "2026-06-02", "closesOn": "2027-04-30",
+    "deadline": "Del 2 de junio de 2026 al 30 de abril de 2027. Consulta los avisos y la hora límite en la sede.",
+    "summary": "La ficha 25236 identifica la convocatoria 2026. Comprueba las condiciones del alquiler y las obligaciones de justificación; el plazo publicado no garantiza la concesión individual.",
+    "source": { "href": "https://web.larioja.org/oficina-electronica/tramite?n=25236", "label": "La Rioja: procedimiento 25236" }
+  }
+]

@@ -1,13 +1,15 @@
 import { CONTACT_EMAIL, PRODUCT_NAME, SITE_ORIGIN } from "@/lib/types";
 import { absoluteUrl } from "@/lib/geo/paths";
 import type { Guide } from "@/lib/tramites/types";
+import type { Article, BreadcrumbList, FAQPage, Organization, WebSite, WithContext } from "schema-dts";
 
 export type Crumb = { name: string; path: string };
 
-export function organizationJsonLd() {
+export function organizationJsonLd(): WithContext<Organization> {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": `${SITE_ORIGIN}#organization`,
     name: PRODUCT_NAME,
     url: SITE_ORIGIN,
     logo: `${SITE_ORIGIN}/icon`,
@@ -36,26 +38,20 @@ export function organizationJsonLd() {
   };
 }
 
-export function websiteJsonLd() {
+export function websiteJsonLd(): WithContext<WebSite> {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": `${SITE_ORIGIN}#website`,
     name: PRODUCT_NAME,
     url: SITE_ORIGIN,
     inLanguage: "es-ES",
-    publisher: { "@type": "Organization", name: PRODUCT_NAME, url: SITE_ORIGIN },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${SITE_ORIGIN}/buscar?q={search_term_string}`,
-      },
-      "query-input": "required name=search_term_string",
-    },
+    publisher: { "@type": "Organization", "@id": `${SITE_ORIGIN}#organization`, name: PRODUCT_NAME, url: SITE_ORIGIN },
+    // No SearchAction: /buscar is noindex, follow. A sitelinks target must be indexable.
   };
 }
 
-export function breadcrumbJsonLd(crumbs: Crumb[]) {
+export function breadcrumbJsonLd(crumbs: Crumb[]): WithContext<BreadcrumbList> {
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -72,7 +68,7 @@ export function guideFaqs(guide: Guide) {
   return guide.faqs ?? [];
 }
 
-export function guideFaqJsonLd(guide: Guide): unknown[] {
+export function guideFaqJsonLd(guide: Guide): WithContext<FAQPage>[] {
   const faqs = guideFaqs(guide);
   if (!faqs.length) return [];
   return [
@@ -93,16 +89,19 @@ export function articleJsonLd(opts: {
   description: string;
   path: string;
   dateModified: string;
-}) {
+  sources?: string[];
+}): WithContext<Article> {
   return {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": `${absoluteUrl(opts.path)}#article`,
     headline: opts.headline,
     description: opts.description,
     inLanguage: "es-ES",
     dateModified: opts.dateModified,
     mainEntityOfPage: absoluteUrl(opts.path),
-    author: { "@type": "Organization", name: PRODUCT_NAME, url: SITE_ORIGIN },
-    publisher: { "@type": "Organization", name: PRODUCT_NAME, url: SITE_ORIGIN },
+    author: { "@type": "Organization", "@id": `${SITE_ORIGIN}#organization`, name: PRODUCT_NAME, url: SITE_ORIGIN },
+    publisher: { "@type": "Organization", "@id": `${SITE_ORIGIN}#organization`, name: PRODUCT_NAME, url: SITE_ORIGIN },
+    ...(opts.sources?.length ? { citation: [...new Set(opts.sources)] } : {}),
   };
 }

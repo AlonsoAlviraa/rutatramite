@@ -7,6 +7,7 @@ import robots from "@/app/robots";
 import HomePage from "@/app/page";
 import { BuscarView } from "@/components/ui/BuscarView";
 import { GET as llmsFull } from "@/app/llms-full.txt/route";
+import { GET as llmsShort } from "@/app/llms.txt/route";
 import { GET as aiSummary } from "@/app/ai/summary.json/route";
 import { GET as aiFaq } from "@/app/ai/faq.json/route";
 import { GET as municipiosIndex } from "@/app/api/municipios-index/route";
@@ -46,14 +47,17 @@ describe("SEO+GEO mega contracts", () => {
       expect(rule?.allow).toBe("/");
       expect(rule?.disallow).toEqual(expect.arrayContaining(["/api/", "/borrador/"]));
     }
-    const blocked = rules.find((row) => row.userAgent === "Bytespider");
-    expect(blocked?.disallow).toBe("/");
+    expect(rules.some((row) => row.disallow === "/")).toBe(false);
+    const bytespider = rules.find((row) => row.userAgent === "Bytespider");
+    expect(bytespider?.allow).toBe("/");
+    expect(bytespider?.disallow).toEqual(expect.arrayContaining(["/api/", "/borrador/"]));
     expect(JSON.stringify(r)).not.toMatch(/noindex/i);
   });
 
-  it("WebSite JSON-LD has a real SearchAction target", () => {
-    const web = websiteJsonLd() as { potentialAction?: { target?: { urlTemplate?: string } } };
-    expect(web.potentialAction?.target?.urlTemplate).toBe(`${SITE_ORIGIN}/buscar?q={search_term_string}`);
+  it("WebSite JSON-LD does not point SearchAction at noindex /buscar", () => {
+    const web = JSON.stringify(websiteJsonLd());
+    expect(web).not.toContain("SearchAction");
+    expect(web).not.toContain("/buscar?q=");
     const org = JSON.stringify(organizationJsonLd());
     expect(org).toContain("/metodologia");
     expect(org).toContain("hola@rutatramite.com");
@@ -74,6 +78,38 @@ describe("SEO+GEO mega contracts", () => {
     expect(entries.some((e) => e.lastModified)).toBe(true);
   });
 
+  it("CORE, public sitemap.xml and Next entries include the same hubs", () => {
+    const py = fs.readFileSync(path.join(process.cwd(), "scripts/build_sitemaps.py"), "utf8");
+    const coreBody = py.match(/CORE = \[([\s\S]*?)\]\n/);
+    expect(coreBody, "CORE list").toBeTruthy();
+    const core = [...(coreBody?.[1] ?? "").matchAll(/"([^"]+)"/g)].map((match) => match[1]);
+    const xml = fs.readFileSync(path.join(process.cwd(), "public/sitemap.xml"), "utf8");
+    const xmlPaths = [...xml.matchAll(/<loc>https:\/\/rutatramite\.com([^<]*)<\/loc>/g)].map((match) =>
+      match[1] === "" ? "/" : match[1],
+    );
+    const entryPaths = buildSitemapEntries().map((entry) => {
+      const rest = entry.url.slice(SITE_ORIGIN.length);
+      return rest === "" ? "/" : rest;
+    });
+    const isHub = (hubPath: string) =>
+      hubPath === "/" ||
+      hubPath === "/recursos/padron-municipal" ||
+      hubPath.split("/").filter(Boolean).length === 1;
+    const unique = (paths: string[]) => [...new Set(paths.filter(isHub))].sort();
+    const coreHubs = unique(core);
+    expect(unique(xmlPaths)).toEqual(coreHubs);
+    expect(unique(entryPaths)).toEqual(coreHubs);
+    for (const hub of ["/elecciones", "/ayudas", "/alquiler", "/transporte", "/recursos", "/recursos/padron-municipal"]) {
+      expect(coreHubs, hub).toContain(hub);
+    }
+    for (const hubPath of core) {
+      expect(xmlPaths, hubPath).toContain(hubPath);
+      expect(entryPaths, hubPath).toContain(hubPath);
+    }
+    expect(xmlPaths).not.toContain("/buscar");
+    expect(entryPaths).not.toContain("/buscar");
+  });
+
   it("llms.txt + llms-full.txt stay citable and list catalog paths", () => {
     const short = renderLlmsTxt();
     const full = renderLlmsFullTxt();
@@ -86,9 +122,28 @@ describe("SEO+GEO mega contracts", () => {
       expect(full, guide.path).toContain(`${SITE_ORIGIN}${guide.path}`);
     }
     const publicShort = fs.readFileSync(path.join(process.cwd(), "public/llms.txt"), "utf8");
+    expect(publicShort).toBe(short);
     expect(publicShort).toContain("citapreviadnie.es");
     expect(publicShort).toContain("No somos Administración");
+    expect(publicShort).toContain(`${SITE_ORIGIN}/llms-full.txt`);
+    expect(publicShort).toContain(`${SITE_ORIGIN}/elecciones`);
+    expect(publicShort).toContain(`${SITE_ORIGIN}/sitemap.xml`);
     expect(fs.existsSync(path.join(process.cwd(), "public/.well-known/ai.txt"))).toBe(true);
+  });
+
+  it("llms.txt route returns the same hub directory as public/llms.txt", async () => {
+    const publicShort = fs.readFileSync(path.join(process.cwd(), "public/llms.txt"), "utf8");
+    const route = llmsShort();
+    expect(route.headers.get("content-type")).toMatch(/text\/plain/);
+    expect(await route.text()).toBe(publicShort);
+    expect(publicShort).toBe(renderLlmsTxt());
+    const directory = publicShort.split("## Directorio de trámites")[1]?.split("## ")[0] ?? "";
+    for (const hub of ["elecciones", "ayudas", "alquiler", "transporte"]) {
+      expect(directory, hub).toContain(`${SITE_ORIGIN}/${hub}`);
+      expect(fs.existsSync(path.join(process.cwd(), "src/app", hub, "page.tsx")), hub).toBe(true);
+    }
+    expect(publicShort).not.toMatch(/\b(impresiones|clics|tr[a\u00e1]fico|visitas)\b/i);
+    expect(publicShort).not.toMatch(/citad[oa]s? por/i);
   });
 
   it("AI discovery routes return JSON / full llms", async () => {

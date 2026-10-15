@@ -1,0 +1,132 @@
+import type { Guide } from "./types";
+import { AID_SOURCES as S, AIDS } from "@/lib/ayudas";
+
+const rentalRelated = [
+  { href: "/alquiler/ayudas-por-comunidad", label: "Comparar ayudas al alquiler de las 17 comunidades" },
+  { href: "/ayudas", label: "Calendario de ayudas y convocatorias" },
+  { href: "/alquiler/bono-alquiler-joven", label: "Bono Alquiler Joven: requisitos generales" },
+  { href: "/alquiler/plan-vivienda-2026-2030", label: "Qué cambia con el Plan de Vivienda 2026-2030" },
+  { href: "/becas/residencia", label: "Residencia fuera del domicilio familiar y beca MEC" },
+];
+const common = { pack: "alquiler" as const, reviewedAt: "2026-09-14", related: rentalRelated };
+
+export const AYUDAS_2026_GUIDES: Guide[] = [
+  {
+    ...common, reviewedAt: "2026-09-16", id: "alquiler-por-comunidad", path: "/alquiler/ayudas-por-comunidad",
+    h1: "Ayudas al alquiler por comunidad: convocatorias y plazos revisados",
+    title: "Ayudas al alquiler por comunidad: plazos y fuentes oficiales",
+    description: "Compara referencias de alquiler de las 17 comunidades: convocatorias abiertas y cerradas, Emanzipa, Gaztelagun y enlaces oficiales revisados.",
+    lead: "Esta comparación reúne convocatorias seleccionadas de las 17 comunidades autónomas, contrastadas el 16 de septiembre de 2026. Incluye ayudas con plazo terminado y programas propios: contar con una referencia territorial no significa que exista una solicitud abierta ni que estén revisadas todas las ayudas de esa comunidad.",
+    cta: { href: "/ayudas", label: "Filtrar el calendario por comunidad y fase" },
+    secondaryCta: { href: "/recursos", label: "Consultar y descargar los datos citables" },
+    sources: [...AIDS.filter(a => a.category === "alquiler" && a.phase !== "normativa").map(a => a.source), { href: "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=421940", label: "Cantabria: ampliación del plazo, Orden FOM/12/2025 (PDF)" }],
+    related: rentalRelated.filter(r => r.href !== "/alquiler/ayudas-por-comunidad"),
+    sections: [
+      { id: "leer-comparacion", title: "Cómo usar esta comparación", paragraphs: ["Localiza la comunidad donde está la vivienda. Comprueba la denominación y el año de la convocatoria, después abre su fuente oficial para consultar novedades. La fecha de revisión indica cuándo contrastamos la información: no es una renovación del plazo ni una garantía de que siga abierto.", "El calendario deja de presentar como vigente una solicitud sin revisión reciente. Cuando la fuente solo publica fechas de calendario conservamos esa precisión, sin atribuirle una hora de cierre. El último día hay que comprobar la hora en la sede antes de registrar."], lists: [["Solicitud: inicio de un expediente dentro de su convocatoria.", "Justificación: entrega de recibos de una ayuda ya solicitada o concedida.", "Requerimiento: respuesta a una petición de documentos del órgano gestor.", "Norma publicada: marco de una ayuda que todavía necesita un procedimiento territorial aplicable."]] },
+      ...AIDS.filter(a => a.category === "alquiler" && a.phase !== "normativa").map(a => ({ id: a.id, title: a.name, paragraphs: [a.deadline, a.summary] })),
+      { id: "si-no-esta-abierta", title: "Si la referencia de tu comunidad está cerrada", paragraphs: ["Una convocatoria cerrada sigue siendo útil para identificar el órgano gestor y seguir un expediente. No uses sus fechas como predicción del siguiente año. Busca en el área de vivienda otras convocatorias y contrasta sus destinatarios: una ayuda social urgente, un programa para jóvenes y una subvención general al alquiler pueden tener reglas diferentes.", "Esta selección no acredita cobertura exhaustiva de programas autonómicos o municipales. Ceuta y Melilla no forman parte de la comparación de las 17 comunidades. Para reutilizar las referencias, descarga el JSON o CSV y conserva la convocatoria, su fuente, fecha de revisión y fase; no conviertas la presencia en el fichero en una afirmación de plazo abierto."] },
+    ],
+    faqs: [{ q: "¿Son 17 ayudas abiertas?", a: "No. Son referencias de las 17 comunidades, con convocatorias seleccionadas abiertas o cerradas. Comprueba el calendario y los avisos oficiales." }, { q: "¿Emanzipa y Gaztelagun son el Bono Alquiler Joven?", a: "Son programas propios de Navarra y Euskadi. Sus requisitos y cuantías deben consultarse en sus respectivas fuentes." }],
+  },
+  {
+    ...common, id: "bono-alquiler-joven", path: "/alquiler/bono-alquiler-joven",
+    h1: "Bono Alquiler Joven: 250 € al mes y convocatoria por comunidad",
+    title: "Bono Alquiler Joven 2026: requisitos y dónde solicitar",
+    description: "El Bono Alquiler Joven se tramita por comunidad autónoma. Consulta requisitos, documentación y la comparación de convocatorias territoriales.",
+    lead: "El Bono Alquiler Joven del RD 42/2022 prevé 250 € mensuales durante dos años, sin superar el alquiler. Tener hasta 35 años no basta: necesitas cumplir las condiciones de ingresos, contrato y residencia, además de encontrar una convocatoria disponible donde vives.",
+    cta: { ...S.bono, label: "Consultar las bases del Bono en el BOE" }, sources: [S.bono],
+    sections: [
+      { id: "requisitos", title: "Qué revisar antes de solicitar", paragraphs: ["El marco estatal exige mayoría de edad, hasta 35 años incluidos, una fuente regular de ingresos y vivienda o habitación habitual. El límite general de ingresos es 3 veces el IPREM, con los matices de la norma. La convocatoria territorial concreta límites de alquiler y documentación."], lists: [["Identifica la comunidad donde está la vivienda, no la de tu universidad o trabajo.", "Comprueba si solicitas por una vivienda completa o por una habitación: no traslades el límite de una modalidad a otra.", "Revisa cómo se acreditan los ingresos y qué personas computan en tu caso."]] },
+      { id: "documentos", title: "Prepara el expediente a partir de la convocatoria", paragraphs: ["Crea una carpeta con la convocatoria descargada y otra con lo que vas a presentar. Usa nombres de archivo que permitan identificar documento y mes. Es una forma práctica de evitar adjuntar el recibo incorrecto o una versión antigua del contrato."], lists: [["Contrato y anexos que identifiquen a las personas titulares y la renta.", "Justificantes de pago legibles, ordenados por mensualidad.", "Documentación de identidad, residencia, padrón e ingresos que pida la ficha oficial.", "Cuenta bancaria y justificante de registro cuando completes la solicitud."]] },
+      { id: "donde", title: "Dónde se solicita y cómo evitar convocatorias antiguas", paragraphs: ["Elige una de las guías territoriales del directorio de alquiler. Antes de entrar en el formulario, compara el nombre del procedimiento y el año con el aviso de plazo. Una lista de personas requeridas o un periodo para reclamar no equivalen a una nueva apertura." ] },
+      { id: "compatibilidad", title: "Si también tienes una beca o ayuda de vivienda", paragraphs: ["Declara las otras ayudas que solicitas o recibes. No sumes importes anunciados para calcular tus ingresos futuros: revisa la compatibilidad de ambos programas y consulta al órgano gestor cuando cubran el mismo gasto. Guarda su respuesta junto al expediente."] },
+    ],
+    faqs: [{ q: "¿Los 6.000 € se cobran de una vez?", a: "Son el resultado de 250 € por 24 meses. No significan un ingreso único inmediato; revisa el régimen de pago y justificación de tu convocatoria." }, { q: "¿Existe un formulario único para toda España?", a: "La gestión corresponde a cada comunidad o ciudad autónoma. Debes acceder al procedimiento de tu territorio." }],
+  },
+  {
+    ...common, reviewedAt: "2026-09-16", id: "plan-vivienda-2026", path: "/alquiler/plan-vivienda-2026-2030",
+    h1: "Plan de Vivienda 2026-2030: nueva ayuda al alquiler para jóvenes",
+    title: "Ayuda al alquiler 2026-2030: hasta 300 € y convocatoria",
+    description: "Qué establece el nuevo Plan Estatal de Vivienda para la emancipación joven y por qué hay que comprobar la convocatoria autonómica antes de solicitar.",
+    lead: "El RD 326/2026 regula el Plan Estatal de Vivienda 2026-2030. Su programa de emancipación contempla hasta 300 € mensuales para vivienda o 200 € para habitación, con el límite del 60 % de la renta. La publicación de la norma no acredita por sí sola que puedas presentar una solicitud en tu comunidad.",
+    cta: { ...S.plan, label: "Consultar el nuevo Plan en el BOE" }, sources: [S.plan, S.bono],
+    sections: [
+      { id: "programa", title: "Qué programa debes buscar", paragraphs: ["Busca la ayuda al alquiler para la emancipación de las personas jóvenes: artículos 132 a 139. El acceso se articula mediante las comunidades autónomas y Ceuta y Melilla. En esta guía no se ha verificado una convocatoria territorial de este programa con plazo abierto."] },
+      { id: "comparar", title: "Cómo distinguirla del Bono Alquiler Joven", paragraphs: ["Comprueba la norma citada en la ficha que estás leyendo. El nombre comercial, la edad del destinatario o un vídeo con un importe no bastan para identificar el programa. Compara siempre la referencia normativa, el territorio y el periodo subvencionable antes de preparar documentos."] },
+      { id: "diferencias", title: "Ingresos, duración y compatibilidad no son los del Bono", paragraphs: ["Para esta ayuda del Plan 2026-2030, el artículo 133 fija con carácter general un máximo de ingresos de 5 veces el IPREM, con umbrales especiales y exclusiones de cómputo. El Bono del RD 42/2022 parte de 3 veces el IPREM y tiene sus propios matices: no intercambies los requisitos de ambos programas.", "El artículo 134 prevé dos años de ayuda y una posible prórroga autonómica de hasta otros dos, condicionada a seguir cumpliendo los requisitos. No es una concesión automática por cuatro años. El artículo 136 establece incompatibilidad general con otras ayudas públicas al mismo alquiler, con excepciones para los colectivos y situaciones que enumera. Comprueba tu caso antes de sumar importes."] },
+      { id: "pasos", title: "Qué hacer mientras localizas la convocatoria", paragraphs: ["Abre el área de vivienda de tu comunidad y busca el nombre completo del programa. Si aparece una noticia institucional, sigue hasta la ficha de tramitación. Anota el código de procedimiento y comprueba que el formulario corresponde a la misma ayuda."], lists: [["Localiza las bases y la convocatoria, no solo la nota de prensa.", "Comprueba qué fecha se usa para evaluar edad e ingresos.", "Identifica la modalidad: vivienda, habitación o cesión de uso.", "Revisa compatibilidades antes de contar con dos ayudas para el mismo alquiler."]] },
+      { id: "ejemplo", title: "Un ejemplo de lectura del límite", paragraphs: ["Ejemplo orientativo: si la renta de una vivienda fuera 400 €, el 60 % serían 240 €. El máximo anunciado de 300 € no convertiría ese cálculo en 300 €. Este ejemplo explica la diferencia entre un techo y una cuantía individual; no evalúa tu elegibilidad."] },
+    ],
+    faqs: [{ q: "¿Puedo pedir ya la nueva ayuda de 300 €?", a: "Comprueba si existe una convocatoria aplicable y abierta en tu comunidad. Esta guía confirma la norma estatal, pero no acredita una apertura territorial." }],
+  },
+  {
+    ...common, id: "bono-madrid-2026", path: "/alquiler/bono-alquiler-joven-madrid",
+    h1: "Bono Alquiler Joven de Madrid: solicitud y expediente A688",
+    title: "Bono Alquiler Joven Madrid: plazo y solicitud A688",
+    description: "La sede de Madrid mantiene la ficha Bono Alquiler Joven (2024), A688, con plazo permanente. Dónde solicitar, aportar recibos y seguir el expediente.",
+    lead: "La ficha A688 de la Comunidad de Madrid, denominada Bono Alquiler Joven (2024), indica plazo permanente en la revisión del 14 de septiembre de 2026. Usa ese procedimiento y consulta sus avisos antes de presentar. El nombre de 2024 no significa que debas buscar otra ficha llamada 2026.",
+    cta: { ...S.madrid, label: "Abrir el procedimiento A688 de Madrid" }, sources: [S.madrid],
+    sections: [
+      { id: "solicitud", title: "Nueva solicitud o documentación de un expediente", paragraphs: ["La ficha ofrece solicitud y acciones para expedientes existentes. Se dirige a personas de 18 a 35 años incluidos y no exige tasa. Comprueba los requisitos completos antes de enviar el formulario."] },
+      { id: "recibos", title: "Si te han pedido justificar el cobro", paragraphs: ["El aviso del 23 de junio de 2026 abrió aportación de documentos del 24 de junio al 14 de julio. Ese periodo ya terminó y no debe confundirse con el plazo permanente de solicitud."], lists: [["Abre tu notificación, identifica el expediente y anota qué documentos faltan.", "Ordena los justificantes de alquiler por los meses que te requieran.", "Comprueba que el archivo permite identificar el pago y que se puede leer antes de adjuntarlo.", "Guarda el registro de aportación y revisa si quedan otras notificaciones pendientes."]] },
+      { id: "errores", title: "Evita empezar otra solicitud para responder a un requerimiento", paragraphs: ["Si ya tienes número de expediente, entra por la acción que corresponda a ese expediente. Guarda por separado solicitud, requerimientos y justificantes de respuesta: te ayudará a explicar al órgano gestor qué presentaste y cuándo."] },
+    ],
+  },
+  {
+    ...common, id: "bono-andalucia-2026", path: "/alquiler/bono-alquiler-joven-andalucia",
+    h1: "Bono Alquiler Joven en Andalucía: plazo cerrado y seguimiento",
+    title: "Bono Alquiler Joven Andalucía 2026: cierre y expediente",
+    description: "La reapertura del Bono Alquiler Joven andaluz terminó el 22 de junio de 2026. Consulta el expediente, los requerimientos y futuros avisos oficiales.",
+    lead: "La Junta de Andalucía informa de que la reapertura del Bono Alquiler Joven comenzó el 13 de enero de 2026 a las 16:00 y terminó el 22 de junio al alcanzarse 15.000 solicitudes. En la revisión del 14 de septiembre no se presenta como una ayuda abierta a nuevas solicitudes.",
+    cta: { ...S.andalucia, label: "Consultar avisos y tramitación en la Junta" }, sources: [S.andalucia],
+    sections: [
+      { id: "presentada", title: "Si ya presentaste la solicitud", paragraphs: ["Localiza el justificante de registro y revisa el área de notificaciones del expediente. No deduzcas que la ayuda está concedida porque pudiste rellenar el formulario o porque conoces a alguien que ya cobró."], lists: [["Comprueba que conservas la presentación registrada, no solo un borrador.", "Lee cada requerimiento y responde a lo que pide tu expediente.", "Ten ordenados los justificantes de pago para la fase de justificación."]] },
+      { id: "fuera-plazo", title: "Si no llegaste a presentarla", paragraphs: ["Consulta la página oficial enlazada para comprobar si anuncia nuevas aperturas. Un tutorial de enero puede seguir circulando después del cierre. No uses sus instrucciones como prueba de que el formulario admite solicitudes hoy."] },
+      { id: "otras-ayudas", title: "Cómo buscar otra ayuda de vivienda", paragraphs: ["Empieza por el área de vivienda de la Junta y las ayudas sociales de tu ayuntamiento. Anota el nombre y código de cada programa; revisa si la ayuda es para alquiler ordinario, emergencia habitacional o un colectivo específico. Una convocatoria distinta tendrá sus propios documentos y condiciones."] },
+    ],
+  },
+  {
+    ...common, reviewedAt: "2026-09-16", id: "alquiler-cataluna-2026", path: "/alquiler/ayudas-alquiler-cataluna",
+    h1: "Ayudas al alquiler en Cataluña 2026: Bono Joven y subvenciones",
+    title: "Ayudas alquiler Cataluña 2026: dos programas y sus plazos",
+    description: "Diferencias entre el Bo Lloguer Jove y las subvenciones de alquiler para jóvenes de Cataluña. Plazos 2026 cerrados y seguimiento en Habitatge.",
+    lead: "Esta guía compara dos procedimientos de Cataluña: el Bo Lloguer Jove y las subvenciones de alquiler para jóvenes. Los plazos 2026 consultados ya han finalizado. Comprueba el nombre de tu ayuda antes de abrir un formulario o interpretar una resolución.",
+    cta: { ...S.catalunya, label: "Consultar el Bo Lloguer Jove" }, secondaryCta: { ...S.catalunyaRent, label: "Consultar las subvenciones para jóvenes" }, sources: [S.catalunya, S.catalunyaRent],
+    sections: [
+      { id: "bono", title: "Bo Lloguer Jove: marzo de 2026", paragraphs: ["La ventana fue del 9 de marzo a las 09:00 al 13 de marzo a las 14:00 de 2026. Esa convocatoria está cerrada para nuevas solicitudes. Si la presentaste, usa el acceso de seguimiento que indique su ficha."] },
+      { id: "subvenciones", title: "Subvenciones para jóvenes: junio y julio de 2026", paragraphs: ["Las solicitudes se admitieron del 29 de junio a las 09:00 al 10 de julio a las 14:00. La página indica que no está activa. Se dirigía a jóvenes de hasta 35 años a 31 de enero de 2026 y la concesión se valora por puntuación, no por orden de llegada."] },
+      { id: "identificar", title: "Qué revisar en tu justificante", paragraphs: ["Busca la denominación de la convocatoria, el número de expediente y la fecha de registro. Compáralos con la cabecera de cada aviso. Antes de aportar documentos, comprueba que el requerimiento corresponde a tu procedimiento: compartir organismo gestor no convierte las dos ayudas en una sola."], lists: [["Separa en carpetas diferentes los expedientes de cada ayuda.", "Conserva las resoluciones y los recibos que hayas presentado.", "Si necesitas comunicar un cambio, usa el canal indicado en tu expediente."]] },
+      { id: "proximo", title: "Nuevas convocatorias", paragraphs: ["Los meses de marzo y julio describen los plazos revisados de 2026. No son una predicción de las fechas de 2027. Vuelve a la ficha oficial antes de preparar una nueva solicitud."] },
+    ],
+  },
+  {
+    id: "ayudas-estudiantes-2026", pack: "becas", reviewedAt: "2026-09-14", path: "/becas/ayudas-estudiantes",
+    h1: "Ayudas a estudiantes 2026-27: qué revisar según tus estudios",
+    title: "Ayudas a estudiantes 2026-27: becas, residencia y alquiler",
+    description: "Encuentra qué becas revisar si estudias FP, Bachillerato, grado o máster. Solicitudes, residencia y ayudas al alquiler con enlaces a sus guías.",
+    lead: "Empieza por tus estudios, el domicilio familiar y si ya presentaste la beca general. Después revisa ayudas de tu comunidad, de tu centro y de vivienda. Cada programa tiene finalidad y requisitos propios: estudiar no da acceso automático a todas las ayudas para jóvenes.",
+    cta: { ...S.ministry, label: "Consultar novedades del Ministerio" }, sources: [S.ministry, S.collaboration],
+    related: [{ href: "/ayudas", label: "Calendario de convocatorias" }, { href: "/becas/fp", label: "Beca para FP" }, { href: "/becas/colaboracion", label: "Colaboración universitaria" }, { href: "/becas/residencia", label: "Beca de residencia" }, { href: "/alquiler", label: "Ayudas al alquiler" }],
+    sections: [
+      { id: "general", title: "Si ya pediste la beca general", paragraphs: ["Consulta el expediente y comprueba si necesitas actualizar datos en la ventana de septiembre. Una solicitud presentada y una solicitud concedida son fases distintas. Guarda el registro y revisa las notificaciones, aunque todavía no hayas recibido un ingreso."] },
+      { id: "estudios", title: "Qué guía corresponde a tu situación", paragraphs: ["Usa las guías relacionadas para seguir tu caso. En FP se distinguen grado medio y superior; en universidad, curso y matrícula. Las becas de colaboración tienen requisitos propios para último curso de grado o primero de máster: no sustituyen a la beca general para cualquier estudiante."], lists: [["FP o Bachillerato: revisa requisitos académicos y convocatoria de tu administración educativa.", "Universidad: consulta beca general, ayudas propias del centro y convocatorias de colaboración o movilidad que encajen con tu curso.", "Necesidades de apoyo educativo: consulta la convocatoria específica y su fase actual."]] },
+      { id: "domicilio", title: "Domicilio familiar en Cataluña", paragraphs: ["Para 2026-27, el Ministerio indica gestión propia de la Generalitat para las convocatorias transferidas. No uses una guía de la sede ministerial sin comprobar primero qué administración tramita tu beca."] },
+      { id: "alquiler", title: "Si te mudas para estudiar", paragraphs: ["Revisa por separado la beca de residencia y las ayudas de vivienda. Antes de firmar o calcular tu presupuesto, consulta qué gastos admite cada programa y su compatibilidad. Un importe máximo anunciado no equivale a dinero concedido ni a una fecha de cobro."] },
+      { id: "organizar", title: "Una lista práctica para comparar ayudas", paragraphs: ["Anota en una tabla nombre, organismo, curso, finalidad, plazo y enlace de solicitud. Marca las que ya has presentado y conserva el justificante. Descarta las que pertenecen a otro curso o a un territorio que no te corresponde antes de dedicar tiempo a preparar archivos."] },
+    ],
+  },
+  {
+    id: "neae-2026", pack: "becas", reviewedAt: "2026-09-14", path: "/becas/apoyo-educativo",
+    h1: "Ayudas de apoyo educativo NEAE 2026-27: plazo cerrado",
+    title: "Ayudas NEAE 2026-27: plazo y consulta del expediente",
+    description: "Las solicitudes de apoyo educativo del Ministerio cerraron el 10 de septiembre de 2026. Cómo revisar el expediente y responder a notificaciones.",
+    lead: "El plazo ministerial de ayudas de necesidad específica de apoyo educativo para 2026-27 terminó el 10 de septiembre. Si presentaste la solicitud, consulta el expediente y sus notificaciones. Esta convocatoria ya no es una alternativa abierta para quien no solicitó la beca general.",
+    cta: { ...S.neae, label: "Consultar instrucciones de apoyo educativo" }, sources: [S.neae, S.ministry], related: [{ href: "/ayudas", label: "Calendario de ayudas" }, { href: "/becas/ayudas-estudiantes", label: "Otras ayudas para estudiantes" }],
+    sections: [
+      { id: "expediente", title: "Después de presentar", paragraphs: ["Entra en la sede y revisa Mis expedientes y Mis notificaciones. Si hay un requerimiento, lee qué documentación solicita y el plazo de tu comunicación. No lo sustituyas por el plazo general de solicitud: son fases diferentes."] },
+      { id: "documentacion", title: "Antes de responder a un requerimiento", paragraphs: ["Abre los archivos para comprobar que se leen y que corresponden al curso y a la persona solicitante. Conserva copia de lo aportado y del registro. Si el requerimiento no se entiende, consulta a la unidad que figura en la comunicación antes de enviar documentos que no resuelvan lo solicitado."] },
+      { id: "sin-solicitud", title: "Si no presentaste a tiempo", paragraphs: ["Comprueba los avisos oficiales por si existe una prórroga posterior o una instrucción aplicable a tu caso. La ventana de modificación de la beca general es otro trámite y no reabre esta ayuda. No hay una nueva fecha verificada en esta guía."] },
+      { id: "cataluna", title: "Comprueba la administración competente", paragraphs: ["Si el domicilio familiar está en Cataluña, consulta las instrucciones de la Generalitat para el curso 2026-27. Las convocatorias transferidas no se deben tramitar siguiendo automáticamente el procedimiento del Ministerio."] },
+    ],
+  },
+];

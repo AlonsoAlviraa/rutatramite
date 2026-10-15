@@ -1,422 +1,634 @@
 import {
   DISCLAIMER_MEDICO,
-  JUSTICIA_NACIMIENTO_URL,
-  SANIDAD_CALENDARIO_URL,
-  SEDE_SEG_SOCIAL_URL,
-  TODOFP_URL,
 } from "@/lib/tramites/facts";
 import type { Guide } from "@/lib/tramites/types";
 
 export const FP_BEBE_NICHOS2_GUIDES: Guide[] = [
   {
-    id: "cambiarInstitutoMitadDeCurso",
-    pack: "fp",
-    path: "/fp/cambiar-de-instituto-a-mitad-de-curso",
-    h1: "Cambiar de instituto a mitad de curso en FP: cómo se hace",
-    title: "Cambiar de instituto a mitad de curso (FP): trámites",
-    description:
-      "Sin abandonar la matrícula: traslado de expediente, solicitud ante la consejería y causas sobrevenidas. La vía correcta de cambiar de instituto con el curso empezado.",
-    lead:
-      "Cambiar de instituto con el curso empezado no pasa por renunciar a la matrícula y \"volver el año que viene\": pasa por un traslado de expediente justificado por una causa sobrevenida. Esta guía ordena los pasos reales (centro de destino, consejería, documentación) y los errores que dejan a un alumno sin plaza en los dos sitios a la vez.",
-    cta: { href: TODOFP_URL, label: "Todofp (oficial)" },
-    secondaryCta: { href: "/colegio/cambiar-de-colegio-a-mitad-de-curso", label: "Guía: cambiar de colegio a mitad de curso" },
-    related: [
-      { href: "/colegio/cambiar-de-colegio-a-mitad-de-curso", label: "Cambiar de colegio a mitad de curso" },
-      { href: "/fp/reserva-de-plaza-fp", label: "Reserva de plaza en FP" },
-      { href: "/fp/matricula-fp-en-septiembre", label: "Matricularse en FP en septiembre" },
-      { href: "/colegio/cambio-de-colegio-por-mudanza", label: "Cambio de colegio por mudanza" },
+    "id": "cambiarInstitutoMitadDeCurso",
+    "pack": "fp",
+    "path": "/fp/cambiar-de-instituto-a-mitad-de-curso",
+    "reviewedAt": "2026-09-16",
+    "h1": "Cambiar de instituto en FP con el curso empezado",
+    "title": "Cambiar de instituto en FP con el curso empezado",
+    "description": "Cómo preparar un traslado de matrícula en FP: centro de destino, expediente y requisitos territoriales. Ejemplo oficial de Extremadura 2026/27.",
+    "lead": "Si ya estás matriculado en FP y necesitas cambiar de centro durante el curso, consulta el procedimiento de traslado aplicable al destino. Confirma ciclo, modalidad, turno y disponibilidad antes de renunciar a tu matrícula. No existe una lista única de causas y plazos para toda España.",
+    "cta": {
+      "href": "https://doe.juntaex.es/pdfs/doe/2026/1020o/26061313.pdf",
+      "label": "Extremadura: traslado fuera de admisión, apartado trigésimo (PDF)"
+    },
+    "sources": [
+      {
+        "href": "https://doe.juntaex.es/pdfs/doe/2026/1020o/26061313.pdf",
+        "label": "Extremadura: admisión de grado medio y superior 2026/27"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+        "label": "Real Decreto 659/2023: documentos de evaluación y movilidad"
+      }
     ],
-    sections: [
+    "sections": [
       {
-        id: "no-abandones",
-        title: "Lo primero: no abandones la matrícula",
-        paragraphs: [
-          "El error clásico es anular la matrícula para \"empezar de cero\" en otro sitio. Si renuncias, dejas de ser alumno de ese ciclo y la plaza se libera al momento; para volver a entrar tendrás que esperar al siguiente proceso de admisión o a que queden vacantes, sin garantía ninguna. A mitad de curso no existe proceso ordinario: el acceso depende de plazas vacantes y de la decisión de la consejería. Conserva tu matrícula y tu plaza hasta que el cambio te lo confirmen por escrito en el centro de destino.",
-        ],
+        "id": "no-abandones",
+        "title": "Preparar la consulta al centro de destino",
+        "paragraphs": [
+          "Indica el ciclo exacto, curso, módulos superados, modalidad y turno. Pregunta si el cambio se gestiona como traslado de una matrícula activa o mediante admisión. Solicita las instrucciones por escrito y conserva tu matrícula mientras se concreta el cambio."
+        ]
       },
       {
-        id: "traslado",
-        title: "La vía correcta: el traslado de expediente",
-        paragraphs: [
-          "El mecanismo ordinario con el curso iniciado es el traslado de expediente. Primero, confirma con la secretaría del instituto de destino que hay vacante en tu ciclo y curso: sin hueco no hay traslado posible. Segundo, presenta la solicitud que exija tu comunidad: en varias administraciones se dirige a la consejería competente en FP, y en otras basta con el visto bueno de la dirección del centro de destino. Tercero, el centro de origen remite el expediente académico y la matrícula se traslada, no se extingue. El modelo concreto de solicitud y el órgano exacto cambian por comunidad: confírmalo en tu comunidad antes de mover ninguna pieza.",
-        ],
+        "id": "traslado",
+        "title": "Ejemplo: Extremadura, grado medio y superior 2026/27",
+        "paragraphs": [
+          "El apartado trigésimo permite solicitar traslado al centro de destino, mediante el anexo XI, para el mismo ciclo u otro con primer curso común, manteniendo modalidad y turno. El plazo va desde el final de admisión de la oferta modular hasta un mes antes de la evaluación final ordinaria. La admisión depende de vacantes y el destino solicita el expediente al centro de origen.",
+          "Este supuesto no establece una exigencia general de causa sobrevenida. No traslades sus fechas o su formulario a otra comunidad: consulta las instrucciones de tu destino."
+        ]
       },
       {
-        id: "causas",
-        title: "Causas sobrevenidas: qué cuenta y qué no",
-        paragraphs: [
-          "A mitad de curso las consejerías no admiten cambios por preferencia de horario o de claustro: piden una causa sobrevenida que justifique la petición. Las habituales son el cambio de domicilio, el traslado laboral de la familia o circunstancias que afecten al alumno y queden acreditadas. Cada comunidad regula sus supuestos y la documentación que los prueba (nuevo empadronamiento, contrato de trabajo, informe del centro). Reunir esos papeles antes de pedir cita en secretaría ahorra semanas de idas y vueltas: presentar la solicitud sin justificante suele acabar en un archivo directo.",
-        ],
+        "id": "expediente",
+        "title": "Qué debe quedar documentado",
+        "paragraphs": [
+          "La normativa estatal identifica los informes de evaluación y certificados académicos como documentos de movilidad. Reúne los datos de los centros y consulta qué documentación gestionan entre ellos y cuál debes aportar tú. Comprueba cómo se incorporarán módulos y calificaciones, especialmente si cambian los planes de estudio."
+        ]
       },
       {
-        id: "sin-plaza",
-        title: "¿Y si en el instituto de destino no hay plaza?",
-        paragraphs: [
-          "Si no hay vacante, el traslado no procede y toca gestionar alternativas sin perder la posición actual: entrar en la lista de espera del centro de destino, valorar la FP a distancia o semipresencial (misma titulación oficial, calendario más flexible) o terminar el curso donde estás y solicitar el cambio para el siguiente. La regla de oro se repite en todos los escenarios: no sueltes la matrícula que tienes hasta tener por escrito la nueva. Si lo que necesitas es el trámite equivalente en Primaria o Secundaria, está en la guía de cambiar de colegio a mitad de curso.",
-        ],
-      },
+        "id": "sin-plaza",
+        "title": "Si no hay vacante o el traslado no encaja",
+        "paragraphs": [
+          "Pide las alternativas de admisión o de continuidad antes de tomar una decisión. Cambiar de ciclo o modalidad puede requerir otro procedimiento. Una lista de espera no garantiza plaza y estudiar a distancia también exige cumplir requisitos y calendario."
+        ]
+      }
     ],
+    "related": [
+      {
+        "href": "/fp/reserva-de-plaza-fp",
+        "label": "Reserva y matrícula en FP"
+      },
+      {
+        "href": "/fp/convalidaciones-fp",
+        "label": "Convalidación y traslado de calificaciones"
+      },
+      {
+        "href": "/colegio/cambiar-de-colegio-a-mitad-de-curso",
+        "label": "Cambio de centro en enseñanza escolar"
+      }
+    ]
   },
   {
-    id: "documentosMatriculaEso",
-    pack: "fp",
-    path: "/fp/documentos-matricula-eso",
-    h1: "Documentos para la matrícula en ESO e instituto",
-    title: "Documentos matrícula ESO e instituto: checklist",
-    description:
-      "Identidad, certificado académico o informe de promoción, empadronamiento y foto: el checklist de la matrícula en ESO, la secretaría virtual y los casos de traslado de comunidad.",
-    lead:
-      "La matrícula en ESO se atasca casi siempre por lo mismo: un documento que falta. Aquí tienes el checklist completo (identidad, informe de promoción, empadronamiento, foto), cómo funciona la secretaría virtual que ya ofrecen varias comunidades y qué añadir si el alumno viene de otra comunidad, de un centro privado o de un sistema educativo extranjero.",
-    cta: { href: TODOFP_URL, label: "Todofp (oficial)" },
-    secondaryCta: { href: "/colegio/documentos-matricula-colegio", label: "Guía: documentos de matrícula en colegio" },
-    related: [
-      { href: "/colegio/documentos-matricula-colegio", label: "Documentos matrícula de colegio" },
-      { href: "/fp/reserva-de-plaza-fp", label: "Reserva de plaza en FP" },
-      { href: "/fp/cambiar-de-instituto-a-mitad-de-curso", label: "Cambiar de instituto a mitad de curso" },
-      { href: "/becas/mec", label: "Beca MEC" },
-    ],
-    sections: [
+    "id": "documentosMatriculaEso",
+    "pack": "fp",
+    "path": "/fp/documentos-matricula-eso",
+    "reviewedAt": "2026-09-16",
+    "h1": "Documentos para matricularse en ESO: qué comprobar",
+    "title": "Documentos para matricularse en ESO: qué comprobar",
+    "description": "Cómo preparar la matrícula de ESO y un cambio de centro. Incorporación desde estudios extranjeros sin homologación previa para cursar esta etapa.",
+    "lead": "Pide al instituto las instrucciones de matrícula de ESO para tu curso y situación. La documentación de continuidad, traslado y nueva admisión puede variar. Si el alumno llega de un sistema extranjero para incorporarse a un curso de ESO, no debe tramitar homologación o convalidación para esa incorporación.",
+    "cta": {
+      "href": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/catalogo/general/05/051270/ficha/051270.html",
+      "label": "Educación: cuándo se necesita homologación de estudios extranjeros"
+    },
+    "sources": [
       {
-        id: "checklist",
-        title: "El checklist de la matrícula",
-        paragraphs: ["Lo que pide la secretaría de cualquier instituto, con ligeras variantes por comunidad:"],
-        lists: [
+        "href": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/catalogo/general/05/051270/ficha/051270.html",
+        "label": "Ministerio de Educación: incorporación a Primaria y ESO"
+      },
+      {
+        "href": "https://secretariavirtual.juntadeandalucia.es/secretariavirtual/",
+        "label": "Andalucía: Secretaría Virtual de centros docentes"
+      }
+    ],
+    "sections": [
+      {
+        "id": "checklist",
+        "title": "Lista de preparación para consultar al instituto",
+        "paragraphs": [
+          "Confirma primero que hay plaza asignada o continuidad en el centro. Después solicita el formulario y la lista de documentos para tu caso. Prepara los datos de identificación y contacto del alumno y sus representantes, los datos del centro anterior y las instrucciones de elección de materias.",
+          "Pregunta qué acreditaciones exige el procedimiento y cuáles consulta la Administración. No des por obligatorios en todas las matrículas una foto, un certificado de padrón o una cuenta bancaria. Separa la matrícula de solicitudes adicionales, como ayudas o servicios escolares."
+        ]
+      },
+      {
+        "id": "informe-promocion",
+        "title": "Si cambia de centro o procede del extranjero",
+        "paragraphs": [
+          "Facilita al nuevo instituto los datos del centro de origen y los informes que tengas. Consulta cómo se solicita el expediente y cómo se determina el curso de incorporación; no presupongas que debes gestionar personalmente todos los documentos entre centros.",
+          "El Ministerio distingue incorporarse a Primaria o ESO de obtener la homologación de un título extranjero o acceder a otros estudios. Para cursar cualquiera de los cursos de ESO no exige trámite de convalidación. La valoración para asignar curso y apoyos se realiza en el proceso de escolarización."
+        ]
+      },
+      {
+        "id": "secretaria-virtual",
+        "title": "Presentación y justificante",
+        "paragraphs": [
+          "En Andalucía, la Secretaría Virtual publica el sobre de matrícula de ESO cuando está habilitado. Comprueba el curso y las opciones de acceso que muestra el trámite. Guardar un borrador no equivale a presentarlo: conserva el justificante final y revisa los avisos del centro. En otra comunidad, utiliza su propio canal."
+        ]
+      },
+      {
+        "id": "admision-vs-matricula",
+        "title": "Si todavía no tienes plaza",
+        "paragraphs": [
+          "La admisión asigna plaza; la matrícula la formaliza. Si llegáis con el curso empezado y no hay centro asignado, consulta al servicio de escolarización de la comunidad. No sustituyas esa gestión por enviar documentos de matrícula a un instituto que no ha confirmado la admisión."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "href": "/colegio/no-he-matriculado-a-mi-hijo",
+        "label": "Si el alumno todavía no tiene matrícula"
+      },
+      {
+        "href": "/colegio/cambio-de-colegio-por-mudanza",
+        "label": "Escolarización tras una mudanza"
+      },
+      {
+        "href": "/colegio/documentos-matricula-colegio",
+        "label": "Preparar la documentación escolar"
+      }
+    ]
+  },
+  {
+    "id": "reservaPlazaFp",
+    "pack": "fp",
+    "path": "/fp/reserva-de-plaza-fp",
+    "reviewedAt": "2026-09-16",
+    "h1": "Reserva de plaza en FP: adjudicación, matrícula y cupos",
+    "title": "Reserva de plaza en FP: adjudicación, matrícula y cupos",
+    "description": "Reserva, matrícula y lista de espera son estados distintos. Ejemplo de Andalucía 2026/27 y cupo de discapacidad: qué revisar tras la adjudicación.",
+    "lead": "Una plaza adjudicada puede exigir matrícula o permitir una reserva, según la fase y las reglas de tu comunidad. Comprueba la acción que debes presentar y su plazo: aparecer en una lista no sustituye ese trámite. La reserva de una adjudicación y el cupo de plazas para discapacidad son conceptos distintos.",
+    "cta": {
+      "href": "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/w/adjudicaciones-y-matricula",
+      "label": "Andalucía 2026/27: adjudicaciones, matrícula y reserva"
+    },
+    "sources": [
+      {
+        "href": "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/w/adjudicaciones-y-matricula",
+        "label": "Junta de Andalucía: opciones tras cada adjudicación"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+        "label": "Real Decreto 659/2023: admisión y reserva para discapacidad"
+      }
+    ],
+    "sections": [
+      {
+        "id": "adjudicacion-y-reserva",
+        "title": "Ejemplo: primera y segunda adjudicación en Andalucía",
+        "paragraphs": [
+          "En la primera adjudicación de grado medio y superior en oferta completa, obtener la primera petición obliga a matricularse. Si obtienes otra petición, puedes matricularte y terminar tu participación o reservar para intentar mejorar en la siguiente adjudicación.",
+          "En la segunda adjudicación, si obtienes plaza debes matricularte; si no es tu primera petición, sigues participando en listas de espera para opciones de mayor prioridad. Comprueba siempre la fase concreta antes de aplicar una instrucción."
+        ]
+      },
+      {
+        "id": "formalizar-o-perder",
+        "title": "Si no presentaste la acción o hay un error",
+        "paragraphs": [
+          "No matricularse o reservar cuando corresponde puede finalizar la participación, como explica la información andaluza. Conserva los justificantes y consulta el estado de tu solicitud. Si detectas un error en la adjudicación o tienes una resolución desfavorable, revisa el cauce de alegación o recurso indicado y su plazo. Presentarlo no garantiza recuperar la plaza ni amplía por sí solo el plazo de matrícula."
+        ]
+      },
+      {
+        "id": "plazas-discapacidad",
+        "title": "El cupo de discapacidad es otra reserva",
+        "paragraphs": [
+          "El Real Decreto 659/2023 fija una reserva mínima del 5 % para personas con discapacidad en la admisión a grado medio y superior. La convocatoria autonómica concreta la acreditación, distribución y gestión del cupo. Comprueba esos documentos al solicitar plaza; pertenecer a un cupo no garantiza obtener el ciclo elegido."
+        ]
+      },
+      {
+        "id": "listas-de-espera",
+        "title": "Cómo seguir una lista de espera",
+        "paragraphs": [
+          "Anota el canal de avisos, los datos de contacto registrados y el plazo para responder a un llamamiento. Consulta las listas que publique tu comunidad y conserva la solicitud. La posición no permite predecir cuántas renuncias habrá ni prometer una adjudicación en septiembre."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "href": "/fp/matricula-fp-en-septiembre",
+        "label": "Opciones de matrícula en septiembre"
+      },
+      {
+        "href": "/fp/cambiar-de-instituto-a-mitad-de-curso",
+        "label": "Trasladar una matrícula activa"
+      },
+      {
+        "href": "/fp/convalidaciones-fp",
+        "label": "Solicitar convalidaciones"
+      }
+    ]
+  },
+  {
+    "id": "calendarioVacunalMadrid",
+    "pack": "bebe",
+    "path": "/bebe/calendario-vacunal-madrid",
+    "reviewedAt": "2026-09-16",
+    "h1": "Calendario vacunal de Madrid 2026: dónde consultarlo",
+    "title": "Calendario vacunal Madrid 2026: documento oficial",
+    "description": "Acceso al calendario oficial de Madrid 2026, cómo localizar sus documentos y dónde consultar los registros individuales del bebé.",
+    "lead": "La Comunidad de Madrid reúne el calendario de vacunación para toda la vida y su nota informativa de 2026 en la página oficial de vacunas. Abre el apartado del calendario para consultar el documento vigente; para dudas sobre el caso de tu hijo, acude a su profesional sanitario.",
+    "cta": {
+      "href": "https://www.comunidad.madrid/salud/vacunas",
+      "label": "Abrir el calendario oficial de la Comunidad de Madrid"
+    },
+    "sources": [
+      {
+        "href": "https://www.comunidad.madrid/salud/vacunas",
+        "label": "Comunidad de Madrid: calendario y centros de vacunación"
+      },
+      {
+        "href": "https://www.comunidad.madrid/salud/mi-carpeta-salud",
+        "label": "Mi Carpeta de Salud: contenido y condiciones de acceso"
+      }
+    ],
+    "sections": [
+      {
+        "id": "documento-oficial",
+        "title": "Cómo localizar el calendario y su versión",
+        "paragraphs": [
+          "En la página regional, busca Calendario de Vacunación para toda la vida. Allí están el calendario y la nota informativa de 2026. Comprueba la edición dentro del documento antes de guardar una copia: un archivo antiguo en el móvil puede no reflejar la versión que publica la Comunidad.",
+          "El calendario general no es un certificado personal ni acredita las vacunas administradas a un bebé. Si necesitas justificar datos individuales, sigue la guía de documentos enlazada al final."
+        ]
+      },
+      {
+        "id": "centro-de-salud",
+        "title": "Preparar una consulta en tu centro",
+        "paragraphs": [
+          "La Comunidad identifica los centros de salud y otros centros autorizados como lugares de vacunación. Contacta con el centro del menor para concretar el canal de cita y lleva los registros que conserves. Las dudas sobre indicaciones, antecedentes o pautas pendientes deben resolverlas los profesionales sanitarios."
+        ]
+      },
+      {
+        "id": "registro-individual",
+        "title": "Dónde pedir el registro de un bebé",
+        "paragraphs": [
+          "Mi Carpeta de Salud muestra vacunas registradas en Atención Primaria, pero su acceso individual está dirigido a personas a partir de 16 años con tarjeta sanitaria activa en Madrid. Esa vía no acredita que puedas descargar el historial de un bebé desde la cuenta de su progenitor. Consulta al centro de salud cómo obtener el documento del menor y acreditar la representación."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "href": "/bebe/certificado-vacunacion-descargar",
+        "label": "Obtener un documento individual de vacunación"
+      },
+      {
+        "href": "/bebe/tarjeta-sanitaria-bebe",
+        "label": "Tarjeta sanitaria del bebé"
+      },
+      {
+        "href": "/bebe/calendario-vacunal-castilla-y-leon",
+        "label": "Calendario de Castilla y León"
+      },
+      {
+        "href": "/bebe/calendario-vacunal-por-comunidad",
+        "label": "Calendario según la comunidad"
+      }
+    ],
+    "disclaimer": DISCLAIMER_MEDICO
+  },
+  {
+    "id": "calendarioVacunalCastillaYLeon",
+    "pack": "bebe",
+    "path": "/bebe/calendario-vacunal-castilla-y-leon",
+    "h1": "Calendario vacunal de Castilla y León 2026: documento oficial",
+    "title": "Calendario vacunas Sacyl 2026 (Castilla y León): PDF oficial",
+    "description": "Calendario de vacunación Sacyl 2026 en Castilla y León: PDF oficial, documentos técnicos y canales de cita. Consulta administrativa, no sustituye al profesional sanitario.",
+    "lead": "Sacyl publica el calendario de vacunaciones e inmunizaciones para toda la vida de Castilla y León 2026, con su PDF y documentación técnica. Aquí tienes el acceso directo y los canales para preparar una consulta. Las pautas individuales deben revisarse con el profesional sanitario.",
+    "reviewedAt": "2026-09-14",
+    "cta": {
+      "href": "https://www.saludcastillayleon.es/profesionales/es/vacunaciones/nuevo-calendario-vacunaciones-inmunizaciones-toda-vida-cast",
+      "label": "Abrir el calendario oficial de Castilla y León 2026"
+    },
+    "secondaryCta": {
+      "href": "https://www.saludcastillayleon.es/es/citaprevia",
+      "label": "Cita previa con el centro de salud"
+    },
+    "sources": [
+      {
+        "href": "https://www.saludcastillayleon.es/profesionales/es/vacunaciones/nuevo-calendario-vacunaciones-inmunizaciones-toda-vida-cast",
+        "label": "Sacyl: calendario regional 2026 y adjuntos"
+      },
+      {
+        "href": "https://www.saludcastillayleon.es/es/sacylconecta",
+        "label": "Sacyl: aplicación oficial SACYL Conecta"
+      },
+      {
+        "href": "https://www.saludcastillayleon.es/es/citaprevia",
+        "label": "Sacyl: canales de cita previa"
+      }
+    ],
+    "disclaimer": "Guía administrativa. No somos Administración Pública. No reproduce dosis ni recomienda vacunas para un caso individual. Consulta el calendario oficial y a tu profesional sanitario.",
+    "related": [
+      {
+        "href": "/bebe/tarjeta-sanitaria-bebe",
+        "label": "Tarjeta sanitaria del bebé"
+      },
+      {
+        "href": "/bebe/cartilla-vacunacion-digital",
+        "label": "Cartilla de vacunación digital"
+      },
+      {
+        "href": "/bebe/calendario-vacunal-madrid",
+        "label": "Calendario de Madrid"
+      },
+      {
+        "href": "/bebe/calendario-vacunal-por-comunidad",
+        "label": "Calendario según la comunidad"
+      }
+    ],
+    "sections": [
+      {
+        "id": "donde-esta-oficial-cyl",
+        "title": "Dónde descargar el calendario de 2026",
+        "paragraphs": [
+          "En la página oficial enlazada, busca el adjunto «calendario vacunal (Portal) 2026». La misma página reúne la orden autonómica y las instrucciones técnicas. El calendario común del Ministerio y el calendario de Castilla y León son documentos distintos: utiliza la fuente regional para consultar lo publicado por Sacyl."
+        ],
+        "lists": [
           [
-            "Identidad del alumno: DNI si lo tiene o certificado literal de nacimiento; y DNI de quien ejerce la patria potestad.",
-            "Certificado académico o informe de promoción del curso anterior: lo emite el centro de origen y acredita el curso al que se accede.",
-            "Volante o certificado de empadronamiento: varias comunidades lo exigen para asignar centro por zona de escolarización.",
-            "Fotografía tipo carné del alumno, en el formato que indique la secretaría.",
-            "Número de cuenta bancaria y datos económicos si vais a solicitar beca o bonificación de comedor.",
-            "Autorizaciones firmadas del primer paquete de documentos: salidas, comedor, derecho de imagen.",
-          ],
-        ],
+            "Comprueba el año en el título antes de guardar el documento.",
+            "Guarda también el enlace a la página oficial para volver a sus actualizaciones.",
+            "Si tienes una copia de otro año o comunidad, lleva ambas a la consulta y explica de dónde procede cada una."
+          ]
+        ]
       },
       {
-        id: "informe-promocion",
-        title: "El informe de promoción, la pieza que más retrasa",
-        paragraphs: [
-          "El certificado académico o informe de promoción es el documento que prueba que el alumno promociona al curso siguiente, y sin él la secretaría no puede cerrar la matrícula en el curso correcto. Se pide en el centro donde se cursó el año anterior, normalmente en junio junto con las notas finales. Si vais a cambiar de comunidad o de ciudad, solicítalo antes de irte: pedirlo a distancia después es posible, pero añade semanas. Para alumnos que llegan de un sistema extranjero, lo que se pide es la homologación o convalidación de estudios: es un trámite del Ministerio con su propio plazo, así que arráncalo cuanto antes y confírmalo en tu comunidad.",
+        "id": "sacyl-conecta",
+        "title": "Cómo gestionar la cita",
+        "paragraphs": [
+          "SACYL Conecta permite acceder a la gestión de citas del centro de salud y a documentación clínica. La página de cita previa reúne los canales disponibles. No damos por hecho que cualquier cita o documento esté habilitado para todos los usuarios."
         ],
-      },
-      {
-        id: "secretaria-virtual",
-        title: "Matrícula sin pisar el instituto: la secretaría virtual",
-        paragraphs: [
-          "Varias comunidades ya tramitan la matrícula de ESO en la secretaría virtual de sus centros educativos: se suben los documentos escaneados y se firma digitalmente, sin colas en septiembre. Andalucía, por ejemplo, lleva años tramitando por esta vía con su secretaría virtual de centros. Necesitarás identificación digital (certificado electrónico o Cl@ve) y los PDF legibles de todo el checklist. Ojo con dos detalles: las fechas de la ventanilla virtual son las mismas que las presenciales, y si un documento se rechaza te llega un aviso a la notificación del expediente, no un teléfono: revisa el estado del trámite cada pocos días hasta que conste como admitido.",
-        ],
-      },
-      {
-        id: "admision-vs-matricula",
-        title: "No confundas admisión con matrícula",
-        paragraphs: [
-          "La admisión es el proceso previo con el que se adjudica plaza (solicitud, baremación, sorteo, lista de admitidos); la matrícula es el trámite posterior en el que presentas los documentos de este checklist y formalizas la plaza en el centro que te ha tocado. Si el alumno ya tiene plaza adjudicada en el instituto, solo toca la segunda parte. Si no presentaste solicitud o llegáis de otra ciudad, consulta la guía de qué hacer cuando no se ha matriculado al hijo. Y para primeras edades o centros concertados, el checklist detallado por tramos está en la guía de documentos de matrícula de colegio.",
-        ],
-      },
-    ],
-  },
-  {
-    id: "reservaPlazaFp",
-    pack: "fp",
-    path: "/fp/reserva-de-plaza-fp",
-    h1: "Reserva de plaza en FP: cómo funciona de verdad",
-    title: "Reserva de plaza en FP: adjudicación y plazos",
-    description:
-      "Qué significa plaza adjudicada y reserva en FP: formalizar dentro del plazo o perderla a favor del siguiente, plazas reservadas para discapacidad ≥33% y listas de espera.",
-    lead:
-      "Conseguir plaza en FP es solo la mitad del trabajo: la plaza se conserva formalizando la matrícula dentro del plazo publicado, y si dejas pasar la fecha, pasa al siguiente de la lista sin reclamación posible. Esta guía explica el orden de adjudicación, qué es exactamente la reserva, las plazas reservadas para discapacidad igual o superior al 33% y cómo se mueven las listas de espera.",
-    cta: { href: TODOFP_URL, label: "Todofp (oficial)" },
-    secondaryCta: { href: "/fp/matricula-fp-en-septiembre", label: "Guía: matricularse en FP en septiembre" },
-    related: [
-      { href: "/fp/matricula-fp-en-septiembre", label: "Matricularse en FP en septiembre" },
-      { href: "/fp/convalidaciones-fp", label: "Convalidaciones de FP" },
-      { href: "/fp/documentos-matricula-eso", label: "Documentos matrícula ESO" },
-      { href: "/fp/cambiar-de-instituto-a-mitad-de-curso", label: "Cambiar de instituto a mitad de curso" },
-    ],
-    sections: [
-      {
-        id: "adjudicacion-y-reserva",
-        title: "Adjudicación y reserva: dos palabras distintas",
-        paragraphs: [
-          "En el proceso de admisión de FP, cada comunidad ordena las solicitudes según criterios públicos (el expediente académico en la mayoría de ellas, con sus ponderaciones publicadas) y publica las listas de adjudicación: ahí aparece quién obtiene plaza en cada ciclo y centro. La palabra \"reserva\" designa esa plaza bloqueada a tu nombre mientras formalizas la matrícula: la tienes ganada, pero no es tuya hasta que presentas la documentación en el plazo. La cita exacta que importa es la de la notificación de adjudicación: contiene la fecha límite de matrícula, y esa fecha no se negocia en la secretaría del centro.",
-        ],
-      },
-      {
-        id: "formalizar-o-perder",
-        title: "No formalizar a tiempo equivale a perder la plaza",
-        paragraphs: [
-          "Es la regla menos popular y la más estricta: si te adjudican plaza y no formalizas la matrícula dentro del plazo indicado, la plaza se ofrece automáticamente al siguiente solicitante de la lista y tu solicitud queda agotada. No existe la matrícula \"con retraso justificado\" fuera del calendario: el sistema necesita rellenar los huecos antes de que empiece el curso. Añade a tu calendario la fecha límite el mismo día en que veas la lista de admitidos, y si te es imposible acudir en persona, comprueba si tu comunidad permite la matrícula electrónica en la secretaría virtual del centro. Si ya la has perdido, la vía es el proceso extraordinario de septiembre, no la reclamación.",
-        ],
-      },
-      {
-        id: "plazas-discapacidad",
-        title: "Plazas reservadas: discapacidad igual o superior al 33%",
-        paragraphs: [
-          "La normativa de FP reserva un porcentaje de plazas de cada ciclo para solicitantes con discapacidad reconocida igual o superior al 33%, y en varios procesos existe además una bolsa de reserva para estos efectos. Para optar a la reserva hay que acreditar el grado de discapacidad con el certificado correspondiente en el momento de presentar la solicitud, no después de la adjudicación. Si las plazas reservadas quedan desiertas, la comunidad decide si se liberan al turno general según sus propias instrucciones: confírmalo en tu comunidad. Y si optas por el turno ordinario teniendo reconocida la discapacidad, revisa qué baremo aplica tu consejería en cada caso.",
-        ],
-      },
-      {
-        id: "listas-de-espera",
-        title: "Listas de espera: cómo se mueven de verdad",
-        paragraphs: [
-          "Cada ciclo y centro publica su lista de espera ordenada con los mismos criterios de adjudicación, y las posiciones suben por dos motivos: renuncias de adjudicatarios y plazas no formalizadas dentro de plazo. El movimiento se concentra entre julio y octubre, con un pico final en las primeras semanas de septiembre, cuando caen las matrículas de quienes eligieron otra opción. Si estás en lista, mira tu número pero también el histórico de movimientos del ciclo (varias consejerías lo publican): da una idea realista de si te llegará. Mientras esperas, no dejes pasar la matrícula extraordinaria de septiembre ni descartes la FP a distancia como red de seguridad.",
-        ],
-      },
-    ],
-  },
-  {
-    id: "calendarioVacunalMadrid",
-    pack: "bebe",
-    path: "/bebe/calendario-vacunal-madrid",
-    h1: "Calendario vacunal de la Comunidad de Madrid: dónde está el oficial",
-    title: "Calendario vacunal Comunidad de Madrid: enlace oficial",
-    description:
-      "Dónde está el calendario vacunal oficial de Madrid, cómo se pide cita en el centro de salud y qué documento puede pedir el colegio (informativo, nunca condición de matrícula).",
-    lead:
-      "Esta guía es solo administrativa: dónde está el calendario vacunal oficial de la Comunidad de Madrid, cómo se pide cita en el centro de salud y qué papel puede pedir un colegio. Para cualquier decisión clínica, el documento oficial de la comunidad y tu pediatra son la referencia, y aquí no encontrarás pautas ni edades.",
-    cta: { href: SANIDAD_CALENDARIO_URL, label: "Calendario vacunal oficial (Sanidad)" },
-    related: [
-      { href: "/bebe/calendario-vacunal-castilla-y-leon", label: "Calendario vacunal Castilla y León" },
-      { href: "/bebe/certificado-vacunacion-descargar", label: "Descargar el certificado de vacunación" },
-      { href: "/bebe/cartilla-vacunacion-digital", label: "Cartilla de vacunación digital" },
-      { href: "/bebe/tarjeta-sanitaria-bebe", label: "Tarjeta sanitaria del bebé" },
-    ],
-    disclaimer: DISCLAIMER_MEDICO,
-    sections: [
-      {
-        id: "donde-esta-oficial",
-        title: "Dónde está el calendario oficial de Madrid",
-        paragraphs: [
-          "El Ministerio de Sanidad publica en su web la página que enlaza los calendarios vacunales de todas las comunidades autónomas: es el punto de partida fiable, y está enlazada en el botón de arriba. La Comunidad de Madrid publica además el suyo propio en el portal de su consejería de Sanidad, con el documento oficial que actualiza cada temporada. Lo que no debes fiar es de los resúmenes que circulan por grupos de WhatsApp ni de blogs sin fecha: un calendario caducado administrativamente vale menos que ninguno. Cuando cambie el año escolar o sanitario, vuelve a comprobar la versión vigente: las comunidades revisan su calendario con periodicidad y la que vale es siempre la actual, no la captura que guardaste en el móvil.",
-        ],
-      },
-      {
-        id: "cita-centro-salud",
-        title: "Cómo se pide cita en el centro de salud",
-        paragraphs: [
-          "En Madrid, como en el resto de comunidades, la vacunación del calendario se gestiona en atención primaria: en el centro de salud que corresponde a tu domicilio y con el pediatra asignado al bebé. La cita se pide por los canales de cita previa de la sanidad madrileña (portal web y teléfono) o en el mostrador administrativo del propio centro. Lleva la tarjeta sanitaria del bebé; si aún no la ha recibido, el primer paso es el alta como beneficiario en la Seguridad Social y la tarjeta en el centro de salud, un trámite que ordena la guía de la tarjeta sanitaria del bebé. Si el canal de cita no ofrece hueco, prueba también por teléfono de tu centro concreto y en franjas distintas: la disponibilidad depende de la agenda publicada por cada centro y puede cambiar.",
-        ],
-      },
-      {
-        id: "que-pide-el-cole",
-        title: "Qué papel pide el colegio (y qué no puede hacer)",
-        paragraphs: [
-          "En la matrícula y en los formularios de inicio de curso, los centros pueden pedir la cartilla o el certificado de vacunación como documentación informativa: sirve al equipo del centro para conocer la situación administrativa del alumno. Como regla general, la cartilla no es un requisito de acceso a la enseñanza obligatoria, pero el formulario y las excepciones se comprueban en la comunidad y el centro concretos. Si te plantean \"todas las vacunas al día\" como condición de matrícula, pide que te indiquen la base normativa y, si persiste el impedimento, reclámalo por escrito ante la dirección y la consejería competente.",
-        ],
-      },
-      {
-        id: "documento-oficial",
-        title: "El papel con valor oficial",
-        paragraphs: [
-          "El certificado de vacunación es el documento que suele emitir la comunidad a partir de su registro nominal; en Madrid puedes obtenerlo por las vías de salud digital o en tu centro de salud. La guía de descarga detalla las opciones y qué hacer si te mudaste de comunidad y el registro está en otra. Esta página no reproduce pautas, dosis ni edades: el contenido clínico del calendario debe consultarse en el documento oficial y con tu pediatra.",
-        ],
-      },
-    ],
-  },
-  {
-    id: "calendarioVacunalCastillaYLeon",
-    pack: "bebe",
-    path: "/bebe/calendario-vacunal-castilla-y-leon",
-    h1: "Calendario vacunal de Castilla y León (Sacyl): enlace oficial",
-    title: "Calendario vacunal Castilla y León: enlace oficial",
-    description:
-      "Dónde está el calendario vacunal oficial de Castilla y León (saludcastillayleon.es), cómo usar SACYL Conecta para la cita y qué documento pide el colegio. Guía administrativa.",
-    lead:
-      "Guía estrictamente administrativa del calendario vacunal de Castilla y León: dónde publica Sacyl el documento oficial, cómo funciona SACYL Conecta como vía digital para la cita y qué papel puede pedir el colegio (informativo, nunca condición de matrícula). Sin pautas clínicas: para eso están el calendario oficial y tu pediatra.",
-    cta: { href: "https://www.saludcastillayleon.es/", label: "Sanidad de Castilla y León (Sacyl)" },
-    related: [
-      { href: "/bebe/calendario-vacunal-madrid", label: "Calendario vacunal Madrid" },
-      { href: "/bebe/certificado-vacunacion-descargar", label: "Descargar el certificado de vacunación" },
-      { href: "/bebe/cartilla-vacunacion-digital", label: "Cartilla de vacunación digital" },
-      { href: "/bebe/tarjeta-sanitaria-bebe", label: "Tarjeta sanitaria del bebé" },
-    ],
-    disclaimer: DISCLAIMER_MEDICO,
-    sections: [
-      {
-        id: "donde-esta-oficial-cyl",
-        title: "Dónde está el calendario oficial de CyL",
-        paragraphs: [
-          "El calendario vacunal de Castilla y León lo publica el servicio de salud de la comunidad en su portal oficial, saludcastillayleon.es, que es el enlace del botón de arriba. El Ministerio de Sanidad mantiene además la página que agrega los calendarios de todas las comunidades, útil para comparar si acabas de llegar de otra región. La regla es la misma para todos: el documento que vale es el oficial y vigente de la consejería, no resúmenes de terceros. Si el PDF que tienes guardado es de una temporada anterior, descarga la versión actual antes de planificar nada: las comunidades actualizan sus calendarios con periodicidad y confírmalo siempre en tu comunidad.",
-        ],
-      },
-      {
-        id: "sacyl-conecta",
-        title: "SACYL Conecta: la vía digital",
-        paragraphs: [
-          "SACYL Conecta es el canal digital de la sanidad castellanoleonesa: su aplicación y su web permiten identificarte, gestionar cita de atención primaria y consultar información de tu historia clínica desde el móvil. Para lo que aquí importa, su función es administrativa: localizar tu centro de salud, pedir la cita y consultar los documentos que Sacyl ponga a tu disposición en cada momento. Si no usas aplicaciones o no tienes certificado digital, el mostrador administrativo de tu centro de salud hace exactamente lo mismo en persona: la vía digital es una opción de comodidad, no una obligación. Y si al identificarte el sistema no te localiza, revisa primero que tus datos de filiación estén actualizados en el centro.",
-        ],
-      },
-      {
-        id: "cita-y-papel-del-cole",
-        title: "La cita en el centro de salud y el papel del cole",
-        paragraphs: [
-          "La vacunación del calendario se gestiona en atención primaria: en el centro de salud que te corresponde por domicilio y con el pediatra asignado al bebé, previa cita por cualquiera de los canales de Sacyl. En la matrícula escolar, el colegio puede pedir la cartilla o el certificado de vacunación como documento informativo para el expediente del alumno; ningún centro puede rechazar la escolarización por no presentarla, y si te lo plantean como condición, reclámalo por escrito ante la dirección y la consejería. El papel con valor oficial es el certificado de vacunación: cómo descargarlo por las tres vías (incluido el cambio de comunidad) está en la guía de descarga del certificado.",
-        ],
-      },
-    ],
-  },
-  {
-    id: "certificadoVacunacionDescargar",
-    pack: "bebe",
-    path: "/bebe/certificado-vacunacion-descargar",
-    h1: "Descargar el certificado de vacunación: vías por comunidad",
-    title: "Certificado de vacunación: cómo descargarlo",
-    description:
-      "Cómo descargar el certificado de vacunación en cada comunidad: carpeta de salud digital, app sanitaria regional o centro de salud en papel. Para matrícula y extraescolares.",
-    lead:
-      "El certificado de vacunación es el papel que piden colegios, guarderías y organizadores de extraescolares, y descargarlo es trámite de administración sanitaria, no de pediatría. Estas son las tres vías para conseguirlo en España, qué hacer si cambiaste de comunidad (se pide en la de origen) y cómo pedirlo en papel cuando lo digital falla.",
-    cta: { href: SANIDAD_CALENDARIO_URL, label: "Calendario vacunal oficial (Sanidad)" },
-    secondaryCta: { href: "/bebe/cartilla-de-vacunacion-donde-se-saca", label: "Guía: dónde se saca la cartilla" },
-    related: [
-      { href: "/bebe/cartilla-de-vacunacion-donde-se-saca", label: "Dónde se saca la cartilla" },
-      { href: "/bebe/cartilla-vacunacion-digital", label: "Cartilla de vacunación digital" },
-      { href: "/bebe/calendario-vacunal-madrid", label: "Calendario vacunal Madrid" },
-      { href: "/bebe/tarjeta-sanitaria-bebe", label: "Tarjeta sanitaria del bebé" },
-    ],
-    disclaimer: DISCLAIMER_MEDICO,
-    sections: [
-      {
-        id: "tres-vias",
-        title: "Las tres vías para conseguirlo",
-        paragraphs: ["El certificado oficial se obtiene por alguna de estas vías, según lo que ofrezca tu comunidad:"],
-        lists: [
+        "lists": [
           [
-            "Carpeta de salud digital de tu comunidad: entra con certificado electrónico, Cl@ve o el sistema de identidad regional y busca el certificado o informe de vacunación descargable.",
-            "App sanitaria regional: donde la comunidad la tenga, el documento aparece en el apartado de documentos o historia de salud de la aplicación.",
-            "En papel en el centro de salud: la unidad administrativa o tu profesional de primaria lo emiten en el propio centro, con cita o en el mostrador según la organización de cada servicio de salud.",
-          ],
-        ],
+            "Accede desde los enlaces oficiales de esta guía.",
+            "Comprueba que estás gestionando los datos de la persona que necesita atención.",
+            "Si no encuentras el motivo adecuado o el sistema no reconoce tus datos, contacta con tu centro.",
+            "Guarda el justificante y comprueba centro, fecha y profesional."
+          ]
+        ]
       },
       {
-        id: "para-que-sirve",
-        title: "Para qué te lo van a pedir",
-        paragraphs: [
-          "Los usos administrativos habituales son la matrícula escolar, la inscripción en guarderías y algunas extraescolares o actividades municipales. El organismo puede pedir la cartilla, un certificado o un formato propio; confirma qué acepta antes de entregar la documentación. El certificado oficial acredita los datos que constan en el registro de tu comunidad, pero no sustituye automáticamente cualquier formulario local.",
-        ],
+        "id": "preparar-consulta",
+        "title": "Qué preparar si te has mudado o falta información",
+        "paragraphs": [
+          "Organiza la cartilla, informes y documentos de los que ya dispongas por fecha y comunidad de origen. Anota qué información no aparece para preguntarlo en consulta. No completes por tu cuenta registros de vacunas ni interpretes una ausencia en la aplicación como prueba de que no se administró una dosis.",
+          "Si un colegio u otra entidad solicita un documento, pide que precise cuál necesita, para qué finalidad y cómo entregarlo. Después consulta con el centro sanitario cómo obtenerlo. El calendario publicado no es un certificado personal de vacunación."
+        ]
       },
       {
-        id: "cambiaste-de-comunidad",
-        title: "Si cambiaste de comunidad, pídelo en la de origen",
-        paragraphs: [
-          "Los registros nominales de vacunación son autonómicos y el historial no viaja solo de una comunidad a otra: si el bebé se vacunó en una comunidad y ahora vivís en otra, el certificado completo se pide en la comunidad donde se administraron las dosis, por sus propias vías digitales o en su centro de salud. Después puedes entregar ese documento donde te lo pidan, o aportarlo a tu nuevo centro de salud para que conste en la nueva historia. No pidas el certificado en la comunidad de destino esperando que traiga los datos de la anterior: te emitirán solo lo que consta en su registro, y si está vacío no es un error del sistema, es que los datos siguen en el registro de origen.",
-        ],
-      },
-      {
-        id: "si-falla-lo-digital",
-        title: "Si la vía digital te falla",
-        paragraphs: [
-          "No tienes certificado digital, la app no te reconoce o el documento no aparece: la solución es presencial, en tu centro de salud, donde pueden emitirlo en papel a partir del registro nominal. Que hayas perdido la cartilla física no es impedimento: lo administrado por el sistema público de tu comunidad consta en su registro, y el certificado puede expedirse en cualquier momento. Los pasos completos de dónde se entrega la cartilla y quién la rellena están en la guía de la cartilla de vacunación.",
-        ],
-      },
-    ],
+        "id": "consultas-frecuentes-cyl",
+        "title": "Dudas administrativas habituales",
+        "paragraphs": [
+          "¿Basta con una captura del calendario? Sirve para localizar información general, pero no identifica las vacunas registradas de una persona. Para acreditar información individual, confirma el documento que pide la entidad destinataria.",
+          "¿Qué hago si el enlace del PDF cambia? Vuelve a la página regional y abre el archivo desde sus adjuntos. Esa es la razón de enlazar la página que los reúne.",
+          "¿Y si tengo una duda sobre una dosis o una edad? Anótala y consúltala con tu profesional sanitario; esta guía solo ayuda a localizar los canales y documentos."
+        ]
+      }
+    ]
   },
   {
-    id: "cartillaVacunacionDigital",
-    pack: "bebe",
-    path: "/bebe/cartilla-vacunacion-digital",
-    h1: "Cartilla de vacunación digital: qué comunidades la tienen",
-    title: "Cartilla de vacunación digital por comunidades",
-    description:
-      "Qué es la cartilla de vacunación digital, en qué comunidades está disponible en la app sanitaria, por qué el papel sigue siendo válido y cómo pedir un duplicado.",
-    lead:
-      "La cartilla de vacunación digital es el documento de siempre consultado en la app sanitaria de tu comunidad: en lugar de sellos en papel, el registro nominal de vacunas visto en pantalla. Esta guía explica qué comunidades la ofrecen, por qué el papel sigue siendo plenamente válido y qué trámite sustituye a la cartilla si la perdiste. Estrictamente administrativa: sin pautas ni consejo clínico.",
-    cta: { href: SANIDAD_CALENDARIO_URL, label: "Calendario vacunal oficial (Sanidad)" },
-    related: [
-      { href: "/bebe/certificado-vacunacion-descargar", label: "Descargar el certificado de vacunación" },
-      { href: "/bebe/cartilla-de-vacunacion-donde-se-saca", label: "Dónde se saca la cartilla" },
-      { href: "/bebe/calendario-vacunal-castilla-y-leon", label: "Calendario vacunal Castilla y León" },
-      { href: "/bebe/tarjeta-sanitaria-bebe", label: "Tarjeta sanitaria del bebé" },
+    "id": "certificadoVacunacionDescargar",
+    "pack": "bebe",
+    "path": "/bebe/certificado-vacunacion-descargar",
+    "reviewedAt": "2026-09-16",
+    "h1": "Cómo obtener un documento de vacunación del menor",
+    "title": "Certificado de vacunación: descarga y alternativas",
+    "description": "Descarga del estado vacunal en Cataluña, límites del acceso en Madrid y qué consultar al centro si falta información. No hay una vía idéntica para toda España.",
+    "lead": "Para obtener un documento de vacunación, identifica el servicio de salud que conserva los registros y confirma el acceso al perfil del menor. Aquí se explica una descarga comprobada en Cataluña y la limitación del portal de Madrid; no es un directorio de todas las comunidades.",
+    "cta": {
+      "href": "https://lamevasalut.gencat.cat/web/cps/ajuda/serveis/informacio-clinica",
+      "label": "Cataluña: instrucciones del documento de estado vacunal"
+    },
+    "sources": [
+      {
+        "href": "https://lamevasalut.gencat.cat/web/cps/ajuda/serveis/informacio-clinica",
+        "label": "La Meva Salut: descarga de Estat vacunal"
+      },
+      {
+        "href": "https://lamevasalut.gencat.cat/web/cps/ajuda/preguntes-frequents",
+        "label": "La Meva Salut: acceso al perfil de menores"
+      },
+      {
+        "href": "https://www.comunidad.madrid/salud/mi-carpeta-salud",
+        "label": "Madrid: acceso individual a Mi Carpeta de Salud"
+      },
+      {
+        "href": "https://www.comunidad.madrid/hospital/atencionprimaria/ciudadanos/tramites-administrativos",
+        "label": "Madrid: trámites y traslado de historia clínica"
+      }
     ],
-    disclaimer: DISCLAIMER_MEDICO,
-    sections: [
+    "sections": [
       {
-        id: "que-es",
-        title: "Qué es y qué comunidades la ofrecen",
-        paragraphs: [
-          "No existe una cartilla digital única a nivel nacional: cada servicio de salud decide si muestra el registro de vacunas en su app o portal sanitario y con qué nombre lo llama. Varias comunidades ya lo incluyen entre los documentos de su historia de salud digital; otras, en cambio, solo emiten el certificado de vacunación a petición del interesado. Si quieres usarla, búscala en el apartado de documentos o historia de tu app sanitaria regional y, si no aparece, confírmalo en tu comunidad: la disponibilidad cambia entre servicios de salud y no siempre está anunciada en portada.",
-        ],
+        "id": "cataluna",
+        "title": "Cataluña: descargar Estat vacunal",
+        "paragraphs": [
+          "En el perfil correspondiente de La Meva Salut, abre Informació clínica y después Vacunes i altres immunitzacions. El documento Estat vacunal se descarga en PDF con los datos que constan en la historia compartida. El Justificant vacunal de COVID-19 es un documento distinto y no sustituye el conjunto del registro.",
+          "Para un hijo, primero debe estar habilitado el acceso a su perfil. Las preguntas frecuentes oficiales explican la solicitud en el CAP; entre los 16 y los 18 años se requiere el consentimiento del menor. Comprueba el nombre del titular del PDF antes de utilizarlo."
+        ]
       },
       {
-        id: "papel-sigue-valido",
-        title: "El papel sigue siendo válido",
-        paragraphs: [
-          "Que tu comunidad ofrezca cartilla digital no invalida por sí solo la cartilla física que te entregaron en el centro de salud. La aceptación del papel, la app o un certificado descargado depende del organismo que te lo pida; confirma el formato si es para matrícula, guardería o una actividad. No hay una obligación general de migrar a la versión digital.",
-        ],
+        "id": "madrid",
+        "title": "Madrid: consultar la vía del menor con el centro",
+        "paragraphs": [
+          "La información oficial de Mi Carpeta de Salud limita su acceso individual a partir de 16 años y con tarjeta activa. Para el documento de un bebé, consulta al centro cómo solicitarlo y acreditar la representación. No presupongas que iniciar sesión como adulto te dará acceso al historial del niño."
+        ]
       },
       {
-        id: "duplicado",
-        title: "¿Perdiste la cartilla? El duplicado es el certificado",
-        paragraphs: [
-          "Si pierdes la cartilla, pregunta por el certificado oficial de vacunación: suele descargarse desde la salud digital de tu comunidad o solicitarse en el centro de salud. Su utilidad y el formato aceptado dependen del organismo que te lo pida. Las dosis administradas por el sistema público suelen constar en el registro nominal de la comunidad, aunque puede ser necesario corregir datos o pedir información a la comunidad de origen. La guía de descarga recorre las vías disponibles y el caso de una mudanza.",
-        ],
+        "id": "faltan-datos",
+        "title": "Si te has mudado o falta información",
+        "paragraphs": [
+          "Revisa qué registros aparecen y conserva las cartillas o informes anteriores. Pregunta al nuevo centro cómo completar o trasladar la información: Atención Primaria de Madrid contempla la solicitud de traslado de historia clínica desde otra comunidad. No des por hecho que todo se ha transferido ni que un registro vacío sea correcto.",
+          "Si necesitas datos que no aparecen, contacta también con el centro que los generó. Evita editar el PDF por tu cuenta: pide que comprueben el registro y cómo obtener el documento corregido."
+        ]
       },
       {
-        id: "errores-de-registro",
-        title: "Si el registro muestra un dato mal",
-        paragraphs: [
-          "Un apunte puramente administrativo: si al abrir la cartilla digital falta un registro o un dato aparece mal escrito, la corrección se pide en el propio centro de salud, que es quien accede al registro nominal y tramita la subsanación ante el servicio de salud. Es una rectificación de expediente, igual que corregir un apellido mal escrito en cualquier documento oficial. Lo que no procede es arrastrar el error: un certificado con datos incompletos puede dar problemas justo en la ventanilla del colegio o de la extraescolar que lo pida.",
-        ],
-      },
+        "id": "formato",
+        "title": "Comprobar qué documento acepta la entidad",
+        "paragraphs": [
+          "Antes de entregarlo, confirma si solicitan un informe del centro, la cartilla o un formulario concreto. Pregunta también el canal de entrega. Ver datos en una aplicación y disponer de un documento admitido para un trámite son cosas distintas."
+        ]
+      }
     ],
+    "related": [
+      {
+        "href": "/bebe/cartilla-de-vacunacion-donde-se-saca",
+        "label": "Pedir o recuperar la cartilla"
+      },
+      {
+        "href": "/bebe/cartilla-vacunacion-digital",
+        "label": "Acceso al registro digital del menor"
+      },
+      {
+        "href": "/bebe/calendario-vacunal-madrid",
+        "label": "Calendario oficial de Madrid"
+      }
+    ],
+    "disclaimer": DISCLAIMER_MEDICO
   },
   {
-    id: "libroFamiliaVigente",
-    pack: "bebe",
-    path: "/bebe/libro-de-familia-vigente",
-    h1: "Libro de familia: ¿sigue vigente en 2026?",
-    title: "Libro de familia en 2026: vigencia y sustitutos",
-    description:
-      "El libro de familia ya no se expide desde la digitalización del Registro Civil (2021), pero los emitidos siguen válidos. Los certificados electrónicos lo sustituyen en todo trámite.",
-    lead:
-      "Si te han dicho que el libro de familia \"ya no vale\", te lo han contado a medias: desde la digitalización del Registro Civil en 2021 no se expiden ejemplares nuevos, pero los ya emitidos siguen siendo válidos para todo. Lo que ha cambiado es el punto de partida de los nacidos después: certificados individuales electrónicos que sustituyen al libro en cualquier trámite. Aquí tienes el panorama completo y qué hacer si perdiste el tuyo.",
-    cta: { href: JUSTICIA_NACIMIENTO_URL, label: "Sede del Registro Civil (Justicia)" },
-    related: [
-      { href: "/bebe/inscripcion-nacimiento-registro-civil", label: "Registro Civil del nacimiento" },
-      { href: "/bebe/prestacion-por-nacimiento", label: "Prestación por nacimiento" },
-      { href: "/bebe/tarjeta-sanitaria-bebe", label: "Tarjeta sanitaria del bebé" },
-      { href: "/pasaporte/bebe", label: "Pasaporte del bebé" },
+    "id": "cartillaVacunacionDigital",
+    "pack": "bebe",
+    "path": "/bebe/cartilla-vacunacion-digital",
+    "reviewedAt": "2026-09-16",
+    "h1": "Cartilla de vacunación digital: acceso al registro del menor",
+    "title": "Cartilla digital: acceso de menores en Cataluña y Madrid",
+    "description": "Qué permite consultar el registro digital, cómo acceder al perfil de un menor y qué diferencias hay entre La Meva Salut y Mi Carpeta de Salud.",
+    "lead": "Consultar vacunas en una aplicación exige comprobar a qué perfil tienes acceso y qué información muestra el servicio. Esta guía compara las condiciones publicadas por Cataluña y Madrid y distingue la consulta en pantalla del documento descargable.",
+    "cta": {
+      "href": "https://lamevasalut.gencat.cat/web/cps/ajuda/preguntes-frequents",
+      "label": "Cataluña: consultar el acceso al perfil de un menor"
+    },
+    "sources": [
+      {
+        "href": "https://lamevasalut.gencat.cat/web/cps/ajuda/preguntes-frequents",
+        "label": "La Meva Salut: representación y perfiles"
+      },
+      {
+        "href": "https://lamevasalut.gencat.cat/web/cps/ajuda/serveis/informacio-clinica",
+        "label": "La Meva Salut: origen de los registros y documentos"
+      },
+      {
+        "href": "https://www.comunidad.madrid/salud/mi-carpeta-salud",
+        "label": "Mi Carpeta de Salud: requisitos de acceso"
+      }
     ],
-    sections: [
+    "sections": [
       {
-        id: "vigente-pero-no-se-expide",
-        title: "Vigente, pero ya no se fabrica",
-        paragraphs: [
-          "Desde la puesta en marcha del nuevo Registro Civil electrónico en 2021, los nacimientos se inscriben directamente en el registro informatizado y ya no se entrega libro de familia a las familias: el documento que se obtiene es el certificado, en formato electrónico y con validez inmediata. Eso no invalida el libro que tienes en el cajón: los ejemplares emitidos antes de la digitalización siguen siendo plenamente válidos en 2026 y no hay fecha de caducidad anunciada para ellos. La excepción práctica: si un trámite te exige un documento con fecha reciente, bastará con pedir el certificado electrónico, que se emite al momento.",
-        ],
+        "id": "acceso-menores",
+        "title": "Cataluña y Madrid tienen condiciones distintas",
+        "paragraphs": [
+          "En Cataluña, el padre, la madre o el representante legal pueden solicitar acceso al perfil del menor en el CAP. El acceso llega hasta los 18 años; desde los 16 requiere consentimiento. Una vez habilitado, se cambia de perfil desde la sesión personal.",
+          "En Madrid, Mi Carpeta de Salud publica acceso individual desde los 16 años con tarjeta sanitaria activa. Esa condición no equivale a un acceso de los padres al historial del bebé; la vía para pedir su documentación debe consultarse al centro de salud."
+        ]
       },
       {
-        id: "certificados-electronicos",
-        title: "Los certificados electrónicos que lo sustituyen",
-        paragraphs: [
-          "Lo que antes se acreditaba con el libro ahora se acredita con certificados individuales electrónicos: el certificado literal de nacimiento (qué consta en la inscripción), el de filiación y los demás que expide el Registro Civil. Se piden en la sede electrónica del Ministerio de Justicia o en el propio registro, se descargan con código seguro de verificación y las administraciones pueden comprobar su autenticidad en línea. Sustituyen al libro de familia para todo trámite: Seguridad Social, pasaporte y DNI del bebé, escolarización, prestaciones. Si naciste o inscribiste a tu hijo después de la digitalización, estos certificados son \"el libro\" que existe en tu caso.",
-        ],
+        "id": "que-muestra",
+        "title": "Qué estás viendo en la pantalla",
+        "paragraphs": [
+          "La Meva Salut distingue registros comunicados por el centro que vacunó y datos incorporados a partir de una cartilla o de información verbal. Comprueba el origen antes de presentar el contenido como si todo tuviera la misma procedencia. La guía de descarga explica dónde obtener el PDF disponible en ese servicio."
+        ]
       },
       {
-        id: "si-lo-perdiste",
-        title: "Si perdiste el libro de familia",
-        paragraphs: [
-          "Nada dramático ni caro: la pieza que hace el trabajo del libro perdido es el certificado literal de nacimiento, que se pide en el Registro Civil donde consta la inscripción, por vía electrónica o presencialmente, y es gratuito. Con ese certificado resuelves matrículas, prestaciones y cualquier ventanilla que en su día pedía el libro. Si además necesitas acreditar la filiación o otros extremos del registro, son certificados del mismo mostrador. Y si no recuerdas en qué registro consta la inscripción, la sede de Justicia permite localizarlo a partir de los datos básicos.",
-        ],
+        "id": "papel-y-documento",
+        "title": "Conservar las anotaciones y comprobar el formato",
+        "paragraphs": [
+          "Guarda las cartillas e informes anteriores, especialmente si estás cambiando de centro. Si una entidad pide un justificante, confirma el formato que necesita: una pantalla de la aplicación no garantiza que se haya expedido el documento solicitado. No compartas las credenciales de acceso para entregar un justificante."
+        ]
       },
       {
-        id: "que-piden-hoy",
-        title: "Qué piden hoy en la práctica",
-        paragraphs: [
-          "Las administraciones aceptan las dos vías: si tienes libro de familia, sigue sirviendo; si no lo tienes (por pérdida o porque ya no se expide), sirve el certificado electrónico. Para los bebés nacidos en 2026 el flujo es íntegramente digital: inscripción en el Registro Civil electrónico, certificado literal descargable y, a partir de ahí, alta en la Seguridad Social, tarjeta sanitaria y pasaporte. El orden completo de esa cadena, con plazos y documentos de cada paso, está en la guía de la inscripción del nacimiento en el Registro Civil.",
-        ],
-      },
+        "id": "errores-de-registro",
+        "title": "Si falta un registro o no aparece el perfil",
+        "paragraphs": [
+          "Distingue un problema de permisos de acceso de uno de contenido. Para el primero, consulta la acreditación de la representación; para el segundo, pide al centro que revise la información y aporta las copias que conserves. La ausencia de un dato en pantalla no permite concluir que una vacuna no se haya administrado."
+        ]
+      }
     ],
+    "related": [
+      {
+        "href": "/bebe/certificado-vacunacion-descargar",
+        "label": "Descargar el documento de vacunación"
+      },
+      {
+        "href": "/bebe/cartilla-de-vacunacion-donde-se-saca",
+        "label": "Pedir o recuperar la cartilla"
+      },
+      {
+        "href": "/bebe/tarjeta-sanitaria-bebe",
+        "label": "Solicitar la tarjeta sanitaria"
+      }
+    ],
+    "disclaimer": DISCLAIMER_MEDICO
+  },
+  {
+    "id": "libroFamiliaVigente",
+    "pack": "bebe",
+    "path": "/bebe/libro-de-familia-vigente",
+    "reviewedAt": "2026-09-16",
+    "h1": "Libro de familia: vigencia y certificados que puedes necesitar",
+    "title": "Libro de familia: vigencia, pérdida y certificados",
+    "description": "Los libros de familia anteriores conservan sus efectos legales. Qué certificado pedir si no tienes libro y cuándo puede descargarse por internet.",
+    "lead": "Los libros de familia anteriores conservan los efectos previstos en la ley. Si no tienes libro o lo has perdido, identifica qué hecho necesitas acreditar: no hay un certificado único que resuelva cualquier trámite familiar.",
+    "cta": {
+      "href": "https://sede.mjusticia.gob.es/tramites/certificado-nacimiento",
+      "label": "Justicia: solicitar un certificado de nacimiento"
+    },
+    "sources": [
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-12628#dttercera",
+        "label": "Ley del Registro Civil: libros de familia y régimen transitorio"
+      },
+      {
+        "href": "https://sede.mjusticia.gob.es/tramites/certificado-nacimiento",
+        "label": "Justicia: opciones y condiciones del certificado de nacimiento"
+      },
+      {
+        "href": "https://sede.mjusticia.gob.es/tramites/certificado-matrimonio",
+        "label": "Justicia: certificado de matrimonio"
+      }
+    ],
+    "sections": [
+      {
+        "id": "vigencia",
+        "title": "Qué establece la ley sobre los libros anteriores",
+        "paragraphs": [
+          "La disposición transitoria tercera de la Ley 20/2011 prevé el fin de expedición de libros nuevos y mantiene los efectos de los anteriores. La ley también contempla una implantación progresiva del registro electrónico. La entrada en vigor de 2021 no significa que todas las inscripciones estuvieran digitalizadas desde ese día."
+        ]
+      },
+      {
+        "id": "certificado-adecuado",
+        "title": "Elegir el certificado según lo que debes acreditar",
+        "paragraphs": [
+          "Comprueba la documentación del trámite destinatario. Para acreditar un nacimiento, consulta el certificado de nacimiento; para un matrimonio, su certificado específico. Revisa si se pide una finalidad o formato especial y si necesitas datos de más de una persona. La pérdida del libro no convierte un solo certificado de nacimiento en prueba de toda la situación familiar."
+        ]
+      },
+      {
+        "id": "solicitud",
+        "title": "Solicitar un certificado del menor",
+        "paragraphs": [
+          "En la sede de Justicia, Mi Certificado de Nacimiento en un solo clic está orientado al propio certificado. Para pedir el del hijo o uno con finalidad específica, utiliza la solicitud general que ofrece la misma página. Indica correctamente para quién lo solicitas y la finalidad, y sigue las instrucciones sobre representación."
+        ]
+      },
+      {
+        "id": "descarga",
+        "title": "Cuándo estará disponible",
+        "paragraphs": [
+          "Con identificación electrónica, la emisión inmediata depende de que los datos estén disponibles telemáticamente. Si no lo están, el servicio indica el envío o los pasos necesarios. La solicitud de nacimiento sin Cl@ve prevé envío postal. Conserva el justificante y no planifiques una cita contando con una descarga instantánea garantizada."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "href": "/bebe/inscripcion-nacimiento-registro-civil",
+        "label": "Inscribir un nacimiento"
+      },
+      {
+        "href": "/bebe/tarjeta-sanitaria-bebe",
+        "label": "Documentación de la tarjeta sanitaria"
+      },
+      {
+        "href": "/bebe/prestacion-por-nacimiento",
+        "label": "Prestaciones por nacimiento"
+      },
+      {
+        "href": "/pasaporte/bebe",
+        "label": "Pasaporte del bebé"
+      }
+    ],
+    "secondaryCta": {
+      "href": "https://sede.mjusticia.gob.es/tramites/certificado-matrimonio",
+      "label": "Justicia: solicitar un certificado de matrimonio"
+    }
   },
   {
     id: "prestacionPorNacimiento",
+    reviewedAt: "2026-09-16",
+    sources: [
+      { label: "Seguridad Social: nacimiento y cuidado de menor", href: "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/6b96a085-4dc0-47af-b2cb-97e00716791e?changeLanguage=es" },
+      { label: "Seguridad Social: pago único por nacimiento o adopción", href: "https://www.seg-social.es/wps/portal/wss/internet/InformacionUtil/44539/44999/265?changeLanguage=es" },
+      { label: "BOE: Ley General de la Seguridad Social, artículos 53 y 177 a 182", href: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724" },
+    ],
     pack: "bebe",
     path: "/bebe/prestacion-por-nacimiento",
-    h1: "Prestación por nacimiento: cuantía y plazo real",
-    title: "Prestación por nacimiento: cuantía, plazo y solicitud",
+    h1: "Prestaciones por nacimiento: qué ayuda corresponde a tu caso",
+    title: "Prestaciones por nacimiento: subsidio y ayuda de pago único",
     description:
-      "La prestación por nacimiento se puede pedir hasta 5 años después (RD-ley 5/2023): cuantía del 100% del IPREM mensual, exenta de IRPF, solicitud en la Sede de la Seguridad Social.",
+      "Diferencias entre nacimiento y cuidado de menor, subsidio no contributivo y ayuda de pago único. Consulta requisitos, cuantía y solicitud en la Seguridad Social.",
     lead:
-      "El miedo de los \"seis meses para pedirla o la pierdes\" está desmentido: desde el RD-ley 5/2023 la prestación por nacimiento se puede solicitar hasta cinco años después del nacimiento. Es un pago único del 100% del IPREM mensual vigente (un mes del indicador público), exenta de IRPF, y se pide en la Sede electrónica de la Seguridad Social. Aquí tienes cuantía, plazo y trámite sin mitos.",
-    cta: { href: SEDE_SEG_SOCIAL_URL, label: "Sede electrónica de la Seguridad Social" },
+      "Hay varias prestaciones vinculadas al nacimiento. Identifica primero si buscas el subsidio durante el descanso por nacimiento y cuidado de menor o la ayuda familiar de pago único: tienen requisitos y cuantías diferentes.",
+    cta: { href: "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/6b96a085-4dc0-47af-b2cb-97e00716791e?changeLanguage=es", label: "Nacimiento y cuidado de menor: requisitos y solicitud" },
+    secondaryCta: { href: "https://www.seg-social.es/wps/portal/wss/internet/InformacionUtil/44539/44999/265?changeLanguage=es", label: "Ayuda familiar de pago único: requisitos y solicitud" },
     related: [
       { href: "/bebe/inscripcion-nacimiento-registro-civil", label: "Registro Civil del nacimiento" },
       { href: "/bebe/libro-de-familia-vigente", label: "Libro de familia en 2026" },
@@ -426,30 +638,32 @@ export const FP_BEBE_NICHOS2_GUIDES: Guide[] = [
     sections: [
       {
         id: "plazo-cinco-anios",
-        title: "El plazo real: hasta cinco años",
+        title: "Plazos: comprueba la prestación antes de aplazar la solicitud",
         paragraphs: [
-          "La regla vigente es generosa y poco conocida: la prestación por nacimiento puede solicitarse hasta cinco años después del nacimiento, tal y como fijó el RD-ley 5/2023 al reformar el sistema. El famoso \"plazo de seis meses\" que todavía repiten foros y hasta algún artículo es un recorte del pasado sin efecto hoy: si tu hijo nació hace dos años y nunca la pediste, sigues a tiempo dentro de esa ventana de cinco años. La contrapartida lógica: no esperes al borde, porque el cómputo es desde el nacimiento y no admite prolongaciones. Y si el nacimiento fue anterior a la reforma, revisa tu caso concreto en la propia sede antes de descartar nada.",
+          "La ficha del pago único indica un plazo de cinco años desde el nacimiento o adopción. No traslades ese dato a la planificación del permiso laboral. La regla general de prescripción del artículo 53 de la Ley General de la Seguridad Social distingue el reconocimiento del derecho y sus efectos económicos, normalmente limitados a los tres meses anteriores a la solicitud, con las excepciones legales. Esperar puede afectar a lo que cobres: consulta tu prestación y sus fechas con el INSS.",
         ],
       },
       {
         id: "cuantia",
-        title: "Cuantía: un mes del indicador, sin letra pequeña",
+        title: "Tres modalidades con cuantías distintas",
         paragraphs: [
-          "La prestación es un pago único equivalente al 100% del IPREM mensual vigente (el indicador público de renta de efectos múltiples que usa la Administración como referencia): en román paladino, un mes del indicador en el momento del reconocimiento. Está exenta de IRPF, así que no tributa en la declaración de la renta ni modifica el tramo: entra íntegra. No la confundas con otras prestaciones familiares de la Seguridad Social (la asignación por hijo a cargo, de pago mensual y con reglas de renta distintas): son trámites diferentes con formularios diferentes. La cuantía exacta en euros figura siempre en la resolución que emite la Seguridad Social al concederla.",
+          "Nacimiento y cuidado de menor, modalidad contributiva: el subsidio equivale al 100 % de la base reguladora aplicable. Debes reunir las condiciones de afiliación, alta o situación asimilada y cotización que correspondan a tu edad y régimen.",
+          "Modalidad no contributiva de nacimiento y cuidado: para quienes cumplen los demás requisitos pero no el mínimo de cotización. El artículo 182 usa el 100 % del IPREM, salvo base reguladora inferior, y vincula la duración al descanso obligatorio. No es un pago universal de un mes de IPREM.",
+          "Ayuda familiar de pago único: hasta 1.000 euros en los supuestos previstos de familias numerosas, monoparentales o progenitores con discapacidad de al menos el 65 %. Se aplican requisitos de residencia e ingresos y puede corresponder una cuantía reducida. No se concede a todas las familias por tener un bebé.",
         ],
       },
       {
         id: "donde-pedirla",
         title: "Dónde y cómo se solicita",
         paragraphs: [
-          "La solicitud se presenta en la Sede electrónica de la Seguridad Social (enlazada arriba), identificándote con certificado digital o Cl@ve; también se puede presentar presencialmente en los cauces de la Seguridad Social que correspondan. Necesitarás el certificado literal de nacimiento del bebé o el documento que acredite la filiación, tu identificación y los datos del titular que da derecho a la prestación. Los requisitos concretos (situación de alta o asimilada, convivencia, rentas en su caso) figuran en la propia descripción del trámite de la sede: confírmalos allí antes de presentar, porque son los que aplica la entidad gestora. La resolución llega por notificación electrónica a tu buzón de la sede.",
+          "Abre la ficha específica enlazada al principio, comprueba los requisitos y accede desde ella al formulario y canal oficial. Prepara los documentos que correspondan a tu situación y conserva el justificante. Si buscas el pago único, comprueba también los límites de ingresos y la acreditación del supuesto familiar.",
         ],
       },
       {
         id: "orden-tramites",
-        title: "En qué punto de la cadena estás",
+        title: "Otros trámites del nacimiento",
         paragraphs: [
-          "La prestación por nacimiento es un eslabón posterior a la inscripción en el Registro Civil: sin esa inscripción (y su certificado literal) no hay solicitud que resolver. Si estás empezando de cero con un bebé de 2026, el orden eficiente es: inscripción del nacimiento, alta como beneficiario en la Seguridad Social y tarjeta sanitaria, empadronamiento, y prestación por nacimiento con su margen de cinco años. Las guías de este site cubren cada paso: la del Registro Civil del nacimiento, la de la tarjeta sanitaria del bebé y la del libro de familia y sus sustitutos digitales.",
+          "Las guías relacionadas explican la inscripción del nacimiento y la tarjeta sanitaria. Usa cada una para su trámite y contrasta en la solicitud de la prestación qué documentación debes aportar.",
         ],
       },
     ],

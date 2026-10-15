@@ -26,9 +26,9 @@ export const SEARCH_CITATION_BOTS = [
 ] as const;
 
 /** Training-adjacent; allow for long-term citation corpora, same allow/disallow as search. */
-export const TRAINING_ALLOW_BOTS = ["anthropic-ai", "CCBot"] as const;
+export const TRAINING_ALLOW_BOTS = ["anthropic-ai", "CCBot", "Bytespider"] as const;
 
-/** Aggressive / low-value for this Spanish civic site. */
-export const BLOCKED_BOTS = ["Bytespider"] as const;
+/** No crawler is denied the public HTML. API and drafts stay out of discovery. */
+export const BLOCKED_BOTS = [] as const;
 
 export const INDEXNOW_KEY = "b7e4c91a0f3d28e65a1c47b90d2e8f36";

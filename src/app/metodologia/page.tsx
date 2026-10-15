@@ -15,11 +15,21 @@ export default function MetodologiaPage() {
       <h1 className="font-display text-4xl">Cómo verificamos</h1>
       <h2 className="pt-4 text-2xl font-semibold">El directorio municipal</h2>
       <p>
-        Los municipios salen del INE (relación de entes y cifras públicas de población a 1 de enero
-        de 2025). El catálogo de esta versión cubre 769 municipios de 10.000 habitantes o más. El
-        código INE de cinco dígitos es el identificador estable. Si un nombre llega en forma
-        castellana antigua, se resuelve a la forma oficial (L&apos;Hospitalet, A Coruña, Hondarribia)
-        con CodeForSpain, no se inventa el ente.
+        Esta versión incluye una selección de 769 municipios. Sus cifras de población se han
+        contrastado el 16 de septiembre de 2026 con los datos definitivos del INE referidos al
+        1 de enero de 2025. La selección procede de un catálogo anterior y no incluye todos los
+        municipios de 10.000 habitantes o más; también conserva una localidad que queda por
+        debajo de ese umbral en la referencia comprobada. Utilizamos el código INE de cinco
+        dígitos para identificar cada municipio.
+      </p>
+      <p>
+        Para relacionar nombres y códigos se utilizaron datos auxiliares de CodeForSpain y
+        correspondencias del catálogo. Los nombres se han contrastado con las denominaciones
+        de las tablas del INE y sus cambios publicados hasta la revisión del 16 de septiembre
+        de 2026. Las direcciones web anteriores se conservan aunque cambie el nombre mostrado.
+        La relación de códigos
+        y las cifras de población son publicaciones distintas. En
+        <a className="underline" href="/fuentes"> Fuentes</a> enlazamos ambas para su consulta.
       </p>
       <p>
         Cada ficha distingue la orientación general de los datos de su ayuntamiento. Cuando no
@@ -40,6 +50,12 @@ export default function MetodologiaPage() {
         que la sede se haya comprobado hoy. Cuando se revisa una guía contra sus fuentes, se
         muestra la fecha de revisión editorial. La disponibilidad de citas no se consulta en
         tiempo real desde RutaTrámite.
+      </p>
+      <p>
+        La revisión contrasta el alcance, los requisitos y los plazos descritos con las fuentes
+        citadas. Una descarga o la respuesta correcta de un enlace no bastan para comprobar una
+        afirmación. Tampoco una fecha de revisión garantiza que no haya avisos posteriores ni
+        convierte en revisados todos los contenidos a los que enlaza esa página.
       </p>
       <p>
         Los plazos, convocatorias y canales pueden cambiar. Da prioridad al aviso vigente de la

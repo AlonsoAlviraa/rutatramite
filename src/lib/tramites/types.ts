@@ -4,10 +4,16 @@ export type GuidePack =
   | "extranjeria"
   | "colegio"
   | "comedor"
+  | "transporte"
   | "fp"
   | "bebe"
   | "becas"
-  | "modelos";
+  | "alquiler"
+  | "elecciones"
+  | "ayudas-gobierno"
+  | "promesas-29n"
+  | "modelos"
+  | "trabajo";
 
 /** Index path of each pack (breadcrumbs and PackIndex). */
 export const PACK_INDEX_PATH: Record<GuidePack, string> = {
@@ -16,10 +22,16 @@ export const PACK_INDEX_PATH: Record<GuidePack, string> = {
   extranjeria: "/extranjeria",
   colegio: "/colegio",
   comedor: "/comedor",
+  transporte: "/transporte",
   fp: "/fp",
   bebe: "/bebe",
   becas: "/becas",
+  alquiler: "/alquiler",
+  elecciones: "/elecciones",
+  "ayudas-gobierno": "/ayudas-por-gobierno",
+  "promesas-29n": "/elecciones/promesas",
   modelos: "/modelos",
+  trabajo: "/trabajo",
 };
 
 export type GuideModelBlock = {
@@ -28,12 +40,20 @@ export type GuideModelBlock = {
   body: string;
 };
 
+export type GuideTable = {
+  caption: string;
+  head: string[];
+  rows: { cells: string[]; source: { label: string; href: string } }[];
+};
+
 export type GuideSection = {
   id: string;
   title: string;
   paragraphs: string[];
   lists?: string[][];
   models?: GuideModelBlock[];
+  /** Optional data table; the last column links each row to its source. */
+  table?: GuideTable;
 };
 
 export type GuideCta = { href: string; label: string };

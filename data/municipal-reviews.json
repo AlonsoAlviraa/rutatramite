@@ -1,0 +1,946 @@
+{
+  "14021": {
+    "tramite_alta_url": "https://www.cordoba.es/sede/tramites/padron-de-habitantes/alta-o-inscripcion-y-traslado-de-domicilio-en-el-padron-municipal-de-habitantes",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "walk-in",
+    "docs_extra": [
+      "Modelo 60-444 cumplimentado y firmado, con identificación.",
+      "En alquiler, copia completa del contrato y recibo de la última mensualidad; en propiedad, IBI, escritura o nota registral reciente.",
+      "Autorizaciones municipales según vivienda ajena, personas ya inscritas y menores."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Modelo 60-444 cumplimentado y firmado, con identificación.",
+        "En alquiler, copia completa del contrato y recibo de la última mensualidad; en propiedad, IBI, escritura o nota registral reciente.",
+        "Autorizaciones municipales según vivienda ajena, personas ya inscritas y menores."
+      ]
+    },
+    "peculiaridades": [
+      "Córdoba permite presentación electrónica. Gran Capitán, 6 atiende sin cita; La Normal y distintos centros cívicos requieren reserva. Consulta el directorio para elegir oficina."
+    ],
+    "review_note": "Córdoba permite presentación electrónica. Gran Capitán, 6 atiende sin cita; La Normal y distintos centros cívicos requieren reserva. Consulta el directorio para elegir oficina.",
+    "reviewed_on": "2026-09-14",
+    "last_verified": "2026-09-14",
+    "confidence": "official",
+    "source_urls": [
+      "https://www.cordoba.es/sede/tramites/padron-de-habitantes/alta-o-inscripcion-y-traslado-de-domicilio-en-el-padron-municipal-de-habitantes",
+      "https://www.cordoba.es/servicios/informacion-y-atencion-ciudadana/puntos-de-informacion-presenciales"
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://www.cordoba.es/sede/tramites/padron-de-habitantes/alta-o-inscripcion-y-traslado-de-domicilio-en-el-padron-municipal-de-habitantes",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://www.cordoba.es/sede/tramites/padron-de-habitantes/alta-o-inscripcion-y-traslado-de-domicilio-en-el-padron-municipal-de-habitantes",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://www.cordoba.es/sede/tramites/padron-de-habitantes/alta-o-inscripcion-y-traslado-de-domicilio-en-el-padron-municipal-de-habitantes",
+        "checked_at": "2026-09-14"
+      },
+      "cita": {
+        "source_url": "https://www.cordoba.es/servicios/informacion-y-atencion-ciudadana/puntos-de-informacion-presenciales",
+        "checked_at": "2026-09-14"
+      }
+    },
+    "cita_url": "https://citaprevia.cordoba.es",
+    "oficinas": [
+      {
+        "nombre": "Atención ciudadana",
+        "direccion": "Avenida Gran Capitán, 6",
+        "telefono": "957499900"
+      }
+    ]
+  },
+  "15030": {
+    "reviewed_on": "2026-09-14",
+    "review_note": "La sede exige cita para la atención presencial en sus registros. El enlace específico de alta electrónica devolvió contenido retirado; no se acredita por ello ese canal para el alta ordinaria. La ficha general conserva la documentación.",
+    "confidence": "official",
+    "source_urls": [
+      "https://www.coruna.gal/sede/gl/tramites-e-servizos-electronicos/padron-de-habitantes?argIdioma=es",
+      "https://sede.coruna.gal/sede/es/tramites-y-servicios-electronicos/cita-previa",
+      "https://sede.coruna.gal/sede/es?argIdioma=es"
+    ],
+    "sede_url": "https://www.coruna.gal/sede/gl/tramites-e-servizos-electronicos/padron-de-habitantes?argIdioma=es",
+    "tramite_alta_url": "https://www.coruna.gal/sede/gl/tramites-e-servizos-electronicos/padron-de-habitantes?argIdioma=es",
+    "online": "unknown",
+    "presencial": true,
+    "cita_previa": "required",
+    "cita_url": "https://citaprevia.coruna.gal",
+    "docs_extra": [
+      "Identificación original vigente y documentación de menores o representación que corresponda.",
+      "Propiedad: título o prueba municipal admitida. Alquiler habitual: contrato de más de seis meses y último recibo, según la ficha.",
+      "Si ya hay personas inscritas, consulta la autorización de la persona adulta empadronada y la acreditación de su derecho de uso de vivienda."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Identificación original vigente y documentación de menores o representación que corresponda.",
+        "Propiedad: título o prueba municipal admitida. Alquiler habitual: contrato de más de seis meses y último recibo, según la ficha.",
+        "Si ya hay personas inscritas, consulta la autorización de la persona adulta empadronada y la acreditación de su derecho de uso de vivienda."
+      ]
+    },
+    "peculiaridades": [
+      "La sede exige cita para la atención presencial en sus registros. El enlace específico de alta electrónica devolvió contenido retirado; no se acredita por ello ese canal para el alta ordinaria. La ficha general conserva la documentación."
+    ],
+    "fee_public_note": "La ficha de padrón del Ayuntamiento de A Coruña no publica un importe de tasa del alta.",
+    "last_verified": "2026-09-14",
+    "oficinas": [],
+    "evidence": {
+      "alta": {
+        "source_url": "https://www.coruna.gal/sede/gl/tramites-e-servizos-electronicos/padron-de-habitantes?argIdioma=es",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://www.coruna.gal/sede/gl/tramites-e-servizos-electronicos/padron-de-habitantes?argIdioma=es",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://sede.coruna.gal/sede/es/tramites-y-servicios-electronicos/cita-previa",
+        "checked_at": "2026-09-14"
+      }
+    }
+  },
+  "18087": {
+    "tramite_alta_url": "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000012810236607717&PAGE_CODE=CATALOGO",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "required",
+    "docs_extra": [
+      "Hoja padronal firmada por todas las personas adultas e identificaciones vigentes.",
+      "Prueba de vivienda y autorizaciones originales cuando procedan.",
+      "Documentos de parentesco y representación de menores. En presentación electrónica, adjuntar los archivos en PDF."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Hoja padronal firmada por todas las personas adultas e identificaciones vigentes.",
+        "Prueba de vivienda y autorizaciones originales cuando procedan.",
+        "Documentos de parentesco y representación de menores. En presentación electrónica, adjuntar los archivos en PDF."
+      ]
+    },
+    "peculiaridades": [
+      "Granada admite solicitud en línea con certificado y presencial con cita. La ficha aplica la misma documentación al cambio de domicilio."
+    ],
+    "fee_public_note": "La sede del alta en Granada no publica un importe de tasa. Describe la cita presencial y la solicitud en línea con certificado.",
+    "review_note": "Granada admite solicitud en línea con certificado y presencial con cita. La ficha aplica la misma documentación al cambio de domicilio.",
+    "reviewed_on": "2026-09-14",
+    "last_verified": "2026-09-14",
+    "confidence": "official",
+    "source_urls": [
+      "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000012810236607717&PAGE_CODE=CATALOGO"
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000012810236607717&PAGE_CODE=CATALOGO",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000012810236607717&PAGE_CODE=CATALOGO",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000012810236607717&PAGE_CODE=CATALOGO",
+        "checked_at": "2026-09-14"
+      }
+    },
+    "cita_url": "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS2_OFIASIREG"
+  },
+  "28079": {
+    "tramite_alta_url": "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=45f45704a7758810VgnVCM1000008a4a900aRCRD&vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "required",
+    "docs_extra": [
+      "Hoja padronal con firma manuscrita de las personas adultas en la presentación presencial.",
+      "Identificación y acreditación del uso de la vivienda; el contrato debe incluir referencia catastral o documento complementario.",
+      "Documentos de representación y menores según el caso; declaración responsable si siguen inscritos residentes que ya no viven allí."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Hoja padronal con firma manuscrita de las personas adultas en la presentación presencial.",
+        "Identificación y acreditación del uso de la vivienda; el contrato debe incluir referencia catastral o documento complementario.",
+        "Documentos de representación y menores según el caso; declaración responsable si siguen inscritos residentes que ya no viven allí."
+      ]
+    },
+    "peculiaridades": [
+      "Madrid permite el alta electrónica con identificación o presencial con cita. No se deben tramitar simultáneamente ambas vías. Los consentimientos electrónicos deben aportarse en cinco días naturales."
+    ],
+    "fee_public_note": "La ficha de altas y cambios del Ayuntamiento de Madrid no publica un importe de tasa.",
+    "review_note": "Madrid permite el alta electrónica con identificación o presencial con cita. No se deben tramitar simultáneamente ambas vías. Los consentimientos electrónicos deben aportarse en cinco días naturales.",
+    "reviewed_on": "2026-09-14",
+    "last_verified": "2026-09-14",
+    "confidence": "official",
+    "source_urls": [
+      "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=45f45704a7758810VgnVCM1000008a4a900aRCRD&vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD"
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=45f45704a7758810VgnVCM1000008a4a900aRCRD&vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=45f45704a7758810VgnVCM1000008a4a900aRCRD&vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=45f45704a7758810VgnVCM1000008a4a900aRCRD&vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD",
+        "checked_at": "2026-09-14"
+      }
+    }
+  },
+  "29067": {
+    "tramite_alta_url": "https://sede.malaga.eu/es/tramitacion/detalle-del-tramite/index.html?id=112&tipoVO=5",
+    "online": "unknown",
+    "presencial": true,
+    "cita_previa": "required",
+    "docs_extra": [
+      "Hoja padronal firmada e identificación vigente de los solicitantes.",
+      "Identificación y representación de menores, con autorizaciones o documentos judiciales según el caso.",
+      "Título de propiedad, arrendamiento vigente con pruebas complementarias indicadas en el anexo, o autorización de quien acredita el uso de la vivienda."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Hoja padronal firmada e identificación vigente de los solicitantes.",
+        "Identificación y representación de menores, con autorizaciones o documentos judiciales según el caso.",
+        "Título de propiedad, arrendamiento vigente con pruebas complementarias indicadas en el anexo, o autorización de quien acredita el uso de la vivienda."
+      ]
+    },
+    "peculiaridades": [
+      "La ficha específica de Málaga describe entrega presencial de alta y cambio en OMAC o Gestión Tributaria. La página general también menciona sede electrónica; no se ha confirmado aquí una solicitud de alta electrónica completa."
+    ],
+    "fee_public_note": "El anexo de documentación del alta en Málaga no publica un importe de tasa. La hoja padronal, la identificación y la prueba de vivienda están en ese anexo.",
+    "review_note": "La ficha específica de Málaga describe entrega presencial de alta y cambio en OMAC o Gestión Tributaria. La página general también menciona sede electrónica; no se ha confirmado aquí una solicitud de alta electrónica completa.",
+    "reviewed_on": "2026-09-14",
+    "last_verified": "2026-09-14",
+    "confidence": "official",
+    "source_urls": [
+      "https://sede.malaga.eu/es/tramitacion/detalle-del-tramite/index.html?id=112&tipoVO=5",
+      "https://gestrisam.malaga.eu/sites/gestrisam/.galleries/Documentos-General/Documentacion-necesaria-17062026_1.pdf",
+      "https://gestrisam.malaga.eu/atencion-a-la-ciudadania/atencion-presencial/cita-previa-padron-municipal-de-habitantes/"
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://sede.malaga.eu/es/tramitacion/detalle-del-tramite/index.html?id=112&tipoVO=5",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://gestrisam.malaga.eu/sites/gestrisam/.galleries/Documentos-General/Documentacion-necesaria-17062026_1.pdf",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://sede.malaga.eu/es/tramitacion/detalle-del-tramite/index.html?id=112&tipoVO=5",
+        "checked_at": "2026-09-14"
+      },
+      "cita": {
+        "source_url": "https://gestrisam.malaga.eu/atencion-a-la-ciudadania/atencion-presencial/cita-previa-padron-municipal-de-habitantes/",
+        "checked_at": "2026-09-14"
+      }
+    },
+    "cita_url": "https://gestrisam.malaga.eu/atencion-a-la-ciudadania/atencion-presencial/cita-previa-padron-municipal-de-habitantes/"
+  },
+  "30030": {
+    "reviewed_on": "2026-09-14",
+    "review_note": "El aviso municipal permite presentar altas en las oficinas de información y registro desde septiembre de 2024, con cita si se desea. La ficha también ofrece presentación electrónica; el 010 es un canal de información.",
+    "fee_public_note": "La ficha de alta del Ayuntamiento de Murcia indica que el coste es gratuito y no publica un importe de tasa.",
+    "confidence": "official",
+    "source_urls": [
+      "https://sede.murcia.es/ficha-procedimiento/3662",
+      "https://web.murcia.es/cita-previa-padron-habitantes"
+    ],
+    "sede_url": "https://sede.murcia.es/ficha-procedimiento/3662",
+    "tramite_alta_url": "https://sede.murcia.es/ficha-procedimiento/3662",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "recommended",
+    "cita_url": "https://web.murcia.es/cita-previa-padron-habitantes",
+    "docs_extra": [
+      "Solicitud y hoja padronal firmada, con identificación original o copia compulsada para el alta.",
+      "Prueba de uso de vivienda: propiedad o documento admitido; en alquiler, contrato e identificación de la propiedad según la ficha.",
+      "Acredita representación y adjunta el modelo de consentimiento o resolución aplicable si se inscriben menores."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Solicitud y hoja padronal firmada, con identificación original o copia compulsada para el alta.",
+        "Prueba de uso de vivienda: propiedad o documento admitido; en alquiler, contrato e identificación de la propiedad según la ficha.",
+        "Acredita representación y adjunta el modelo de consentimiento o resolución aplicable si se inscriben menores."
+      ]
+    },
+    "peculiaridades": [
+      "El aviso municipal permite presentar altas en las oficinas de información y registro desde septiembre de 2024, con cita si se desea. La ficha también ofrece presentación electrónica; el 010 es un canal de información."
+    ],
+    "last_verified": "2026-09-14",
+    "oficinas": [],
+    "evidence": {
+      "alta": {
+        "source_url": "https://sede.murcia.es/ficha-procedimiento/3662",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://sede.murcia.es/ficha-procedimiento/3662",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://web.murcia.es/cita-previa-padron-habitantes",
+        "checked_at": "2026-09-14"
+      }
+    }
+  },
+  "33024": {
+    "reviewed_on": "2026-09-14",
+    "review_note": "Revisada la hoja informativa municipal, versión 27 de marzo de 2023. El catálogo actual no ha permitido confirmar el canal específico del alta ordinaria; se conserva la laguna, aunque sí se aporta evidencia documental.",
+    "confidence": "unverified",
+    "source_urls": [
+      "https://drupal.gijon.es/sites/default/files/2018-12/INF%2002.01-3.pdf",
+      "https://sedeelectronica.gijon.es/sta/CarpetaPublic/?APP_CODE=STA&DET=&PAGE_CODE=CATALOGO"
+    ],
+    "docs_extra": [
+      "Identificación vigente y hoja padronal; acredita la representación cuando proceda.",
+      "En alquiler habitual, contrato vigente y último recibo. Para vivienda cedida o habitada, consulta las autorizaciones y la prueba de uso exigidas.",
+      "Para menores, consulta los consentimientos y los anexos que correspondan a la situación de custodia."
+    ],
+    "evidence": {
+      "docs_extra": {
+        "source_url": "https://drupal.gijon.es/sites/default/files/2018-12/INF%2002.01-3.pdf",
+        "checked_at": "2026-09-14"
+      }
+    }
+  },
+  "35016": {
+    "reviewed_on": "2026-09-14",
+    "review_note": "La sede describe gestiones de padrón y permite buscar trámites, pero no se ha confirmado el alta ordinaria en una ficha vigente. No se extiende al alta la disponibilidad de certificados ni la atención tributaria.",
+    "confidence": "unverified",
+    "source_urls": [
+      "https://www.laspalmasgc.es/es/online/sede-electronica/",
+      "https://www.laspalmasgc.es/es/otras-secciones/cita-previa/"
+    ]
+  },
+  "36057": {
+    "tramite_alta_url": "https://sede.vigo.org/expedientes/tramites/tramite.jsp?id_tramite=65&lang=es",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "walk-in",
+    "docs_extra": [
+      "Hoja firmada por las personas adultas; en línea, firma electrónica de la hoja y documentación.",
+      "Identificación vigente; si está caducada, consultar la admisión del justificante de renovación pagado junto con la copia.",
+      "Propiedad o contrato y recibo de alquiler; autorizaciones de vivienda, representación y menores según el caso."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Hoja firmada por las personas adultas; en línea, firma electrónica de la hoja y documentación.",
+        "Identificación vigente; si está caducada, consultar la admisión del justificante de renovación pagado junto con la copia.",
+        "Propiedad o contrato y recibo de alquiler; autorizaciones de vivienda, representación y menores según el caso."
+      ]
+    },
+    "peculiaridades": [
+      "Vigo atiende sin cita hasta agotar los turnos disponibles; también informa sobre cita por el 010. Las solicitudes por registro o internet se verifican antes de comunicar el alta."
+    ],
+    "review_note": "Vigo atiende sin cita hasta agotar los turnos disponibles; también informa sobre cita por el 010. Las solicitudes por registro o internet se verifican antes de comunicar el alta.",
+    "fee_public_note": "La ficha de alta del Ayuntamiento de Vigo no publica un importe de tasa.",
+    "reviewed_on": "2026-09-14",
+    "last_verified": "2026-09-14",
+    "confidence": "official",
+    "source_urls": [
+      "https://sede.vigo.org/expedientes/tramites/tramite.jsp?id_tramite=65&lang=es"
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://sede.vigo.org/expedientes/tramites/tramite.jsp?id_tramite=65&lang=es",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://sede.vigo.org/expedientes/tramites/tramite.jsp?id_tramite=65&lang=es",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://sede.vigo.org/expedientes/tramites/tramite.jsp?id_tramite=65&lang=es",
+        "checked_at": "2026-09-14"
+      }
+    },
+    "oficinas": [
+      {
+        "nombre": "Oficina de Estadística",
+        "direccion": "Praza do Rei, 1. Planta baja",
+        "cp": "36202",
+        "telefono": "010"
+      }
+    ]
+  },
+  "41091": {
+    "tramite_alta_url": "https://www.sevilla.org/servicios/empadronamiento/informacion-empadronamiento",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "required",
+    "docs_extra": [
+      "Solicitud padronal e identificaciones de las personas afectadas.",
+      "Acreditación del uso de la vivienda y autorizaciones de ocupación o representación según el caso."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Solicitud padronal e identificaciones de las personas afectadas.",
+        "Acreditación del uso de la vivienda y autorizaciones de ocupación o representación según el caso."
+      ]
+    },
+    "peculiaridades": [
+      "Sevilla ofrece sede electrónica con certificado. La entrega física en distritos se remite al Servicio de Estadística para comprobarla; la entrega no garantiza un alta inmediata."
+    ],
+    "fee_public_note": "El Ayuntamiento de Sevilla indica que el empadronamiento es gratuito y que cualquier pago exigido para empadronarse es un fraude.",
+    "review_note": "Sevilla ofrece sede electrónica con certificado. La entrega física en distritos se remite al Servicio de Estadística para comprobarla; la entrega no garantiza un alta inmediata.",
+    "reviewed_on": "2026-09-14",
+    "last_verified": "2026-09-14",
+    "confidence": "official",
+    "source_urls": [
+      "https://www.sevilla.org/servicios/empadronamiento/informacion-empadronamiento",
+      "https://www.sevilla.org/servicios/empadronamiento/informacion-cambio-en-el-padron-de-habitantes-de-sevilla"
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://www.sevilla.org/servicios/empadronamiento/informacion-empadronamiento",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://www.sevilla.org/servicios/empadronamiento/informacion-cambio-en-el-padron-de-habitantes-de-sevilla",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://www.sevilla.org/servicios/empadronamiento/informacion-empadronamiento",
+        "checked_at": "2026-09-14"
+      }
+    },
+    "cita_url": "https://www.sevilla.org/servicios/participacion-ciudadana/plataforma-online-para-solicitud-telematica",
+    "oficinas": [
+      {
+        "nombre": "Información municipal",
+        "telefono": "010 / 955010010"
+      }
+    ]
+  },
+  "46250": {
+    "tramite_alta_url": "https://sede.valencia.es/sede/registro/procedimiento/PA.GP.11",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "recommended",
+    "docs_extra": [
+      "Identificaciones vigentes y originales o copias compulsadas en presencial.",
+      "Vivienda con referencia catastral; en alquiler, contrato de más de seis meses y último recibo pagado en los dos últimos meses.",
+      "Representación y documentos de menores según la situación. Las autorizaciones tienen un mes de validez."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Identificaciones vigentes y originales o copias compulsadas en presencial.",
+        "Vivienda con referencia catastral; en alquiler, contrato de más de seis meses y último recibo pagado en los dos últimos meses.",
+        "Representación y documentos de menores según la situación. Las autorizaciones tienen un mes de validez."
+      ]
+    },
+    "peculiaridades": [
+      "València admite presentación electrónica y presencial. El alta electrónica requiere revisión municipal; el registro de la solicitud no equivale a un alta automática."
+    ],
+    "fee_public_note": "El Ayuntamiento de València indica que todos los trámites de padrón son gratuitos y no publica un importe de tasa.",
+    "review_note": "València admite presentación electrónica y presencial. El alta electrónica requiere revisión municipal; el registro de la solicitud no equivale a un alta automática.",
+    "reviewed_on": "2026-09-14",
+    "last_verified": "2026-09-14",
+    "confidence": "official",
+    "source_urls": [
+      "https://sede.valencia.es/sede/registro/procedimiento/PA.GP.11"
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://sede.valencia.es/sede/registro/procedimiento/PA.GP.11",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://sede.valencia.es/sede/registro/procedimiento/PA.GP.11",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://sede.valencia.es/sede/registro/procedimiento/PA.GP.11",
+        "checked_at": "2026-09-14"
+      }
+    },
+    "cita_url": "https://www.valencia.es/cas/tramites/cita-previa/-/content/cita-previa-2020?uid=10138303",
+    "oficinas": [
+      {
+        "nombre": "Información de gestión padronal",
+        "telefono": "010 / 963100010"
+      }
+    ]
+  },
+  "47186": {
+    "reviewed_on": "2026-09-14",
+    "review_note": "La ficha APM_01 permite iniciar el alta electrónica y explica la presentación presencial. El enlace puede redirigir a una sesión temporal: utiliza siempre el acceso estable de la sede.",
+    "confidence": "official",
+    "source_urls": [
+      "https://sede.valladolid.es/opencms/opencms/system/modules/sede/pages/redirect?tipo=procedure&valor=APM_01",
+      "https://www.valladolid.es/es/temas/hacemos/padron-habitantes"
+    ],
+    "sede_url": "https://sede.valladolid.es/opencms/opencms/system/modules/sede/pages/redirect?tipo=procedure&valor=APM_01",
+    "tramite_alta_url": "https://sede.valladolid.es/opencms/opencms/system/modules/sede/pages/redirect?tipo=procedure&valor=APM_01",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "unknown",
+    "cita_url": null,
+    "docs_extra": [
+      "Hoja padronal firmada por las personas adultas, con identificación y documentación de representación cuando proceda.",
+      "Acreditación de vivienda mediante propiedad, alquiler o suministro admitido; revisa cuándo debe acompañarse de una factura reciente.",
+      "Para vivienda ajena o menores, selecciona la autorización y las acreditaciones que correspondan al caso."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Hoja padronal firmada por las personas adultas, con identificación y documentación de representación cuando proceda.",
+        "Acreditación de vivienda mediante propiedad, alquiler o suministro admitido; revisa cuándo debe acompañarse de una factura reciente.",
+        "Para vivienda ajena o menores, selecciona la autorización y las acreditaciones que correspondan al caso."
+      ]
+    },
+    "peculiaridades": [
+      "La ficha APM_01 permite iniciar el alta electrónica y explica la presentación presencial. El enlace puede redirigir a una sesión temporal: utiliza siempre el acceso estable de la sede."
+    ],
+    "fee_public_note": "La ficha de alta del Ayuntamiento de Valladolid dice que los costes no aplican y no publica un importe de tasa.",
+    "last_verified": "2026-09-14",
+    "oficinas": [
+      {
+        "nombre": "Información municipal",
+        "telefono": "983426100"
+      }
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://sede.valladolid.es/opencms/opencms/system/modules/sede/pages/redirect?tipo=procedure&valor=APM_01",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://sede.valladolid.es/opencms/opencms/system/modules/sede/pages/redirect?tipo=procedure&valor=APM_01",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://sede.valladolid.es/opencms/opencms/system/modules/sede/pages/redirect?tipo=procedure&valor=APM_01",
+        "checked_at": "2026-09-14"
+      }
+    }
+  },
+  "48020": {
+    "sede_url": "https://www.bilbao.eus/cs/Satellite?c=BIO_Tramite_FA&categoria=municipales&cid=1279197837078&idProc=1279197831212&language=en&menuAcordeonActivo=-1&pageid=1279127425574&pagename=Bilbaonet/BIO_Tramite_FA/BIO_TramiteSrvTram&perfil=ciudadano",
+    "reviewed_on": "2026-09-14",
+    "review_note": "La sede distingue el canal electrónico y la atención presencial con y sin cita. Si no puedes documentar el uso de vivienda, el Ayuntamiento prevé comprobar la residencia efectiva.",
+    "fee_public_note": "La ficha de alta del Ayuntamiento de Bilbao no publica un importe de tasa.",
+    "confidence": "official",
+    "source_urls": [
+      "https://www.bilbao.eus/cs/Satellite?c=BIO_Tramite_FA&categoria=municipales&cid=1279197837078&idProc=1279197831212&language=en&menuAcordeonActivo=-1&pageid=1279127425574&pagename=Bilbaonet/BIO_Tramite_FA/BIO_TramiteSrvTram&perfil=ciudadano"
+    ],
+    "tramite_alta_url": "https://www.bilbao.eus/cs/Satellite?c=BIO_Tramite_FA&categoria=municipales&cid=1279197837078&idProc=1279197831212&language=en&menuAcordeonActivo=-1&pageid=1279127425574&pagename=Bilbaonet/BIO_Tramite_FA/BIO_TramiteSrvTram&perfil=ciudadano",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "recommended",
+    "cita_url": null,
+    "docs_extra": [
+      "Hoja padronal firmada por las personas adultas e identificación vigente de quienes intervienen.",
+      "Alquiler: contrato vigente de al menos seis meses; si está prorrogado, último recibo. La ficha admite otras pruebas de propiedad o suministro.",
+      "Representación, menores y autorización para vivienda ajena: utiliza el modelo y las acreditaciones indicadas para tu caso."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Hoja padronal firmada por las personas adultas e identificación vigente de quienes intervienen.",
+        "Alquiler: contrato vigente de al menos seis meses; si está prorrogado, último recibo. La ficha admite otras pruebas de propiedad o suministro.",
+        "Representación, menores y autorización para vivienda ajena: utiliza el modelo y las acreditaciones indicadas para tu caso."
+      ]
+    },
+    "peculiaridades": [
+      "La sede distingue el canal electrónico y la atención presencial con y sin cita. Si no puedes documentar el uso de vivienda, el Ayuntamiento prevé comprobar la residencia efectiva."
+    ],
+    "last_verified": "2026-09-14",
+    "oficinas": [
+      {
+        "nombre": "Información de Población y Territorio",
+        "telefono": "944010010"
+      }
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://www.bilbao.eus/cs/Satellite?c=BIO_Tramite_FA&categoria=municipales&cid=1279197837078&idProc=1279197831212&language=en&menuAcordeonActivo=-1&pageid=1279127425574&pagename=Bilbaonet/BIO_Tramite_FA/BIO_TramiteSrvTram&perfil=ciudadano",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://www.bilbao.eus/cs/Satellite?c=BIO_Tramite_FA&categoria=municipales&cid=1279197837078&idProc=1279197831212&language=en&menuAcordeonActivo=-1&pageid=1279127425574&pagename=Bilbaonet/BIO_Tramite_FA/BIO_TramiteSrvTram&perfil=ciudadano",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://www.bilbao.eus/cs/Satellite?c=BIO_Tramite_FA&categoria=municipales&cid=1279197837078&idProc=1279197831212&language=en&menuAcordeonActivo=-1&pageid=1279127425574&pagename=Bilbaonet/BIO_Tramite_FA/BIO_TramiteSrvTram&perfil=ciudadano",
+        "checked_at": "2026-09-14"
+      }
+    }
+  },
+  "50297": {
+    "tramite_alta_url": "https://zaragoza.es/sede/servicio/tramite/3317",
+    "online": false,
+    "presencial": true,
+    "cita_previa": "walk-in",
+    "docs_extra": [
+      "Identificación de las personas y acreditación de residencia en la vivienda.",
+      "Si se vive en domicilio de otra persona, autorización M005 con identificaciones y título de vivienda.",
+      "Menores y representación: consultar los modelos municipales específicos según el supuesto."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Identificación de las personas y acreditación de residencia en la vivienda.",
+        "Si se vive en domicilio de otra persona, autorización M005 con identificaciones y título de vivienda.",
+        "Menores y representación: consultar los modelos municipales específicos según el supuesto."
+      ]
+    },
+    "peculiaridades": [
+      "Zaragoza exige que el alta sea presencial. La Oficina de Relaciones con la Ciudadanía de Plaza del Pilar atiende sin cita; las juntas tienen franjas de atención con cita. El cambio de domicilio tiene un canal distinto."
+    ],
+    "fee_public_note": "La ficha de altas del Ayuntamiento de Zaragoza no publica un importe de tasa. El alta es presencial.",
+    "review_note": "Zaragoza exige que el alta sea presencial. La Oficina de Relaciones con la Ciudadanía de Plaza del Pilar atiende sin cita; las juntas tienen franjas de atención con cita. El cambio de domicilio tiene un canal distinto.",
+    "reviewed_on": "2026-09-14",
+    "last_verified": "2026-09-14",
+    "confidence": "official",
+    "source_urls": [
+      "https://zaragoza.es/sede/servicio/tramite/3317"
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://zaragoza.es/sede/servicio/tramite/3317",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://zaragoza.es/sede/servicio/tramite/3317",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://zaragoza.es/sede/servicio/tramite/3317",
+        "checked_at": "2026-09-14"
+      }
+    },
+    "oficinas": [
+      {
+        "nombre": "Oficina de Relaciones con la Ciudadanía",
+        "direccion": "Plaza del Pilar, 18",
+        "telefono": "010 / 976721234"
+      }
+    ]
+  },
+  "08279": {
+    "tramite_alta_url": "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=141",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "required",
+    "docs_extra": [
+      "Hoja padronal e identificación; documentación de menores cuando corresponda.",
+      "Escritura o contrato vigente, o autorización e identificación de quien acredita el uso de la vivienda.",
+      "Si no se puede acreditar título o autorización, la ficha prevé instancia explicativa e inspección municipal."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Hoja padronal e identificación; documentación de menores cuando corresponda.",
+        "Escritura o contrato vigente, o autorización e identificación de quien acredita el uso de la vivienda.",
+        "Si no se puede acreditar título o autorización, la ficha prevé instancia explicativa e inspección municipal."
+      ]
+    },
+    "peculiaridades": [
+      "La ficha vigente describe el alta por internet con certificado digital o idCAT Móvil y la atención presencial con cita. El compromiso de resolución es de 50 días hábiles y el plazo legal es de 3 meses."
+    ],
+    "fee_public_note": "El Ayuntamiento de Terrassa indica que la gestión del alta es gratuita y no publica un importe de tasa.",
+    "review_note": "La ficha vigente describe el alta por internet con certificado digital o idCAT Móvil y la atención presencial con cita. Indica que la gestión es gratuita. El compromiso de resolución es de 50 días hábiles y el plazo legal es de 3 meses.",
+    "reviewed_on": "2026-10-10",
+    "last_verified": "2026-10-10",
+    "confidence": "official",
+    "source_urls": [
+      "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=141"
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=141",
+        "checked_at": "2026-10-10"
+      },
+      "docs_extra": {
+        "source_url": "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=141",
+        "checked_at": "2026-10-10"
+      },
+      "canal": {
+        "source_url": "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=141",
+        "checked_at": "2026-10-10"
+      }
+    },
+    "cita_url": "https://citaprevia.terrassa.cat",
+    "oficinas": [
+      {
+        "nombre": "Servicio de Población (información)",
+        "direccion": "Carrer de la Unió, 36, 1",
+        "cp": "08221",
+        "telefono": "937397000"
+      }
+    ]
+  },
+  "03065": {
+    "tramite_alta_url": "https://sede.elche.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000000564034799500&PAGE_CODE=CATALOGO&lang=ES",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "required",
+    "docs_extra": [
+      "Hoja A235, documentos de identidad y autorizaciones aplicables A271 y A014.",
+      "Alquiler: contrato vigente con referencia catastral y último recibo. En habitaciones, identificar el número alquilado y el total.",
+      "Menores: certificado de nacimiento y documentos de progenitores o representación según el supuesto."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Hoja A235, documentos de identidad y autorizaciones aplicables A271 y A014.",
+        "Alquiler: contrato vigente con referencia catastral y último recibo. En habitaciones, identificar el número alquilado y el total.",
+        "Menores: certificado de nacimiento y documentos de progenitores o representación según el supuesto."
+      ]
+    },
+    "peculiaridades": [
+      "Elche permite solicitud electrónica y presentación presencial en OMAC con cita. El directorio municipal enlaza la reserva y publica las oficinas."
+    ],
+    "fee_public_note": "La ficha de alta del Ayuntamiento de Elche indica que el pago de tasas es ninguna y no publica un importe de tasa.",
+    "review_note": "Elche permite solicitud electrónica y presentación presencial en OMAC con cita. El directorio municipal enlaza la reserva y publica las oficinas.",
+    "reviewed_on": "2026-09-14",
+    "last_verified": "2026-09-14",
+    "confidence": "official",
+    "source_urls": [
+      "https://sede.elche.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000000564034799500&PAGE_CODE=CATALOGO&lang=ES",
+      "https://www.elche.es/oficina-municipal-de-atencion-ciudadana-omac/directorio-de-oficinas/"
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://sede.elche.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000000564034799500&PAGE_CODE=CATALOGO&lang=ES",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://sede.elche.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000000564034799500&PAGE_CODE=CATALOGO&lang=ES",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://sede.elche.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000000564034799500&PAGE_CODE=CATALOGO&lang=ES",
+        "checked_at": "2026-09-14"
+      },
+      "cita": {
+        "source_url": "https://www.elche.es/oficina-municipal-de-atencion-ciudadana-omac/directorio-de-oficinas/",
+        "checked_at": "2026-09-14"
+      }
+    },
+    "cita_url": "https://www.elche.es/oficina-municipal-de-atencion-ciudadana-omac/directorio-de-oficinas/",
+    "oficinas": [
+      {
+        "nombre": "Información y cita OMAC",
+        "telefono": "010 / 966658050"
+      }
+    ]
+  },
+  "08019": {
+    "reviewed_on": "2026-09-14",
+    "review_note": "El alta por internet requiere identificación y firma admitidas. La representación de otra persona utiliza la instancia que indique el trámite. Para atención presencial consulta las OAC; el servicio de videollamada no acredita el alta ordinaria.",
+    "confidence": "official",
+    "source_urls": [
+      "https://seuelectronica.ajuntament.barcelona.cat/APPS/portaltramits/es/ciudadano/descripcio/T135i/PTCIU.html",
+      "https://ajuntament.barcelona.cat/es/canales-de-comunicacion-ciudadana/telefonicos/el-ayuntamiento-te-llama",
+      "https://ajuntament.barcelona.cat/transparencia/sites/default/files/poblacio_2023101_carta_de_servicios_0.pdf"
+    ],
+    "sede_url": "https://seuelectronica.ajuntament.barcelona.cat/APPS/portaltramits/es/ciudadano/descripcio/T135i/PTCIU.html",
+    "tramite_alta_url": "https://seuelectronica.ajuntament.barcelona.cat/APPS/portaltramits/es/ciudadano/descripcio/T135i/PTCIU.html",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "unknown",
+    "cita_url": null,
+    "docs_extra": [
+      "Identificación vigente y documentos en castellano o catalán, o con traducción oficial cuando corresponda.",
+      "Acreditación de la vivienda. En alquiler, comprueba duración del contrato, prórroga y recibos exigidos por el trámite.",
+      "Si autoriza otra persona o se inscriben menores, aporta autorización, identificación y documentación del supuesto. Conserva los originales digitales firmados."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Identificación vigente y documentos en castellano o catalán, o con traducción oficial cuando corresponda.",
+        "Acreditación de la vivienda. En alquiler, comprueba duración del contrato, prórroga y recibos exigidos por el trámite.",
+        "Si autoriza otra persona o se inscriben menores, aporta autorización, identificación y documentación del supuesto. Conserva los originales digitales firmados."
+      ]
+    },
+    "peculiaridades": [
+      "El alta por internet requiere identificación y firma admitidas. La representación de otra persona utiliza la instancia que indique el trámite. Para atención presencial consulta las OAC; el servicio de videollamada no acredita el alta ordinaria."
+    ],
+    "fee_public_note": "El Ayuntamiento de Barcelona indica que el alta en el padrón es un trámite gratuito y no publica un importe de tasa.",
+    "last_verified": "2026-09-14",
+    "oficinas": [
+      {
+        "nombre": "Información ciudadana",
+        "telefono": "931537010"
+      }
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://seuelectronica.ajuntament.barcelona.cat/APPS/portaltramits/es/ciudadano/descripcio/T135i/PTCIU.html",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://seuelectronica.ajuntament.barcelona.cat/APPS/portaltramits/es/ciudadano/descripcio/T135i/PTCIU.html",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://seuelectronica.ajuntament.barcelona.cat/APPS/portaltramits/es/ciudadano/descripcio/T135i/PTCIU.html",
+        "checked_at": "2026-09-14"
+      }
+    }
+  },
+  "07040": {
+    "tramite_alta_url": "https://palma.sedipualba.es/carpetaciudadana/tramite.aspx?idioma=es&idtramite=13898",
+    "online": "partial",
+    "presencial": true,
+    "cita_previa": "required",
+    "docs_extra": [
+      "Hoja padronal firmada e identificación de quienes se inscriben.",
+      "Prueba de vivienda según titularidad: escritura, nota registral, IBI, contrato o suministro admitido; en alquiler consultar cuándo se exige recibo.",
+      "Autorizaciones y documentos de menores según situación familiar."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Hoja padronal firmada e identificación de quienes se inscriben.",
+        "Prueba de vivienda según titularidad: escritura, nota registral, IBI, contrato o suministro admitido; en alquiler consultar cuándo se exige recibo.",
+        "Autorizaciones y documentos de menores según situación familiar."
+      ],
+      "renovacion": [
+        "Preaviso o notificación firmado, si se ha recibido.",
+        "Original y copia del pasaporte o permiso de residencia; si está caducado, solicitud de renovación. Menores: comparecencia y documentación de progenitor o tutor."
+      ]
+    },
+    "peculiaridades": [
+      "Palma ofrece alta electrónica para los supuestos de su hoja informativa y atención presencial con cita. Los mayores de 65 años tienen una excepción sin cita en OAC Son Moix; el resto de supuestos debe comprobarse en la hoja municipal."
+    ],
+    "review_note": "Palma ofrece alta electrónica para los supuestos de su hoja informativa y atención presencial con cita. Los mayores de 65 años tienen una excepción sin cita en OAC Son Moix; el resto de supuestos debe comprobarse en la hoja municipal.",
+    "fee_public_note": "La ficha de alta del Ayuntamiento de Palma no publica un importe de tasa.",
+    "reviewed_on": "2026-09-14",
+    "last_verified": "2026-09-14",
+    "confidence": "official",
+    "source_urls": [
+      "https://palma.sedipualba.es/carpetaciudadana/tramite.aspx?idioma=es&idtramite=13898",
+      "https://palma.sedipualba.es/carpetaciudadana/documentoinformativo.aspx?abrir=True&id=2624&idioma=es"
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://palma.sedipualba.es/carpetaciudadana/tramite.aspx?idioma=es&idtramite=13898",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://palma.sedipualba.es/carpetaciudadana/documentoinformativo.aspx?abrir=True&id=2624&idioma=es",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://palma.sedipualba.es/carpetaciudadana/tramite.aspx?idioma=es&idtramite=13898",
+        "checked_at": "2026-09-14"
+      },
+      "renovacion": {
+        "source_url": "https://palma.sedipualba.es/carpetaciudadana/documentoinformativo.aspx?abrir=True&id=2624&idioma=es",
+        "checked_at": "2026-09-14"
+      }
+    },
+    "cita_url": "https://palma.sedipualba.es/carpetaciudadana/tramite.aspx?idioma=es&idtramite=13898"
+  },
+  "03014": {
+    "reviewed_on": "2026-09-14",
+    "review_note": "Alta electrónica con identificación admitida por la sede, o presencial con cita. Una cita puede cubrir el alta del grupo familiar; comprueba la oficina elegida.",
+    "confidence": "official",
+    "source_urls": [
+      "https://www.alicante.es/es/tramites/altas-y-cambios-domicilio-padron-municipal-habitantes"
+    ],
+    "sede_url": "https://www.alicante.es/es/tramites/altas-y-cambios-domicilio-padron-municipal-habitantes",
+    "tramite_alta_url": "https://www.alicante.es/es/tramites/altas-y-cambios-domicilio-padron-municipal-habitantes",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "required",
+    "cita_url": "https://citaprevia.alicante.es",
+    "docs_extra": [
+      "Identificación original vigente. La presentación electrónica utiliza la hoja de inscripción municipal.",
+      "Vivienda: título o justificante admitido; en alquiler, contrato, último recibo e identificación de la propiedad según la ficha.",
+      "Para menores, representación o vivienda ajena, adjunta las autorizaciones y documentos del supuesto correspondiente."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Identificación original vigente. La presentación electrónica utiliza la hoja de inscripción municipal.",
+        "Vivienda: título o justificante admitido; en alquiler, contrato, último recibo e identificación de la propiedad según la ficha.",
+        "Para menores, representación o vivienda ajena, adjunta las autorizaciones y documentos del supuesto correspondiente."
+      ]
+    },
+    "peculiaridades": [
+      "Alta electrónica con identificación admitida por la sede, o presencial con cita. Una cita puede cubrir el alta del grupo familiar; comprueba la oficina elegida."
+    ],
+    "fee_public_note": "El Ayuntamiento de Alicante indica que todos los trámites del padrón municipal son gratuitos y no publica un importe de tasa.",
+    "last_verified": "2026-09-14",
+    "oficinas": [
+      {
+        "nombre": "Información municipal sobre padrón",
+        "telefono": "900153862"
+      }
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://www.alicante.es/es/tramites/altas-y-cambios-domicilio-padron-municipal-habitantes",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://www.alicante.es/es/tramites/altas-y-cambios-domicilio-padron-municipal-habitantes",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://www.alicante.es/es/tramites/altas-y-cambios-domicilio-padron-municipal-habitantes",
+        "checked_at": "2026-09-14"
+      }
+    }
+  },
+  "08101": {
+    "reviewed_on": "2026-09-14",
+    "review_note": "Se puede presentar por internet con un sistema admitido por VÀLid o presencialmente. La sede recomienda cita por comodidad y diferencia los documentos que puede consultar de los que debes aportar.",
+    "confidence": "official",
+    "source_urls": [
+      "https://seuelectronica.l-h.cat/tramits/r/detallTramit_2.aspx?2y0ergZvAQ1z46TiKCw4h7k1l7jd7AYPT0JB2tKF8cXTaMvwfuVdbwAqazBqazB"
+    ],
+    "sede_url": "https://seuelectronica.l-h.cat/tramits/r/detallTramit_2.aspx?2y0ergZvAQ1z46TiKCw4h7k1l7jd7AYPT0JB2tKF8cXTaMvwfuVdbwAqazBqazB",
+    "tramite_alta_url": "https://seuelectronica.l-h.cat/tramits/r/detallTramit_2.aspx?2y0ergZvAQ1z46TiKCw4h7k1l7jd7AYPT0JB2tKF8cXTaMvwfuVdbwAqazBqazB",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "recommended",
+    "cita_url": "https://citaprevia.l-h.cat/citaprevia/lhospitalet?idioma=ca&oficina=AC",
+    "docs_extra": [
+      "Identificación y documentos en castellano o catalán; consulta las reglas de traducción y de consulta electrónica de datos.",
+      "Alquiler habitual: contrato vigente y último pago. Si es privado, debe estar firmado en todas las hojas y acompañarse de identificación de firmantes.",
+      "En representación, vivienda con otras personas inscritas o menores, adjunta la autorización y las acreditaciones del supuesto indicado."
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Identificación y documentos en castellano o catalán; consulta las reglas de traducción y de consulta electrónica de datos.",
+        "Alquiler habitual: contrato vigente y último pago. Si es privado, debe estar firmado en todas las hojas y acompañarse de identificación de firmantes.",
+        "En representación, vivienda con otras personas inscritas o menores, adjunta la autorización y las acreditaciones del supuesto indicado."
+      ]
+    },
+    "peculiaridades": [
+      "Se puede presentar por internet con un sistema admitido por VÀLid o presencialmente. La sede recomienda cita por comodidad y diferencia los documentos que puede consultar de los que debes aportar."
+    ],
+    "fee_public_note": "La ficha de alta del Ayuntamiento de L'Hospitalet no publica un importe de tasa. Puede presentarse por internet con VÀLid o de forma presencial.",
+    "last_verified": "2026-09-14",
+    "oficinas": [
+      {
+        "nombre": "Información municipal",
+        "telefono": "934029400"
+      }
+    ],
+    "evidence": {
+      "alta": {
+        "source_url": "https://seuelectronica.l-h.cat/tramits/r/detallTramit_2.aspx?2y0ergZvAQ1z46TiKCw4h7k1l7jd7AYPT0JB2tKF8cXTaMvwfuVdbwAqazBqazB",
+        "checked_at": "2026-09-14"
+      },
+      "docs_extra": {
+        "source_url": "https://seuelectronica.l-h.cat/tramits/r/detallTramit_2.aspx?2y0ergZvAQ1z46TiKCw4h7k1l7jd7AYPT0JB2tKF8cXTaMvwfuVdbwAqazBqazB",
+        "checked_at": "2026-09-14"
+      },
+      "canal": {
+        "source_url": "https://seuelectronica.l-h.cat/tramits/r/detallTramit_2.aspx?2y0ergZvAQ1z46TiKCw4h7k1l7jd7AYPT0JB2tKF8cXTaMvwfuVdbwAqazBqazB",
+        "checked_at": "2026-09-14"
+      }
+    }
+  },
+  "01059": {
+    "reviewed_on": "2026-09-14",
+    "review_note": "La ficha detallada de alta en vivienda alquilada muestra un aviso de contenido expirado. El cuaderno municipal de apoyo contiene referencias legales antiguas. Se requiere una ficha vigente antes de acreditar requisitos y canales.",
+    "confidence": "unverified",
+    "source_urls": [
+      "https://sedeelectronica.vitoria-gasteiz.org/portal/es/w/alta-en-el-padron-municipal",
+      "https://sedeelectronica.vitoria-gasteiz.org/portal/es/w/solicitud-de-alta-en-el-padron-en-una-vivienda-alquilada-por-completo-2405539",
+      "https://www.vitoria-gasteiz.org/wb021/was/we001Action.do?accionWe001=adjunto&idioma=en&nombre=105609.pdf"
+    ]
+  }
+}

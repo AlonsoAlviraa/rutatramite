@@ -14,13 +14,16 @@ export default function AvisoLegalPage() {
     <PageShell as="article" className="space-y-4">
       <h1 className="font-display text-4xl">Aviso legal</h1>
       <p>
-        {PRODUCT_NAME} ({SITE_ORIGIN}) es una guía ciudadana e independiente sobre el
+        {PRODUCT_NAME} ({SITE_ORIGIN}) es una guía ciudadana e independiente sobre los
         trámites en España. No somos Administración Pública, no somos sede
         electrónica, no somos despacho de abogados y no prestamos asesoramiento jurídico
-        personalizado. El padrón lo gestiona cada Ayuntamiento.
+        personalizado. El padrón lo gestiona cada Ayuntamiento, según el{" "}
+        <a className="underline" href="https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392">artículo 17 de la Ley 7/1985</a>.
       </p>
       <p>
-        El alta en el padrón es gratuita. No vendemos citas, no cobramos el trámite, no pedimos ni
+        El alta en el padrón es gratuita. El Ayuntamiento de València indica que la inscripción en el padrón es un trámite gratuito (
+        <a className="underline" href="https://www.valencia.es/documents/20142/20609056/PREGUNTAS+FRECUENTES+PADRON.pdf/95395fb7-6f62-224a-9471-a1b6dda7ddbe">preguntas frecuentes del padrón</a>
+        ). No vendemos citas, no cobramos el trámite, no pedimos ni
         guardamos DNI, pasaporte, dirección ni fotografías de documentos. El asistente de seis
         preguntas se ejecuta en tu navegador.
       </p>

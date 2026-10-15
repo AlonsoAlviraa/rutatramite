@@ -4,6 +4,11 @@ ARCHIVE=${1:?archive required}
 EXPECTED=${2:?sha256 required}
 case "$ARCHIVE" in /tmp/rutatramite-source-*.tar.gz) ;; *) exit 1;; esac
 [[ "$EXPECTED" =~ ^[a-f0-9]{64}$ ]] || exit 1
+FREE_BYTES=$(df --output=avail -B1 /srv/tenants/slot2 | tail -n 1)
+if (( FREE_BYTES < 4294967296 )); then
+  printf 'Build requires at least 4 GiB free; inspect inactive build caches before retrying.\n' >&2
+  exit 1
+fi
 printf '%s  %s\n' "$EXPECTED" "$ARCHIVE" | sha256sum --check --status
 STAMP=$(date -u +%Y%m%dT%H%M%SZ)
 BUILD="/srv/tenants/slot2/builds/$STAMP"

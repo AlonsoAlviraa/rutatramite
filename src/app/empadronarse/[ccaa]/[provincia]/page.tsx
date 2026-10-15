@@ -1,8 +1,9 @@
 import { HubView } from "@/components/empadronamiento/HubView";
 import { loadIndex } from "@/lib/data/load";
 import { ccaaBySlug, loadTerritories } from "@/lib/geo/territories";
-import { buildProvinciaHub } from "@/lib/hub/buildHub";
+import { buildProvinciaHub, HUB_REVIEWED_AT } from "@/lib/hub/buildHub";
 import { pageMetadata } from "@/lib/seo/meta";
+import { isProvinciaIndexable } from "@/lib/seo/provinciaIndex";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -30,15 +31,15 @@ export async function generateMetadata({
   const t = loadTerritories();
   const c = ccaaBySlug(ccaa);
   const p = Object.values(t.provinces).find((x) => x.slug === provincia);
-  if (!c || !p) return {};
-  const municipios = loadIndex().filter((m) => m.ccaa_slug === c.slug && m.province_slug === p.slug);
-  const model = buildProvinciaHub(p.name, c.name, municipios);
+  if (!c || !p || !c.province_codes.includes(p.code)) return {};
+  const model = buildProvinciaHub(p.name, c.name, loadIndex().filter(m => m.ccaa_slug === c.slug && m.province_slug === p.slug));
   return pageMetadata({
     title: model.title,
     description: model.description,
     path: `/empadronarse/${c.slug}/${p.slug}`,
     type: "article",
-    modified: "2026-09-07",
+    modified: HUB_REVIEWED_AT,
+    index: isProvinciaIndexable(c.slug, p.slug),
   });
 }
 
