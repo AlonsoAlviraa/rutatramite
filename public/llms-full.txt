@@ -49,7 +49,7 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 ## DNI y pasaporte
 
 - [Índice: DNI y pasaporte](https://rutatramite.com/dni)
-- [Cita DNI en citapreviadnie.es: pedir, consultar o anular](https://rutatramite.com/dni/cita-previa)
+- [Cita previa DNI en citapreviadnie.es: pedir o consultar](https://rutatramite.com/dni/cita-previa)
 - [Cita previa de pasaporte: reserva y documentos](https://rutatramite.com/pasaporte/cita-previa)
 - [Renovar el DNI caducado: plazo, cita y documentos](https://rutatramite.com/dni/renovar-caducado)
 - [DNI y pasaporte en la misma cita: requisitos y excepciones](https://rutatramite.com/dni/misma-cita-pasaporte)
