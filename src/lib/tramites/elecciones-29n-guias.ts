@@ -1,7 +1,7 @@
 import type { Guide } from "@/lib/tramites/types";
 
 /** 30 guías prácticas para las elecciones a Cortes Generales del 29 de noviembre de 2026 (RD 806/2026). */
-const reviewedAt = "2026-10-12";
+const reviewedAt = "2026-10-16";
 const LOREG = "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672";
 
 const S = {
@@ -316,9 +316,9 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     id: "29n-censo",
     path: "/elecciones/consultar-censo-electoral",
     h1: "Consultar el censo electoral y reclamar",
-    title: "Consultar el censo electoral: 12 al 19 de octubre",
+    title: "Censo electoral 29-N: consulta y reclama hasta el 19 de octubre",
     description:
-      "Del 12 al 19 de octubre de 2026 puedes consultar el censo en tu ayuntamiento, consulado o en la sede del INE con Cl@ve, y reclamar si tus datos están mal.",
+      "Quedan pocos días (12–19 oct 2026): consulta el censo en ayuntamiento, consulado o sede INE con Cl@ve y reclama inclusiones/exclusiones. Calendario JEC.",
     lead:
       "Del 12 al 19 de octubre de 2026 puedes comprobar si estás bien inscrito: en tu ayuntamiento, en la delegación de la Oficina del Censo Electoral, en el consulado si vives fuera, o por internet en la sede del INE con Cl@ve o DNI electrónico. En esas mismas fechas puedes reclamar.",
     cta: S.ineSede,
