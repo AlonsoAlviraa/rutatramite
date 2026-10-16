@@ -1,3 +1,5 @@
+import { canonicalSiteOrigin } from "@/lib/seo/origin";
+
 export type Confidence = "official" | "inferred" | "unverified";
 export type Status = "published" | "stub" | "draft";
 export type Oleada = "A" | "B" | "C" | "D" | "E";
@@ -38,8 +40,14 @@ export type Municipio = {
   tasa_alta: 0 | number;
   tasa_volante: number | null;
   tasa_certificado: number | null;
+  /** Si la sede no publica importe, sustituye el «0 €» de la plantilla. */
+  fee_public_note?: string;
   docs_extra: string[];
   peculiaridades: string[];
+  procedure_docs?: Partial<Record<Tramite, string[]>>;
+  evidence?: Record<string, { source_url: string; checked_at: string }>;
+  review_note?: string;
+  reviewed_on?: string;
   idiomas_sede: string[];
   last_verified: string;
   source_urls: string[];
@@ -71,6 +79,11 @@ export type MunicipioIndexEntry = {
   cita_url: string | null;
   /** Copied onto the client index so the wizard checklist can use local extras without loading the full JSON. */
   docs_extra: string[];
+  local_verified?: boolean;
+  search_alias?: string;
+  procedure_docs?: Partial<Record<Tramite, string[]>>;
+  certificado_url?: string | null;
+  tramite_alta_url?: string | null;
 };
 
 export type Housing =
@@ -128,16 +141,13 @@ export const ESCENARIO_LABELS: Record<EscenarioSlug, string> = {
   "cita-previa-madrid": "Cita previa de empadronamiento en Madrid",
 };
 
-/** Canonical production origin. Preview/staging: set NEXT_PUBLIC_SITE_URL. */
-export const SITE_ORIGIN = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://rutatramite.com").replace(
-  /\/$/,
-  "",
-);
+/** Canonical production origin. Preview/staging may set NEXT_PUBLIC_SITE_URL. Never the retired .es host. */
+export const SITE_ORIGIN = canonicalSiteOrigin(process.env.NEXT_PUBLIC_SITE_URL);
 export const PRODUCT_NAME = "RutaTrámite";
 export const SITE_NAME = PRODUCT_NAME;
 /** Editorial mailbox on the live host. Do not use the NXDOMAIN .es. */
 export const CONTACT_EMAIL = "hola@rutatramite.com";
-export const DEFAULT_OG_ALT = "RutaTrámite: guía ciudadana para empadronarse en España";
+export const DEFAULT_OG_ALT = "RutaTrámite: guías para hacer tus trámites en España";
 
 export const DISCLAIMER_SHORT =
   "Información orientativa. El padrón lo gestiona cada Ayuntamiento. Contrasta siempre con la sede electrónica oficial. No somos Administración Pública ni despacho de abogados. El alta en el padrón es gratuita. No pedimos ni guardamos tu DNI, pasaporte ni documentos.";
@@ -145,7 +155,7 @@ export const DISCLAIMER_SHORT =
 export const WIZARD_QUESTIONS = [
   "Municipio (escribe el nombre; el listado sale del índice INE de municipios de España).",
   "¿El contrato o la escritura está a tu nombre?",
-  "Nacionalidad: española, UE-EEE-CH o resto.",
+  "Nacionalidad: española, UE / EEE / Suiza o resto.",
   "¿Tienes NIE o TIE?",
   "¿Hay menores en el alta?",
   "¿Quieres alta, cambio de domicilio, volante, certificado o renovación 2 años?",

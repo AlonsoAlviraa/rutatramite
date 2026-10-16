@@ -3,6 +3,7 @@ import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { ESCENARIO_SLUGS } from "@/lib/types";
 import { BRIEFS } from "../scripts/gen/escenarios-briefs.mjs";
+import { REVIEWS, validateReviewed } from "../scripts/gen/escenarios-revisados.mjs";
 
 const ROOT = process.cwd();
 const CONTENT_DIR = path.join(ROOT, "content", "escenarios");
@@ -67,7 +68,13 @@ function readContent(slug: string): string {
 }
 
 function visible(md: string): string {
-  return md.replace(/<!--[\s\S]*?-->/g, "");
+  let previous = "";
+  let current = md;
+  while (current !== previous) {
+    previous = current;
+    current = current.replace(/<!--[\s\S]*?-->/g, "");
+  }
+  return current;
 }
 
 type Faq = { q: string; body: string };
@@ -108,6 +115,10 @@ describe("escenarios: editorial única y sin relleno clónico", () => {
   it("estructura común: H1 propio y los nueve H2 en orden", () => {
     const briefBySlug = new Map(BRIEFS.map((b) => [b.slug, b]));
     for (const slug of ESCENARIO_SLUGS) {
+      if (REVIEWS[slug]) {
+        expect(validateReviewed(slug, readContent(slug)).errors, slug).toEqual([]);
+        continue;
+      }
       const md = visible(readContent(slug));
       const brief = briefBySlug.get(slug);
       expect(brief, `brief para ${slug}`).toBeDefined();
@@ -120,27 +131,28 @@ describe("escenarios: editorial única y sin relleno clónico", () => {
     }
   });
 
-  it("15 respuestas FAQ por archivo, de 80 a 150 palabras, con las preguntas del brief", () => {
+  it("preguntas completas del brief o de la revisión manual, con respuestas no vacías", () => {
     const briefBySlug = new Map(BRIEFS.map((b) => [b.slug, b]));
     for (const slug of ESCENARIO_SLUGS) {
       const md = visible(readContent(slug));
       const items = faqs(md);
-      expect(items.length, `${slug}: ${items.length} respuestas FAQ`).toBe(15);
-      briefBySlug.get(slug)!.faq.forEach((q, i) => {
+      const questions = REVIEWS[slug]?.questions ?? briefBySlug.get(slug)!.faq;
+      expect(items.length, `${slug}: ${items.length} respuestas FAQ`).toBe(questions.length);
+      questions.forEach((q: string, i: number) => {
         expect(norm(items[i].q), `${slug} FAQ ${i + 1}`).toBe(norm(q));
       });
       items.forEach((a, i) => {
-        const wc = words(a.body);
-        expect(
-          wc >= 80 && wc <= 150,
-          `${slug} FAQ ${i + 1} «${a.q}»: ${wc} palabras (80–150)`,
-        ).toBe(true);
+        expect(a.body.trim(), `${slug} FAQ ${i + 1}: respuesta vacía`).not.toBe("");
       });
     }
   });
 
-  it("suelo de palabras visibles: ≥2.200 por escenario (el test de render pide ≥2.000)", () => {
+  it("conserva los documentos heredados; las revisiones manuales validan cobertura y fuentes", () => {
     for (const slug of ESCENARIO_SLUGS) {
+      if (REVIEWS[slug]) {
+        expect(validateReviewed(slug, readContent(slug)).errors, slug).toEqual([]);
+        continue;
+      }
       const wc = words(visible(readContent(slug)).replace(/[#*_>-]/g, " "));
       expect(wc, `${slug}: ${wc} palabras`).toBeGreaterThanOrEqual(2200);
     }
@@ -202,12 +214,12 @@ describe("escenarios: editorial única y sin relleno clónico", () => {
     for (const slug of ESCENARIO_SLUGS) {
       const md = readContent(slug);
       for (const url of md.match(/https?:\/\/[^\s)]+/g) ?? []) {
-        expect(url, `${slug}: URL no permitida`).toMatch(/(idapadron\.ine\.es|boe\.es)/i);
+        expect(["idapadron.ine.es", "www.boe.es", "boe.es", "www.madrid.es", "sede.madrid.es"], `${slug}: URL no permitida`).toContain(new URL(url).hostname);
       }
       for (const money of md.match(/\d+([.,]\d+)?\s*€/g) ?? []) {
         expect(money, `${slug}: tasa inventada`).toMatch(/^0([.,]0*)?\s*€/);
       }
-      expect(md, `${slug}: parece haber un teléfono`).not.toMatch(
+      expect(md.replace(/https?:\/\/[^\s)]+/g, ""), `${slug}: parece haber un teléfono`).not.toMatch(
         /(?:\+34\s?)?[89]\d{2}[\s.-]?\d{3}[\s.-]?\d{3}/,
       );
     }

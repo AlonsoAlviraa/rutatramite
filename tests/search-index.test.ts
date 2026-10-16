@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 import robots from "@/app/robots";
+import { searchSite } from "@/lib/seo/siteSearch";
 import { SITE_ORIGIN } from "@/lib/types";
 
 const KEY = "b7e4c91a0f3d28e65a1c47b90d2e8f36";
@@ -27,10 +28,8 @@ describe("search engine + GEO discovery files (shipped public/)", () => {
       // Specific groups override '*'; each effective group must retain exclusions.
       const effective = rules.find((rule) => rule.userAgent === agent) ?? rules.find((rule) => rule.userAgent === "*");
       expect(effective?.allow).toBe("/");
-      const disallow = effective?.disallow;
-      const listed = Array.isArray(disallow) ? disallow : [disallow];
-      expect(listed).toContain("/api/");
-      expect(listed).toContain("/borrador/");
+      expect(effective?.disallow).toContain("/api/");
+      expect(effective?.disallow).toContain("/borrador/");
     }
   });
 
@@ -46,5 +45,20 @@ describe("search engine + GEO discovery files (shipped public/)", () => {
     expect(txt).toContain("citapreviadnie.es");
     expect(txt).toContain("No somos Administración");
     expect(txt).not.toContain("localhost");
+  });
+
+  it("audit_build counts App Router /page routes so dynamic /buscar is not a missing target", () => {
+    const src = fs.readFileSync(path.join(process.cwd(), "scripts", "audit_build.py"), "utf8");
+    expect(src).toContain("app-paths-manifest.json");
+    expect(src).toContain("routes-manifest.json");
+    expect(src).toContain("endswith('/page')");
+    expect(src).toContain("removesuffix('/page')");
+  });
+
+  it("site search finds transport and DNI hubs without requiring JavaScript catalog", () => {
+    const t16 = searchSite("t16 barcelona", 10);
+    expect(t16.some((hit) => hit.href === "/transporte/t16-como-solicitar")).toBe(true);
+    const dni = searchSite("cita dni", 10);
+    expect(dni.some((hit) => hit.href === "/dni" || hit.href.startsWith("/dni/"))).toBe(true);
   });
 });

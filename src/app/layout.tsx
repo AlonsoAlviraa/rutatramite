@@ -1,14 +1,15 @@
 import type { Metadata, Viewport } from "next";
 import { Newsreader, Public_Sans } from "next/font/google";
-import { NextIntlClientProvider } from "next-intl";
 import { JsonLd } from "@/components/empadronamiento/JsonLd";
 import { SiteFooter } from "@/components/empadronamiento/SiteFooter";
 import { SiteHeader } from "@/components/empadronamiento/SiteHeader";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo/jsonld";
-import { localeAlternates } from "@/lib/seo/hreflang";
 import { PRODUCT_NAME, SITE_ORIGIN } from "@/lib/types";
-import messages from "../../messages/es.json";
 import "./globals.css";
+import { Metrics } from "@/components/ui/Metrics";
+
+/** Umami (sin cookies) servido en el mismo origen vía Caddy /stats. Inactivo si no se define NEXT_PUBLIC_UMAMI_WEBSITE_ID en el build. */
+const UMAMI_WEBSITE_ID = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID;
 
 const sans = Public_Sans({
   subsets: ["latin"],
@@ -43,7 +44,8 @@ export const metadata: Metadata = {
   category: "reference",
   alternates: {
     canonical: SITE_ORIGIN,
-    languages: localeAlternates(SITE_ORIGIN),
+    languages: { es: SITE_ORIGIN, "x-default": SITE_ORIGIN },
+    types: { "application/atom+xml": `${SITE_ORIGIN}/feed.xml` },
   },
   openGraph: {
     type: "website",
@@ -70,14 +72,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es" className={`${sans.variable} ${display.variable}`}>
       <body className="min-h-screen font-sans antialiased">
         <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
-        <NextIntlClientProvider locale="es" messages={messages} timeZone="Europe/Madrid">
-          <a className="skip-link" href="#contenido">
-            Saltar al contenido
-          </a>
-          <SiteHeader />
-          <main id="contenido">{children}</main>
-          <SiteFooter />
-        </NextIntlClientProvider>
+        <a className="skip-link" href="#contenido" tabIndex={0}>
+          Saltar al contenido
+        </a>
+        <SiteHeader />
+        <main id="contenido">{children}</main>
+        <SiteFooter />
+        <Metrics />
+        {UMAMI_WEBSITE_ID ? (
+          <script defer src="/stats/script.js" data-website-id={UMAMI_WEBSITE_ID} data-host-url="/stats" data-do-not-track="true" />
+        ) : null}
       </body>
     </html>
   );

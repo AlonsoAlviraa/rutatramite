@@ -8,8 +8,9 @@ import { runWizard } from "@/lib/wizard/engine";
 import type { ClientMunicipio } from "@/lib/wizard/clientIndex";
 import { loadRemoteClientIndex } from "@/lib/wizard/loadClientIndex";
 import type { Housing, Nacionalidad, Tramite, WizardAnswers } from "@/lib/types";
-import { WIZARD_QUESTIONS } from "@/lib/types";
+import { ESCENARIO_LABELS, WIZARD_QUESTIONS } from "@/lib/types";
 import { escenarioPath } from "@/lib/geo/paths";
+import { sendMetric } from "@/lib/metrics/events";
 
 const empty: WizardAnswers = {
   ineCode: null,
@@ -19,6 +20,45 @@ const empty: WizardAnswers = {
   menores: null,
   tramite: null,
 };
+
+const HOUSING_OPTIONS: [Housing, string][] = [
+  ["contrato", "Sí, el contrato o la escritura está a mi nombre"],
+  ["no-contrato", "No está a mi nombre"],
+  ["propietario", "Soy propietario"],
+  ["sin-papeles", "No tengo papeles de la casa"],
+  ["sin-techo", "No tengo techo"],
+];
+
+const NACIONALIDAD_OPTIONS: [Nacionalidad, string][] = [
+  ["espanola", "Española"],
+  ["ue", "UE, EEE o Suiza"],
+  ["resto", "Otra nacionalidad"],
+];
+
+const TRAMITE_OPTIONS: [Tramite, string][] = [
+  ["alta", "Alta"],
+  ["cambio", "Cambio de domicilio"],
+  ["volante", "Volante"],
+  ["certificado", "Certificado"],
+  ["renovacion", "Renovación 2 años"],
+];
+
+export function visibleWizardAnswers(answers: WizardAnswers, municipioName: string | null): { label: string; value: string }[] {
+  const rows: { label: string; value: string }[] = [
+    { label: "Municipio", value: municipioName?.trim() || "Sin ficha en esta guía" },
+  ];
+  const housingLabel = HOUSING_OPTIONS.find(([value]) => value === answers.housing)?.[1];
+  if (housingLabel) rows.push({ label: "Vivienda", value: housingLabel });
+  const nacionalidadLabel = NACIONALIDAD_OPTIONS.find(([value]) => value === answers.nacionalidad)?.[1];
+  if (nacionalidadLabel) rows.push({ label: "Nacionalidad", value: nacionalidadLabel });
+  if (answers.nacionalidad && answers.nacionalidad !== "espanola" && answers.nieTie !== null) {
+    rows.push({ label: "NIE o TIE", value: answers.nieTie ? "Sí" : "No" });
+  }
+  if (answers.menores !== null) rows.push({ label: "Menores", value: answers.menores ? "Sí" : "No" });
+  const tramiteLabel = TRAMITE_OPTIONS.find(([value]) => value === answers.tramite)?.[1];
+  if (tramiteLabel) rows.push({ label: "Trámite", value: tramiteLabel });
+  return rows;
+}
 
 export function Wizard({ index }: { index?: ClientMunicipio[] }) {
   const seeded = index && index.length > 0 ? index : null;
@@ -43,15 +83,17 @@ export function Wizard({ index }: { index?: ClientMunicipio[] }) {
   const [copyError, setCopyError] = useState(false);
   const [step, setStep] = useState(0);
   const panel = useRef<HTMLFormElement>(null);
+  const started = useRef(false);
   const municipio = useMemo(
     () => rows.find((m) => m.ine_code === answers.ineCode) ?? null,
     [rows, answers.ineCode],
   );
+  const skipNie = answers.nacionalidad === "espanola";
   const ready =
     answers.ineCode &&
     answers.housing &&
     answers.nacionalidad &&
-    answers.nieTie !== null &&
+    (skipNie || answers.nieTie !== null) &&
     answers.menores !== null &&
     answers.tramite;
   const result = ready ? runWizard(answers, municipio) : null;
@@ -59,12 +101,24 @@ export function Wizard({ index }: { index?: ClientMunicipio[] }) {
     answers.ineCode,
     answers.housing,
     answers.nacionalidad,
-    answers.nieTie !== null,
+    skipNie || answers.nieTie !== null,
     answers.menores !== null,
     answers.tramite,
   ].map(Boolean);
-  const doneCount = completed.filter(Boolean).length;
+  const visibleSteps = skipNie ? 5 : 6;
+  function visibleNumber(s: number) {
+    if (!skipNie) return s + 1;
+    return s <= 2 ? s + 1 : s;
+  }
+  function adjacent(from: number, dir: 1 | -1) {
+    let next = from + dir;
+    if (skipNie && next === 3) next += dir;
+    return next;
+  }
+  const progressStep = step < 6 ? visibleNumber(step) : visibleSteps;
   function go(next: number) {
+    if (next === 1 && !started.current) { sendMetric("wizard_start"); started.current = true; }
+    if (next === 6 && result) sendMetric("wizard_complete");
     setStep(next);
     setCopied(false);
     setCopyError(false);
@@ -84,13 +138,13 @@ export function Wizard({ index }: { index?: ClientMunicipio[] }) {
     >
       <div>
         <p className="text-xs font-semibold uppercase tracking-wide text-moss">
-          {doneCount} de 6 respondidas
+          Paso {progressStep} de {visibleSteps}
         </p>
         <div className="rt-progress mt-2" aria-hidden="true">
-          <span style={{ width: `${(doneCount / 6) * 100}%` }} />
+          <span style={{ width: `${(progressStep / visibleSteps) * 100}%` }} />
         </div>
       </div>
-      <ol className="wizard-steps sr-only" data-wizard-questions="">
+      <ol className="sr-only" data-wizard-questions="">
         {WIZARD_QUESTIONS.map((q, i) => (
           <li key={q} className={completed[i] ? "is-done" : i === step ? "is-current" : ""}>
             {q}
@@ -109,15 +163,7 @@ export function Wizard({ index }: { index?: ClientMunicipio[] }) {
       <fieldset hidden={step !== 1}>
         <legend className="text-sm font-semibold">¿El contrato o la escritura está a tu nombre?</legend>
         <div className="mt-2 grid gap-2 sm:grid-cols-2">
-          {(
-            [
-              ["contrato", "Sí, el contrato o la escritura está a mi nombre"],
-              ["no-contrato", "No"],
-              ["propietario", "Soy propietario"],
-              ["sin-papeles", "No tengo papeles de la casa"],
-              ["sin-techo", "No tengo techo"],
-            ] as [Housing, string][]
-          ).map(([v, label]) => (
+          {HOUSING_OPTIONS.map(([v, label]) => (
             <RadioOption
               key={v}
               name="housing"
@@ -133,26 +179,26 @@ export function Wizard({ index }: { index?: ClientMunicipio[] }) {
       <fieldset hidden={step !== 2}>
         <legend className="text-sm font-semibold">Nacionalidad</legend>
         <div className="mt-2 grid gap-2 sm:grid-cols-3">
-          {(
-            [
-              ["espanola", "Española"],
-              ["ue", "UE-EEE-CH"],
-              ["resto", "Resto"],
-            ] as [Nacionalidad, string][]
-          ).map(([v, label]) => (
+          {NACIONALIDAD_OPTIONS.map(([v, label]) => (
             <RadioOption
               key={v}
               name="nacionalidad"
               value={v}
               checked={answers.nacionalidad === v}
-              onChange={() => setAnswers((a) => ({ ...a, nacionalidad: v }))}
+              onChange={() =>
+                setAnswers((a) => ({
+                  ...a,
+                  nacionalidad: v,
+                  nieTie: v === "espanola" ? false : a.nacionalidad === "espanola" ? null : a.nieTie,
+                }))
+              }
               label={label}
             />
           ))}
         </div>
       </fieldset>
 
-      <fieldset hidden={step !== 3}>
+      <fieldset hidden={step !== 3 || skipNie}>
         <legend className="text-sm font-semibold">¿Tienes NIE o TIE?</legend>
         <div className="mt-2 grid gap-2 sm:grid-cols-2">
           {[
@@ -195,15 +241,7 @@ export function Wizard({ index }: { index?: ClientMunicipio[] }) {
           ¿Quieres alta, cambio de domicilio, volante, certificado o renovación 2 años?
         </legend>
         <div className="mt-2 grid gap-2 sm:grid-cols-2">
-          {(
-            [
-              ["alta", "Alta"],
-              ["cambio", "Cambio de domicilio"],
-              ["volante", "Volante"],
-              ["certificado", "Certificado"],
-              ["renovacion", "Renovación 2 años"],
-            ] as [Tramite, string][]
-          ).map(([v, label]) => (
+          {TRAMITE_OPTIONS.map(([v, label]) => (
             <RadioOption
               key={v}
               name="tramite"
@@ -217,14 +255,22 @@ export function Wizard({ index }: { index?: ClientMunicipio[] }) {
       </fieldset>
 
       {step < 6 && <div className="flex items-center justify-between gap-3 border-t border-sand pt-5">
-        <button type="button" className="wizard-back" disabled={step === 0} onClick={() => go(step - 1)}>Atrás</button>
-        <span className="text-xs text-ink/70">Paso {step + 1} de 6</span>
-        <button type="button" className="wizard-next" disabled={!completed[step]} onClick={() => go(step + 1)}>{step === 5 ? "Ver mi guía" : "Continuar"}</button>
+        <button type="button" className="wizard-back" disabled={step === 0} onClick={() => go(adjacent(step, -1))}>Atrás</button>
+        <button type="button" className="wizard-next" disabled={!completed[step]} onClick={() => go(adjacent(step, 1))}>{step === 5 ? "Ver mi guía" : "Continuar"}</button>
       </div>}
       {step === 6 && result ? (
         <div className="rt-result space-y-3" data-wizard-output="">
           <p className="rt-kicker">Tu ruta</p>
           <button type="button" className="underline text-sm" onClick={() => go(0)}>Revisar mis respuestas</button>
+          <h3 className="font-semibold">Tus respuestas</h3>
+          <dl className="space-y-1 text-sm" data-wizard-answers="">
+            {visibleWizardAnswers(answers, municipio?.name ?? null).map((row) => (
+              <div key={row.label}>
+                <dt className="font-semibold">{row.label}</dt>
+                <dd>{row.value}</dd>
+              </div>
+            ))}
+          </dl>
           <p>
             Caso detectado:{" "}
             <a className="font-semibold underline decoration-sand underline-offset-2" href={escenarioPath(result.primary)} data-caso-spoke="">
@@ -236,7 +282,7 @@ export function Wizard({ index }: { index?: ClientMunicipio[] }) {
               También te aplica:{" "}
               {result.extras.map((s) => (
                 <a key={s} className="mr-2 underline decoration-sand underline-offset-2" href={escenarioPath(s)}>
-                  {s}
+                  {ESCENARIO_LABELS[s]}
                 </a>
               ))}
             </p>
@@ -275,6 +321,7 @@ export function Wizard({ index }: { index?: ClientMunicipio[] }) {
                 await navigator.clipboard.writeText(result.checklist.join("\n"));
                 setCopied(true);
                 setCopyError(false);
+                sendMetric("model_copy");
               } catch { setCopyError(true); }
             }}
           >

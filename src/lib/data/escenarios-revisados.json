@@ -1,0 +1,468 @@
+{
+  "con-contrato": {
+    "title": "Empadronarse con contrato: documentos y pasos",
+    "description": "Cómo preparar el padrón con contrato a tu nombre: recibo, prórroga, formulario municipal y alternativas si faltan pruebas del domicilio.",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=45f45704a7758810VgnVCM1000008a4a900aRCRD&vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD",
+      "/empadronarse/sin-contrato"
+    ],
+    "requiredTerms": [
+      "último recibo",
+      "solicitud de renovación",
+      "prórroga",
+      "requerimiento"
+    ],
+    "h1": "Empadronarse con contrato de alquiler a tu nombre",
+    "reviewedAt": "2026-09-14",
+    "headings": [
+      "Qué acredita el contrato",
+      "Documentos que conviene revisar",
+      "Pasos para presentar el alta",
+      "Si falta un documento o rechazan el alta",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿Basta con enseñar el contrato desde el móvil?",
+      "¿Un contrato caducado se renueva automáticamente para el padrón?",
+      "¿Todos los municipios exigen la misma duración del alquiler?",
+      "¿El padrón cambia también mi domicilio en otros organismos?"
+    ]
+  },
+  "sin-contrato": {
+    "title": "Empadronarse sin contrato: autorización y alternativas",
+    "description": "Qué hacer para empadronarte sin contrato propio, quién puede autorizar y cómo consultar otras vías para comprobar tu residencia.",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=45f45704a7758810VgnVCM1000008a4a900aRCRD&vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD",
+      "/empadronarse/sin-hogar"
+    ],
+    "requiredTerms": [
+      "posesión efectiva",
+      "representar",
+      "inspección",
+      "denegación"
+    ],
+    "h1": "Empadronarse sin contrato de alquiler",
+    "reviewedAt": "2026-09-14",
+    "headings": [
+      "Elige la vía según tu situación",
+      "Si otra persona puede autorizarte",
+      "Si no consigues autorización",
+      "Cómo presentar y seguir la solicitud",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿Un volante del titular sustituye su contrato o escritura?",
+      "¿Necesito que el propietario venga conmigo?",
+      "¿Puedo solicitar el padrón con un acuerdo verbal de alquiler?",
+      "¿Qué pasa si quien me alojaba ya se ha marchado?"
+    ]
+  },
+  "cita-previa-madrid": {
+    "title": "Cita de padrón en Madrid: oficinas y alternativa online",
+    "description": "Cita de padrón en Madrid capital: enlace oficial, oficinas, documentos y alternativa por internet. Diferencias entre alta y certificado.",
+    "requiredLinks": [
+      "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=45f45704a7758810VgnVCM1000008a4a900aRCRD&vgnextoid=3e3debb41f6e2410VgnVCM2000000c205a0aRCRD",
+      "https://www.madrid.es/portales/munimadrid/es/OficinasAtencionCiudadano/Oficinas-de-Atencion-a-la-Ciudadania-Linea-Madrid-Informacion-y-gestiones/?vgnextchannel=2c07de294e585310VgnVCM2000000c205a0aRCRD&vgnextoid=858616622ee05310VgnVCM2000000c205a0aRCRD",
+      "/empadronarse/con-contrato"
+    ],
+    "requiredTerms": [
+      "Madrid capital",
+      "con independencia del domicilio",
+      "Aravaca",
+      "incidencias",
+      "a la vez",
+      "5 días naturales",
+      "consentimientos"
+    ],
+    "h1": "Conseguir cita previa de empadronamiento en Madrid",
+    "reviewedAt": "2026-09-16",
+    "headings": [
+      "Qué gestión necesitas",
+      "Cómo reservar la cita oficial",
+      "Qué oficina puedes elegir",
+      "Documentos antes de la cita",
+      "Alternativa por internet y problemas de disponibilidad",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿La cita de Madrid sirve si vivo en Getafe o Alcobendas?",
+      "¿Tener una cita significa que ya estoy empadronado?",
+      "¿Puedo cambiar de oficina después de reservar?",
+      "¿Qué hago si falla el trámite electrónico?"
+    ]
+  },
+  "casa-de-familiar": {
+    "title": "Empadronarse en casa de un familiar: autorización y alternativas",
+    "description": "Quién puede autorizar el padrón en casa de un familiar, qué hacer si falta la firma y cómo distinguir residencia, vivienda y consentimiento de menores.",
+    "h1": "Empadronarse en casa de un familiar",
+    "reviewedAt": "2026-09-16",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://idapadron.ine.es/repositorio/legislacion/A290426.HTML",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "/autorizacion-empadronamiento",
+      "/autorizacion-empadronar-menor",
+      "/declaracion-responsable-padron"
+    ],
+    "requiredTerms": [
+      "mayor de edad",
+      "posesión efectiva",
+      "residencia efectiva",
+      "representación",
+      "habitabilidad",
+      "custodia compartida"
+    ],
+    "headings": [
+      "Quién puede autorizar según la vivienda",
+      "Documentos y firmas que conviene separar",
+      "Si falta autorización o hay desacuerdo",
+      "Presentar el alta y atender la respuesta",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿Puedo darme de alta antes de mudarme a la casa vacía de mis padres?",
+      "¿Mi madre puede autorizarme si el piso es alquilado?",
+      "¿Una vivienda sin condiciones de habitabilidad impide el padrón?",
+      "¿Es obligatorio nombrar un tutor si mi familiar tiene demencia?",
+      "¿Puedo inscribir a mi hijo con sus abuelos para conseguir colegio?",
+      "¿Qué cambia si mi familiar se traslada a una residencia?",
+      "¿El alta concede automáticamente prestaciones o derecho a voto?"
+    ]
+  },
+  "propietario": {
+    "h1": "Empadronarse en tu propia vivienda: propiedad y residencia",
+    "title": "Empadronarse como propietario: documentos y vivienda",
+    "description": "Padrón en vivienda propia: escritura, herencia, usufructo, referencia catastral y comprobación de residencia. Qué hacer si faltan documentos.",
+    "reviewedAt": "2026-09-16",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "https://idapadron.ine.es/repositorio/legislacion/A290426.HTML",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2024-2248",
+      "/empadronarse/casa-de-familiar"
+    ],
+    "requiredTerms": [
+      "tres meses",
+      "heredero",
+      "nudo propietario",
+      "referencia catastral",
+      "habitabilidad"
+    ],
+    "headings": [
+      "Qué documento acredita tu situación",
+      "Herencias, usufructo y otros residentes",
+      "Dirección y referencia catastral",
+      "Pasos para solicitar el padrón",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿La escritura caduca para solicitar el alta?",
+      "¿Puedo empadronarme en una vivienda comprada sobre plano?",
+      "¿Vivir en un local sin cédula de habitabilidad impide la inscripción?",
+      "¿La hipoteca o la separación obligan a darme de baja?",
+      "¿El padrón acredita que soy dueño de la casa?"
+    ]
+  },
+  "sin-hogar": {
+    "h1": "Empadronarse sin hogar o en infravivienda",
+    "title": "Padrón sin hogar: domicilio de referencia y documentos",
+    "description": "Cómo preparar el padrón sin techo o en infravivienda: servicios sociales, identificación, notificaciones y protección del domicilio.",
+    "reviewedAt": "2026-09-16",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "https://idapadron.ine.es/repositorio/legislacion/A161025.HTML",
+      "/empadronarse/sin-contrato"
+    ],
+    "requiredTerms": [
+      "supervisión",
+      "notificaciones",
+      "solicitud de renovación",
+      "violencia de género",
+      "identidad"
+    ],
+    "headings": [
+      "Elige la vía por tu alojamiento real",
+      "Qué implica el domicilio de referencia",
+      "Identificación cuando faltan documentos",
+      "Cómo preparar y seguir tu solicitud",
+      "Protección del domicilio en violencia de género",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿La estancia en un albergue produce el alta automáticamente?",
+      "¿Una caravana necesita referencia catastral para poder empadronarse?",
+      "¿Pueden exigirme un teléfono móvil o correo electrónico?",
+      "¿Con este padrón ya tengo tarjeta sanitaria o una ayuda concedida?",
+      "¿Puedo usar una asociación que no coordina su actividad con servicios sociales?"
+    ]
+  },
+  "extranjeros-ue": {
+    "h1": "Empadronarse siendo ciudadano de la UE, EEE o Suiza",
+    "title": "Empadronarse siendo ciudadano de la UE, EEE o Suiza",
+    "description": "Padrón para ciudadanos UE, EEE y Suiza: pasaporte, documento nacional, certificado de registro, domicilio y comprobaciones posteriores.",
+    "reviewedAt": "2026-09-16",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    ],
+    "requiredTerms": [
+      "solicitud de renovación",
+      "certificado de registro",
+      "comprobaciones",
+      "traducción"
+    ],
+    "headings": [
+      "Identidad y certificado de registro",
+      "Domicilio, formulario y familia",
+      "Presentación y seguimiento",
+      "Comprobaciones posteriores de residencia",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿Pueden pedirme traducción de un documento extranjero?",
+      "¿Debo registrarme en extranjería antes o después del padrón?",
+      "¿Mi pareja con tarjeta de familiar comunitario renueva cada dos años?",
+      "¿Si trabajo en España pero vivo en otro país debo empadronarme aquí?",
+      "¿El alta me reconoce asistencia sanitaria o ayudas?"
+    ]
+  },
+  "extranjeros-no-ue": {
+    "h1": "Empadronarse siendo extranjero no comunitario",
+    "title": "Empadronarse siendo extranjero no comunitario",
+    "description": "Documentos para el padrón no comunitario, condiciones de resguardos, datos personales y diferencia entre inscripción y extranjería.",
+    "reviewedAt": "2026-09-16",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    ],
+    "requiredTerms": [
+      "dos fechas",
+      "denuncia",
+      "Dirección General de la Policía",
+      "histórico"
+    ],
+    "headings": [
+      "Con qué documento puedes identificarte",
+      "Cómo preparar el domicilio y presentar",
+      "Renovación, datos personales y documentos posteriores",
+      "Acceso legal a los datos del padrón",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿El certificado histórico reúne automáticamente todos mis municipios?",
+      "¿El padrón me regulariza o me autoriza a trabajar?",
+      "¿Un solicitante de asilo se puede identificar desde el primer día con cualquier resguardo?",
+      "¿Para empadronar a un menor extranjero siempre se exige pasaporte?",
+      "¿Una baja elimina las fechas anteriores de mi inscripción?"
+    ]
+  },
+  "renovacion-2-anos": {
+    "h1": "Renovar el padrón cada dos años: quién debe hacerlo y cómo",
+    "title": "Renovar el padrón cada dos años: quién debe hacerlo y cómo",
+    "description": "Renovación bienal del padrón: personas obligadas, última renovación, preaviso, representación, notificación de baja y comprobación de residencia.",
+    "reviewedAt": "2026-09-16",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    ],
+    "requiredTerms": [
+      "última renovación expresa",
+      "notificación",
+      "audiencia previa",
+      "preaviso",
+      "representación"
+    ],
+    "headings": [
+      "Comprueba qué procedimiento te corresponde",
+      "Desde qué fecha se cuentan los dos años",
+      "Qué preparar y presentar",
+      "Si no renovaste o recibes una baja",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿Es obligatorio que me manden una carta antes del vencimiento?",
+      "¿Si adelanto la renovación se conserva siempre el vencimiento antiguo?",
+      "¿Quien tiene larga duración puede ignorar cualquier aviso del padrón?",
+      "¿Renovar la TIE cuenta como renovar el padrón?",
+      "¿La renovación asegura la continuidad exigida para un arraigo?"
+    ]
+  },
+  "menores": {
+    "h1": "Empadronar a un menor: identidad, consentimiento y domicilio",
+    "title": "Empadronar a menores: quién firma y qué anexo corresponde",
+    "description": "Identidad y consentimiento para empadronar a un menor: custodia exclusiva o compartida, anexos I y II, tutela y actuaciones desde los 16 años.",
+    "reviewedAt": "2026-09-16",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://idapadron.ine.es/repositorio/legislacion/A290426.HTML",
+      "/autorizacion-empadronar-menor"
+    ],
+    "requiredTerms": [
+      "anexo I",
+      "anexo II",
+      "patria potestad",
+      "17 años",
+      "custodia compartida"
+    ],
+    "headings": [
+      "Qué consentimiento corresponde",
+      "Cuándo sirven los anexos I y II",
+      "Identidad, filiación y vivienda",
+      "Pasos para preparar el expediente",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿Mi hija de 17 años puede solicitar el alta o cambiar sus datos?",
+      "¿Puede haber un domicilio con solo menores empadronados?",
+      "¿Con guarda compartida puede figurar en las dos casas?",
+      "¿Qué aporta la entidad que tutela a un menor extranjero no acompañado?",
+      "¿El padrón concede automáticamente pediatra, plaza escolar o una ayuda?"
+    ]
+  },
+  "cambio-de-domicilio": {
+    "h1": "Cambiar de domicilio en el padrón: dentro o fuera del municipio",
+    "title": "Cambio de domicilio en el padrón: mudanza y alta de destino",
+    "description": "Cómo comunicar una mudanza en el padrón, distinguir variación y alta, revisar la baja anterior y separar los trámites de otras administraciones.",
+    "reviewedAt": "2026-09-16",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "/modelo-030-cambio-domicilio",
+      "/empadronarse/menores"
+    ],
+    "requiredTerms": [
+      "procedencia",
+      "renovación",
+      "domicilio fiscal",
+      "fecha de baja"
+    ],
+    "headings": [
+      "Identifica el tipo de cambio",
+      "Prepara la dirección nueva y a cada solicitante",
+      "Presentación y comprobación posterior",
+      "Otras administraciones y renovación del padrón",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿La nueva dirección cambia inmediatamente dónde voto?",
+      "¿He perdido mi antigüedad al mudarme a otra calle?",
+      "¿Qué hago si el formulario tiene una dirección equivocada?",
+      "¿Puedo pedir después un certificado del municipio anterior?",
+      "¿La demora en comunicar la mudanza nunca tiene consecuencias?"
+    ]
+  },
+  "baja": {
+    "h1": "Baja en el padrón: traslado, salida al extranjero y comprobaciones",
+    "title": "Baja en el padrón: causas, trámite y notificaciones",
+    "description": "Distingue traslado nacional, salida al extranjero, defunción, inscripción indebida y caducidad. Consulta audiencia, notificación y fecha de efecto.",
+    "reviewedAt": "2026-09-16",
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "https://idapadron.ine.es/repositorio/legislacion/A290426.HTML"
+    ],
+    "requiredTerms": [
+      "Registro de Matrícula Consular",
+      "defunción",
+      "BOE",
+      "audiencia",
+      "conformidad expresa"
+    ],
+    "headings": [
+      "Qué vía corresponde",
+      "Si cambias de municipio o país",
+      "Avisar de alguien que ya no reside en la vivienda",
+      "Audiencia y notificaciones",
+      "Cómo presentar y conservar la prueba",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿Cuándo produce efecto una baja por fallecimiento?",
+      "¿Puedo dar de baja a un inquilino porque quiero vender?",
+      "¿Una baja borra el historial municipal?",
+      "¿Salir del padrón español elimina mi derecho a votar?",
+      "¿La baja cancela automáticamente una pensión o un servicio?"
+    ]
+  },
+  "volante-online": {
+    "h1": "Pedir el volante o certificado de empadronamiento por internet",
+    "title": "Volante y certificado de padrón online: cómo solicitarlos",
+    "description": "Comprueba si tu ayuntamiento ofrece descarga de volante o certificado, identificación admitida, acceso a datos familiares y alternativas de entrega.",
+    "requiredTerms": [
+      "CSV",
+      "interés legítimo",
+      "1 de marzo de 1991",
+      "pasaporte",
+      "representación"
+    ],
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2003-13978",
+      "/empadronarse/volante-vs-certificado"
+    ],
+    "reviewedAt": "2026-09-16",
+    "headings": [
+      "Comprueba qué ofrece la sede",
+      "Identificación y datos de otras personas",
+      "Pasos para obtener y guardar el documento",
+      "Un ejemplo municipal: Madrid",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿Si falla la descarga significa que me han dado de baja?",
+      "¿Qué hago si no tengo identificación electrónica?",
+      "¿Puedo imprimirlo en blanco y negro?",
+      "¿Me sirve para renovar el DNI o el pasaporte?",
+      "¿Cómo corrijo un domicilio que aparece mal?"
+    ]
+  },
+  "volante-vs-certificado": {
+    "h1": "Volante, certificado e histórico de empadronamiento: qué pedir",
+    "title": "Volante, certificado e histórico de padrón: diferencias",
+    "description": "Distingue valor, personas y periodo del documento de padrón. Consulta límites de antigüedad, datos colectivos, histórico y requisitos del destinatario.",
+    "requiredTerms": [
+      "tres meses",
+      "establecimientos colectivos",
+      "consentimiento",
+      "unidad familiar",
+      "noventa días"
+    ],
+    "requiredLinks": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2025-6601",
+      "/extranjeria/arraigo-padron"
+    ],
+    "reviewedAt": "2026-09-16",
+    "headings": [
+      "Tres decisiones distintas",
+      "Valor, firma y fecha de expedición",
+      "Colectivos, representación y datos protegidos",
+      "Cómo pedir el documento adecuado",
+      "Preguntas frecuentes",
+      "Fuentes"
+    ],
+    "questions": [
+      "¿Qué documento necesito para extranjería?",
+      "¿El colectivo acredita quién integra mi unidad familiar?",
+      "¿Puedo pedir un histórico después de mudarme?",
+      "¿Para una notaría debo pedir siempre un certificado colectivo?",
+      "¿Convivencia y empadronamiento significan lo mismo?"
+    ]
+  }
+}

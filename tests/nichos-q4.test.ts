@@ -3,11 +3,13 @@ import { renderGuideHtml } from "@/lib/render/server";
 import { ALL_GUIDES, guidesByPack, guidesIn } from "@/lib/tramites/catalog";
 import { BEBE_GUIDES } from "@/lib/tramites/bebe";
 import { BECAS_GUIDES } from "@/lib/tramites/becas";
+import { AYUDAS_2026_GUIDES } from "@/lib/tramites/ayudas-2026";
 import { COLE_GUIDES } from "@/lib/tramites/cole";
 import { COMEDOR_GUIDES } from "@/lib/tramites/comedor";
 import { DNI_NICHOS_GUIDES } from "@/lib/tramites/nichos-dni";
 import { EXTRANJERIA_NICHOS_GUIDES } from "@/lib/tramites/nichos-extranjeria";
 import { FP_GUIDES } from "@/lib/tramites/fp";
+import { COBROS_AVISOS_GUIDES } from "@/lib/tramites/cobros-avisos";
 import { BECAS_NICHOS2_GUIDES } from "@/lib/tramites/nichos2-becas";
 import { IDENTIDAD_NICHOS2_GUIDES } from "@/lib/tramites/nichos2-identidad";
 import { COLE_COMEDOR_NICHOS2_GUIDES } from "@/lib/tramites/nichos2-cole-comedor";
@@ -104,12 +106,15 @@ describe("nichos Q4 2026: cinco pilares nuevos y ampliación de packs", () => {
     expect(colaboracion).toContain("22 de septiembre");
     expect(colaboracion).toContain("2.000");
     const patrimonio = renderGuideHtml("/becas/mec/denegada/por-patrimonio");
-    expect(patrimonio).toContain("47.600");
+    expect(patrimonio).toContain("47.200");
     expect(patrimonio).toContain("14.450");
   });
 
   it("becas packs live under /becas including the nested catch-all tree", () => {
-    expect(guidesIn("/becas")).toHaveLength(BECAS_GUIDES.length + BECAS_NICHOS2_GUIDES.length);
+    expect(guidesIn("/becas").map(g => g.path).sort()).toEqual([
+      ...BECAS_GUIDES, ...BECAS_NICHOS2_GUIDES, ...AYUDAS_2026_GUIDES.filter(g => g.pack === "becas"),
+      ...COBROS_AVISOS_GUIDES.filter(g => g.pack === "becas"),
+    ].map(g => g.path).sort());
     expect(renderGuideHtml("/becas/mec/denegada/por-patrimonio")).toContain("patrimonio");
     expect(renderGuideHtml("/becas/mec/compatibilidad/erasmus")).toContain("Erasmus");
     expect(renderGuideHtml("/becas/erasmus/complemento-regional")).toContain("complemento");

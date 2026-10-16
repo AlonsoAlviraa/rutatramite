@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { loadIndex, loadMunicipio } from "@/lib/data/load";
 import { allCcaaHubs, loadTerritories } from "@/lib/geo/territories";
 import { isFichaIndexable } from "@/lib/seo/localSignals";
+import { isProvinciaIndexable } from "@/lib/seo/provinciaIndex";
 import { ALL_GUIDES } from "@/lib/tramites/catalog";
 import { LAST_VERIFIED } from "@/lib/tramites/facts";
 import { PACK_INDEX_PATH } from "@/lib/tramites/types";
@@ -22,6 +23,13 @@ const STATIC_HUBS = [
   "/bebe",
   "/becas",
   "/modelos",
+  "/ayudas",
+  "/alquiler",
+  "/transporte",
+  "/trabajo",
+  "/recursos",
+  "/recursos/padron-municipal",
+  "/descargas",
   "/metodologia",
   "/fuentes",
   "/aviso-legal",
@@ -65,7 +73,7 @@ export function buildSitemapEntries(): MetadataRoute.Sitemap {
     push(`/empadronarse/${c.slug}`, EDITORIAL_LASTMOD);
     for (const code of c.province_codes) {
       const p = t.provinces[code];
-      if (p) push(`/empadronarse/${c.slug}/${p.slug}`, EDITORIAL_LASTMOD);
+      if (p && isProvinciaIndexable(c.slug, p.slug)) push(`/empadronarse/${c.slug}/${p.slug}`, EDITORIAL_LASTMOD);
     }
   }
 

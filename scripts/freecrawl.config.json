@@ -1,0 +1,19 @@
+{
+  "maxConcurrency": 3,
+  "maxRps": 4,
+  "requestTimeoutMs": 30000,
+  "respectRobotsTxt": true,
+  "crawlExternal": false,
+  "discoverSitemaps": false,
+  "checkImages": false,
+  "checkCss": false,
+  "checkJs": false,
+  "probeSocialImages": false,
+  "probePdfMetadata": false,
+  "probeManifestJson": false,
+  "renderingMode": "text",
+  "acceptLanguage": "es-ES,es;q=0.9",
+  "contentAreaSelector": "main",
+  "maxLinksPerPage": 1000,
+  "cookiePolicy": "reject-all"
+}

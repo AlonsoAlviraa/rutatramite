@@ -1,8 +1,22 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Municipio, MunicipioIndexEntry } from "@/lib/types";
+import { isFichaIndexable } from "@/lib/seo/localSignals";
+import demographics from "../../../data/municipal-demographics.json";
 
 const ROOT = process.cwd();
+const reviewPath = path.join(ROOT, "data", "municipal-reviews.json");
+const reviews: Record<string, Partial<Municipio>> = fs.existsSync(reviewPath) ? JSON.parse(fs.readFileSync(reviewPath, "utf8")) : {};
+function reviewed(m: Municipio): Municipio {
+  const local = { ...m, ...reviews[m.ine_code] };
+  const demographic = (demographics.records as Record<string, { name: string; poblacion: number; source_url: string }>)[m.ine_code];
+  if (!demographic) return local;
+  return { ...local, name: demographic.name, poblacion: demographic.poblacion,
+    name_official_alt: [...new Set([local.name_official_alt, local.name !== demographic.name ? local.name : null].filter(Boolean))].join("; ") || null,
+    poblacion_ref: "INE: cifras oficiales de población a 1 de enero de 2025; contraste del 16 de septiembre de 2026",
+    source_urls: [...new Set([...local.source_urls, demographic.source_url])],
+  };
+}
 const INE_POP_URL =
   "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031";
 
@@ -35,7 +49,13 @@ export function loadIndex(): MunicipioIndexEntry[] {
   if (!fs.existsSync(live)) {
     throw new Error("no municipio index at data/municipios/_index.json");
   }
-  cachedIndex = parseIndexFile(live);
+  cachedIndex = parseIndexFile(live).map((entry) => {
+    const file = path.join(dataDir(), `${entry.ine_code}.json`);
+    const full = reviewed(fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : synthesizeMunicipio(entry));
+    return { ...entry, name: full.name, poblacion: full.poblacion, search_alias: full.name_official_alt ?? undefined,
+      sede_url: full.sede_url, cita_url: full.cita_url, confidence: full.confidence, docs_extra: full.docs_extra ?? [], local_verified: isFichaIndexable(full),
+      procedure_docs: full.procedure_docs, certificado_url: full.certificado_url, tramite_alta_url: full.tramite_alta_url };
+  });
   return cachedIndex;
 }
 
@@ -93,11 +113,11 @@ export function synthesizeMunicipio(e: MunicipioIndexEntry): Municipio {
 export function loadMunicipio(ineCode: string): Municipio {
   const p = path.join(dataDir(), `${ineCode}.json`);
   if (fs.existsSync(p)) {
-    return JSON.parse(fs.readFileSync(p, "utf8")) as Municipio;
+    return reviewed(JSON.parse(fs.readFileSync(p, "utf8")) as Municipio);
   }
   const hit = loadIndex().find((e) => e.ine_code === ineCode);
   if (!hit) throw new Error(`municipio ${ineCode} not in index`);
-  return synthesizeMunicipio(hit);
+  return reviewed(synthesizeMunicipio(hit));
 }
 
 export function loadAllMunicipios(): Municipio[] {

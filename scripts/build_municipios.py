@@ -332,6 +332,9 @@ def main() -> None:
             rec["online"] = "unknown"
             rec["presencial"] = True
 
+        review_path = ROOT / "data" / "municipal-reviews.json"
+        if review_path.exists():
+            rec.update(json.loads(review_path.read_text(encoding="utf-8")).get(ine, {}))
         path = f"/empadronarse/{ccaa['slug']}/{prov['slug']}/{slug}"
         rec["path"] = path
         (OUT / f"{ine}.json").write_text(

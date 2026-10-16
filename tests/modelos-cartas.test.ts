@@ -26,7 +26,7 @@ describe("modelos y cartas (shipped GuideView)", () => {
     }
   });
 
-  it("baja 15 días ships three named tones: seco, cordial y por email", () => {
+  it("baja voluntaria keeps three tones and explains the conditional 15-day example", () => {
     const html = renderGuideHtml("/modelo-baja-voluntaria");
     expect(html).toContain('data-modelo="seco"');
     expect(html).toContain('data-modelo="cordial"');
@@ -48,7 +48,7 @@ describe("modelos y cartas (shipped GuideView)", () => {
     expect(prueba).toContain("14");
   });
 
-  it("certificado de empresa is for after despido, not baja voluntaria; 030 is not the padrón; alquiler is inquilino 30-day LAU", () => {
+  it("separates certificado de empresa from unemployment entitlement; 030 from padrón; and tenant withdrawal", () => {
     const cert = renderGuideHtml("/certificado-empresa-sepe");
     expect(cert.toLowerCase()).toContain("despido");
     expect(cert.toLowerCase()).toMatch(/no (hay prestaci[oó]n|tras una baja voluntaria)/);

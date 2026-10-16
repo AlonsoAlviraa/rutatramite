@@ -1,6 +1,4 @@
 import {
-  CORREOS_OFICINAS_REGULARIZACION,
-  CORREOS_REGULARIZACION_URL,
   SEDE_AAPP_URL,
 } from "@/lib/tramites/facts";
 import type { Guide } from "@/lib/tramites/types";
@@ -93,128 +91,249 @@ export const EXTRANJERIA_NICHOS_GUIDES: Guide[] = [
     ],
   },
   {
-    id: "tie-caducada-viajar",
-    pack: "extranjeria",
-    path: "/extranjeria/tie-caducada-viajar",
-    h1: "Viajar con la TIE caducada: los 3 escenarios",
-    title: "Viajar con la TIE caducada o en renovación",
-    description:
-      "El resguardo de renovación no sustituye por sí solo a la autorización de regreso. Tres escenarios de viaje y qué confirmar antes de comprar el billete.",
-    lead:
-      "Con la TIE caducada o en trámite de renovación, el resguardo acredita el procedimiento pero no sustituye por sí solo al documento que permite volver a España. La autorización de regreso (EX-13, tasa de 10,72 euros según la orden vigente) puede ser necesaria si cumples sus requisitos. Antes de salir, confirma la ruta, tu nacionalidad, el visado que te exigirían y las instrucciones de la oficina.",
-    reviewedAt: "2026-09-07",
-    sources: [
-      { label: "BOE: artículo 5 del Reglamento de extranjería", href: "https://www.boe.es/eli/es/rd/2024/11/19/1155/" },
-      { label: "BOE: tasa de autorización de regreso", href: "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-12056" },
-      { label: "Policía Nacional: trámites de extranjería", href: "https://www.policia.es/_es/extranjeria_extranjeros.php/1000" },
-    ],
-    cta: { href: SEDE_AAPP_URL, label: "Sede de administraciones públicas" },
-    secondaryCta: { href: "/extranjeria/autorizacion-regreso", label: "Guía: autorización de regreso (EX-13)" },
-    related: relatedExNicho,
-    sections: [
+    "id": "tie-caducada-viajar",
+    "pack": "extranjeria",
+    "path": "/extranjeria/tie-caducada-viajar",
+    "h1": "Viajar con la TIE caducada o en renovación",
+    "title": "Viajar con la TIE caducada o en renovación",
+    "description": "Distingue vuelo nacional, viaje Schengen y regreso desde otro país. Comprueba pasaporte, autorización y escalas antes de salir con la TIE caducada.",
+    "lead": "Una TIE caducada y el resguardo de renovación no equivalen a una tarjeta vigente para cualquier viaje. Comprueba por separado la documentación de embarque, la entrada al destino y el retorno a España. La autorización de regreso tiene requisitos y límites propios.",
+    "reviewedAt": "2026-09-16",
+    "sources": [
       {
-        id: "escenarios",
-        title: "Los tres escenarios",
-        paragraphs: ["Antes de reservar billete, identifica en cuál estás:"],
-        lists: [
+        "href": "https://www.aena.es/es/pasajeros/documentacion-visados/documentacion-para-viajar.html",
+        "label": "Aena: documentación para vuelos nacionales e internacionales"
+      },
+      {
+        "href": "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_autorizacionregreso.php",
+        "label": "Policía: requisitos de la autorización de regreso"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099#a5",
+        "label": "BOE: vigencia y frontera de entrada"
+      }
+    ],
+    "cta": {
+      "href": "https://www.aena.es/es/pasajeros/documentacion-visados/documentacion-para-viajar.html",
+      "label": "Consultar la documentación de vuelo"
+    },
+    "related": [
+      {
+        "href": "/extranjeria/autorizacion-regreso",
+        "label": "Cuándo procede la autorización de regreso"
+      },
+      {
+        "href": "/extranjeria/autorizacion-regreso-ex13",
+        "label": "Preparar el EX-13"
+      },
+      {
+        "href": "/extranjeria/tie-recogida-cuanto-tarda",
+        "label": "Consultar la recogida de la TIE"
+      }
+    ],
+    "sections": [
+      {
+        "id": "nacional",
+        "title": "Vuelo con origen y destino en España",
+        "paragraphs": [
+          "Para pasajeros de terceros países, Aena incluye entre los documentos admitidos el pasaporte o documento de viaje válido y vigente, el permiso de residencia español o Schengen vigente y el carné de conducir expedido en España. Consulta la documentación de tu caso con la aerolínea, que realiza la comprobación.",
+          "El resguardo de renovación no figura en esa lista como sustituto de una TIE. No debe presentarse como un requisito que siempre deba acompañar al pasaporte ni como una garantía de embarque."
+        ]
+      },
+      {
+        "id": "schengen",
+        "title": "Viaje a otro país Schengen",
+        "paragraphs": [
+          "Comprueba los requisitos de entrada y estancia del país al que viajas y los documentos que pide la compañía. La autorización de regreso española no garantiza la entrada por otro país Schengen: su validez para entrar se limita a pasos fronterizos españoles habilitados.",
+          "Revisa también la vuelta si aterrizas primero en otro país y después continúas a España. No deduzcas que el último destino del billete convierte el primer control de entrada en una frontera española."
+        ]
+      },
+      {
+        "id": "exterior",
+        "title": "Salida a un país fuera de Schengen",
+        "paragraphs": [
+          "Verifica el pasaporte o título de viaje, visados del destino y tránsito, y el documento que utilizarás para volver. Cuando tu autorización está en renovación o prórroga, comprueba si cumples el supuesto de regreso por solicitud presentada en plazo.",
+          "La guía de autorización de regreso distingue además duplicados y primeras autorizaciones favorables excepcionales. No basta con tener cualquier expediente abierto ni con haber reservado las huellas."
+        ]
+      },
+      {
+        "id": "antes",
+        "title": "Antes de cerrar el itinerario",
+        "paragraphs": [
+          "Comprueba las fechas concedidas de la autorización de regreso y cada escala con la oficina y las autoridades competentes del destino o tránsito. La información de embarque de la aerolínea no sustituye los requisitos migratorios."
+        ]
+      }
+    ],
+    "secondaryCta": {
+      "href": "/extranjeria/autorizacion-regreso",
+      "label": "Comprobar los requisitos de regreso"
+    }
+  },
+  {
+    "id": "regreso-navidad",
+    "pack": "extranjeria",
+    "path": "/extranjeria/autorizacion-regreso-navidad",
+    "h1": "Viaje de Navidad con TIE en trámite: preparar el regreso",
+    "title": "Viaje de Navidad con TIE en trámite: preparar el regreso",
+    "description": "Planifica las fechas de salida y vuelta, la vigencia de la autorización de regreso y las escalas. Consulta los requisitos oficiales antes de viajar en Navidad.",
+    "lead": "Para un viaje de Navidad con la TIE en trámite, revisa primero si puedes solicitar autorización de regreso y después encaja salida, vuelta y escalas en su vigencia. El artículo 5 no establece una excepción automática por viajar durante las fiestas.",
+    "reviewedAt": "2026-09-16",
+    "sources": [
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099#a5",
+        "label": "BOE: requisitos y cómputo de la vigencia"
+      },
+      {
+        "href": "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_autorizacionregreso.php",
+        "label": "Policía: solicitud de autorización de regreso"
+      }
+    ],
+    "cta": {
+      "href": "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_autorizacionregreso.php",
+      "label": "Consultar el trámite oficial de regreso"
+    },
+    "related": [
+      {
+        "href": "/extranjeria/autorizacion-regreso",
+        "label": "Requisitos de regreso"
+      },
+      {
+        "href": "/extranjeria/autorizacion-regreso-ex13",
+        "label": "Documentos y tasa del EX-13"
+      },
+      {
+        "href": "/extranjeria/tie-caducada-viajar",
+        "label": "Revisar el itinerario y las escalas"
+      }
+    ],
+    "sections": [
+      {
+        "id": "preparar",
+        "title": "Orden de las comprobaciones",
+        "paragraphs": [
+          "Usa esta secuencia para preparar el viaje; no es un calendario de citas ni una predicción de cuánto tardará la oficina."
+        ],
+        "lists": [
           [
-            "Vuelo nacional (España): el resguardo de renovación más pasaporte válido suele bastar ante la aerolínea; no cruzas frontera.",
-            "Espacio Schengen: no hay control fronterizo interior sistemático, pero pueden existir comprobaciones y la compañía puede pedir documentación. El resguardo no equivale a una TIE válida; confirma las condiciones con la compañía y la oficina.",
-            "Fuera de Schengen: la reentrada depende de tu autorización, de la autorización de regreso cuando proceda, de tu pasaporte y de las reglas de visado aplicables. La autorización de regreso solo permite entrar por pasos fronterizos españoles habilitados.",
-          ],
-        ],
+            "Identifica el supuesto: renovación o prórroga presentada en plazo, duplicado solicitado de TIE en vigor o primera autorización favorable con necesidad y razones excepcionales.",
+            "Consulta la oficina competente y reúne el EX-13 y las pruebas de tu supuesto. Tener billete no acredita por sí solo que se concederá la autorización.",
+            "Comprueba las fechas del documento que te expidan y la fecha real de regreso a España, aunque caiga en enero.",
+            "Revisa por qué país entrarás y cada escala. La autorización de regreso solo es válida para entrar por pasos fronterizos españoles habilitados."
+          ]
+        ]
       },
       {
-        id: "regreso",
-        title: "La autorización de regreso, en dos ideas",
-        paragraphs: [
-          "Se solicita cuando la renovación o prórroga se ha iniciado dentro del plazo legal y se cumplen los requisitos, con el modelo EX-13 y la tasa del modelo 790 código 012 (10,72 euros según la orden vigente). El Reglamento prevé una vigencia máxima de 90 días en los supuestos aplicables y varias entradas y salidas durante su vigencia, con entrada por pasos fronterizos españoles habilitados. La oficina confirma la documentación y la fecha concretas.",
-        ],
+        "id": "fechas",
+        "title": "Desde cuándo se cuentan los 90 días",
+        "paragraphs": [
+          "En renovación o prórroga, si se solicita antes de caducar la autorización, el máximo se cuenta desde esa caducidad; si se solicita después, desde la concesión del regreso. Para la primera autorización favorable excepcional, se cuenta desde la concesión del regreso. Comprueba siempre el periodo efectivamente autorizado.",
+          "Solicitarla antes no significa que cubra cualquier vuelta posterior. Si cambias el viaje, vuelve a contrastar las fechas y el itinerario."
+        ]
       },
       {
-        id: "navidad",
-        title: "Si es para Navidad",
-        paragraphs: [
-          "Para un viaje navideño, consulta con antelación la oficina que expide la autorización y deja margen para recibir instrucciones y el documento. No hay un calendario nacional verificado ni una medida de tolerancia que pueda darse por supuesta para 2026.",
-        ],
-      },
-    ],
+        "id": "instrucciones",
+        "title": "Comprueba las instrucciones aplicables al viaje",
+        "paragraphs": [
+          "No se acredita en esta guía una medida especial para Navidad de 2026. Si recibes información sobre una excepción, comprueba la publicación oficial, su vigencia y a quién se aplica antes de basar el viaje en ella. El artículo 5 y la ficha de Policía son las referencias utilizadas aquí."
+        ]
+      }
+    ]
   },
   {
-    id: "regreso-navidad",
-    pack: "extranjeria",
-    path: "/extranjeria/autorizacion-regreso-navidad",
-    h1: "Autorización de regreso en Navidad: guía 2026-27",
-    title: "Navidad con la TIE en trámite: autorización de regreso",
-    description:
-      "Planifica un viaje de Navidad con la TIE en renovación: documentos, autorización de regreso y comprobaciones oficiales. Sin fechas de cita inventadas ni rumores de prórrogas.",
-    lead:
-      "Si tu TIE está en trámite y piensas salir de España en Navidad, consulta con antelación la oficina que tramita la autorización de regreso. EX-13, tasa 790-012 (10,72 € según la orden vigente) y una vigencia máxima que puede llegar a 90 días en los supuestos previstos. No planifiques sobre rumores de tolerancia navideña.",
-    reviewedAt: "2026-09-07",
-    sources: [
-      { label: "BOE: artículo 5 del Reglamento de extranjería", href: "https://www.boe.es/eli/es/rd/2024/11/19/1155/" },
-      { label: "BOE: tasa de autorización de regreso", href: "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-12056" },
-    ],
-    cta: { href: SEDE_AAPP_URL, label: "Portal de extranjería (oficial)" },
-    secondaryCta: { href: "/extranjeria/autorizacion-regreso", label: "Guía: cómo pedir la EX-13" },
-    related: relatedExNicho,
-    sections: [
+    "id": "regularizacion-resolucion",
+    "pack": "extranjeria",
+    "path": "/extranjeria/regularizacion-2026-resolucion",
+    "h1": "Regularización 2026: plazo de resolución y silencio administrativo",
+    "title": "Regularización 2026: tres meses, suspensiones y resolución",
+    "description": "Plazo individual de resolución, posibles suspensiones, silencio negativo y vigencia de la habilitación provisional. Qué revisar antes de pedir la TIE.",
+    "lead": "Las dos vías extraordinarias reguladas en las disposiciones adicionales 20 y 21 tienen un plazo máximo de tres meses para resolver y notificar, con posibles suspensiones legales. No es una fecha común para todos ni una garantía de recibir respuesta en ese tiempo. El silencio negativo tampoco extingue por sí solo la habilitación provisional ya reconocida.",
+    "reviewedAt": "2026-09-16",
+    "cta": {
+      "href": "https://sede.administracionespublicas.gob.es/pagina/index/directorio/expedientes_extranjeria",
+      "label": "Consultar el estado oficial del expediente"
+    },
+    "secondaryCta": {
+      "href": "https://www.correos.es/es/es/particulares/para-el-ciudadano/regularizacion-extraordinaria-personas-migrantes",
+      "label": "Oficinas para aportar documentación"
+    },
+    "sources": [
       {
-        id: "calendario",
-        title: "El calendario que funciona",
-        paragraphs: [
-          "Antes de reservar: comprueba que tu renovación está presentada y conserva su justificante. Pregunta a la oficina cómo solicitar la autorización y qué documentos exige; deja tiempo para obtenerla antes de volar. Viaja solo con la autorización y el pasaporte que la oficina y la compañía consideren válidos para tu ruta.",
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099#da-20",
+        "label": "BOE: vía para solicitantes de protección internacional"
       },
       {
-        id: "sin-rumores",
-        title: "Sin rumores de amnistía navideña",
-        paragraphs: [
-          "En temporadas anteriores se dieron medidas excepcionales de reentrada. Fueron decisiones publicadas y fechadas, no una costumbre. Esta guía no anticipa ninguna: si se publica una medida oficial para estas fechas, se actualizará con la fuente. Hasta entonces, consulta la autorización de regreso y las condiciones de tu caso.",
-        ],
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099#da-21",
+        "label": "BOE: arraigo extraordinario"
       },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a22",
+        "label": "BOE: suspensión del plazo de resolución"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a24",
+        "label": "BOE: efectos del silencio administrativo"
+      },
+      {
+        "href": "https://www.inclusion.gob.es/documents/d/migraciones/report_20260722-criterio-interpretativo-rd-316-2026-def",
+        "label": "Migraciones: criterio sobre habilitación provisional, julio de 2026"
+      },
+      {
+        "href": "https://www.correos.es/es/es/particulares/para-el-ciudadano/regularizacion-extraordinaria-personas-migrantes",
+        "label": "Correos: aportación de documentación"
+      }
     ],
+    "related": [
+      {
+        "href": "/extranjeria/subsanar-regularizacion-correos",
+        "label": "Aportar documentación en Correos"
+      },
+      {
+        "href": "/extranjeria/mercurio",
+        "label": "Consultar, presentar y recibir notificaciones"
+      },
+      {
+        "href": "/extranjeria/cita-huellas-tie",
+        "label": "Preparar la cita de huellas TIE"
+      }
+    ],
+    "disclaimer": "No somos Administración Pública ni presentamos tu expediente. Esta información no sustituye el requerimiento, la resolución o el asesoramiento sobre tu caso.",
+    "sections": [
+      {
+        "id": "plazo",
+        "title": "Desde cuándo se cuentan los tres meses",
+        "paragraphs": [
+          "Las disposiciones adicionales 20.3 y 21.4 del Reglamento fijan tres meses para resolver y notificar, contados desde el día siguiente a la entrada de la solicitud en el registro del órgano competente para tramitarla. Comprueba esa fecha en la documentación del expediente.",
+          "El plazo puede suspenderse en los supuestos del artículo 22 de la Ley 39/2015. Un requerimiento puede afectar al cómputo durante el intervalo legal correspondiente: revisa las comunicaciones y las fechas de cumplimiento. Aportar documentos no inicia automáticamente otros tres meses desde cero.",
+          "El cierre de solicitudes el 30 de junio y el servicio de Correos hasta el 30 de septiembre son fechas distintas del vencimiento individual para resolver. No uses esos días como calendario de respuesta de todos los expedientes."
+        ]
+      },
+      {
+        "id": "silencio",
+        "title": "Silencio negativo y trabajo provisional",
+        "paragraphs": [
+          "Agotado el plazo máximo aplicable sin notificación, la norma prevé silencio administrativo desestimatorio. Permite recurrir la falta de resolución; no equivale a una resolución denegatoria expresa ni libera a la Administración de resolver.",
+          "El criterio de Migraciones firmado el 22 de julio de 2026 distingue dos situaciones. Si recibiste la comunicación de inicio que reconoce la habilitación provisional para residir y trabajar, esta se mantiene hasta la notificación de la resolución expresa; el mero silencio no la extingue. Si aún no la recibiste, no deduzcas esa habilitación del solo justificante de presentación o de la espera.",
+          "Conserva la comunicación de inicio y comprueba las notificaciones. Ante una denegación expresa, sigue sus efectos y vías de recurso. Si necesitas actuar por silencio, revisa el cómputo y la vía procedente con el órgano competente o asistencia jurídica; esta guía no calcula el vencimiento de tu expediente."
+        ]
+      },
+      {
+        "id": "subsanar",
+        "title": "Un requerimiento tiene su propio plazo",
+        "paragraphs": [
+          "El requerimiento por solicitud incompleta fija un plazo que no puede superar quince días y advierte de desistimiento y archivo si no se atiende. Sigue la fecha y el canal indicados y conserva el resguardo. La disponibilidad del servicio de Correos hasta el 30 de septiembre no amplía ese plazo.",
+          "La consulta de estado es informativa: abre y lee la notificación oficial. Si hay incidencias o una documentación que no puedes obtener, no esperes a una fecha general publicada en una guía para pedir orientación sobre tu caso."
+        ]
+      },
+      {
+        "id": "favorable",
+        "title": "Tras la concesión: tarjeta de identidad de extranjero",
+        "paragraphs": [
+          "Ambas disposiciones prevén solicitar la TIE durante el mes inmediatamente posterior a la concesión. Sigue la resolución y las instrucciones policiales para la cita y la documentación. No atribuyas a la falta de cita una ampliación automática del plazo.",
+          "En la vía de la disposición adicional 20, tras la resolución favorable debe desistirse de la solicitud de protección internacional o del recurso pendiente y acreditarse ese desistimiento al solicitar la TIE. No hagas ese desistimiento anticipadamente por el solo hecho de haber pedido la regularización. La vía de la disposición adicional 21 no lleva ese mismo requisito de asilo.",
+          "La autorización produce derechos desde su concesión; la expedición física de la TIE es una actuación posterior. Revisa la vigencia y condiciones que constan en tu resolución."
+        ]
+      }
+    ]
   },
-  {
-    id: "regularizacion-resolucion",
-    pack: "extranjeria",
-    path: "/extranjeria/regularizacion-2026-resolucion",
-    h1: "Regularización 2026: cuánto tarda la resolución",
-    title: "Regularización 2026: plazos tras la subsanación",
-    description:
-      "Subsanaste en Correos (o te quedaste fuera): qué viene ahora. Plazos de resolución, qué mirar en el expediente y qué NO está verificado. Sin invenciones.",
-    lead:
-      "Presentada la solicitud (abril-junio) y subsanada la documentación (hasta el 30 de septiembre en Correos), la resolución de la regularización extraordinaria llega por expediente. Esta guía separa lo verificado de lo que corre en blogs: ni plazos mágicos ni prórrogas inventadas.",
-    reviewedAt: "2026-09-07",
-    sources: [
-      { label: "Correos: fase de subsanación de la regularización", href: "https://www.correos.es/es/es/particulares/para-el-ciudadano/regularizacion-extraordinaria-personas-migrantes" },
-      { label: "Ministerio de Inclusión: cierre de solicitudes", href: "https://www.inclusion.gob.es/ca/w/el-plazo-de-presentacion-de-solicitud-para-la-regularizacion-extraordinaria-concluye-con-1.174.978-solicitudes-recibidas" },
-    ],
-    cta: { href: CORREOS_REGULARIZACION_URL, label: "Correos: regularización (oficial)" },
-    secondaryCta: { href: "/extranjeria/mercurio", label: "Consultar tu expediente" },
-    related: relatedExNicho,
-    sections: [
-      {
-        id: "verificado",
-        title: "Lo verificado a fecha de esta guía",
-        paragraphs: [
-          `La fase de presentación cerró el 30 de junio de 2026 con 1.174.978 solicitudes, según el Ministerio. Correos mantiene la subsanación hasta el 30 de septiembre en ${CORREOS_OFICINAS_REGULARIZACION} para quienes presentaron en plazo y necesitan aportar documentación. La fuente primaria consultada no publica una fecha única de resolución para todos los expedientes; consulta el canal y el justificante de tu solicitud.`,
-        ],
-      },
-      {
-        id: "si-no-subsanaste",
-        title: "Si no subsanaste a tiempo",
-        paragraphs: [
-          "Si no aportaste la documentación, no podemos afirmar desde esta guía cuál será la consecuencia en tu expediente. Revisa el requerimiento individual, el justificante y el estado oficial; si el plazo venció o recibes una resolución, consulta las vías y plazos de recurso que indique el propio acto administrativo.",
-        ],
-      },
-      {
-        id: "despues",
-        title: "Cuando llegue la resolución favorable",
-        paragraphs: [
-          "Lo siguiente será cita para huellas y TIE en las oficinas habilitadas (otro atasco conocido: la guía de citas de extranjería te prepara). Si dependes de DNI o pasaporte de tu país, vigila su vigencia para la cita. Y el padrón: si te mudas o te dan de baja por no renovar a los 2 años, la guía del padrón te explica cómo no perder la trazabilidad.",
-        ],
-      },
-    ],
-  },
+
 ];

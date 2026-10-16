@@ -2,6 +2,7 @@
 
 import { useId, useState } from "react";
 import type { GuideModelBlock } from "@/lib/tramites/types";
+import { sendMetric } from "@/lib/metrics/events";
 
 export function ModelBlock({ model }: { model: GuideModelBlock }) {
   const captionId = useId();
@@ -12,6 +13,7 @@ export function ModelBlock({ model }: { model: GuideModelBlock }) {
     try {
       await navigator.clipboard.writeText(model.body);
       setStatus("copied");
+      sendMetric("model_copy");
     } catch {
       setStatus("error");
     }

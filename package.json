@@ -3,17 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "description": "RutaTrámite — guía ciudadana de empadronamiento en municipios de España",
+  "browserslist": [
+    "chrome >= 87",
+    "edge >= 88",
+    "firefox >= 78",
+    "safari >= 14",
+    "not dead"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:e2e": "playwright test",
     "data:build": "python scripts/build_municipios.py",
     "sitemaps": "python scripts/build_sitemaps.py",
-    "indexnow": "node scripts/ping-indexnow.mjs"
+    "indexnow": "node scripts/ping-indexnow.mjs",
+    "audit:seo": "python scripts/audit_discoverability.py",
+    "audit:axe": "python scripts/audit_browser_axe.py --output docs/audit-axe.json",
+    "audit:links": "python scripts/audit_links.py",
+    "audit:schema": "tsc --noEmit",
+    "growth:measure": "python scripts/measure_growth.py"
   },
   "dependencies": {
+    "@swc/helpers": "0.5.23",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "minisearch": "^7.1.2",
@@ -25,15 +39,18 @@
     "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
+    "@playwright/test": "1.63.0",
     "@types/node": "^22.15.29",
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.5",
     "@vitejs/plugin-react": "^4.5.2",
     "autoprefixer": "^10.4.21",
+    "axe-core": "4.13.0",
     "postcss": "^8.5.28",
+    "schema-dts": "2.0.0",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
-    "vitest": "^3.2.1"
+    "vitest": "4.1.11"
   },
   "overrides": {
     "next": {

@@ -1,3 +1,4 @@
+import { withoutLegacyEsHost } from "@/lib/seo/origin";
 import { SITE_ORIGIN } from "@/lib/types";
 
 /** SITE_MAP immutable geo URL: /empadronarse/{ccaa}/{provincia}/{municipio} */
@@ -18,6 +19,6 @@ export function escenarioPath(slug: string): string {
 }
 
 export function absoluteUrl(path: string): string {
-  if (path.startsWith("http")) return path;
+  if (path.startsWith("http")) return withoutLegacyEsHost(path);
   return `${SITE_ORIGIN}${path.startsWith("/") ? path : `/${path}`}`;
 }

@@ -1,7 +1,7 @@
 import { HubView } from "@/components/empadronamiento/HubView";
 import { loadIndex } from "@/lib/data/load";
 import { allCcaaHubs, ccaaBySlug, loadTerritories } from "@/lib/geo/territories";
-import { buildCcaaHub } from "@/lib/hub/buildHub";
+import { buildCcaaHub, HUB_REVIEWED_AT } from "@/lib/hub/buildHub";
 import { pageMetadata } from "@/lib/seo/meta";
 import { ESCENARIO_SLUGS } from "@/lib/types";
 import { notFound } from "next/navigation";
@@ -20,17 +20,13 @@ export async function generateMetadata({ params }: { params: Promise<{ ccaa: str
   const { ccaa } = await params;
   const c = ccaaBySlug(ccaa);
   if (!c) return {};
-  const index = loadIndex();
-  const municipios = index.filter((m) => m.ccaa_slug === c.slug);
-  const t = loadTerritories();
-  const provinceNames = c.province_codes.map((code) => t.provinces[code]?.name).filter(Boolean);
-  const model = buildCcaaHub(c.name, c.slug, municipios, provinceNames);
+  const model = buildCcaaHub(c.name, c.slug, loadIndex().filter(m => m.ccaa_slug === c.slug), c.province_codes.map(code => loadTerritories().provinces[code]?.name).filter(Boolean));
   return pageMetadata({
     title: model.title,
     description: model.description,
     path: `/empadronarse/${c.slug}`,
     type: "article",
-    modified: "2026-09-07",
+    modified: HUB_REVIEWED_AT,
   });
 }
 

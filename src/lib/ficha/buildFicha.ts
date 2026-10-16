@@ -168,7 +168,7 @@ function howto(m: Municipio): HowToStep[] {
       : `No damos por hecho un trámite online específico en ${m.name} hasta leerlo en la sede. Si solo hay instancia genérica, úsala con el asunto «alta padronal» y pregunta el código del procedimiento.`;
   return [
     { name: "Confirma el municipio real", text: `Comprueba que el piso está en el término de ${m.name} (${m.province_name}), no en un vecino. El INE identifica este ente con el código ${m.ine_code}.` },
-    { name: "Lee esta ficha y el marco estatal", text: `El alta es gratuita. Identidad + uso de la vivienda. Estar irregular no impide el alta. El órgano es el ${organo(m)}.` },
+    { name: "Lee esta ficha y el marco estatal", text: `${m.fee_public_note ?? "El alta es gratuita."} Identidad + uso de la vivienda. Estar irregular no impide el alta. El órgano es el ${organo(m)}.` },
     { name: "Abre la sede oficial", text: sede },
     { name: "Elige canal", text: online },
     { name: "Cita presencial si aplica", text: cita },
@@ -193,7 +193,7 @@ function faqs(m: Municipio): FaqItem[] {
   return [
     {
       q: `¿Puedo empadronarme en ${m.name} sin contrato de alquiler?`,
-      a: `Sí, el padrón registra un hecho de residencia, no un contrato visado. En ${m.name} la vía habitual sin contrato a tu nombre es la autorización del titular de la vivienda (mejor en modelo municipal) más el documento del titular y prueba de que ese titular ocupa la casa. Si no hay papeles de ningún tipo, no inventes un recibo: pregunta comprobación de oficio o Servicios Sociales. Las instrucciones INE (resolución de 30 de enero de 2015 y línea posterior) detallan identidad y domicilio. Un rumor de foro no deroga el artículo 15 de la Ley 7/1985. ${sedeLine} El alta sigue siendo gratuita.`,
+      a: `Sí, el padrón registra un hecho de residencia, no un contrato visado. En ${m.name} la vía habitual sin contrato a tu nombre es la autorización del titular de la vivienda (mejor en modelo municipal) más el documento del titular y prueba de que ese titular ocupa la casa. Si no hay papeles de ningún tipo, no inventes un recibo: pregunta comprobación de oficio o Servicios Sociales. Las instrucciones INE (resolución de 17 de febrero de 2020, texto consolidado) detallan identidad y domicilio. Un rumor de foro no deroga el artículo 15 de la Ley 7/1985. ${sedeLine} ${m.fee_public_note ?? "El alta sigue siendo gratuita."}`,
     },
     {
       q: `¿Hace falta cita previa para empadronarse en ${m.name}?`,
@@ -201,7 +201,7 @@ function faqs(m: Municipio): FaqItem[] {
     },
     {
       q: `¿El volante de empadronamiento de ${m.name} vale para extranjería?`,
-      a: `A menudo no. El volante es informativo y rápido. El certificado es documento público fehaciente; el histórico acredita movimientos y fechas, que es lo que suele pedir un arraigo o una renovación. En ${m.name} pregunta en la sede cómo se expide cada uno y si hay tasa de certificado (el alta, en cambio, es 0 €). No existe una caducidad legal única de «tres meses» para todo uso: quien te lo pide suele exigir fecha reciente. ${sedeLine}`,
+      a: `A menudo no. El volante es informativo y rápido. El certificado es documento público fehaciente; el histórico acredita movimientos y fechas, que es lo que suele pedir un arraigo o una renovación. En ${m.name} pregunta en la sede cómo se expide cada uno y si hay tasa de certificado${m.fee_public_note ? ". Esta ficha no publica un importe de tasa del alta" : " (el alta, en cambio, es 0 €)"}. No existe una caducidad legal única de «tres meses» para todo uso: quien te lo pide suele exigir fecha reciente. ${sedeLine}`,
     },
     {
       q: `¿Puedo empadronarme en ${m.name} si estoy en situación irregular?`,
@@ -213,7 +213,9 @@ function faqs(m: Municipio): FaqItem[] {
     },
     {
       q: `¿Cuánto cuesta empadronarse en ${m.name}?`,
-      a: `El alta ordinaria en el padrón es gratuita en toda España. En los datos de ${m.name} la tasa de alta es 0 €. Nadie puede cobrarte el alta ni venderte la cita. El volante suele ser gratis. El certificado o el histórico pueden tener tasa si lo dice la ordenanza municipal; esta ficha solo publicaría esa cifra si estuviera leída en fuente. Desconfía de gestoras que ofrezcan «empadronamiento express» de pago en ${m.name}.`,
+      a: m.fee_public_note
+        ? `${m.fee_public_note} El certificado o el histórico pueden tener tasa si lo dice la ordenanza municipal; esta ficha solo publicaría esa cifra si estuviera leída en fuente. Desconfía de gestoras que ofrezcan «empadronamiento express» de pago en ${m.name}.`
+        : `El alta ordinaria en el padrón es gratuita en toda España. En los datos de ${m.name} la tasa de alta es 0 €. Nadie puede cobrarte el alta ni venderte la cita. El volante suele ser gratis. El certificado o el histórico pueden tener tasa si lo dice la ordenanza municipal; esta ficha solo publicaría esa cifra si estuviera leída en fuente. Desconfía de gestoras que ofrezcan «empadronamiento express» de pago en ${m.name}.`,
     },
     {
       q: `¿Puedo incluir menores en el alta de ${m.name}?`,
@@ -241,7 +243,7 @@ function faqs(m: Municipio): FaqItem[] {
     },
     {
       q: `¿Qué hago si el Ayuntamiento de ${m.name} me deniega el alta?`,
-      a: `Pide constancia por escrito del motivo. Si el motivo es «no tienes TIE», cita el artículo 15 y las instrucciones INE. Si es «el contrato no está a tu nombre», vuelve con autorización del titular. Si es «no hay cita», insiste en canal electrónico u otras oficinas del mismo ${m.name}. Puedes reclamar por los cauces de la Ley 39/2015. Organizaciones sociales y el Defensor del Pueblo autonómico existen. ${PRODUCT_NAME} no es un despacho y no presenta recursos por ti.`,
+      a: `Pide que te indiquen el motivo y los documentos que faltan. Si no hay citas, consulta al Ayuntamiento de ${m.name} qué oficinas y canales admite para ese procedimiento: una sede electrónica general no confirma que el alta esté disponible por internet. Ante una resolución desfavorable, revisa su notificación y los plazos y vías de recurso indicados. Si necesitas valorar tu caso, busca orientación jurídica. ${PRODUCT_NAME} no presenta recursos por ti.`,
     },
     {
       q: `¿Puedo empadronarme en ${m.name} en casa de un familiar?`,
@@ -265,7 +267,7 @@ function geoLead(m: Municipio): string {
   const verifiedBit = isFichaIndexable(m)
     ? `, según la sede del ayuntamiento (verificada ${fecha})`
     : `. El procedimiento local concreto está pendiente de verificación y esta ficha no afirma un canal cerrado`;
-  return `En ${m.name} el alta en el padrón se hace ${canal} en el ${org}${verifiedBit}. El alta es gratuita. Hace falta identidad y prueba de uso de la vivienda. Estar irregular no impide el alta (artículo 15 de la Ley 7/1985). ${sede} Población de referencia: ${pop}. Código INE ${m.ine_code}. Provincia de ${m.province_name}, ${m.ccaa_name}.`;
+  return `En ${m.name} el alta en el padrón se hace ${canal} en el ${org}${verifiedBit}. ${m.fee_public_note ?? "El alta es gratuita."} Hace falta identidad y prueba de uso de la vivienda. Estar irregular no impide el alta (artículo 15 de la Ley 7/1985). ${sede} Población de referencia: ${pop}. Código INE ${m.ine_code}. Provincia de ${m.province_name}, ${m.ccaa_name}.`;
 }
 
 function whatIs(m: Municipio): string[] {
@@ -322,7 +324,7 @@ function volante(m: Municipio): string[] {
   return [
     `El volante de ${m.name} es informativo. Sirve para muchos trámites internos y para acreditar de forma rápida que estás padronado. No exige las formalidades del certificado.`,
     `El certificado es documento público fehaciente. Lo piden extranjería, notarios, algunas becas, algunos colegios y algunas ayudas. Pregunta en ${m.name} si se obtiene con Cl@ve en el acto o si hay espera.`,
-    `El histórico acredita altas, bajas, domicilios anteriores y fechas. Para un arraigo suele ser el documento útil, no el volante de ayer. Tasas: alta 0 €; volante ${m.tasa_volante == null ? "no publicada en esta ficha" : `${m.tasa_volante} €`}; certificado ${m.tasa_certificado == null ? "no publicada en esta ficha" : `${m.tasa_certificado} €`}.`,
+    `El histórico acredita altas, bajas, domicilios anteriores y fechas. Para un arraigo suele ser el documento útil, no el volante de ayer. Tasas: ${m.fee_public_note ?? "alta 0 €"}; volante ${m.tasa_volante == null ? "no publicada en esta ficha" : `${m.tasa_volante} €`}; certificado ${m.tasa_certificado == null ? "no publicada en esta ficha" : `${m.tasa_certificado} €`}.`,
   ];
 }
 
@@ -351,9 +353,9 @@ function peculiar(m: Municipio): string[] {
 
 function legalBlock(m: Municipio): string[] {
   return [
-    `Marco estatal que ${m.name} no puede saltarse. Artículo 15 LBRL: obligación de inscribirse donde se reside habitualmente; la inscripción es independiente de la situación administrativa. Artículo 16: datos obligatorios, incluida la referencia catastral cuando exista. Reglamento de Población (RD 1690/1986): gestión, comprobación, altas por omisión, bajas, coordinación INE. Instrucciones técnicas INE (BOE-A-2015-3109 y línea 2020, BOE-A-2020-4784): identidad, vivienda, menores, renovación de no comunitarios, volante y certificación.`,
+    `Marco estatal que ${m.name} no puede saltarse. Artículo 15 LBRL: obligación de inscribirse donde se reside habitualmente; la inscripción es independiente de la situación administrativa. Artículo 16: datos obligatorios, incluida la referencia catastral cuando exista. Reglamento de Población (RD 1690/1986): gestión, comprobación, altas por omisión, bajas, coordinación INE. Instrucciones técnicas INE (BOE-A-2020-4784, texto consolidado): identidad, vivienda, menores, renovación de no comunitarios, volante y certificación.`,
     `El Ayuntamiento de ${m.name} puede identificar, pedir prueba razonable de vivienda, usar sus modelos, exigir cita, ofrecer Cl@ve, cruzar catastro y denegar un alta manifiestamente falsa. No puede cobrar el alta ordinaria, convertir el padrón en permiso de residencia, exigir que el contrato esté visado «porque sí» si la persona reside, ni rechazar a un menor cuando cabe declaración responsable. Si ves una práctica local dura, esta ficha la describiría como práctica local y enlazaría la norma. No la blanqueamos.`,
-    `Fuentes abiertas: Ley 7/1985 (BOE-A-1985-5392), instrucciones 2015 (BOE-A-2015-3109), repositorio de modelos idapadron.ine.es, relación de municipios INE, cifras 1-ene-2025. Última verificación de esta ficha: ${m.last_verified}. Confianza: ${m.confidence}. Estado: ${m.status}.`,
+    `Fuentes de referencia: Ley 7/1985 (BOE-A-1985-5392), instrucciones de gestión del padrón (BOE-A-2020-4784, texto consolidado), modelos y relación de municipios del INE. Fecha registrada en la ficha: ${m.last_verified}. La revisión local y los aspectos pendientes se indican por separado; esta fecha no acredita que todos los requisitos o canales municipales estén comprobados.`,
   ];
 }
 

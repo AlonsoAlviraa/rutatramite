@@ -1,9 +1,4 @@
-import {
-  DISCLAIMER_MEDICO,
-  JUSTICIA_NACIMIENTO_URL,
-  SANIDAD_CALENDARIO_URL,
-  SEDE_SEG_SOCIAL_URL,
-} from "@/lib/tramites/facts";
+﻿import { DISCLAIMER_MEDICO } from "@/lib/tramites/facts";
 import type { Guide } from "@/lib/tramites/types";
 
 const relatedBebe = [
@@ -15,122 +10,105 @@ const relatedBebe = [
 
 export const BEBE_GUIDES: Guide[] = [
   {
-    id: "tarjeta-sanitaria",
-    pack: "bebe",
-    path: "/bebe/tarjeta-sanitaria-bebe",
-    h1: "Cómo sacar la tarjeta sanitaria del bebé",
-    title: "Tarjeta sanitaria del bebé: cómo sacarla paso a paso",
-    description:
-      "Los dos pasos reales: alta como beneficiario en la Seguridad Social (Tu Seguridad Social o CAISS) y tarjeta en el centro de salud, donde asignan pediatra. Con enlaces oficiales.",
-    lead:
-      "Son dos pasos. Primero, alta del bebé como beneficiario en la Seguridad Social (portal Tu Seguridad Social con certificado digital o Cl@ve, o presencial en un CAISS): obtendrás el documento P1. Después, lleva el P1 y el certificado literal de nacimiento a la unidad administrativa de tu centro de salud: allí asignan pediatra y emiten la tarjeta.",
-    cta: { href: SEDE_SEG_SOCIAL_URL, label: "Seguridad Social: alta del bebé" },
-    related: relatedBebe,
-    disclaimer: DISCLAIMER_MEDICO,
+    id: "tarjeta-sanitaria", pack: "bebe", path: "/bebe/tarjeta-sanitaria-bebe",
+    reviewedAt: "2026-09-16",
+    h1: "Cómo solicitar la tarjeta sanitaria del bebé",
+    title: "Tarjeta sanitaria del bebé: alta y documentos",
+    description: "Alta del bebé como beneficiario y tarjeta del servicio autonómico de salud. Documentación del INSS para menores de tres meses y ejemplo de Madrid.",
+    lead: "Si vas a incorporar al bebé como beneficiario de un titular de la Seguridad Social, comprueba primero su alta y después solicita la tarjeta al servicio de salud de tu comunidad. Son gestiones distintas: el documento que acredita el derecho a asistencia no es la tarjeta sanitaria autonómica.",
+    cta: { href: "https://prestaciones.seg-social.es/servicio/asistencia-sanitaria-gestion-beneficiarios.html", label: "Seguridad Social: gestionar beneficiarios" },
+    secondaryCta: { href: "https://sede.comunidad.madrid/prestacion-social/tarjeta-sanitaria", label: "Ejemplo: solicitar la tarjeta en Madrid" },
+    sources: [
+      { href: "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10938/30497/?changeLanguage=es", label: "INSS: gestión y documentos de asistencia sanitaria" },
+      { href: "https://sede.seg-social.gob.es/wps/portal/sede/sede/Ciudadanos/Asistencia%2BSanitaria/202043_TUSS", label: "Seguridad Social: alta de beneficiarios" },
+      { href: "https://sede.comunidad.madrid/prestacion-social/tarjeta-sanitaria", label: "Comunidad de Madrid: tarjeta sanitaria" },
+    ],
+    related: relatedBebe, disclaimer: DISCLAIMER_MEDICO,
     sections: [
       {
-        id: "paso-1",
-        title: "Paso 1: el alta en la Seguridad Social",
+        id: "paso-1", title: "Alta como beneficiario y justificante",
         paragraphs: [
-          "El alta como beneficiario se hace en la Seguridad Social (INSS): online con certificado o Cl@ve en el portal Tu Seguridad Social, presencial en un CAISS con cita, o lo gestiona el propio hospital en algunas comunidades. El resultado es el documento P1, el resguardo que acredita al bebé como beneficiario de un titular. Necesitarás el certificado literal de nacimiento (el hospital suele comunicar el nacimiento al Registro Civil por vía electrónica en 72 horas; la inscripción se completa en días) y tu DNI.",
+          "El servicio de alta permite incorporar beneficiarios y obtener la acreditación correspondiente. Conserva el documento final y comprueba si acredita el derecho o solo la presentación de una solicitud pendiente. Si el hospital ha realizado alguna gestión, pide que identifique cuál y revisa su resultado antes de repetirla.",
+          "En la documentación del INSS, el parentesco de un hijo se acredita con libro de familia o certificado de nacimiento; para un hijo menor de tres meses no es obligatorio aportar esos documentos. Esta excepción se refiere al alta sanitaria en el INSS y no elimina los requisitos propios de la tarjeta autonómica.",
         ],
       },
       {
-        id: "paso-2",
-        title: "Paso 2: el centro de salud asigna pediatra",
+        id: "paso-2", title: "Solicitar la tarjeta en tu comunidad",
         paragraphs: [
-          "Con el P1 y la identificación del bebé, acude a la unidad administrativa del centro de salud que corresponda a tu domicilio: allí dan de alta la tarjeta sanitaria individual y asignan pediatra y enfermería. En algunas comunidades (la Comunitat Valenciana, por ejemplo) el hospital emite una tarjeta provisional de tres meses que cubre la asistencia mientras llega la definitiva. El empadronamiento vigente del bebé en tu domicilio es el dato que fija el centro: si aún no lo has empadronado, la guía de empadronar recién nacidos te ordena el trámite.",
+          "Consulta al centro de salud o al servicio autonómico cómo registrar al bebé y asignarle profesionales. La ficha de Madrid, por ejemplo, permite solicitud electrónica o presencial y contempla certificado de nacimiento para menores de 14 años sin DNI o TIE, además de acreditar la representación. También prevé consultas electrónicas de datos. Usa esa lista únicamente si el trámite corresponde a Madrid.",
+          "Prepara la identificación del representante, los datos del bebé, la acreditación sanitaria y la documentación de domicilio que indique tu servicio. Pregunta qué justificante utilizar mientras se emite la tarjeta y cómo solicitar la primera cita; no presupongas que la aplicación ya reconocerá al bebé.",
         ],
       },
       {
-        id: "sin-tarjeta",
-        title: "¿Puedo llevar al bebé al pediatra sin la tarjeta?",
-        paragraphs: [
-          "El derecho a la asistencia no depende del plástico: el bebé tiene cobertura desde el alta como beneficiario, y los centros atienden con el P1 o incluso registrando al niño en el mostrador mientras la tarjeta llega. Lo que se retrasa sin tarjeta es la comodidad: cita por app, carnet de salud infantil ordenado. Si te mudas de comunidad, la tarjeta se renueva en la nueva y el historial sanitario viaja por la Historia Clínica Digital del SNS.",
-        ],
+        id: "otras-situaciones", title: "Si tu situación no encaja en el alta como beneficiario",
+        paragraphs: ["La propia información del INSS distingue supuestos cuyo reconocimiento corresponde al servicio autonómico de salud, como determinadas situaciones de personas extranjeras. Si el formulario no admite tu caso, consulta el canal correspondiente al centro de salud; un error en el alta digital no permite concluir por sí solo que no exista derecho a asistencia."],
       },
     ],
   },
   {
-    id: "cartilla-vacunas",
-    pack: "bebe",
-    path: "/bebe/cartilla-de-vacunacion-donde-se-saca",
-    h1: "Dónde se saca la cartilla de vacunación en España",
-    title: "Cartilla de vacunación: dónde se saca en España",
-    description:
-      "La cartilla o el registro digital de vacunas se entrega en el centro de salud al asignar pediatra; el certificado oficial se descarga del portal de salud digital de tu comunidad. Guía administrativa.",
-    lead:
-      "En España la cartilla o el registro digital de vacunaciones se entrega en el centro de salud cuando asignan pediatra al bebé. Si la pierdes o necesitas un justificante para matrícula o extraescolares, puedes descargar el certificado de vacunación desde el portal de salud digital de tu comunidad o pedirlo en tu centro de salud.",
-    cta: { href: SANIDAD_CALENDARIO_URL, label: "Calendario vacunal oficial (Sanidad)" },
-    related: relatedBebe,
+    id: "cartilla-vacunas", pack: "bebe", path: "/bebe/cartilla-de-vacunacion-donde-se-saca",
+    reviewedAt: "2026-09-16",
+    h1: "Dónde pedir la cartilla de vacunación del bebé",
+    title: "Cartilla de vacunación: solicitud, pérdida y justificantes",
+    description: "Consulta al centro de salud cómo obtener o recuperar la cartilla. Diferencias entre calendario, registro individual y documento para un trámite.",
+    lead: "Para obtener o recuperar la cartilla del bebé, empieza por su centro de salud: pregunta qué documento facilita tu servicio autonómico y cómo consultar los registros del menor. La cartilla, el informe individual y el calendario general cumplen funciones diferentes.",
+    cta: { href: "https://www.comunidad.madrid/hospital/atencionprimaria/ciudadanos/atencion-ciudadano", label: "Ejemplo en Madrid: consultas a Atención Primaria" },
+    secondaryCta: { href: "/bebe/certificado-vacunacion-descargar", label: "Consultar las opciones de descarga verificadas" },
+    sources: [
+      { href: "https://www.comunidad.madrid/hospital/atencionprimaria/ciudadanos/atencion-ciudadano", label: "Atención Primaria de Madrid: documentación y consultas" },
+      { href: "https://lamevasalut.gencat.cat/web/cps/ajuda/serveis/informacio-clinica", label: "La Meva Salut: información clínica y estado vacunal" },
+      { href: "https://www.sanidad.gob.es/areas/promocionPrevencion/vacunaciones/calendario/home.htm", label: "Sanidad: calendario común de vacunación" },
+    ],
+    related: [...relatedBebe, { href: "/bebe/cartilla-vacunacion-digital", label: "Consultar el registro digital del menor" }],
     disclaimer: DISCLAIMER_MEDICO,
     sections: [
       {
-        id: "donde",
-        title: "Dónde se obtiene (y quién la rellena)",
-        paragraphs: [
-          "La cartilla la facilita el servicio de salud de tu comunidad a través del centro de salud asignado: la entregan en las primeras revisiones del bebé y la actualiza el propio sistema sanitario tras cada administración. Cada comunidad tiene además un registro nominal de vacunaciones: aunque pierdas el papel, las dosis administradas constan en el sistema de tu comunidad, y el certificado oficial puede expedirse en cualquier momento.",
-        ],
+        id: "donde", title: "Qué pedir en el centro de salud",
+        paragraphs: ["Explica si buscas la primera cartilla, recuperar una perdida o aportar un documento a una entidad. Ten a mano la identificación sanitaria del bebé y consulta cómo acreditar que actúas en su representación. Pide el nombre exacto del documento y el canal para obtenerlo; evita reservar una consulta clínica solo para resolver una duda de acceso administrativo."],
       },
       {
-        id: "duplicado",
-        title: "Si la pierdes o la necesitas para el cole",
-        paragraphs: ["Los dos papeles que aceptan colegios y servicios:"],
-        lists: [
-          [
-            "Certificado oficial de vacunación: en el centro de salud o descargándolo de la carpeta de salud digital de tu comunidad.",
-            "Cartilla digital: varias comunidades ya la emiten en la app sanitaria regional.",
-            "Si cambiaste de comunidad: pide el certificado en la comunidad de origen; el historial no viaja solo (guía de cambio de comunidad con la cartilla).",
-          ],
-        ],
+        id: "duplicado", title: "Si perdiste la cartilla o faltan anotaciones",
+        paragraphs: ["Reúne las copias e informes que conserves y pide al centro que compruebe qué consta en la historia. Como muestra La Meva Salut, el contenido visible depende de la información incorporada al registro. Una pantalla incompleta no permite deducir qué vacunas recibió una persona. La revisión de los antecedentes y cualquier decisión sanitaria corresponden al profesional."],
       },
       {
-        id: "colegio",
-        title: "Vacunas y escolarización: lo que puede pedir un colegio",
-        paragraphs: [
-          "Los centros pueden pedir la cartilla como documento informativo en la matrícula; ningún colegio puede rechazar la escolarización de un niño por no presentarla. La cartilla acredita lo administrado por el sistema público de tu comunidad; el calendario oficial que manda es el de tu consejería de salud (enlazado arriba). Esta guía no da consejo médico ni pautas: para cualquier decisión clínica, tu pediatra.",
-        ],
+        id: "documento-para-tramite", title: "Si te solicitan documentación para una actividad",
+        paragraphs: ["Pregunta a la entidad destinataria el documento, la finalidad y el formato que admite antes de descargar o entregar información sanitaria. Un calendario oficial describe recomendaciones generales: no acredita las vacunas de tu hijo. Para localizar un informe personal, consulta la guía de descarga; incluye un ejemplo comprobado de Cataluña y las limitaciones del acceso en Madrid."],
       },
     ],
   },
   {
-    id: "registro-civil",
-    pack: "bebe",
-    path: "/bebe/inscripcion-nacimiento-registro-civil",
+    id: "registro-civil", pack: "bebe", path: "/bebe/inscripcion-nacimiento-registro-civil",
+    reviewedAt: "2026-09-16",
     h1: "Inscribir al bebé en el Registro Civil",
-    title: "Inscripción del nacimiento: plazo y documentos",
-    description:
-      "El hospital comunica el nacimiento en 72 horas; los progenitores tienen 10 días si les toca declarar. Fuera de plazo, expediente registral. Cita, documentos y qué viene después.",
-    lead:
-      "El hospital envía la comunicación del nacimiento al Registro Civil en 72 horas. A partir de ahí, los progenitores tienen 10 días para completar la inscripción, con cita previa en el Registro Civil del municipio o por vía electrónica. Necesitaréis DNI y, en su caso, el certificado del centro sanitario.",
-    cta: { href: JUSTICIA_NACIMIENTO_URL, label: "Registro Civil: inscripción de nacimiento" },
-    related: relatedBebe,
+    title: "Inscripción del nacimiento: plazos y vías de declaración",
+    description: "Comunicación del hospital en 72 horas y declaración en diez días cuando corresponda. Son plazos distintos. Documentos y certificado posterior.",
+    lead: "El hospital dispone de 72 horas para comunicar el nacimiento, salvo los casos que requieren comparecer ante el Registro Civil. Si el nacimiento ocurre fuera de un centro sanitario o no se remite la comunicación en las condiciones legales, quienes deben promover la inscripción tienen diez días desde el nacimiento para declararlo. No se suman ambos plazos.",
+    cta: { href: "https://www.mjusticia.gob.es/es/ciudadania/tramites/inscripcion-nacimiento", label: "Justicia: información para inscribir un nacimiento" },
+    secondaryCta: { href: "https://sede.mjusticia.gob.es/tramites/certificado-nacimiento", label: "Solicitar un certificado de un nacimiento ya inscrito" },
+    sources: [
+      { href: "https://www.boe.es/buscar/act.php?id=BOE-A-2011-12628#a46", label: "Ley del Registro Civil: artículos 46 y 47" },
+      { href: "https://sede.mjusticia.gob.es/tramites/inscripcion-nacimiento", label: "Justicia: servicio de comunicación reservado a centros sanitarios" },
+      { href: "https://sede.mjusticia.gob.es/tramites/certificado-nacimiento", label: "Justicia: solicitud del certificado de nacimiento" },
+    ],
+    related: [...relatedBebe, { href: "/bebe/prestacion-por-nacimiento", label: "Prestaciones por nacimiento: modalidades y efectos económicos" }],
     sections: [
       {
-        id: "plazos",
-        title: "Los plazos de verdad (no los del rumor)",
+        id: "plazos", title: "Confirmar quién presenta la comunicación",
         paragraphs: [
-          "La Ley del Registro Civil reparte el trabajo: el centro sanitario comunica el nacimiento por vía electrónica en 72 horas, y esa comunicación arranca la inscripción de oficio en la mayoría de los nacimientos hospitalarios. El plazo de 10 días para declarar como progenitores aplica cuando nace fuera de centro sanitario o cuando el hospital no remite la comunicación. Si se pasa el plazo, la inscripción ya no se hace por simple declaración: exige un expediente registral con prueba del nacimiento, y mientras tanto no puedes tramitar DNI, tarjeta sanitaria ni prestaciones del bebé.",
+          "Pregunta al hospital si ha enviado la comunicación y si vuestro caso requiere comparecencia. Conserva la constancia que os facilite y atiende los requerimientos del Registro. El acceso de la sede llamado Inscripción de Nacimiento está destinado a centros sanitarios autorizados: no es un formulario para que cualquier progenitor inscriba al bebé desde casa.",
+          "Si corresponde declarar y transcurre el plazo legal, el artículo 47 exige una resolución en expediente registral. Contacta con la oficina para conocer la documentación de ese caso.",
         ],
       },
       {
-        id: "documentos",
-        title: "Qué se lleva a la cita",
-        paragraphs: ["Para la inscripción (o su confirmación electrónica):"],
-        lists: [
-          [
-            "DNI de los progenitores (y el certificado médico del parto si os toca declarar).",
-            "Volante o justificante del centro sanitario con la comunicación del nacimiento.",
-            "El certificado literal de nacimiento que expiden después: pide copias, las vas a necesitar para todo (SS, padrón, guardería).",
-          ],
+        id: "documentos", title: "Preparar la declaración y distinguir el certificado posterior",
+        paragraphs: [
+          "La declaración requiere el documento oficial cumplimentado y el certificado médico o la acreditación alternativa prevista legalmente. Confirma con la oficina la identificación y los documentos aplicables a vuestra situación familiar.",
+          "El certificado de nacimiento acredita la inscripción practicada: no es un documento que debas aportar para inscribir ese mismo nacimiento. Cuando lo necesites, indica su finalidad y si lo pides para el menor. La descarga inmediata depende de la disponibilidad telemática de los datos; conserva el justificante y sigue la respuesta del servicio si no puede emitirlo al momento.",
         ],
       },
       {
-        id: "despues",
-        title: "La cadena que viene después",
-        paragraphs: [
-          "Con la inscripción hecha, el orden eficiente es: alta en la Seguridad Social (P1), tarjeta sanitaria y pediatra, empadronamiento del bebé, y prestación por nacimiento si cumples requisitos (se puede pedir hasta cinco años después, mucho más margen del que dice el rumor de los seis meses). Las guías de esta web cubren cada eslabón.",
-        ],
+        id: "despues", title: "Organizar las gestiones posteriores",
+        paragraphs: ["Revisa por separado el padrón, el alta sanitaria y la prestación que corresponda. Cada trámite tiene requisitos propios: la guía de tarjeta sanitaria explica la excepción documental del INSS para hijos menores de tres meses. Si vais a solicitar una prestación, comprobad sus efectos económicos antes de aplazarla; las modalidades están diferenciadas en la guía enlazada."],
       },
     ],
   },

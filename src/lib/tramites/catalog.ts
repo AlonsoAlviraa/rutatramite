@@ -1,4 +1,9 @@
+import { ACTUALIDAD_20261006_GUIDES } from "@/lib/tramites/actualidad-20261006";
+import { AYUDAS_GOBIERNO_GUIDES } from "@/lib/tramites/ayudas-por-gobierno";
+import { PROMESAS_29N_GUIDES, ELECCIONES_EXPLICADORES_GUIDES } from "@/lib/tramites/promesas-29n";
+import { ELECCIONES_29N_GUIDES } from "@/lib/tramites/elecciones-29n-guias";
 import { BEBE_GUIDES } from "@/lib/tramites/bebe";
+import { AYUDAS_2026_GUIDES } from "@/lib/tramites/ayudas-2026";
 import { BECAS_GUIDES } from "@/lib/tramites/becas";
 import { COLE_GUIDES } from "@/lib/tramites/cole";
 import { COMEDOR_GUIDES } from "@/lib/tramites/comedor";
@@ -9,14 +14,24 @@ import { BECAS_NICHOS2_GUIDES } from "@/lib/tramites/nichos2-becas";
 import { COLE_COMEDOR_NICHOS2_GUIDES } from "@/lib/tramites/nichos2-cole-comedor";
 import { FP_BEBE_NICHOS2_GUIDES } from "@/lib/tramites/nichos2-fp-bebe";
 import { IDENTIDAD_NICHOS2_GUIDES } from "@/lib/tramites/nichos2-identidad";
+import { COBROS_AVISOS_GUIDES } from "@/lib/tramites/cobros-avisos";
+import { FAMILIA_CCAA_GUIDES } from "@/lib/tramites/familia-ccaa";
 import { MODELO_GUIDES } from "@/lib/tramites/modelos";
 import { FP_GUIDES } from "@/lib/tramites/fp";
 import { MUDANZA_GUIDES } from "@/lib/tramites/mudanza";
 import type { Guide, GuidePack } from "@/lib/tramites/types";
 import { VIAJE_GUIDES } from "@/lib/tramites/viaje";
+import { GESTIONES_CLAVE_GUIDES } from "@/lib/tramites/gestiones-clave-2026";
 
 export const ALL_GUIDES: Guide[] = [
+  ...ACTUALIDAD_20261006_GUIDES,
+  ...ELECCIONES_29N_GUIDES,
+  ...ELECCIONES_EXPLICADORES_GUIDES,
+  ...PROMESAS_29N_GUIDES,
+  ...AYUDAS_GOBIERNO_GUIDES,
+  ...AYUDAS_2026_GUIDES,
   ...VIAJE_GUIDES,
+  ...GESTIONES_CLAVE_GUIDES,
   ...DNI_NICHOS_GUIDES,
   ...MUDANZA_GUIDES,
   ...EXTRANJERIA_GUIDES,
@@ -30,6 +45,8 @@ export const ALL_GUIDES: Guide[] = [
   ...IDENTIDAD_NICHOS2_GUIDES,
   ...COLE_COMEDOR_NICHOS2_GUIDES,
   ...FP_BEBE_NICHOS2_GUIDES,
+  ...FAMILIA_CCAA_GUIDES,
+  ...COBROS_AVISOS_GUIDES,
   ...MODELO_GUIDES,
 ];
 

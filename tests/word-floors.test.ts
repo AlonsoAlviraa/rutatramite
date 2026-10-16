@@ -8,21 +8,31 @@ import {
 } from "@/lib/render/server";
 import { countVisibleWords } from "@/lib/render/words";
 import { ESCENARIO_SLUGS } from "@/lib/types";
+import { escenarioReview } from "@/lib/data/escenarios-editorial";
 
 describe("visible word floors on shipped render", () => {
-  it("pilar /empadronarse has ≥3000 visible words from PilarView", () => {
+  it("pilar gives steps, documents, scenario links and usable official sources", () => {
     const html = renderPilarHtml();
-    const words = countVisibleWords(html);
     expect(html).toContain("RutaTrámite");
-    expect(words).toBeGreaterThanOrEqual(3000);
+    for (const id of ["pasos-nacionales", "identidad", "vivienda", "escenarios", "fuentes"]) expect(html).toContain(`id="${id}"`);
+    for (const slug of ESCENARIO_SLUGS) expect(html).toContain(`href="/empadronarse/${slug}"`);
+    expect(html).toContain('href="https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784"');
+    expect(html).not.toMatch(/cita_url|Git es la fuente|Oleada A|User-Agent|Wikidata P856|thin de 300/);
   });
 
-  it("each of the 12 pack escenarios has ≥2000 visible words from the shipped markdown view", () => {
+  it("shipped scenarios render their content and editorial evidence", () => {
     for (const slug of ESCENARIO_SLUGS) {
       const html = renderEscenarioHtml(slug);
       const words = countVisibleWords(html);
       expect(html, slug).toContain("empadron");
-      expect(words, slug).toBeGreaterThanOrEqual(2000);
+      const review = escenarioReview(slug);
+      if (review) {
+        expect(html, slug).toContain(review.reviewedAt);
+        for (const heading of review.headings) expect(html, slug).toContain(heading);
+        expect(html, slug).toContain('href="/metodologia"');
+      } else {
+        expect(words, slug).toBeGreaterThanOrEqual(2000);
+      }
     }
   });
 

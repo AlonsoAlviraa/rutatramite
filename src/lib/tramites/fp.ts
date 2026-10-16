@@ -1,101 +1,151 @@
-import { TODOFP_URL } from "@/lib/tramites/facts";
 import type { Guide } from "@/lib/tramites/types";
 
 export const FP_GUIDES: Guide[] = [
   {
-    id: "matricula-septiembre",
-    pack: "fp",
-    path: "/fp/matricula-fp-en-septiembre",
-    h1: "¿Se puede uno matricular en FP en septiembre?",
-    title: "Matricularse en FP en septiembre: se puede todavía",
-    description:
-      "El proceso ordinario cerró y el curso empieza: matrícula extraordinaria de septiembre, vacantes reales (2.931 en CyL), listas de reserva y FP a distancia como plan B.",
-    lead:
-      "Sí, todavía hay opciones en septiembre: muchas comunidades abren matrícula extraordinaria para cubrir plazas vacantes, y cada centro puede admitir directamente si quedan huecos. Consulta el calendario de admisión de tu consejería o llama a la secretaría del centro. La FP a distancia y los centros privados suelen cerrar más tarde.",
-    cta: { href: TODOFP_URL, label: "Todofp (oficial)" },
-    related: [
-      { href: "/fp/convalidaciones-fp", label: "Convalidaciones de FP" },
-      { href: "/becas/mec", label: "Beca MEC para FP" },
-      { href: "/colegio/documentos-matricula-colegio", label: "Documentos de matrícula" },
+    "id": "matricula-septiembre",
+    "pack": "fp",
+    "path": "/fp/matricula-fp-en-septiembre",
+    "reviewedAt": "2026-09-16",
+    "h1": "Matrícula de FP en septiembre: admisión y vacantes",
+    "title": "Matrícula de FP en septiembre: admisión y vacantes",
+    "description": "Comprueba si debes solicitar admisión, responder a una lista de espera o matricularte en una plaza adjudicada. Ejemplo de Castilla y León 2026/27.",
+    "lead": "En septiembre puede haber matrícula de plazas ya adjudicadas, listas de espera y procedimientos extraordinarios. Las opciones dependen de la comunidad, ciclo y modalidad. Una fecha de matrícula abierta no significa que aún se admitan nuevas solicitudes ni que haya plazas disponibles en tu ciclo.",
+    "cta": {
+      "href": "https://iesduquedealburquerque.centros.educa.jcyl.es/sitio/index.cgi?wid_item=172&wid_seccion=38",
+      "label": "Ejemplo oficial: admisión de FP 2026/27 en Castilla y León"
+    },
+    "sources": [
+      {
+        "href": "https://iesduquedealburquerque.centros.educa.jcyl.es/sitio/index.cgi?wid_item=172&wid_seccion=38",
+        "label": "IES Duque de Alburquerque: calendario y listas de FP 2026/27"
+      },
+      {
+        "href": "https://www.comunidad.madrid/educacion/admision-formacion-profesional",
+        "label": "Comunidad de Madrid: procesos de admisión en FP"
+      },
+      {
+        "href": "https://www.todofp.es/comunes/faq.html",
+        "label": "TodoFP: preguntas sobre admisión y modalidades"
+      }
     ],
-    sections: [
+    "sections": [
       {
-        id: "extraordinaria",
-        title: "La matrícula extraordinaria",
-        paragraphs: [
-          "Tras el proceso ordinario, cada comunidad publica un periodo extraordinario en septiembre para cubrir las plazas que quedaron vacantes. Ejemplo verificado del calendario 2026-27 de Castilla y León: solicitud extraordinaria del 2 al 4 de septiembre, adjudicación el 15 y matrícula del 15 al 18. Las fechas exactas cambian por comunidad: la referencia viva es el calendario de admisión de tu consejería, no los resúmenes de blogs.",
-        ],
+        "id": "extraordinaria",
+        "title": "Ejemplo fechado: Castilla y León 2026/27",
+        "paragraphs": [
+          "La página de admisión del IES Duque de Alburquerque publica solicitud extraordinaria del 2 al 4 de septiembre, adjudicación el 15 y matrícula del 15 al 18. El último intervalo corresponde a quienes han obtenido plaza. Si no solicitaste admisión en plazo, pregunta por el procedimiento que pueda admitir tu caso; no presentes una matrícula como si ya estuvieras admitido."
+        ]
       },
       {
-        id: "vacantes",
-        title: "Que hay vacantes es un hecho, no una esperanza",
-        paragraphs: [
-          "Los ciclos más demandados (Sanidad, Educación Infantil, Informática) se llenan; el resto deja vacantes reales: en Castilla y León llegaron a quedar casi 3.000 plazas sin cubrir tras el extraordinario de un curso reciente. Además, en algunas comunidades la solicitud fuera de plazo se admite durante el primer trimestre allí donde queden vacantes (es el caso documentado de Castilla y León): pregunta directamente en la secretaría del instituto, que es quien ve el hueco en tiempo real.",
-        ],
+        "id": "vacantes",
+        "title": "Comprobar una vacante concreta",
+        "paragraphs": [
+          "Busca el listado oficial del curso, centro, ciclo, turno y modalidad. Revisa la fecha de publicación y pregunta cómo se adjudican los huecos restantes. Un total de vacantes de otro año no acredita disponibilidad actual ni autoriza la admisión directa por cualquier centro."
+        ]
       },
       {
-        id: "plan-b",
-        title: "Plan B si tu ciclo está lleno",
-        paragraphs: ["Tres salidas antes de rendir el año:"],
-        lists: [
-          [
-            "Lista de reserva del centro: las renuncias de septiembre liberan plazas durante semanas.",
-            "FP a distancia o semipresencial: misma titulación oficial, calendario más flexible.",
-            "Ciclo afín con plazas: convalidaciones después reducen la carga (guía de convalidaciones).",
-          ],
-        ],
+        "id": "plan-b",
+        "title": "Si el ciclo que quieres no tiene plaza",
+        "paragraphs": [
+          "Consulta listas de espera, otras localidades y modalidades autorizadas. TodoFP advierte que los periodos extraordinarios no existen siempre: no des por hecho que la FP a distancia o un centro privado cierre más tarde. Comprueba también los requisitos, las condiciones de matrícula y qué formación se imparte antes de elegir otra opción."
+        ]
       },
       {
-        id: "beca",
-        title: "La beca no espera al despiste",
-        paragraphs: [
-          "Si consigues plaza en septiembre, revisa inmediatamente el estado de la beca MEC: la convocatoria general cerró en mayo, pero septiembre tiene ventanas concretas (modificación de datos del 7 al 28, ayudas de apoyo educativo y becas de colaboración). La guía de becas de esta web las ordena con sus plazos reales.",
-        ],
-      },
+        "id": "beca",
+        "title": "Revisar la beca por separado",
+        "paragraphs": [
+          "Obtener plaza no presenta automáticamente una solicitud de beca. Si ya la pediste, revisa qué datos académicos debes actualizar y en qué plazo. Si no la solicitaste, comprueba las opciones de la convocatoria vigente; una fase para modificar datos no equivale a abrir nuevas solicitudes. La guía de beca general enlazada detalla sus fechas y condiciones."
+        ]
+      }
     ],
+    "related": [
+      {
+        "href": "/fp/reserva-de-plaza-fp",
+        "label": "Qué hacer tras la adjudicación"
+      },
+      {
+        "href": "/fp/convalidaciones-fp",
+        "label": "Convalidaciones de módulos"
+      },
+      {
+        "href": "/becas/mec",
+        "label": "Beca general: convocatoria y trámites"
+      }
+    ]
   },
   {
-    id: "convalidaciones",
-    pack: "fp",
-    path: "/fp/convalidaciones-fp",
-    h1: "Convalidaciones de FP: cómo y dónde solicitarlas",
-    title: "Convalidaciones de FP: cómo y dónde solicitarlas",
-    description:
-      "Convalidar módulos entre ciclos formativos o desde la universidad: quién lo resuelve, cuándo se pide (al matricularse) y qué documentación llevar a secretaría.",
-    lead:
-      "Las convalidaciones de módulos de Formación Profesional se solicitan al formalizar la matrícula en la secretaría del centro, que las remite a la administración educativa. No esperes a noviembre: el plazo es el de la matrícula, y resolverla tarde puede cambiar tu horario y tu beca.",
-    cta: { href: TODOFP_URL, label: "Todofp: convalidaciones (oficial)" },
-    related: [
-      { href: "/fp/matricula-fp-en-septiembre", label: "Matrícula FP en septiembre" },
-      { href: "/becas/mec", label: "Beca MEC" },
+    "id": "convalidaciones",
+    "pack": "fp",
+    "path": "/fp/convalidaciones-fp",
+    "reviewedAt": "2026-09-16",
+    "h1": "Convalidaciones de FP: solicitud, plazos y resolución",
+    "title": "Convalidaciones de FP: solicitud, plazos y resolución",
+    "description": "Dónde solicitar la convalidación de módulos y quién la resuelve. Diferencias entre el plazo estatal y el ejemplo de Madrid 2026/27.",
+    "lead": "Solicita la convalidación en el centro donde estás matriculado, indicando los módulos y los estudios que aportas. El plazo y el órgano que resuelve dependen del supuesto: no todas las solicitudes terminan con el periodo de matrícula ni las resuelve siempre la consejería.",
+    "cta": {
+      "href": "https://todofp.es/convalidaciones-equivalencias-homologaciones/convalidaciones/solicitud/que-documentacion-aportar.html",
+      "label": "TodoFP: documentos para solicitar convalidación"
+    },
+    "sources": [
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+        "label": "Real Decreto 1085/2020: solicitud, plazos y competencias"
+      },
+      {
+        "href": "https://www.comunidad.madrid/docs/2026-06/orientaciones-convalidaciones-2026-2027.pdf?VersionId=WJEc3S92bsBa4pFrvJxWx5s_qFAPC10W",
+        "label": "Madrid: orientaciones de convalidación 2026/27 (PDF)"
+      },
+      {
+        "href": "https://todofp.es/convalidaciones-equivalencias-homologaciones/convalidaciones/solicitud/que-documentacion-aportar.html",
+        "label": "TodoFP: documentación de la solicitud"
+      }
     ],
-    sections: [
+    "sections": [
       {
-        id: "cuando",
-        title: "Cuándo se piden",
-        paragraphs: [
-          "Al matricularse: la solicitud de convalidación se presenta junto con la matrícula del nuevo ciclo, en el impreso que facilite la secretaría. La resuelve la administración educativa de tu comunidad (no el profesor ni el jefe de estudios). Mientras se resuelve, el centro puede permitirte asistir a los módulos pendientes de convalidación: pregunta cómo lo gestionan antes de renunciar a clases por prudencia.",
-        ],
+        "id": "cuando",
+        "title": "Plazo: primero identifica quién resuelve",
+        "paragraphs": [
+          "Para las solicitudes que resuelve el Ministerio, el artículo 5 del Real Decreto 1085/2020 admite presentación desde el comienzo hasta el final del curso escolar, con una solicitud por curso. Da preferencia a los expedientes presentados hasta finalizar octubre. Ese plazo no debe trasladarse automáticamente a las convalidaciones que resuelve el centro.",
+          "Como ejemplo territorial, Madrid 2026/27 fija para las que resuelve la dirección del centro desde el inicio de matrícula hasta transcurridos los primeros quince días lectivos; contempla diez días lectivos desde la matrícula para quien se incorpora excepcionalmente con las clases iniciadas. Consulta el supuesto con secretaría y guarda el justificante."
+        ]
       },
       {
-        id: "documentos",
-        title: "Qué llevas a secretaría",
-        paragraphs: ["La documentación habitual:"],
-        lists: [
-          [
-            "Certificado académico o credencial de los estudios previos (otro ciclo, universidad o formación acreditada).",
-            "Impreso de solicitud de convalidación del centro o de la consejería.",
-            "Resguardo de la matrícula del nuevo ciclo.",
-          ],
-        ],
+        "id": "documentos",
+        "title": "Preparar una solicitud identificable",
+        "paragraphs": [
+          "Utiliza el modelo indicado por el centro e identifica código y denominación de cada módulo. Aporta la certificación académica y los justificantes exigidos para los estudios alegados. Para estudios universitarios puede ser necesario aportar programas sellados: revisa la lista específica de TodoFP antes de presentar.",
+          "Pregunta si lo que corresponde es convalidación o traslado de calificación de un módulo idéntico. No son intercambiables y no basta con que dos asignaturas tengan nombres parecidos."
+        ]
       },
       {
-        id: "beca",
-        title: "Convalidaciones y beca: la trampa",
-        paragraphs: [
-          "Los créditos o módulos convalidados computan de forma particular en los requisitos de rendimiento de la beca MEC: los reconocidos y transferidos no cuentan como matriculados a efectos de algunos umbrales. Si tu beca depende del número de créditos, revisa la guía de requisitos para no devolver la beca antes de decidir cuánto te convalidas.",
-        ],
+        "id": "resolucion",
+        "title": "Asistencia y resultado de la solicitud",
+        "paragraphs": [
+          "La dirección del centro resuelve determinadas correspondencias; otros supuestos se remiten al Ministerio. Hasta recibir el resultado, no des el módulo por superado. Las orientaciones de Madrid mantienen la asistencia a las actividades obligatorias mientras no se notifique resolución favorable o se efectúe el traslado de calificación.",
+          "Conserva la resolución y comprueba su incorporación al expediente. Si es desfavorable, revisa el recurso y el plazo que indique. La solicitud presentada no equivale a una convalidación concedida."
+        ]
       },
+      {
+        "id": "beca",
+        "title": "Comprobar los efectos en tu matrícula y beca",
+        "paragraphs": [
+          "Antes de reorganizar tu matrícula, consulta a secretaría qué módulos quedan pendientes y a la unidad de becas cómo se aplica la convocatoria a tu carga lectiva. No deduzcas que toda convalidación reduce la formación en empresa o conserva automáticamente el mismo importe de beca."
+        ]
+      }
     ],
+    "related": [
+      {
+        "href": "/fp/matricula-fp-en-septiembre",
+        "label": "Matrícula de FP en septiembre"
+      },
+      {
+        "href": "/fp/cambiar-de-instituto-a-mitad-de-curso",
+        "label": "Traslado de matrícula"
+      },
+      {
+        "href": "/becas/mec",
+        "label": "Requisitos de la beca general"
+      }
+    ]
   },
 ];

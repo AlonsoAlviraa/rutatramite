@@ -11,7 +11,7 @@ export const metadata: Metadata = pageMetadata({
   description: pilar.description,
   path: "/empadronarse",
   type: "article",
-  modified: "2026-09-03",
+  modified: pilar.editedAt,
 });
 
 export default function PilarPage() {

@@ -1,9 +1,9 @@
 {
-  "archive": "C:\\Users\\Mariano\\AppData\\Local\\Temp\\rutatramite-source-5w31jzoq\\source.tar.gz",
-  "sha256": "67e5aa1bfa3c15b75e8bdef7c961fb10691c9f233580854c74b8f600e5c37e1e",
-  "bytes": 829121,
+  "archive": "/tmp/rutatramite-source-l7206pr2/source.tar.gz",
+  "sha256": "69fd6878a1a01bb4846a4c08330df817bacdd187b7924a2296629537dd5d4f58",
+  "bytes": 16839156,
   "source_inputs": {
-    "files": 925,
-    "sha256": "a70eccfb2b3554f2016573af7a9b3bc95343eefd24cb0ecde35f6069ffe428ea"
+    "files": 1239,
+    "sha256": "12eeffa36148e62ee2deaf9deaf67071fd24de282abd0cbc5d696512113aa956"
   }
 }

@@ -12,10 +12,16 @@ const PACK_LABEL: Record<GuidePack, string> = {
   extranjeria: "Extranjería",
   colegio: "Colegio",
   comedor: "Comedor",
+  transporte: "Transporte",
   fp: "Formación Profesional",
   bebe: "Bebé",
   becas: "Becas",
+  alquiler: "Ayudas al alquiler",
+  elecciones: "Elecciones 29 de noviembre de 2026",
+  "ayudas-gobierno": "Ayudas según cada gobierno",
+  "promesas-29n": "Promesas del 29-N",
   modelos: "Modelos y cartas",
+  trabajo: "Trabajo y prestaciones",
 };
 
 export function normalizeSearch(s: string): string {
@@ -80,6 +86,7 @@ export function allSearchEntries(): SearchHit[] {
   for (const hit of [
     { title: "Guías de trámites en España", href: "/", category: "Inicio" },
     { title: "Empadronarse en España", href: "/empadronarse", category: "Padrón" },
+    { title: "Ayudas y plazos", href: "/ayudas", category: "Ayudas" },
     ...packHubEntries(),
     ...escenarioSearchEntries(),
     ...guideSearchEntries(),

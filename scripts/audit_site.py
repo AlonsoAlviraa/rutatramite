@@ -109,6 +109,8 @@ def main():
     report = {'generated':datetime.now(timezone.utc).isoformat(), 'base':base, 'sitemap_count':len(urls), 'duplicate_sitemap_urls':len(urls)-len(set(urls)), 'pages':pages, 'linked_pages_outside_sitemap':extra, 'duplicate_titles':{k:v for k,v in titles.items() if v>1}, 'duplicate_descriptions':{k:v for k,v in descriptions.items() if v>1}, 'issue_counts':dict(Counter(i for p in pages for i in p['issues'])), 'broken_link_targets':[p for p in extra if p['status'] != 200]}
     Path(args.output).write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps({k:v for k,v in report.items() if k not in ['pages','linked_pages_outside_sitemap']}, ensure_ascii=False))
+    if report['duplicate_sitemap_urls'] or report['issue_counts'] or report['broken_link_targets'] or report['duplicate_titles'] or report['duplicate_descriptions']:
+        raise SystemExit(1)
 
 
 if __name__ == '__main__': main()

@@ -6,7 +6,6 @@
 import {
   BECAS_URL,
   DISCLAIMER_GENERICO,
-  MEC_MODIFICACION_VENTANA,
   MEC_PLAZO_2627,
   MEC_RESIDENCIA_EUR,
   MUFACE_HASTA,
@@ -16,24 +15,29 @@ import type { Guide } from "@/lib/tramites/types";
 export const BECAS_NICHOS2_GUIDES: Guide[] = [
   {
     id: "mecaRequisitosRentaNota",
-    reviewedAt: "2026-09-07",
-    sources: [{ label: "Ministerio de Educación: requisitos de grado y máster", href: "https://www.becaseducacion.gob.es/becas-y-ayudas/universidad-grado-master/que-necesitas.html" }],
+    reviewedAt: "2026-09-16",
+    sources: [{ label: "BOE: umbrales y cuantías 2026-27", href: "https://www.boe.es/buscar/act.php?id=BOE-A-2026-5713" }, { label: "Convocatoria general 2026-27: artículos 48 y 68 (PDF)", href: "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894743/document/1422191" }, { label: "Ministerio de Educación: requisitos de grado y máster", href: "https://www.becaseducacion.gob.es/becas-y-ayudas/universidad-grado-master/que-necesitas.html" }],
     pack: "becas",
     path: "/becas/mec/requisitos",
     h1: "Requisitos de la beca MEC 2026-27: renta, patrimonio y nota",
     title: "Requisitos beca MEC 2026-27: renta, patrimonio y nota",
     description:
       "Requisitos de la beca MEC 2026-27: renta, patrimonio y rendimiento académico según tus estudios. Consulta el requisito que corresponde a tu curso.",
-    lead: `La beca MEC 2026-27 se pidió del ${MEC_PLAZO_2627} y pasa por tres filtros: la renta de la unidad familiar, el patrimonio y el rendimiento académico. Aquí va cada uno explicado como concepto, sin cifras sueltas que caducan cada curso: los umbrales exactos están en la convocatoria y ahí hay que confirmarlos siempre.`,
+    lead: `Para la beca general del Ministerio 2026-27 debes cumplir requisitos generales, económicos y académicos. Renta y patrimonio se comprueban por separado, pero no son los únicos filtros: también importan tu situación personal, las titulaciones previas y los estudios. El plazo ordinario fue del ${MEC_PLAZO_2627}; la guía de plazos explica los supuestos excepcionales.`,
     cta: { href: BECAS_URL, label: "Ver la convocatoria en el portal oficial" },
     related: [
-      { href: "/becas/mec", label: "Beca MEC: guía completa" },
+      { href: "/becas/mec", label: "Beca MEC: convocatoria y administración competente" },
+      { href: "/becas/mec/plazo", label: "Plazo ordinario y solicitudes excepcionales" },
+      { href: "/becas/fp", label: "Requisitos para FP" },
+      { href: "/becas/mec/bachillerato", label: "Requisitos para Bachillerato" },
       { href: "/becas/mec/denegada/por-patrimonio", label: "Beca denegada por patrimonio: qué hacer" },
       { href: "/becas/mec/no-devolver", label: "No devolver la beca: los créditos que debes superar" },
       { href: "/becas/mec/cuando-se-cobra", label: "Cuándo se cobra la beca MEC" },
+      { href: "/alquiler", label: "Ayudas al alquiler por comunidad" },
     ],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
+      { id: "generales", title: "Requisitos personales y convocatoria aplicable", paragraphs: ["Comprueba nacionalidad y, cuando corresponda, residencia. La información ministerial distingue la ciudadanía de la UE, la residencia permanente o el trabajo para acceder a todos los componentes universitarios, y los supuestos de personas no comunitarias. Para estas últimas señala minoría de edad o permiso de residencia a 31 de diciembre de 2025; una autorización de estancia por sí sola no basta.", "También se exige no tener un título de nivel igual o superior al de los estudios para los que solicitas beca, con las excepciones que prevea la convocatoria. Comprueba la administración competente: el artículo 68 distingue Cataluña y País Vasco. Los ejemplos académicos siguientes son de grado y máster; FP y Bachillerato tienen sus propias reglas."] },
       {
         id: "renta",
         title: "Renta: umbrales por tramos según los miembros de la unidad familiar",
@@ -53,7 +57,7 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
         title: "Requisitos académicos: dependen de los estudios y del curso",
         paragraphs: [
           "No existe un mínimo general de 6,5 para acceder a la cuantía variable. En primero de grado se exige un 5 en la nota de acceso; en cursos posteriores se aplican porcentajes de créditos aprobados según la rama. Los másteres tienen requisitos propios.",
-          "La matrícula completa suele ser de 60 créditos; desde 30 puede haber beca limitada. Consulta las excepciones por últimos créditos, doble grado y otras situaciones particulares.",
+          "En grado y máster, la referencia general de matrícula completa es de 60 créditos; desde 30 puede haber beca limitada. Para 2026-27, una matrícula presencial de 48 a 59 créditos puede dar acceso además a 350 euros de renta y 350 de residencia, si se cumplen los requisitos de cada componente y los umbrales correspondientes. Consulta las excepciones por últimos créditos, doble grado y otras situaciones particulares.",
         ],
       },
       {
@@ -63,7 +67,7 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
         lists: [
           [
             "¿Cuántos miembros computan en tu unidad familiar? El umbral de renta depende de ese número, no de una cifra fija de internet.",
-            "¿Vivienda habitual fuera del patrimonio? Sí: no sumes la casa en la que resides de forma permanente.",
+            "¿Se ha excluido correctamente la vivienda habitual en el cálculo patrimonial? Comprueba qué inmuebles y valores corresponden a la unidad familiar; no confundas esa exclusión con descontar cualquier alojamiento durante el curso.",
             "¿Has comprobado los requisitos académicos de tus estudios y curso en la convocatoria?",
             "¿60 créditos matriculados? Con 30-59 hay limitaciones: revisa qué componentes conservas según la convocatoria.",
           ],
@@ -73,8 +77,8 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
   },
   {
     id: "mecaBachilleratoNotaRenovacion",
-    reviewedAt: "2026-09-07",
-    sources: [{ label: "Ministerio: requisitos académicos de Bachillerato", href: "https://www.becaseducacion.gob.es/becas-y-ayudas/fp-bachillerato-otros/que-necesitas.html" }],
+    reviewedAt: "2026-09-16",
+    sources: [{ label: "Convocatoria 2026-27: artículos 7, 48 y 68 (PDF)", href: "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894743/document/1422191" }, { label: "Ministerio: requisitos académicos de Bachillerato", href: "https://www.becaseducacion.gob.es/becas-y-ayudas/fp-bachillerato-otros/que-necesitas.html" }],
     pack: "becas",
     path: "/becas/mec/bachillerato",
     h1: "Beca MEC para Bachillerato: qué nota necesitas en cada curso",
@@ -84,10 +88,12 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
     lead: "Para primero de Bachillerato se exige una media mínima de 5 en los estudios de acceso indicados por el Ministerio. Para segundo, haber aprobado todas las asignaturas del curso anterior salvo una; si repetiste, debes aprobarlas todas. También hay requisitos de matrícula, no repetición, renta y patrimonio.",
     cta: { href: BECAS_URL, label: "Portal oficial de becas" },
     related: [
+      { href: "/becas/mec/plazo", label: "Plazo ordinario y supuestos excepcionales" },
       { href: "/becas/fp", label: "Beca MEC para FP: requisitos, plazos y cobro" },
       { href: "/becas/mec/requisitos", label: "Requisitos de la beca MEC: renta y nota" },
       { href: "/becas/mec", label: "Beca MEC: guía completa" },
       { href: "/becas/mec/cuando-se-cobra", label: "Cuándo se cobra la beca MEC" },
+      { href: "/alquiler", label: "Ayudas al alquiler por comunidad" },
     ],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
@@ -117,15 +123,16 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
         id: "practico",
         title: "Cuestión práctica: plazos y dónde se pide",
         paragraphs: [
-          `El plazo de solicitud 2026-27 fue del ${MEC_PLAZO_2627} y está cerrado. Si ya solicitaste la beca, revisa tu expediente y sus notificaciones. Las guías de plazos y cobro explican los siguientes pasos sin garantizar una fecha de ingreso.`,
+          `El plazo ordinario del Ministerio para 2026-27 fue del ${MEC_PLAZO_2627} y está cerrado. Si ya solicitaste la beca, revisa tu expediente y sus notificaciones. El artículo 48.2 contempla solicitudes excepcionales hasta el 31 de diciembre por fallecimiento del sustentador principal o determinada jubilación forzosa posteriores al plazo ordinario; la guía de plazos detalla condiciones y canal.`,
+          "Esta guía describe la convocatoria del Ministerio. Para 2026-27, el domicilio familiar de los sustentadores principales a 31 de diciembre de 2025 determina el ámbito de Cataluña; para enseñanzas no universitarias, el artículo 68 excluye de esta convocatoria los estudios en centros del País Vasco. Comprueba la administración competente y sus propios plazos antes de elegir el formulario.",
         ],
       },
     ],
   },
   {
     id: "mecaFpRequisitosPlazosCobro",
-    reviewedAt: "2026-09-07",
-    sources: [
+    reviewedAt: "2026-09-16",
+    sources: [{ label: "Convocatoria 2026-27: artículos 7, 48 y 68 (PDF)", href: "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894743/document/1422191" },
       { label: "Ministerio: requisitos para FP y otros estudios", href: "https://www.becaseducacion.gob.es/becas-y-ayudas/fp-bachillerato-otros/que-necesitas.html" },
       { label: "Ministerio: cuantías no universitarias", href: "https://www.becaseducacion.gob.es/becas-y-ayudas/fp-bachillerato-otros/tipos-de-becas.html" },
       { label: "Ministerio: dudas sobre el cobro", href: "https://www.becaseducacion.gob.es/dudas/faqs.html" },
@@ -136,20 +143,23 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
     title: "Beca MEC para FP: requisitos, plazos y cobro",
     description:
       "Beca MEC para FP: diferencias entre grado medio y superior, matrícula, rendimiento académico, convocatoria 2026-27 y consulta del cobro.",
-    lead: `La beca general incluye estudios de FP. El plazo de solicitud 2026-27 fue del ${MEC_PLAZO_2627} y está cerrado. Los requisitos académicos dependen del nivel del ciclo y del curso; las ayudas autonómicas tienen sus propias bases.`,
+    lead: `La beca general incluye estudios de FP. El plazo ordinario del Ministerio para 2026-27 fue del ${MEC_PLAZO_2627} y está cerrado; existen los supuestos excepcionales del artículo 48.2. Los requisitos académicos dependen del nivel del ciclo y del curso; las ayudas autonómicas tienen sus propias bases.`,
     cta: { href: BECAS_URL, label: "Portal oficial de becas" },
     related: [
+      { href: "/becas/mec/plazo", label: "Plazos y solicitudes excepcionales" },
       { href: "/fp/matricula-fp-en-septiembre", label: "Matrícula de FP en septiembre" },
       { href: "/becas/mec/requisitos", label: "Requisitos de la beca MEC" },
       { href: "/becas/mec/cuando-se-cobra", label: "Cuándo se cobra la beca MEC" },
+      { href: "/alquiler", label: "Ayudas al alquiler por comunidad" },
     ],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
       {
         id: "estatal-vs-autonomica",
-        title: "Beca MEC y becas autonómicas de FP: dos cosas distintas",
+        title: "Identificar la convocatoria que corresponde a tu FP",
         paragraphs: [
           "La beca general para FP utiliza los componentes de las enseñanzas no universitarias. No debe confundirse con la beca de matrícula universitaria. Las cantidades que correspondan dependen de la convocatoria y de tu situación.",
+          "Esta guía describe la convocatoria del Ministerio. Para 2026-27, el domicilio familiar de los sustentadores principales a 31 de diciembre de 2025 determina el ámbito de Cataluña; para enseñanzas no universitarias, el artículo 68 excluye de esta convocatoria los estudios en centros del País Vasco. Comprueba la administración competente y sus propios plazos antes de elegir el formulario.",
           "Antes de solicitar otra ayuda, comprueba que incluya tu ciclo y revisa su régimen de compatibilidad. Una convocatoria autonómica para grados universitarios no sirve como referencia de una beca para FP.",
         ],
       },
@@ -163,15 +173,16 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
       },
       {
         id: "plazos",
-        title: "Plazos: el calendario estatal es el que manda",
+        title: "Plazo ordinario y supuestos excepcionales",
         paragraphs: [
-          `La solicitud de la convocatoria general 2026-27 se presentó del ${MEC_PLAZO_2627}. Si la solicitaste, revisa el expediente y las notificaciones para conocer los pasos pendientes. Las fechas de la convocatoria 2027-28 deben confirmarse cuando se publiquen; no se pueden deducir del calendario anterior.`,
+          `La solicitud ordinaria de la convocatoria general del Ministerio 2026-27 se presentó del ${MEC_PLAZO_2627}. Si la solicitaste, revisa el expediente y las notificaciones para conocer los pasos pendientes. Las fechas de la convocatoria 2027-28 deben confirmarse cuando se publiquen; no se pueden deducir del calendario anterior.`,
+          "El artículo 48.2 permite solicitudes excepcionales hasta el 31 de diciembre de 2026 por fallecimiento del sustentador principal o jubilación forzosa distinta de la producida por edad reglamentaria, ocurridos después del plazo ordinario. La guía de plazos explica cómo acreditar la situación y dirigirse a la administración o universidad competente. La adjudicación tardía de una plaza de FP no es por sí sola uno de estos supuestos.",
           "La matrícula de FP se mueve en septiembre por la propia adjudicación de plazas: si cambiaste de ciclo o te matriculaste tarde, la guía de matrícula de FP en septiembre explica cómo reflejarlo para que la beca se evalúe con tu matrícula real.",
         ],
       },
       {
         id: "cobro",
-        title: "El cobro: mismo canal que la beca universitaria",
+        title: "Comprobar la concesión y los pagos",
         paragraphs: [
           "Consulta la notificación para saber qué cantidades te han concedido y compara los ingresos con ella. No hay una fecha de cobro garantizada en esta guía. Si el ingreso sigue pendiente, contacta con tu Unidad de Becas. La guía de cobro explica la orientación temporal publicada por el Ministerio y cómo revisar una incidencia.",
         ],
@@ -179,167 +190,236 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
     ],
   },
   {
-    id: "mecaNoDevolverCreditos",
-    pack: "becas",
-    path: "/becas/mec/no-devolver",
-    h1: "Requisitos para no devolver la beca MEC: créditos y normas",
-    title: "No devolver la beca MEC: créditos y normas",
-    description:
-      "La beca MEC se devuelve si no superas el 50% de los créditos matriculados (40% en enseñanzas técnicas), computando la convocatoria extraordinaria. La excepción de la matrícula y el reintegro con intereses del RD 1721/2007.",
-    lead: "Como regla general de la convocatoria, para no devolver la beca MEC debes superar al menos el 50% de los créditos matriculados (el 40% en las enseñanzas técnicas que la convocatoria incluye), contando la convocatoria extraordinaria. Si solo falla el porcentaje, la partida de matrícula puede quedar excluida del reintegro, aunque sí se reclame el resto. Anular la matrícula o causar baja puede activar un reintegro íntegro: revisa la resolución y el régimen aplicable a tu estudio.",
-    cta: { href: BECAS_URL, label: "Sede electrónica de becas" },
-    related: [
-      { href: "/becas/mec/renuncia", label: "Renunciar a la beca MEC: cómo y consecuencias" },
-      { href: "/becas/mec/cambio-estudios", label: "Cambiar de carrera con beca MEC" },
-      { href: "/becas/mec", label: "Beca MEC: guía completa" },
-      { href: "/becas/mec/cuando-se-cobra", label: "Cuándo se cobra la beca MEC" },
+    "id": "mecaNoDevolverCreditos",
+    "pack": "becas",
+    "path": "/becas/mec/no-devolver",
+    "h1": "Devolver la beca MEC: créditos y causas de reintegro",
+    "title": "Devolver la beca MEC: créditos y causas de reintegro",
+    "description": "Beca general 2026-27: regla universitaria del 50%, excepción del 40% en Ciencias y enseñanzas técnicas, matrícula y otras causas de devolución.",
+    "lead": "Para estudiantes universitarios, el artículo 43 de la convocatoria general 2026-27 exige superar al menos el 50% de los créditos computables; el mínimo es del 40% en las ramas de Ciencias y enseñanzas técnicas. Cuenta la convocatoria ordinaria o extraordinaria. Esta regla de reintegro no sustituye los requisitos para obtener beca el curso siguiente.",
+    "reviewedAt": "2026-09-16",
+    "sources": [
+      {
+        "href": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894743/document/1422191",
+        "label": "Convocatoria 2026-27: artículos 14 y 43-45 (PDF)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20977#a37",
+        "label": "BOE: causas de reintegro e intereses"
+      }
     ],
-    disclaimer: DISCLAIMER_GENERICO,
-    sections: [
+    "cta": {
+      "href": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894743/document/1422191",
+      "label": "Consultar la convocatoria y el reintegro (PDF)"
+    },
+    "related": [
       {
-        id: "regla",
-        title: "La regla del 50% (40% en enseñanzas técnicas)",
-        paragraphs: [
-          "La beca MEC está condicionada a que superes al menos el 50% de los créditos matriculados. Si te matriculaste de 60 y superaste 31, cumples; con 29, no. En las enseñanzas técnicas que la convocatoria lista expresamente el listón baja al 40%, precisamente porque el rendimiento reconocido en esas titulaciones es menor.",
-          "El cómputo no se cierra en junio: la convocatoria extraordinaria de la universidad computa. Si en junio vas justo de créditos, las asignaturas de julio o septiembre pueden salvarte el porcentaje y evitar el reintegro. Es una razón de peso para presentarse en vez de dar el curso por perdido.",
-        ],
+        "href": "/becas/mec/renuncia",
+        "label": "Desistir o renunciar y solicitar carta de pago"
       },
       {
-        id: "excepcion",
-        title: "Cuando falla el porcentaje: cómo se trata la matrícula",
-        paragraphs: [
-          "Si el único requisito que fallas es el porcentaje de créditos superados (el de rendimiento, no los económicos ni los de matrícula mínima), la convocatoria distingue lo que devuelves: no se devuelve la partida de matrícula, el importe que el Ministerio pagó a la universidad por tus asignaturas, pero sí el resto de cuantías percibidas, la fija y las variables.",
-          "Traducción práctica: suspender la mitad del curso puede costarte las cuantías en metálico, pero no te deja debiendo la matrícula. Eso sí, si además fallan otros requisitos, la devolución alcanza a todo lo percibido, matrícula incluida.",
-        ],
+        "href": "/becas/mec/cambio-estudios",
+        "label": "Cambiar de grado"
       },
       {
-        id: "anulacion",
-        title: "Anular la matrícula o causar baja: devolución íntegra",
-        paragraphs: [
-          "El escenario contrario: si anulas la matrícula o causas baja en los estudios, la beca se pierde íntegramente y procede devolver todo lo cobrado más lo que el Ministerio pagó en tu nombre. Aquí no hay excepción de matrícula, porque desaparece la condición que sostenía la beca: estar matriculado.",
-          "Comunica la baja a tu Unidad de Becas. Renunciar no elimina la obligación de devolver cantidades que resulten indebidamente percibidas. Solicita las instrucciones oficiales de devolución y conserva los justificantes.",
-        ],
-      },
-      {
-        id: "reintegro",
-        title: "Cómo te reclaman el dinero: intereses incluidos",
-        paragraphs: [
-          "El reintegro se rige por el RD 1721/2007, que regula el régimen de becas: la Administración notifica la propuesta de devolución, hay un plazo de alegaciones y, si se confirma, se paga con intereses de demora desde el cobro. No es una multa, pero el recargo por el tiempo transcurrido es real. Si te llega un requerimiento, no lo ignores: contesta en plazo y, si el motivo es el porcentaje de créditos, revisa si te aplica la excepción de la matrícula.",
-        ],
-      },
+        "href": "/becas/mec/requisitos",
+        "label": "Requisitos para obtener beca"
+      }
     ],
+    "disclaimer": DISCLAIMER_GENERICO,
+    "sections": [
+      {
+        "id": "creditos",
+        "title": "Cómo se calcula el rendimiento universitario",
+        "paragraphs": [
+          "Para este porcentaje se excluyen los créditos convalidados, reconocidos o adaptados. Confirma con tu universidad qué créditos entran en el cálculo de tu expediente; si has realizado movilidad, consulta cómo consta su matrícula y reconocimiento.",
+          "Si no llegas al porcentaje exigido, el artículo 43 prevé devolver los componentes de la beca salvo el de matrícula. Alcanzar exactamente el 50%, o el 40% cuando corresponda, satisface este criterio; no es necesario superarlo. Cumplirlo no elimina otras posibles causas de reintegro."
+        ]
+      },
+      {
+        "id": "otras",
+        "title": "Otros estudios y supuestos",
+        "paragraphs": [
+          "Anular la matrícula o abandonar de hecho los estudios constituye otra causa de incumplimiento de la finalidad de la beca. La excepción de matrícula vinculada al porcentaje no se extiende automáticamente a cualquier causa.",
+          "Para estudios no universitarios hay reglas propias: asistencia, superación de asignaturas u horas y, en determinados cursos de acceso o idiomas, superación del curso completo. Las enseñanzas artísticas superiores tienen una excepción de matrícula para el incumplimiento del porcentaje. Consulta el apartado correspondiente del artículo 43.",
+          "Existen regímenes especiales. El artículo 14 exime del porcentaje de superación a las personas incluidas en sus supuestos de violencia de género o sexual, con los requisitos que detalla. No apliques una regla general sin comprobar si tu caso tiene una excepción."
+        ]
+      },
+      {
+        "id": "procedimiento",
+        "title": "Si recibes una reclamación de devolución",
+        "paragraphs": [
+          "Abre la notificación, identifica curso, motivo, componentes e importe y responde en el plazo indicado con las pruebas pertinentes. El expediente puede concluir con reintegro parcial o total o con archivo si se acredita que la beca era procedente.",
+          "La convocatoria contempla intereses de demora cuando procedan; no son una cantidad fija ni un porcentaje que esta guía pueda calcular sin el expediente. Consulta la resolución y la carta de pago."
+        ]
+      },
+      {
+        "id": "voluntaria",
+        "title": "Devolución voluntaria",
+        "paragraphs": [
+          "Para devolver voluntariamente, el artículo 45.3 indica solicitar la carta de pago de ingresos no tributarios a la administración educativa o universidad correspondiente. No hagas una transferencia a una cuenta deducida de internet. Conserva la carta y el justificante y verifica que el ingreso se vincule a tu expediente."
+        ]
+      }
+    ]
   },
   {
-    id: "mecaCambioEstudiosReglas",
-    pack: "becas",
-    path: "/becas/mec/cambio-estudios",
-    h1: "Cambiar de carrera con beca MEC: qué pasa con tu beca",
-    title: "Cambiar de carrera con beca MEC: qué pasa",
-    description:
-      "Cambias de titulación y ya pediste la beca: cuántos créditos debes matricular según lo superado, la ventana de modificación de septiembre y por qué no es lo mismo no matricularse que abandonar.",
-    lead: `Cambiar de estudios con la beca MEC solicitada tiene tres piezas: actualizar la solicitud en la ventana de septiembre (del ${MEC_MODIFICACION_VENTANA}), matricular los créditos que la convocatoria exige según lo que ya hayas superado, y saber que no es lo mismo pedir la beca y no matricularse (te la deniegan sin más) que matricularse y abandonar (la devuelves).`,
-    cta: { href: BECAS_URL, label: "Modificar tu solicitud (sede oficial)" },
-    related: [
-      { href: "/becas/mec/modificar-datos", label: "Modificar datos de la beca MEC (septiembre)" },
-      { href: "/becas/mec/no-devolver", label: "No devolver la beca MEC: créditos y normas" },
-      { href: "/becas/mec/renuncia", label: "Renunciar a la beca MEC" },
-      { href: "/becas/mec", label: "Beca MEC: guía completa" },
+    "id": "mecaCambioEstudiosReglas",
+    "pack": "becas",
+    "path": "/becas/mec/cambio-estudios",
+    "h1": "Cambiar de carrera con beca MEC: matrícula y solicitud",
+    "title": "Cambiar de carrera con beca MEC: matrícula y solicitud",
+    "description": "Cambio de grado y beca MEC 2026-27: distingue estudios anteriores con o sin beca, créditos computables y actualización de datos académicos.",
+    "lead": "Si cambias de grado, comprueba si recibiste beca en los estudios que dejas. La convocatoria 2026-27 establece reglas distintas para estudios cursados con beca y sin ella. La comparación no depende de haber aprobado el 50% o el 75%, ni exige matricular de golpe todos los créditos que queden para terminar la nueva carrera.",
+    "reviewedAt": "2026-09-16",
+    "sources": [
+      {
+        "href": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894743/document/1422191",
+        "label": "Convocatoria 2026-27: artículos 21 y 25 (PDF)"
+      },
+      {
+        "href": "https://www.becaseducacion.gob.es/dudas/asi-de-facil.html",
+        "label": "Ministerio: fases y actualización de datos académicos"
+      }
     ],
-    disclaimer: DISCLAIMER_GENERICO,
-    sections: [
+    "cta": {
+      "href": "https://www.becaseducacion.gob.es/dudas/asi-de-facil.html",
+      "label": "Consultar cuándo actualizar los datos"
+    },
+    "related": [
       {
-        id: "creditos",
-        title: "Cuántos créditos debes matricular al cambiar",
-        paragraphs: [
-          "La convocatoria no te deja cambiarte y matricular el mínimo: añade carga lectiva en función de tu expediente anterior. Con entre el 50% y el 75% de los créditos superados en los estudios que dejas, al matricularte en la nueva titulación debes matricular los créditos que te falten para terminarla más entre 30 y 59 créditos adicionales; con más del 75% superado, los que te falten más 60.",
-          "La lógica es evitar que quien ya lleva recorrido use el cambio para matricularse de cuatro asignaturas y cobrar la beca completa. Confirma la tabla exacta en la convocatoria vigente, porque el reparto dentro de la horquilla depende de cómo se reconozcan tus créditos en el plan nuevo.",
-        ],
+        "href": "/becas/mec/modificar-datos",
+        "label": "Modificar la solicitud"
       },
       {
-        id: "ventana-septiembre",
-        title: "La ventana de septiembre: actualiza la solicitud",
-        paragraphs: [
-          `Los cambios de universidad y titulación se reflejan en la solicitud en el plazo de modificación de datos: del ${MEC_MODIFICACION_VENTANA}, en la sede electrónica del Ministerio. Es un trámite gratuito, sin gestores, y es tu responsabilidad que la solicitud recoja la matrícula real: la evaluación se hace con los datos definitivos, no con los de abril.`,
-        ],
+        "href": "/becas/mec/no-devolver",
+        "label": "Causas de reintegro"
       },
       {
-        id: "pedir-y-no-matricularse",
-        title: "Pedir la beca y no matricularse: denegación sin castigo",
-        paragraphs: [
-          "Escenario frecuente en septiembre: pediste la beca en abril y al final no te matriculas, o no te dan plaza. La consecuencia es una denegación, no una devolución: como nunca hubo matrícula ni cobro, no hay nada que reintegrar, y no conlleva penalización en convocatorias futuras. La beca se vuelve a pedir el año que vuelvas a matricularte, sin marca negativa en tu expediente de solicitante.",
-        ],
-      },
-      {
-        id: "abandonar",
-        title: "Matricularse y abandonar: aquí sí hay devolución",
-        paragraphs: [
-          "Lo contrario es abandonar después de matricularte y cobrar: ahí la beca se pierde y procede el reintegro, porque la condición de rendimiento (superar el porcentaje de créditos) se rompe con la baja. La guía de requisitos para no devolver la beca desgrana el porcentaje exigido, la excepción de la matrícula y el procedimiento del RD 1721/2007.",
-        ],
-      },
+        "href": "/becas/mec/renuncia",
+        "label": "Desistimiento y renuncia"
+      }
     ],
+    "disclaimer": DISCLAIMER_GENERICO,
+    "sections": [
+      {
+        "id": "con-beca",
+        "title": "Si cursaste los estudios anteriores con beca",
+        "paragraphs": [
+          "El artículo 25.7 exige haber quedado matriculado en los nuevos estudios de al menos 30 créditos más que los cursados con beca en los estudios abandonados. Para esa comparación se cuentan todos los créditos matriculados durante los cursos becados de la titulación anterior, no solo los aprobados.",
+          "Si los créditos adicionales están entre 30 y 59, se considera matrícula parcial; desde 60, completa. A estos exclusivos efectos se incluyen los créditos convalidados, reconocidos y adaptados. No traslades esta inclusión especial a cualquier otro cálculo de beca.",
+          "Pide a la Unidad de Becas que contraste tu historial de cursos becados, matrícula y reconocimientos antes de decidir la matrícula nueva. Esta regla no concede beca por sí sola: también se aplican los demás requisitos y las excepciones previstas en la convocatoria."
+        ]
+      },
+      {
+        "id": "sin-beca",
+        "title": "Si no recibiste beca en los estudios anteriores",
+        "paragraphs": [
+          "El artículo 25.8 remite al rendimiento académico que habrías tenido que obtener en el último curso de los estudios abandonados. No lo sustituye por la regla de créditos adicionales de los cursos becados.",
+          "La adaptación a un nuevo plan de las mismas enseñanzas no se considera cambio de estudios a estos efectos. Para másteres y niveles no universitarios consulta sus apartados específicos; esta guía desarrolla el cambio de grado."
+        ]
+      },
+      {
+        "id": "datos",
+        "title": "Actualizar universidad y titulación en la solicitud",
+        "paragraphs": [
+          "El Ministerio publica del 7 al 28 de septiembre de 2026 como plazo para modificar datos académicos de la convocatoria 2026-27. Comprueba tu notificación y corrige los datos que hayan cambiado; actualizar la matrícula no sustituye los requisitos del cambio de estudios.",
+          "Guarda el justificante y consulta con tu Unidad de Becas si el cambio ocurre fuera de esa ventana o afecta a la unidad que debe tramitar el expediente. No supongas que otra administración ha actualizado automáticamente tu solicitud."
+        ]
+      },
+      {
+        "id": "baja",
+        "title": "No matricularse, abandonar y devolver son situaciones distintas",
+        "paragraphs": [
+          "Si finalmente no cursas los estudios, comunícalo. Si no se concedió ni abonó ayuda, no hay un importe cobrado que devolver; si hubo concesión o pago, consulta los efectos concretos. No se puede prometer ausencia de consecuencias sin comprobar el expediente.",
+          "Anular matrícula o abandonar después de obtener beca puede dar lugar a reintegro. Cambiar de carrera, renunciar y devolver cantidades tampoco borran automáticamente el historial de cursos becados."
+        ]
+      }
+    ]
   },
   {
-    id: "mecaRenunciaConsecuencias",
-    pack: "becas",
-    path: "/becas/mec/renuncia",
-    h1: "Renunciar a la beca MEC: cómo hacerlo y qué pasa después",
-    title: "Renunciar a la beca MEC: cómo y consecuencias",
-    description:
-      "Cómo comunicar el desistimiento o la renuncia a una beca MEC y consultar sus efectos. Renunciar no elimina una posible obligación de reintegro.",
-    lead: "Si no vas a continuar con la beca, comunícalo formalmente a tu Unidad de Becas. Desistir de una solicitud y renunciar a un derecho concedido son situaciones distintas. Ninguna permite conservar automáticamente cantidades que debas devolver.",
-    sources: [
-      { label: "BOE: desistimiento y renuncia, artículo 94", href: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a94" },
-      { label: "BOE: causas de reintegro, artículo 37", href: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20977#a37" },
+    "id": "mecaRenunciaConsecuencias",
+    "pack": "becas",
+    "path": "/becas/mec/renuncia",
+    "h1": "Renunciar a la beca MEC: escrito, devolución y efectos",
+    "title": "Renunciar a la beca MEC: escrito, devolución y efectos",
+    "description": "Distingue desistimiento de la solicitud y renuncia a la beca concedida. Cómo comunicarlo a tu Unidad de Becas y pedir carta de pago si procede devolver.",
+    "lead": "Desistir de una solicitud y renunciar a un derecho concedido son actuaciones distintas. Consulta con tu Unidad de Becas cómo presentar un escrito firmado que identifique tu expediente y lo que solicitas. Ninguna de las dos actuaciones permite conservar automáticamente cantidades que debas devolver.",
+    "reviewedAt": "2026-09-16",
+    "sources": [
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a94",
+        "label": "BOE: artículo 94, desistimiento y renuncia"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20977#a37",
+        "label": "BOE: artículo 37, causas de reintegro"
+      },
+      {
+        "href": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894743/document/1422191",
+        "label": "Convocatoria 2026-27: artículo 45, carta de pago (PDF)"
+      }
     ],
-    cta: { href: BECAS_URL, label: "Sede electrónica de becas" },
-    related: [
-      { href: "/becas/mec/no-devolver", label: "No devolver la beca MEC: créditos y normas" },
-      { href: "/becas/mec/cambio-estudios", label: "Cambiar de carrera con beca MEC" },
-      { href: "/becas/mec/cuando-se-cobra", label: "Cuándo se cobra la beca MEC" },
-      { href: "/becas/mec", label: "Beca MEC: guía completa" },
+    "cta": {
+      "href": "https://sede.educacion.gob.es/portada.html",
+      "label": "Consultar expediente y notificaciones en la sede"
+    },
+    "related": [
+      {
+        "href": "/becas/mec/no-devolver",
+        "label": "Causas de reintegro"
+      },
+      {
+        "href": "/becas/mec/cambio-estudios",
+        "label": "Cambiar de carrera"
+      },
+      {
+        "href": "/becas/mec/modificar-datos",
+        "label": "Corregir datos de la solicitud"
+      }
     ],
-    disclaimer: DISCLAIMER_GENERICO,
-    sections: [
+    "disclaimer": DISCLAIMER_GENERICO,
+    "sections": [
       {
-        id: "como",
-        title: "Cómo se renuncia",
-        paragraphs: [
-          "Identifica la Unidad de Becas que figura en tu expediente y consulta el canal para presentar un escrito firmado. Indica la convocatoria, el expediente y qué solicitas. Conserva el justificante de presentación y la respuesta.",
-          "El artículo 94 de la Ley 39/2015 regula el desistimiento de la solicitud y la renuncia a derechos cuando el ordenamiento lo permita. Una consulta informativa no sustituye la presentación formal.",
-        ],
+        "id": "escrito",
+        "title": "Qué comunicar y dónde",
+        "paragraphs": [
+          "Identifica la Unidad de Becas que figura en tu expediente y confirma el canal de presentación. Indica convocatoria, curso, número de expediente, identidad y si desistes de la solicitud o renuncias a una beca concedida. Firma, guarda el justificante y comprueba la respuesta.",
+          "El artículo 94 de la Ley 39/2015 permite desistir de la solicitud y renunciar a derechos cuando el ordenamiento no lo prohíba. Una consulta informativa o dejar de revisar el expediente no sustituye esa actuación formal."
+        ]
       },
       {
-        id: "motivos",
-        title: "Motivos típicos: anulación de matrícula e incompatibilidad",
-        paragraphs: [
-          "Si anulas la matrícula o recibes otra ayuda, comunica el cambio y consulta sus consecuencias. La compatibilidad depende de las bases de ambas ayudas. Para corregir un dato, consulta el procedimiento de modificación o subsanación antes de renunciar.",
-        ],
+        "id": "motivo",
+        "title": "Antes de renunciar por un cambio",
+        "paragraphs": [
+          "Si solo necesitas corregir estudios, cuenta bancaria u otro dato, consulta primero modificación o subsanación. Si has recibido otra ayuda, revisa la compatibilidad con ambas administraciones. Anular matrícula y renunciar a la beca son trámites diferentes."
+        ]
       },
       {
-        id: "timing",
-        title: "Si ya has cobrado",
-        paragraphs: [
-          "Renunciar no borra una obligación de reintegro ni limita la devolución a lo que hayas gastado. El incumplimiento puede exigir devolver cantidades con intereses. Pide a la Unidad de Becas el importe y el procedimiento aplicables; no hagas una transferencia sin instrucciones oficiales.",
-        ],
+        "id": "cobro",
+        "title": "Si ya has cobrado",
+        "paragraphs": [
+          "Comunica qué importes has recibido y pide que se determine si procede devolución. No depende de cuánto dinero hayas gastado. El incumplimiento puede exigir reintegrar cantidades e intereses conforme al expediente.",
+          "Para una devolución voluntaria, el artículo 45.3 de la convocatoria 2026-27 exige solicitar a la administración educativa o universidad la carta de pago de ingresos no tributarios. Utiliza sus instrucciones y conserva el justificante; no realices una transferencia sin esa referencia oficial."
+        ]
       },
       {
-        id: "futuras",
-        title: "¿Penaliza en convocatorias futuras? Lo que sabemos (y lo que no)",
-        paragraphs: [
-          "Consulta cómo queda registrado el curso y si existen cantidades pendientes de devolución. La siguiente solicitud se valorará con sus propias bases y con tu historial académico y de becas. Pide una respuesta referida a tu expediente antes de dar por hecho que no tendrá efectos.",
-        ],
-      },
-    ],
+        "id": "futuro",
+        "title": "Consecuencias para otra convocatoria",
+        "paragraphs": [
+          "Consulta cómo queda registrado el curso y si hay cantidades pendientes. La siguiente solicitud se evalúa con sus bases y tu historial académico y de becas. Renunciar o devolver no garantiza que un curso anteriormente becado deje de contar para límites de duración o cambio de estudios."
+        ]
+      }
+    ]
   },
   {
     id: "mufaceAyudasEstudio2026",
-    reviewedAt: "2026-09-07",
+    reviewedAt: "2026-09-16",
     pack: "becas",
     path: "/becas/muface",
     h1: "Beca de estudio MUFACE 2026 para mutualistas",
     title: "Beca de estudio MUFACE 2026: requisitos y solicitud",
     description: "Ayuda para estudios propios del mutualista en 2025-26. Consulta requisitos, documentación y solicitud electrónica de MUFACE.",
-    lead: `La convocatoria cubre estudios del propio mutualista, no de sus hijos por ser beneficiarios. Se solicita hasta el ${MUFACE_HASTA}.`,
+    lead: `La convocatoria cubre estudios del propio mutualista, no de sus hijos por ser beneficiarios. La convocatoria publica un plazo hasta el ${MUFACE_HASTA}; comprueba en la sede el cómputo aplicable al último día y los avisos del procedimiento.`,
     cta: { href: "https://muface.sede.gob.es/procedimiento/portada?idProc=132654", label: "Solicitar en MUFACE" },
     sources: [{ label: "BOE: convocatoria de becas de estudio 2025/2026", href: "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10876" }],
     related: [
@@ -351,7 +431,7 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
       {
         id: "quien",
         title: "Requisitos",
-        paragraphs: ["Debes estar de alta o situación asimilada desde el 15 de octubre de 2025 y mantenerla al solicitar. Se cubren estudios oficiales universitarios o artísticos superiores del curso 2025/2026, con requisitos académicos que debes comprobar en la convocatoria."],
+        paragraphs: ["Debes ser mutualista en alta o situación asimilada el 15 de octubre de 2025 y mantener esa condición al solicitar. La convocatoria cubre los estudios oficiales universitarios y artísticos superiores enumerados en su anexo I para 2025/2026. También contempla estudios cursados íntegramente en 2025 que acabaran después del 31 de octubre de ese año.", "El mínimo académico general es aprobar el 50 % del resultado de dividir los créditos totales del plan entre sus años de duración; en másteres, para este cálculo se computan como máximo dos años. Puede ser el 35 % si son todos los créditos que faltan para terminar. No se calcula como la mitad de lo que decidiste matricular; revisa las exclusiones de créditos reconocidos, convalidados, adaptados o transferidos del apartado 2.C."],
       },
       {
         id: "plazo",
@@ -366,25 +446,29 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
       {
         id: "compatible",
         title: "Cuantía y otras ayudas",
-        paragraphs: ["La ayuda reembolsa gastos admitidos hasta 300 euros. Existen incompatibilidades con ayudas coincidentes y reglas de subsidiariedad respecto a la acción social; consulta el apartado 4 antes de solicitar."],
+        paragraphs: ["La convocatoria fija como importe el gasto admitido realmente abonado, con un máximo de 300 euros. Si existe ayuda equivalente en el plan de acción social, la regla general exige haberla solicitado antes y no haberla obtenido; hay excepciones por límites de solicitudes y para determinados mutualistas jubilados o pensionistas. Consulta los apartados 4 y 5: una ayuda coincidente puede reducir el importe conservable o exigir reintegro.", "El apartado 6 excluye los centros no radicados en España. También deniega la beca si hubo matrícula gratuita o exención total, salvo que los otros gastos de inscripción superen 90 euros. Esa cifra se refiere a este supuesto específico; no debe interpretarse como un mínimo universal para cualquier solicitud."],
       },
     ],
   },
   {
     id: "mecaResidenciaComponente",
+    reviewedAt: "2026-09-16",
+    sources: [{ label: "Convocatoria 2026-27: artículos 7, 48 y 68 (PDF)", href: "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894743/document/1422191" }, { label: "BOE: cuantías y matrícula parcial 2026-27", href: "https://www.boe.es/buscar/act.php?id=BOE-A-2026-5713" }, { label: "Ministerio: componentes de la beca universitaria 2026-27", href: "https://www.becaseducacion.gob.es/becas-y-ayudas/universidad-grado-master/tipos-de-becas.html" }, { label: "Ministerio: actualización de datos", href: "https://www.becaseducacion.gob.es/novedades" }],
     pack: "becas",
     path: "/becas/residencia",
-    h1: "Beca de residencia MEC: 2.700 € y cómo solicitarla",
-    title: "Beca de residencia MEC: 2.700 € y cómo solicitarla",
+    h1: "Beca de residencia MEC 2026-27: cuantías y requisitos",
+    title: "Beca de residencia MEC 2026-27: cuantías y requisitos",
     description:
-      "El componente de residencia de la beca MEC (2.700 € en 2026-27) se pide marcando la casilla de residir fuera del domicilio familiar. Erasmus de curso completo y residencias públicas, explicados.",
-    lead: `El componente de residencia de la beca MEC llega a ${MEC_RESIDENCIA_EUR} en el curso 2026-27 y no es una beca aparte: se pide dentro de la propia solicitud MEC marcando que vas a residir fuera del domicilio familiar por los estudios. La clave está en acreditar bien el desplazamiento y saber qué pasa con Erasmus y con las residencias universitarias.`,
+      "Residencia MEC 2026-27: cuantía general, matrícula parcial, gastos de alojamiento y necesidad de vivir fuera. Cómo actualizar una solicitud presentada.",
+    lead: `La cuantía general de residencia de la beca del Ministerio es de ${MEC_RESIDENCIA_EUR} en 2026-27. El importe depende de la matrícula, los requisitos y el coste real acreditado del alojamiento. Se evalúa dentro de la beca general y exige justificar la necesidad de vivir fuera del domicilio familiar durante el curso.`,
     cta: { href: BECAS_URL, label: "Portal oficial de becas" },
     related: [
+      { href: "/becas/mec/plazo", label: "Plazo ordinario y solicitudes excepcionales" },
       { href: "/becas/mec/compatibilidad/erasmus", label: "Beca MEC y Erasmus: compatibilidad" },
       { href: "/becas/mec", label: "Beca MEC: guía completa" },
       { href: "/becas/erasmus", label: "Erasmus+ 2026-27: plazos por universidad" },
       { href: "/becas/mec/cuando-se-cobra", label: "Cuándo se cobra la beca MEC" },
+      { href: "/alquiler", label: "Ayudas al alquiler por comunidad" },
     ],
     disclaimer: DISCLAIMER_GENERICO,
     sections: [
@@ -392,139 +476,179 @@ export const BECAS_NICHOS2_GUIDES: Guide[] = [
         id: "que-es",
         title: "Qué es exactamente el componente de residencia",
         paragraphs: [
-          `Dentro de la beca MEC hay cuantías por concepto, y una de ellas es la residencia: ${MEC_RESIDENCIA_EUR} este curso para quien, por cursar sus estudios, vive lejos del domicilio familiar y debe mantener una residencia durante el periodo lectivo. No paga "el colegio mayor" como tal: es una partida para ti, que luego dedicas donde corresponda.`,
-          "El requisito es el desplazamiento: que los estudios te obliguen a residir fuera del domicilio familiar. La convocatoria fija cómo se acredita la vinculación entre la localidad de estudios y el domicilio, y el componente se abona junto al resto de cuantías de la beca.",
+          `El artículo 7 exige acreditar gastos de alquiler o de hospedaje en una pensión, residencia de estudiantes o establecimiento similar. El importe no puede superar el coste real. Los ${MEC_RESIDENCIA_EUR} son la cuantía general; para matrícula universitaria presencial parcial de 48 a 59 créditos, la norma prevé 350 euros de residencia si se cumplen las condiciones aplicables.`,
+          "La necesidad de vivir fuera durante todo el curso se valora con la distancia, los transportes y los horarios lectivos. También cuentan los estudios y la modalidad de matrícula admitidos, los requisitos generales y académicos y el umbral 2 de renta. La definición de domicilio familiar para esta ayuda puede diferir del domicilio legal: revisa el artículo 7 antes de calcular distancias o gastos.",
         ],
       },
       {
         id: "como-se-pide",
-        title: "Cómo se pide: una casilla dentro de la solicitud MEC",
+        title: "Declarar y acreditar el alojamiento",
         paragraphs: [
-          "No hay segunda solicitud: en el formulario de la beca MEC se marca la opción de residir fuera del domicilio familiar durante el curso, y eso activa la evaluación del componente. El error típico es dejarla sin marcar, o marcarla cuando el domicilio declarado no lo justifica: el cruce con los datos censales y de matrícula es automático, y una casilla incoherente puede costarte un requerimiento o una denegación parcial.",
-          `La convocatoria 2026-27 ya está cerrada (se pidió del ${MEC_PLAZO_2627}); quien la pidiera con la casilla correcta verá el componente en su resolución. Para 2027-28, la misma casilla, con los datos de domicilio preparados de antemano.`,
+          "Declara en la solicitud de beca general los datos del alojamiento y comprueba que corresponden al curso. Conserva el contrato y los justificantes de gasto para atender las instrucciones o requerimientos de tu Unidad de Becas. La evaluación exige acreditar las condiciones del componente; marcar la residencia no equivale a una concesión.",
+          `El plazo ordinario del Ministerio 2026-27 está cerrado (fue del ${MEC_PLAZO_2627}); la guía de plazos recoge las excepciones del artículo 48.2. Si ya la presentaste, consulta las instrucciones de actualización del 7 al 28 de septiembre. Marcar la residencia no garantiza su concesión. Los formularios de 2027-28 deberán comprobarse cuando se publiquen. Consulta además qué administración corresponde a tu domicilio familiar y estudios: el artículo 68 regula los supuestos de Cataluña y País Vasco.`,
         ],
       },
       {
         id: "erasmus",
-        title: "Erasmus de curso completo: puedes reclamarla",
+        title: "Si tienes una movilidad Erasmus",
         paragraphs: [
-          "Un matiz que beneficia a los estudiantes de movilidad: quienes hacen un Erasmus de curso completo pueden reclamar el componente de residencia, porque el desplazamiento existe y es aún mayor que el del estudiante que simplemente estudia en otra ciudad. La guía de compatibilidad de la beca MEC con Erasmus desarrolla qué componentes se cobran estando fuera y cómo se reclama.",
+          "Consulta con tu Unidad de Becas cómo debes declarar la movilidad y acreditar el alojamiento. La estancia Erasmus por sí sola no prueba el derecho a un componente concreto: revisa la convocatoria y los requisitos de tu expediente.",
         ],
       },
       {
         id: "residencias",
-        title: "Ojo: las residencias públicas son otra convocatoria",
+        title: "La plaza en una residencia se solicita por separado",
         paragraphs: [
-          `El componente de ${MEC_RESIDENCIA_EUR} no te reserva plaza en ninguna residencia. Las residencias y colegios universitarios públicos dependen de cada universidad y tienen convocatorias propias, con plazos normalmente en primavera-verano y criterios de adjudicación propios (renta, expediente, distancia al domicilio familiar). Si necesitas cama, busca la convocatoria de residencias de tu universidad aparte de la beca: son dos trámites distintos que se complementan.`,
+          "La concesión de una cuantía de residencia no reserva una plaza. Para alojarte en una residencia o colegio mayor, consulta al centro sus condiciones de admisión, coste y calendario y tramita la plaza por su canal. No deduzcas sus fechas de la convocatoria de la beca general.",
         ],
       },
     ],
   },
   {
-    id: "erasmusPlazosPorUniversidad",
-    pack: "becas",
-    path: "/becas/erasmus",
-    h1: "Erasmus+ 2026-27: los plazos los pone cada universidad",
-    title: "Erasmus+ 2026-27: plazos por universidad",
-    description:
-      "No existe un plazo estatal para pedir Erasmus+: cada universidad abre su convocatoria. El patrón (noviembre-diciembre para salidas del año siguiente, segundos plazos en julio) y el papel de SEPIE.",
-    lead: "Buscar el plazo del Erasmus en general no sirve: no hay fecha estatal única. Cada universidad abre su propia convocatoria de plazas, con el patrón repetido de noviembre-diciembre para las salidas de septiembre del año siguiente y segundos plazos en julio si quedan huecos. SEPIE publica después las resoluciones del programa.",
-    cta: { href: BECAS_URL, label: "Portal oficial de becas" },
-    secondaryCta: { href: "https://www.sepie.es/", label: "SEPIE: convocatorias y resoluciones" },
-    related: [
-      { href: "/becas/mec/compatibilidad/erasmus", label: "Beca MEC y Erasmus: compatibilidad" },
-      { href: "/becas/erasmus/complemento-regional", label: "Complemento regional Erasmus" },
-      { href: "/becas/residencia", label: "Beca de residencia MEC" },
-      { href: "/becas/mec", label: "Beca MEC: guía completa" },
+    "id": "erasmusPlazosPorUniversidad",
+    "pack": "becas",
+    "path": "/becas/erasmus",
+    "h1": "Erasmus+: cómo consultar los plazos de tu universidad",
+    "title": "Erasmus+: cómo consultar los plazos de tu universidad",
+    "description": "Localiza la convocatoria Erasmus de tu universidad y distingue solicitud de plaza, admisión en destino, acuerdo de aprendizaje y financiación.",
+    "lead": "Para estudiar en el extranjero con Erasmus+, consulta la oficina internacional de tu universidad de origen. Su convocatoria indica plazas, requisitos y fechas de selección. No hay una fecha única de solicitud del estudiante que pueda deducirse del calendario general del programa o del de otra universidad.",
+    "reviewedAt": "2026-09-16",
+    "sources": [
+      {
+        "href": "https://erasmus-plus.ec.europa.eu/es/opportunities/individuals/students/studying-abroad",
+        "label": "Comisión Europea: cómo solicitar movilidad para estudios"
+      },
+      {
+        "href": "https://polisocio.ugr.es/internacionalizacion/movilidad-internacional/movilidad-saliente",
+        "label": "Universidad de Granada: pasos de movilidad saliente"
+      }
     ],
-    disclaimer: DISCLAIMER_GENERICO,
-    sections: [
+    "cta": {
+      "href": "https://erasmus-plus.ec.europa.eu/es/opportunities/individuals/students/studying-abroad",
+      "label": "Consultar cómo participar en Erasmus+"
+    },
+    "related": [
       {
-        id: "no-hay-plazo-estatal",
-        title: "No hay plazo estatal: tu universidad decide",
-        paragraphs: [
-          "El programa Erasmus+ lo financia la Unión y lo coordina en España el SEPIE, pero la selección de estudiantes la hace cada universidad con sus plazas y su calendario. Por eso la respuesta a cuándo se pide el Erasmus es siempre otra pregunta: en qué universidad estás. La oficina de relaciones internacionales de tu centro es la fuente con la fecha concreta.",
-          "El patrón de los últimos cursos: las convocatorias para salidas de septiembre del año siguiente abren entre noviembre y diciembre, con resolución en los meses siguientes. Es decir, quien quiere salir en septiembre de 2027 solicita en noviembre-diciembre de 2026. Las universidades con plazas sobrantes abren segundos plazos en julio.",
-        ],
+        "href": "/becas/mec/compatibilidad/erasmus",
+        "label": "Combinar Erasmus y beca MEC"
       },
       {
-        id: "convocatoria-2027",
-        title: "La convocatoria 2027-28: abre entre noviembre y enero",
-        paragraphs: [
-          "Si lees esto en el arranque del curso 2026-27, la diana es la convocatoria 2027-28: se espera que abra entre noviembre de 2026 y enero de 2027 según la universidad. Prepara ya el expediente (las notas pesan en el baremo), el nivel de idioma del destino y tu lista de países prioritaria: la selección se resuelve por puntuación y cada décima cuenta.",
-        ],
-      },
-      {
-        id: "sepie",
-        title: "El papel de SEPIE: dinero y resoluciones, no plazos",
-        paragraphs: [
-          "El SEPIE (Servicio Español para la Internacionalización de la Educación) es el organismo nacional del programa: publica las convocatorias y resoluciones del programa, los importes por destino y transfiere los fondos a las universidades. No gestiona tu solicitud de plaza: esa es la universidad. Para importes oficiales y listados, SEPIE; para fechas, tu oficina internacional.",
-        ],
-      },
-      {
-        id: "compatibilidad",
-        title: "Erasmus y beca MEC: se pueden combinar",
-        paragraphs: [
-          "Salir de Erasmus teniendo beca MEC es compatible, y hay componentes que se siguen cobrando fuera, incluido el de residencia en estancias de curso completo, como detalla la guía de compatibilidad con Erasmus. Revisa también si tu comunidad paga un complemento regional sobre la beca Erasmus: en la guía del complemento regional está el mapa y el aviso de qué verificar.",
-        ],
-      },
+        "href": "/becas/erasmus/complemento-regional",
+        "label": "Complemento de Andalucía 2026-27"
+      }
     ],
-  },
-  {
-    id: "erasmusComplementoRegionalCcaa",
-    pack: "becas",
-    path: "/becas/erasmus/complemento-regional",
-    h1: "Complemento regional Erasmus: qué comunidades lo pagan",
-    title: "Complemento regional Erasmus: qué CCAA lo pagan",
-    description:
-      "Varias comunidades suman un complemento autonómico a la beca Erasmus: Andalucía paga 263/203/105 €/mes según destino más el especial. Importes por convocatoria anual: verifica la de tu comunidad.",
-    lead: "La beca Erasmus que gestiona tu universidad no es todo lo que puedes cobrar: varias comunidades autónomas pagan un complemento regional que se suma al importe europeo. Andalucía es la más estructurada (263, 203 y 105 €/mes según destino, más un complemento especial, con una subida del 5% desde 2026-27), pero casi ninguna página agrega quién paga qué: aquí va el mapa, con el aviso honesto de que los importes salen de convocatorias anuales.",
-    cta: { href: BECAS_URL, label: "Portal oficial de becas" },
-    related: [
-      { href: "/becas/erasmus", label: "Erasmus+ 2026-27: plazos por universidad" },
-      { href: "/becas/mec/compatibilidad/erasmus", label: "Beca MEC y Erasmus: compatibilidad" },
-      { href: "/becas/residencia", label: "Beca de residencia MEC" },
-      { href: "/becas/mec", label: "Beca MEC: guía completa" },
-    ],
-    disclaimer: DISCLAIMER_GENERICO,
-    sections: [
+    "disclaimer": DISCLAIMER_GENERICO,
+    "sections": [
       {
-        id: "que-es",
-        title: "Qué es el complemento regional",
-        paragraphs: [
-          "Sobre la beca Erasmus+ que abona la universidad con fondos del programa, algunas comunidades autónomas convocan complementos propios: dinero autonómico para sus estudiantes en movilidad, con baremos de renta y expediente propios y una solicitud aparte, normalmente telemática en la sede de la comunidad y en fechas posteriores a la selección en la universidad.",
-          "No es un derecho estatal: depende de que tu comunidad lo convoque cada año. Por eso la respuesta honesta a si te toca complemento empieza por tu comunidad de residencia y su convocatoria publicada, no por un importe genérico de internet.",
-        ],
+        "id": "convocatoria",
+        "title": "Localiza la convocatoria de tu centro",
+        "paragraphs": [
+          "En la web oficial de tu universidad, busca movilidad saliente para estudios, el nivel de tu titulación y el curso de la estancia. Comprueba que los destinos y acuerdos incluyen tu facultad o titulación. La oficina de relaciones internacionales debe poder identificar la convocatoria aplicable.",
+          "Anota apertura y cierre, requisitos de idioma y su acreditación, documentación, baremo, adjudicación y aceptación. Si buscas 2027-28 y aún no está publicada, consulta cómo recibir sus avisos. Esta guía no anticipa meses de apertura ni segundos plazos sin convocatoria."
+        ]
       },
       {
-        id: "andalucia",
-        title: "Andalucía: la convocatoria más estructurada",
-        paragraphs: [
-          "Andalucía paga complementos en tres tramos según el destino: 263, 203 y 105 €/mes. A eso se suma un complemento especial de 210, 152 y 79 €/mes para los perfiles que la convocatoria vincula a la beca general, y las cuantías aplican una subida del 5% desde el curso 2026-27. La solicitud se presenta en la sede de la Junta, para estudiantes con residencia en la comunidad.",
+        "id": "etapas",
+        "title": "Hay varios trámites con fechas propias",
+        "paragraphs": [
+          "La selección de origen no sustituye las gestiones posteriores. La secuencia concreta debe comprobarse en las instrucciones de ambas instituciones."
         ],
-      },
-      {
-        id: "otras",
-        title: "Otras comunidades: un mapa irregular",
-        paragraphs: [
-          "Fuera de Andalucía, el mapa cambia cada año: algunas comunidades pagan complementos propios, otras los limitan a estudiantes con beca general o de renta baja, y algunas no convocan nada. Los importes y requisitos se revisan en cada convocatoria anual, así que el dato útil no es una tabla congelada sino saber dónde mirar: la consejería de educación de tu comunidad y las ayudas de movilidad internacional que convoca.",
-        ],
-      },
-      {
-        id: "aviso",
-        title: "El aviso honesto (y por qué esta página existe)",
-        paragraphs: [
-          "Nadie agrega esta información porque caduca cada año: los importes salen de la convocatoria autonómica anual y publicarlos sin fecha engaña. Por eso aquí van con su contexto, y la recomendación es verificar la convocatoria de tu comunidad antes de contar con el complemento.",
-        ],
-        lists: [
+        "lists": [
           [
-            "Consejería de educación de tu comunidad: busca las ayudas de movilidad internacional para estudiantes.",
-            "Sede electrónica autonómica: la solicitud suele ser telemática y con plazo propio, posterior a la selección Erasmus.",
-            "Oficina de relaciones internacionales de tu universidad: conocen los complementos que piden sus estudiantes.",
-            "Convocatoria vigente: importa la publicada este curso, con fecha, no la del año pasado.",
-          ],
-        ],
+            "Solicitud y aceptación de plaza en la universidad de origen.",
+            "Nominación y solicitud o admisión en la institución de destino, según su procedimiento.",
+            "Acuerdo de aprendizaje y matrícula: qué vas a cursar y cómo se reconocerá.",
+            "Documentos y condiciones de financiación, acreditación de estancia y resultados."
+          ]
+        ]
       },
-    ],
+      {
+        "id": "ejemplo",
+        "title": "Ejemplo de consulta: Universidad de Granada",
+        "paragraphs": [
+          "La página oficial de movilidad saliente de la Facultad de Ciencias Políticas y Sociología de la UGR enlaza la convocatoria y los destinos, explica la acreditación lingüística y remite a las instrucciones de destino. Sirve de ejemplo para localizar documentación, no de calendario común a todas las universidades."
+        ]
+      },
+      {
+        "id": "financiacion",
+        "title": "Comprueba la financiación por separado",
+        "paragraphs": [
+          "Consulta en tu universidad el importe, los meses financiados y los justificantes exigidos. Tener plaza y recibir financiación son decisiones que debes verificar en sus documentos correspondientes.",
+          "La beca MEC es compatible con Erasmus, pero conserva sus propios requisitos. El componente de residencia no se obtiene automáticamente por salir un curso completo. Los complementos autonómicos también dependen de sus bases: la guía enlazada detalla el caso de Andalucía 2026-27."
+        ]
+      }
+    ]
   },
+  {
+    "id": "erasmusComplementoRegionalCcaa",
+    "pack": "becas",
+    "path": "/becas/erasmus/complemento-regional",
+    "h1": "Complemento Erasmus de Andalucía: cuantías 2026-27",
+    "title": "Complemento Erasmus de Andalucía: cuantías 2026-27",
+    "description": "Complemento Erasmus 2026-27 de universidades públicas andaluzas: base de 276, 213 o 110 €/mes, aportación especial y máximo de nueve meses.",
+    "lead": "La Orden de 31 de julio de 2026 fija el complemento para estudiantes de universidades públicas andaluzas en movilidad física de larga duración para estudios universitarios Erasmus+ KA131-HED. La base mensual es de 276, 213 o 110 €, según el grupo de destino, y puede añadirse la aportación especial. La gestión corresponde a las universidades.",
+    "reviewedAt": "2026-09-16",
+    "sources": [
+      {
+        "href": "https://www.juntadeandalucia.es/boja/2026/151/51",
+        "label": "BOJA: Orden de 31 de julio, complemento Erasmus 2026-27"
+      }
+    ],
+    "cta": {
+      "href": "https://www.juntadeandalucia.es/boja/2026/151/51",
+      "label": "Consultar la orden y sus cuantías"
+    },
+    "related": [
+      {
+        "href": "/becas/erasmus",
+        "label": "Convocatoria y plazos de tu universidad"
+      },
+      {
+        "href": "/becas/mec/compatibilidad/erasmus",
+        "label": "Compatibilidad con la beca MEC"
+      }
+    ],
+    "disclaimer": DISCLAIMER_GENERICO,
+    "sections": [
+      {
+        "id": "alcance",
+        "title": "A quién se aplica esta orden",
+        "paragraphs": [
+          "La referencia es estar dentro del programa y procedimiento de una universidad pública de Andalucía. No basta con residir en Andalucía ni se debe extender esta orden a cualquier centro privado, movilidad de prácticas o estudio de FP.",
+          "La universidad establece la selección y distribución conforme a las condiciones del programa. Consulta su oficina internacional para conocer documentos, plazo y procedimiento: la orden no establece una solicitud individual general en la sede de la Junta."
+        ]
+      },
+      {
+        "id": "importes",
+        "title": "Importes mensuales por grupo de destino",
+        "paragraphs": [
+          "Estas cuantías ya corresponden a 2026-27; no hay que añadirles de nuevo el incremento del 5% mencionado en la orden."
+        ],
+        "lists": [
+          [
+            "Grupo 1: base 276 €/mes y especial 221 €/mes. Incluye, por ejemplo, Dinamarca y Suecia; la orden incorpora Reino Unido en la región 14.",
+            "Grupo 2: base 213 €/mes y especial 160 €/mes. Incluye, por ejemplo, Alemania, Francia e Italia.",
+            "Grupo 3: base 110 €/mes y especial 83 €/mes. Incluye, por ejemplo, Polonia y Rumanía.",
+            "El máximo financiable es de nueve meses. Comprueba la clasificación completa de países en el BOJA y los meses acreditados por tu universidad."
+          ]
+        ]
+      },
+      {
+        "id": "especial",
+        "title": "Quién puede recibir la aportación especial",
+        "paragraphs": [
+          "Se añade para quienes fueron beneficiarios de una beca general del Ministerio, del País Vasco o de Navarra en 2025-26. La orden también incluye a quienes acrediten condición de refugiado, protección subsidiaria o haber solicitado protección internacional en España.",
+          "Acredita el supuesto mediante el procedimiento de tu universidad. La aportación especial no se concede a todos los participantes ni depende únicamente de haber solicitado una beca general."
+        ]
+      },
+      {
+        "id": "otras",
+        "title": "Si estudias fuera de este ámbito",
+        "paragraphs": [
+          "Esta guía verifica Andalucía 2026-27 y no es un catálogo de las 17 comunidades. Consulta en la oficina internacional de tu universidad y en el portal autonómico correspondiente si existe una convocatoria aplicable. Comprueba institución, residencia si se exige, modalidad de movilidad, curso, compatibilidad y plazo antes de contar con otra ayuda."
+        ]
+      }
+    ]
+  },
+
 ];
