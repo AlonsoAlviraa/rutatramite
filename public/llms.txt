@@ -33,7 +33,7 @@ Versión extendida para agentes: [https://rutatramite.com/llms-full.txt](https:/
 ## Guías destacadas por trámite
 
 ### DNI y pasaporte
-- [Cita DNI en citapreviadnie.es: pedir, consultar o anular](https://rutatramite.com/dni/cita-previa)
+- [Cita previa DNI en citapreviadnie.es: pedir o consultar](https://rutatramite.com/dni/cita-previa)
 - [Cita previa de pasaporte: reserva y documentos](https://rutatramite.com/pasaporte/cita-previa)
 - [Renovar el DNI caducado: plazo, cita y documentos](https://rutatramite.com/dni/renovar-caducado)
 - [DNI y pasaporte en la misma cita: requisitos y excepciones](https://rutatramite.com/dni/misma-cita-pasaporte)

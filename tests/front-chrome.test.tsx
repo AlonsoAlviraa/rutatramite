@@ -31,7 +31,7 @@ function stripTags(input: string): string {
 describe("front chrome and homepage hierarchy (shipped views)", () => {
   it("passport route has its own heading and relevant directory", () => {
     const html = renderToStaticMarkup(createElement(PassportPage));
-    expect(html).toContain("Cuánto cuesta el pasaporte en España: 30 €, cita y urgente");
+    expect(html).toContain("Pasaporte en España 2026: cuánto cuesta (30 €), cita y urgente");
     expect(html).toContain('href="/pasaporte/cita-previa"');
     expect(html).toContain('href="/dni/primera-expedicion-menor"');
     expect(html).not.toContain('href="/dni/caducado-banco"');

@@ -22,8 +22,8 @@ import { absoluteUrl } from "@/lib/geo/paths";
 
 /** Shared document heading for the hubs whose title and H1 must match. */
 export const PACK_DOCUMENT_HEADINGS = {
-  viaje: "Precio DNI y pasaporte en España: 12 € y 30 €, cita previa",
-  pasaporte: "Cuánto cuesta el pasaporte en España: 30 €, cita y urgente",
+  viaje: "Tasa DNI y pasaporte 2026 en España: 12 € y 30 €, cita previa",
+  pasaporte: "Pasaporte en España 2026: cuánto cuesta (30 €), cita y urgente",
   becas: "Beca MEC 2026-27: consultar estado, plazos, cobro y otras becas",
   extranjeria: "Extranjería: citas, documentos y expedientes",
 } as const;
