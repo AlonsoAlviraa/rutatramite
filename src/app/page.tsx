@@ -8,6 +8,7 @@ import { DirectorySearch } from "@/components/ui/DirectorySearch";
 import { GeoLead } from "@/components/ui/GeoLead";
 import { loadIndex } from "@/lib/data/load";
 import { pageMetadata } from "@/lib/seo/meta";
+import { HOME_PRIORITY_LINKS } from "@/lib/seo/priorityLinks";
 import { guideSearchEntries } from "@/lib/seo/siteSearch";
 import { ESCENARIO_LABELS, WIZARD_QUESTIONS } from "@/lib/types";
 
@@ -136,6 +137,23 @@ export default function HomePage() {
         <div className="topic-directory" data-home-topics="">
           {PACKS.map((p) => (
             <PackCard key={p.href} {...p} />
+          ))}
+        </div>
+      </section>
+
+      <section id="respuestas-rapidas" aria-labelledby="respuestas-rapidas-title" className="mt-12" data-home-priority="">
+        <h2 id="respuestas-rapidas-title" className="font-display text-2xl text-mossDark">Respuestas rápidas por trámite</h2>
+        <p className="mt-2 max-w-2xl text-ink/75">
+          Dudas concretas que suelen surgir con plazos, citas y documentos. Cada guía enlaza a la sede oficial.
+        </p>
+        <div className="mt-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {HOME_PRIORITY_LINKS.map((group) => (
+            <div key={group.title}>
+              <h3 className="font-semibold text-mossDark">{group.title}</h3>
+              <ul className="mt-2 list-disc space-y-1 pl-5">
+                {group.links.map((l) => (<li key={l.href}><a className="underline" href={l.href}>{l.label}</a></li>))}
+              </ul>
+            </div>
           ))}
         </div>
       </section>

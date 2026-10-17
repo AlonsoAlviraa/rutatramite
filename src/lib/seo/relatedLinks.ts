@@ -1,10 +1,17 @@
 /**
  * Enlaces relacionados desde páginas con impresiones hacia guías sin impresiones y con pocos enlaces internos
  * (vault RutaTrámite, 02-SEO/Enlazado.md, snapshot 2026-10-10). Solo rutas existentes del catálogo.
+ * 2026-10-17: enlaces cruzados a guías prioritarias sin indexar (inspección GSC del 2026-10-17).
  */
 export const RELATED_LINKS: Record<string, string[]> = {
   "/dni": ["/dni/consultar-cita", "/dni/urgente-sin-cita", "/dni/a-que-hora-se-liberan-citas", "/dni/caducado-multa", "/dni/caducado-banco", "/elecciones/dni-caducado-votar"],
   "/pasaporte": ["/pasaporte/caducado-sin-cita", "/pasaporte/salvoconducto", "/pasaporte/renovar-antes-caducar"],
-  "/becas": ["/becas/apoyo-educativo", "/becas/muface", "/ayudas-por-gobierno/estudiantes"],
+  "/becas": ["/becas/apoyo-educativo", "/becas/muface", "/ayudas-por-gobierno/estudiantes", "/comedor/beca-comedor-2026-2027", "/alquiler/bono-alquiler-joven"],
   "/extranjeria": ["/extranjeria/arraigo-padron", "/extranjeria/no-hay-citas", "/extranjeria/certificado-digital-nie", "/extranjeria/autorizacion-regreso-navidad"],
+  "/colegio": ["/justificante-ausencia-escolar", "/autorizacion-recogida-colegio", "/comedor/beca-comedor-2026-2027"],
+  "/comedor": ["/becas/mec/plazo", "/becas/mec/cuando-se-cobra", "/colegio/cambiar-de-colegio-fuera-de-plazo"],
+  "/alquiler": ["/empadronarse/me-quieren-cobrar", "/hacienda/modelo-030"],
+  "/modelos": ["/hacienda/modelo-030", "/colegio/cambiar-de-colegio-fuera-de-plazo"],
+  "/elecciones": ["/dni/consultar-cita", "/dni/urgente-sin-cita"],
+  "/trabajo": ["/autorizacion-representacion-tramite"],
 };

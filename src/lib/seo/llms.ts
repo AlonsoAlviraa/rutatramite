@@ -1,3 +1,6 @@
+import { loadIndex } from "@/lib/data/load";
+import { allCcaaHubs, loadTerritories } from "@/lib/geo/territories";
+import { buildSitemapEntries } from "@/lib/seo/sitemapEntries";
 import { ALL_GUIDES } from "@/lib/tramites/catalog";
 import { PACK_INDEX_PATH, type GuidePack } from "@/lib/tramites/types";
 import { ESCENARIO_LABELS, ESCENARIO_SLUGS, PRODUCT_NAME, SITE_ORIGIN } from "@/lib/types";
@@ -48,18 +51,77 @@ const LLMS_LISTED = new Set<string>([
 ]);
 /** Guías con demanda en buscadores primero (vault RutaTrámite, 2026-10-10). */
 const LLMS_PRIORITY = ["/dni/cita-previa", "/extranjeria/autorizacion-regreso", "/inventario-fianza-alquiler", "/elecciones/voto-residentes-extranjero-cera", "/elecciones/pedir-voto-por-correo-por-internet", "/elecciones/enviar-voto-por-correo", "/elecciones/voto-temporalmente-fuera-erta", "/elecciones/que-llevar-a-votar", "/elecciones/miembro-de-mesa", "/elecciones/consultar-censo-electoral", "/elecciones/preguntas-frecuentes-29n"];
-const LLMS_PER_PACK = 7;
 
-function renderGuideSection(): string {
+const SITE_PAGES: Record<string, string> = {
+  "/trabajo": "Trabajo, paro y prestaciones",
+  "/elecciones/promesas": "Promesas electorales del 29-N: índice por partido y tema",
+  "/recursos/padron-municipal": "Datos del padrón municipal",
+  "/metodologia": "Metodología",
+  "/fuentes": "Fuentes oficiales",
+  "/aviso-legal": "Aviso legal",
+  "/privacidad": "Privacidad",
+  "/contacto": "Contacto",
+};
+
+function inlineLink(label: string, url: string): string {
+  return `[${label.replace(/[[\]]/g, "")}](${url})`;
+}
+
+/**
+ * Índice completo: cada URL canónica e indexable del sitemap aparece en llms.txt.
+ * Las rutas que ya están en el directorio o en «Padrón según la situación» no se repiten.
+ * Una línea por sección para respetar el límite de ~200 líneas.
+ */
+function renderFullIndex(): string {
+  const already = new Set<string>([...LLMS_LISTED, ...ESCENARIO_SLUGS.map((slug) => `/empadronarse/${slug}`)]);
+  const guideByPath = new Map(ALL_GUIDES.map((g) => [g.path, g]));
+  const t = loadTerritories();
+  const geoLabel = new Map<string, string>();
+  for (const c of allCcaaHubs()) {
+    geoLabel.set(`/empadronarse/${c.slug}`, c.name);
+    for (const code of c.province_codes) {
+      const p = t.provinces[code];
+      if (p) geoLabel.set(`/empadronarse/${c.slug}/${p.slug}`, `${p.name} (${c.name})`);
+    }
+  }
+  const muniLabel = new Map<string, string>();
+  for (const row of loadIndex()) {
+    muniLabel.set(`/empadronarse/${row.ccaa_slug}/${row.province_slug}/${row.slug}`, `${row.name} (${row.province_name})`);
+  }
+  const byPack = new Map<GuidePack, { path: string; link: string }[]>();
   const rank = (p: string) => (LLMS_PRIORITY.includes(p) ? LLMS_PRIORITY.indexOf(p) : LLMS_PRIORITY.length);
-  const blocks = PACK_ORDER.filter((pack) => pack !== "promesas-29n").map((pack) => {
-    const guides = ALL_GUIDES.filter((g) => g.pack === pack && !LLMS_LISTED.has(g.path))
-      .sort((a, b) => rank(a.path) - rank(b.path))
-      .slice(0, pack === "elecciones" ? 12 : LLMS_PER_PACK);
-    if (!guides.length) return "";
-    return `### ${PACK_HEADING[pack]}\n${guides.map((g) => mdLink(g.h1, g.path)).join("\n")}`;
-  }).filter(Boolean);
-  return `## Guías destacadas por trámite\n\n${blocks.join("\n")}`;
+  const geo: string[] = [];
+  const munis: string[] = [];
+  const site: string[] = [];
+  for (const entry of buildSitemapEntries()) {
+    const url = entry.url;
+    const path = url === `${SITE_ORIGIN}/` ? "/" : url.slice(SITE_ORIGIN.length);
+    if (already.has(path)) continue;
+    const guide = guideByPath.get(path);
+    if (guide) {
+      const list = byPack.get(guide.pack) ?? [];
+      list.push({ path, link: inlineLink(guide.h1, url) });
+      byPack.set(guide.pack, list);
+    } else if (muniLabel.has(path)) {
+      munis.push(inlineLink(muniLabel.get(path)!, url));
+    } else if (geoLabel.has(path)) {
+      geo.push(inlineLink(geoLabel.get(path)!, url));
+    } else {
+      site.push(inlineLink(SITE_PAGES[path] ?? path, url));
+    }
+  }
+  const blocks: string[] = [];
+  for (const pack of PACK_ORDER) {
+    const list = byPack.get(pack);
+    if (list?.length) {
+      const sorted = [...list].sort((a, b) => rank(a.path) - rank(b.path));
+      blocks.push(`### ${PACK_HEADING[pack]}\n${sorted.map((x) => x.link).join(" · ")}`);
+    }
+  }
+  if (geo.length) blocks.push(`### Padrón por comunidad y provincia\n${geo.join(" · ")}`);
+  if (munis.length) blocks.push(`### Fichas municipales de padrón\n${munis.join(" · ")}`);
+  if (site.length) blocks.push(`### Otros índices y páginas del sitio\n${site.join(" · ")}`);
+  return `## Índice completo por sección\n\nTodas las URL canónicas e indexables del sitemap, agrupadas por trámite. Las del directorio y las situaciones de padrón figuran en sus apartados.\n\n${blocks.join("\n\n")}`;
 }
 
 /** Short llms.txt (llmstxt.org): H1, blockquote, H2 sections, keep under ~200 lines. */
@@ -96,7 +158,7 @@ ${mdLink("Modelos y cartas", "/modelos")}: escritos para adaptar a cada caso.
 ${mdLink("Descargas", "/descargas")}: formularios oficiales en PDF, con fuente y fecha de verificación.
 ${mdLink("Datos y recursos", "/recursos")}: selección documentada y descargas JSON y CSV.
 
-${renderGuideSection()}
+${renderFullIndex()}
 
 ## Padrón según la situación
 

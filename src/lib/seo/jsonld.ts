@@ -28,6 +28,7 @@ export function organizationJsonLd(): WithContext<Organization> {
       "modelos de escritos",
     ],
     publishingPrinciples: `${SITE_ORIGIN}/metodologia`,
+    sameAs: ["https://www.youtube.com/@rutatramitebot", "https://www.youtube.com/channel/UCMya0aRWeiB-4tSefDaeKUQ"],
     email: CONTACT_EMAIL,
     contactPoint: {
       "@type": "ContactPoint",
