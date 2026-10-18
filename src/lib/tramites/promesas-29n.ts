@@ -14197,12 +14197,12 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "id": "e29n-programas-electorales-29n",
 "pack": "elecciones",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-18",
 "path": "/elecciones/programas-electorales-29n",
 "h1": "Programas electorales del 29-N: cuándo se publican y dónde leerlos",
 "title": "Programas electorales del 29-N: cuándo salen y dónde verlos",
-"description": "¿Ya hay programas electorales para el 29-N? A 13 de octubre ningún partido principal ha publicado el suyo. Fechas clave y dónde leerlos cuando salgan.",
-"lead": "Respuesta corta: a 13 de octubre de 2026 ni PP, ni PSOE, ni Vox, ni Frente Amplio, ni Podemos han publicado su programa completo para el 29-N. Mientras tanto, recogemos sus anuncios con fuente y fecha.",
+"description": "¿Han salido ya los programas electorales del 29-N? A 18 de octubre ningún partido principal ha publicado el suyo. Fechas clave y dónde leerlos.",
+"lead": "Respuesta corta: a 18 de octubre de 2026 ni PP, ni PSOE, ni Vox, ni Frente Amplio, ni Podemos han publicado su programa completo para el 29-N. Mientras tanto, recogemos sus anuncios con fuente y fecha.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Comparar promesas de todos los partidos"
@@ -14238,6 +14238,10 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "disclaimer": "Contenido informativo y neutral: explicamos la medida y citamos la fuente con fecha. No valoramos si es buena o mala ni recomendamos ningún voto.",
 "faqs": [
 {
+"q": "¿Cuándo salen los programas electorales del 29-N?",
+"a": "No hay fecha fijada por ley: cada partido decide cuándo lo publica. A 18 de octubre de 2026 no hemos localizado el programa completo para el 29-N de PP, PSOE, Vox, Frente Amplio ni Podemos en sus webs oficiales. La campaña va del 13 al 27 de noviembre; actualizaremos esta página cuando salgan."
+},
+{
 "q": "¿Es obligatorio publicar un programa?",
 "a": "No. La ley electoral no obliga a los partidos a publicar un programa ni fija fecha."
 },
@@ -14249,7 +14253,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "sections": [
 {
 "id": "estado",
-"title": "Estado a 13 de octubre",
+"title": "Estado a 18 de octubre",
 "paragraphs": [
 "PP, PSOE, Vox, Frente Amplio y Podemos: programa del 29-N pendiente. Vox tiene un programa temático de desregulación publicado en junio de 2026.",
 "Las candidaturas se presentan del 21 al 26 de octubre, se proclaman el 2 de noviembre y el BOE las publica el 3 de noviembre. La campaña va del 13 al 27 de noviembre."

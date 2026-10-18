@@ -14,7 +14,8 @@ describe("promesas 29-N", () => {
       expect(g.description.length, g.path).toBeGreaterThanOrEqual(110);
       expect(g.description.length, g.path).toBeLessThanOrEqual(158);
       expect(g.faqs?.length ?? 0, g.path).toBeGreaterThanOrEqual(1);
-      expect(g.reviewedAt).toBe("2026-10-13");
+      expect(g.reviewedAt).toMatch(/^2026-\d{2}-\d{2}$/);
+      expect(g.reviewedAt >= "2026-10-13", g.path).toBe(true);
     }
   });
   it("every promise has url, date, quote and known party", () => {
