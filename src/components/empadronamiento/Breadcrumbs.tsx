@@ -12,7 +12,7 @@ export function Breadcrumbs({ items }: { items: Crumb[] }) {
             {i === items.length - 1 ? (
               <span aria-current="page">{c.name}</span>
             ) : (
-              <a className="underline" href={c.path}>
+              <a className="inline-flex min-h-[44px] items-center underline" href={c.path}>
                 {c.name}
               </a>
             )}
