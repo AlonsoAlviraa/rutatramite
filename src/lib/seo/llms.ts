@@ -152,7 +152,7 @@ ${mdLink("Becas", "/becas")}: convocatorias, requisitos y seguimiento.
 ${mdLink("Ayudas y plazos", "/ayudas")}: convocatorias seleccionadas con fase, territorio, revisión y fuente oficial.
 ${mdLink("Ayudas al alquiler", "/alquiler")}: Bono Joven, procedimientos regionales y Plan Estatal de Vivienda.
 ${mdLink("Transporte", "/transporte")}: abonos y tarjetas de transporte joven.
-${mdLink("Elecciones 29 de noviembre de 2026", "/elecciones")}: voto por correo, calendario, censo, coaliciones y la huelga anunciada. Promesas por partido, tema, comunidad y perfil: ${SITE_ORIGIN}/elecciones/promesas
+${mdLink("Elecciones 29 de noviembre de 2026", "/elecciones")}: voto por correo, calendario, censo, coaliciones y la huelga general del 11 de noviembre. Promesas por partido, tema, comunidad y perfil: ${SITE_ORIGIN}/elecciones/promesas
 ${mdLink("Ayudas del Estado según cada gobierno desde 1996", "/ayudas-por-gobierno")}: estudiantes, familias, jóvenes, jubilados, autónomos, parados y dependencia; creaciones y recortes con su norma del BOE, sin valoraciones.
 ${mdLink("Modelos y cartas", "/modelos")}: escritos para adaptar a cada caso.
 ${mdLink("Descargas", "/descargas")}: formularios oficiales en PDF, con fuente y fecha de verificación.

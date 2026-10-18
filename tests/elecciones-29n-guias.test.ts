@@ -15,7 +15,7 @@ describe("guías prácticas del 29-N (2026-10-16)", () => {
     for (const g of ELECCIONES_29N_GUIDES) {
       expect(g.path.startsWith("/elecciones/"), g.path).toBe(true);
       expect(g.pack).toBe("elecciones");
-      expect(g.reviewedAt).toBe("2026-10-16");
+      expect(["2026-10-16", "2026-10-18"]).toContain(g.reviewedAt);
       expect(g.sources?.length ?? 0, g.path).toBeGreaterThanOrEqual(2);
       for (const s of g.sources ?? []) expect(s.href, g.path).toMatch(/^https:\/\/(www\.)?(boe\.es|juntaelectoralcentral\.es|ine\.es|sede\.ine\.gob\.es|exteriores\.gob\.es|administracion\.gob\.es|correos\.(es|com)|infoelectoral\.interior\.gob\.es)\//);
       expect(g.description.length, g.path).toBeGreaterThanOrEqual(110);

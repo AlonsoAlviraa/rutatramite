@@ -71,7 +71,7 @@ const titles: Record<GuidePack, { h1: string; lead: string }> = {
   },
   elecciones: {
     h1: "Elecciones del 29 de noviembre de 2026: voto por correo y plazos",
-    lead: "Voto por correo, calendario del Real Decreto 806/2026, coaliciones, la huelga anunciada por los sindicatos y quién figura en el censo. Plazos clave: consulta y reclamaciones del censo del 12 al 19 de octubre; solicitud del voto por correo hasta el 19 de noviembre; envío del voto en Correos hasta el 25 de noviembre. Las fechas salen del BOE, de la Junta Electoral Central, de Interior y de Correos.",
+    lead: "Voto por correo, calendario del Real Decreto 806/2026, las 9 coaliciones registradas, la huelga general del 11 de noviembre y quién figura en el censo. Plazos clave: consulta y reclamaciones del censo del 12 al 19 de octubre; solicitud del voto por correo hasta el 19 de noviembre; envío del voto en Correos hasta el 25 de noviembre. Las fechas salen del BOE, de la Junta Electoral Central, de Interior y de Correos.",
   },
   "ayudas-gobierno": {
     h1: "Ayudas del Estado según cada gobierno desde 1996: estudiantes, familias, jóvenes, jubilados, autónomos, parados y dependencia",
@@ -79,7 +79,7 @@ const titles: Record<GuidePack, { h1: string; lead: string }> = {
   },
   "promesas-29n": {
     h1: "Promesas electorales del 29-N: qué propone cada partido y cómo te afecta",
-    lead: "Respuesta corta: a 13 de octubre de 2026 ningún partido principal ha publicado su programa completo para las generales del 29 de noviembre. Aquí recogemos cada medida anunciada por PP, PSOE, Vox, Frente Amplio y Podemos (orden por votos en 2023), con su cita, fuente y fecha, y explicamos cómo afectaría según tu comunidad y tu perfil.",
+    lead: "Respuesta corta: a 18 de octubre de 2026 ningún partido ha publicado su programa completo para las generales del 29 de noviembre. Aquí recogemos cada medida o declaración fechada de PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21 (orden por votos en 2023; Democracia 21, nuevo, al final), en notas oficiales, mítines y actos, con su cita, fuente y fecha, y explicamos cómo afectaría según tu comunidad y tu perfil.",
   },
   trabajo: {
     h1: "Trabajo, paro y prestaciones",
@@ -200,7 +200,7 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
           <JsonLd data={{ "@context": "https://schema.org", "@type": "ItemList", name: t.h1, itemListElement: guides.map((g, i) => ({ "@type": "ListItem", position: i + 1, name: g.h1, url: absoluteUrl(g.path) })) }} />
           <JsonLd data={{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
             { "@type": "Question", name: "¿Qué se vota el 29 de noviembre de 2026?", acceptedAnswer: { "@type": "Answer", text: "Elecciones generales al Congreso (350 diputados) y al Senado, convocadas por el Real Decreto 806/2026. No hay elecciones autonómicas ese día." } },
-            { "@type": "Question", name: "¿Están publicados los programas electorales?", acceptedAnswer: { "@type": "Answer", text: "A 13 de octubre de 2026, no. Recogemos los anuncios con fuente y fecha y marcamos lo demás como pendiente de programa." } },
+            { "@type": "Question", name: "¿Están publicados los programas electorales?", acceptedAnswer: { "@type": "Answer", text: "A 18 de octubre de 2026, no. Recogemos los anuncios y las declaraciones de mítines con fuente y fecha y marcamos lo demás como pendiente de programa." } },
             { "@type": "Question", name: "¿Recomendáis algún voto?", acceptedAnswer: { "@type": "Answer", text: "No. Mismo formato para todos los partidos y sin valoraciones." } },
             { "@type": "Question", name: "¿Cómo afectan las promesas en mi comunidad?", acceptedAnswer: { "@type": "Answer", text: "Cada una de las 19 páginas de comunidad o ciudad autónoma tiene una tabla por partido que indica qué medidas se aplicarían igual, cuáles necesitarían también al gobierno autonómico y cuáles solo en parte o no tal cual (por ejemplo, rebajas de IVA en Canarias, Ceuta y Melilla o de IRPF estatal en País Vasco y Navarra)." } },
             { "@type": "Question", name: "¿Puedo descargar los datos?", acceptedAnswer: { "@type": "Answer", text: "Sí, en CSV y JSON en /datos/promesas-29n.csv y /datos/promesas-29n.json, con cita, enlace y fecha de cada medida. Reutilízalos citando a RutaTrámite y la fuente original." } },

@@ -32,7 +32,7 @@ export const ACTUALIDAD_20261006_GUIDES: Guide[] = [
       "Correos admite la solicitud del voto por correo hasta el 19 de noviembre de 2026. El depósito termina el 25 de noviembre. Si el censo acepta la petición, ese día se vota por correo.",
     lead:
       "Correos abrió el 6 de octubre de 2026 la solicitud del voto por correo para las elecciones a las Cortes Generales del domingo 29 de noviembre. Pides el certificado de inscripción en el censo hasta el 19 de noviembre, inclusive. Si la Oficina del Censo Electoral acepta la solicitud, el 29 de noviembre votas por correo.",
-    reviewedAt,
+    reviewedAt: "2026-10-18",
     cta: {
       href: "https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo",
       label: "Solicitar el voto por correo en Correos",
@@ -41,14 +41,14 @@ export const ACTUALIDAD_20261006_GUIDES: Guide[] = [
       href: "https://www.boe.es/eli/es/rd/2026/10/05/806",
       label: "Leer la convocatoria en el BOE",
     },
-    sources: votoSources,
+    sources: [...votoSources, {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}],
     related: [
       { href: "/elecciones/calendario-29-noviembre", label: "Calendario oficial de esta convocatoria" },
       { href: "/elecciones/quien-puede-votar", label: "Quién vota en estas elecciones" },
       { href: "/empadronarse", label: "Empadronarse" },
     ],
     disclaimer:
-      "No somos Correos, la Oficina del Censo Electoral ni la Junta Electoral. Los plazos de esta página son los publicados el 6 de octubre de 2026. Una instrucción posterior de la Junta Electoral puede cambiar un plazo.",
+      "No somos Correos, la Oficina del Censo Electoral ni la Junta Electoral. Los plazos de esta página son los de Correos (6 de octubre de 2026) y los del calendario de la Junta Electoral Central. Una instrucción posterior de la Junta Electoral puede cambiar un plazo.",
     faqs: [
       {
         q: "¿Hasta qué día pido el voto por correo?",
@@ -77,6 +77,7 @@ export const ACTUALIDAD_20261006_GUIDES: Guide[] = [
           "El envío incluye las papeletas, el sobre de votación, el certificado de inscripción, el sobre dirigido a tu mesa y una hoja explicativa. El aviso de recibo lo firmas tú, después de acreditar la identidad. Si no estás en casa, recoges el envío en la oficina de Correos que te indiquen.",
         ],
       },
+      {"id": "fechas-jec-correo", "title": "Las fechas del voto por correo, una a una", "paragraphs": ["Así lo recoge el calendario de la Junta Electoral Central para esta convocatoria."], "lists": [["Solicitud: del 6 de octubre al 19 de noviembre de 2026.", "Envío de la documentación por la Oficina del Censo Electoral: del 9 al 22 de noviembre.", "Remisión del voto por el elector: del 10 al 25 de noviembre, siempre antes del tercer día previo a la votación.", "Si vives en el extranjero (CERA), el voto por correo al consulado se envía hasta el 24 de noviembre y el voto en urna es del 21 al 26 de noviembre."]]},
       {
         id: "deposito",
         title: "El depósito termina el 25 de noviembre",
@@ -88,81 +89,7 @@ export const ACTUALIDAD_20261006_GUIDES: Guide[] = [
       },
     ],
   },
-  {
-    id: "calendario-29n",
-    pack: "elecciones",
-    path: "/elecciones/calendario-29-noviembre",
-    h1: "Calendario de las elecciones del 29 de noviembre de 2026",
-    title: "Elecciones 29 de noviembre: fechas del BOE",
-    description:
-      "El Real Decreto 806/2026 convoca elecciones el 29 de noviembre, abre la campaña el 13 de noviembre y reúne las Cámaras el 23 de diciembre.",
-    lead:
-      "El Real Decreto 806/2026, publicado en el BOE del 6 de octubre, disuelve el Congreso y el Senado elegidos el 23 de julio de 2023 y convoca elecciones para el domingo 29 de noviembre de 2026. Entró en vigor el mismo día de su publicación.",
-    reviewedAt,
-    cta: {
-      href: "https://www.boe.es/eli/es/rd/2026/10/05/806",
-      label: "Abrir el Real Decreto 806/2026",
-    },
-    secondaryCta: {
-      href: "https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo",
-      label: "Ir al voto por correo de Correos",
-    },
-    sources: [
-      votoSources[0],
-      votoSources[1],
-      {
-        href: "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
-        label: "Ley Orgánica 5/1985, del Régimen Electoral General",
-      },
-      {
-        href: "https://infoelectoral.interior.gob.es/export/sites/default/pdf/procesos_electorales/Elecciones-Generales-29-N/Calendario-mural-elecciones-Cortes-Generales-2026.pdf",
-        label: "Ministerio del Interior: calendario mural de estas Cortes",
-      },
-    ],
-    related: [
-      { href: "/elecciones/voto-por-correo", label: "Cómo pedir el voto por correo" },
-      { href: "/elecciones/quien-puede-votar", label: "Quién puede votar" },
-      { href: "/elecciones/nuevo-partido-coalicion", label: "Coalición, Frente Amplio y candidaturas" },
-      { href: "/elecciones/huelga-general-sindicatos", label: "Huelga general: el comunicado no fija el día" },
-    ],
-    disclaimer:
-      "Las fechas de campaña y de constitución salen del real decreto. Las del voto por correo salen de la nota de Correos del 6 de octubre de 2026. Una resolución de la Junta Electoral Central puede precisar un trámite.",
-    sections: [
-      {
-        id: "convocatoria",
-        title: "Qué fija el real decreto",
-        paragraphs: [
-          "El artículo 1 disuelve las dos Cámaras elegidas el 23 de julio de 2023. El artículo 2 convoca las elecciones para el domingo 29 de noviembre de 2026. El artículo 6 dice que se rigen por la Ley Orgánica 5/1985 y por su desarrollo.",
-          "El anexo reparte los diputados por circunscripción. Madrid elige 38 y Barcelona 32. Ceuta y Melilla eligen un diputado cada una. En el Senado, cada provincia elige cuatro senadores, con el reparto insular y de Ceuta y Melilla que detalla el artículo 3.",
-        ],
-      },
-      {
-        id: "campana",
-        title: "Campaña y constitución de las Cámaras",
-        paragraphs: [
-          "La campaña dura quince días. Empieza a las cero horas del viernes 13 de noviembre de 2026 y termina a las veinticuatro horas del viernes 27 de noviembre.",
-          "Las Cámaras elegidas se reúnen en sesión constitutiva el 23 de diciembre de 2026, a las diez de la mañana.",
-        ],
-      },
-      {
-        id: "correo",
-        title: "Plazos de Correos en esta misma convocatoria",
-        paragraphs: [
-          "La solicitud del voto por correo desde España está abierta desde la convocatoria y, según Correos, hasta el 19 de noviembre de 2026 inclusive.",
-          "La documentación empieza a enviarse el 9 de noviembre. El depósito del voto en oficina termina el 25 de noviembre de 2026.",
-        ],
-      },
-      {
-        id: "plazos-que-busca-la-gente",
-        title: "Candidaturas, encuestas y jornada de reflexión",
-        paragraphs: [
-          "El artículo 44.2 de la LOREG da diez días siguientes a la convocatoria para comunicar una coalición a la Junta. El artículo 45 abre la presentación de candidaturas entre el decimoquinto y el vigésimo día posteriores a la convocatoria. El artículo 47.1 manda publicar las presentadas el vigésimo segundo día, y el 47.3 proclamarlas el vigésimo séptimo. La convocatoria salió en el BOE el 6 de octubre de 2026. El calendario mural del Ministerio del Interior aplica esos artículos a este proceso.",
-          "El artículo 69.7 prohíbe publicar, difundir o reproducir sondeos durante los cinco días anteriores al de la votación. La votación es el 29 de noviembre, así que esa prohibición cubre del 24 al 28 de noviembre.",
-          "El real decreto cierra la campaña a las veinticuatro horas del viernes 27 de noviembre. El artículo 51 de la LOREG dice que la campaña termina, en todo caso, a las cero horas del día inmediatamente anterior a la votación. El mural del Interior rotula el día siguiente como jornada de reflexión. Ese día es el sábado 28 de noviembre.",
-        ],
-      },
-    ],
-  },
+  {"id": "calendario-29n", "pack": "elecciones", "path": "/elecciones/calendario-29-noviembre", "h1": "Calendario de las elecciones del 29 de noviembre de 2026", "title": "Calendario electoral del 29-N: todas las fechas clave", "description": "Fechas oficiales del 29-N según la Junta Electoral Central: candidaturas, voto por correo, sorteo de mesas, campaña, encuestas, reflexión y escrutinio.", "lead": "El Real Decreto 806/2026, publicado en el BOE del 6 de octubre, convoca elecciones al Congreso y al Senado para el domingo 29 de noviembre de 2026. La Junta Electoral Central ha publicado el calendario completo. Aquí tienes las fechas que afectan a electores y partidos, en orden y con su fuente.", "reviewedAt": "2026-10-18", "cta": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Abrir el calendario de la Junta Electoral Central"}, "secondaryCta": {"href": "https://www.boe.es/eli/es/rd/2026/10/05/806", "label": "Abrir el Real Decreto 806/2026"}, "sources": [{"href": "https://www.boe.es/eli/es/rd/2026/10/05/806", "label": "BOE: Real Decreto 806/2026, convocatoria del 29 de noviembre"}, {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}, {"href": "https://www.ine.es/dyngs/Prensa/EG2026.htm", "label": "INE: nota de prensa de la Oficina del Censo Electoral para el 29 de noviembre"}, {"href": "https://www.correos.com/sala-prensa/ya-se-puede-solicitar-el-voto-por-correo-para-las-elecciones-generales-del-29-de-noviembre/", "label": "Correos, 6 de octubre de 2026: plazos de esta convocatoria"}, {"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672", "label": "Ley Orgánica 5/1985, del Régimen Electoral General"}], "related": [{"href": "/elecciones/voto-por-correo", "label": "Cómo pedir el voto por correo"}, {"href": "/elecciones/miembro-de-mesa", "label": "Me ha tocado mesa electoral"}, {"href": "/elecciones/donde-voto-mesa-electoral", "label": "Dónde voto: mesa y colegio"}, {"href": "/elecciones/nuevo-partido-coalicion", "label": "Coaliciones y listas del 29-N"}, {"href": "/elecciones/huelga-general-sindicatos", "label": "Huelga general del 11 de noviembre"}], "disclaimer": "Las fechas salen del calendario de la Junta Electoral Central, del Real Decreto 806/2026, de la nota del INE y de la nota de Correos del 6 de octubre de 2026. Si la Junta Electoral precisa un trámite, manda la fuente oficial.", "faqs": [{"q": "¿Cuándo empieza la campaña electoral?", "a": "A las 0:00 del viernes 13 de noviembre de 2026. Termina a las 24:00 del viernes 27 de noviembre, según el artículo 4 del Real Decreto 806/2026."}, {"q": "¿Hasta cuándo puedo pedir el voto por correo?", "a": "Hasta el 19 de noviembre de 2026. La documentación se envía del 9 al 22 de noviembre y el voto se deposita en Correos hasta el 25 de noviembre."}, {"q": "¿Cuándo sé si me toca mesa?", "a": "Los ayuntamientos hacen el sorteo del 31 de octubre al 4 de noviembre y notifican la designación en los 3 días siguientes."}, {"q": "¿Cuándo se conocen las listas definitivas?", "a": "Las Juntas Electorales Provinciales proclaman las candidaturas el 2 de noviembre y el BOE las publica el 3 de noviembre."}], "sections": [{"id": "calendario-jec-tabla", "title": "Fechas clave, de la convocatoria a la constitución", "paragraphs": ["La tabla resume el calendario de la Junta Electoral Central. La columna «Para» indica a quién afecta cada plazo."], "table": {"caption": "Calendario de las elecciones generales del 29 de noviembre de 2026", "head": ["Fecha", "Qué pasa", "Para"], "rows": [{"cells": ["6 de octubre", "El BOE publica la convocatoria. Se abre la solicitud del voto por correo y del voto en braille.", "Todos"], "source": {"href": "https://www.boe.es/eli/es/rd/2026/10/05/806", "label": "BOE: Real Decreto 806/2026, convocatoria del 29 de noviembre"}}, {"cells": ["12 al 19 de octubre", "Consulta del censo en ayuntamientos, consulados y sede del INE, y reclamaciones.", "Electores"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["16 de octubre", "Último día para comunicar coaliciones a la Junta Electoral.", "Partidos"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["21 al 26 de octubre", "Presentación de candidaturas ante las Juntas Electorales Provinciales.", "Partidos"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["23 de octubre", "Se exponen las rectificaciones del censo.", "Electores"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["28 de octubre", "El BOE publica las candidaturas presentadas.", "Todos"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["31 de octubre", "Último día para pedir el voto si estás fuera una temporada (ERTA).", "Electores"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["31 de octubre al 4 de noviembre", "Sorteo de los miembros de mesa en los ayuntamientos.", "Electores"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["2 de noviembre", "Proclamación de candidaturas. Último día para pedir el voto en braille. El INE empieza a enviar las tarjetas censales.", "Todos"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["3 de noviembre", "El BOE publica las candidaturas proclamadas.", "Todos"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["9 al 22 de noviembre", "La Oficina del Censo Electoral envía la documentación del voto por correo.", "Electores"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["13 al 27 de noviembre", "Campaña electoral, de las 0:00 del viernes 13 a las 24:00 del viernes 27.", "Todos"], "source": {"href": "https://www.boe.es/eli/es/rd/2026/10/05/806", "label": "BOE: Real Decreto 806/2026, convocatoria del 29 de noviembre"}}, {"cells": ["19 de noviembre", "Último día para pedir el voto por correo.", "Electores"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["19 al 28 de noviembre", "Los ayuntamientos exponen y publican en internet las secciones, locales y mesas definitivos.", "Electores"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["21 al 26 de noviembre", "Voto en urna en los consulados para quien vive en el extranjero (CERA).", "Electores"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["24 de noviembre", "Último día para que el elector CERA envíe su voto por correo al consulado.", "Electores"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["24 al 28 de noviembre", "Prohibido publicar o difundir sondeos electorales.", "Todos"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["25 de noviembre", "Último día para depositar el voto por correo en una oficina de Correos.", "Electores"], "source": {"href": "https://www.correos.com/sala-prensa/ya-se-puede-solicitar-el-voto-por-correo-para-las-elecciones-generales-del-29-de-noviembre/", "label": "Correos, 6 de octubre de 2026: plazos de esta convocatoria"}}, {"cells": ["28 de noviembre", "Jornada de reflexión.", "Todos"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["29 de noviembre", "Votación, de 9:00 a 20:00.", "Electores"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["4 al 7 de diciembre", "Escrutinio general en las Juntas Electorales Provinciales.", "Juntas"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}}, {"cells": ["23 de diciembre", "Sesiones constitutivas del Congreso y del Senado, a las 10:00.", "Cortes"], "source": {"href": "https://www.boe.es/eli/es/rd/2026/10/05/806", "label": "BOE: Real Decreto 806/2026, convocatoria del 29 de noviembre"}}]}}, {"id": "ya-pasado", "title": "Plazos que ya han terminado", "paragraphs": ["A 18 de octubre de 2026 ya ha terminado el plazo de coaliciones (16 de octubre). La Junta Electoral Central ha publicado nueve coaliciones válidamente constituidas.", "La consulta y reclamación del censo termina el 19 de octubre. Después solo queda revisar tu inscripción en la sede del INE y, si hay un error, seguir la resolución de tu reclamación si la presentaste a tiempo."]}, {"id": "convocatoria", "title": "Qué fija el real decreto", "paragraphs": ["El artículo 1 disuelve las dos Cámaras elegidas el 23 de julio de 2023. El artículo 2 convoca las elecciones para el domingo 29 de noviembre de 2026. El artículo 6 dice que se rigen por la Ley Orgánica 5/1985 y por su desarrollo.", "El anexo reparte los 350 diputados por circunscripción: Madrid elige 38 y Barcelona 32; Ceuta y Melilla, uno cada una. En el Senado, cada provincia elige cuatro senadores; Gran Canaria, Mallorca y Tenerife, tres; Ibiza, Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote y La Palma, uno; Ceuta y Melilla, dos.", "Según el INE, pueden votar 38.728.356 electores: 35.958.711 residen en España y 2.769.645 en el extranjero.", "Las Cámaras elegidas se reúnen en sesión constitutiva el 23 de diciembre de 2026, a las diez de la mañana (artículo 5 del real decreto)."]}, {"id": "plazos-que-busca-la-gente", "title": "Encuestas, reflexión y resultados", "paragraphs": ["El artículo 69.7 de la LOREG prohíbe publicar, difundir o reproducir sondeos durante los cinco días anteriores al de la votación. En esta convocatoria, del 24 al 28 de noviembre.", "El sábado 28 de noviembre es la jornada de reflexión: ya no hay campaña. El domingo 29 se vota de 9:00 a 20:00 (artículo 84 de la LOREG).", "Los resultados de la noche electoral son provisionales. El escrutinio general lo hacen las Juntas Electorales Provinciales del 4 al 7 de diciembre, y las Cámaras se constituyen el 23 de diciembre a las 10:00."]}]},
   {
     id: "quien-puede-votar-29n",
     pack: "elecciones",
@@ -173,7 +100,7 @@ export const ACTUALIDAD_20261006_GUIDES: Guide[] = [
       "En las elecciones a las Cortes votan los españoles mayores de edad inscritos en el censo. El padrón y el NIE son trámites distintos del sufragio de esta convocatoria.",
     lead:
       "El 29 de noviembre de 2026 se elige el Congreso y el Senado. El artículo 2 de la LOREG reconoce el sufragio a los españoles mayores de edad que no estén privados de él y que figuren en el censo electoral vigente.",
-    reviewedAt,
+    reviewedAt: "2026-10-18",
     cta: {
       href: "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#asegundo",
       label: "Leer el artículo 2 de la LOREG",
@@ -196,6 +123,7 @@ export const ACTUALIDAD_20261006_GUIDES: Guide[] = [
         label: "LOREG, artículo 75: españoles residentes en el extranjero",
       },
       votoSources[0],
+      {"href": "https://www.ine.es/dyngs/Prensa/EG2026.htm", "label": "INE: nota de prensa de la Oficina del Censo Electoral para el 29 de noviembre"},
     ],
     related: [
       { href: "/elecciones/voto-por-correo", label: "Voto por correo desde España" },
@@ -223,6 +151,7 @@ export const ACTUALIDAD_20261006_GUIDES: Guide[] = [
           "Si prevés no estar en tu localidad el 29 de noviembre, el voto por correo desde España es el trámite de Correos descrito en la guía de esta convocatoria.",
         ],
       },
+      {"id": "cifras-ine", "title": "Cuántos electores hay el 29-N", "paragraphs": ["Según la nota del INE, pueden votar 38.728.356 electores: 35.958.711 residen en España y 2.769.645 en el extranjero.", "De los residentes en España, 1.615.127 votan por primera vez en unas generales, porque han cumplido 18 años desde las de julio de 2023.", "Los electores que viven en el extranjero votan sin solicitud previa: la Oficina del Censo Electoral les envía la documentación de oficio."]},
       {
         id: "residencia",
         title: "Residir en España y votar son pasos distintos",
@@ -242,169 +171,8 @@ export const ACTUALIDAD_20261006_GUIDES: Guide[] = [
       },
     ],
   },
-  {
-    id: "nuevo-partido-coalicion-29n",
-    pack: "elecciones",
-    path: "/elecciones/nuevo-partido-coalicion",
-    h1: "Nuevo partido de izquierdas o coalición: qué vale el 29 de noviembre",
-    title: "Frente Amplio: coalición, no un partido inscrito",
-    description:
-      "Un nombre de campaña no inscribe un partido. La coalición se comunica a la Junta en los diez días siguientes a la convocatoria. Las listas oficiales salen en el BOE.",
-    lead:
-      "Quien busca «nuevo partido de izquierdas» o «Frente Amplio» está leyendo el nombre que varias crónicas del 5 y el 6 de octubre de 2026 atribuyen al espacio de Sumar. Ese anuncio no inscribe un partido en el Registro del Ministerio del Interior ni proclama una candidatura.",
-    reviewedAt,
-    cta: {
-      href: "https://infoelectoral.interior.gob.es/es/proceso-electoral/preguntas-frecuentes/candidatos-y-candidaturas/",
-      label: "Leer en Interior qué es una coalición",
-    },
-    secondaryCta: {
-      href: "https://infoelectoral.interior.gob.es/es/proceso-electoral/Elecciones-Generales-29-N/",
-      label: "Impresos oficiales de esta convocatoria",
-    },
-    sources: [
-      {
-        href: "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#acuarentaycuatro",
-        label: "LOREG, artículo 44: partidos, coaliciones y plazo de comunicación",
-      },
-      {
-        href: "https://infoelectoral.interior.gob.es/es/formaciones-politicas/financiacion-de-partidos-politicos/informacion-especifica-para-coaliciones-electorales/",
-        label: "Interior: una coalición no se inscribe en el Registro de Partidos",
-      },
-      {
-        href: "https://www.elplural.com/politica/espana/izquierda-alternativa-asegura-estar-preparada-29-n-estamos-listas-somos-mas_800547102",
-        label: "El Plural, 5 de octubre de 2026: el nombre Frente Amplio en el espacio de Sumar",
-      },
-      {
-        href: "https://www.rtve.es/noticias/20261006/sanchez-revoluciona-tablero-politico-partidos-maquinaria-electoral/17253755.shtml",
-        label: "RTVE, 6 de octubre de 2026: la presentación del candidato seguía pendiente",
-      },
-      votoSources[0],
-    ],
-    related: [
-      { href: "/elecciones/calendario-29-noviembre", label: "Plazos de candidaturas, encuestas y reflexión" },
-      { href: "/elecciones/quien-puede-votar", label: "Quién puede votar" },
-      { href: "/elecciones/huelga-general-sindicatos", label: "Huelga general anunciada por los sindicatos" },
-    ],
-    disclaimer:
-      "No somos la Junta Electoral ni un partido. Una crónica no proclama candidatos. La lista que cuenta es la que publique el BOE después de la proclamación.",
-    faqs: [
-      {
-        q: "¿Frente Amplio es ya un partido nuevo?",
-        a: "Interior dice que las coaliciones no se inscriben en el Registro de Partidos Políticos. Se constituyen al comunicar el pacto a la Junta. El nombre que citan las crónicas del 5 y el 6 de octubre no sustituye esa comunicación ni la proclamación de las listas.",
-      },
-      {
-        q: "¿Quién es el candidato?",
-        a: "El 6 de octubre de 2026 las crónicas decían que el candidato del espacio de Sumar seguía sin presentarse. Esta guía no nombra a nadie. El nombre oficial aparece en la candidatura proclamada.",
-      },
-    ],
-    sections: [
-      {
-        id: "partido-o-coalicion",
-        title: "Partido inscrito y coalición no son lo mismo",
-        paragraphs: [
-          "Pueden presentar listas los partidos y federaciones inscritos en el registro y las coaliciones comunicadas a la Junta. Lo dice el artículo 44.1 de la LOREG y lo repite la ficha de Interior sobre candidatos.",
-          "Interior explica que no hay un registro público de coaliciones. No se inscriben en el Registro de Partidos Políticos ni hace falta registrarlas como asociación. Solo pueden integrarlas partidos y federaciones, no agrupaciones de electores. El pacto se presenta ante la Junta.",
-          "La comunicación, según el artículo 44.2, se hace en los diez días siguientes a la convocatoria y debe incluir la denominación, las normas de la coalición y las personas titulares de sus órganos de dirección o coordinación. La convocatoria se publicó el 6 de octubre de 2026.",
-        ],
-      },
-      {
-        id: "lo-que-dicen-las-cronicas",
-        title: "Lo que dicen las crónicas del Frente Amplio",
-        paragraphs: [
-          "El Plural, el 5 de octubre de 2026, escribió que partidos de Sumar confirmaban reeditar la coalición con el nombre Frente Amplio y que arrancaban sin candidato. RTVE, el 6 de octubre, escribió que ese espacio anunciaba presentar el Frente Amplio y un candidato, y que el nombre seguía sin cerrarse.",
-          "Esas dos piezas son prensa. No son el impreso de coalición de la Junta ni una lista del BOE. Un partido que ya está en el registro puede presentarse solo. Quien entra en una coalición en una circunscripción no presenta allí candidatura propia si la coalición concurre a la misma elección: lo dice el artículo 44.3.",
-        ],
-      },
-      {
-        id: "cuando-hay-lista",
-        title: "Cuándo hay una lista oficial",
-        paragraphs: [
-          "Las candidaturas se presentan entre el decimoquinto y el vigésimo día posteriores a la convocatoria, artículo 45. Se publican el vigésimo segundo día y se proclaman el vigésimo séptimo, artículo 47. El calendario mural de Interior es el cuadro de esta convocatoria.",
-          "Hasta esa proclamación, un titular de periódico no coloca un nombre en la papeleta. Los impresos de coalición y de candidatura de estas Cortes están en la página de Infoelectoral del 29-N.",
-        ],
-      },
-    ],
-  },
-  {
-    id: "huelga-general-sindicatos-2026",
-    pack: "elecciones",
-    path: "/elecciones/huelga-general-sindicatos",
-    h1: "Huelga general de los sindicatos por la vivienda y los salarios",
-    title: "Huelga general: UGT y CCOO no han fijado el día",
-    description:
-      "El comunicado de UGT y CCOO del 6 de octubre de 2026 anuncia una huelga de 24 horas este otoño y deja la fecha para más adelante. El 29 de noviembre sigue siendo el día de las elecciones.",
-    lead:
-      "Quien busca «sindicatos huelga» o «huelga general vivienda» encuentra el acuerdo que UGT publicó el 6 de octubre de 2026 junto con CCOO: una huelga general de 24 horas este otoño, por salarios que alcancen para una vivienda. El comunicado no fija el día. Tiene que ratificarlo los órganos de dirección y la fecha se hablará con las organizaciones sociales y el Sindicato de Inquilinas.",
-    reviewedAt,
-    cta: {
-      href: "https://ugt.es/ugt-y-ccoo-acuerdan-la-convocatoria-de-una-huelga-general-este-otono",
-      label: "Leer el comunicado de UGT y CCOO",
-    },
-    secondaryCta: {
-      href: "https://www.boe.es/buscar/doc.php?id=BOE-A-1977-6061",
-      label: "Abrir el Real Decreto-ley 17/1977",
-    },
-    sources: [
-      {
-        href: "https://ugt.es/ugt-y-ccoo-acuerdan-la-convocatoria-de-una-huelga-general-este-otono",
-        label: "UGT, 6 de octubre de 2026: acuerdo de huelga de 24 horas, sin fecha",
-      },
-      {
-        href: "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a28",
-        label: "Constitución, artículo 28.2: derecho de huelga",
-      },
-      {
-        href: "https://www.boe.es/buscar/doc.php?id=BOE-A-1977-6061",
-        label: "Real Decreto-ley 17/1977: preaviso de la huelga",
-      },
-      votoSources[0],
-    ],
-    related: [
-      { href: "/alquiler/propuestas-vivienda-6-octubre-2026", label: "Propuestas de vivienda del 6 de octubre" },
-      { href: "/elecciones/calendario-29-noviembre", label: "El 29 de noviembre no se mueve con la huelga" },
-      { href: "/elecciones/voto-por-correo", label: "Voto por correo" },
-    ],
-    disclaimer:
-      "No somos UGT, CCOO ni la autoridad laboral. El día de la huelga es el que comuniquen los convocantes. Esta ficha se cerró el 6 de octubre de 2026, cuando el comunicado aún no traía fecha.",
-    faqs: [
-      {
-        q: "¿Qué día es la huelga general?",
-        a: "El comunicado de UGT del 6 de octubre de 2026 no da un día. Dice que la fecha se analizará con las organizaciones sociales y el Sindicato de Inquilinas, y que el acuerdo debe ratificarlo los órganos de dirección.",
-      },
-      {
-        q: "¿La huelga cambia el día de las elecciones?",
-        a: "No. El Real Decreto 806/2026 convoca las elecciones para el domingo 29 de noviembre de 2026. Una convocatoria de huelga no modifica ese real decreto.",
-      },
-    ],
-    sections: [
-      {
-        id: "comunicado",
-        title: "Qué dice el comunicado y qué no dice",
-        paragraphs: [
-          "UGT fecha la nota el 6 de octubre de 2026. El texto acuerda, pendiente de ratificación, una huelga general de 24 horas este otoño para reivindicar salarios dignos con los que acceder a una vivienda. Recuerda la propuesta sindical para el VI Acuerdo para el Empleo y la Negociación Colectiva, con incrementos de entre el 4 % y el 7 %, y un decálogo de vivienda: pacto, parque público, límite del precio del alquiler y aplicación de la Ley por el Derecho a la Vivienda.",
-          "Esos porcentajes son la propuesta que el comunicado atribuye a la negociación del acuerdo de empleo. No son un salario publicado en el BOE.",
-          "La nota llama a secundar la huelga en los centros de trabajo y en la calle. No nombra hora ni fecha. Hasta que los convocantes publiquen el día, una crónica que adelante noviembre o la víspera de la campaña es una previsión, no la convocatoria.",
-        ],
-      },
-      {
-        id: "preaviso",
-        title: "El preaviso legal, cuando haya fecha",
-        paragraphs: [
-          "El artículo 28.2 de la Constitución reconoce el derecho de huelga y remite a la ley las garantías para mantener los servicios esenciales.",
-          "El artículo 3 del Real Decreto-ley 17/1977 exige comunicar la huelga por escrito al empresario y a la autoridad laboral, con cinco días naturales de antelación como mínimo. La comunicación incluye los objetivos, las gestiones hechas, la fecha de inicio y la composición del comité de huelga. El artículo 4 sube ese preaviso a diez días naturales si la huelga afecta a empresas de servicios públicos, y pide dar publicidad a los usuarios antes de empezar.",
-          "La sentencia del Tribunal Constitucional 11/1981 revisó partes de ese real decreto-ley. El preaviso que sigue publicado es el de esos artículos. Esta página no organiza un paro ni sustituye al comité de huelga.",
-        ],
-      },
-      {
-        id: "elecciones",
-        title: "La huelga y la papeleta van por sitios distintos",
-        paragraphs: [
-          "El Congreso y el Senado se eligen el 29 de noviembre de 2026. La campaña del real decreto va del 13 al 27 de noviembre. Quien quiera votar y no pueda ir a la mesa tiene el voto por correo, con su propio plazo.",
-          "Un día de huelga, cuando se convoque, no abre ni cierra el censo. El colegio electoral de esa convocatoria es el de la Junta y la Oficina del Censo, no el de la asamblea sindical.",
-        ],
-      },
-    ],
-  },
+  {"id": "nuevo-partido-coalicion-29n", "pack": "elecciones", "path": "/elecciones/nuevo-partido-coalicion", "h1": "Coaliciones y listas del 29 de noviembre: qué hay registrado", "title": "Coaliciones del 29-N: las 9 registradas en la Junta Electoral", "description": "La Junta Electoral Central ha validado 9 coaliciones para el 29-N, del Frente Amplio a D21. Dónde se presenta cada una y cuándo salen las listas.", "lead": "El plazo para comunicar coaliciones terminó el 16 de octubre de 2026. La Junta Electoral Central publica nueve coaliciones válidamente constituidas para estas elecciones, entre ellas Frente Amplio y Democracia para el siglo 21 (D21). Las listas con nombres se presentan del 21 al 26 de octubre y se proclaman el 2 de noviembre.", "reviewedAt": "2026-10-18", "cta": {"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales", "label": "Ver la lista de coaliciones en la Junta Electoral Central"}, "secondaryCta": {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Calendario de candidaturas de la Junta"}, "sources": [{"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales", "label": "Junta Electoral Central: coaliciones válidamente constituidas para el 29 de noviembre"}, {"href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf", "label": "Junta Electoral Central: calendario electoral de las elecciones generales 2026"}, {"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#acuarentaycuatro", "label": "LOREG, artículo 44: partidos, coaliciones y plazo de comunicación"}, {"href": "https://infoelectoral.interior.gob.es/es/formaciones-politicas/financiacion-de-partidos-politicos/informacion-especifica-para-coaliciones-electorales/", "label": "Interior: una coalición no se inscribe en el Registro de Partidos"}, {"href": "https://infoelectoral.interior.gob.es/es/proceso-electoral/preguntas-frecuentes/candidatos-y-candidaturas/", "label": "Interior (Infoelectoral): candidatos y candidaturas"}, {"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml", "label": "RTVE, 12 de octubre de 2026: el Frente Amplio designa a Ada Colau"}, {"href": "https://www.publico.es/politica/frente-amplio-podemos-concurriran-separado-29-noviembre-salvo-canarias-pais-valencia.html", "label": "Público, 17 de octubre de 2026: Frente Amplio y Podemos, por separado salvo en Canarias y País Valencià"}, {"href": "https://www.boe.es/eli/es/rd/2026/10/05/806", "label": "BOE: Real Decreto 806/2026, convocatoria del 29 de noviembre"}], "related": [{"href": "/elecciones/calendario-29-noviembre", "label": "Calendario completo del 29-N"}, {"href": "/elecciones/promesas", "label": "Qué prometen los partidos"}, {"href": "/elecciones/como-votar-al-senado", "label": "Cómo se vota al Senado"}], "disclaimer": "No somos la Junta Electoral ni un partido. La lista de coaliciones es la publicada por la Junta Electoral Central a 18 de octubre de 2026. Las candidaturas con nombres son las que proclamen las Juntas Electorales Provinciales y publique el BOE.", "faqs": [{"q": "¿Frente Amplio es un partido?", "a": "No. Es una coalición electoral comunicada a la Junta Electoral Central. Interior explica que las coaliciones no se inscriben en el Registro de Partidos Políticos: se constituyen al comunicar el pacto a la Junta."}, {"q": "¿Quién encabeza el Frente Amplio?", "a": "Según RTVE, el 12 de octubre de 2026 Sumar, IU, Más Madrid y Comuns acordaron designar a Ada Colau como candidata a la Presidencia del Gobierno. El orden de las listas será oficial cuando se proclamen las candidaturas."}, {"q": "¿Van juntos Frente Amplio y Podemos?", "a": "Según Público (17 de octubre), solo habrá lista conjunta en Canarias y en la Comunitat Valenciana. La lista de la Junta lo refleja: Podemos está en Unidad del Pueblo Canario y Podem en Compromís."}, {"q": "¿Dónde se presenta Democracia 21?", "a": "La coalición D21 figura en la Junta Electoral Central con ámbito Congreso y Senado en Madrid y Barcelona."}], "sections": [{"id": "lista-jec", "title": "Las nueve coaliciones validadas por la Junta", "paragraphs": ["En el orden de presentación que publica la Junta Electoral Central. Los partidos que no van en coalición se presentan con sus propias siglas y no aparecen en esta lista."], "table": {"caption": "Coaliciones válidamente constituidas ante la Junta Electoral Central (29-N)", "head": ["Nº", "Coalición", "Dónde se presenta"], "rows": [{"cells": ["C1", "Democracia para el siglo 21 (D21)", "Congreso y Senado: Madrid y Barcelona"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales", "label": "Junta Electoral Central: coaliciones válidamente constituidas para el 29 de noviembre"}}, {"cells": ["C2", "Coalición Canaria-Municipalistas Primero Canarias", "Congreso: Canarias. Senado: Tenerife, Gran Canaria, Fuerteventura, Lanzarote, La Palma y La Gomera"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales", "label": "Junta Electoral Central: coaliciones válidamente constituidas para el 29 de noviembre"}}, {"cells": ["C3", "Esquerra Republicana de Catalunya-Euskal Herria Bildu", "Senado: Cataluña, País Vasco y Navarra"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales", "label": "Junta Electoral Central: coaliciones válidamente constituidas para el 29 de noviembre"}}, {"cells": ["C4", "Coalición Existe", "Congreso y Senado: Aragón"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales", "label": "Junta Electoral Central: coaliciones válidamente constituidas para el 29 de noviembre"}}, {"cells": ["C5", "Compromís: Front Valencià (Compromís, EUPV, Podem, ERPV)", "Congreso: Comunitat Valenciana"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales", "label": "Junta Electoral Central: coaliciones válidamente constituidas para el 29 de noviembre"}}, {"cells": ["C6", "Comuns-Front Ampli per la democràcia", "Senado: Cataluña"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales", "label": "Junta Electoral Central: coaliciones válidamente constituidas para el 29 de noviembre"}}, {"cells": ["C7", "Unidad del Pueblo Canario (NC-BC, Podemos, IU, Sumar)", "Congreso y Senado: Canarias"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales", "label": "Junta Electoral Central: coaliciones válidamente constituidas para el 29 de noviembre"}}, {"cells": ["C8", "Senado de Progreso (PSOE, IU, MS, MM, Compromís, CHA, Batzarre)", "Senado: 15 comunidades y Ceuta y Melilla"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales", "label": "Junta Electoral Central: coaliciones válidamente constituidas para el 29 de noviembre"}}, {"cells": ["C9", "Frente Amplio", "Congreso: toda España salvo Canarias, Illes Balears y C. Valenciana"], "source": {"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales", "label": "Junta Electoral Central: coaliciones válidamente constituidas para el 29 de noviembre"}}]}}, {"id": "lo-que-cuenta-la-prensa", "title": "Lo que cuenta la prensa sobre las alianzas", "paragraphs": ["RTVE informó el 12 de octubre de que los cuatro partidos del Frente Amplio (Sumar, IU, Más Madrid y Comuns) designaban a Ada Colau como candidata a la Presidencia. La misma pieza recoge que Podemos acordó con ERC no presentar candidatura propia en Cataluña.", "Público informó el 17 de octubre de que el Frente Amplio registró la coalición sin Podemos. Habrá una lista conjunta de ese espacio en Canarias y en la Comunitat Valenciana; en el resto, listas separadas.", "Estas son crónicas de prensa. Lo que vale para la papeleta es la candidatura proclamada."]}, {"id": "partido-o-coalicion", "title": "Partido inscrito y coalición no son lo mismo", "paragraphs": ["Pueden presentar listas los partidos y federaciones inscritos en el registro, las coaliciones comunicadas a la Junta y las agrupaciones de electores. Lo dice el artículo 44.1 de la LOREG.", "Interior explica que no hay un registro público de coaliciones. Solo pueden integrarlas partidos y federaciones, y el pacto se comunica a la Junta en los diez días siguientes a la convocatoria (artículo 44.2). Quien entra en una coalición en una circunscripción no presenta allí candidatura propia si la coalición concurre a la misma elección (artículo 44.3)."]}, {"id": "cuando-hay-lista", "title": "Cuándo hay una lista oficial con nombres", "paragraphs": [], "lists": [["21 al 26 de octubre: presentación de candidaturas ante las Juntas Electorales Provinciales.", "28 de octubre: el BOE publica las candidaturas presentadas.", "2 de noviembre: proclamación de candidaturas.", "3 de noviembre: el BOE publica las candidaturas proclamadas.", "4 y 5 de noviembre: plazo de recurso contra la proclamación ante el juzgado de lo contencioso-administrativo."]]}]},
+  {"id": "huelga-general-sindicatos-2026", "pack": "elecciones", "path": "/elecciones/huelga-general-sindicatos", "h1": "Huelga general del 11 de noviembre por la vivienda y los salarios", "title": "Huelga general del 11 de noviembre: lo que se sabe", "description": "CCOO, UGT y otros sindicatos convocan huelga general de 24 horas el 11 de noviembre de 2026, por la vivienda y los salarios. Registro, preaviso y elecciones.", "lead": "CCOO y UGT, con el Sindicato de Inquilinas y otras organizaciones, han fijado una huelga general de 24 horas para el miércoles 11 de noviembre de 2026, dos días antes de que empiece la campaña electoral. Según EFE, los convocantes registran la convocatoria en el Ministerio de Trabajo el lunes 19 de octubre; después la Administración fija los servicios mínimos.", "reviewedAt": "2026-10-18", "cta": {"href": "https://www.rtve.es/noticias/20261007/huelga-general-fecha-sindicatos-ccoo-ugt-inquilinas/17256812.shtml", "label": "Leer la información de RTVE"}, "secondaryCta": {"href": "https://www.boe.es/buscar/doc.php?id=BOE-A-1977-6061", "label": "Abrir el Real Decreto-ley 17/1977"}, "sources": [{"href": "https://www.rtve.es/noticias/20261007/huelga-general-fecha-sindicatos-ccoo-ugt-inquilinas/17256812.shtml", "label": "RTVE, 7 de octubre de 2026: los sindicatos fijan la huelga general el 11 de noviembre"}, {"href": "https://www.infobae.com/espana/agencias/2026/10/16/los-sindicatos-registraran-el-lunes-en-trabajo-la-convocatoria-de-huelga-general-del-11n/", "label": "EFE (en Infobae), 16 de octubre de 2026: registro de la convocatoria el 19 de octubre"}, {"href": "https://ugt.es/ugt-y-ccoo-acuerdan-la-convocatoria-de-una-huelga-general-este-otono", "label": "UGT, 6 de octubre de 2026: acuerdo de huelga general de 24 horas"}, {"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a28", "label": "Constitución, artículo 28.2: derecho de huelga"}, {"href": "https://www.boe.es/buscar/doc.php?id=BOE-A-1977-6061", "label": "Real Decreto-ley 17/1977: preaviso de la huelga"}, {"href": "https://www.boe.es/eli/es/rd/2026/10/05/806", "label": "BOE: Real Decreto 806/2026, convocatoria del 29 de noviembre"}], "related": [{"href": "/alquiler/propuestas-vivienda-6-octubre-2026", "label": "Propuestas de vivienda del 6 de octubre"}, {"href": "/elecciones/promesas/que-propone-cada-partido-vivienda", "label": "Vivienda: qué propone cada partido"}, {"href": "/elecciones/calendario-29-noviembre", "label": "Calendario completo del 29-N"}], "disclaimer": "No somos un sindicato ni la autoridad laboral. Esta ficha resume información publicada hasta el 18 de octubre de 2026. Los servicios mínimos los fija la Administración después del registro.", "faqs": [{"q": "¿Qué día es la huelga general?", "a": "El miércoles 11 de noviembre de 2026, 24 horas, según la información de RTVE del 7 de octubre. Es dos días antes del inicio de la campaña del 29-N."}, {"q": "¿Quién la convoca?", "a": "Según EFE, al registro del 19 de octubre acuden CCOO, UGT, CGT, CNT, Unión de Actores y Actrices, CO.BAS, Intersindical y la Confederación de Sindicatos de Inquilinas. RTVE añade que CIG, ELA y LAB presentan su propia convocatoria."}, {"q": "¿Habrá servicios mínimos?", "a": "Sí: tras el registro, la Administración fija los servicios mínimos. A 18 de octubre de 2026 todavía no se han publicado."}, {"q": "¿La huelga cambia el día de las elecciones?", "a": "No. El Real Decreto 806/2026 convoca las elecciones para el domingo 29 de noviembre de 2026. Una huelga no modifica ese real decreto."}], "sections": [{"id": "lo-que-se-sabe", "title": "Lo que se sabe a 18 de octubre", "paragraphs": ["RTVE informó el 7 de octubre de que CCOO y UGT, junto al Sindicato de Inquilinas, acordaban una huelga general de 24 horas el miércoles 11 de noviembre, por la vivienda y los salarios.", "EFE informó el 16 de octubre de que los secretarios generales de CCOO y UGT, Unai Sordo y Pepe Álvarez, registrarán la convocatoria en el Ministerio de Trabajo el lunes 19 de octubre. Según EFE, sería la primera huelga general de 24 horas convocada por CCOO y UGT desde 2012.", "El comunicado de UGT del 6 de octubre vinculaba la huelga a salarios con los que acceder a una vivienda y a un decálogo de vivienda: pacto de Estado, parque público, límite del precio del alquiler y aplicación de la Ley por el Derecho a la Vivienda."]}, {"id": "preaviso", "title": "El preaviso legal y los servicios mínimos", "paragraphs": ["El artículo 28.2 de la Constitución reconoce el derecho de huelga y remite a la ley las garantías para mantener los servicios esenciales.", "El artículo 3 del Real Decreto-ley 17/1977 exige comunicar la huelga por escrito al empresario y a la autoridad laboral con cinco días naturales de antelación como mínimo. El artículo 4 sube ese preaviso a diez días si afecta a servicios públicos.", "La sentencia del Tribunal Constitucional 11/1981 revisó partes de ese real decreto-ley. Esta página no organiza un paro ni sustituye al comité de huelga."]}, {"id": "elecciones", "title": "La huelga y las elecciones van por sitios distintos", "paragraphs": ["La campaña del 29-N va del 13 al 27 de noviembre. La huelga del 11 de noviembre cae antes y no mueve ninguna fecha electoral.", "El 11 de noviembre ya está en marcha el envío de la documentación del voto por correo (del 9 al 22 de noviembre, según la Junta Electoral Central). Si esperas ese envío, revisa los avisos de Correos esos días.", "La vivienda es también un tema de campaña: puedes comparar qué propone cada partido en la página de vivienda del 29-N."]}]},
   {
     id: "decretos-vivienda-octubre-2026",
     pack: "alquiler",
@@ -521,7 +289,7 @@ export const ACTUALIDAD_20261006_GUIDES: Guide[] = [
     related: [
       { href: "/alquiler/decretos-vivienda-derogados-octubre-2026", label: "Los decretos del 29 de septiembre quedaron derogados" },
       { href: "/alquiler/plan-vivienda-2026-2030", label: "Plan Estatal que sí está publicado" },
-      { href: "/elecciones/huelga-general-sindicatos", label: "Huelga anunciada por vivienda y salarios" },
+      { href: "/elecciones/huelga-general-sindicatos", label: "Huelga general del 11 de noviembre" },
     ],
     disclaimer:
       "No aplicamos una deducción ni un préstamo con esta ficha. Las cifras salen de la rueda de prensa resumida por La Moncloa el 6 de octubre de 2026. El texto que obliga es el que publique el BOE, si lo publica.",

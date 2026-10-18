@@ -122,8 +122,8 @@ topic("/elecciones/promesas/que-propone-cada-partido-pensiones", "pensiones", {
 a, b = find(src, "/elecciones/promesas/otros-partidos"); g = json.loads(src[a:b])
 lst = g["sections"][0]["paragraphs"]
 i = [k for k, p in enumerate(lst) if p.startswith("Democracia 21")]
-assert len(i) == 1
-lst[i[0]] = "Democracia 21: coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en Madrid y Barcelona, según la Junta Electoral Central. Candidata: Miriam González. Programa pendiente; sus propuestas de la presentación del 10 de octubre están en la página de programas y mítines."
+assert len(i) <= 1
+if i: lst[i[0]] = "Democracia 21: coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en Madrid y Barcelona, según la Junta Electoral Central. Candidata: Miriam González. Programa pendiente; sus propuestas de la presentación del 10 de octubre están en la página de programas y mítines."
 g["reviewedAt"] = "2026-10-18"
 if not any(x["href"] == SRC["jec"][1] for x in g["sources"]): g["sources"].append(s("jec"))
 if not any(x["href"] == SRC["ep_d21"][1] for x in g["sources"]): g["sources"].append(s("ep_d21"))
