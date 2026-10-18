@@ -3,7 +3,7 @@ import { ELECCIONES_EXPLICADORES_GUIDES } from "@/lib/tramites/promesas-29n";
 import { renderGuideHtml } from "@/lib/render/server";
 
 const g = ELECCIONES_EXPLICADORES_GUIDES.find((x) => x.path === "/elecciones/programas-electorales-29n")!;
-const ORDER = ["pp", "psoe", "vox", "frente-amplio", "podemos", "erc", "junts", "eh-bildu", "pnv", "bng", "cc", "upn"];
+const ORDER = ["pp", "psoe", "vox", "frente-amplio", "podemos", "erc", "junts", "eh-bildu", "pnv", "bng", "cc", "upn", "democracia-21"];
 
 describe("programas-electorales-29n: mítines 18-oct", () => {
   it("opens saying no programme has been published", () => {

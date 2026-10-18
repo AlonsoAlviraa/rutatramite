@@ -19,7 +19,7 @@ describe("gestiones clave 2026-10-13 (Cl@ve, FNMT, vida laboral, SEPE, IMV)", ()
       expect(html).toContain('"@type":"FAQPage"');
       expect(html).toContain(g.h1);
     }
-    expect(guidesIn("/trabajo").map((g) => g.path).sort()).toEqual(["/trabajo/cita-previa-sepe", "/trabajo/ingreso-minimo-vital", "/trabajo/vida-laboral"]);
+    expect(guidesIn("/trabajo").map((g) => g.path).sort()).toEqual(["/trabajo/cita-previa-sepe", "/trabajo/como-pedir-la-jubilacion", "/trabajo/ingreso-minimo-vital", "/trabajo/revalorizacion-pensiones-2026", "/trabajo/vida-laboral"]);
   });
   it("DNI validity follows RD 255/2025 (no 'permanente')", () => {
     const v = DNI_FAQS.find((f) => f.q.includes("Cuánto dura"))!;

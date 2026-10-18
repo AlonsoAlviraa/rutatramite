@@ -728,12 +728,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-inmigracion",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-18",
 "path": "/elecciones/promesas/que-propone-cada-partido-inmigracion",
 "h1": "Qué propone cada partido sobre inmigración para el 29-N",
-"title": "Inmigración: qué propone cada partido el 29-N",
-"description": "Inmigración en las elecciones del 29 de noviembre: qué propone PP, PSOE, Vox, Frente Amplio y Podemos, con la cita y la fuente de cada medida.",
-"lead": "Respuesta corta: 1 de los 5 partidos principales han concretado algo sobre inmigración a 13 de octubre de 2026; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"title": "Inmigración el 29-N: qué proponen PP, PSOE, Vox y el resto",
+"description": "Qué dicen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21 sobre inmigración antes del 29-N: cada medida con quién la dijo, cuándo y su fuente.",
+"lead": "Respuesta corta: a 18 de octubre de 2026 ningún partido ha publicado su programa para el 29-N. Han hecho propuestas o declaraciones fechadas sobre inmigración PP, PSOE, Vox, Podemos y Democracia 21; de Frente Amplio no hemos encontrado ninguna concreta. Abajo, cada partido con la misma estructura.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -748,11 +748,39 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
 },
 {
-"label": "voxespana.es: acto de Estepona (11 de octubre de 2026, web oficial del partido)",
+"label": "El Español, 07-10-2026: Feijóo en Ceuta",
+"href": "https://www.elespanol.com/espana/politica/20261007/feijoo-presidente-solo-debe-defender-muro-frontera-ceuta-primera-carpeta-consejo-ministros/1003744411845_0.html"
+},
+{
+"label": "Europa Press, 14-10-2026: Sánchez en Zaragoza",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+},
+{
+"label": "voxespana.es: acto de Estepona, 11-10-2026 (web oficial del partido)",
 "href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+},
+{
+"label": "ABC (EFE), 12-10-2026: Abascal en Ceuta",
+"href": "https://www.abc.es/sociedad/abascal-exige-ceuta-militarizar-frontera-expulsar-migrantes-20261012153921-nt.html"
+},
+{
+"label": "El Periódico, 02-02-2026: peticiones de Podemos tras la regularización",
+"href": "https://www.elperiodico.com/es/politica/20260202/pedira-gobierno-migrantes-regularizados-puedan-126353274"
+},
+{
+"label": "Europa Press, 10-10-2026: presentación de Democracia 21",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "Junta Electoral Central: coaliciones de las generales del 29-N",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 ],
 "related": [
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas y mítines del 29-N"
+},
 {
 "href": "/elecciones/promesas",
 "label": "Promesas del 29-N: todas las medidas"
@@ -777,16 +805,24 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
 "faqs": [
 {
+"q": "¿Qué propone Vox sobre inmigración?",
+"a": "Abascal propuso el 11-10-2026 la «remigración»: repatriar a quien entra de forma irregular, que los extranjeros que delinquen cumplan la pena en su país y que vuelvan quienes vienen «a vivir de las ayudas sociales» (web de Vox). El 12-10-2026 pidió militarizar la frontera de Ceuta (ABC)."
+},
+{
+"q": "¿Qué propone el PP sobre inmigración?",
+"a": "Feijóo prometió en Ceuta el 07-10-2026 una ley de extranjería que permita expulsiones inmediatas por entradas irregulares (El Español)."
+},
+{
+"q": "¿Qué dicen PSOE, Frente Amplio, Podemos y Democracia 21?",
+"a": "Sánchez defendió la regularización de migrantes el 14-10-2026 (Europa Press). Podemos pidió en febrero que los regularizados puedan votar (El Periódico). Democracia 21 habló de «decidir quién entra» y de desterrar los discursos xenófobos (Europa Press, 10-10-2026). De Frente Amplio no hemos encontrado propuestas concretas a 18 de octubre."
+},
+{
 "q": "¿Qué partido propone más sobre inmigración?",
-"a": "No lo valoramos. Mostramos todas las medidas concretas que cada partido ha publicado o anunciado, con la misma estructura para todos."
+"a": "No lo valoramos. Mostramos todas las medidas y declaraciones concretas con fuente fechada, con la misma estructura para todos."
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 13 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
-},
-{
-"q": "¿Por qué algunas medidas pone «prensa»?",
-"a": "Porque el anuncio solo aparece en medios y no en un documento oficial del partido. Lo indicamos para que sepas cuánto peso darle."
+"a": "A 18 de octubre de 2026 ningún partido ha publicado su programa completo para el 29-N. Actualizamos esta página cuando lo hagan."
 }
 ],
 "sections": [
@@ -794,43 +830,98 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "pp",
 "title": "Partido Popular (PP)",
 "paragraphs": [
-"Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
-]
-},
-{
-"id": "psoe",
-"title": "Partido Socialista Obrero Español (PSOE)",
-"paragraphs": [
-"Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
-]
-},
-{
-"id": "vox",
-"title": "Vox",
-"paragraphs": [
-"Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
-"«El que viene ilegalmente a España tiene que ser repatriado» (voxespana.es: acto de Estepona, 11 de octubre de 2026)."
+"Candidato: Alberto Núñez Feijóo. Programa para el 29-N: no publicado a 18 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre inmigración: 1."
 ],
 "table": {
-"caption": "Vox: medidas sobre inmigración",
+"caption": "Partido Popular: inmigración",
 "head": [
-"Partido",
-"Medida",
+"Medida o declaración",
+"Quién, dónde y cuándo",
 "Tipo de fuente",
 "Fuente"
 ],
 "rows": [
 {
 "cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
+"Una nueva ley de extranjería que permita expulsiones inmediatas por entradas irregulares. Sobre Ceuta: «La única solución es que los 15.000 se vayan de Ceuta y se vayan de España».",
+"Alberto Núñez Feijóo, acto de precampaña en Ceuta, 07-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español, 07-10-2026: Feijóo en Ceuta",
+"href": "https://www.elespanol.com/espana/politica/20261007/feijoo-presidente-solo-debe-defender-muro-frontera-ceuta-primera-carpeta-consejo-ministros/1003744411845_0.html"
+}
+}
+]
+}
+},
+{
+"id": "psoe",
+"title": "Partido Socialista Obrero Español (PSOE)",
+"paragraphs": [
+"Candidato: Pedro Sánchez. Programa para el 29-N: no publicado a 18 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre inmigración: 1."
+],
+"table": {
+"caption": "Partido Socialista Obrero Español: inmigración",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Defendió la regularización de migrantes: de 1,2 millones de personas en trámites para obtener permiso de residencia y trabajo, «casi medio millón están trabajando y cotizando a la Seguridad Social».",
+"Pedro Sánchez, acto en Zaragoza, 14-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press, 14-10-2026: Sánchez en Zaragoza",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+}
+}
+]
+}
+},
+{
+"id": "vox",
+"title": "Vox",
+"paragraphs": [
+"Candidato: Santiago Abascal. Tiene un «Programa de desregulación» temático de junio de 2026, que no es el programa del 29-N. Programa para el 29-N: no publicado a 18 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre inmigración: 2."
+],
+"table": {
+"caption": "Vox: inmigración",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"«Remigración»: repatriar a quien entra en España de forma irregular, que los extranjeros que cometen delitos cumplan la pena en su país y que vuelvan quienes vienen «a vivir de las ayudas sociales».",
+"Santiago Abascal, mitin en Estepona (Málaga), 11-10-2026",
 "web oficial del partido"
 ],
 "source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
+"label": "voxespana.es: acto de Estepona, 11-10-2026 (web oficial del partido)",
 "href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+}
+},
+{
+"cells": [
+"Militarizar la frontera de Ceuta con Marruecos y expulsar a quienes entraron de forma irregular en la crisis de finales de julio.",
+"Santiago Abascal, comparecencia en Ceuta, 12-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC (EFE), 12-10-2026: Abascal en Ceuta",
+"href": "https://www.abc.es/sociedad/abascal-exige-ceuta-militarizar-frontera-expulsar-migrantes-20261012153921-nt.html"
 }
 }
 ]
@@ -840,24 +931,77 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Candidata: Ada Colau. Programa para el 29-N: no publicado a 18 de octubre de 2026.",
+"No hemos encontrado propuestas ni declaraciones concretas verificables de este partido sobre este tema a 18 de octubre de 2026."
 ]
 },
 {
 "id": "podemos",
 "title": "Podemos",
 "paragraphs": [
-"Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Candidata: Irene Montero. Programa para el 29-N: no publicado a 18 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre inmigración: 1."
+],
+"table": {
+"caption": "Podemos: inmigración",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Pedir que los migrantes regularizados puedan votar y una reforma legal que acorte los plazos para obtener la nacionalidad; condicionar la cesión de competencias migratorias a Cataluña al cierre de los CIE.",
+"Pablo Fernández, portavoz de Podemos, rueda de prensa en Madrid, 02-02-2026 (antes de la convocatoria)",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Periódico, 02-02-2026: peticiones de Podemos tras la regularización",
+"href": "https://www.elperiodico.com/es/politica/20260202/pedira-gobierno-migrantes-regularizados-puedan-126353274"
+}
+}
 ]
+}
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (partido nuevo)",
+"paragraphs": [
+"Candidata: Miriam González. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en Madrid y Barcelona, según la Junta Electoral Central. Programa para el 29-N: no publicado a 18 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre inmigración: 1."
+],
+"table": {
+"caption": "Democracia 21: inmigración",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"La inmigración como «activo y ventaja competitiva», con una política «sensata y con cabeza»: «Tenemos que desterrar los discursos xenófobos, pero decidiendo quién entra, cómo entra, cuándo entra y cuándo sale si tiene que salir».",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press, 10-10-2026: presentación de Democracia 21",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
 },
 {
 "id": "como-leer",
 "title": "Cómo leer esta comparativa",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar).",
-"Que un partido tenga más filas no significa que su propuesta sea mejor: solo refleja cuántas medidas concretas ha publicado hasta ahora. Las marcadas como «prensa» no tienen todavía un documento oficial del partido."
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, que no concurrió en 2023, va al final.",
+"Mismas secciones para todos. Una declaración en un mitin no es el programa electoral: el programa puede recogerla, cambiarla o no incluirla. Que un partido tenga más filas no significa que su propuesta sea mejor.",
+"No recogemos críticas a otros partidos ni valoramos las propuestas. Las filas marcadas como «prensa» no tienen un documento oficial del partido."
 ]
 }
 ]
@@ -1050,12 +1194,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-pensiones",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-18",
 "path": "/elecciones/promesas/que-propone-cada-partido-pensiones",
 "h1": "Qué propone cada partido sobre pensiones para el 29-N",
-"title": "Pensiones: qué propone cada partido el 29-N",
-"description": "Pensiones en las elecciones del 29 de noviembre: qué propone PP, PSOE, Vox, Frente Amplio y Podemos, con la cita y la fuente de cada medida.",
-"lead": "Respuesta corta: 1 de los 5 partidos principales han concretado algo sobre pensiones a 13 de octubre de 2026; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"title": "Pensiones el 29-N: qué proponen PP, PSOE, Vox y el resto",
+"description": "Qué dicen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21 sobre pensiones antes del 29-N: cada medida con quién la dijo, cuándo y su fuente.",
+"lead": "Respuesta corta: a 18 de octubre de 2026 ningún partido ha publicado su programa para el 29-N. PP, PSOE y Vox se han comprometido a actualizar o pagar las pensiones; Frente Amplio dice que no permitirá que se «cargue» el sistema y Podemos propone jubilarse antes sin recorte con 40 años cotizados. De Democracia 21 no hemos encontrado declaraciones sobre pensiones.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -1070,11 +1214,47 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
 },
 {
-"label": "voxespana.es: acto de Estepona (11 de octubre de 2026, web oficial del partido)",
+"label": "El País, 15-10-2026: Feijóo en Bruselas",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+},
+{
+"label": "Europa Press, 14-10-2026: Sánchez en Zaragoza",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+},
+{
+"label": "Europa Press, 17-10-2026: Sánchez en Fuenlabrada",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+},
+{
+"label": "voxespana.es: acto de Estepona, 11-10-2026 (web oficial del partido)",
 "href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+},
+{
+"label": "Europa Press, 11-10-2026: Abascal en Estepona",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+},
+{
+"label": "elDiario.es, 17-10-2026: presentación del Frente Amplio",
+"href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+},
+{
+"label": "El Debate, 22-09-2026: ley de Podemos sobre jubilación anticipada",
+"href": "https://www.eldebate.com/economia/20260922/congreso-aprueba-tramitar-no-penalizar-jubilacion-anticipada-40-anos-cotizados_461700.html"
+},
+{
+"label": "Junta Electoral Central: coaliciones de las generales del 29-N",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 ],
 "related": [
+{
+"href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
+"label": "¿Quiere algún partido quitar las pensiones?"
+},
+{
+"href": "/trabajo/revalorizacion-pensiones-2026",
+"label": "Subida de las pensiones en 2026"
+},
 {
 "href": "/elecciones/promesas",
 "label": "Promesas del 29-N: todas las medidas"
@@ -1099,16 +1279,16 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
 "faqs": [
 {
+"q": "¿Algún partido quiere quitar las pensiones?",
+"a": "A 18 de octubre de 2026 no hemos encontrado ninguna declaración en ese sentido. Lo explicamos partido a partido en «¿Quiere algún partido quitar las pensiones?»."
+},
+{
 "q": "¿Qué partido propone más sobre pensiones?",
-"a": "No lo valoramos. Mostramos todas las medidas concretas que cada partido ha publicado o anunciado, con la misma estructura para todos."
+"a": "No lo valoramos. Mostramos todas las medidas y declaraciones concretas con fuente fechada, con la misma estructura para todos."
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 13 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
-},
-{
-"q": "¿Por qué algunas medidas pone «prensa»?",
-"a": "Porque el anuncio solo aparece en medios y no en un documento oficial del partido. Lo indicamos para que sepas cuánto peso darle."
+"a": "A 18 de octubre de 2026 ningún partido ha publicado su programa completo para el 29-N. Actualizamos esta página cuando lo hagan."
 }
 ],
 "sections": [
@@ -1116,43 +1296,109 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "pp",
 "title": "Partido Popular (PP)",
 "paragraphs": [
-"Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
-]
-},
-{
-"id": "psoe",
-"title": "Partido Socialista Obrero Español (PSOE)",
-"paragraphs": [
-"Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
-]
-},
-{
-"id": "vox",
-"title": "Vox",
-"paragraphs": [
-"Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
-"«se van a pagar al precio que sea y como sea» (voxespana.es: acto de Estepona, 11 de octubre de 2026)."
+"Candidato: Alberto Núñez Feijóo. Programa para el 29-N: no publicado a 18 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre pensiones: 1."
 ],
 "table": {
-"caption": "Vox: medidas sobre pensiones",
+"caption": "Partido Popular: pensiones",
 "head": [
-"Partido",
-"Medida",
+"Medida o declaración",
+"Quién, dónde y cuándo",
 "Tipo de fuente",
 "Fuente"
 ],
 "rows": [
 {
 "cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
+"«Las pensiones se actualizarán con el IPC»; garantizar el sistema público de pensiones y su viabilidad, que llamó «innegociables».",
+"Alberto Núñez Feijóo, comparecencia en Bruselas, 15-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El País, 15-10-2026: Feijóo en Bruselas",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+}
+}
+]
+}
+},
+{
+"id": "psoe",
+"title": "Partido Socialista Obrero Español (PSOE)",
+"paragraphs": [
+"Candidato: Pedro Sánchez. Programa para el 29-N: no publicado a 18 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre pensiones: 2."
+],
+"table": {
+"caption": "Partido Socialista Obrero Español: pensiones",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"«Cuatro años más de revalorización de las pensiones conforme al IPC» y «cero recortes».",
+"Pedro Sánchez, acto en Zaragoza, 14-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press, 14-10-2026: Sánchez en Zaragoza",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+}
+},
+{
+"cells": [
+"«Las pensiones no se tocan».",
+"Pedro Sánchez, mitin en Fuenlabrada (Madrid), 17-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press, 17-10-2026: Sánchez en Fuenlabrada",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+}
+}
+]
+}
+},
+{
+"id": "vox",
+"title": "Vox",
+"paragraphs": [
+"Candidato: Santiago Abascal. Tiene un «Programa de desregulación» temático de junio de 2026, que no es el programa del 29-N. Programa para el 29-N: no publicado a 18 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre pensiones: 2."
+],
+"table": {
+"caption": "Vox: pensiones",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Garantizar el pago de las pensiones, sin detallar la fórmula de revalorización.",
+"Santiago Abascal, mitin en Estepona (Málaga), 11-10-2026",
 "web oficial del partido"
 ],
 "source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
+"label": "voxespana.es: acto de Estepona, 11-10-2026 (web oficial del partido)",
 "href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+}
+},
+{
+"cells": [
+"Las pensiones «se van a pagar al precio que sea y como sea»; «nos da igual el modelo y la fórmula». Negó que Vox vaya a privatizarlas.",
+"Santiago Abascal, mitin en Estepona (Málaga), 11-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press, 11-10-2026: Abascal en Estepona",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
 }
 }
 ]
@@ -1162,24 +1408,77 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Candidata: Ada Colau. Programa para el 29-N: no publicado a 18 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre pensiones: 1."
+],
+"table": {
+"caption": "Frente Amplio: pensiones",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"No permitir que se «cargue» el sistema público de pensiones.",
+"Ernest Urtasun, mitin de presentación en Madrid, 17-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "elDiario.es, 17-10-2026: presentación del Frente Amplio",
+"href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+}
+}
 ]
+}
 },
 {
 "id": "podemos",
 "title": "Podemos",
 "paragraphs": [
-"Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Candidata: Irene Montero. Programa para el 29-N: no publicado a 18 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre pensiones: 1."
+],
+"table": {
+"caption": "Podemos: pensiones",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Proposición de ley para jubilarse anticipadamente sin recorte por coeficientes reductores con 40 años o más cotizados; el Congreso la tomó en consideración.",
+"Ione Belarra, Congreso, 22-09-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Debate, 22-09-2026: ley de Podemos sobre jubilación anticipada",
+"href": "https://www.eldebate.com/economia/20260922/congreso-aprueba-tramitar-no-penalizar-jubilacion-anticipada-40-anos-cotizados_461700.html"
+}
+}
+]
+}
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (partido nuevo)",
+"paragraphs": [
+"Candidata: Miriam González. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en Madrid y Barcelona, según la Junta Electoral Central. Programa para el 29-N: no publicado a 18 de octubre de 2026.",
+"No hemos encontrado propuestas ni declaraciones concretas verificables de este partido sobre este tema a 18 de octubre de 2026."
 ]
 },
 {
 "id": "como-leer",
 "title": "Cómo leer esta comparativa",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar).",
-"Que un partido tenga más filas no significa que su propuesta sea mejor: solo refleja cuántas medidas concretas ha publicado hasta ahora. Las marcadas como «prensa» no tienen todavía un documento oficial del partido."
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, que no concurrió en 2023, va al final.",
+"Mismas secciones para todos. Una declaración en un mitin no es el programa electoral: el programa puede recogerla, cambiarla o no incluirla. Que un partido tenga más filas no significa que su propuesta sea mejor.",
+"No recogemos críticas a otros partidos ni valoramos las propuestas. Las filas marcadas como «prensa» no tienen un documento oficial del partido."
 ]
 }
 ]
@@ -2323,7 +2622,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-otros-partidos",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-18",
 "path": "/elecciones/promesas/otros-partidos",
 "h1": "Otros partidos del 29-N: ERC, Junts, Bildu, PNV, BNG y más",
 "title": "Otros partidos del 29-N: qué proponen",
@@ -2341,9 +2640,21 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "BOE: Real Decreto 806/2026, convocatoria del 29-N",
 "href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
+},
+{
+"label": "Junta Electoral Central: coaliciones de las generales del 29-N",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
+},
+{
+"label": "Europa Press, 10-10-2026: presentación de Democracia 21",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
 }
 ],
 "related": [
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas y mítines del 29-N"
+},
 {
 "href": "/elecciones/promesas",
 "label": "Promesas del 29-N: todas las medidas"
@@ -2384,7 +2695,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "BNG: pendiente de programa.",
 "Coalición Canaria: pendiente de programa.",
 "UPN: pendiente de programa.",
-"Democracia 21 (nuevo, anunciado el 10-10-2026): pendiente de programa."
+"Democracia 21: coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en Madrid y Barcelona, según la Junta Electoral Central. Candidata: Miriam González. Programa pendiente; sus propuestas de la presentación del 10 de octubre están en la página de programas y mítines."
 ]
 },
 {
@@ -14273,6 +14584,18 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "href": "https://www.europapress.es/nacional/noticia-montero-lanza-candidatura-acusa-frente-amplio-preferir-pactar-psoe-senado-podemos-ccaa-20261017123614.html"
 },
 {
+"label": "El Español, 07-10-2026: Feijóo en Ceuta",
+"href": "https://www.elespanol.com/espana/politica/20261007/feijoo-presidente-solo-debe-defender-muro-frontera-ceuta-primera-carpeta-consejo-ministros/1003744411845_0.html"
+},
+{
+"label": "Europa Press, 14-10-2026: Sánchez en Zaragoza (inmigración y pensiones)",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+},
+{
+"label": "Europa Press, 10-10-2026: presentación de Democracia 21",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
 "label": "La Voz de Galicia, 17-10-2026: Rego en Narón",
 "href": "https://www.lavozdegalicia.es/noticia/ferrol/naron/2026/10/17/bng-esixe-naron-sareb-deixe-actuar-coma-unha-inmobiliaria/00031792237421754563899.htm"
 },
@@ -14301,6 +14624,10 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "href": "https://coalicioncanaria.org/cc-apuesta-por-cristina-valido-y-llama-a-la-unidad-nacionalista-para-blindar-la-voz-de-canarias-en-madrid/"
 },
 {
+"label": "Junta Electoral Central: coaliciones de las generales (D21)",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
+},
+{
 "label": "RTVE, 14-10-2026: coalición UPN-PP",
 "href": "https://www.rtve.es/noticias/20261014/upn-pp-sellan-acuerdo-para-concurrir-coalicion-a-elecciones-generales-del-29-n/17266826.shtml"
 }
@@ -14317,6 +14644,14 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "href": "/elecciones",
 "label": "Elecciones del 29-N: cómo votar"
+},
+{
+"href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
+"label": "¿Quiere algún partido quitar las pensiones?"
+},
+{
+"href": "/elecciones/promesas/que-propone-cada-partido-inmigracion",
+"label": "Inmigración: qué propone cada partido"
 }
 ],
 "disclaimer": "Contenido informativo y neutral: recogemos lo que cada partido ha dicho, con quién, dónde, cuándo y la fuente. No valoramos las propuestas ni recomendamos ningún voto.",
@@ -14358,7 +14693,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "paragraphs": [
 "Las propuestas de esta página se han dicho en mítines, actos y comparecencias de precampaña. No son el programa electoral oficial: el programa puede recogerlas, cambiarlas o no incluirlas. Actualizaremos esta página cuando cada partido publique el suyo.",
 "Criterio: solo recogemos propuestas concretas, con quién las dijo, dónde y cuándo, y enlazamos la fuente (web del partido o prensa). No recogemos críticas a otros partidos ni valoramos las propuestas. Si no encontramos propuestas verificables de un partido, lo decimos.",
-"Orden: por votos en las generales del 23 de julio de 2023, el mismo que en nuestra comparativa de promesas. Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar."
+"Orden: por votos en las generales del 23 de julio de 2023, el mismo que en nuestra comparativa de promesas. Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar. Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ]
 },
 {
@@ -14369,14 +14704,14 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 ],
 "lists": [
 [
-"Vivienda: PP, PSOE, Vox, Frente Amplio, Podemos y BNG.",
+"Vivienda: PP, PSOE, Vox, Frente Amplio, Podemos, BNG y Democracia 21.",
 "Pensiones: PP, PSOE, Vox y Frente Amplio.",
-"Empleo y salarios: PP, PSOE y Podemos.",
-"Impuestos: PP y Vox.",
+"Empleo y salarios: PP, PSOE, Podemos y Democracia 21.",
+"Impuestos: PP, Vox y Democracia 21.",
 "Sanidad: no hemos encontrado propuestas concretas verificables en mítines a fecha de 18 de octubre.",
-"Educación: PSOE.",
-"Inmigración: Vox.",
-"Otros temas (burocracia, instituciones, gasto público, defensa y coste de la vida): PP, PSOE y Podemos."
+"Educación: PSOE y Democracia 21.",
+"Inmigración: PP, PSOE, Vox y Democracia 21.",
+"Otros temas (burocracia, instituciones, gasto público, defensa y coste de la vida): PP, PSOE, Podemos y Democracia 21."
 ]
 ]
 },
@@ -14384,7 +14719,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "id": "pp",
 "title": "PP: qué ha propuesto en mítines y actos",
 "paragraphs": [
-"Candidato: Alberto Núñez Feijóo. Actos revisados: mitin en Madrid (10-10), comparecencia en Bruselas (15-10) y acto en Toledo (16-10).",
+"Candidato: Alberto Núñez Feijóo. Actos revisados: acto en Ceuta (07-10), mitin en Madrid (10-10), comparecencia en Bruselas (15-10) y acto en Toledo (16-10).",
 "Programa del 29-N: no publicado a 18 de octubre de 2026."
 ],
 "table": {
@@ -14438,6 +14773,17 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "source": {
 "label": "La Vanguardia, 16-10-2026",
 "href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"Inmigración",
+"Feijóo prometió una ley de extranjería que permita expulsiones inmediatas por entradas irregulares y dijo que «la única solución es que los 15.000 se vayan de Ceuta y se vayan de España».",
+"Feijóo, acto de precampaña en Ceuta, 07-10-2026"
+],
+"source": {
+"label": "El Español, 07-10-2026",
+"href": "https://www.elespanol.com/espana/politica/20261007/feijoo-presidente-solo-debe-defender-muro-frontera-ceuta-primera-carpeta-consejo-ministros/1003744411845_0.html"
 }
 },
 {
@@ -14516,6 +14862,17 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Inmigración",
+"Sánchez vinculó la regularización de migrantes con las pensiones: de 1,2 millones de personas en trámites para obtener permiso de residencia y trabajo, dijo que «casi medio millón están trabajando y cotizando a la Seguridad Social».",
+"Sánchez, mitin en Zaragoza, 14-10-2026"
+],
+"source": {
+"label": "Europa Press, 14-10-2026",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+}
+},
+{
+"cells": [
 "Empleo y salarios",
 "Sánchez prometió bajar el paro a cifras de un dígito hacia 2030.",
 "Sánchez, mitin en Zaragoza, 14-10-2026"
@@ -14580,7 +14937,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "cells": [
 "Pensiones",
-"Abascal dijo que con Vox las pensiones «se van a pagar al precio que sea y como sea».",
+"Abascal dijo que con Vox las pensiones «se van a pagar al precio que sea y como sea» y negó que Vox vaya a privatizarlas.",
 "Abascal, mitin en Estepona (Málaga), 11-10-2026"
 ],
 "source": {
@@ -14833,6 +15190,102 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "Programa del 29-N: no publicado a 18 de octubre de 2026.",
 "No hemos encontrado propuestas concretas verificables en mítines a fecha de 18 de octubre."
 ]
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Candidata: Miriam González. Partido nuevo; concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en Madrid y Barcelona, según la Junta Electoral Central. Acto revisado: presentación en Madrid (10-10).",
+"Programa del 29-N: no publicado a 18 de octubre de 2026."
+],
+"table": {
+"caption": "Democracia 21: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Vivienda",
+"Propuso un plan nacional de construcción de barrios con diez años de seguridad jurídica, y que un joven que gane 1.300 € no pague más de 350 € por su vivienda; mientras tanto, quitar todos los impuestos sobre la vivienda a los menores de 35 años.",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Pidió que Sánchez y Feijóo vayan juntos a Bruselas para destinar 10.000 millones de euros de fondos Next Generation no ejecutados a un fondo soberano de vivienda protegida.",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Impuestos",
+"Propuso «aliviar la presión fiscal» a la vez que se recuperan los servicios públicos.",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Empleo y salarios",
+"Propuso quitar obstáculos al emprendimiento y una «política sostenible de subidas de salarios».",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Educación",
+"Propuso titulaciones más flexibles y más prácticas.",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Inmigración",
+"Defendió la inmigración como «activo y ventaja competitiva» con una política «sensata y con cabeza»: «Tenemos que desterrar los discursos xenófobos, pero decidiendo quién entra, cómo entra, cuándo entra y cuándo sale si tiene que salir».",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Otros: instituciones",
+"Propuso nombramientos por mérito y recortar el 90 % de los asesores, despolitizar el CGPJ, que la Fiscalía responda ante el Parlamento, juzgados especializados anticorrupción, acabar con los aforamientos, recortar las subvenciones a partidos y fundaciones, y que los diputados se reúnan con sus votantes al menos cada dos semanas.",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
 },
 {
 "id": "donde",

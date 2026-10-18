@@ -263,6 +263,12 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 - [Deflactar el IRPF: qué significa y a quién afecta](https://rutatramite.com/elecciones/deflactar-irpf-que-significa)
 - [Cómo se elige al presidente del Gobierno tras el 29-N](https://rutatramite.com/elecciones/como-se-elige-presidente-gobierno)
 - [Diputados por provincia el 29-N: cuántos elige la tuya](https://rutatramite.com/elecciones/diputados-por-provincia-29n)
+- [¿Quiere algún partido quitar las pensiones? Lo que ha dicho cada uno](https://rutatramite.com/elecciones/quiere-algun-partido-quitar-las-pensiones)
+- [¿Quiere el PP quitar las pensiones? Lo que ha dicho y votado](https://rutatramite.com/elecciones/quiere-el-pp-quitar-las-pensiones)
+- [¿Quiere el PSOE quitar las pensiones? Lo que ha dicho y votado](https://rutatramite.com/elecciones/quiere-el-psoe-quitar-las-pensiones)
+- [¿Quiere Vox quitar las pensiones? Lo que ha dicho y votado](https://rutatramite.com/elecciones/quiere-vox-quitar-las-pensiones)
+- [¿Quiere Frente Amplio quitar las pensiones? Lo que ha dicho y votado](https://rutatramite.com/elecciones/quiere-frente-amplio-quitar-las-pensiones)
+- [¿Quiere Podemos quitar las pensiones? Lo que ha dicho y votado](https://rutatramite.com/elecciones/quiere-podemos-quitar-las-pensiones)
 
 ## Ayudas del Estado según cada gobierno
 
@@ -324,6 +330,8 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 - [Informe de vida laboral: cómo descargarlo por SMS, Cl@ve o certificado](https://rutatramite.com/trabajo/vida-laboral)
 - [Cita previa del SEPE para el paro: cómo pedirla y alternativas](https://rutatramite.com/trabajo/cita-previa-sepe)
 - [Ingreso mínimo vital 2026: cuánto se cobra, requisitos y cómo pedirlo](https://rutatramite.com/trabajo/ingreso-minimo-vital)
+- [Subida de las pensiones en 2026: el 2,7 %, la pensión máxima y las mínimas](https://rutatramite.com/trabajo/revalorizacion-pensiones-2026)
+- [Cómo pedir la jubilación en 2026: edad, plazos, simulador y solicitud](https://rutatramite.com/trabajo/como-pedir-la-jubilacion)
 
 ## Modelos y cartas
 

@@ -75,7 +75,7 @@ export const GESTIONES_CLAVE_GUIDES: Guide[] = [
     cta: { href: S.vida.href, label: "Ir a Import@ss" },
     secondaryCta: { href: "/dni/clave-registrarse", label: "Registrarse en Cl@ve" },
     sources: [S.vida],
-    related: [{ href: "/trabajo/cita-previa-sepe", label: "Cita previa del SEPE" }, { href: "/certificado-empresa-sepe", label: "Certificado de empresa para el SEPE" }, { href: "/trabajo/ingreso-minimo-vital", label: "Ingreso mínimo vital 2026" }],
+    related: [{ href: "/trabajo/cita-previa-sepe", label: "Cita previa del SEPE" }, { href: "/certificado-empresa-sepe", label: "Certificado de empresa para el SEPE" }, { href: "/trabajo/ingreso-minimo-vital", label: "Ingreso mínimo vital 2026" }, { href: "/trabajo/como-pedir-la-jubilacion", label: "Cómo pedir la jubilación en 2026" }, { href: "/trabajo/revalorizacion-pensiones-2026", label: "Subida de las pensiones en 2026" }],
     faqs: [
       { q: "¿Cómo saco la vida laboral sin certificado digital?", a: "Por SMS: en Import@ss elige la opción de vía SMS, escribe tu DNI o NIE, tu fecha de nacimiento y el móvil que tienes registrado en la Seguridad Social, y recibirás un código para descargar el PDF." },
       { q: "¿Y si mi móvil no está registrado en la Seguridad Social?", a: "Import@ss permite comunicarlo sin identificación electrónica, con una foto de tu documento y un selfie. Cuando lo validen, ya podrás usar la vía SMS." },
