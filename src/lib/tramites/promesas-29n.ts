@@ -14201,8 +14201,8 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "path": "/elecciones/programas-electorales-29n",
 "h1": "Programas electorales del 29-N: cuándo se publican y dónde leerlos",
 "title": "Programas electorales del 29-N: cuándo salen y dónde verlos",
-"description": "¿Han salido ya los programas electorales del 29-N? A 18 de octubre ningún partido principal ha publicado el suyo. Fechas clave y dónde leerlos.",
-"lead": "Respuesta corta: a 18 de octubre de 2026 ni PP, ni PSOE, ni Vox, ni Frente Amplio, ni Podemos han publicado su programa completo para el 29-N. Mientras tanto, recogemos sus anuncios con fuente y fecha.",
+"description": "¿Han salido ya los programas electorales del 29-N? A 18 de octubre ningún partido ha publicado el suyo. Qué han propuesto en los mítines, con fuente.",
+"lead": "Respuesta corta: a 18 de octubre de 2026 ningún partido ha publicado todavía su programa electoral para el 29-N. Mientras tanto, aquí tienes lo que han propuesto en mítines y actos de precampaña, por tema, con quién lo dijo, dónde, cuándo y la fuente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Comparar promesas de todos los partidos"
@@ -14219,6 +14219,90 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "label": "BOE: LOREG (Ley Orgánica 5/1985)",
 "href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+},
+{
+"label": "La Vanguardia, 16-10-2026: Feijóo en Toledo",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+},
+{
+"label": "El País, 15-10-2026: Feijóo en Bruselas",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+},
+{
+"label": "pp.es, 10-10-2026: Feijóo en Madrid",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-convoca-a-todos-los-espanoles-a-la-reconstruccion-nacional-para-poner-fin-al-muro-la-delincuencia-y-la-decadencia/"
+},
+{
+"label": "RTVE, 10-10-2026: Sánchez en Dos Hermanas",
+"href": "https://www.rtve.es/noticias/20261010/sanchez-precampana-psoe-dos-hermanas-directo/17261747.shtml"
+},
+{
+"label": "ABC, 14-10-2026: Sánchez en Zaragoza",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+},
+{
+"label": "Europa Press, 17-10-2026: Sánchez en Fuenlabrada",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+},
+{
+"label": "Europa Press, 11-10-2026: Abascal en Estepona",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+},
+{
+"label": "voxespana.es, 11-10-2026: Abascal en Estepona",
+"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+},
+{
+"label": "ABC (EFE), 12-10-2026: Abascal en Ceuta",
+"href": "https://www.abc.es/sociedad/abascal-exige-ceuta-militarizar-frontera-expulsar-migrantes-20261012153921-nt.html"
+},
+{
+"label": "Europa Press, 14-10-2026: Urtasun en Barcelona",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+},
+{
+"label": "elDiario.es, 17-10-2026: Frente Amplio en Madrid",
+"href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+},
+{
+"label": "Cadena SER, 12-09-2026: Montero en Madrid",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+},
+{
+"label": "Europa Press, 17-10-2026: Montero en Madrid",
+"href": "https://www.europapress.es/nacional/noticia-montero-lanza-candidatura-acusa-frente-amplio-preferir-pactar-psoe-senado-podemos-ccaa-20261017123614.html"
+},
+{
+"label": "La Voz de Galicia, 17-10-2026: Rego en Narón",
+"href": "https://www.lavozdegalicia.es/noticia/ferrol/naron/2026/10/17/bng-esixe-naron-sareb-deixe-actuar-coma-unha-inmobiliaria/00031792237421754563899.htm"
+},
+{
+"label": "El País, 11-10-2026: Rufián, candidato de ERC el 29-N",
+"href": "https://elpais.com/espana/catalunya/2026-10-11/rufian-sera-candidato-por-esquerra-republicana-el-29-n.html"
+},
+{
+"label": "El País, 12-10-2026: acuerdo de campaña de ERC y Podemos",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-12/podemos-y-erc-oficializan-el-acuerdo-por-el-que-rufian-y-montero-haran-campana-juntos.html"
+},
+{
+"label": "RTVE, 17-10-2026: acto de Junts en La Garriga",
+"href": "https://www.rtve.es/noticias/20261017/nogueras-reivindica-centralidad-junts-apela-a-catalanes-estan-hartos-pagar-fiesta-a-demas/17271321.shtml"
+},
+{
+"label": "elDiario.es, 10-10-2026: actos de PNV y EH Bildu en Donostia",
+"href": "https://www.eldiario.es/euskadi/pse-ee-pnv-eh-bildu-lanzan-precampana-generales-actos-politicos-donostia_1_13577520.html"
+},
+{
+"label": "La Vanguardia, 17-10-2026: candidaturas del PNV",
+"href": "https://www.lavanguardia.com/local/paisvasco/20261017/11661431/pnv-apuesta-vaquero-sagastizabal-29-n-acompanadas-exalcaldes-san-sebastian-vitoria.html"
+},
+{
+"label": "coalicioncanaria.org, 5-10-2026: candidatura de Cristina Valido",
+"href": "https://coalicioncanaria.org/cc-apuesta-por-cristina-valido-y-llama-a-la-unidad-nacionalista-para-blindar-la-voz-de-canarias-en-madrid/"
+},
+{
+"label": "RTVE, 14-10-2026: coalición UPN-PP",
+"href": "https://www.rtve.es/noticias/20261014/upn-pp-sellan-acuerdo-para-concurrir-coalicion-a-elecciones-generales-del-29-n/17266826.shtml"
 }
 ],
 "related": [
@@ -14235,11 +14319,19 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "label": "Elecciones del 29-N: cómo votar"
 }
 ],
-"disclaimer": "Contenido informativo y neutral: explicamos la medida y citamos la fuente con fecha. No valoramos si es buena o mala ni recomendamos ningún voto.",
+"disclaimer": "Contenido informativo y neutral: recogemos lo que cada partido ha dicho, con quién, dónde, cuándo y la fuente. No valoramos las propuestas ni recomendamos ningún voto.",
 "faqs": [
 {
 "q": "¿Cuándo salen los programas electorales del 29-N?",
-"a": "No hay fecha fijada por ley: cada partido decide cuándo lo publica. A 18 de octubre de 2026 no hemos localizado el programa completo para el 29-N de PP, PSOE, Vox, Frente Amplio ni Podemos en sus webs oficiales. La campaña va del 13 al 27 de noviembre; actualizaremos esta página cuando salgan."
+"a": "No hay fecha fijada por ley: cada partido decide cuándo lo publica. A 18 de octubre de 2026 no hemos localizado el programa completo para el 29-N de ningún partido con diputados en el Congreso (PP, PSOE, Vox, Frente Amplio, Podemos, ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria ni UPN). La campaña va del 13 al 27 de noviembre; actualizaremos esta página cuando salgan."
+},
+{
+"q": "¿Qué han propuesto los partidos en los mítines del 29-N?",
+"a": "A 18 de octubre, en mítines y actos: el PP, bajar el IRPF y un IVA del 0 % en alimentos básicos; el PSOE, mantener los decretos de vivienda y revalorizar las pensiones con el IPC; Vox, garantizar el pago de las pensiones y repatriar a quien entra de forma irregular; el Frente Amplio, invertir el 1 % del PIB en vivienda pública; Podemos, la jornada de 35 horas y un salario mínimo de 1.800 €. Cada propuesta, con su fuente, está en esta página."
+},
+{
+"q": "¿Lo que se dice en un mitin es el programa electoral?",
+"a": "No. Una propuesta hecha en un mitin o en un acto puede no aparecer en el programa oficial o aparecer cambiada. Cuando cada partido publique su programa, lo enlazaremos aquí."
 },
 {
 "q": "¿Es obligatorio publicar un programa?",
@@ -14253,10 +14345,493 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "sections": [
 {
 "id": "estado",
-"title": "Estado a 18 de octubre",
+"title": "Estado a 18 de octubre: ningún programa publicado",
 "paragraphs": [
-"PP, PSOE, Vox, Frente Amplio y Podemos: programa del 29-N pendiente. Vox tiene un programa temático de desregulación publicado en junio de 2026.",
+"Ningún partido con diputados en el Congreso ha publicado todavía su programa para las generales del 29 de noviembre. Lo comprobamos el 18 de octubre en sus webs oficiales y en la prensa. Las webs de PSOE, Vox, Podemos y ERC no permiten la comprobación automática; en esos casos revisamos sus notas y las noticias.",
+"Vox tiene un programa temático de desregulación publicado en junio de 2026, pero no es el programa del 29-N.",
 "Las candidaturas se presentan del 21 al 26 de octubre, se proclaman el 2 de noviembre y el BOE las publica el 3 de noviembre. La campaña va del 13 al 27 de noviembre."
+]
+},
+{
+"id": "aviso",
+"title": "Antes de leer: lo que se dice en un mitin no es el programa",
+"paragraphs": [
+"Las propuestas de esta página se han dicho en mítines, actos y comparecencias de precampaña. No son el programa electoral oficial: el programa puede recogerlas, cambiarlas o no incluirlas. Actualizaremos esta página cuando cada partido publique el suyo.",
+"Criterio: solo recogemos propuestas concretas, con quién las dijo, dónde y cuándo, y enlazamos la fuente (web del partido o prensa). No recogemos críticas a otros partidos ni valoramos las propuestas. Si no encontramos propuestas verificables de un partido, lo decimos.",
+"Orden: por votos en las generales del 23 de julio de 2023, el mismo que en nuestra comparativa de promesas. Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar."
+]
+},
+{
+"id": "por-tema",
+"title": "Por tema: qué partidos han hecho propuestas",
+"paragraphs": [
+"Resumen de las tablas de abajo. Cada partido aparece solo en los temas en los que hemos encontrado una propuesta con fuente."
+],
+"lists": [
+[
+"Vivienda: PP, PSOE, Vox, Frente Amplio, Podemos y BNG.",
+"Pensiones: PP, PSOE, Vox y Frente Amplio.",
+"Empleo y salarios: PP, PSOE y Podemos.",
+"Impuestos: PP y Vox.",
+"Sanidad: no hemos encontrado propuestas concretas verificables en mítines a fecha de 18 de octubre.",
+"Educación: PSOE.",
+"Inmigración: Vox.",
+"Otros temas (burocracia, instituciones, gasto público, defensa y coste de la vida): PP, PSOE y Podemos."
+]
+]
+},
+{
+"id": "pp",
+"title": "PP: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Candidato: Alberto Núñez Feijóo. Actos revisados: mitin en Madrid (10-10), comparecencia en Bruselas (15-10) y acto en Toledo (16-10).",
+"Programa del 29-N: no publicado a 18 de octubre de 2026."
+],
+"table": {
+"caption": "PP: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Vivienda",
+"Feijóo se comprometió a «impuestos cero» para comprar la vivienda habitual en municipios despoblados.",
+"Feijóo, acto de Afammer en Toledo, 16-10-2026"
+],
+"source": {
+"label": "La Vanguardia, 16-10-2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Feijóo dijo que «las pensiones se actualizarán con el IPC» y que garantizará el sistema público de pensiones y su viabilidad.",
+"Feijóo, comparecencia ante la prensa en la sede del PP europeo, Bruselas, 15-10-2026"
+],
+"source": {
+"label": "El País, 15-10-2026",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+}
+},
+{
+"cells": [
+"Empleo y salarios",
+"Feijóo propuso, para menores de 40 años que emprendan en zonas rurales, una cuota de autónomos de 50 € al mes durante tres años, una rebaja del 50 % del IRPF en los dos primeros años de actividad, un bono de incorporación rural de hasta 15.000 € y avales públicos de hasta el 80 % de la inversión.",
+"Feijóo, acto de Afammer en Toledo, 16-10-2026"
+],
+"source": {
+"label": "La Vanguardia, 16-10-2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"Impuestos",
+"Feijóo propuso bajar el IRPF para compensar la inflación, un IVA del 0 % para los alimentos básicos, el IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
+"Feijóo, acto de Afammer en Toledo, 16-10-2026"
+],
+"source": {
+"label": "La Vanguardia, 16-10-2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"Otros: burocracia",
+"Feijóo propuso no crear trámites nuevos hasta revisar la normativa y reducir los existentes al menos un 30 %, y que no haya que presentar dos veces el mismo documento.",
+"Feijóo, acto de Afammer en Toledo, 16-10-2026"
+],
+"source": {
+"label": "La Vanguardia, 16-10-2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"Otros: instituciones",
+"Feijóo propuso «revisar las reglas, recuperar los contrapesos y fortalecer las instituciones».",
+"Feijóo, mitin en Ifema, Madrid, 10-10-2026"
+],
+"source": {
+"label": "pp.es, 10-10-2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-convoca-a-todos-los-espanoles-a-la-reconstruccion-nacional-para-poner-fin-al-muro-la-delincuencia-y-la-decadencia/"
+}
+}
+]
+}
+},
+{
+"id": "psoe",
+"title": "PSOE: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Candidato: Pedro Sánchez. Actos revisados: mítines en Dos Hermanas (10-10), Zaragoza (14-10) y Fuenlabrada (17-10).",
+"Programa del 29-N: no publicado a 18 de octubre de 2026."
+],
+"table": {
+"caption": "PSOE: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Vivienda",
+"Sánchez se comprometió a «reforzar y mantener» los decretos de vivienda y dijo que «la política de vivienda no tiene fecha de caducidad».",
+"Sánchez, mitin en Dos Hermanas (Sevilla), 10-10-2026"
+],
+"source": {
+"label": "RTVE, 10-10-2026",
+"href": "https://www.rtve.es/noticias/20261010/sanchez-precampana-psoe-dos-hermanas-directo/17261747.shtml"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Sánchez prometió revalorizar las pensiones públicas con el IPC durante los cuatro años de legislatura.",
+"Sánchez, mitin en Zaragoza, 14-10-2026"
+],
+"source": {
+"label": "ABC, 14-10-2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Sánchez dijo que «las pensiones no se tocan».",
+"Sánchez, mitin tras el Comité Federal del PSOE, Fuenlabrada (Madrid), 17-10-2026"
+],
+"source": {
+"label": "Europa Press, 17-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+}
+},
+{
+"cells": [
+"Empleo y salarios",
+"Sánchez prometió bajar el paro a cifras de un dígito hacia 2030.",
+"Sánchez, mitin en Zaragoza, 14-10-2026"
+],
+"source": {
+"label": "ABC, 14-10-2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+},
+{
+"cells": [
+"Educación",
+"Sánchez prometió bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sánchez, mitin en Zaragoza, 14-10-2026"
+],
+"source": {
+"label": "ABC, 14-10-2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+},
+{
+"cells": [
+"Otros: gasto público",
+"Sánchez prometió «cero recortes» en un nuevo mandato.",
+"Sánchez, mitin en Zaragoza, 14-10-2026"
+],
+"source": {
+"label": "ABC, 14-10-2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+}
+]
+}
+},
+{
+"id": "vox",
+"title": "Vox: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Candidato: Santiago Abascal. Actos revisados: mitin en Estepona (11-10) y comparecencia en Ceuta (12-10).",
+"Programa del 29-N: no publicado a 18 de octubre de 2026."
+],
+"table": {
+"caption": "Vox: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Vivienda",
+"Abascal propuso eliminar «trabas administrativas» y leyes que, según dijo, encarecen y ralentizan la construcción de vivienda.",
+"Abascal, mitin en Estepona (Málaga), 11-10-2026"
+],
+"source": {
+"label": "voxespana.es, 11-10-2026",
+"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Abascal dijo que con Vox las pensiones «se van a pagar al precio que sea y como sea».",
+"Abascal, mitin en Estepona (Málaga), 11-10-2026"
+],
+"source": {
+"label": "Europa Press, 11-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+}
+},
+{
+"cells": [
+"Impuestos",
+"Abascal defendió que «los impuestos sean los menos» y una revisión de las prioridades del gasto público.",
+"Abascal, mitin en Estepona (Málaga), 11-10-2026"
+],
+"source": {
+"label": "voxespana.es, 11-10-2026",
+"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+}
+},
+{
+"cells": [
+"Inmigración",
+"Abascal propuso repatriar a quien entra en España de forma irregular, que los extranjeros que cometen delitos cumplan la pena en su país y que quienes vienen «a vivir de las ayudas sociales» vuelvan a su país («remigración»).",
+"Abascal, mitin en Estepona (Málaga), 11-10-2026"
+],
+"source": {
+"label": "Europa Press, 11-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+}
+},
+{
+"cells": [
+"Inmigración",
+"Abascal reclamó militarizar la frontera de Ceuta con Marruecos y expulsar a los inmigrantes que entraron de forma irregular en la crisis de finales de julio.",
+"Abascal, comparecencia en el Mirador de Isabel II, Ceuta, 12-10-2026"
+],
+"source": {
+"label": "ABC (EFE), 12-10-2026",
+"href": "https://www.abc.es/sociedad/abascal-exige-ceuta-militarizar-frontera-expulsar-migrantes-20261012153921-nt.html"
+}
+}
+]
+}
+},
+{
+"id": "frente-amplio",
+"title": "Frente Amplio: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Candidata: Ada Colau. Actos revisados: declaraciones de Ernest Urtasun en Barcelona (14-10) y mitin de presentación en Madrid (17-10).",
+"Programa del 29-N: no publicado a 18 de octubre de 2026."
+],
+"table": {
+"caption": "Frente Amplio: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Vivienda",
+"Urtasun propuso que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Ernest Urtasun (Comuns), ante los medios antes de una reunión con cargos municipales, Barcelona, 14-10-2026"
+],
+"source": {
+"label": "Europa Press, 14-10-2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Urtasun propuso frenar las compras especulativas de vivienda y las de los fondos de inversión.",
+"Ernest Urtasun (Comuns), Barcelona, 14-10-2026"
+],
+"source": {
+"label": "Europa Press, 14-10-2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Urtasun dijo que el Frente Amplio no va a permitir que se «cargue» el sistema público de pensiones.",
+"Ernest Urtasun, mitin de presentación en el Parque Lineal del Manzanares, Madrid, 17-10-2026"
+],
+"source": {
+"label": "elDiario.es, 17-10-2026",
+"href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+}
+}
+]
+}
+},
+{
+"id": "podemos",
+"title": "Podemos: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Candidata: Irene Montero. Actos revisados: presentación de su candidatura en Madrid (12-09, antes de la convocatoria) y Consejo Ciudadano Estatal en Madrid (17-10).",
+"Programa del 29-N: no publicado a 18 de octubre de 2026."
+],
+"table": {
+"caption": "Podemos: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Vivienda",
+"Montero dijo que en vivienda «hay que bajar los precios y prohibir la especulación».",
+"Montero, presentación de su candidatura, Madrid, 12-09-2026"
+],
+"source": {
+"label": "Cadena SER, 12-09-2026",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Empleo y salarios",
+"Montero propuso reducir la jornada laboral a 35 horas semanales.",
+"Montero, presentación de su candidatura, Madrid, 12-09-2026"
+],
+"source": {
+"label": "Cadena SER, 12-09-2026",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Empleo y salarios",
+"Montero propuso un salario mínimo interprofesional de 1.800 € al mes.",
+"Montero, presentación de su candidatura, Madrid, 12-09-2026"
+],
+"source": {
+"label": "Cadena SER, 12-09-2026",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Otros: defensa",
+"Montero dijo que «no podemos gastarnos dinero en armas mientras tenemos bomberos [...] cobrando una miseria».",
+"Montero, presentación de su candidatura, Madrid, 12-09-2026"
+],
+"source": {
+"label": "Cadena SER, 12-09-2026",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Otros: coste de la vida",
+"Montero fijó como objetivos de campaña acabar con «el negocio de la vivienda», bajar el coste de la vida, mejorar los salarios y defender los servicios públicos.",
+"Montero, Consejo Ciudadano Estatal de Podemos, Madrid, 17-10-2026"
+],
+"source": {
+"label": "Europa Press, 17-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-montero-lanza-candidatura-acusa-frente-amplio-preferir-pactar-psoe-senado-podemos-ccaa-20261017123614.html"
+}
+}
+]
+}
+},
+{
+"id": "erc",
+"title": "ERC: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Cabeza de lista por Barcelona: Gabriel Rufián. ERC y Podemos han acordado hacer campaña conjunta.",
+"Programa del 29-N: no publicado a 18 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 18 de octubre."
+]
+},
+{
+"id": "junts",
+"title": "Junts: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Cabeza de lista al Congreso: Míriam Nogueras. Acto revisado: Consejo Nacional en La Garriga (Barcelona), 17-10.",
+"Programa del 29-N: no publicado a 18 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 18 de octubre."
+]
+},
+{
+"id": "eh-bildu",
+"title": "EH Bildu: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Acto revisado: acto en Donostia, 10-10, con la portavoz en el Congreso, Mertxe Aizpurua.",
+"Programa del 29-N: no publicado a 18 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 18 de octubre."
+]
+},
+{
+"id": "pnv",
+"title": "PNV: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Cabezas de lista: Maribel Vaquero, Idoia Sagastizabal y Gorka Urtaran. Actos revisados: comparecencia en Donostia (10-10) y presentación de candidaturas (17-10).",
+"Programa del 29-N: no publicado a 18 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 18 de octubre."
+]
+},
+{
+"id": "bng",
+"title": "BNG: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Diputado en el Congreso: Néstor Rego. Acto revisado: acto con familias afectadas por un desahucio en Narón (A Coruña), 17-10.",
+"Programa del 29-N: no publicado a 18 de octubre de 2026."
+],
+"table": {
+"caption": "BNG: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Vivienda",
+"Rego reclamó que los inmuebles de la Sareb en Galicia (unos 1.200 habitables, según dijo) pasen a la Administración gallega para un parque público de alquiler social.",
+"Néstor Rego, Narón (A Coruña), 17-10-2026"
+],
+"source": {
+"label": "La Voz de Galicia, 17-10-2026",
+"href": "https://www.lavozdegalicia.es/noticia/ferrol/naron/2026/10/17/bng-esixe-naron-sareb-deixe-actuar-coma-unha-inmobiliaria/00031792237421754563899.htm"
+}
+}
+]
+}
+},
+{
+"id": "cc",
+"title": "Coalición Canaria: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Cabeza de lista por Santa Cruz de Tenerife: Cristina Valido, en candidatura conjunta con Primero Canarias.",
+"Programa del 29-N: no publicado a 18 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 18 de octubre."
+]
+},
+{
+"id": "upn",
+"title": "UPN: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"UPN concurre en Navarra en coalición con el PP.",
+"Programa del 29-N: no publicado a 18 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 18 de octubre."
 ]
 },
 {
