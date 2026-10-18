@@ -130,7 +130,7 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
             href={CITA_DNI_URL}
             label={passport ? "Consultar cita de pasaporte en citapreviadnie.es" : "Consultar cita del DNI en citapreviadnie.es"}
           />
-          {sinCita ? <p className="mt-4"><a className="underline" href={sinCita.path}>{sinCita.h1}</a></p> : null}
+          {sinCita ? <p className="mt-4"><a className="inline-flex min-h-11 items-center underline" href={sinCita.path}>{sinCita.h1}</a></p> : null}
         </div>
       ) : null}
       {pack === "extranjeria" ? (
@@ -145,7 +145,7 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
       {pack === "bebe" ? (
         <>
           <p className="mt-4 text-sm">
-            <a className="underline" href="https://www.boe.es/buscar/act.php?id=BOE-A-2011-12628#a46">Ley del Registro Civil, artículos 46 y 47: comunicación en 72 horas y declaración en diez días</a>
+            <a className="inline-flex min-h-11 items-center underline" href="https://www.boe.es/buscar/act.php?id=BOE-A-2011-12628#a46">Ley del Registro Civil, artículos 46 y 47: comunicación en 72 horas y declaración en diez días</a>
           </p>
           <p className="mt-4 text-sm">
             <a className="underline" href="/bebe/calendario-vacunal-por-comunidad">Calendario vacunal según la comunidad</a>
@@ -164,10 +164,10 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
       {pack === "colegio" ? (
         <>
           <p className="mt-4 text-sm">
-            <a className="underline" href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899#a84">LOE, artículo 84: las Administraciones educativas regulan la admisión</a>
+            <a className="inline-flex min-h-11 items-center underline" href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899#a84">LOE, artículo 84: las Administraciones educativas regulan la admisión</a>
           </p>
           <p className="mt-4 text-sm">
-            <a className="underline" href="/colegio/escuela-infantil-publica">Escuela infantil pública 0-3: la plaza y el plazo los publica tu comunidad</a>
+            <a className="inline-flex min-h-11 items-center underline" href="/colegio/escuela-infantil-publica">Escuela infantil pública 0-3: la plaza y el plazo los publica tu comunidad</a>
           </p>
         </>
       ) : null}
@@ -229,7 +229,7 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
           <a className="underline" href="https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-24454">BOE: 2.111 becas de colaboración de 2.000 €</a>
         </p>
       ) : null}
-      {(pack === "becas" || pack === "alquiler") && <><p className="mt-4"><a className="underline" href="/ayudas">Ver el calendario conjunto de becas y alquiler</a></p><AidCalendar category={pack} /></>}
+      {(pack === "becas" || pack === "alquiler") && <><p className="mt-4"><a className="inline-flex min-h-11 items-center underline" href="/ayudas">Ver el calendario conjunto de becas y alquiler</a></p><AidCalendar category={pack} /></>}
       <DirectorySearch label="Buscar en esta categoría" placeholder="Escribe el trámite o documento" hint={`Busca entre las ${guides.length} guías de esta categoría.`} entries={guides.map((g) => ({ title: g.h1, href: g.path, category: t.h1 }))} />
       <div className="topic-directory" data-pack-grid="">
         {guides.map((g) => (

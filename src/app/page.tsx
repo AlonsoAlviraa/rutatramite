@@ -124,9 +124,9 @@ export default function HomePage() {
         <h2 className="font-display text-2xl text-mossDark">Nuevo y actualizado</h2>
         <p className="mt-2"><strong>Elecciones del 29-N:</strong> <a className="underline" href="/elecciones/promesas">qué propone cada partido</a> · <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-vivienda">vivienda</a> · <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-pensiones">pensiones</a> · <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-impuestos">impuestos</a> · <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-empleo-y-salarios">empleo y salarios</a> · <a className="underline" href="/elecciones/voto-por-correo">voto por correo</a></p>
         <ul className="mt-3 grid gap-1 sm:grid-cols-2">
-          {latestGuides(12).map((g) => (<li key={g.path}><a className="underline" href={g.path}>{g.h1}</a> <time className="text-sm text-ink/60" dateTime={g.reviewedAt}>{g.reviewedAt}</time></li>))}
+          {latestGuides(12).map((g) => (<li key={g.path}><a className="inline-block min-h-11 py-[10px] underline" href={g.path}>{g.h1}</a> <time className="text-sm text-ink/60" dateTime={g.reviewedAt}>{g.reviewedAt}</time></li>))}
         </ul>
-        <p className="mt-2 text-sm"><a className="underline" href="/feed.xml">Suscríbete a las novedades (RSS/Atom)</a></p>
+        <p className="mt-2 text-sm"><a className="inline-flex min-h-11 items-center underline" href="/feed.xml">Suscríbete a las novedades (RSS/Atom)</a></p>
       </section>
 
       <section id="tramites" className="mt-12" data-pack-grid="">

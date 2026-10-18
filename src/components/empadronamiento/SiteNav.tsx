@@ -50,7 +50,7 @@ export function SiteNav({ pathname: pathnameOverride }: { pathname?: string | nu
       <button
         ref={toggleRef}
         type="button"
-        className="nav-toggle inline-flex min-h-11 items-center rounded border border-sand bg-white px-3 py-2 font-semibold min-[1000px]:hidden"
+        className="nav-toggle inline-flex min-h-11 items-center rounded border border-sand bg-white px-3 py-2 font-semibold min-[1280px]:hidden"
         aria-expanded={open}
         aria-controls="nav-principal"
         onClick={() => setOpen((v) => !v)}
@@ -62,8 +62,8 @@ export function SiteNav({ pathname: pathnameOverride }: { pathname?: string | nu
         id="nav-principal"
         className={
           open
-            ? "site-nav is-open flex w-full min-w-0 flex-col flex-wrap items-stretch gap-0 border-t border-sand py-3 min-[1000px]:w-auto min-[1000px]:flex-row min-[1000px]:items-center min-[1000px]:justify-end min-[1000px]:!gap-x-3 min-[1000px]:border-0 min-[1000px]:py-0"
-            : "site-nav hidden min-w-0 flex-wrap min-[1000px]:flex min-[1000px]:items-center min-[1000px]:justify-end min-[1000px]:!gap-x-3"
+            ? "site-nav is-open flex w-full min-w-0 flex-col flex-wrap items-stretch gap-0 border-t border-sand py-3 min-[1280px]:w-auto min-[1280px]:flex-row min-[1280px]:items-center min-[1280px]:justify-end min-[1280px]:!gap-x-3 min-[1280px]:border-0 min-[1280px]:py-0"
+            : "site-nav hidden min-w-0 flex-wrap min-[1280px]:flex min-[1280px]:items-center min-[1280px]:justify-end min-[1280px]:!gap-x-3"
         }
         aria-label="Secciones"
         onKeyDown={closeOnEscape}
@@ -77,7 +77,7 @@ export function SiteNav({ pathname: pathnameOverride }: { pathname?: string | nu
           <a
             key={l.href}
             href={l.href}
-            className="nav-mobile-only min-[1000px]:!hidden"
+            className="nav-mobile-only min-[1280px]:!hidden"
             aria-current={pathname === l.href ? "page" : undefined}
             onClick={() => setOpen(false)}
           >

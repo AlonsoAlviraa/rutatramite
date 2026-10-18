@@ -4,7 +4,7 @@ import { PRODUCT_NAME } from "@/lib/types";
 export function SiteHeader() {
   return (
     <header className="site-header sticky top-0 z-40 border-b border-sand bg-white">
-      <div className="header-inner mx-auto flex min-h-[74px] max-w-5xl flex-wrap items-center justify-between gap-3 px-4 py-3 min-[1000px]:min-h-20">
+      <div className="header-inner mx-auto flex min-h-[74px] max-w-5xl flex-wrap items-center justify-between gap-3 px-4 py-3 min-[1280px]:min-h-20">
         <div className="min-w-0">
           <a href="/" aria-label={PRODUCT_NAME} className="brand-lockup font-display text-xl font-bold leading-tight tracking-tight no-underline">
             <span className="flex items-center gap-2">

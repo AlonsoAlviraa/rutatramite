@@ -113,7 +113,7 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
     expect(css).toContain(".site-header");
     expect(css).toContain(".site-nav");
     expect(css).toContain(".nav-toggle");
-    expect(css).toMatch(/@media \(max-width:999px\)[\s\S]*\.nav-toggle[\s\S]*display:inline-flex[\s\S]*\.site-nav \{ display:none/);
+    expect(css).toMatch(/@media \(max-width:1279px\)[\s\S]*\.nav-toggle[\s\S]*display:inline-flex[\s\S]*\.site-nav \{ display:none/);
   });
 
   it("OfficialCta is omitted without href and marks official destinations", () => {
@@ -201,7 +201,7 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
     expect(dni).not.toMatch(/<a href="\/extranjeria"[^>]*nav-mobile-only/);
     expect(dni).not.toMatch(/<a href="\/becas"[^>]*nav-mobile-only/);
     for (const href of ["/mudanza", "/colegio", "/comedor", "/fp", "/bebe"]) {
-      expect(dni).toContain(`<a href="${href}" class="nav-mobile-only min-[1000px]:!hidden">`);
+      expect(dni).toContain(`<a href="${href}" class="nav-mobile-only min-[1280px]:!hidden">`);
     }
     expect(dni).toContain('<a class="nav-cta" href="/#tramites">Explorar trámites</a>');
     expect(dni).not.toContain("Asistente de padrón");

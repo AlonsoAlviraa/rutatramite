@@ -112,7 +112,7 @@ export function GuideView({ guide }: { guide: Guide }) {
               </li>
             ))}
           </ul>
-          <p className="mt-3 text-sm"><a className="underline" href="/descargas">Todos los formularios descargables</a></p>
+          <p className="mt-3 text-sm"><a className="inline-flex min-h-11 items-center underline" href="/descargas">Todos los formularios descargables</a></p>
         </section>
       )}
       <section id="fuentes" className="mt-10 border-t border-sand pt-5">

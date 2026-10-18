@@ -116,7 +116,7 @@ export function HubView({
         <a className="underline" href="/metodologia"> metodología del catálogo</a>.
       </p>
       <p className="mt-6 text-sm">
-        <a className="font-semibold underline decoration-sand underline-offset-2" href="/empadronarse">
+        <a className="inline-flex min-h-11 items-center font-semibold underline decoration-sand underline-offset-2" href="/empadronarse">
           Guía nacional de empadronarse
         </a>
       </p>
