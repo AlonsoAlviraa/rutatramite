@@ -5,12 +5,12 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
  {
   "id": "pens29n-hub",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-18",
+  "reviewedAt": "2026-10-19",
   "path": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
   "h1": "¿Quiere algún partido quitar las pensiones? Lo que ha dicho cada uno",
   "title": "¿Quiere algún partido quitar las pensiones? Lo que dicen el 29-N",
   "description": "¿Quién quiere quitar las pensiones? Lo que han dicho PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21 antes del 29-N, con fecha y fuente de cada frase.",
-  "lead": "Respuesta corta: a 18 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N.",
+  "lead": "Respuesta corta: a 19 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N.",
   "cta": {
    "href": "/elecciones/promesas/que-propone-cada-partido-pensiones",
    "label": "Comparar propuestas sobre pensiones"
@@ -119,7 +119,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "faqs": [
    {
     "q": "¿Qué partido quiere quitar las pensiones?",
-    "a": "A 18 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N."
+    "a": "A 19 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N."
    },
    {
     "q": "¿Por qué se habla ahora de quitar las pensiones?",
@@ -131,7 +131,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
    },
    {
     "q": "¿Y los demás partidos?",
-    "a": "Para ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria y UPN no hemos encontrado declaraciones sobre pensiones en esta precampaña a 18 de octubre de 2026."
+    "a": "Para ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria y UPN no hemos encontrado declaraciones sobre pensiones en esta precampaña a 19 de octubre de 2026."
    },
    {
     "q": "¿Cuánto subieron las pensiones en 2026?",
@@ -143,7 +143,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "respuesta",
     "title": "Respuesta corta",
     "paragraphs": [
-     "A 18 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N."
+     "A 19 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N."
     ]
    },
    {
@@ -234,7 +234,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "otros",
     "title": "Otros partidos",
     "paragraphs": [
-     "ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria y UPN: no hemos encontrado declaraciones sobre pensiones en esta precampaña a 18 de octubre de 2026.",
+     "ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria y UPN: no hemos encontrado declaraciones sobre pensiones en esta precampaña a 19 de octubre de 2026.",
      "Democracia 21 concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en Madrid y Barcelona, según la lista de coaliciones de la Junta Electoral Central."
     ]
    },
@@ -276,7 +276,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
  {
   "id": "pens29n-pp",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-18",
+  "reviewedAt": "2026-10-19",
   "path": "/elecciones/quiere-el-pp-quitar-las-pensiones",
   "h1": "¿Quiere el PP quitar las pensiones? Lo que ha dicho y votado",
   "title": "¿Quiere el PP quitar las pensiones? Lo que ha dicho Feijóo",
@@ -366,7 +366,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
    },
    {
     "q": "¿Ha publicado el PP su programa para el 29-N?",
-    "a": "A 18 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
+    "a": "A 19 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
    },
    {
     "q": "¿Puede un Gobierno dejar de subir las pensiones por su cuenta?",
@@ -385,7 +385,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "que-ha-dicho",
     "title": "Qué ha dicho el PP sobre las pensiones",
     "paragraphs": [
-     "Declaraciones públicas con fuente y fecha, revisadas el 18 de octubre de 2026."
+     "Declaraciones públicas con fuente y fecha, revisadas el 19 de octubre de 2026."
     ],
     "table": {
      "caption": "PP: declaraciones sobre pensiones",
@@ -439,7 +439,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "programa",
     "title": "Programa electoral",
     "paragraphs": [
-     "Programa del 29-N: no publicado a 18 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
+     "Programa del 29-N: no publicado a 19 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
     ]
    },
    {
@@ -464,7 +464,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
  {
   "id": "pens29n-psoe",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-18",
+  "reviewedAt": "2026-10-19",
   "path": "/elecciones/quiere-el-psoe-quitar-las-pensiones",
   "h1": "¿Quiere el PSOE quitar las pensiones? Lo que ha dicho y votado",
   "title": "¿Quiere el PSOE quitar las pensiones? Lo que ha dicho Sánchez",
@@ -558,7 +558,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
    },
    {
     "q": "¿Ha publicado el PSOE su programa para el 29-N?",
-    "a": "A 18 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
+    "a": "A 19 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
    },
    {
     "q": "¿Puede un Gobierno dejar de subir las pensiones por su cuenta?",
@@ -577,7 +577,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "que-ha-dicho",
     "title": "Qué ha dicho el PSOE sobre las pensiones",
     "paragraphs": [
-     "Declaraciones públicas con fuente y fecha, revisadas el 18 de octubre de 2026."
+     "Declaraciones públicas con fuente y fecha, revisadas el 19 de octubre de 2026."
     ],
     "table": {
      "caption": "PSOE: declaraciones sobre pensiones",
@@ -621,7 +621,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "programa",
     "title": "Programa electoral",
     "paragraphs": [
-     "Programa del 29-N: no publicado a 18 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
+     "Programa del 29-N: no publicado a 19 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
     ]
    },
    {
@@ -646,7 +646,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
  {
   "id": "pens29n-vox",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-18",
+  "reviewedAt": "2026-10-19",
   "path": "/elecciones/quiere-vox-quitar-las-pensiones",
   "h1": "¿Quiere Vox quitar las pensiones? Lo que ha dicho y votado",
   "title": "¿Quiere Vox quitar las pensiones? Lo que ha dicho Abascal",
@@ -740,7 +740,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
    },
    {
     "q": "¿Ha publicado Vox su programa para el 29-N?",
-    "a": "A 18 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
+    "a": "A 19 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
    },
    {
     "q": "¿Puede un Gobierno dejar de subir las pensiones por su cuenta?",
@@ -759,7 +759,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "que-ha-dicho",
     "title": "Qué ha dicho Vox sobre las pensiones",
     "paragraphs": [
-     "Declaraciones públicas con fuente y fecha, revisadas el 18 de octubre de 2026."
+     "Declaraciones públicas con fuente y fecha, revisadas el 19 de octubre de 2026."
     ],
     "table": {
      "caption": "Vox: declaraciones sobre pensiones",
@@ -803,7 +803,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "programa",
     "title": "Programa electoral",
     "paragraphs": [
-     "Programa del 29-N: no publicado a 18 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
+     "Programa del 29-N: no publicado a 19 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
     ]
    },
    {
@@ -828,7 +828,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
  {
   "id": "pens29n-frente-amplio",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-18",
+  "reviewedAt": "2026-10-19",
   "path": "/elecciones/quiere-frente-amplio-quitar-las-pensiones",
   "h1": "¿Quiere Frente Amplio quitar las pensiones? Lo que ha dicho y votado",
   "title": "¿Quiere Frente Amplio quitar las pensiones? Lo que ha dicho",
@@ -914,7 +914,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
    },
    {
     "q": "¿Ha publicado Frente Amplio su programa para el 29-N?",
-    "a": "A 18 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
+    "a": "A 19 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
    },
    {
     "q": "¿Puede un Gobierno dejar de subir las pensiones por su cuenta?",
@@ -933,7 +933,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "que-ha-dicho",
     "title": "Qué ha dicho Frente Amplio sobre las pensiones",
     "paragraphs": [
-     "Declaraciones públicas con fuente y fecha, revisadas el 18 de octubre de 2026."
+     "Declaraciones públicas con fuente y fecha, revisadas el 19 de octubre de 2026."
     ],
     "table": {
      "caption": "Frente Amplio: declaraciones sobre pensiones",
@@ -967,7 +967,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "programa",
     "title": "Programa electoral",
     "paragraphs": [
-     "Programa del 29-N: no publicado a 18 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
+     "Programa del 29-N: no publicado a 19 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
     ]
    },
    {
@@ -992,7 +992,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
  {
   "id": "pens29n-podemos",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-18",
+  "reviewedAt": "2026-10-19",
   "path": "/elecciones/quiere-podemos-quitar-las-pensiones",
   "h1": "¿Quiere Podemos quitar las pensiones? Lo que ha dicho y votado",
   "title": "¿Quiere Podemos quitar las pensiones? Su propuesta y sus votos",
@@ -1078,7 +1078,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
    },
    {
     "q": "¿Ha publicado Podemos su programa para el 29-N?",
-    "a": "A 18 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
+    "a": "A 19 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
    },
    {
     "q": "¿Puede un Gobierno dejar de subir las pensiones por su cuenta?",
@@ -1097,7 +1097,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "que-ha-dicho",
     "title": "Qué ha dicho Podemos sobre las pensiones",
     "paragraphs": [
-     "Declaraciones públicas con fuente y fecha, revisadas el 18 de octubre de 2026."
+     "Declaraciones públicas con fuente y fecha, revisadas el 19 de octubre de 2026."
     ],
     "table": {
      "caption": "Podemos: declaraciones sobre pensiones",
@@ -1141,7 +1141,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "programa",
     "title": "Programa electoral",
     "paragraphs": [
-     "Programa del 29-N: no publicado a 18 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
+     "Programa del 29-N: no publicado a 19 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
     ]
    },
    {

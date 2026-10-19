@@ -2,8 +2,8 @@
 src/lib/tramites/jubilacion-2026.ts (guías de pensiones para mayores de 55). Solo datos con fuente fechada."""
 import json, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-RV = "2026-10-18"
-D18 = "18 de octubre de 2026"
+RV = "2026-10-19"
+D18 = "19 de octubre de 2026"
 S = {
  "elpais_bxl": ("El País, 15-10-2026: Feijóo en Bruselas sobre las pensiones", "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"),
  "ep_zgz": ("Europa Press, 14-10-2026: Sánchez en Zaragoza", "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"),

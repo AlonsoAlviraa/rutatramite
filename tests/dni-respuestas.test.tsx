@@ -14,7 +14,7 @@ describe("/dni respuestas directas (2026-10-13)", () => {
     const quick = html.indexOf("data-dni-quick");
     expect(quick).toBeGreaterThan(0);
     expect(quick).toBeLessThan(html.indexOf("tasas-documentos"));
-    expect(html).toContain("Precio del DNI 2026: 12 €");
+    expect(html).toContain("precio del DNI 2026: 12 €");
     expect(html).toContain("No se renueva por internet");
   });
   it("emits FAQPage JSON-LD matching visible FAQs", () => {

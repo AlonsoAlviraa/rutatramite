@@ -6,9 +6,9 @@ import { DNI_DOCUMENTOS, DNI_FAQS, DNI_PASOS, DNI_REVIEWED_AT, DNI_SOURCES } fro
 export function DniQuickAnswers() {
   return <>
     <section aria-labelledby="dni-respuesta-rapida" className="mt-7 space-y-3 border border-sand p-5" data-dni-quick="">
-      <h2 id="dni-respuesta-rapida" className="font-display text-2xl text-mossDark">Respuesta rápida: precio, documentos y cita</h2>
+      <h2 id="dni-respuesta-rapida" className="font-display text-2xl text-mossDark">Respuesta rápida: tasas del DNI y pasaporte 2026, documentos y cita</h2>
       <ul className="list-disc space-y-1 pl-5">
-        <li><strong>Precio del DNI 2026: 12 €</strong> (<a className="underline" href={DNI_SOURCES.ley84.href}>Ley 84/1978, art. 6, BOE</a>). <strong>Pasaporte: 30 €.</strong> Los dos juntos, 42 €.</li>
+        <li><strong>Tasa / precio del DNI 2026: 12 €</strong> (<a className="underline" href={DNI_SOURCES.ley84.href}>Ley 84/1978, art. 6, BOE</a>). <strong>Pasaporte: 30 €.</strong> Los dos juntos, 42 €.</li>
         <li><strong>Gratis</strong> para familias numerosas, para cambiar el domicilio de un DNI en vigor y para menores de 14 años de hogares que piden el ingreso mínimo vital.</li>
         <li><strong>La cita es gratuita</strong> y solo se pide en <a className="underline" href={CITA_DNI_URL}>citapreviadnie.es</a> o en el 060.</li>
         <li><strong>No se renueva por internet:</strong> online solo pides la cita y pagas. Hay que ir en persona.</li>
@@ -24,7 +24,7 @@ export function DniQuickAnswers() {
     <section id="preguntas-frecuentes" aria-labelledby="dni-faq" className="mt-7" data-dni-faq="">
       <h2 id="dni-faq" className="font-display text-2xl text-mossDark">Preguntas frecuentes sobre el DNI</h2>
       <div className="mt-3">{DNI_FAQS.map((f) => <details key={f.q} className="border-b border-sand py-3"><summary className="cursor-pointer font-semibold">{f.q}</summary><p className="mt-3 leading-relaxed">{f.a}</p></details>)}</div>
-      <p className="mt-3 text-sm">Revisado el <time dateTime={DNI_REVIEWED_AT}>13 de octubre de 2026</time>. Fuentes: {Object.values(DNI_SOURCES).map((s, i) => <span key={s.href}>{i ? " · " : ""}<a className="underline" href={s.href}>{s.label}</a></span>)}.</p>
+      <p className="mt-3 text-sm">Revisado el <time dateTime={DNI_REVIEWED_AT}>19 de octubre de 2026</time>. <a className="underline" href="/metodologia">Cómo revisamos las guías</a>. Fuentes: {Object.values(DNI_SOURCES).map((s, i) => <span key={s.href}>{i ? " · " : ""}<a className="underline" href={s.href}>{s.label}</a></span>)}.</p>
     </section>
     <JsonLd data={{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: DNI_FAQS.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }} />
   </>;

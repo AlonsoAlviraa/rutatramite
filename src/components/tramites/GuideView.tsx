@@ -146,9 +146,9 @@ export function GuideView({ guide }: { guide: Guide }) {
           </ul>
         </section>
       ) : null}
-      <p className="mt-10 leading-relaxed text-ink/80" data-disclaimer="">
+      {guide.disclaimer === "" ? null : <p className="mt-10 leading-relaxed text-ink/80" data-disclaimer="">
         {guide.disclaimer ?? (guide.pack === "viaje" ? DISCLAIMER_CITA : "Información orientativa. Confirma los requisitos de tu caso en el organismo responsable. No somos Administración Pública.")}
-      </p>
+      </p>}
       </div>
       </div>
     </PageShell>

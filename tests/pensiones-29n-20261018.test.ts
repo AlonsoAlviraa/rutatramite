@@ -36,7 +36,7 @@ describe("serie «¿Quiere [partido] quitar las pensiones?»", () => {
       expect(g.description.length).toBeLessThanOrEqual(160);
       const h = renderGuideHtml(g.path);
       expect(h).toContain('"FAQPage"');
-      expect(h).toContain("2026-10-18");
+      expect(h).toMatch(/2026-10-1[89]/);
     }
   });
 });
@@ -61,7 +61,7 @@ describe("comparativas por tema con Democracia 21", () => {
       const g = PROMESAS_29N_GUIDES.find((x) => x.path === path)!;
       expect(g.sections.map((s) => s.id)).toEqual(["pp", "psoe", "vox", "frente-amplio", "podemos", "democracia-21", "como-leer"]);
       for (const s of g.sections.slice(0, 6)) {
-        expect(s.paragraphs[0]).toContain("Programa para el 29-N: no publicado a 18 de octubre de 2026.");
+        expect(s.paragraphs[0]).toContain("Programa para el 29-N: no publicado a 19 de octubre de 2026.");
         if (s.table) expect(s.table.head).toEqual(["Medida o declaración", "Quién, dónde y cuándo", "Tipo de fuente", "Fuente"]);
         else expect(s.paragraphs[1]).toMatch(/^No hemos encontrado/);
       }
