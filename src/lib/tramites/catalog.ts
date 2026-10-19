@@ -22,6 +22,7 @@ import { MUDANZA_GUIDES } from "@/lib/tramites/mudanza";
 import type { Guide, GuidePack } from "@/lib/tramites/types";
 import { VIAJE_GUIDES } from "@/lib/tramites/viaje";
 import { GESTIONES_CLAVE_GUIDES } from "@/lib/tramites/gestiones-clave-2026";
+import { ENCUESTAS_29N_GUIDES } from "@/lib/tramites/encuestas-29n";
 import { PENSIONES_29N_GUIDES } from "@/lib/tramites/pensiones-29n";
 import { JUBILACION_2026_GUIDES } from "@/lib/tramites/jubilacion-2026";
 
@@ -31,6 +32,7 @@ export const ALL_GUIDES: Guide[] = [
   ...ELECCIONES_EXPLICADORES_GUIDES,
   ...PROMESAS_29N_GUIDES,
   ...PENSIONES_29N_GUIDES,
+  ...ENCUESTAS_29N_GUIDES,
   ...AYUDAS_GOBIERNO_GUIDES,
   ...AYUDAS_2026_GUIDES,
   ...VIAJE_GUIDES,

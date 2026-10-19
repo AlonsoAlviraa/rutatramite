@@ -703,7 +703,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.jec,
     secondaryCta: S.loreg("asesentaynueve", "artículo 69: encuestas"),
     sources: [S.jec, S.loreg("asesentaynueve", "artículo 69")],
-    related: [R.reflexion, R.bulos, R.calendario, R.faq],
+    related: [{ href: "/elecciones/encuestas-29n", label: "Últimas encuestas del 29-N con fuente y fecha" }, { href: "/elecciones/encuestas-falsas-en-redes", label: "Encuestas falsas en redes" }, R.reflexion, R.bulos, R.calendario, R.faq],
     faqs: [
       { q: "¿Hasta cuándo dura la prohibición?", a: "Según el calendario de la Junta Electoral Central, del 24 al 28 de noviembre de 2026, ambos incluidos." },
     ],
