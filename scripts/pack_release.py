@@ -30,6 +30,9 @@ def main():
         raise SystemExit('Selected build predates the recorded release inputs')
     server = (standalone/'server.js').read_text(encoding='utf-8')
     if build.name not in server: raise SystemExit('Standalone config does not match the selected build directory')
+    # 19-10-2026: a local test server writes runtime ISR entries (incl. 404s) here; never ship them.
+    if (standalone/build.name/'server'/'route-cache').exists():
+        raise SystemExit(f'Remove {standalone/build.name/"server"/"route-cache"} (runtime cache from a local test server) before packing')
     output = Path(tempfile.mkdtemp(prefix='rutatramite-release-')) / 'release.tar'
     print(f'Packaging {build.name} into {output}', flush=True)
     replaced = {'public', 'data', 'content'}

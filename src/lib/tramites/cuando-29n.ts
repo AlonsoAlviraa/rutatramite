@@ -1687,7 +1687,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
     "href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
    }
   ],
-  "related": [
+  "related": [{"href": "/elecciones/voto-nulo-ejemplos", "label": "Voto nulo: 10 ejemplos y si cuentan"}, 
    {
     "href": "/elecciones/a-quien-beneficia-el-voto-en-blanco",
     "label": "¿A quién beneficia el voto en blanco?"

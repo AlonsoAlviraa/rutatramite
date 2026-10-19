@@ -605,7 +605,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.loreg("anoventayseis", "artículo 96: votos nulos y en blanco"),
     secondaryCta: S.infoelectoral,
     sources: [S.loreg("anoventayseis", "artículo 96"), S.loreg("acientosesentaytres", "artículo 163: reparto de escaños")],
-    related: [R.dhondt, R.senado, R.jornada, R.faq],
+    related: [{ href: "/elecciones/voto-nulo-ejemplos", label: "Voto nulo: 10 ejemplos y si cuentan" }, R.dhondt, R.senado, R.jornada, R.faq],
     faqs: [
       { q: "¿El voto en blanco ayuda a algún partido?", a: "Cuenta como voto válido. Por eso entra en el cálculo del 3 % mínimo que exige el artículo 163 para el reparto de escaños del Congreso." },
       { q: "¿Si meto dos papeletas iguales?", a: "Según el artículo 96, varias papeletas de la misma candidatura cuentan como un solo voto válido." },
@@ -655,7 +655,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.loreg("acientosesentayseis", "artículo 166: elección de senadores"),
     secondaryCta: S.rd,
     sources: [S.loreg("acientosesentayseis", "artículo 166"), S.rd],
-    related: [R.dhondt, R.nulo, R.jornada, R.faq],
+    related: [{ href: "/elecciones/voto-nulo-ejemplos", label: "Voto nulo: 10 ejemplos y si cuentan" }, R.dhondt, R.nulo, R.jornada, R.faq],
     faqs: [
       { q: "¿Qué pasa si marco más de la cuenta?", a: "Marcar más candidatos de los permitidos puede hacer el voto nulo. Si tienes dudas, pide una papeleta nueva en el colegio." },
       { q: "¿Cuántos senadores elige mi territorio?", a: "Cuatro por provincia; tres en Gran Canaria, Mallorca y Tenerife; uno en las demás islas; dos en Ceuta y dos en Melilla (Real Decreto 806/2026)." },
@@ -776,7 +776,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.infoelectoral,
     secondaryCta: S.jec,
     sources: [S.jec, S.infoelectoral, S.rd],
-    related: [R.dhondt, R.jecGuia, R.interventores, R.calendario, { href: "/elecciones/cuando-habra-gobierno-29n", label: "¿Cuándo habrá Gobierno tras el 29-N?" }],
+    related: [{ href: "/elecciones/voto-nulo-ejemplos", label: "Voto nulo: 10 ejemplos y si cuentan" }, R.dhondt, R.jecGuia, R.interventores, R.calendario, { href: "/elecciones/cuando-habra-gobierno-29n", label: "¿Cuándo habrá Gobierno tras el 29-N?" }],
     faqs: [
       { q: "¿Cuándo es oficial el resultado?", a: "Tras el escrutinio general y la proclamación de electos. La Junta Electoral Central publica los resultados en el BOE en los 40 días siguientes a la proclamación." },
       { q: "¿Cuándo se constituyen las Cortes?", a: "El 23 de diciembre de 2026 a las 10:00, según el Real Decreto 806/2026." },

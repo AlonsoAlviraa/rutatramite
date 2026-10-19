@@ -1191,7 +1191,7 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
     cta: L163,
     secondaryCta: R.nulo,
     sources: [L163, S.boe2023],
-    related: [R.nulo, R.barrera, R.dhondt, R.provincias, R.hub],
+    related: [{ href: "/elecciones/voto-nulo-ejemplos", label: "Voto nulo: 10 ejemplos y si cuentan" }, R.nulo, R.barrera, R.dhondt, R.provincias, R.hub],
     faqs: [
       { q: "¿El voto en blanco va al partido más votado?", a: "No. No se asigna a ningún partido; solo cuenta para calcular el 3 %." },
       { q: "¿Y el voto nulo?", a: "No es válido: no influye en el reparto ni en la barrera." },
