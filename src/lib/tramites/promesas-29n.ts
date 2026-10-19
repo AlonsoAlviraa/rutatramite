@@ -100,6 +100,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -562,6 +566,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -841,6 +849,14 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
+},
+{
+"href": "/elecciones/salario-minimo-1800-euros",
+"label": "Salario mínimo de 1.800 €: la propuesta y el SMI actual"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -1377,6 +1393,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -1640,6 +1660,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -1904,6 +1928,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -2099,6 +2127,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -2286,6 +2318,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -2553,6 +2589,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/partido-frente-amplio",
 "label": "Qué promete Frente Amplio"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -3078,6 +3118,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/partido-frente-amplio",
 "label": "Qué promete Frente Amplio"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -3444,6 +3488,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/partido-frente-amplio",
 "label": "Qué promete Frente Amplio"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -3802,6 +3850,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/partido-vox",
 "label": "Qué promete Vox"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -4060,6 +4112,14 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/partido-vox",
 "label": "Qué promete Vox"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
+},
+{
+"href": "/elecciones/salario-minimo-1800-euros",
+"label": "Salario mínimo de 1.800 €: la propuesta y el SMI actual"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -4356,6 +4416,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/partido-vox",
 "label": "Qué promete Vox"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -22082,6 +22146,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/ayudas-por-gobierno/jovenes-alquiler",
 "label": "Ayudas para jóvenes que alquilan o quieren comprar según cada gobierno"
+},
+{
+"href": "/elecciones/salario-minimo-1800-euros",
+"label": "Salario mínimo de 1.800 €: la propuesta y el SMI actual"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -23403,6 +23471,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/ayudas-por-gobierno/desempleados",
 "label": "Ayudas para personas en paro según cada gobierno"
+},
+{
+"href": "/elecciones/salario-minimo-1800-euros",
+"label": "Salario mínimo de 1.800 €: la propuesta y el SMI actual"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -23827,6 +23899,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones",
 "label": "Elecciones del 29-N"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -24034,6 +24110,42 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "label": "pp.es, 16-10-2026: Bendodo en Granada (autónomos)",
 "href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+},
+{
+"label": "pp.es, 04-07-2023: Feijóo presenta el programa del 23-J (365 medidas)",
+"href": "https://www.pp.es/sites/default/files/documentos/23.07.04._resumen_programa_electoral.pdf"
+},
+{
+"label": "EFE, 07-07-2023: Sánchez presenta el programa del PSOE",
+"href": "https://efe.com/espana/2023-07-07/sanchez-programa-electoral-psoe/"
+},
+{
+"label": "RTVE, 07-07-2023: diario de campaña (Vox presenta su programa)",
+"href": "https://www.rtve.es/noticias/20230707/elecciones-generales-2023-cronica-jornada-7-julio/2451112.shtml"
+},
+{
+"label": "EFE, 06-07-2023: Sumar presenta su programa",
+"href": "https://efe.com/espana/2023-07-06/programa-sumar-elecciones/"
+},
+{
+"label": "Antena 3, 07-07-2023: el PSOE presenta su programa el primer día de campaña",
+"href": "https://www.antena3.com/noticias/elecciones/elecciones-generales/pedro-sanchez-presenta-programa-psoe-que-aspira-retener-presidencia_2023070764a87482bcaee0000150e217.html"
+},
+{
+"label": "pp.es: programa del PP para el 23-J (PDF)",
+"href": "https://www.pp.es/storage/2023/07/programa_electoral_pp_23j_feijoo_2023.pdf"
+},
+{
+"label": "psoe.es: programa del PSOE para el 23-J (PDF)",
+"href": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf"
+},
+{
+"label": "ABC, 23-07-2023: el programa de Vox para el 23-J (177 páginas, 381 medidas)",
+"href": "https://www.abc.es/espana/programa-electoral-vox-santiago-abascal-elecciones-generales-23j-20230723102902-nt.html"
+},
+{
+"label": "movimientosumar.es: «Un programa para ti» (PDF, 23-J)",
+"href": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf"
 }
 ],
 "related": [
@@ -24070,7 +24182,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "faqs": [
 {
 "q": "¿Cuándo salen los programas electorales del 29-N?",
-"a": "No hay fecha fijada por ley: cada partido decide cuándo lo publica. A 19 de octubre de 2026 no hemos localizado el programa completo para el 29-N de ningún partido con diputados en el Congreso (PP, PSOE, Vox, Frente Amplio, Podemos, ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria ni UPN). La campaña va del 13 al 27 de noviembre; actualizaremos esta página cuando salgan."
+"a": "No hay fecha fijada por ley: cada partido decide cuándo lo publica. A 19 de octubre de 2026 no hemos localizado el programa completo para el 29-N de ningún partido con diputados en el Congreso (PP, PSOE, Vox, Frente Amplio, Podemos, ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria ni UPN). La campaña va del 13 al 27 de noviembre; actualizaremos esta página cuando salgan. En 2023 los cuatro partidos más votados lo presentaron entre 3 días antes del inicio de la campaña y su primer día; la del 29-N empieza el 13 de noviembre."
 },
 {
 "q": "¿Qué han propuesto los partidos en los mítines del 29-N?",
@@ -24087,6 +24199,14 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "q": "¿Dónde comparo las propuestas?",
 "a": "En la página de promesas del 29-N, por tema (vivienda, impuestos, empleo, pensiones, inmigración, sanidad, educación, instituciones y burocracia), por partido, comunidad y perfil."
+},
+{
+"q": "¿Cuándo publicaron los partidos su programa en 2023?",
+"a": "En las generales del 23 de julio de 2023, entre el 4 y el 7 de julio, con la campaña empezando el 7: el PP el 4 de julio, Sumar el 6 y el PSOE y Vox el 7. Para el 29-N la campaña empieza el 13 de noviembre."
+},
+{
+"q": "¿Dónde se podrán leer los programas del 29-N?",
+"a": "En la web oficial de cada partido, normalmente en PDF. En 2023 el PP, el PSOE y Sumar los colgaron en pp.es, psoe.es y movimientosumar.es. Cuando se publique uno del 29-N lo enlazaremos en esta página."
 }
 ],
 "sections": [
@@ -24107,6 +24227,69 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "Criterio: solo recogemos propuestas concretas, con quién las dijo, dónde y cuándo, y enlazamos la fuente (web del partido o prensa). No recogemos críticas a otros partidos ni valoramos las propuestas. Si no encontramos propuestas verificables de un partido, lo decimos.",
 "Orden: por votos en las generales del 23 de julio de 2023, el mismo que en nuestra comparativa de promesas. Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar. Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ]
+},
+{
+"id": "precedente-2023",
+"title": "Cuándo salieron en 2023: la referencia más cercana",
+"paragraphs": [
+"En las últimas generales, las del 23 de julio de 2023, la campaña empezó el viernes 7 de julio. Los cuatro partidos más votados presentaron su programa entre el 4 y el 7 de julio: como pronto, 3 días antes de empezar la campaña, y como tarde, el primer día.",
+"Para el 29-N la campaña empieza el viernes 13 de noviembre de 2026 a las 0:00 (Real Decreto 806/2026). Si los partidos repiten lo que hicieron en 2023, los programas llegarían en torno al 10-13 de noviembre. Es una referencia, no un plazo: ninguna ley obliga a publicar un programa ni le pone fecha."
+],
+"table": {
+"caption": "Generales del 23-J de 2023: cuándo presentó su programa cada partido (orden por votos de 2023)",
+"head": [
+"Partido",
+"Presentó el programa",
+"Respecto al inicio de la campaña (7-7-2023)",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Martes 04-07-2023",
+"3 días antes"
+],
+"source": {
+"label": "pp.es, 04-07-2023: Feijóo presenta el programa del 23-J (365 medidas)",
+"href": "https://www.pp.es/sites/default/files/documentos/23.07.04._resumen_programa_electoral.pdf"
+}
+},
+{
+"cells": [
+"PSOE",
+"Viernes 07-07-2023",
+"El primer día de campaña"
+],
+"source": {
+"label": "EFE, 07-07-2023: Sánchez presenta el programa del PSOE",
+"href": "https://efe.com/espana/2023-07-07/sanchez-programa-electoral-psoe/"
+}
+},
+{
+"cells": [
+"Vox",
+"Viernes 07-07-2023",
+"El primer día de campaña"
+],
+"source": {
+"label": "RTVE, 07-07-2023: diario de campaña (Vox presenta su programa)",
+"href": "https://www.rtve.es/noticias/20230707/elecciones-generales-2023-cronica-jornada-7-julio/2451112.shtml"
+}
+},
+{
+"cells": [
+"Sumar",
+"Jueves 06-07-2023",
+"1 día antes"
+],
+"source": {
+"label": "EFE, 06-07-2023: Sumar presenta su programa",
+"href": "https://efe.com/espana/2023-07-06/programa-sumar-elecciones/"
+}
+}
+]
+}
 },
 {
 "id": "por-tema",
@@ -24769,8 +24952,64 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "id": "donde",
 "title": "Dónde leerlos",
 "paragraphs": [
-"En la web oficial de cada partido. En nuestra sección de promesas enlazamos cada medida a su fuente y avisamos cuando se publica un programa."
+"En la web oficial de cada partido, casi siempre en PDF. Cuando se publique un programa del 29-N lo enlazaremos aquí y en la comparativa de promesas, el mismo día.",
+"Mientras tanto, los programas de 2023 sirven para ver qué formato tienen y comparar con lo que se proponga ahora: son documentos largos, de 180 a más de 260 páginas, organizados por bloques temáticos."
+],
+"table": {
+"caption": "Programas de las generales de 2023 de los cuatro partidos más votados",
+"head": [
+"Partido",
+"Programa de 2023",
+"Extensión",
+"Dónde leerlo"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Programa electoral del 23-J",
+"365 medidas (nota del PP, 04-07-2023)"
+],
+"source": {
+"label": "pp.es: programa del PP para el 23-J (PDF)",
+"href": "https://www.pp.es/storage/2023/07/programa_electoral_pp_23j_feijoo_2023.pdf"
+}
+},
+{
+"cells": [
+"PSOE",
+"Programa electoral, elecciones generales 23 de julio de 2023",
+"Más de 260 páginas (Antena 3, 07-07-2023)"
+],
+"source": {
+"label": "psoe.es: programa del PSOE para el 23-J (PDF)",
+"href": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf"
+}
+},
+{
+"cells": [
+"Vox",
+"«Un programa para lo que importa»",
+"177 páginas y 381 medidas (ABC)"
+],
+"source": {
+"label": "ABC, 23-07-2023: el programa de Vox para el 23-J (177 páginas, 381 medidas)",
+"href": "https://www.abc.es/espana/programa-electoral-vox-santiago-abascal-elecciones-generales-23j-20230723102902-nt.html"
+}
+},
+{
+"cells": [
+"Sumar",
+"«Un programa para ti»",
+"179 páginas (EFE, 06-07-2023)"
+],
+"source": {
+"label": "movimientosumar.es: «Un programa para ti» (PDF, 23-J)",
+"href": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf"
+}
+}
 ]
+}
 }
 ]
 },
@@ -25214,12 +25453,12 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "id": "e29n-salario-minimo-1800-euros",
 "pack": "elecciones",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-19",
 "path": "/elecciones/salario-minimo-1800-euros",
 "h1": "Salario mínimo de 1.800 €: la propuesta de Podemos explicada",
-"title": "Salario mínimo de 1.800 €: qué propone Podemos",
-"description": "Podemos propone un salario mínimo de 1.800 € al mes y la jornada de 30 horas. Qué dijo, de cuándo es la propuesta y qué falta por concretar para el 29-N.",
-"lead": "Respuesta corta: Irene Montero propuso en septiembre de 2026 un SMI de 1.800 € al mes y una jornada de 30 horas semanales (ABC, 12-9-2026). Podemos aún no ha publicado programa para el 29-N.",
+"title": "Salario mínimo de 1.800 €: qué propone Podemos y cuánto es hoy",
+"description": "Podemos propone un SMI de 1.800 € al mes; hoy es de 1.221 € en 14 pagas (BOE). Cuánto supondría al mes y al año y qué se sabe de la subida de 2027.",
+"lead": "Respuesta corta: Podemos propone subir el salario mínimo a 1.800 € al mes (Irene Montero, 12-9-2026, según ABC). Hoy el SMI es de 1.221 € brutos al mes en 14 pagas, 17.094 € al año (Real Decreto 126/2026). Serían 579 € más al mes, un 47,4 % más. Podemos aún no ha publicado programa para el 29-N.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Comparar promesas de todos los partidos"
@@ -25236,6 +25475,18 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "label": "BOE: Estatuto de los Trabajadores, art. 27",
 "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a27"
+},
+{
+"label": "BOE: Real Decreto 126/2026, salario mínimo interprofesional para 2026",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3815"
+},
+{
+"label": "SEPE: cuantías anuales del SMI y del IPREM 2026",
+"href": "https://www.sepe.es/HomeSepe/prestaciones-desempleo/Cuantias-anuales.html"
+},
+{
+"label": "El País, 16-10-2026: Trabajo prepara la subida del SMI de 2027",
+"href": "https://elpais.com/economia/2026-10-16/trabajo-prepara-una-subida-del-salario-minimo-antes-de-las-elecciones-que-rondara-el-5.html"
 }
 ],
 "related": [
@@ -25254,13 +25505,29 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "href": "/elecciones",
 "label": "Elecciones del 29-N: cómo votar"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral: explicamos la medida y citamos la fuente con fecha. No valoramos si es buena o mala ni recomendamos ningún voto.",
 "faqs": [
 {
-"q": "¿Proponen algo los demás?",
-"a": "A 13 de octubre no hemos encontrado una cifra de SMI de otros partidos para el 29-N. Consulta la comparativa de empleo."
+"q": "¿Cuánto es el salario mínimo en 2026?",
+"a": "1.221 € brutos al mes en 14 pagas, 17.094 € al año, o 40,70 € al día. Lo fija el Real Decreto 126/2026 (BOE del 19-2-2026), con efectos desde el 1 de enero."
+},
+{
+"q": "¿Los 1.800 € serían en 12 o en 14 pagas?",
+"a": "Podemos no lo ha concretado. En 14 pagas serían 25.200 € al año; en 12, 21.600 €. Frente a los 17.094 € de 2026, son 8.106 € o 4.506 € más al año."
+},
+{
+"q": "¿Cuándo sube el salario mínimo en 2027?",
+"a": "No hay fecha ni cifra oficial a 19 de octubre de 2026. Trabajo espera el informe de los expertos y quiere aprobarlo antes del 29-N; según El País, la subida rondaría el 5 %."
+},
+{
+"q": "¿Proponen algo los demás partidos?",
+"a": "A 19 de octubre no hemos encontrado otra cifra de salario mínimo para el 29-N con fuente fechada. Lo que dice cada partido sobre empleo y salarios está en la comparativa de empleo."
 }
 ],
 "sections": [
@@ -25268,14 +25535,91 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "id": "que",
 "title": "Qué se sabe",
 "paragraphs": [
-"La propuesta se presentó como objetivo de legislatura. No se ha publicado calendario ni si serían 12 o 14 pagas."
+"Irene Montero lo presentó en septiembre de 2026 como objetivo de legislatura, junto a la jornada de 30 horas semanales (ABC, 12-9-2026). No se ha publicado calendario ni si serían 12 o 14 pagas."
+]
+},
+{
+"id": "cifras",
+"title": "1.800 € frente al salario mínimo de 2026",
+"paragraphs": [
+"Podemos no ha dicho si los 1.800 € serían en 12 o en 14 pagas. Por eso calculamos los dos casos. Todas las cifras son brutas, como el SMI oficial."
+],
+"table": {
+"caption": "SMI de 2026 y propuesta de 1.800 € (brutos)",
+"head": [
+"Concepto",
+"SMI 2026",
+"Con 1.800 €",
+"Diferencia",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Al mes (14 pagas)",
+"1.221 € hoy",
+"1.800 €",
+"+579 € (+47,4 %)"
+],
+"source": {
+"label": "BOE: Real Decreto 126/2026, salario mínimo interprofesional para 2026",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3815"
+}
+},
+{
+"cells": [
+"Al año, si son 14 pagas",
+"17.094 € hoy",
+"25.200 €",
+"+8.106 €"
+],
+"source": {
+"label": "BOE: Real Decreto 126/2026, salario mínimo interprofesional para 2026",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3815"
+}
+},
+{
+"cells": [
+"Al año, si son 12 pagas",
+"17.094 € hoy",
+"21.600 €",
+"+4.506 €"
+],
+"source": {
+"label": "SEPE: cuantías anuales del SMI y del IPREM 2026",
+"href": "https://www.sepe.es/HomeSepe/prestaciones-desempleo/Cuantias-anuales.html"
+}
+},
+{
+"cells": [
+"Al mes con pagas prorrateadas (14 pagas entre 12)",
+"1.424,50 € hoy",
+"2.100 €",
+"+675,50 €"
+],
+"source": {
+"label": "BOE: Real Decreto 126/2026, salario mínimo interprofesional para 2026",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3815"
+}
+}
+]
+}
+},
+{
+"id": "smi-2027",
+"title": "La subida del SMI de 2027, antes o después del 29-N",
+"paragraphs": [
+"El Ministerio de Trabajo ha pedido a la comisión de expertos una cifra que acerque el SMI al 60 % del salario medio neto, la referencia de la Carta Social Europea, sin que pierda poder de compra. Según El País (16-10-2026), la subida rondaría el 5 % y CC OO y UGT piden un 7 %. No hay cifra oficial.",
+"Como referencia, un 5 % sobre los 1.221 € actuales serían unos 1.282 € al mes en 14 pagas. La subida de 2026 fue del 3,1 % (Real Decreto 126/2026).",
+"El SMI lo aprueba el Gobierno por real decreto y no necesita votación en las Cortes. El vicepresidente Carlos Cuerpo dijo que convendría anunciarlo antes de fin de año; Trabajo quiere aprobarlo antes de las elecciones (El País, 16-10-2026)."
 ]
 },
 {
 "id": "como",
 "title": "Cómo se fija hoy el SMI",
 "paragraphs": [
-"Lo aprueba cada año el Gobierno por real decreto, tras consultar a sindicatos y patronal (Estatuto de los Trabajadores, art. 27)."
+"Lo aprueba cada año el Gobierno por real decreto, tras consultar a sindicatos y patronal (Estatuto de los Trabajadores, art. 27).",
+"El de 2026 lo fijó el Real Decreto 126/2026, publicado en el BOE el 19 de febrero, con efectos desde el 1 de enero: 40,70 € al día o 1.221 € al mes."
 ]
 }
 ]

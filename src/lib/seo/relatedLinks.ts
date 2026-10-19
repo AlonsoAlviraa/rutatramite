@@ -13,5 +13,6 @@ export const RELATED_LINKS: Record<string, string[]> = {
   "/alquiler": ["/empadronarse/me-quieren-cobrar", "/hacienda/modelo-030"],
   "/modelos": ["/hacienda/modelo-030", "/colegio/cambiar-de-colegio-fuera-de-plazo"],
   "/elecciones": ["/dni/consultar-cita", "/dni/urgente-sin-cita"],
-  "/trabajo": ["/autorizacion-representacion-tramite"],
+  "/trabajo": ["/autorizacion-representacion-tramite", "/elecciones/salario-minimo-1800-euros"],
+  "/elecciones/promesas": ["/elecciones/programas-electorales-29n", "/elecciones/salario-minimo-1800-euros", "/elecciones/iva-vivienda-4-por-ciento"],
 };

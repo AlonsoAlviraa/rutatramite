@@ -61,6 +61,7 @@ const R = {
   resultados: { href: "/elecciones/resultados-y-escrutinio", label: "Resultados y escrutinio" },
   jecGuia: { href: "/elecciones/junta-electoral-central", label: "Qué es la Junta Electoral Central" },
   bulos: { href: "/elecciones/bulos-y-fraudes-electorales", label: "Bulos y fraudes en elecciones" },
+  programas: { href: "/elecciones/programas-electorales-29n", label: "Programas electorales del 29-N: cuándo salen" },
   faq: { href: "/elecciones/preguntas-frecuentes-29n", label: "Preguntas frecuentes del 29-N" },
   jornada: { href: "/elecciones/como-votar-el-dia-29", label: "Cómo se vota el día 29, paso a paso" },
 };
@@ -851,7 +852,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.jec,
     secondaryCta: S.rd,
     sources: [S.rd, S.jec, S.ine, S.ext, S.votoInfo],
-    related: [R.correo, R.cera, R.llevar, R.mesa],
+    related: [R.correo, R.cera, R.llevar, R.mesa, R.programas],
     faqs: [
       { q: "¿Qué se vota el 29 de noviembre?", a: "Diputados y senadores de las Cortes Generales (Real Decreto 806/2026)." },
       { q: "¿A qué hora abren los colegios?", a: "La votación es de 9:00 a 20:00." },
