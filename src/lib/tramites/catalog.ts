@@ -4,6 +4,7 @@ import { PROMESAS_29N_GUIDES, ELECCIONES_EXPLICADORES_GUIDES } from "@/lib/trami
 import { ELECCIONES_29N_GUIDES } from "@/lib/tramites/elecciones-29n-guias";
 import { CUANDO_29N_GUIDES } from "@/lib/tramites/cuando-29n";
 import { VOTO_NULO_CASOS_GUIDES } from "@/lib/tramites/voto-nulo-casos";
+import { CONTRATO_PP_GUIDES } from "@/lib/tramites/contrato-pp";
 import { BEBE_GUIDES } from "@/lib/tramites/bebe";
 import { AYUDAS_2026_GUIDES } from "@/lib/tramites/ayudas-2026";
 import { BECAS_GUIDES } from "@/lib/tramites/becas";
@@ -33,6 +34,7 @@ export const ALL_GUIDES: Guide[] = [
   ...ELECCIONES_29N_GUIDES,
   ...CUANDO_29N_GUIDES,
   ...VOTO_NULO_CASOS_GUIDES,
+  ...CONTRATO_PP_GUIDES,
   ...ELECCIONES_EXPLICADORES_GUIDES,
   ...PROMESAS_29N_GUIDES,
   ...PENSIONES_29N_GUIDES,

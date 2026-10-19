@@ -78,9 +78,21 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "RTVE: Feijóo en Barcelona (ley antiokupación) (18 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 ],
 "related": [
+{
+"href": "/elecciones/contrato-con-espana-pp",
+"label": "Contrato con España del PP: los 12 puntos"
+},
 {
 "href": "/elecciones/promesas",
 "label": "Promesas del 29-N: todas las medidas"
@@ -135,6 +147,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "«El Partido Popular se compromete a derogar la Ley de Vivienda actual, eliminar los controles de precios» (El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026).",
 "«para adquirir una vivienda habitual en municipios despoblados» (Alberto Núñez Feijóo, acto de Afammer en Toledo, 16-10-2026; fuente: La Vanguardia: Feijóo en el acto de Afammer en Toledo).",
 "«Tolerancia cero con los okupas, fuera en 48 horas sí o sí» (Alberto Núñez Feijóo, acto de precampaña en Barcelona con Xavier García Albiol, 18-10-2026; fuente: RTVE: Feijóo en Barcelona (ley antiokupación)).",
+"«construir al menos un millón de nuevas viviendas» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP).",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -232,6 +245,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "RTVE: Feijóo en Barcelona (ley antiokupación), 18 de octubre de 2026",
 "href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 }
 }
 ]
@@ -418,7 +442,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Podemos",
 "paragraphs": [
 "Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"«Hay que bajar los precios y prohibir la especulación» (Irene Montero, presentación de su candidatura, Madrid, 12-09-2026 (antes de la convocatoria); fuente: Cadena SER: Montero presenta su candidatura)."
+"«Hay que bajar los precios y prohibir la especulación» (Irene Montero, presentación de su candidatura, Madrid, 12-09-2026 (antes de la convocatoria); fuente: Cadena SER: Montero presenta su candidatura).",
+"«Las casas son para vivir.» (Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026; fuente: Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»)."
 ],
 "table": {
 "caption": "Podemos: medidas sobre vivienda",
@@ -438,6 +463,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Cadena SER: Montero presenta su candidatura, 12 de septiembre de 2026",
 "href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 }
 ]
@@ -544,6 +580,14 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "pp.es: Bendodo en Granada (autónomos) (16 de octubre de 2026, web oficial del partido)",
 "href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 ],
 "related": [
@@ -597,7 +641,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "«Defendemos el Consejo Defensa del Contribuyente y una Ley de Derechos y Garantías» (pp.es: entrevista a Juan Bravo, 9 de octubre de 2026).",
 "«Entre sus medidas prioritarias destaca la deflactación de la tarifa del IRPF» (Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026).",
 "«el IVA de la electricidad en el 10 % y el Impuesto sobre el Valor de la Producción de Energía Eléctrica en el 0 %» (Alberto Núñez Feijóo, acto de Afammer en Toledo, 16-10-2026; fuente: La Vanguardia: Feijóo en el acto de Afammer en Toledo).",
-"«1,4 millones de autónomos no paguen el IVA si facturan menos de 85.000 euros» (Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026; fuente: pp.es: Bendodo en Granada (autónomos))."
+"«1,4 millones de autónomos no paguen el IVA si facturan menos de 85.000 euros» (Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026; fuente: pp.es: Bendodo en Granada (autónomos)).",
+"«Revisaremos una a una las más de cien subidas fiscales de los últimos años» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP)."
 ],
 "table": {
 "caption": "PP: medidas sobre impuestos y coste de la vida",
@@ -662,6 +707,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
 "href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
 }
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
 }
 ]
 }
@@ -717,7 +773,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Podemos",
 "paragraphs": [
 "Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"«acabar con el negocio de la vivienda, bajar el coste de la vida, mejorar los salarios y defender los servicios públicos» (Irene Montero, Consejo Ciudadano Estatal de Podemos, Madrid, 17-10-2026; fuente: Europa Press: Consejo Ciudadano de Podemos)."
+"«acabar con el negocio de la vivienda, bajar el coste de la vida, mejorar los salarios y defender los servicios públicos» (Irene Montero, Consejo Ciudadano Estatal de Podemos, Madrid, 17-10-2026; fuente: Europa Press: Consejo Ciudadano de Podemos).",
+"«Bajar el coste de la vida.» (Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026; fuente: Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»)."
 ],
 "table": {
 "caption": "Podemos: medidas sobre impuestos y coste de la vida",
@@ -737,6 +794,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Europa Press: Consejo Ciudadano de Podemos, 17 de octubre de 2026",
 "href": "https://www.europapress.es/nacional/noticia-montero-lanza-candidatura-acusa-frente-amplio-preferir-pactar-psoe-senado-podemos-ccaa-20261017123614.html"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 }
 ]
@@ -827,6 +895,14 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "pp.es: Bendodo en Granada (autónomos) (16 de octubre de 2026, web oficial del partido)",
 "href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 ],
 "related": [
@@ -882,7 +958,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
 "«eliminar o bonificar el IRPF a los jóvenes durante los primeros 4 años de su vida laboral, de manera progresiva» (pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026).",
 "«una cuota de autónomos de 50 euros al mes durante tres años para menores de 40 años; una reducción del 50 % del IRPF durante los dos primeros años de actividad; un bono de Incorporación Rural de hasta 15.000 euros; y, avales públicos de hasta el 80% de la inversión» (Alberto Núñez Feijóo, acto de Afammer en Toledo, 16-10-2026; fuente: La Vanguardia: Feijóo en el acto de Afammer en Toledo).",
-"«tarifa cero en el primer y segundo año de actividad a menores de 35 años» (Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026; fuente: pp.es: Bendodo en Granada (autónomos))."
+"«tarifa cero en el primer y segundo año de actividad a menores de 35 años» (Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026; fuente: pp.es: Bendodo en Granada (autónomos)).",
+"«Nuestro objetivo económico más ambicioso es que suba el salario medio de los españoles» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP)."
 ],
 "table": {
 "caption": "PP: medidas sobre empleo y salarios",
@@ -924,6 +1001,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
 "href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 }
 }
 ]
@@ -981,7 +1069,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "paragraphs": [
 "Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
 "«prometiendo un salario mínimo de 1.800 euros» (ABC: presentación de Irene Montero, 12 de septiembre de 2026).",
-"«la jornada semanal de 30 horas» (ABC: presentación de Irene Montero, 12 de septiembre de 2026)."
+"«la jornada semanal de 30 horas» (ABC: presentación de Irene Montero, 12 de septiembre de 2026).",
+"«Subir el SMI a 1.800€ y jornada laboral de 30h.» (Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026; fuente: Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»)."
 ],
 "table": {
 "caption": "Podemos: medidas sobre empleo y salarios",
@@ -1012,6 +1101,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 }
 ]
@@ -1371,6 +1471,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "pp.es: Bendodo en Granada (autónomos) (16 de octubre de 2026, web oficial del partido)",
 "href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 }
 ],
 "related": [
@@ -1421,7 +1525,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "paragraphs": [
 "Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
 "«no introducir nuevos trámites hasta realizar una revisión normativa que reduzca los existentes al menos un 30 % y evite que se tenga que presentar dos veces la misma documentación» (Alberto Núñez Feijóo, acto de Afammer en Toledo, 16-10-2026; fuente: La Vanguardia: Feijóo en el acto de Afammer en Toledo).",
-"«de cuatro declaraciones al año a dos o incluso una» (Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026; fuente: pp.es: Bendodo en Granada (autónomos))."
+"«de cuatro declaraciones al año a dos o incluso una» (Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026; fuente: pp.es: Bendodo en Granada (autónomos)).",
+"«menos ministerios, menos altos cargos y menos asesores» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP)."
 ],
 "table": {
 "caption": "PP: medidas sobre burocracia y administración",
@@ -1452,6 +1557,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
 "href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 }
 }
 ]
@@ -1633,6 +1749,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 }
 ],
 "related": [
+{
+"href": "/elecciones/contrato-con-espana-pp",
+"label": "Contrato con España del PP: los 12 puntos"
+},
 {
 "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
 "label": "¿Quiere algún partido quitar las pensiones?"
@@ -1904,6 +2024,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 },
 {
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
 "label": "BOE: Ley 14/1986, General de Sanidad",
 "href": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-10499"
 }
@@ -1956,7 +2080,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "paragraphs": [
 "Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
 "«un plan que contempla incorporar 10.000 profesionales y una inversión de 700 millones de euros anuales hasta alcanzar ese objetivo» (Carmen Fúnez, vicesecretaria de Sanidad del PP, VII Simposium del Observatorio de la Sanidad, 07-10-2026; fuente: pp.es: proyecto sanitario del PP (Carmen Fúnez)).",
-"«incluya “una pieza específica” para sostener económicamente el Sistema Nacional de Salud» (Carmen Fúnez, vicesecretaria de Sanidad del PP, VII Simposium del Observatorio de la Sanidad, 07-10-2026; fuente: pp.es: proyecto sanitario del PP (Carmen Fúnez))."
+"«incluya “una pieza específica” para sostener económicamente el Sistema Nacional de Salud» (Carmen Fúnez, vicesecretaria de Sanidad del PP, VII Simposium del Observatorio de la Sanidad, 07-10-2026; fuente: pp.es: proyecto sanitario del PP (Carmen Fúnez)).",
+"«Más médicos y con mejores condiciones» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP)."
 ],
 "table": {
 "caption": "PP: medidas sobre sanidad",
@@ -1987,6 +2112,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
 "href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 }
 }
 ]
@@ -2080,7 +2216,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Qué propone cada partido sobre educación para el 29-N",
 "title": "Educación: qué propone cada partido el 29-N",
 "description": "Educación el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
-"lead": "Respuesta corta: 2 de los 6 partidos que comparamos han concretado algo sobre educación a 19 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"lead": "Respuesta corta: 3 de los 6 partidos que comparamos han concretado algo sobre educación a 19 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2101,6 +2237,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "Europa Press: presentación de Democracia 21 (10 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 },
 {
 "label": "BOE: Ley Orgánica 2/2006, de Educación",
@@ -2154,8 +2294,30 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Popular (PP)",
 "paragraphs": [
 "Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 19 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"«Los contenidos serán elaborados por las reales academias» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP)."
+],
+"table": {
+"caption": "PP: medidas sobre educación",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+}
 ]
+}
 },
 {
 "id": "psoe",
@@ -2296,9 +2458,21 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "Europa Press: presentación de Democracia 21 (10 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 ],
 "related": [
+{
+"href": "/elecciones/contrato-con-espana-pp",
+"label": "Contrato con España del PP: los 12 puntos"
+},
 {
 "href": "/elecciones/promesas",
 "label": "Promesas del 29-N: todas las medidas"
@@ -2345,7 +2519,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Popular (PP)",
 "paragraphs": [
 "Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
-"«España necesita dirección, revisar las reglas, recuperar los contrapesos y fortalecer las instituciones» (Alberto Núñez Feijóo, mitin en Ifema, Madrid, 10-10-2026; fuente: pp.es: mitin de Feijóo en Madrid)."
+"«España necesita dirección, revisar las reglas, recuperar los contrapesos y fortalecer las instituciones» (Alberto Núñez Feijóo, mitin en Ifema, Madrid, 10-10-2026; fuente: pp.es: mitin de Feijóo en Madrid).",
+"«convocará obligatoriamente elecciones si acumula más de una prórroga» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP)."
 ],
 "table": {
 "caption": "PP: medidas sobre instituciones y gasto público",
@@ -2365,6 +2540,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "pp.es: mitin de Feijóo en Madrid, 10 de octubre de 2026",
 "href": "https://www.pp.es/actualidad/articulos/feijoo-convoca-a-todos-los-espanoles-a-la-reconstruccion-nacional-para-poner-fin-al-muro-la-delincuencia-y-la-decadencia/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 }
 }
 ]
@@ -2421,7 +2607,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Podemos",
 "paragraphs": [
 "Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"«no es ninguna locura decir que no podemos gastarnos dinero en armas mientras tenemos bomberos que están protegiendo nuestro país de los incendios cobrando una miseria» (Irene Montero, presentación de su candidatura, Madrid, 12-09-2026 (antes de la convocatoria); fuente: Cadena SER: Montero presenta su candidatura)."
+"«no es ninguna locura decir que no podemos gastarnos dinero en armas mientras tenemos bomberos que están protegiendo nuestro país de los incendios cobrando una miseria» (Irene Montero, presentación de su candidatura, Madrid, 12-09-2026 (antes de la convocatoria); fuente: Cadena SER: Montero presenta su candidatura).",
+"«Ni un euro para guerras.» (Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026; fuente: Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»).",
+"«Proteger lo público y políticas contra el cambio climático.» (Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026; fuente: Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»)."
 ],
 "table": {
 "caption": "Podemos: medidas sobre instituciones y gasto público",
@@ -2441,6 +2629,28 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Cadena SER: Montero presenta su candidatura, 12 de septiembre de 2026",
 "href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 }
 ]
@@ -2494,7 +2704,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Partido Popular (PP): qué promete para el 29-N",
 "title": "PP: promesas y medidas para el 29-N",
 "description": "Qué propone PP para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: PP ha concretado 23 medidas con fuente a 19 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"lead": "Respuesta corta: PP ha concretado 32 medidas con fuente a 19 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2557,11 +2767,19 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
 },
 {
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
 "label": "Web oficial de PP",
 "href": "https://www.pp.es/"
 }
 ],
 "related": [
+{
+"href": "/elecciones/contrato-con-espana-pp",
+"label": "Contrato con España del PP: los 12 puntos"
+},
 {
 "href": "/elecciones/promesas",
 "label": "Promesas del 29-N: todas las medidas"
@@ -2599,7 +2817,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "faqs": [
 {
 "q": "¿Ha publicado PP su programa para el 29-N?",
-"a": "A 19 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
+"a": "A 19 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique. El 19 de octubre presentó el «Contrato con España», 12 compromisos firmados por Feijóo que no son el programa; sus puntos están incorporados aquí, tema a tema."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -2633,6 +2851,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
 "Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
 "Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -2731,6 +2950,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "RTVE: Feijóo en Barcelona (ley antiokupación), 18 de octubre de 2026",
 "href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
 }
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
 }
 ]
 }
@@ -2743,7 +2973,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
 "Deflactar la tarifa del IRPF (ajustarla a la inflación).",
 "IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
-"Eliminar el IVA para autónomos que facturen menos de 85.000 euros al año (plan anunciado para unos 1,4 millones de autónomos)."
+"Eliminar el IVA para autónomos que facturen menos de 85.000 euros al año (plan anunciado para unos 1,4 millones de autónomos).",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos."
 ],
 "table": {
 "caption": "PP: impuestos y coste de la vida",
@@ -2808,6 +3039,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
 "href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
 }
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
 }
 ]
 }
@@ -2818,7 +3060,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "paragraphs": [
 "Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
 "Para menores de 40 años que emprendan en zonas rurales: cuota de autónomos de 50 € al mes durante tres años, 50 % menos de IRPF los dos primeros años, bono de incorporación rural de hasta 15.000 € y avales públicos de hasta el 80 % de la inversión.",
-"Tarifa o cuota cero durante los dos primeros años de actividad para nuevos autónomos menores de 35 años."
+"Tarifa o cuota cero durante los dos primeros años de actividad para nuevos autónomos menores de 35 años.",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo»."
 ],
 "table": {
 "caption": "PP: empleo y salarios",
@@ -2861,6 +3104,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
 "href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
 }
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
 }
 ]
 }
@@ -2869,7 +3123,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "inmigracion",
 "title": "Inmigración",
 "paragraphs": [
-"Una nueva ley de extranjería que permita expulsiones inmediatas por entradas irregulares; reforzar el control fronterizo de Ceuta."
+"Una nueva ley de extranjería que permita expulsiones inmediatas por entradas irregulares; reforzar el control fronterizo de Ceuta.",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1)."
 ],
 "table": {
 "caption": "PP: inmigración",
@@ -2890,6 +3145,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "El Español: Feijóo en Ceuta, 7 de octubre de 2026",
 "href": "https://www.elespanol.com/espana/politica/20261007/feijoo-presidente-solo-debe-defender-muro-frontera-ceuta-primera-carpeta-consejo-ministros/1003744411845_0.html"
 }
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
 }
 ]
 }
@@ -2899,7 +3165,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Burocracia y administración",
 "paragraphs": [
 "No crear trámites nuevos hasta revisar la normativa y reducir los existentes al menos un 30 %; no tener que presentar dos veces el mismo documento.",
-"Reducir las declaraciones de los autónomos de cuatro al año a dos o incluso una."
+"Reducir las declaraciones de los autónomos de cuatro al año a dos o incluso una.",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados."
 ],
 "table": {
 "caption": "PP: burocracia y administración",
@@ -2931,6 +3198,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
 "href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
 }
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
 }
 ]
 }
@@ -2939,7 +3217,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "pensiones",
 "title": "Pensiones",
 "paragraphs": [
-"Actualizar las pensiones con el IPC y garantizar la viabilidad del sistema público de pensiones."
+"Actualizar las pensiones con el IPC y garantizar la viabilidad del sistema público de pensiones.",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo."
 ],
 "table": {
 "caption": "PP: pensiones",
@@ -2960,6 +3239,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "El País: Feijóo en Bruselas, 15 de octubre de 2026",
 "href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
 }
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
 }
 ]
 }
@@ -2969,7 +3259,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Sanidad",
 "paragraphs": [
 "Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
-"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios."
 ],
 "table": {
 "caption": "PP: sanidad",
@@ -3001,6 +3292,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
 "href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
 }
 ]
 }
@@ -3009,14 +3311,37 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "educacion",
 "title": "Educación",
 "paragraphs": [
-"Pendiente de programa: a 19 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales."
+],
+"table": {
+"caption": "PP: educación",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+}
 ]
+}
 },
 {
 "id": "instituciones",
 "title": "Instituciones y gasto público",
 "paragraphs": [
-"Revisar las reglas, recuperar los contrapesos y fortalecer las instituciones."
+"Revisar las reglas, recuperar los contrapesos y fortalecer las instituciones.",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria."
 ],
 "table": {
 "caption": "PP: instituciones y gasto público",
@@ -3036,6 +3361,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "pp.es: mitin de Feijóo en Madrid, 10 de octubre de 2026",
 "href": "https://www.pp.es/actualidad/articulos/feijoo-convoca-a-todos-los-espanoles-a-la-reconstruccion-nacional-para-poner-fin-al-muro-la-delincuencia-y-la-decadencia/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 }
 }
 ]
@@ -4045,7 +4381,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Podemos: qué promete para el 29-N",
 "title": "Podemos: promesas y medidas para el 29-N",
 "description": "Qué propone Podemos para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: Podemos ha concretado 7 medidas con fuente a 19 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"lead": "Respuesta corta: Podemos ha concretado 12 medidas con fuente a 19 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -4078,6 +4414,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "El Debate: ley de Podemos sobre jubilación anticipada (22 de septiembre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.eldebate.com/economia/20260922/congreso-aprueba-tramitar-no-penalizar-jubilacion-anticipada-40-anos-cotizados_461700.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 },
 {
 "label": "Web oficial de Podemos",
@@ -4126,7 +4466,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "faqs": [
 {
 "q": "¿Ha publicado Podemos su programa para el 29-N?",
-"a": "A 19 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
+"a": "A 19 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique. El 19 de octubre publicó «5 propuestas para tener paz, casa y trabajo», que no son el programa; están incorporadas aquí, tema a tema."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -4152,7 +4492,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "vivienda",
 "title": "Vivienda",
 "paragraphs": [
-"Bajar los precios de la vivienda y prohibir la especulación."
+"Bajar los precios de la vivienda y prohibir la especulación.",
+"5 propuestas, punto 1: «Las casas son para vivir»."
 ],
 "table": {
 "caption": "Podemos: vivienda",
@@ -4173,6 +4514,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Cadena SER: Montero presenta su candidatura, 12 de septiembre de 2026",
 "href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
 }
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
 }
 ]
 }
@@ -4181,7 +4533,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "impuestos",
 "title": "Impuestos y coste de la vida",
 "paragraphs": [
-"Objetivos de campaña: acabar con «el negocio de la vivienda», bajar el coste de la vida, mejorar los salarios y defender los servicios públicos."
+"Objetivos de campaña: acabar con «el negocio de la vivienda», bajar el coste de la vida, mejorar los salarios y defender los servicios públicos.",
+"5 propuestas, punto 2: bajar el coste de la vida."
 ],
 "table": {
 "caption": "Podemos: impuestos y coste de la vida",
@@ -4202,6 +4555,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Europa Press: Consejo Ciudadano de Podemos, 17 de octubre de 2026",
 "href": "https://www.europapress.es/nacional/noticia-montero-lanza-candidatura-acusa-frente-amplio-preferir-pactar-psoe-senado-podemos-ccaa-20261017123614.html"
 }
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
 }
 ]
 }
@@ -4211,7 +4575,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Empleo y salarios",
 "paragraphs": [
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Reducir la jornada laboral a 30 horas semanales."
+"Reducir la jornada laboral a 30 horas semanales.",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas."
 ],
 "table": {
 "caption": "Podemos: empleo y salarios",
@@ -4242,6 +4607,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 }
 ]
@@ -4330,7 +4706,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "instituciones",
 "title": "Instituciones y gasto público",
 "paragraphs": [
-"No destinar más dinero a armamento mientras haya servicios públicos mal pagados."
+"No destinar más dinero a armamento mientras haya servicios públicos mal pagados.",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático."
 ],
 "table": {
 "caption": "Podemos: instituciones y gasto público",
@@ -4350,6 +4728,28 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Cadena SER: Montero presenta su candidatura, 12 de septiembre de 2026",
 "href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 }
 ]
@@ -4753,7 +5153,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Andalucía",
 "title": "Promesas electorales del 29-N en Andalucía",
 "description": "Cómo afectarían en Andalucía las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 60 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Andalucía elige 60 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 43 se aplicarían igual en Andalucía, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Andalucía se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Andalucía elige 60 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Andalucía, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Andalucía se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -4810,7 +5210,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Andalucía?",
-"a": "A 19 de octubre de 2026, 43 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 57 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -4839,8 +5239,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -4895,8 +5295,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -5208,6 +5608,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -5593,6 +6092,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -5615,7 +6169,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Aragón",
 "title": "Promesas electorales del 29-N en Aragón",
 "description": "Cómo afectarían en Aragón las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 13 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Aragón elige 13 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 43 se aplicarían igual en Aragón, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Aragón se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Aragón elige 13 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Aragón, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Aragón se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -5672,7 +6226,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Aragón?",
-"a": "A 19 de octubre de 2026, 43 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 57 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -5701,8 +6255,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -5757,8 +6311,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -6070,6 +6624,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -6455,6 +7108,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -6477,7 +7185,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Asturias",
 "title": "Promesas electorales del 29-N en Asturias",
 "description": "Cómo afectarían en Asturias las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 7 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Asturias elige 7 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 43 se aplicarían igual en Asturias, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Asturias se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Asturias elige 7 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Asturias, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Asturias se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -6534,7 +7242,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Asturias?",
-"a": "A 19 de octubre de 2026, 43 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 57 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -6563,8 +7271,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -6619,8 +7327,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -6932,6 +7640,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -7317,6 +8124,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -7339,7 +8201,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Illes Balears",
 "title": "Promesas electorales del 29-N en Illes Balears",
 "description": "Cómo afectarían en Illes Balears las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 8 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Illes Balears elige 8 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 43 se aplicarían igual en Illes Balears, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Illes Balears se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Illes Balears elige 8 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Illes Balears, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Illes Balears se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -7396,7 +8258,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Illes Balears?",
-"a": "A 19 de octubre de 2026, 43 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 57 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -7425,8 +8287,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -7481,8 +8343,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -7794,6 +8656,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -8179,6 +9140,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -8201,7 +9217,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Canarias",
 "title": "Promesas electorales del 29-N en Canarias",
 "description": "Cómo afectarían en Canarias las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 15 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Canarias elige 15 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 38 se aplicarían igual en Canarias, 13 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Canarias, las propuestas de bajar el IVA (vivienda nueva, alimentos) no se aplicarían tal cual.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Canarias elige 15 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 52 se aplicarían igual en Canarias, 13 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Canarias, las propuestas de bajar el IVA (vivienda nueva, alimentos) no se aplicarían tal cual.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -8258,7 +9274,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Canarias?",
-"a": "A 19 de octubre de 2026, 38 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 52 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -8287,8 +9303,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"13",
+"32",
+"22",
 "4",
 "6",
 "pendiente de programa"
@@ -8343,8 +9359,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -8656,6 +9672,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -9041,6 +10156,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -9063,7 +10233,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Cantabria",
 "title": "Promesas electorales del 29-N en Cantabria",
 "description": "Cómo afectarían en Cantabria las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 5 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Cantabria elige 5 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 43 se aplicarían igual en Cantabria, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cantabria se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Cantabria elige 5 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Cantabria, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cantabria se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -9120,7 +10290,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Cantabria?",
-"a": "A 19 de octubre de 2026, 43 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 57 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -9149,8 +10319,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -9205,8 +10375,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -9518,6 +10688,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -9903,6 +11172,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -9925,7 +11249,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Castilla y León",
 "title": "Promesas electorales del 29-N en Castilla y León",
 "description": "Cómo afectarían en Castilla y León las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 31 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Castilla y León elige 31 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 43 se aplicarían igual en Castilla y León, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla y León se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Castilla y León elige 31 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Castilla y León, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla y León se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -9982,7 +11306,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Castilla y León?",
-"a": "A 19 de octubre de 2026, 43 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 57 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -10011,8 +11335,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -10067,8 +11391,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -10380,6 +11704,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -10765,6 +12188,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -10787,7 +12265,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Castilla-La Mancha",
 "title": "Promesas electorales del 29-N en Castilla-La Mancha",
 "description": "Cómo afectarían en Castilla-La Mancha las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 21 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Castilla-La Mancha elige 21 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 43 se aplicarían igual en Castilla-La Mancha, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla-La Mancha se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Castilla-La Mancha elige 21 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Castilla-La Mancha, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla-La Mancha se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -10844,7 +12322,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Castilla-La Mancha?",
-"a": "A 19 de octubre de 2026, 43 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 57 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -10873,8 +12351,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -10929,8 +12407,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -11242,6 +12720,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -11627,6 +13204,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -11649,7 +13281,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Cataluña",
 "title": "Promesas electorales del 29-N en Cataluña",
 "description": "Cómo afectarían en Cataluña las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 48 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Cataluña elige 48 diputados el 29-N (BOE, RD 806/2026). De las 65 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 47 se aplicarían igual en Cataluña, 15 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cataluña se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Cataluña elige 48 diputados el 29-N (BOE, RD 806/2026). De las 79 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 61 se aplicarían igual en Cataluña, 15 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cataluña se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -11706,7 +13338,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Cataluña?",
-"a": "A 19 de octubre de 2026, 47 de 65 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 15 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 61 de 79 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 15 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -11735,8 +13367,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -11791,8 +13423,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -12104,6 +13736,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -12489,6 +14220,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "Plan nacional de construcción de barrios con diez años de seguridad jurídica; que un joven que gane 1.300 € no pague más de 350 € por su vivienda y, mientras tanto, quitar todos los impuestos sobre la vivienda a los menores de 35 años.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
@@ -12577,7 +14363,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Comunitat Valenciana",
 "title": "Promesas electorales del 29-N en Comunitat Valenciana",
 "description": "Cómo afectarían en Comunitat Valenciana las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 33 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Comunitat Valenciana elige 33 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 43 se aplicarían igual en Comunitat Valenciana, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunitat Valenciana se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Comunitat Valenciana elige 33 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Comunitat Valenciana, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunitat Valenciana se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -12634,7 +14420,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Comunitat Valenciana?",
-"a": "A 19 de octubre de 2026, 43 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 57 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -12663,8 +14449,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -12719,8 +14505,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -13032,6 +14818,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -13417,6 +15302,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -13439,7 +15379,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Extremadura",
 "title": "Promesas electorales del 29-N en Extremadura",
 "description": "Cómo afectarían en Extremadura las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 9 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Extremadura elige 9 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 43 se aplicarían igual en Extremadura, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Extremadura se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Extremadura elige 9 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Extremadura, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Extremadura se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -13496,7 +15436,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Extremadura?",
-"a": "A 19 de octubre de 2026, 43 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 57 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -13525,8 +15465,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -13581,8 +15521,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -13894,6 +15834,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -14279,6 +16318,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -14301,7 +16395,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Galicia",
 "title": "Promesas electorales del 29-N en Galicia",
 "description": "Cómo afectarían en Galicia las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 23 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Galicia elige 23 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 43 se aplicarían igual en Galicia, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Galicia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Galicia elige 23 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Galicia, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Galicia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -14358,7 +16452,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Galicia?",
-"a": "A 19 de octubre de 2026, 43 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 57 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -14387,8 +16481,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -14443,8 +16537,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -14756,6 +16850,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -15141,6 +17334,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -15163,7 +17411,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Comunidad de Madrid",
 "title": "Promesas electorales del 29-N en Comunidad de Madrid",
 "description": "Cómo afectarían en Comunidad de Madrid las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 38 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Comunidad de Madrid elige 38 diputados el 29-N (BOE, RD 806/2026). De las 65 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 47 se aplicarían igual en Comunidad de Madrid, 15 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunidad de Madrid se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Comunidad de Madrid elige 38 diputados el 29-N (BOE, RD 806/2026). De las 79 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 61 se aplicarían igual en Comunidad de Madrid, 15 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunidad de Madrid se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -15220,7 +17468,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Comunidad de Madrid?",
-"a": "A 19 de octubre de 2026, 47 de 65 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 15 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 61 de 79 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 15 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -15249,8 +17497,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -15305,8 +17553,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -15618,6 +17866,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -16003,6 +18350,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "Plan nacional de construcción de barrios con diez años de seguridad jurídica; que un joven que gane 1.300 € no pague más de 350 € por su vivienda y, mientras tanto, quitar todos los impuestos sobre la vivienda a los menores de 35 años.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
@@ -16091,7 +18493,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Región de Murcia",
 "title": "Promesas electorales del 29-N en Región de Murcia",
 "description": "Cómo afectarían en Región de Murcia las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 10 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Región de Murcia elige 10 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 43 se aplicarían igual en Región de Murcia, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Región de Murcia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Región de Murcia elige 10 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Región de Murcia, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Región de Murcia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -16148,7 +18550,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Región de Murcia?",
-"a": "A 19 de octubre de 2026, 43 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 57 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -16177,8 +18579,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -16233,8 +18635,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -16546,6 +18948,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -16931,6 +19432,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -16953,7 +19509,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Navarra",
 "title": "Promesas electorales del 29-N en Navarra",
 "description": "Cómo afectarían en Navarra las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 5 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Navarra elige 5 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 39 se aplicarían igual en Navarra, 13 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Navarra, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Navarra elige 5 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 53 se aplicarían igual en Navarra, 13 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Navarra, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -17010,7 +19566,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Navarra?",
-"a": "A 19 de octubre de 2026, 39 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 53 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -17039,8 +19595,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
+"32",
 "23",
-"14",
 "4",
 "5",
 "pendiente de programa"
@@ -17095,8 +19651,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -17408,6 +19964,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -17793,6 +20448,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -17815,7 +20525,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en País Vasco",
 "title": "Promesas electorales del 29-N en País Vasco",
 "description": "Cómo afectarían en País Vasco las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 18 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): País Vasco elige 18 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 39 se aplicarían igual en País Vasco, 13 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En País Vasco, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): País Vasco elige 18 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 53 se aplicarían igual en País Vasco, 13 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En País Vasco, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -17872,7 +20582,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en País Vasco?",
-"a": "A 19 de octubre de 2026, 39 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 53 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -17901,8 +20611,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
+"32",
 "23",
-"14",
 "4",
 "5",
 "pendiente de programa"
@@ -17957,8 +20667,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -18270,6 +20980,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -18655,6 +21464,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -18677,7 +21541,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en La Rioja",
 "title": "Promesas electorales del 29-N en La Rioja",
 "description": "Cómo afectarían en La Rioja las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 4 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): La Rioja elige 4 diputados el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 43 se aplicarían igual en La Rioja, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En La Rioja se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): La Rioja elige 4 diputados el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en La Rioja, 13 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En La Rioja se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -18734,7 +21598,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en La Rioja?",
-"a": "A 19 de octubre de 2026, 43 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 57 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -18763,8 +21627,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"17",
+"32",
+"26",
 "4",
 "2",
 "pendiente de programa"
@@ -18819,8 +21683,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -19132,6 +21996,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -19517,6 +22480,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -19539,7 +22557,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Ceuta",
 "title": "Promesas electorales del 29-N en Ceuta",
 "description": "Cómo afectarían en Ceuta las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 1 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Ceuta elige 1 diputado el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 38 se aplicarían igual en Ceuta, 13 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Ceuta, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Ceuta elige 1 diputado el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 52 se aplicarían igual en Ceuta, 13 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Ceuta, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -19596,7 +22614,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Ceuta?",
-"a": "A 19 de octubre de 2026, 38 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 52 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -19625,8 +22643,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"13",
+"32",
+"22",
 "4",
 "6",
 "pendiente de programa"
@@ -19681,8 +22699,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -19994,6 +23012,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -20379,6 +23496,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
 "Democracia 21",
 "No presenta candidatura en esta comunidad",
 "No aplica: solo concurre en Madrid y Barcelona"
@@ -20401,7 +23573,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Melilla",
 "title": "Promesas electorales del 29-N en Melilla",
 "description": "Cómo afectarían en Melilla las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 1 diputados.",
-"lead": "Respuesta corta (datos a 19 de octubre de 2026): Melilla elige 1 diputado el 29-N (BOE, RD 806/2026). De las 58 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 38 se aplicarían igual en Melilla, 13 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Melilla, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
+"lead": "Respuesta corta (datos a 19 de octubre de 2026): Melilla elige 1 diputado el 29-N (BOE, RD 806/2026). De las 72 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 52 se aplicarían igual en Melilla, 13 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Melilla, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -20458,7 +23630,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Melilla?",
-"a": "A 19 de octubre de 2026, 38 de 58 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 19 de octubre de 2026, 52 de 72 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 13 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -20487,8 +23659,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"23",
-"13",
+"32",
+"22",
 "4",
 "6",
 "pendiente de programa"
@@ -20543,8 +23715,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"7",
-"7",
+"12",
+"12",
 "0",
 "0",
 "pendiente de programa"
@@ -20856,6 +24028,105 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -21237,6 +24508,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "El Debate: ley de Podemos sobre jubilación anticipada, 22 de septiembre de 2026",
 "href": "https://www.eldebate.com/economia/20260922/congreso-aprueba-tramitar-no-penalizar-jubilacion-anticipada-40-anos-cotizados_461700.html"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 },
 {
@@ -21627,6 +24953,14 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "RTVE: Feijóo en Barcelona (ley antiokupación) (18 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 ],
 "related": [
@@ -21680,6 +25014,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
 "IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
 "Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -21788,6 +25124,28 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "RTVE: Feijóo en Barcelona (ley antiokupación), 18 de octubre de 2026",
 "href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 }
 }
 ]
@@ -21994,7 +25352,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "podemos",
 "title": "Podemos",
 "paragraphs": [
-"Reducir la jornada laboral a 30 horas semanales."
+"Reducir la jornada laboral a 30 horas semanales.",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"5 propuestas, punto 2: bajar el coste de la vida."
 ],
 "table": {
 "caption": "Podemos: medidas que afectan a familias con hijos",
@@ -22014,6 +25374,28 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 }
 ]
@@ -22124,6 +25506,14 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "RTVE: Feijóo en Barcelona (ley antiokupación) (18 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 ],
 "related": [
@@ -22183,6 +25573,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
 "Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
 "Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -22313,6 +25704,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "RTVE: Feijóo en Barcelona (ley antiokupación), 18 de octubre de 2026",
 "href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 }
 }
 ]
@@ -22521,7 +25923,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "paragraphs": [
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Reducir la jornada laboral a 30 horas semanales.",
-"Bajar los precios de la vivienda y prohibir la especulación."
+"Bajar los precios de la vivienda y prohibir la especulación.",
+"5 propuestas, punto 1: «Las casas son para vivir»."
 ],
 "table": {
 "caption": "Podemos: medidas que afectan a jóvenes que alquilan o quieren comprar",
@@ -22563,6 +25966,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Cadena SER: Montero presenta su candidatura, 12 de septiembre de 2026",
 "href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 }
 ]
@@ -22695,6 +26109,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "El Debate: ley de Podemos sobre jubilación anticipada (22 de septiembre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.eldebate.com/economia/20260922/congreso-aprueba-tramitar-no-penalizar-jubilacion-anticipada-40-anos-cotizados_461700.html"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 }
 ],
 "related": [
@@ -22742,7 +26160,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
 "Deflactar la tarifa del IRPF (ajustarla a la inflación).",
 "IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
-"Actualizar las pensiones con el IPC y garantizar la viabilidad del sistema público de pensiones."
+"Actualizar las pensiones con el IPC y garantizar la viabilidad del sistema público de pensiones.",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo."
 ],
 "table": {
 "caption": "PP: medidas que afectan a jubilados y pensionistas",
@@ -22795,6 +26214,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "El País: Feijóo en Bruselas, 15 de octubre de 2026",
 "href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 }
 }
 ]
@@ -23449,6 +26879,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "ABC: Sánchez en Zaragoza (14 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 ],
 "related": [
@@ -23615,7 +27049,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "podemos",
 "title": "Podemos",
 "paragraphs": [
-"Subir el salario mínimo (SMI) a 1.800 € al mes."
+"Subir el salario mínimo (SMI) a 1.800 € al mes.",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas."
 ],
 "table": {
 "caption": "Podemos: medidas que afectan a personas en paro",
@@ -23635,6 +27070,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 }
 ]
@@ -23973,7 +27419,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "h1": "Programas electorales del 29-N: cuándo se publican y dónde leerlos",
 "title": "Programas electorales del 29-N: cuándo salen y dónde verlos",
 "description": "¿Han salido ya los programas electorales del 29-N? A 18 de octubre ningún partido ha publicado el suyo. Qué han propuesto en los mítines, con fuente.",
-"lead": "Respuesta corta: a 19 de octubre de 2026 ningún partido ha publicado todavía su programa electoral para el 29-N. Mientras tanto, aquí tienes lo que han propuesto en mítines y actos de precampaña, por tema, con quién lo dijo, dónde, cuándo y la fuente.",
+"lead": "Respuesta corta: a 19 de octubre de 2026 ningún partido ha publicado todavía su programa electoral para el 29-N. El PP presentó el 19 de octubre su «Contrato con España», un documento de 12 compromisos que no es su programa. Mientras tanto, aquí tienes lo que han propuesto en mítines y actos de precampaña, por tema, con quién lo dijo, dónde, cuándo y la fuente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Comparar promesas de todos los partidos"
@@ -24150,6 +27596,10 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 ],
 "related": [
 {
+"href": "/elecciones/contrato-con-espana-pp",
+"label": "Contrato con España del PP: los 12 puntos"
+},
+{
 "href": "/elecciones/promesas",
 "label": "Promesas del 29-N: qué propone cada partido"
 },
@@ -24201,6 +27651,10 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "a": "No hay fecha fijada por ley: cada partido decide cuándo lo publica. A 19 de octubre de 2026 no hemos localizado el programa completo para el 29-N de ningún partido con diputados en el Congreso (PP, PSOE, Vox, Frente Amplio, Podemos, ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria ni UPN). La campaña va del 13 al 27 de noviembre; actualizaremos esta página cuando salgan. En 2023 los cuatro partidos más votados lo presentaron entre 3 días antes del inicio de la campaña y su primer día; la del 29-N empieza el 13 de noviembre."
 },
 {
+"q": "¿El Contrato con España es el programa electoral del PP?",
+"a": "No. Es un documento de 12 compromisos que Feijóo firmó el 19 de octubre de 2026; el propio texto dice que «va más allá de un programa de Gobierno o una lista de medidas». El programa del PP para el 29-N sigue sin publicarse. Lo mismo vale para las «5 propuestas» que Podemos publicó ese día."
+},
+{
 "q": "¿Qué han propuesto los partidos en los mítines del 29-N?",
 "a": "A 19 de octubre, en mítines y actos: el PP, una ley antiokupación con desalojo en 48 horas (Barcelona, 18-10) y bajar el IRPF y un IVA del 0 % en alimentos básicos; el PSOE, mantener los decretos de vivienda y revalorizar las pensiones con el IPC; Vox, garantizar el pago de las pensiones y repatriar a quien entra de forma irregular; el Frente Amplio, invertir el 1 % del PIB en vivienda pública; Podemos, la jornada de 30 horas semanales y un salario mínimo de 1.800 €. Cada propuesta, con su fuente, está en esta página."
 },
@@ -24231,6 +27685,8 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "title": "Estado a 19 de octubre: ningún programa publicado",
 "paragraphs": [
 "Ningún partido con diputados en el Congreso ha publicado todavía su programa para las generales del 29 de noviembre. Lo comprobamos el 19 de octubre en sus webs oficiales y en la prensa (comparadores como eleccionesenespana.es seguían en «Pendiente» el 17-10; pp.es sin PDF del 29-N). Las webs de PSOE, Vox, Podemos y ERC no permiten la comprobación automática; en esos casos revisamos sus notas y las noticias.",
+"El 19 de octubre, Alberto Núñez Feijóo firmó en Madrid el «Contrato con España», 12 compromisos para el caso de que llegue a la Presidencia del Gobierno. El propio documento dice que «va más allá de un programa de Gobierno o una lista de medidas», así que no lo contamos como programa: el del PP sigue pendiente. Los 12 puntos están en su página.",
+"El mismo día, Podemos publicó en su cuenta oficial «5 propuestas para tener paz, casa y trabajo». Tampoco es un programa: el partido las presenta como su plan de cinco puntos para la campaña.",
 "Vox tiene un programa temático de desregulación publicado en junio de 2026, pero no es el programa del 29-N.",
 "Las candidaturas se presentan del 21 al 26 de octubre, se proclaman el 2 de noviembre y el BOE las publica el 3 de noviembre. La campaña va del 13 al 27 de noviembre."
 ]
@@ -24330,7 +27786,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "id": "pp",
 "title": "PP: qué ha propuesto en mítines y actos",
 "paragraphs": [
-"Candidato: Alberto Núñez Feijóo. Actos revisados: acto en Ceuta (07-10), simposio sanitario con Carmen Fúnez (07-10), mitin en Madrid (10-10), comparecencia en Bruselas (15-10), acto en Toledo (16-10), Bendodo en Granada (16-10) y acto en Barcelona con Xavier García Albiol (18-10).",
+"Candidato: Alberto Núñez Feijóo. Actos revisados: acto en Ceuta (07-10), simposio sanitario con Carmen Fúnez (07-10), mitin en Madrid (10-10), comparecencia en Bruselas (15-10), acto en Toledo (16-10), Bendodo en Granada (16-10), acto en Barcelona con Xavier García Albiol (18-10) y firma del «Contrato con España» en Madrid (19-10).",
 "Programa del 29-N: no publicado a 19 de octubre de 2026."
 ],
 "table": {
@@ -24342,6 +27798,17 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "Fuente"
 ],
 "rows": [
+{
+"cells": [
+"Varios temas",
+"Firmó el «Contrato con España», 12 compromisos: soberanía y fronteras, separación de poderes, un Estado con menos ministerios y altos cargos, al menos un millón de viviendas, prohibir por ley las regularizaciones colectivas, pensiones con el IPC, más médicos, educación, seguridad, revisar las subidas fiscales y bajar impuestos, subir el salario medio y política exterior.",
+"Feijóo, acto en el Espacio Larra, Madrid, 19-10-2026"
+],
+"source": {
+"label": "ABC, 19-10-2026: documento íntegro del «Contrato con España»",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
 {
 "cells": [
 "Vivienda",
@@ -24714,7 +28181,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "id": "podemos",
 "title": "Podemos: qué ha propuesto en mítines y actos",
 "paragraphs": [
-"Candidata: Irene Montero. Actos revisados: presentación de su candidatura en Madrid (12-09, antes de la convocatoria) y Consejo Ciudadano Estatal en Madrid (17-10).",
+"Candidata: Irene Montero. Actos revisados: presentación de su candidatura en Madrid (12-09, antes de la convocatoria), Consejo Ciudadano Estatal en Madrid (17-10) y «5 propuestas» publicadas en su cuenta oficial (19-10).",
 "Programa del 29-N: no publicado a 19 de octubre de 2026."
 ],
 "table": {
@@ -24726,6 +28193,17 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "Fuente"
 ],
 "rows": [
+{
+"cells": [
+"Varios temas",
+"Publicó «5 propuestas para tener paz, casa y trabajo»: «Las casas son para vivir»; bajar el coste de la vida; «Ni un euro para guerras»; subir el SMI a 1.800 € y jornada laboral de 30 horas; proteger lo público y políticas contra el cambio climático.",
+"Podemos, post oficial en X con vídeo de Pablo Fernández, 19-10-2026"
+],
+"source": {
+"label": "Podemos en X, 19-10-2026: 5 propuestas para tener paz, casa y trabajo",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
 {
 "cells": [
 "Vivienda",
@@ -24740,7 +28218,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "cells": [
 "Empleo y salarios",
-"Montero propuso reducir la jornada laboral a 30 horas semanales (seis al día), según RTVE y ABC. La crónica de la Cadena SER del mismo acto habla de 35 horas.",
+"Montero propuso reducir la jornada laboral a 30 horas semanales (seis al día), según RTVE y ABC. La crónica de la Cadena SER del mismo acto habla de 35 horas. Las «5 propuestas» del partido del 19-10-2026 dicen 30 horas.",
 "Montero, presentación de su candidatura, Madrid, 12-09-2026"
 ],
 "source": {
@@ -25474,7 +28952,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "h1": "Salario mínimo de 1.800 €: la propuesta de Podemos explicada",
 "title": "Salario mínimo de 1.800 €: qué propone Podemos y cuánto es hoy",
 "description": "Podemos propone un SMI de 1.800 € al mes; hoy es de 1.221 € en 14 pagas (BOE). Cuánto supondría al mes y al año y qué se sabe de la subida de 2027.",
-"lead": "Respuesta corta: Podemos propone subir el salario mínimo a 1.800 € al mes (Irene Montero, 12-9-2026, según ABC). Hoy el SMI es de 1.221 € brutos al mes en 14 pagas, 17.094 € al año (Real Decreto 126/2026). Serían 579 € más al mes, un 47,4 % más. Podemos aún no ha publicado programa para el 29-N.",
+"lead": "Respuesta corta: Podemos propone subir el salario mínimo a 1.800 € al mes (Irene Montero, 12-9-2026, según ABC; el partido lo repitió en sus «5 propuestas» del 19-10-2026). Hoy el SMI es de 1.221 € brutos al mes en 14 pagas, 17.094 € al año (Real Decreto 126/2026). Serían 579 € más al mes, un 47,4 % más. Podemos aún no ha publicado programa para el 29-N.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Comparar promesas de todos los partidos"
@@ -25503,6 +28981,10 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "label": "El País, 16-10-2026: Trabajo prepara la subida del SMI de 2027",
 "href": "https://elpais.com/economia/2026-10-16/trabajo-prepara-una-subida-del-salario-minimo-antes-de-las-elecciones-que-rondara-el-5.html"
+},
+{
+"label": "Podemos en X, 19-10-2026: 5 propuestas para tener paz, casa y trabajo",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
 }
 ],
 "related": [
@@ -25551,7 +29033,8 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "id": "que",
 "title": "Qué se sabe",
 "paragraphs": [
-"Irene Montero lo presentó en septiembre de 2026 como objetivo de legislatura, junto a la jornada de 30 horas semanales (ABC, 12-9-2026). No se ha publicado calendario ni si serían 12 o 14 pagas."
+"Irene Montero lo presentó en septiembre de 2026 como objetivo de legislatura, junto a la jornada de 30 horas semanales (ABC, 12-9-2026). No se ha publicado calendario ni si serían 12 o 14 pagas.",
+"El 19 de octubre de 2026, Podemos lo incluyó como punto 4 de sus «5 propuestas para tener paz, casa y trabajo»: «Subir el SMI a 1.800€ y jornada laboral de 30h» (post oficial del partido en X). Eso confirma las 30 horas; una crónica del acto de septiembre había hablado de 35."
 ]
 },
 {

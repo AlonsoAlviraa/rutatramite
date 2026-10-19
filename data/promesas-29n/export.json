@@ -1,6 +1,6 @@
 {
  "name": "Promesas electorales del 29-N (elecciones generales 2026) por partido y su aplicación territorial",
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "publisher": "RutaTrámite",
  "url": "https://rutatramite.com/elecciones/promesas",
  "methodology": "https://rutatramite.com/elecciones/promesas/metodologia",
@@ -1691,6 +1691,443 @@
    "cost": null,
    "impact": null,
    "who": "Miriam González, presentación de Democracia 21, Madrid, 10-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-ley-antiokupacion-48h",
+   "party": "pp",
+   "topic": "vivienda",
+   "measure": "Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
+   "quote": "Tolerancia cero con los okupas, fuera en 48 horas sí o sí",
+   "source_url": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml",
+   "source_title": "RTVE: Feijóo en Barcelona (ley antiokupación)",
+   "source_date": "2026-10-18",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "familia",
+    "joven-alquiler"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Alberto Núñez Feijóo, acto de precampaña en Barcelona con Xavier García Albiol, 18-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-cuota-cero-autonomos-jovenes",
+   "party": "pp",
+   "topic": "empleo",
+   "measure": "Tarifa o cuota cero durante los dos primeros años de actividad para nuevos autónomos menores de 35 años.",
+   "quote": "tarifa cero en el primer y segundo año de actividad a menores de 35 años",
+   "source_url": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/",
+   "source_title": "pp.es: Bendodo en Granada (autónomos)",
+   "source_date": "2026-10-16",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "autonomo"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-iva-cero-autonomos-85000",
+   "party": "pp",
+   "topic": "impuestos",
+   "measure": "Eliminar el IVA para autónomos que facturen menos de 85.000 euros al año (plan anunciado para unos 1,4 millones de autónomos).",
+   "quote": "1,4 millones de autónomos no paguen el IVA si facturan menos de 85.000 euros",
+   "source_url": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/",
+   "source_title": "pp.es: Bendodo en Granada (autónomos)",
+   "source_date": "2026-10-16",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": "iva",
+   "profiles": [
+    "autonomo"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "No aplica tal cual: aquí no hay IVA (IGIC).",
+    "ceuta_melilla": "No aplica tal cual: aquí no hay IVA (IPSI)."
+   }
+  },
+  {
+   "id": "pp-autonomos-menos-declaraciones",
+   "party": "pp",
+   "topic": "administracion",
+   "measure": "Reducir las declaraciones de los autónomos de cuatro al año a dos o incluso una.",
+   "quote": "de cuatro declaraciones al año a dos o incluso una",
+   "source_url": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/",
+   "source_title": "pp.es: Bendodo en Granada (autónomos)",
+   "source_date": "2026-10-16",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "autonomo"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-contrato-separacion-poderes",
+   "party": "pp",
+   "topic": "instituciones",
+   "measure": "Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+   "quote": "convocará obligatoriamente elecciones si acumula más de una prórroga",
+   "source_url": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html",
+   "source_title": "ABC: documento íntegro del «Contrato con España» del PP",
+   "source_date": "2026-10-19",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [],
+   "cost": null,
+   "impact": null,
+   "who": "Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-contrato-estado-ligero",
+   "party": "pp",
+   "topic": "administracion",
+   "measure": "Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+   "quote": "menos ministerios, menos altos cargos y menos asesores",
+   "source_url": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html",
+   "source_title": "ABC: documento íntegro del «Contrato con España» del PP",
+   "source_date": "2026-10-19",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [],
+   "cost": null,
+   "impact": null,
+   "who": "Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-contrato-vivienda-jovenes",
+   "party": "pp",
+   "topic": "vivienda",
+   "measure": "Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+   "quote": "construir al menos un millón de nuevas viviendas",
+   "source_url": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html",
+   "source_title": "ABC: documento íntegro del «Contrato con España» del PP",
+   "source_date": "2026-10-19",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "familia"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-contrato-inmigracion",
+   "party": "pp",
+   "topic": "inmigracion",
+   "measure": "Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+   "quote": "se establecerá por ley la prohibición de regulaciones colectivas",
+   "source_url": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html",
+   "source_title": "ABC: documento íntegro del «Contrato con España» del PP",
+   "source_date": "2026-10-19",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [],
+   "cost": null,
+   "impact": null,
+   "who": "Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-contrato-pensiones-ipc",
+   "party": "pp",
+   "topic": "pensiones",
+   "measure": "Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+   "quote": "actualizar conforme al IPC las pensiones actuales y garantizárselo a los más jóvenes",
+   "source_url": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html",
+   "source_title": "ABC: documento íntegro del «Contrato con España» del PP",
+   "source_date": "2026-10-19",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "jubilado"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-contrato-sanidad-medicos",
+   "party": "pp",
+   "topic": "sanidad",
+   "measure": "Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+   "quote": "Más médicos y con mejores condiciones",
+   "source_url": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html",
+   "source_title": "ABC: documento íntegro del «Contrato con España» del PP",
+   "source_date": "2026-10-19",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [],
+   "cost": null,
+   "impact": null,
+   "who": "Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-contrato-educacion",
+   "party": "pp",
+   "topic": "educacion",
+   "measure": "Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+   "quote": "Los contenidos serán elaborados por las reales academias",
+   "source_url": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html",
+   "source_title": "ABC: documento íntegro del «Contrato con España» del PP",
+   "source_date": "2026-10-19",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "familia"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-contrato-impuestos",
+   "party": "pp",
+   "topic": "impuestos",
+   "measure": "Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+   "quote": "Revisaremos una a una las más de cien subidas fiscales de los últimos años",
+   "source_url": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html",
+   "source_title": "ABC: documento íntegro del «Contrato con España» del PP",
+   "source_date": "2026-10-19",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [],
+   "cost": null,
+   "impact": null,
+   "who": "Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "pp-contrato-salario-medio",
+   "party": "pp",
+   "topic": "empleo",
+   "measure": "Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+   "quote": "Nuestro objetivo económico más ambicioso es que suba el salario medio de los españoles",
+   "source_url": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html",
+   "source_title": "ABC: documento íntegro del «Contrato con España» del PP",
+   "source_date": "2026-10-19",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [],
+   "cost": null,
+   "impact": null,
+   "who": "Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "podemos-5p-vivienda",
+   "party": "podemos",
+   "topic": "vivienda",
+   "measure": "5 propuestas, punto 1: «Las casas son para vivir».",
+   "quote": "Las casas son para vivir.",
+   "source_url": "https://x.com/PODEMOS/status/2112121339267965036",
+   "source_title": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»",
+   "source_date": "2026-10-19",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "familia"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "podemos-5p-coste-vida",
+   "party": "podemos",
+   "topic": "impuestos",
+   "measure": "5 propuestas, punto 2: bajar el coste de la vida.",
+   "quote": "Bajar el coste de la vida.",
+   "source_url": "https://x.com/PODEMOS/status/2112121339267965036",
+   "source_title": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»",
+   "source_date": "2026-10-19",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "familia"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "podemos-5p-guerras",
+   "party": "podemos",
+   "topic": "instituciones",
+   "measure": "5 propuestas, punto 3: «Ni un euro para guerras».",
+   "quote": "Ni un euro para guerras.",
+   "source_url": "https://x.com/PODEMOS/status/2112121339267965036",
+   "source_title": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»",
+   "source_date": "2026-10-19",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [],
+   "cost": null,
+   "impact": null,
+   "who": "Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "podemos-5p-smi-30h",
+   "party": "podemos",
+   "topic": "empleo",
+   "measure": "5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+   "quote": "Subir el SMI a 1.800€ y jornada laboral de 30h.",
+   "source_url": "https://x.com/PODEMOS/status/2112121339267965036",
+   "source_title": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»",
+   "source_date": "2026-10-19",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "parado"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "podemos-5p-publico-clima",
+   "party": "podemos",
+   "topic": "instituciones",
+   "measure": "5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+   "quote": "Proteger lo público y políticas contra el cambio climático.",
+   "source_url": "https://x.com/PODEMOS/status/2112121339267965036",
+   "source_title": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»",
+   "source_date": "2026-10-19",
+   "source_type": "oficial-partido",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [],
+   "cost": null,
+   "impact": null,
+   "who": "Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026",
    "aplicacion": {
     "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
     "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",

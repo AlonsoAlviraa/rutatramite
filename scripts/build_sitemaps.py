@@ -168,6 +168,7 @@ CORE = [
     "/elecciones/deflactar-irpf-que-significa",
     "/elecciones/como-se-elige-presidente-gobierno",
     "/elecciones/diputados-por-provincia-29n",
+    "/elecciones/contrato-con-espana-pp",
     "/elecciones/voto-nulo-ejemplos",
     "/elecciones/dos-papeletas-en-el-mismo-sobre",
     "/elecciones/papeleta-rota-voto-nulo",

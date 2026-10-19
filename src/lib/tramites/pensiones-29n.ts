@@ -281,7 +281,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "h1": "¿Quiere el PP quitar las pensiones? Lo que ha dicho y votado",
   "title": "¿Quiere el PP quitar las pensiones? Lo que ha dicho Feijóo",
   "description": "¿Quiere el PP quitar las pensiones? Feijóo dijo el 15-10-2026 que se actualizarán con el IPC. Sus frases, sus votos y lo que dice la ley, con fuentes.",
-  "lead": "Respuesta corta: según las declaraciones con fuente que hemos encontrado, no. Su candidato, Alberto Núñez Feijóo, dijo el 15 de octubre de 2026 que «las pensiones se actualizarán con el IPC» y que su viabilidad y su actualización conforme al IPC «son innegociables». No aclaró si haría otras reformas del sistema. Antes, la portavoz del PP en el Congreso, Ester Muñoz, había dicho que el sistema «va a petar» y que hay que cambiarlo de forma «valiente», según recoge El País.",
+  "lead": "Respuesta corta: según las declaraciones con fuente que hemos encontrado, no. Su candidato, Alberto Núñez Feijóo, dijo el 15 de octubre de 2026 que «las pensiones se actualizarán con el IPC» y que su viabilidad y su actualización conforme al IPC «son innegociables». No aclaró si haría otras reformas del sistema. Antes, la portavoz del PP en el Congreso, Ester Muñoz, había dicho que el sistema «va a petar» y que hay que cambiarlo de forma «valiente», según recoge El País. El 19 de octubre, Feijóo incluyó la actualización con el IPC en el punto 6 de su «Contrato con España».",
   "cta": {
    "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
    "label": "Ver qué ha dicho cada partido"
@@ -326,6 +326,10 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   ],
   "related": [
    {
+    "href": "/elecciones/contrato-con-espana-pp",
+    "label": "Contrato con España del PP: los 12 puntos"
+   },
+   {
     "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
     "label": "¿Quiere algún partido quitar las pensiones?"
    },
@@ -366,7 +370,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
    },
    {
     "q": "¿Ha publicado el PP su programa para el 29-N?",
-    "a": "A 19 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
+    "a": "A 19 de octubre de 2026, no. Ese día presentó el «Contrato con España», 12 compromisos que no son el programa; el punto 6 promete actualizar las pensiones con el IPC. Cuando se publique el programa, añadiremos lo que diga, con el enlace."
    },
    {
     "q": "¿Puede un Gobierno dejar de subir las pensiones por su cuenta?",
@@ -395,6 +399,16 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
       "Fuente"
      ],
      "rows": [
+      {
+       "cells": [
+        "«Esto exige actualizar conforme al IPC las pensiones actuales y garantizárselo a los más jóvenes. Ambos objetivos son innegociables» (punto 6, «Garantizar las pensiones actuales y futuras», en el marco del Pacto de Toledo).",
+        "Alberto Núñez Feijóo, «Contrato con España» firmado en el Espacio Larra, Madrid, 19-10-2026"
+       ],
+       "source": {
+        "label": "ABC, 19-10-2026: documento íntegro del «Contrato con España»",
+        "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+       }
+      },
       {
        "cells": [
         "«Las pensiones se actualizarán con el IPC»; «Garantizaremos el sistema público de pensiones, su viabilidad»; «La viabilidad y la actualización conforme al IPC de las pensiones son innegociables».",
@@ -439,7 +453,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "programa",
     "title": "Programa electoral",
     "paragraphs": [
-     "Programa del 29-N: no publicado a 19 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
+     "Programa del 29-N: no publicado a 19 de octubre de 2026. El «Contrato con España» del 19 de octubre, que el propio documento distingue de un programa de Gobierno, incluye las pensiones en su punto 6. Cuando se publique el programa, añadiremos lo que diga sobre pensiones."
     ]
    },
    {
