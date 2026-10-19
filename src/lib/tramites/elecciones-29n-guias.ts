@@ -326,7 +326,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.ineSede,
     secondaryCta: S.ine,
     sources: [S.ine, S.ineSede, S.jec, S.loreg("atreintaynueve", "artículo 39: rectificación del censo en periodo electoral")],
-    related: [R.donde, R.domicilio, R.primera, R.quien],
+    related: [R.donde, R.domicilio, R.primera, R.quien, { href: "/elecciones/no-recibir-propaganda-electoral", label: "Cómo no recibir propaganda electoral" }, { href: "/elecciones/tarjeta-censal-cuando-llega", label: "Tarjeta censal: cuándo llega" }],
     faqs: [
       { q: "¿Cuánto tardan en resolver mi reclamación?", a: "La Delegación Provincial de la Oficina del Censo Electoral la resuelve en 3 días. Las rectificaciones se exponen el 23 de octubre de 2026." },
       { q: "¿Qué hago si me la rechazan?", a: "Puedes recurrir ante el Juzgado de lo Contencioso-Administrativo en 5 días desde la notificación." },
@@ -352,7 +352,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.ineSede,
     secondaryCta: S.ine,
     sources: [S.ine, S.ineSede, S.jec],
-    related: [R.llevar, R.censo, R.jornada, R.domicilio],
+    related: [R.llevar, R.censo, R.jornada, R.domicilio, { href: "/elecciones/tarjeta-censal-cuando-llega", label: "Tarjeta censal: cuándo llega" }],
     faqs: [
       { q: "¿Necesito llevar la tarjeta censal para votar?", a: "No. Para votar te identificas con DNI, pasaporte o permiso de conducir con foto. La tarjeta solo te informa de tu mesa." },
     ],
@@ -425,7 +425,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.mesaInfo,
     secondaryCta: S.jec,
     sources: [S.jec, S.mesaInfo, S.loreg("aveintiseis", "artículos 26 y 27: formación de las mesas")],
-    related: [R.dietas, R.jornada, R.interventores, R.faq],
+    related: [R.dietas, R.jornada, R.interventores, R.faq, { href: "/elecciones/sorteo-mesa-electoral-29n", label: "¿Me toca mesa? Cuándo es el sorteo" }, { href: "/elecciones/excusa-mesa-electoral", label: "Excusas para la mesa electoral" }],
     faqs: [
       { q: "Tengo más de 65 años, ¿puedo renunciar?", a: "Sí. El artículo 26 de la LOREG permite a los mayores de 65 años renunciar en el plazo de siete días." },
       { q: "¿Y si me surge un problema a última hora?", a: "Debes comunicarlo a la Junta Electoral de Zona al menos 72 horas antes de constituir la mesa. Si es sobrevenido, hasta antes de las 8:00 del día de votación." },
@@ -776,7 +776,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.infoelectoral,
     secondaryCta: S.jec,
     sources: [S.jec, S.infoelectoral, S.rd],
-    related: [R.dhondt, R.jecGuia, R.interventores, R.calendario],
+    related: [R.dhondt, R.jecGuia, R.interventores, R.calendario, { href: "/elecciones/cuando-habra-gobierno-29n", label: "¿Cuándo habrá Gobierno tras el 29-N?" }],
     faqs: [
       { q: "¿Cuándo es oficial el resultado?", a: "Tras el escrutinio general y la proclamación de electos. La Junta Electoral Central publica los resultados en el BOE en los 40 días siguientes a la proclamación." },
       { q: "¿Cuándo se constituyen las Cortes?", a: "El 23 de diciembre de 2026 a las 10:00, según el Real Decreto 806/2026." },
@@ -852,7 +852,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.jec,
     secondaryCta: S.rd,
     sources: [S.rd, S.jec, S.ine, S.ext, S.votoInfo],
-    related: [R.correo, R.cera, R.llevar, R.mesa, R.programas],
+    related: [R.correo, R.cera, R.llevar, R.mesa, R.programas, { href: "/elecciones/debate-electoral-29n", label: "Debates del 29-N: fechas y quién ha aceptado" }, { href: "/elecciones/sorteo-mesa-electoral-29n", label: "¿Me toca mesa? Cuándo es el sorteo" }, { href: "/elecciones/que-pasa-si-no-voto", label: "¿Qué pasa si no voto?" }],
     faqs: [
       { q: "¿Qué se vota el 29 de noviembre?", a: "Diputados y senadores de las Cortes Generales (Real Decreto 806/2026)." },
       { q: "¿A qué hora abren los colegios?", a: "La votación es de 9:00 a 20:00." },

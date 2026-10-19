@@ -24176,6 +24176,22 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/partido-democracia-21",
 "label": "Democracia 21: qué promete"
+},
+{
+"href": "/elecciones/debate-electoral-29n",
+"label": "Debates del 29-N: fechas y quién ha aceptado"
+},
+{
+"href": "/elecciones/candidaturas-29n-boe",
+"label": "Listas del 29-N: cuándo salen en el BOE"
+},
+{
+"href": "/elecciones/cuando-habra-gobierno-29n",
+"label": "¿Cuándo habrá Gobierno tras el 29-N?"
+},
+{
+"href": "/elecciones/cis-preelectoral-29n",
+"label": "CIS preelectoral: cuándo sale"
 }
 ],
 "disclaimer": "Contenido informativo y neutral: recogemos lo que cada partido ha dicho, con quién, dónde, cuándo y la fuente. No valoramos las propuestas ni recomendamos ningún voto.",
@@ -25728,6 +25744,10 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "href": "/elecciones",
 "label": "Elecciones del 29-N: cómo votar"
+},
+{
+"href": "/elecciones/cuando-habra-gobierno-29n",
+"label": "¿Cuándo habrá Gobierno tras el 29-N?"
 }
 ],
 "disclaimer": "Contenido informativo y neutral: explicamos la medida y citamos la fuente con fecha. No valoramos si es buena o mala ni recomendamos ningún voto.",

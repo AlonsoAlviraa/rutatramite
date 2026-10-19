@@ -2,6 +2,7 @@ import { ACTUALIDAD_20261006_GUIDES } from "@/lib/tramites/actualidad-20261006";
 import { AYUDAS_GOBIERNO_GUIDES } from "@/lib/tramites/ayudas-por-gobierno";
 import { PROMESAS_29N_GUIDES, ELECCIONES_EXPLICADORES_GUIDES } from "@/lib/tramites/promesas-29n";
 import { ELECCIONES_29N_GUIDES } from "@/lib/tramites/elecciones-29n-guias";
+import { CUANDO_29N_GUIDES } from "@/lib/tramites/cuando-29n";
 import { BEBE_GUIDES } from "@/lib/tramites/bebe";
 import { AYUDAS_2026_GUIDES } from "@/lib/tramites/ayudas-2026";
 import { BECAS_GUIDES } from "@/lib/tramites/becas";
@@ -29,6 +30,7 @@ import { JUBILACION_2026_GUIDES } from "@/lib/tramites/jubilacion-2026";
 export const ALL_GUIDES: Guide[] = [
   ...ACTUALIDAD_20261006_GUIDES,
   ...ELECCIONES_29N_GUIDES,
+  ...CUANDO_29N_GUIDES,
   ...ELECCIONES_EXPLICADORES_GUIDES,
   ...PROMESAS_29N_GUIDES,
   ...PENSIONES_29N_GUIDES,
