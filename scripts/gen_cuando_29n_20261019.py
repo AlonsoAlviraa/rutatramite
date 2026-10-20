@@ -235,17 +235,18 @@ G.append({
 
 # 5. Propaganda
 G.append({
- "id": "c29n-propaganda", "pack": "elecciones", "reviewedAt": REV,
+ "id": "c29n-propaganda", "pack": "elecciones", "reviewedAt": "2026-10-20",
  "path": P+"no-recibir-propaganda-electoral",
- "h1": "Cómo no recibir propaganda electoral en casa: el plazo para el 29-N acaba el 19 de octubre",
+ "h1": "Cómo no recibir propaganda electoral en casa: el plazo para el 29-N terminó el 19 de octubre",
  "title": "Cómo no recibir propaganda electoral en casa (29-N)",
  "description": "Para no recibir propaganda electoral por correo el 29-N había que pedirlo hasta el 19 de octubre. Cómo se hace, qué cubre y qué pasa si lo pides más tarde.",
- "lead": "Respuesta corta: para no recibir en casa la propaganda que los partidos envían por correo en estas elecciones, la solicitud tenía que hacerse hasta el 19 de octubre de 2026. Se pide en la sede electrónica del INE con Cl@ve, en tu ayuntamiento o en la delegación provincial de la Oficina del Censo. Si la presentas después, vale para las siguientes elecciones.",
+ "lead": "Respuesta corta: el plazo para no recibir en casa la propaganda electoral del 29-N terminó el 19 de octubre de 2026. Si lo pediste a tiempo, las candidaturas reciben una copia del censo sin tus datos y no deberían enviarte sobres. Si lo pides ahora (sede electrónica del INE con Cl@ve, ayuntamiento o delegación provincial de la Oficina del Censo), vale para las siguientes elecciones, no para estas.",
  "cta": L["censo"], "secondaryCta": L["calendario"],
  "sources": [INE, loreg("atreintaynueve", "artículo 39.3: oposición a los envíos de propaganda"), loreg("acuarentayuno", "artículo 41.5: copias del censo para las candidaturas"), JEC],
  "related": rel("censo", "campana", "tarjeta", "calendario", "programas", "hub"),
  "faqs": [
-  {"q": "¿Hasta cuándo se puede pedir no recibir propaganda electoral?", "a": "Para el 29-N, hasta el 19 de octubre de 2026, el último día del plazo de consulta del censo. Las solicitudes posteriores tienen efecto en las siguientes elecciones (nota del INE del 9 de octubre)."},
+  {"q": "¿Hasta cuándo se puede pedir no recibir propaganda electoral?", "a": "Para el 29-N, hasta el 19 de octubre de 2026, el último día del plazo de consulta del censo. Ese plazo ya ha terminado: las solicitudes posteriores tienen efecto en las siguientes elecciones (nota del INE del 9 de octubre)."},
+  {"q": "Lo pido hoy, ¿me sirve para el 29-N?", "a": "No. Para el 29-N solo cuentan las solicitudes presentadas hasta el 19 de octubre de 2026. La que presentes ahora se aplicará en las siguientes elecciones que se convoquen, según la nota del INE."},
   {"q": "¿Cómo se pide?", "a": "Por internet en la sede electrónica del INE con Cl@ve, o en persona en tu ayuntamiento o en la delegación provincial de la Oficina del Censo Electoral."},
   {"q": "¿Qué propaganda deja de llegar?", "a": "La que los partidos envían por correo con las copias del censo que reciben las candidaturas. No afecta a carteles, anuncios, redes sociales ni a la publicidad que se reparte sin usar el censo."},
   {"q": "¿Tengo que pedirlo en cada elección?", "a": "El INE explica que lo solicitado fuera de plazo se aplica a las siguientes elecciones. Si dudas de si tu solicitud sigue vigente, pregunta a la Oficina del Censo."},
@@ -258,6 +259,7 @@ G.append({
      row(["Campaña: llegan los envíos de propaganda", "Del 13 al 27 de noviembre"], JEC),
    ]}},
   {"id": "por-que", "title": "Por qué funciona así", "paragraphs": ["Los partidos envían propaganda a casa con una copia del censo que la ley les permite pedir (artículo 41.5 de la LOREG). Desde la reforma de diciembre de 2018, el artículo 39.3 permite a cada elector oponerse a figurar en esas copias, dentro del plazo de consulta del censo."]},
+  {"id": "ahora", "title": "Qué puedes hacer ahora", "paragraphs": ["Si no lo pediste antes del 19 de octubre, en la campaña del 13 al 27 de noviembre pueden llegarte sobres de las candidaturas que pidan la copia del censo. No es un error: la ley les permite usarla para enviar propaganda (artículo 41.5 de la LOREG)."]},
   {"id": "si-tarde", "title": "Si llegas tarde", "paragraphs": ["Tu solicitud no se pierde: según el INE, tendrá efecto en las siguientes elecciones. Para el 29-N, los envíos de las candidaturas que usen el censo pueden seguir llegando durante la campaña."]},
  ],
 })

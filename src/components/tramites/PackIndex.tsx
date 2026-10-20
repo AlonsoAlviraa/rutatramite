@@ -71,7 +71,7 @@ const titles: Record<GuidePack, { h1: string; lead: string }> = {
   },
   elecciones: {
     h1: "Elecciones del 29 de noviembre de 2026: voto por correo y plazos",
-    lead: "Voto por correo, calendario del Real Decreto 806/2026, las 9 coaliciones registradas, la huelga general del 11 de noviembre y quién figura en el censo. Plazos clave: consulta y reclamaciones del censo del 12 al 19 de octubre; solicitud del voto por correo hasta el 19 de noviembre; envío del voto en Correos hasta el 25 de noviembre. Las fechas salen del BOE, de la Junta Electoral Central, de Interior y de Correos.",
+    lead: "Voto por correo, calendario del Real Decreto 806/2026, las 9 coaliciones registradas, la huelga general del 11 de noviembre y quién figura en el censo. Plazos clave: candidaturas del 21 al 26 de octubre; sorteo de mesas del 31 de octubre al 4 de noviembre; solicitud del voto por correo hasta el 19 de noviembre; envío del voto en Correos hasta el 25 de noviembre. Las fechas salen del BOE, de la Junta Electoral Central, de Interior y de Correos.",
   },
   "ayudas-gobierno": {
     h1: "Ayudas del Estado según cada gobierno desde 1996: estudiantes, familias, jóvenes, jubilados, autónomos, parados y dependencia",

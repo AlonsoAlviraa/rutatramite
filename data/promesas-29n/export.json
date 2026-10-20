@@ -1,6 +1,6 @@
 {
  "name": "Promesas electorales del 29-N (elecciones generales 2026) por partido y su aplicación territorial",
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "publisher": "RutaTrámite",
  "url": "https://rutatramite.com/elecciones/promesas",
  "methodology": "https://rutatramite.com/elecciones/promesas/metodologia",
@@ -2128,6 +2128,31 @@
    "cost": null,
    "impact": null,
    "who": "Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "id": "psoe-smi-cada-ano",
+   "party": "psoe",
+   "topic": "empleo",
+   "measure": "Subir el salario mínimo interprofesional cada año mientras gobierne. No dio cifra ni calendario.",
+   "quote": "SMI año a año",
+   "source_url": "https://www.rtve.es/noticias/20261019/sanchez-promete-subira-salario-minimo-todos-anos/17273693.shtml",
+   "source_title": "RTVE: Sánchez promete que subirá el salario mínimo «todos los años»",
+   "source_date": "2026-10-19",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "parado"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Pedro Sánchez, mitin de precampaña en Valladolid, 19-10-2026",
    "aplicacion": {
     "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
     "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",

@@ -8,7 +8,7 @@ const ORDER = ["pp", "psoe", "vox", "frente-amplio", "podemos", "erc", "junts", 
 describe("programas-electorales-29n: mítines (actualizado 19-oct)", () => {
   it("opens saying no programme has been published", () => {
     expect(g.lead).toMatch(/ningún partido ha publicado todavía su programa/);
-    expect(g.lead).toMatch(/a 19 de octubre de 2026/);
+    expect(g.lead).toMatch(/a 20 de octubre de 2026/);
     expect(g.sections[0].id).toBe("estado");
     expect(g.sections[1].id).toBe("aviso");
     expect(g.sections[1].paragraphs[0]).toMatch(/No son el programa electoral oficial/);
@@ -24,7 +24,7 @@ describe("programas-electorales-29n: mítines (actualizado 19-oct)", () => {
     expect(parties.map((s) => s.id)).toEqual(ORDER);
     for (const s of parties) {
       expect(s.title).toMatch(/: qué ha propuesto en mítines y actos$/);
-      expect(s.paragraphs[1]).toBe("Programa del 29-N: no publicado a 19 de octubre de 2026.");
+      expect(s.paragraphs[1]).toBe("Programa del 29-N: no publicado a 20 de octubre de 2026.");
       if (s.table) {
         expect(s.table.head).toEqual(["Tema", "Qué propuso o dijo", "Quién, dónde y cuándo", "Fuente"]);
         for (const r of s.table.rows) {
@@ -32,7 +32,7 @@ describe("programas-electorales-29n: mítines (actualizado 19-oct)", () => {
           expect(r.cells[2]).toMatch(/\d{2}-\d{2}-2026/);
         }
       } else {
-        expect(s.paragraphs[2]).toBe("No hemos encontrado propuestas concretas verificables en mítines a fecha de 19 de octubre.");
+        expect(s.paragraphs[2]).toBe("No hemos encontrado propuestas concretas verificables en mítines a fecha de 20 de octubre.");
       }
     }
   });
@@ -46,7 +46,7 @@ describe("programas-electorales-29n: mítines (actualizado 19-oct)", () => {
     const h = renderGuideHtml(g.path);
     expect(h).toContain("data-guide-table");
     expect(h).toContain('"FAQPage"');
-    expect(h).toContain("2026-10-19");
+    expect(h).toContain("2026-10-20");
     expect(h).toContain("48 horas");
   });
 });

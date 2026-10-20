@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "election": {
   "name": "Elecciones generales a Cortes (Congreso y Senado)",
   "date": "2026-11-29",
@@ -1539,6 +1539,25 @@
    "cost": null,
    "impact": null,
    "who": "Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026"
+  },
+  {
+   "id": "psoe-smi-cada-ano",
+   "party": "psoe",
+   "topic": "empleo",
+   "measure": "Subir el salario mínimo interprofesional cada año mientras gobierne. No dio cifra ni calendario.",
+   "quote": "SMI año a año",
+   "source_url": "https://www.rtve.es/noticias/20261019/sanchez-promete-subira-salario-minimo-todos-anos/17273693.shtml",
+   "source_title": "RTVE: Sánchez promete que subirá el salario mínimo «todos los años»",
+   "source_date": "2026-10-19",
+   "source_type": "prensa",
+   "level": "estatal",
+   "tax": null,
+   "profiles": [
+    "parado"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Pedro Sánchez, mitin de precampaña en Valladolid, 19-10-2026"
   }
  ]
 }

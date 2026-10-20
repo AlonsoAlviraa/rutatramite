@@ -5,7 +5,7 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
  {
   "id": "trabajo-revalorizacion-pensiones-2026",
   "pack": "trabajo",
-  "reviewedAt": "2026-10-18",
+  "reviewedAt": "2026-10-20",
   "path": "/trabajo/revalorizacion-pensiones-2026",
   "h1": "Subida de las pensiones en 2026: el 2,7 %, la pensión máxima y las mínimas",
   "title": "Subida de las pensiones 2026: 2,7 % y cuantías mínimas (BOE)",
@@ -31,6 +31,14 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
    {
     "label": "BOE: Ley General de la Seguridad Social, artículo 58",
     "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a58"
+   },
+   {
+    "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+    "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+   },
+   {
+    "label": "INE, 14-10-2026: nota de prensa del IPC de septiembre de 2026 (4,9 %)",
+    "href": "https://www.ine.es/dyngs/Prensa/IPC0926.htm"
    }
   ],
   "related": [
@@ -75,7 +83,7 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
    },
    {
     "q": "¿Cuánto subirán en 2027?",
-    "a": "Se sabrá con el IPC de noviembre de 2026: la ley fija la media de las tasas interanuales del IPC de diciembre de 2025 a noviembre de 2026. No damos una cifra antes de que exista el dato oficial."
+    "a": "Se sabrá con el IPC de noviembre de 2026: la ley fija la media de las tasas interanuales del IPC de diciembre de 2025 a noviembre de 2026. Con los diez meses ya publicados por el INE (hasta septiembre), la media va en el 3,33 %; faltan octubre y noviembre."
    }
   ],
   "sections": [
@@ -263,11 +271,143 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
    },
    {
     "id": "2027",
-    "title": "Cómo se calculará la subida de 2027",
+    "title": "Subida de las pensiones en 2027: lo que dicen ya los datos del IPC",
     "paragraphs": [
      "El artículo 58 de la Ley General de la Seguridad Social fija la regla: las pensiones contributivas se revalorizan al comienzo de cada año con la media de las tasas de variación interanual del IPC de los doce meses previos a diciembre del año anterior. Si esa media fuera negativa, las pensiones no bajan.",
-     "Para 2027, esa media es la del IPC de diciembre de 2025 a noviembre de 2026, que publica el INE. Actualizaremos esta página con la cifra oficial cuando se conozca."
-    ]
+     "Para 2027 cuentan los datos de diciembre de 2025 a noviembre de 2026. A 20 de octubre de 2026 el INE ha publicado diez de los doce: suman 33,3 puntos y su media es del 3,33 %. La cifra final no se sabrá hasta el IPC de noviembre.",
+     "Así se calculó la de 2026: la media de diciembre de 2024 a noviembre de 2025 fue del 2,67 %, que redondeado a un decimal da el 2,7 % del Real Decreto-ley 3/2026.",
+     "Cuenta rápida para tu pensión: cada décima de subida son 1 € al mes por cada 1.000 € de pensión. Por ejemplo, si la subida final fuera del 3,3 %, una pensión de 1.000 € cobraría 33 € más al mes, en 14 pagas. Es solo un ejemplo de cálculo, no una previsión."
+    ],
+    "table": {
+     "caption": "IPC interanual que cuenta para la subida de las pensiones de 2027 (INE)",
+     "head": [
+      "Mes",
+      "Tasa anual del IPC",
+      "Fuente"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Diciembre 2025",
+        "2,9 %"
+       ],
+       "source": {
+        "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+        "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+       }
+      },
+      {
+       "cells": [
+        "Enero 2026",
+        "2,3 %"
+       ],
+       "source": {
+        "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+        "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+       }
+      },
+      {
+       "cells": [
+        "Febrero 2026",
+        "2,3 %"
+       ],
+       "source": {
+        "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+        "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+       }
+      },
+      {
+       "cells": [
+        "Marzo 2026",
+        "3,4 %"
+       ],
+       "source": {
+        "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+        "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+       }
+      },
+      {
+       "cells": [
+        "Abril 2026",
+        "3,2 %"
+       ],
+       "source": {
+        "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+        "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+       }
+      },
+      {
+       "cells": [
+        "Mayo 2026",
+        "3,2 %"
+       ],
+       "source": {
+        "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+        "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+       }
+      },
+      {
+       "cells": [
+        "Junio 2026",
+        "3,2 %"
+       ],
+       "source": {
+        "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+        "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+       }
+      },
+      {
+       "cells": [
+        "Julio 2026",
+        "3,6 %"
+       ],
+       "source": {
+        "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+        "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+       }
+      },
+      {
+       "cells": [
+        "Agosto 2026",
+        "4,3 %"
+       ],
+       "source": {
+        "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+        "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+       }
+      },
+      {
+       "cells": [
+        "Septiembre 2026",
+        "4,9 %"
+       ],
+       "source": {
+        "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+        "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+       }
+      },
+      {
+       "cells": [
+        "Octubre 2026",
+        "pendiente (el INE lo publica en noviembre)"
+       ],
+       "source": {
+        "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+        "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+       }
+      },
+      {
+       "cells": [
+        "Noviembre 2026",
+        "pendiente (el INE lo publica en diciembre)"
+       ],
+       "source": {
+        "label": "INE: IPC, tasa de variación anual del índice general (serie IPC290750), datos de diciembre de 2025 a septiembre de 2026",
+        "href": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134"
+       }
+      }
+     ]
+    }
    },
    {
     "id": "comprobar",

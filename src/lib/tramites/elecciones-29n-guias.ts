@@ -318,26 +318,28 @@ const BASE_29N_GUIDES: Guide[] = [
     id: "29n-censo",
     path: "/elecciones/consultar-censo-electoral",
     h1: "Consultar el censo electoral y reclamar",
-    title: "Censo electoral 29-N: consulta y reclama hasta el 19 de octubre",
+    title: "Censo electoral 29-N: comprueba tu inscripción y tu mesa",
     description:
-      "Quedan pocos días (12–19 oct 2026): consulta el censo en ayuntamiento, consulado o sede INE con Cl@ve y reclama inclusiones/exclusiones. Calendario JEC.",
+      "El plazo de reclamación del censo terminó el 19 de octubre. Comprueba tu inscripción y tu mesa en la sede del INE y qué pasa si reclamaste a tiempo.",
     lead:
-      "Del 12 al 19 de octubre de 2026 puedes comprobar si estás bien inscrito: en tu ayuntamiento, en la delegación de la Oficina del Censo Electoral, en el consulado si vives fuera, o por internet en la sede del INE con Cl@ve o DNI electrónico. En esas mismas fechas puedes reclamar.",
+      "La consulta y reclamación del censo fue del 12 al 19 de octubre de 2026 y ya ha terminado. Puedes seguir comprobando tu inscripción y tu mesa en la sede del INE con Cl@ve o DNI electrónico. Si reclamaste a tiempo, la Oficina del Censo Electoral resuelve en 3 días y las rectificaciones se exponen el 23 de octubre.",
     cta: S.ineSede,
     secondaryCta: S.ine,
     sources: [S.ine, S.ineSede, S.jec, S.loreg("atreintaynueve", "artículo 39: rectificación del censo en periodo electoral")],
     related: [R.donde, R.domicilio, R.primera, R.quien, { href: "/elecciones/no-recibir-propaganda-electoral", label: "Cómo no recibir propaganda electoral" }, { href: "/elecciones/tarjeta-censal-cuando-llega", label: "Tarjeta censal: cuándo llega" }],
     faqs: [
+      { q: "¿Puedo reclamar todavía?", a: "No por la vía del artículo 39 de la LOREG: el plazo terminó el 19 de octubre de 2026. Si reclamaste a tiempo, la resolución llega en 3 días." },
       { q: "¿Cuánto tardan en resolver mi reclamación?", a: "La Delegación Provincial de la Oficina del Censo Electoral la resuelve en 3 días. Las rectificaciones se exponen el 23 de octubre de 2026." },
       { q: "¿Qué hago si me la rechazan?", a: "Puedes recurrir ante el Juzgado de lo Contencioso-Administrativo en 5 días desde la notificación." },
     ],
     sections: [
       {
         id: "como",
-        title: "Cómo consultarlo",
+        title: "Cómo comprobar tu inscripción",
         paragraphs: ["Por internet, la sede del INE muestra tus datos y, si vives en España, tu mesa y la dirección del colegio."],
         lists: [["Por internet: sede.ine.gob.es, con Cl@ve o DNI electrónico.", "En persona: ayuntamiento o Delegación Provincial de la Oficina del Censo Electoral.", "Si vives fuera: oficina consular."]],
       },
+      {"id": "plazo-cerrado", "title": "Si no reclamaste a tiempo", "paragraphs": ["El plazo del artículo 39 de la LOREG terminó el 19 de octubre. Después solo se puede votar fuera de las listas con una sentencia judicial que reconozca tu derecho a estar inscrito o con la certificación censal específica que prevé el artículo 85.", "Si te has mudado a otra provincia después del 1 de agosto de 2026, sigues votando en tu sección anterior. Puedes pedir el voto por correo hasta el 19 de noviembre."], "lists": [["23 de octubre: exposición de las rectificaciones en ayuntamientos y consulados.", "5 días desde la notificación: recurso ante el juzgado de lo contencioso-administrativo si rechazaron tu reclamación.", "Desde el 2 de noviembre: el INE envía la tarjeta censal con tu mesa."]]},
     ],
   }),
   g({
@@ -760,7 +762,7 @@ const BASE_29N_GUIDES: Guide[] = [
       {
         id: "que-hacer",
         title: "Qué hacer",
-        paragraphs: ["Si tus datos no son correctos y no reflejan un empadronamiento anterior al cierre, puedes reclamar del 12 al 19 de octubre de 2026."],
+        paragraphs: ["Si tus datos no son correctos y no reflejan un empadronamiento anterior al cierre, el plazo para reclamar fue del 12 al 19 de octubre de 2026 y ya ha terminado. Puedes votar en tu mesa antigua o pedir el voto por correo."],
       },
     ],
   }),

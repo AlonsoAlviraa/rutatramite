@@ -177,7 +177,7 @@ export const AMPLIACION_29N: Record<string, Ampliacion> = {
         paragraphs: [
           "El artículo 39.1 de la LOREG dice que el censo vigente es el cerrado el día 1 del segundo mes anterior a la convocatoria. La convocatoria es de octubre de 2026, así que el cierre es el 1 de agosto de 2026.",
           "El artículo 39.3 añade que no se atienden los cambios de residencia de una circunscripción a otra hechos después de esa fecha: votas en la sección de tu domicilio anterior.",
-          "Los cambios de domicilio dentro de la misma circunscripción se reclaman en el plazo de consulta del censo, del 12 al 19 de octubre.",
+          "Los cambios de domicilio dentro de la misma circunscripción se reclamaban en el plazo de consulta del censo, del 12 al 19 de octubre, que ya ha terminado.",
         ],
       },
       {
