@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-10-20T19:57:43.655802+00:00",
-  "build_id": "RCz-vNjsYSzqy0NzU9ON4",
+  "checked_at": "2026-10-20T20:19:47.006197+00:00",
+  "build_id": "kk4ZA1tmRMmpcAmB1G0Qg",
   "scope": "Generated HTML: distinct page/rule pairs. Skipped rules excluded; no HTTP, ranking or AI citation guarantee.",
-  "pages": 389,
+  "pages": 393,
   "counts": {
-    "pass": 8048,
-    "skipped": 510
+    "pass": 8132,
+    "skipped": 514
   },
   "maximum_click_depth": 3,
   "results": [
@@ -2079,7 +2079,7 @@
     },
     {
       "path": "/elecciones/promesas/que-propone-cada-partido-educacion",
-      "click_depth": 1,
+      "click_depth": 2,
       "checks": [
         {
           "rule": "title_present",
@@ -2173,7 +2173,7 @@
     },
     {
       "path": "/elecciones/promesas/que-propone-cada-partido-instituciones-y-gasto-publico",
-      "click_depth": 1,
+      "click_depth": 2,
       "checks": [
         {
           "rule": "title_present",
@@ -2267,7 +2267,7 @@
     },
     {
       "path": "/elecciones/promesas/partido-pp",
-      "click_depth": 1,
+      "click_depth": 2,
       "checks": [
         {
           "rule": "title_present",
@@ -2361,7 +2361,7 @@
     },
     {
       "path": "/elecciones/promesas/partido-psoe",
-      "click_depth": 1,
+      "click_depth": 2,
       "checks": [
         {
           "rule": "title_present",
@@ -13548,6 +13548,382 @@
     {
       "path": "/elecciones/miembro-de-mesa-dieta-y-permisos",
       "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/elecciones/cuando-se-cobra-la-dieta-de-mesa",
+      "click_depth": 1,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/elecciones/voluntario-mesa-electoral",
+      "click_depth": 1,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/elecciones/que-pasa-si-no-voy-a-la-mesa",
+      "click_depth": 1,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/elecciones/horario-mesa-electoral",
+      "click_depth": 1,
       "checks": [
         {
           "rule": "title_present",

@@ -6,8 +6,8 @@ import { buildSitemapEntries } from "@/lib/seo/sitemapEntries";
 import { renderLlmsTxt } from "@/lib/seo/llms";
 
 describe("guías prácticas del 29-N (2026-10-16)", () => {
-  it("publishes 31 unique election guides under /elecciones with official sources", () => {
-    expect(ELECCIONES_29N_GUIDES).toHaveLength(31);
+  it("publishes 35 unique election guides (31 + 4 del cluster mesa, 20-10) under /elecciones with official sources", () => {
+    expect(ELECCIONES_29N_GUIDES).toHaveLength(35);
     const paths = new Set(ALL_GUIDES.map((g) => g.path));
     expect(paths.size).toBe(ALL_GUIDES.length);
     const titles = new Set(ALL_GUIDES.map((g) => g.title));
@@ -15,9 +15,9 @@ describe("guías prácticas del 29-N (2026-10-16)", () => {
     for (const g of ELECCIONES_29N_GUIDES) {
       expect(g.path.startsWith("/elecciones/"), g.path).toBe(true);
       expect(g.pack).toBe("elecciones");
-      expect(["2026-10-16", "2026-10-18"]).toContain(g.reviewedAt);
+      expect(["2026-10-16", "2026-10-18", "2026-10-20"]).toContain(g.reviewedAt);
       expect(g.sources?.length ?? 0, g.path).toBeGreaterThanOrEqual(2);
-      for (const s of g.sources ?? []) expect(s.href, g.path).toMatch(/^https:\/\/(www\.)?(boe\.es|juntaelectoralcentral\.es|ine\.es|sede\.ine\.gob\.es|exteriores\.gob\.es|administracion\.gob\.es|correos\.(es|com)|infoelectoral\.interior\.gob\.es)\//);
+      for (const s of g.sources ?? []) expect(s.href, g.path).toMatch(/^https:\/\/(www\.)?(boe\.es|juntaelectoralcentral\.es|ine\.es|sede\.ine\.gob\.es|exteriores\.gob\.es|administracion\.gob\.es|correos\.(es|com)|infoelectoral\.interior\.gob\.es|sede\.agenciatributaria\.gob\.es)\//);
       expect(g.description.length, g.path).toBeGreaterThanOrEqual(110);
       expect(g.description.length, g.path).toBeLessThanOrEqual(158);
       expect(getGuideByPath(g.path)).toBe(g);
