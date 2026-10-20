@@ -1,4 +1,4 @@
-import type { Guide, GuideTable } from "@/lib/tramites/types";
+import type { Guide, GuideChart, GuideTable } from "@/lib/tramites/types";
 
 /**
  * Precampaña 29-N: bloque de encuestas y explicadores (v2, 19-10-2026).
@@ -50,6 +50,7 @@ const R = {
   margen: { href: "/elecciones/margen-de-error-encuestas", label: "Margen de error de una encuesta" },
   barometro: { href: "/elecciones/barometro-cis-que-es", label: "Qué es el barómetro del CIS" },
   historico: { href: "/elecciones/aciertos-y-fallos-de-las-encuestas", label: "Aciertos y fallos de las encuestas" },
+  estudio: { href: "/elecciones/estudio-error-cis-generales", label: "Estudio: cuánto se equivocó el CIS en 12 estimaciones (2019–2023)" },
   leer: { href: "/elecciones/como-leer-una-encuesta", label: "Cómo leer una encuesta sin que te engañen" },
   ficha: { href: "/elecciones/ficha-tecnica-encuesta", label: "Ficha técnica de una encuesta" },
   indecisos: { href: "/elecciones/indecisos-y-voto-oculto", label: "Indecisos y voto oculto" },
@@ -115,6 +116,42 @@ const TABLA_CIS: GuideTable = {
   ],
 };
 
+const E = (label: string, value: number, group: string) => ({ label, value, group });
+/** Diferencia CIS − resultado oficial (puntos), de TABLA_CIS. Partidos en el orden de votos de 2023. */
+const CHART_CIS: GuideChart = {
+  kind: "bars",
+  unit: " p.",
+  caption: "Diferencia entre la estimación final del CIS y el resultado oficial, en puntos (positivo: el CIS dio más de lo que salió).",
+  note: "Fuente: estudios 3242, 3263 y 3411 del CIS y resultados oficiales publicados en el BOE.",
+  rows: [
+    E("PP", 0.5, "Abril de 2019"), E("PSOE", 1.5, "Abril de 2019"), E("Vox", 1.6, "Abril de 2019"), E("Ciudadanos", -2.3, "Abril de 2019"),
+    E("PP", -2.7, "Noviembre de 2019"), E("PSOE", 4.2, "Noviembre de 2019"), E("Vox", -7.2, "Noviembre de 2019"), E("Ciudadanos", 3.8, "Noviembre de 2019"),
+    E("PP", -1.7, "Julio de 2023"), E("PSOE", -0.5, "Julio de 2023"), E("Vox", -1.8, "Julio de 2023"), E("Sumar", 4.1, "Julio de 2023"),
+  ],
+};
+const CHART_ERROR_MEDIO: GuideChart = {
+  kind: "bars",
+  unit: " p.",
+  caption: "Error medio del CIS en los cuatro partidos principales de cada elección general, en puntos.",
+  note: "Media de las diferencias sin signo; datos del CIS y del BOE.",
+  rows: [
+    { label: "Abril de 2019", value: 1.5 },
+    { label: "Noviembre de 2019", value: 4.5 },
+    { label: "Julio de 2023", value: 2.0 },
+  ],
+};
+const CHART_OCT26: GuideChart = {
+  kind: "ranges",
+  unit: " %",
+  caption: "Rango de las siete encuestas privadas de octubre de 2026 (barra) y barómetro del CIS de octubre (marca).",
+  note: "Datos de la tabla de esta página, con la fuente de cada encuesta.",
+  rows: [
+    { label: "PP", min: 31.4, max: 34.1, marker: 22.2, markerLabel: "CIS" },
+    { label: "PSOE", min: 25, max: 28.2, marker: 34, markerLabel: "CIS" },
+    { label: "Vox", min: 18.2, max: 19.6, marker: 17.1, markerLabel: "CIS" },
+  ],
+};
+
 const TABLA_ESCANOS: GuideTable = {
   caption: "Horquilla de escaños del CIS antes del 23-J de 2023 y escaños oficiales",
   head: ["Partido", "Horquilla CIS", "Anchura", "Escaños oficiales", "¿Dentro?", "Fuente"],
@@ -154,7 +191,7 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
     secondaryCta: S.gad3,
     disclaimer: "Encuestas, no resultados. Se pueden publicar hasta el 23 de noviembre; del 24 al 28 está prohibido (artículo 69.7 de la LOREG).",
     sources: [S.sigma1019, S.hamalgama1011, S.cis3582, S.cis3582avance, S.gad3, S.doble, S.dsevilla, S.euronews, S.jec, L69],
-    related: [R.cis, R.cocina, R.directa, R.margen, R.leer, R.historico, R.escanosEnc, R.mayoria, R.prohibidas],
+    related: [R.cis, R.estudio, R.cocina, R.directa, R.margen, R.leer, R.historico, R.escanosEnc, R.mayoria, R.prohibidas],
     faqs: [
       { q: "¿Quién va primero en las encuestas del 29-N?", a: "En las privadas de octubre de 2026, el PP: Sigma Dos 31,5 % (19-10) y 31,9 % (11-10), GAD3 31,4 %, Hamalgama 33,4 %, NC Report 34,1 %, 40dB 31,9 % y DYM 34 %. En el barómetro del CIS de octubre, el PSOE, con el 34 %." },
       { q: "¿Suman mayoría PP y Vox en las encuestas?", a: "En las privadas que publican escaños, sí: según el resumen de Diario de Sevilla del 14 de octubre, PP y Vox suman entre 189 y 212 escaños. La de Sigma Dos del 19 de octubre les da entre 197 y 205 (132–137 el PP y 65–68 Vox). El barómetro del CIS no da escaños; en porcentaje, PP y Vox suman el 39,3 % y el PSOE, el 34 %." },
@@ -174,6 +211,7 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
         id: "lo-que-coincide",
         title: "En qué coinciden y en qué no",
         paragraphs: [],
+        chart: CHART_OCT26,
         lists: [[
           "Vox es tercero en todas, con un rango estrecho: del 17,1 % (CIS) al 19,6 % (Hamalgama).",
           "El PP va del 22,2 % (CIS) al 34,1 % (NC Report). Sin el CIS, el rango es 31,4–34,1 %.",
@@ -217,7 +255,7 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
     cta: S.cis3411,
     secondaryCta: S.boe2023,
     sources: [S.cis3242, S.cis3263, S.cis3411, S.cis3411nota, S.cis3582, S.boe2019a, S.boe2019n, S.boe2023, S.loreg("asesentaynueve", "artículo 69.8: encuestas de organismos públicos"), S.rtve2018, S.m20_2018, S.euronews, S.eldiario2023],
-    related: [R.cocina, R.directa, R.historico, R.barometro, R.hub, R.margen, R.indecisos],
+    related: [R.estudio, R.cocina, R.directa, R.historico, R.barometro, R.hub, R.margen, R.indecisos],
     faqs: [
       { q: "¿Acertó el CIS en 2023?", a: "En parte. Estimó al PP en 31,4 % (sacó 33,1 %) y al PSOE en 31,2 % (sacó 31,7 %), pero dio a Sumar un 16,4 % (sacó 12,3 %) y a Vox un 10,6 % (sacó 12,4 %). PP y PSOE quedaron dentro de su horquilla de escaños; Sumar y Vox, fuera." },
       { q: "¿Y en 2019?", a: "En abril de 2019 dio al PSOE un 30,2 % (sacó 28,7 %). En noviembre le dio un 32,2 % (sacó 28,0 %) y a Vox un 7,9 % (sacó 15,1 %), su mayor error reciente." },
@@ -232,6 +270,7 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
         id: "datos",
         title: "El CIS frente al resultado oficial, partido a partido",
         paragraphs: ["Última encuesta preelectoral del CIS antes de cada elección general frente al resultado del BOE, redondeado a un decimal. Diferencia en puntos: positiva si el CIS dio más de lo que salió."],
+        chart: CHART_CIS,
         table: TABLA_CIS,
       },
       {
@@ -612,7 +651,7 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
     cta: S.eldiario2023,
     secondaryCta: S.boe2023,
     sources: [S.eldiario2023, S.boe2023, S.cis3242, S.cis3263, S.cis3411, S.boe2019a, S.boe2019n],
-    related: [R.cis, R.pieUrna, R.margen, R.indecisos, R.hub, R.escanosEnc],
+    related: [R.cis, R.estudio, R.pieUrna, R.margen, R.indecisos, R.hub, R.escanosEnc],
     faqs: [
       { q: "¿Qué encuesta acertó más en 2023?", a: "En escaños del PP, 40dB (135 frente a 137) y Simple Lógica (130–138), según elDiario.es. Simple Lógica también acertó que PP y Vox no tendrían mayoría absoluta." },
       { q: "¿Por qué fallaron tanto en 2023?", a: "Casi todas inflaron al PP e infravaloraron al PSOE. El resultado se decidió por pocos puntos y en escaños provinciales ajustados, donde un error pequeño mueve mucho." },
@@ -625,7 +664,8 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
       {
         id: "cis",
         title: "El CIS en 2019 y 2023",
-        paragraphs: ["Error medio en los cuatro grandes partidos: 1,5 puntos (abril de 2019), 4,5 (noviembre de 2019) y 2,0 (2023). El detalle partido a partido está en «¿Miente el CIS?»."],
+        paragraphs: ["Error medio en los cuatro grandes partidos: 1,5 puntos (abril de 2019), 4,5 (noviembre de 2019) y 2,0 (2023). El detalle partido a partido está en «¿Miente el CIS?» y en nuestro estudio de las 12 estimaciones."],
+        chart: CHART_ERROR_MEDIO,
         lists: [[
           "Mayor error: Vox en noviembre de 2019, −7,2 puntos.",
           "Menor error en 2023: el PSOE, a medio punto del resultado.",
@@ -1291,6 +1331,77 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
         id: "para-ti",
         title: "Qué significa para ti",
         paragraphs: ["Comparar con el mismo método evita fijarse solo en los titulares. Mientras se publican los programas, puedes consultar las promesas con fecha y fuente que ya han hecho los partidos."],
+      },
+    ],
+  }),
+  // 21 · ESTUDIO PROPIO: ERROR DEL CIS
+  g({
+    id: "29n-estudio-error-cis",
+    path: "/elecciones/estudio-error-cis-generales",
+    h1: "Estudio: cuánto se equivocó el CIS en las generales de 2019 y 2023",
+    title: "Error del CIS en las generales 2019–2023: estudio con datos",
+    description:
+      "Comparamos las 12 estimaciones finales del CIS con el resultado oficial del BOE: error medio de 2,7 puntos, 6 de 12 a 2 puntos o menos y un máximo de 7,2 (Vox, 2019).",
+    lead:
+      "Respuesta corta: en las tres últimas generales, el error medio del CIS fue de 2,7 puntos por partido. De sus 12 estimaciones finales para los cuatro partidos principales, 6 quedaron a 2 puntos o menos del resultado oficial y 4 se desviaron más de 3. Sobreestimó en 6 casos y subestimó en otros 6. El mayor error fue Vox en noviembre de 2019: le dio un 7,9 % y sacó un 15,1 %.",
+    cta: S.cis3411,
+    secondaryCta: S.boe2023,
+    sources: [S.cis3242, S.cis3263, S.cis3411, S.boe2019a, S.boe2019n, S.boe2023],
+    related: [R.cis, R.historico, R.hub, R.margen, R.cocina, R.directa],
+    faqs: [
+      { q: "¿Cuál es el error medio del CIS en las generales?", a: "2,7 puntos por partido en las 12 estimaciones de abril de 2019, noviembre de 2019 y julio de 2023: 1,5 en abril de 2019, 4,5 en noviembre de 2019 y 2,0 en 2023." },
+      { q: "¿El CIS se equivoca siempre hacia el mismo lado?", a: "No en estos datos: sobreestimó en 6 de las 12 estimaciones y subestimó en 6. Al PSOE lo sobreestimó en 2019 y lo subestimó por medio punto en 2023." },
+      { q: "¿Puedo descargar los datos?", a: "Sí, en CSV en /datos/error-cis-generales.csv, con la fuente de cada fila. Puedes repetir la cuenta con los PDF de estimación del CIS y los resultados del BOE." },
+      { q: "¿Sirve para saber cuánto fallará el 29-N?", a: "No. Son solo tres elecciones y el error cambió mucho entre ellas, de 1,5 a 4,5 puntos." },
+    ],
+    dataset: {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      name: "Error de la estimación final del CIS frente al resultado oficial, elecciones generales 2019–2023",
+      description: "12 filas: estimación final del CIS (estudios 3242, 3263 y 3411) y resultado oficial en porcentaje sobre voto válido para los cuatro partidos principales de cada elección general, con la diferencia en puntos.",
+      url: "https://rutatramite.com/elecciones/estudio-error-cis-generales",
+      license: "https://creativecommons.org/licenses/by/4.0/",
+      creator: { "@type": "Organization", name: "RutaTrámite", url: "https://rutatramite.com/" },
+      dateModified: "2026-10-20",
+      temporalCoverage: "2019-04-28/2023-07-23",
+      spatialCoverage: "España",
+      isBasedOn: [S.cis3242.href, S.cis3263.href, S.cis3411.href, S.boe2019a.href, S.boe2019n.href, S.boe2023.href],
+      variableMeasured: ["estimación del CIS (%)", "resultado oficial (%)", "diferencia (puntos)"],
+      distribution: [{ "@type": "DataDownload", encodingFormat: "text/csv", contentUrl: "https://rutatramite.com/datos/error-cis-generales.csv" }],
+    },
+    sections: [
+      {
+        id: "resultados",
+        title: "Los resultados en cuatro cifras",
+        paragraphs: [],
+        lists: [[
+          "Error medio: 2,7 puntos por partido (12 estimaciones).",
+          "A 2 puntos o menos del resultado: 6 de 12.",
+          "Más de 3 puntos de error: 4 de 12 (PSOE y Vox en noviembre de 2019, Ciudadanos en noviembre de 2019 y Sumar en 2023).",
+          "Dirección: 6 sobreestimaciones y 6 subestimaciones.",
+        ]],
+        chart: CHART_CIS,
+      },
+      {
+        id: "por-eleccion",
+        title: "Error medio por elección",
+        paragraphs: ["El error depende mucho de la elección: noviembre de 2019, con una repetición electoral y un cambio rápido en el voto a Vox y Ciudadanos, triplicó el de abril."],
+        chart: CHART_ERROR_MEDIO,
+      },
+      {
+        id: "tabla",
+        title: "Los datos, fila a fila",
+        paragraphs: [],
+        table: TABLA_CIS,
+      },
+      {
+        id: "metodologia",
+        title: "Metodología",
+        paragraphs: [
+          "Para cada elección general desde que el CIS cambió de método (2019 en adelante) tomamos su última estimación de voto publicada antes de la votación: estudios 3242 (abril de 2019), 3263 (noviembre de 2019) y 3411 (julio de 2023). La comparamos con el resultado oficial en porcentaje sobre voto válido publicado en el BOE por la Junta Electoral Central, redondeado a un decimal.",
+          "Usamos los cuatro partidos con más voto en cada elección. La diferencia es estimación menos resultado; el error medio es la media de las diferencias sin signo. No incluimos escaños ni encuestas privadas, que están en «Aciertos y fallos de las encuestas».",
+          "Datos abiertos: descarga el CSV en /datos/error-cis-generales.csv (licencia CC BY 4.0, cita «RutaTrámite» y las fuentes oficiales).",
+        ],
       },
     ],
   }),

@@ -63,7 +63,7 @@ const titles: Record<GuidePack, { h1: string; lead: string }> = {
   },
   becas: {
     h1: PACK_DOCUMENT_HEADINGS.becas,
-    lead: "Guías sobre la beca MEC y ayudas autonómicas: solicitud, estado, cobro y devolución. Comprueba el curso y el plazo de cada convocatoria en su sede oficial.",
+    lead: "Respuesta corta: el estado de la beca MEC 2026-27 se consulta en la sede electrónica del Ministerio de Educación, en el apartado de tus expedientes, con los datos del solicitante. El plazo ordinario fue del 7 de abril al 19 de mayo de 2026 y la ventana para modificar datos, del 7 al 28 de septiembre de 2026. Abajo tienes las guías de solicitud, estado, cobro, resolución y devolución.",
   },
   alquiler: {
     h1: "Ayudas al alquiler: Bono Joven y nuevas convocatorias",
@@ -108,7 +108,7 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
   const passport = pack === "viaje" && focus === "pasaporte";
   const t = passport ? {
     h1: PACK_DOCUMENT_HEADINGS.pasaporte,
-    lead: "Encuentra cómo pedir cita, preparar los documentos y renovar el pasaporte. Consulta también los requisitos para menores y qué hacer ante un viaje próximo o una pérdida en el extranjero.",
+    lead: "Respuesta corta: el pasaporte cuesta 30 € en 2026, salvo exención, y la cita es gratuita en citapreviadnie.es o en el 060. El DNI cuesta 12 €. Aquí tienes cómo pedir cita, qué documentos llevar, el pasaporte urgente, el de menores y qué hacer ante un viaje próximo o una pérdida en el extranjero.",
   } : titles[pack];
   const sinCita = passport ? guidesByPack("viaje").find((guide) => guide.path === "/pasaporte/caducado-sin-cita") : undefined;
   const guides = guidesByPack(pack).filter((guide) => !passport ||

@@ -8,13 +8,23 @@ import { descargasForGuide } from "@/lib/descargas";
 import { DISCLAIMER_CITA, LAST_VERIFIED } from "@/lib/tramites/facts";
 import { PACK_INDEX_PATH, type Guide } from "@/lib/tramites/types";
 import { PromesasDataBar } from "@/components/tramites/PromesasData";
+import { GuideChartSvg } from "@/components/tramites/GuideChartSvg";
 import { DocumentChecklist } from "@/components/tramites/DocumentChecklist";
 import type { DocumentProcedure } from "@/lib/tramites/document-checklists";
+
+/** Section hubs that differ from the pack index (e.g. /pasaporte/* lives in the DNI pack). */
+const SECTION_HUBS: Record<string, string> = {
+  "/pasaporte": "Pasaporte: precio, cita y pasaporte urgente",
+  "/dni": "DNI: cita previa, precio y renovación",
+};
 
 export function GuideView({ guide }: { guide: Guide }) {
   const faqs = guideFaqs(guide);
   const formularios = descargasForGuide(guide.path);
-  const related = guide.related.filter((link, index, links) =>
+  const sectionHub = "/" + guide.path.split("/")[1];
+  const hubLink = SECTION_HUBS[sectionHub] && sectionHub !== guide.path && sectionHub !== PACK_INDEX_PATH[guide.pack]
+    ? [{ href: sectionHub, label: SECTION_HUBS[sectionHub] }] : [];
+  const related = [...guide.related, ...hubLink].filter((link, index, links) =>
     link.href !== guide.path && links.findIndex((item) => item.href === link.href) === index,
   );
   const modified = guide.reviewedAt ?? LAST_VERIFIED;
@@ -31,6 +41,7 @@ export function GuideView({ guide }: { guide: Guide }) {
   return (
     <PageShell as="article" className="min-[1280px]:max-w-[1120px]" data-guide={guide.id} data-pack={guide.pack}>
       <JsonLd data={guideFaqJsonLd(guide)} />
+      {guide.dataset ? <JsonLd data={guide.dataset} /> : null}
       <JsonLd data={articleJsonLd({ headline: guide.h1, description: guide.lead, path: guide.path, dateModified: modified, sources: (guide.sources ?? [guide.cta, ...(guide.secondaryCta ? [guide.secondaryCta] : [])]).map(source => source.href).filter(href => href.startsWith("https://")) })} />
       <Breadcrumbs items={crumbs} />
       <h1 className="mt-2 font-display text-4xl text-mossDark">{guide.h1}</h1>
@@ -71,6 +82,7 @@ export function GuideView({ guide }: { guide: Guide }) {
               ))}
             </ul>
           ))}
+          {s.chart ? <GuideChartSvg chart={s.chart} /> : null}
           {s.table ? (
             <div className="guide-table-wrap" data-guide-table="">
               <table className="guide-table w-full border-collapse text-left">

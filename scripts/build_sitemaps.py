@@ -189,6 +189,7 @@ CORE = [
     "/elecciones/quiere-vox-quitar-las-pensiones",
     "/elecciones/encuestas-29n",
     "/elecciones/miente-el-cis",
+    "/elecciones/estudio-error-cis-generales",
     "/elecciones/cocina-de-las-encuestas",
     "/elecciones/como-se-hace-una-encuesta-electoral",
     "/elecciones/intencion-directa-vs-estimacion-de-voto",

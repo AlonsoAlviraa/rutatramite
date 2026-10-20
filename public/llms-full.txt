@@ -256,7 +256,7 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 - [¿Me ha tocado mesa electoral? Cuándo es el sorteo y cuándo te avisan (29-N)](https://rutatramite.com/elecciones/sorteo-mesa-electoral-29n)
 - [Excusas para no ir a la mesa electoral: qué causas acepta la Junta y hasta cuándo](https://rutatramite.com/elecciones/excusa-mesa-electoral)
 - [Tarjeta censal del 29-N: cuándo llega la carta del censo y para qué sirve](https://rutatramite.com/elecciones/tarjeta-censal-cuando-llega)
-- [Cómo no recibir propaganda electoral en casa: el plazo para el 29-N acaba el 19 de octubre](https://rutatramite.com/elecciones/no-recibir-propaganda-electoral)
+- [Cómo no recibir propaganda electoral en casa: el plazo para el 29-N terminó el 19 de octubre](https://rutatramite.com/elecciones/no-recibir-propaganda-electoral)
 - [Listas electorales del 29-N: cuándo se presentan y cuándo salen en el BOE](https://rutatramite.com/elecciones/candidaturas-29n-boe)
 - [¿Cuándo habrá Gobierno después del 29-N? Fechas fijas y lo que pasó en 2023](https://rutatramite.com/elecciones/cuando-habra-gobierno-29n)
 - [CIS preelectoral del 29-N: cuándo sale y qué se sabe](https://rutatramite.com/elecciones/cis-preelectoral-29n)
@@ -304,6 +304,7 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 - [La barrera del 3 % y el voto útil, explicados](https://rutatramite.com/elecciones/barrera-del-3-por-ciento-y-voto-util)
 - [¿A quién beneficia el voto en blanco? Blanco, nulo y abstención](https://rutatramite.com/elecciones/a-quien-beneficia-el-voto-en-blanco)
 - [Cómo comparar programas electorales cuando se publiquen](https://rutatramite.com/elecciones/como-comparar-programas-electorales)
+- [Estudio: cuánto se equivocó el CIS en las generales de 2019 y 2023](https://rutatramite.com/elecciones/estudio-error-cis-generales)
 
 ## Ayudas del Estado según cada gobierno
 
