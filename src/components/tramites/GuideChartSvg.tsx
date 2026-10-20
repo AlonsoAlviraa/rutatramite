@@ -5,7 +5,7 @@ const fmt = (n: number) => n.toLocaleString("es-ES", { maximumFractionDigits: 1,
 
 /** Static, accessible inline SVG chart. No scripts, no external assets (CSP-safe). */
 export function GuideChartSvg({ chart }: { chart: GuideChart }) {
-  const rowH = 30, labelW = 190, plotW = 360, pad = 8, valueW = 70;
+  const rowH = 30, labelW = 120, plotW = 200, pad = 8, valueW = 0;
   const groups = chart.rows.map((r) => r.group).filter((g, i, a) => g && a.indexOf(g) === i);
   const headerRows = groups.length;
   const height = (chart.rows.length + headerRows) * rowH + pad * 2 + 18;
@@ -35,7 +35,7 @@ export function GuideChartSvg({ chart }: { chart: GuideChart }) {
     }
     y += rowH;
   });
-  const W = labelW + plotW + valueW + 140;
+  const W = labelW + plotW + valueW + (chart.kind === "ranges" ? 150 : 70);
   return (
     <figure className="mt-6 overflow-x-auto" data-guide-chart="">
       <svg role="img" viewBox={`0 0 ${W} ${height}`} width="100%" preserveAspectRatio="xMinYMin meet" className="max-w-full text-ink">
