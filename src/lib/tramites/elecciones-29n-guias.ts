@@ -423,10 +423,10 @@ const BASE_29N_GUIDES: Guide[] = [
     description:
       "Sorteo de mesas: del 31 de octubre al 4 de noviembre de 2026. Es obligatorio; tienes 7 días desde la notificación para alegar una causa justificada.",
     lead:
-      "Ser presidente o vocal de mesa es obligatorio. Los ayuntamientos hacen el sorteo entre el 31 de octubre y el 4 de noviembre de 2026 y te lo notifican en 3 días. Si tienes una causa justificada, la alegas ante la Junta Electoral de Zona en 7 días desde la notificación.",
+      "Ser presidente o vocal de mesa es obligatorio. Los ayuntamientos hacen el sorteo entre el 31 de octubre y el 4 de noviembre de 2026 y te lo notifican en 3 días. Si tienes una causa justificada, la alegas ante la Junta Electoral de Zona en 7 días desde la notificación. Presidentes y vocales titulares cobran una dieta de 75 € (Orden INT/650/2026).",
     cta: S.mesaInfo,
     secondaryCta: S.jec,
-    sources: [S.jec, S.mesaInfo, S.loreg("aveintiseis", "artículos 26 y 27: formación de las mesas")],
+    sources: [S.jec, S.mesaInfo, S.dieta, S.loreg("aveintiseis", "artículos 26 y 27: formación de las mesas")],
     related: [R.dietas, R.jornada, R.interventores, R.faq, { href: "/elecciones/sorteo-mesa-electoral-29n", label: "¿Me toca mesa? Cuándo es el sorteo" }, { href: "/elecciones/excusa-mesa-electoral", label: "Excusas para la mesa electoral" }],
     faqs: [
       { q: "Tengo más de 65 años, ¿puedo renunciar?", a: "Sí. El artículo 26 de la LOREG permite a los mayores de 65 años renunciar en el plazo de siete días." },
@@ -468,7 +468,7 @@ const BASE_29N_GUIDES: Guide[] = [
         id: "resumen",
         title: "Resumen",
         paragraphs: ["Datos de la Orden INT/650/2026 y de Infoelectoral."],
-        lists: [["Dieta: 75 euros por titular y jornada, íntegra aunque no estés todo el día.", "Permiso retribuido el día de la votación si es laborable.", "Reducción de 5 horas de jornada el día siguiente (lunes 30 de noviembre)."]],
+        lists: [["Dieta: 75 euros por titular y jornada, íntegra aunque no estés todo el día. En 2023 eran 70 euros (Orden INT/212/2023, derogada por la INT/650/2026).", "Permiso retribuido el día de la votación si es laborable.", "Reducción de 5 horas de jornada el día siguiente (lunes 30 de noviembre)."]],
       },
     ],
   }),

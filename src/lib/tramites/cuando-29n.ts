@@ -311,7 +311,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
   "h1": "¿Me ha tocado mesa electoral? Cuándo es el sorteo y cuándo te avisan (29-N)",
   "title": "Mesa electoral 29-N: cuándo es el sorteo y cuándo lo sabrás",
   "description": "El sorteo de mesas del 29-N es del 31 de octubre al 4 de noviembre y te lo notifican en 3 días. Plazos para alegar, renunciar con 65 años y qué hacer.",
-  "lead": "Respuesta corta: los ayuntamientos sortean las mesas entre el 31 de octubre y el 4 de noviembre de 2026, y deben notificar la designación en los 3 días siguientes al sorteo. Si tu ayuntamiento sortea el último día, la notificación debe llegar como tarde el 7 de noviembre. Desde que te notifican tienes 7 días para alegar una causa justificada.",
+  "lead": "Respuesta corta: los ayuntamientos sortean las mesas entre el 31 de octubre y el 4 de noviembre de 2026, y deben notificar la designación en los 3 días siguientes al sorteo. Si tu ayuntamiento sortea el último día, la notificación debe llegar como tarde el 7 de noviembre. Desde que te notifican tienes 7 días para alegar una causa justificada. Si te toca como presidente o vocal titular, cobras una dieta de 75 € (Orden INT/650/2026).",
   "cta": {
    "href": "/elecciones/excusa-mesa-electoral",
    "label": "Excusas para la mesa electoral"
@@ -321,6 +321,10 @@ export const CUANDO_29N_GUIDES: Guide[] = [
    "label": "Me ha tocado mesa: qué hago"
   },
   "sources": [
+   {
+    "label": "BOE: Orden INT/650/2026, dieta de los miembros de las mesas electorales (75 €)",
+    "href": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13948"
+   },
    {
     "label": "Junta Electoral Central: calendario electoral de las generales 2026",
     "href": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf"
@@ -513,7 +517,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
   "h1": "Excusas para no ir a la mesa electoral: qué causas acepta la Junta y hasta cuándo",
   "title": "Excusa mesa electoral 29-N: plazo de 7 días y causas válidas",
   "description": "Tienes 7 días desde la notificación para alegar ante la Junta Electoral de Zona. Causas que se aceptan siempre, las que se valoran y qué documento presentar.",
-  "lead": "Respuesta corta: tienes 7 días desde que te notifican para presentar ante la Junta Electoral de Zona una causa justificada y documentada. Algunas causas se aceptan siempre, como tener entre 65 y 69 años, estar de baja, una discapacidad declarada o cuidar a un menor de 12 años con reducción de jornada. Otras se estudian caso a caso. La Junta responde en 5 días y su decisión no admite recurso administrativo.",
+  "lead": "Respuesta corta: tienes 7 días desde que te notifican para presentar ante la Junta Electoral de Zona una causa justificada y documentada. Algunas causas se aceptan siempre, como tener entre 65 y 69 años, estar de baja, una discapacidad declarada o cuidar a un menor de 12 años con reducción de jornada. Otras se estudian caso a caso. La Junta responde en 5 días y su decisión no admite recurso administrativo. Si te toca, los titulares cobran una dieta de 75 € (Orden INT/650/2026).",
   "cta": {
    "href": "/elecciones/sorteo-mesa-electoral-29n",
    "label": "¿Me toca mesa? Cuándo es el sorteo"
@@ -523,6 +527,10 @@ export const CUANDO_29N_GUIDES: Guide[] = [
    "label": "Me ha tocado mesa: qué hago"
   },
   "sources": [
+   {
+    "label": "BOE: Orden INT/650/2026, dieta de los miembros de las mesas electorales (75 €)",
+    "href": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13948"
+   },
    {
     "label": "LOREG, artículo 27: excusas",
     "href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#aveintisiete"
