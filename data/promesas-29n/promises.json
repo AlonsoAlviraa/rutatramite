@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "election": {
   "name": "Elecciones generales a Cortes (Congreso y Senado)",
   "date": "2026-11-29",
@@ -1558,6 +1558,26 @@
    "cost": null,
    "impact": null,
    "who": "Pedro Sánchez, mitin de precampaña en Valladolid, 19-10-2026"
+  },
+  {
+   "id": "vox-prioridad-alquiler-guarderia",
+   "party": "vox",
+   "topic": "vivienda",
+   "measure": "«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+   "quote": "que los españoles sean los primeros en recibir ayudas sociales, ayudas al alquiler y plazas de guardería",
+   "source_url": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020",
+   "source_title": "voxespana.es: acto de Ponferrada",
+   "source_date": "2026-10-20",
+   "source_type": "oficial-partido",
+   "level": "estatal+autonómica",
+   "tax": null,
+   "profiles": [
+    "joven-alquiler",
+    "familia"
+   ],
+   "cost": null,
+   "impact": null,
+   "who": "Santiago Abascal, acto de precampaña en Ponferrada (León), 20-10-2026"
   }
  ]
 }

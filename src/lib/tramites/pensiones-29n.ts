@@ -5,12 +5,12 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
  {
   "id": "pens29n-hub",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-19",
+  "reviewedAt": "2026-10-21",
   "path": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
   "h1": "¿Quiere algún partido quitar las pensiones? Lo que ha dicho cada uno",
   "title": "¿Quiere algún partido quitar las pensiones? Lo que dicen el 29-N",
   "description": "¿Quién quiere quitar las pensiones? Lo que han dicho PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21 antes del 29-N, con fecha y fuente de cada frase.",
-  "lead": "Respuesta corta: a 19 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N.",
+  "lead": "Respuesta corta: a 21 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N.",
   "cta": {
    "href": "/elecciones/promesas/que-propone-cada-partido-pensiones",
    "label": "Comparar propuestas sobre pensiones"
@@ -119,7 +119,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "faqs": [
    {
     "q": "¿Qué partido quiere quitar las pensiones?",
-    "a": "A 19 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N."
+    "a": "A 21 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N."
    },
    {
     "q": "¿Por qué se habla ahora de quitar las pensiones?",
@@ -143,7 +143,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "respuesta",
     "title": "Respuesta corta",
     "paragraphs": [
-     "A 19 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N."
+     "A 21 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N."
     ]
    },
    {
@@ -187,11 +187,11 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
        "cells": [
         "Vox",
         "¿Quitarlas? No hemos encontrado ninguna declaración en ese sentido",
-        "Abascal: las pensiones «se van a pagar al precio que sea y como sea»; «nos da igual el modelo y la fórmula» (11-10-2026)."
+        "Abascal: las pensiones «se van a pagar al precio que sea y como sea» (11-10-2026) y «se van a pagar como sea, de la manera que sea» (Ponferrada, 20-10-2026). Figaredo propuso un «modelo mixto» de reparto y capitalización (5-10-2026) y negó que sea privatizar."
        ],
        "source": {
-        "label": "Europa Press, 11-10-2026: Abascal en Estepona",
-        "href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+        "label": "RTVE, 20-10-2026: Abascal en Ponferrada",
+        "href": "https://www.rtve.es/noticias/20261020/abascal-critica-feijoo-pedir-sacrificios/17275702.shtml"
        }
       },
       {
@@ -660,12 +660,12 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
  {
   "id": "pens29n-vox",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-19",
+  "reviewedAt": "2026-10-21",
   "path": "/elecciones/quiere-vox-quitar-las-pensiones",
   "h1": "¿Quiere Vox quitar las pensiones? Lo que ha dicho y votado",
   "title": "¿Quiere Vox quitar las pensiones? Lo que ha dicho Abascal",
-  "description": "¿Quiere Vox quitar las pensiones? Abascal dijo el 11-10-2026 que se pagarán «al precio que sea». Lo que ha dicho, cómo ha votado y la ley, con fuentes.",
-  "lead": "Respuesta corta: según las declaraciones con fuente que hemos encontrado, no. Su candidato, Santiago Abascal, dijo el 11 de octubre de 2026 que las pensiones «se van a pagar al precio que sea y como sea» y negó que Vox vaya a privatizarlas, según Europa Press. También dijo «nos da igual el modelo y la fórmula», sin concretar cómo se revalorizarían.",
+  "description": "¿Quiere Vox quitar las pensiones? Abascal (20-10-2026): «se van a pagar como sea». Qué es el «modelo mixto» de Figaredo, qué ha votado y qué dice la ley.",
+  "lead": "Respuesta corta: según las declaraciones con fuente que hemos encontrado, no. Su candidato, Santiago Abascal, lo repitió el 20 de octubre de 2026 en Ponferrada: «las pensiones se van a pagar como sea, de la manera que sea», y negó que Vox quiera privatizarlas (RTVE). El 11 de octubre dijo que le da igual «el modelo y la fórmula». Su diputado José María Figaredo propuso el 5 de octubre una reforma hacia «un modelo mixto que combine el reparto con la capitalización individual» y después negó que eso sea privatizar.",
   "cta": {
    "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
    "label": "Ver qué ha dicho cada partido"
@@ -675,6 +675,14 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
    "label": "Programas y mítines del 29-N"
   },
   "sources": [
+   {
+    "label": "RTVE, 20-10-2026: Abascal en Ponferrada",
+    "href": "https://www.rtve.es/noticias/20261020/abascal-critica-feijoo-pedir-sacrificios/17275702.shtml"
+   },
+   {
+    "label": "Newtral, 9-10-2026: qué propone Vox sobre pensiones (entrevista de Figaredo en El Debate, 5-10-2026)",
+    "href": "https://www.newtral.es/pensiones-vox-publicas-privadas/20261009/"
+   },
    {
     "label": "Europa Press, 11-10-2026: Abascal en Estepona",
     "href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
@@ -746,15 +754,19 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "faqs": [
    {
     "q": "¿Quiere Vox quitar las pensiones?",
-    "a": "Según las declaraciones con fuente que hemos encontrado, no. Su candidato, Santiago Abascal, dijo el 11 de octubre de 2026 que las pensiones «se van a pagar al precio que sea y como sea» y negó que Vox vaya a privatizarlas, según Europa Press. También dijo «nos da igual el modelo y la fórmula», sin concretar cómo se revalorizarían."
+    "a": "Según las declaraciones con fuente que hemos encontrado, no. Su candidato, Santiago Abascal, lo repitió el 20 de octubre de 2026 en Ponferrada: «las pensiones se van a pagar como sea, de la manera que sea», y negó que Vox quiera privatizarlas (RTVE). El 11 de octubre dijo que le da igual «el modelo y la fórmula». Su diputado José María Figaredo propuso el 5 de octubre una reforma hacia «un modelo mixto que combine el reparto con la capitalización individual» y después negó que eso sea privatizar."
    },
    {
     "q": "¿Qué ha dicho Vox sobre subir las pensiones con el IPC?",
     "a": "Abascal dijo el 11 de octubre de 2026 que las pensiones «se van a pagar al precio que sea y como sea» y que le da igual «el modelo y la fórmula» (Europa Press)."
    },
    {
+    "q": "¿Qué es el «modelo mixto» de pensiones que propone Vox?",
+    "a": "Figaredo habló el 5 de octubre de 2026 de combinar el sistema actual de reparto (las pensiones de hoy se pagan con las cotizaciones de hoy) con una parte de capitalización individual (aportaciones que se invierten para la pensión futura de cada persona). Según Newtral, el programa económico de Vox de 2025 habla de un sistema mixto «similar al de Suecia», sin detallar cómo se aplicaría. Capitalizar no implica por sí mismo gestión privada: depende de quién gestione el fondo."
+   },
+   {
     "q": "¿Ha publicado Vox su programa para el 29-N?",
-    "a": "A 19 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
+    "a": "A 21 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
    },
    {
     "q": "¿Puede un Gobierno dejar de subir las pensiones por su cuenta?",
@@ -766,14 +778,14 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "respuesta",
     "title": "Respuesta corta",
     "paragraphs": [
-     "Según las declaraciones con fuente que hemos encontrado, no. Su candidato, Santiago Abascal, dijo el 11 de octubre de 2026 que las pensiones «se van a pagar al precio que sea y como sea» y negó que Vox vaya a privatizarlas, según Europa Press. También dijo «nos da igual el modelo y la fórmula», sin concretar cómo se revalorizarían."
+     "Según las declaraciones con fuente que hemos encontrado, no. Su candidato, Santiago Abascal, lo repitió el 20 de octubre de 2026 en Ponferrada: «las pensiones se van a pagar como sea, de la manera que sea», y negó que Vox quiera privatizarlas (RTVE). El 11 de octubre dijo que le da igual «el modelo y la fórmula». Su diputado José María Figaredo propuso el 5 de octubre una reforma hacia «un modelo mixto que combine el reparto con la capitalización individual» y después negó que eso sea privatizar."
     ]
    },
    {
     "id": "que-ha-dicho",
     "title": "Qué ha dicho Vox sobre las pensiones",
     "paragraphs": [
-     "Declaraciones públicas con fuente y fecha, revisadas el 19 de octubre de 2026."
+     "Declaraciones públicas con fuente y fecha, revisadas el 21 de octubre de 2026."
     ],
     "table": {
      "caption": "Vox: declaraciones sobre pensiones",
@@ -783,6 +795,26 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
       "Fuente"
      ],
      "rows": [
+      {
+       "cells": [
+        "«Las pensiones se van a pagar como sea, de la manera que sea». Negó que Vox quiera privatizarlas.",
+        "Santiago Abascal, acto de precampaña en Ponferrada (León), 20-10-2026"
+       ],
+       "source": {
+        "label": "RTVE, 20-10-2026: Abascal en Ponferrada",
+        "href": "https://www.rtve.es/noticias/20261020/abascal-critica-feijoo-pedir-sacrificios/17275702.shtml"
+       }
+      },
+      {
+       "cells": [
+        "Propuso «una reforma estructural hacia un modelo mixto que combine el reparto con la capitalización individual». En una entrevista posterior negó que Vox quiera «privatizar» las pensiones: «Nunca hemos dicho tal cosa».",
+        "José María Figaredo, diputado de Vox, entrevista en El Debate, 05-10-2026"
+       ],
+       "source": {
+        "label": "Newtral, 9-10-2026: qué propone Vox sobre pensiones (entrevista de Figaredo en El Debate, 5-10-2026)",
+        "href": "https://www.newtral.es/pensiones-vox-publicas-privadas/20261009/"
+       }
+      },
       {
        "cells": [
         "«Nos da igual el modelo y la fórmula, pero las pensiones de los mayores que las han ganado después de trabajar toda una vida se van a pagar al precio que sea y como sea». Negó que Vox vaya a privatizar las pensiones.",
@@ -817,7 +849,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "programa",
     "title": "Programa electoral",
     "paragraphs": [
-     "Programa del 29-N: no publicado a 19 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
+     "Programa del 29-N: no publicado a 21 de octubre de 2026. El programa económico de Vox de 2025, que Figaredo dio por vigente según Newtral, propone un sistema mixto «similar al de Suecia». Cuando se publique el programa del 29-N, añadiremos lo que diga sobre pensiones."
     ]
    },
    {

@@ -309,8 +309,8 @@ export const CUANDO_29N_GUIDES: Guide[] = [
   "reviewedAt": "2026-10-19",
   "path": "/elecciones/sorteo-mesa-electoral-29n",
   "h1": "¿Me ha tocado mesa electoral? Cuándo es el sorteo y cuándo te avisan (29-N)",
-  "title": "Mesa electoral 29-N: cuándo es el sorteo y cuándo lo sabrás",
-  "description": "El sorteo de mesas del 29-N es del 31 de octubre al 4 de noviembre y te lo notifican en 3 días. Plazos para alegar, renunciar con 65 años y qué hacer.",
+  "title": "Sorteo mesa electoral 29-N: fechas y cómo saber si te toca",
+  "description": "Sorteo de mesas del 29-N: del 31 de octubre al 4 de noviembre; te lo notifican en 3 días. Plazo para alegar, renuncia con 65 años y dieta de 75 €.",
   "lead": "Respuesta corta: los ayuntamientos sortean las mesas entre el 31 de octubre y el 4 de noviembre de 2026, y deben notificar la designación en los 3 días siguientes al sorteo. Si tu ayuntamiento sortea el último día, la notificación debe llegar como tarde el 7 de noviembre. Desde que te notifican tienes 7 días para alegar una causa justificada. Si te toca como presidente o vocal titular, cobras una dieta de 75 € (Orden INT/650/2026).",
   "cta": {
    "href": "/elecciones/excusa-mesa-electoral",
