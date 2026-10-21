@@ -28,6 +28,7 @@ import { GESTIONES_CLAVE_GUIDES } from "@/lib/tramites/gestiones-clave-2026";
 import { ENCUESTAS_29N_GUIDES } from "@/lib/tramites/encuestas-29n";
 import { PENSIONES_29N_GUIDES } from "@/lib/tramites/pensiones-29n";
 import { JUBILACION_2026_GUIDES } from "@/lib/tramites/jubilacion-2026";
+import { NOVEDADES_20261021_GUIDES } from "@/lib/tramites/novedades-20261021";
 
 export const ALL_GUIDES: Guide[] = [
   ...ACTUALIDAD_20261006_GUIDES,
@@ -44,6 +45,7 @@ export const ALL_GUIDES: Guide[] = [
   ...VIAJE_GUIDES,
   ...GESTIONES_CLAVE_GUIDES,
   ...JUBILACION_2026_GUIDES,
+  ...NOVEDADES_20261021_GUIDES,
   ...DNI_NICHOS_GUIDES,
   ...MUDANZA_GUIDES,
   ...EXTRANJERIA_GUIDES,

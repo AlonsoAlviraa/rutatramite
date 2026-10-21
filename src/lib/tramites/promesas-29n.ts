@@ -90,6 +90,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "voxespana.es: acto de Ponferrada (20 de octubre de 2026, web oficial del partido)",
 "href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+},
+{
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial) (21 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 ],
 "related": [
@@ -152,6 +156,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "«para adquirir una vivienda habitual en municipios despoblados» (Alberto Núñez Feijóo, acto de Afammer en Toledo, 16-10-2026; fuente: La Vanguardia: Feijóo en el acto de Afammer en Toledo).",
 "«Tolerancia cero con los okupas, fuera en 48 horas sí o sí» (Alberto Núñez Feijóo, acto de precampaña en Barcelona con Xavier García Albiol, 18-10-2026; fuente: RTVE: Feijóo en Barcelona (ley antiokupación)).",
 "«construir al menos un millón de nuevas viviendas» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP).",
+"«deducciones fiscales para inquilinos y propietarios que prorroguen sus contratos hasta tres años con subidas por debajo del IPC» (Alberto Núñez Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026; fuente: pp.es: acto sobre vivienda en Sevilla (nota oficial)).",
+"«el silencio administrativo positivo a los 90 días con carácter general» (Alberto Núñez Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026; fuente: pp.es: acto sobre vivienda en Sevilla (nota oficial)).",
+"«en los cien primeros días de Gobierno aprobará la Ley del Suelo, la Ley para desalojar okupas en 48 horas y la reforma de la Ley de Propiedad Horizontal» (Alberto Núñez Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026; fuente: pp.es: acto sobre vivienda en Sevilla (nota oficial)).",
+"«avales del 100% y rebaja del 60% del IVA y del ITP» (Alberto Núñez Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026; fuente: pp.es: acto sobre vivienda en Sevilla (nota oficial)).",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -260,6 +268,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 }
 ]
@@ -2736,7 +2788,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Partido Popular (PP): qué promete para el 29-N",
 "title": "PP: promesas y medidas para el 29-N",
 "description": "Qué propone PP para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: PP ha concretado 32 medidas con fuente a 21 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"lead": "Respuesta corta: PP ha concretado 36 medidas con fuente a 21 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2801,6 +2853,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial) (21 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 },
 {
 "label": "Web oficial de PP",
@@ -2884,6 +2940,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
 "Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
 "Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -2992,6 +3052,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 }
 ]
@@ -5217,7 +5321,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Andalucía",
 "title": "Promesas electorales del 29-N en Andalucía",
 "description": "Cómo afectarían en Andalucía las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 60 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Andalucía elige 60 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en Andalucía, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Andalucía se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Andalucía elige 60 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Andalucía, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Andalucía se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -5274,7 +5378,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Andalucía?",
-"a": "A 21 de octubre de 2026, 58 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 62 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -5303,8 +5407,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -5767,6 +5871,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -6255,7 +6403,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Aragón",
 "title": "Promesas electorales del 29-N en Aragón",
 "description": "Cómo afectarían en Aragón las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 13 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Aragón elige 13 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en Aragón, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Aragón se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Aragón elige 13 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Aragón, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Aragón se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -6312,7 +6460,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Aragón?",
-"a": "A 21 de octubre de 2026, 58 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 62 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -6341,8 +6489,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -6805,6 +6953,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -7293,7 +7485,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Asturias",
 "title": "Promesas electorales del 29-N en Asturias",
 "description": "Cómo afectarían en Asturias las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 7 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Asturias elige 7 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en Asturias, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Asturias se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Asturias elige 7 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Asturias, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Asturias se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -7350,7 +7542,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Asturias?",
-"a": "A 21 de octubre de 2026, 58 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 62 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -7379,8 +7571,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -7843,6 +8035,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -8331,7 +8567,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Illes Balears",
 "title": "Promesas electorales del 29-N en Illes Balears",
 "description": "Cómo afectarían en Illes Balears las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 8 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Illes Balears elige 8 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en Illes Balears, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Illes Balears se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Illes Balears elige 8 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Illes Balears, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Illes Balears se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -8388,7 +8624,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Illes Balears?",
-"a": "A 21 de octubre de 2026, 58 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 62 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -8417,8 +8653,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -8881,6 +9117,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -9369,7 +9649,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Canarias",
 "title": "Promesas electorales del 29-N en Canarias",
 "description": "Cómo afectarían en Canarias las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 15 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Canarias elige 15 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 53 se aplicarían igual en Canarias, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Canarias, las propuestas de bajar el IVA (vivienda nueva, alimentos) no se aplicarían tal cual.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Canarias elige 15 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Canarias, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Canarias, las propuestas de bajar el IVA (vivienda nueva, alimentos) no se aplicarían tal cual.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -9426,7 +9706,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Canarias?",
-"a": "A 21 de octubre de 2026, 53 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 57 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -9455,8 +9735,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"22",
+"36",
+"26",
 "4",
 "6",
 "pendiente de programa"
@@ -9919,6 +10199,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -10407,7 +10731,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Cantabria",
 "title": "Promesas electorales del 29-N en Cantabria",
 "description": "Cómo afectarían en Cantabria las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 5 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Cantabria elige 5 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en Cantabria, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cantabria se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Cantabria elige 5 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Cantabria, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cantabria se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -10464,7 +10788,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Cantabria?",
-"a": "A 21 de octubre de 2026, 58 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 62 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -10493,8 +10817,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -10957,6 +11281,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -11445,7 +11813,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Castilla y León",
 "title": "Promesas electorales del 29-N en Castilla y León",
 "description": "Cómo afectarían en Castilla y León las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 31 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Castilla y León elige 31 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en Castilla y León, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla y León se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Castilla y León elige 31 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Castilla y León, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla y León se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -11502,7 +11870,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Castilla y León?",
-"a": "A 21 de octubre de 2026, 58 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 62 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -11531,8 +11899,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -11995,6 +12363,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -12483,7 +12895,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Castilla-La Mancha",
 "title": "Promesas electorales del 29-N en Castilla-La Mancha",
 "description": "Cómo afectarían en Castilla-La Mancha las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 21 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Castilla-La Mancha elige 21 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en Castilla-La Mancha, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla-La Mancha se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Castilla-La Mancha elige 21 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Castilla-La Mancha, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla-La Mancha se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -12540,7 +12952,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Castilla-La Mancha?",
-"a": "A 21 de octubre de 2026, 58 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 62 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -12569,8 +12981,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -13033,6 +13445,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -13521,7 +13977,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Cataluña",
 "title": "Promesas electorales del 29-N en Cataluña",
 "description": "Cómo afectarían en Cataluña las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 48 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Cataluña elige 48 diputados el 29-N (BOE, RD 806/2026). De las 81 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Cataluña, 16 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cataluña se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Cataluña elige 48 diputados el 29-N (BOE, RD 806/2026). De las 85 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 66 se aplicarían igual en Cataluña, 16 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cataluña se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -13578,7 +14034,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Cataluña?",
-"a": "A 21 de octubre de 2026, 62 de 81 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 16 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 66 de 85 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 16 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -13607,8 +14063,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -14071,6 +14527,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -14625,7 +15125,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Comunitat Valenciana",
 "title": "Promesas electorales del 29-N en Comunitat Valenciana",
 "description": "Cómo afectarían en Comunitat Valenciana las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 33 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Comunitat Valenciana elige 33 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en Comunitat Valenciana, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunitat Valenciana se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Comunitat Valenciana elige 33 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Comunitat Valenciana, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunitat Valenciana se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -14682,7 +15182,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Comunitat Valenciana?",
-"a": "A 21 de octubre de 2026, 58 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 62 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -14711,8 +15211,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -15175,6 +15675,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -15663,7 +16207,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Extremadura",
 "title": "Promesas electorales del 29-N en Extremadura",
 "description": "Cómo afectarían en Extremadura las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 9 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Extremadura elige 9 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en Extremadura, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Extremadura se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Extremadura elige 9 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Extremadura, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Extremadura se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -15720,7 +16264,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Extremadura?",
-"a": "A 21 de octubre de 2026, 58 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 62 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -15749,8 +16293,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -16213,6 +16757,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -16701,7 +17289,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Galicia",
 "title": "Promesas electorales del 29-N en Galicia",
 "description": "Cómo afectarían en Galicia las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 23 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Galicia elige 23 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en Galicia, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Galicia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Galicia elige 23 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Galicia, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Galicia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -16758,7 +17346,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Galicia?",
-"a": "A 21 de octubre de 2026, 58 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 62 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -16787,8 +17375,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -17251,6 +17839,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -17739,7 +18371,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Comunidad de Madrid",
 "title": "Promesas electorales del 29-N en Comunidad de Madrid",
 "description": "Cómo afectarían en Comunidad de Madrid las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 38 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Comunidad de Madrid elige 38 diputados el 29-N (BOE, RD 806/2026). De las 81 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Comunidad de Madrid, 16 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunidad de Madrid se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Comunidad de Madrid elige 38 diputados el 29-N (BOE, RD 806/2026). De las 85 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 66 se aplicarían igual en Comunidad de Madrid, 16 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunidad de Madrid se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -17796,7 +18428,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Comunidad de Madrid?",
-"a": "A 21 de octubre de 2026, 62 de 81 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 16 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 66 de 85 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 16 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -17825,8 +18457,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -18289,6 +18921,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -18843,7 +19519,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Región de Murcia",
 "title": "Promesas electorales del 29-N en Región de Murcia",
 "description": "Cómo afectarían en Región de Murcia las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 10 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Región de Murcia elige 10 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en Región de Murcia, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Región de Murcia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Región de Murcia elige 10 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en Región de Murcia, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Región de Murcia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -18900,7 +19576,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Región de Murcia?",
-"a": "A 21 de octubre de 2026, 58 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 62 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -18929,8 +19605,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -19393,6 +20069,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -19881,7 +20601,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Navarra",
 "title": "Promesas electorales del 29-N en Navarra",
 "description": "Cómo afectarían en Navarra las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 5 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Navarra elige 5 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 54 se aplicarían igual en Navarra, 14 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Navarra, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Navarra elige 5 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en Navarra, 14 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Navarra, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -19938,7 +20658,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Navarra?",
-"a": "A 21 de octubre de 2026, 54 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 58 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -19967,8 +20687,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"23",
+"36",
+"27",
 "4",
 "5",
 "pendiente de programa"
@@ -20431,6 +21151,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -20919,7 +21683,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en País Vasco",
 "title": "Promesas electorales del 29-N en País Vasco",
 "description": "Cómo afectarían en País Vasco las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 18 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): País Vasco elige 18 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 54 se aplicarían igual en País Vasco, 14 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En País Vasco, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): País Vasco elige 18 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en País Vasco, 14 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En País Vasco, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -20976,7 +21740,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en País Vasco?",
-"a": "A 21 de octubre de 2026, 54 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 58 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -21005,8 +21769,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"23",
+"36",
+"27",
 "4",
 "5",
 "pendiente de programa"
@@ -21469,6 +22233,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -21957,7 +22765,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en La Rioja",
 "title": "Promesas electorales del 29-N en La Rioja",
 "description": "Cómo afectarían en La Rioja las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 4 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): La Rioja elige 4 diputados el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 58 se aplicarían igual en La Rioja, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En La Rioja se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): La Rioja elige 4 diputados el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 62 se aplicarían igual en La Rioja, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En La Rioja se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -22014,7 +22822,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en La Rioja?",
-"a": "A 21 de octubre de 2026, 58 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 62 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -22043,8 +22851,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"26",
+"36",
+"30",
 "4",
 "2",
 "pendiente de programa"
@@ -22507,6 +23315,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -22995,7 +23847,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Ceuta",
 "title": "Promesas electorales del 29-N en Ceuta",
 "description": "Cómo afectarían en Ceuta las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 1 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Ceuta elige 1 diputado el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 53 se aplicarían igual en Ceuta, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Ceuta, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Ceuta elige 1 diputado el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Ceuta, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Ceuta, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -23052,7 +23904,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Ceuta?",
-"a": "A 21 de octubre de 2026, 53 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 57 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -23081,8 +23933,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"22",
+"36",
+"26",
 "4",
 "6",
 "pendiente de programa"
@@ -23545,6 +24397,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -24033,7 +24929,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Promesas del 29-N y cómo afectarían en Melilla",
 "title": "Promesas electorales del 29-N en Melilla",
 "description": "Cómo afectarían en Melilla las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 1 diputados.",
-"lead": "Respuesta corta (datos a 21 de octubre de 2026): Melilla elige 1 diputado el 29-N (BOE, RD 806/2026). De las 74 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 53 se aplicarían igual en Melilla, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Melilla, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
+"lead": "Respuesta corta (datos a 21 de octubre de 2026): Melilla elige 1 diputado el 29-N (BOE, RD 806/2026). De las 78 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 57 se aplicarían igual en Melilla, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Melilla, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -24090,7 +24986,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Melilla?",
-"a": "A 21 de octubre de 2026, 53 de 74 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 21 de octubre de 2026, 57 de 78 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
@@ -24119,8 +25015,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"32",
-"22",
+"36",
+"26",
 "4",
 "6",
 "pendiente de programa"
@@ -24583,6 +25479,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {
@@ -25447,6 +26387,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "voxespana.es: acto de Ponferrada (20 de octubre de 2026, web oficial del partido)",
 "href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+},
+{
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial) (21 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 ],
 "related": [
@@ -25502,6 +26446,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
 "Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
 "Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -25632,6 +26580,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 }
 ]
@@ -26016,6 +27008,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "voxespana.es: acto de Ponferrada (20 de octubre de 2026, web oficial del partido)",
 "href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+},
+{
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial) (21 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 ],
 "related": [
@@ -26076,6 +27072,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
 "Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
 "Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -26217,6 +27217,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 }
 ]
@@ -26627,6 +27671,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial) (21 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 ],
 "related": [
@@ -26675,7 +27723,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Deflactar la tarifa del IRPF (ajustarla a la inflación).",
 "IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
 "Actualizar las pensiones con el IPC y garantizar la viabilidad del sistema público de pensiones.",
-"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo."
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar."
 ],
 "table": {
 "caption": "PP: medidas que afectan a jubilados y pensionistas",
@@ -26739,6 +27788,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
 "href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 }
 ]
@@ -28134,6 +29194,14 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "label": "RTVE, 20-10-2026: Abascal en Ponferrada",
 "href": "https://www.rtve.es/noticias/20261020/abascal-critica-feijoo-pedir-sacrificios/17275702.shtml"
+},
+{
+"label": "pp.es, 21-10-2026: acto sobre vivienda en Sevilla (web oficial)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+},
+{
+"label": "El País, 21-10-2026: Feijóo en Sevilla (silencio administrativo y deducciones)",
+"href": "https://elpais.com/espana/2026-10-21/feijoo-propone-el-silencio-administrativo-positivo-en-90-dias-para-conceder-licencias-de-construccion.html"
 }
 ],
 "related": [
@@ -28198,7 +29266,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 },
 {
 "q": "¿Qué han propuesto los partidos en los mítines del 29-N?",
-"a": "A 21 de octubre, en mítines y actos: el PP, una ley antiokupación con desalojo en 48 horas (Barcelona, 18-10) y bajar el IRPF y un IVA del 0 % en alimentos básicos; el PSOE, mantener los decretos de vivienda y revalorizar las pensiones con el IPC y subir el salario mínimo cada año (Valladolid, 19-10); Vox, garantizar el pago de las pensiones y repatriar a quien entra de forma irregular y dar prioridad a los españoles en ayudas al alquiler y plazas de guardería (Ponferrada, 20-10); el Frente Amplio, invertir el 1 % del PIB en vivienda pública; Podemos, la jornada de 30 horas semanales y un salario mínimo de 1.800 €. Cada propuesta, con su fuente, está en esta página."
+"a": "A 21 de octubre, en mítines y actos: el PP, una ley antiokupación con desalojo en 48 horas (Barcelona, 18-10), deducciones a quien prorrogue el alquiler con subidas por debajo del IPC y rebajas del IVA y el ITP a menores de 40 años (Sevilla, 21-10) y bajar el IRPF y un IVA del 0 % en alimentos básicos; el PSOE, mantener los decretos de vivienda y revalorizar las pensiones con el IPC y subir el salario mínimo cada año (Valladolid, 19-10); Vox, garantizar el pago de las pensiones y repatriar a quien entra de forma irregular y dar prioridad a los españoles en ayudas al alquiler y plazas de guardería (Ponferrada, 20-10); el Frente Amplio, invertir el 1 % del PIB en vivienda pública; Podemos, la jornada de 30 horas semanales y un salario mínimo de 1.800 €. Cada propuesta, con su fuente, está en esta página."
 },
 {
 "q": "¿Lo que se dice en un mitin es el programa electoral?",
@@ -28328,7 +29396,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "id": "pp",
 "title": "PP: qué ha propuesto en mítines y actos",
 "paragraphs": [
-"Candidato: Alberto Núñez Feijóo. Actos revisados: acto en Ceuta (07-10), simposio sanitario con Carmen Fúnez (07-10), mitin en Madrid (10-10), comparecencia en Bruselas (15-10), acto en Toledo (16-10), Bendodo en Granada (16-10), acto en Barcelona con Xavier García Albiol (18-10) y firma del «Contrato con España» en Madrid (19-10).",
+"Candidato: Alberto Núñez Feijóo. Actos revisados: acto en Ceuta (07-10), simposio sanitario con Carmen Fúnez (07-10), mitin en Madrid (10-10), comparecencia en Bruselas (15-10), acto en Toledo (16-10), Bendodo en Granada (16-10), acto en Barcelona con Xavier García Albiol (18-10) y firma del «Contrato con España» en Madrid (19-10) y acto sobre vivienda en Sevilla con Juanma Moreno (21-10).",
 "Programa del 29-N: no publicado a 21 de octubre de 2026."
 ],
 "table": {
@@ -28371,6 +29439,39 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "source": {
 "label": "RTVE, 18-10-2026: Feijóo en Barcelona (ley antiokupación)",
 "href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Feijóo prometió deducciones fiscales para inquilinos y propietarios que prorroguen el contrato de alquiler hasta tres años con subidas por debajo del IPC. La cuantía está sin concretar.",
+"Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026"
+],
+"source": {
+"label": "pp.es, 21-10-2026: acto sobre vivienda en Sevilla (web oficial)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Feijóo propuso el silencio administrativo positivo a los 90 días para las licencias de construcción y aprobar en los primeros 100 días la Ley del Suelo, una ley contra la ocupación (desalojo en 48 horas) y la reforma de la Ley de Propiedad Horizontal. Objetivo: un millón de viviendas en la legislatura.",
+"Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026"
+],
+"source": {
+"label": "pp.es, 21-10-2026: acto sobre vivienda en Sevilla (web oficial)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Para menores de 40 años: rebaja del 60 % del IVA y del ITP en la primera vivienda, avales de hasta el 100 %, aplazar esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026"
+],
+"source": {
+"label": "pp.es, 21-10-2026: acto sobre vivienda en Sevilla (web oficial)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
 }
 },
 {

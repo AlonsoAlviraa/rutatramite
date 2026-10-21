@@ -309,6 +309,7 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 - [¿A quién beneficia el voto en blanco? Blanco, nulo y abstención](https://rutatramite.com/elecciones/a-quien-beneficia-el-voto-en-blanco)
 - [Cómo comparar programas electorales cuando se publiquen](https://rutatramite.com/elecciones/como-comparar-programas-electorales)
 - [Estudio: cuánto se equivocó el CIS en las generales de 2019 y 2023](https://rutatramite.com/elecciones/estudio-error-cis-generales)
+- [¿Puedo votar el 29-N si me nacionalicé por la «ley de nietos»?](https://rutatramite.com/elecciones/votar-ley-de-nietos-29n)
 
 ## Ayudas del Estado según cada gobierno
 
@@ -376,6 +377,8 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 - [Ingreso mínimo vital 2026: cuánto se cobra, requisitos y cómo pedirlo](https://rutatramite.com/trabajo/ingreso-minimo-vital)
 - [Subida de las pensiones en 2026: el 2,7 %, la pensión máxima y las mínimas](https://rutatramite.com/trabajo/revalorizacion-pensiones-2026)
 - [Cómo pedir la jubilación en 2026: edad, plazos, simulador y solicitud](https://rutatramite.com/trabajo/como-pedir-la-jubilacion)
+- [Pensión de viudedad si erais pareja de hecho con hijos y no estabais registrados](https://rutatramite.com/trabajo/pension-viudedad-pareja-de-hecho-con-hijos)
+- [Fondo de Garantía del Pago de Alimentos: anticipo de hasta 300 € al mes](https://rutatramite.com/trabajo/fondo-garantia-pago-alimentos-300-euros)
 
 ## Modelos y cartas
 

@@ -268,8 +268,9 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.ext,
     secondaryCta: S.ine,
     sources: [S.ext, S.ine, S.jec, S.pag, S.loreg("asetentaycinco", "artículo 75: voto de los residentes ausentes")],
-    related: [R.erta, R.censo, R.calendario, R.quien],
+    related: [{ href: "/elecciones/votar-ley-de-nietos-29n", label: "¿Puedo votar si me nacionalicé por la ley de nietos?" }, R.erta, R.censo, R.calendario, R.quien],
     faqs: [
+      { q: "¿Pueden votar los nacionalizados por la «ley de nietos»?", a: "A 21 de octubre de 2026, el voto en el CERA de quienes obtuvieron la nacionalidad por la disposición adicional 8.ª de la Ley 20/2022 sigue suspendido de forma cautelar por el Tribunal Supremo, salvo que el consulado certifique que su ascendiente sufrió exilio. Lo explicamos en la guía sobre la ley de nietos." },
       { q: "¿Sigue existiendo el voto rogado?", a: "No para estas elecciones. El INE indica que los electores residentes en el extranjero votan sin necesidad de solicitud previa." },
       { q: "¿Cuándo llegan los sobres y las papeletas?", a: "La documentación sale del 24 al 30 de octubre y las papeletas del 4 al 8 de noviembre (del 6 al 14 si hay recursos contra candidaturas). Las papeletas descargables están disponibles del 2 al 7 de noviembre." },
     ],
