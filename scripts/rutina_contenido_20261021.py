@@ -56,7 +56,8 @@ p.write_text(s)
 # 2) Encuestas
 SOCIO = '  socio1011: { href: "https://www.elespanol.com/espana/politica/20261011/sanchez-no-funciona-apropiarse-maricarmen-huelga-oposicion-cae-sondeo-noche/1003744416762_0.html", label: "El Español, 11 de octubre de 2026: encuesta de SocioMétrica y ficha técnica" },\n'
 TARGET = '  target1011: { href: "https://www.eldebate.com/espana/20261011/izquierda-apenas-reacciona-adelanto-frente-derecha-le-saca-casi-15-puntos_468080.html", label: "El Debate, 11 de octubre de 2026: encuesta de Target Point y ficha técnica" },\n'
-rep("src/lib/tramites/encuestas-29n.ts", [
+# 22-10: si ya se aplicó rutina_contenido_20261022 (GESOP/IMOP), el bloque 2 ya está dentro y sus textos han cambiado: se salta.
+if "S.gesop1012" not in (R / "src/lib/tramites/encuestas-29n.ts").read_text(): rep("src/lib/tramites/encuestas-29n.ts", [
  ('  dsevilla: {', SOCIO + TARGET + '  dsevilla: {'),
  ('    { cells: ["GAD3 para ABC (12-10-2026)", "6 al 8 de octubre"',
   '    { cells: ["SocioMétrica para El Español (11-10-2026)", "10 y 11 de octubre", "1.000, panel por internet (CAWI)", "32,6 %", "26,2 %", "18,8 %"], source: S.socio1011 },\n    { cells: ["Target Point para El Debate (11-10-2026)", "6 al 9 de octubre", "1.002, panel por internet (CAWI)", "32 %", "25,9 %", "18,7 %"], source: S.target1011 },\n    { cells: ["GAD3 para ABC (12-10-2026)", "6 al 8 de octubre"'),

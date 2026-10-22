@@ -5,12 +5,12 @@ export const CUANDO_29N_GUIDES: Guide[] = [
  {
   "id": "c29n-debate",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-19",
+  "reviewedAt": "2026-10-22",
   "path": "/elecciones/debate-electoral-29n",
   "h1": "Debates electorales del 29-N: fechas propuestas, quién ha aceptado y qué falta",
-  "title": "Debate electoral del 29-N: cuándo es y qué está confirmado",
-  "description": "¿Cuándo es el debate electoral del 29-N? Fechas que proponen RTVE, Atresmedia y Mediaset, qué han respondido los partidos y cómo fueron los debates de 2023.",
-  "lead": "Respuesta corta: a 19 de octubre de 2026 no hemos encontrado ningún debate con fecha cerrada por la cadena y por todos los participantes. El PP ha aceptado un cara a cara en Mediaset el lunes 16 de noviembre, un debate a cuatro en Atresmedia el jueves 26 y uno de portavoces en RTVE el lunes 23; el PSOE dice que irá «a todos los debates» sin fijar fechas. Cualquier debate caerá dentro de la campaña, del 13 al 27 de noviembre.",
+  "title": "Debate electoral 29-N: 16, 23 y 26 de noviembre",
+  "description": "¿Cuándo es el debate electoral del 29-N? Cara a cara en Mediaset el 16-N (aceptado por el PP), portavoces en RTVE el 23 y a cuatro el 26. Lo que falta.",
+  "lead": "Respuesta corta: a 22 de octubre de 2026 no hemos encontrado ningún debate con fecha cerrada por la cadena y por todos los participantes. El PP ha aceptado un cara a cara en Mediaset el lunes 16 de noviembre, un debate a cuatro en Atresmedia el jueves 26 y uno de portavoces en RTVE el lunes 23; el PSOE dice que irá «a todos los debates» sin fijar fechas. Cualquier debate caerá dentro de la campaña, del 13 al 27 de noviembre.",
   "cta": {
    "href": "/elecciones/calendario-29-noviembre",
    "label": "Calendario completo del 29-N"
@@ -94,7 +94,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
   "faqs": [
    {
     "q": "¿Cuándo es el debate electoral del 29-N?",
-    "a": "A 19 de octubre de 2026 no hay fecha cerrada por todas las partes. Las fechas que se manejan son el 16 de noviembre (cara a cara en Mediaset, aceptado por el PP), el 17 (cara a cara propuesto por RTVE), el 23 (portavoces en RTVE) y el 26 (debate a cuatro, propuesto por RTVE y pedido por el PP a Atresmedia)."
+    "a": "A 22 de octubre de 2026 no hay fecha cerrada por todas las partes. Las fechas que se manejan son el 16 de noviembre (cara a cara en Mediaset, aceptado por el PP), el 17 (cara a cara propuesto por RTVE), el 23 (portavoces en RTVE) y el 26 (debate a cuatro, propuesto por RTVE y pedido por el PP a Atresmedia)."
    },
    {
     "q": "¿Habrá cara a cara entre Sánchez y Feijóo?",
@@ -1059,12 +1059,12 @@ export const CUANDO_29N_GUIDES: Guide[] = [
  {
   "id": "c29n-candidaturas",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-19",
+  "reviewedAt": "2026-10-22",
   "path": "/elecciones/candidaturas-29n-boe",
   "h1": "Listas electorales del 29-N: cuándo se presentan y cuándo salen en el BOE",
-  "title": "Candidaturas del 29-N: cuándo salen las listas en el BOE",
-  "description": "Las listas del 29-N se presentan del 21 al 26 de octubre, salen en el BOE el 28 y las definitivas el 3 de noviembre. Todas las fechas y el precedente de 2023.",
-  "lead": "Respuesta corta: los partidos presentan sus listas del 21 al 26 de octubre de 2026 y el BOE las publica el 28 de octubre. Tras corregir errores, las juntas provinciales las proclaman el 2 de noviembre y el BOE publica las definitivas el 3 de noviembre. En 2023 fue igual: el BOE publicó las presentadas el 21 de junio y las proclamadas el 27.",
+  "title": "Listas del 29-N: plazo hasta el 26-oct y BOE el 28",
+  "description": "Plazo abierto: las candidaturas del 29-N se presentan del 21 al 26 de octubre, el BOE las publica el 28 y las definitivas el 3 de noviembre. Qué se sabe ya.",
+  "lead": "Respuesta corta: los partidos presentan sus listas del 21 al 26 de octubre de 2026 (el plazo está abierto desde el 21: termina el lunes 26) y el BOE las publica el 28 de octubre. Tras corregir errores, las juntas provinciales las proclaman el 2 de noviembre y el BOE publica las definitivas el 3 de noviembre. En 2023 fue igual: el BOE publicó las presentadas el 21 de junio y las proclamadas el 27.",
   "cta": {
    "href": "/elecciones/nuevo-partido-coalicion",
    "label": "Coaliciones registradas para el 29-N"
@@ -1097,6 +1097,14 @@ export const CUANDO_29N_GUIDES: Guide[] = [
    {
     "label": "BOE: Real Decreto 806/2026, convocatoria del 29 de noviembre",
     "href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
+   },
+   {
+    "label": "Europa Press, 21-10-2026: Frente Amplio y PSOE, listas conjuntas solo al Senado; el PSOE ya ha presentado listas en Andalucía",
+    "href": "https://www.europapress.es/nacional/noticia-frente-amplio-aclara-no-hay-negociaciones-psoe-listas-congreso-20261021111844.html"
+   },
+   {
+    "label": "Antena 3 Noticias, 21-10-2026: PP y Vox negocian una fórmula para el Senado",
+    "href": "https://www.antena3.com/noticias/espana/abascal-posible-pacto-senado-vamos-hacer-espectaculo-como-hecho-izquierda_202610216ad8e9cc83ad1f356c0f59c7.html"
    }
   ],
   "related": [
@@ -1126,6 +1134,10 @@ export const CUANDO_29N_GUIDES: Guide[] = [
    }
   ],
   "faqs": [
+   {
+    "q": "¿Hasta cuándo pueden presentar los partidos sus listas del 29-N?",
+    "a": "Hasta el lunes 26 de octubre de 2026. El plazo se abrió el 21 de octubre (del día 15 al 20 tras la convocatoria del 6 de octubre, artículo 45 de la LOREG). Las presentadas salen en el BOE el 28 de octubre."
+   },
    {
     "q": "¿Cuándo se publican las listas del 29-N en el BOE?",
     "a": "Las candidaturas presentadas, el 28 de octubre de 2026. Las proclamadas, el 3 de noviembre (calendario de la Junta Electoral Central)."
@@ -1222,6 +1234,21 @@ export const CUANDO_29N_GUIDES: Guide[] = [
       }
      ]
     }
+   },
+   {
+    "id": "ya-presentadas",
+    "title": "Qué se sabe a 22 de octubre",
+    "paragraphs": [
+     "Hasta que el BOE publique las candidaturas presentadas, el 28 de octubre, no hay lista oficial de quién se presenta en cada provincia. Lo que han comunicado los partidos hasta ahora:"
+    ],
+    "lists": [
+     [
+      "PSOE: fuentes del partido dijeron el 21 de octubre que ya había presentado sus listas al Congreso en seis provincias de Andalucía, sin otros partidos (Europa Press).",
+      "PSOE y Frente Amplio: van en candidaturas conjuntas al Senado en varias provincias; los dos partidos dicen que el acuerdo no incluye el Congreso (Europa Press, 21-10).",
+      "PP y Vox: negocian una fórmula conjunta para el Senado; a 22 de octubre no han anunciado acuerdo (Antena 3 Noticias, 21-10).",
+      "Las coaliciones se tenían que comunicar a la Junta Electoral antes de abrirse este plazo: están en la página de coaliciones registradas."
+     ]
+    ]
    },
    {
     "id": "precedente-2023",

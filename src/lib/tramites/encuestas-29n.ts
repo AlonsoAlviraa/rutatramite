@@ -25,6 +25,8 @@ const S = {
   hamalgama1011: { href: "https://www.vozpopuli.com/espana/politica/el-psoe-no-consigue-rentabilizar-sus-decretos-de-vivienda-y-perderia-16-millones-de-votantes-y-18-escanos.html", label: "Vozpópuli, 11 de octubre de 2026: encuesta de Hamalgama Métrica y ficha técnica (PP 33,4 % según laSexta, 19-10-2026)" },
   socio1011: { href: "https://www.elespanol.com/espana/politica/20261011/sanchez-no-funciona-apropiarse-maricarmen-huelga-oposicion-cae-sondeo-noche/1003744416762_0.html", label: "El Español, 11 de octubre de 2026: encuesta de SocioMétrica y ficha técnica" },
   target1011: { href: "https://www.eldebate.com/espana/20261011/izquierda-apenas-reacciona-adelanto-frente-derecha-le-saca-casi-15-puntos_468080.html", label: "El Debate, 11 de octubre de 2026: encuesta de Target Point y ficha técnica" },
+  gesop1012: { href: "https://www.elperiodico.com/es/politica/20261012/encuesta-elecciones-generales-espana-2026-29n-135212729", label: "El Periódico (Prensa Ibérica), 12 de octubre de 2026: encuesta de GESOP y ficha técnica" },
+  imop1009: { href: "https://www.imop.es/encuesta-pre-electoral-para-el-confidencial-2026/", label: "IMOP Insights, 9 de octubre de 2026: encuesta preelectoral para El Confidencial y ficha técnica" },
   dsevilla: { href: "https://www.diariodesevilla.es/espana/elecciones/encuestas-elecciones-generales-29-n_0_2008155768.html", label: "Diario de Sevilla, 14 de octubre de 2026: todas las encuestas del 29-N" },
   doble: { href: "https://doblelectura.es/guia/encuestas-elecciones-generales-2026", label: "Doble Lectura: fichas técnicas de las encuestas de octubre de 2026" },
   euronews: { href: "https://es.euronews.com/2026/10/14/cis-psoe-una-subida-34-saca-casi-12-puntos-al-pp-a-mes-y-medio-del-29n", label: "Euronews, 14 de octubre de 2026: CIS de octubre frente a GAD3 y 40dB" },
@@ -93,8 +95,10 @@ const TABLA_OCT26: GuideTable = {
     { cells: ["SocioMétrica para El Español (11-10-2026)", "10 y 11 de octubre", "1.000, panel por internet (CAWI)", "32,6 %", "26,2 %", "18,8 %"], source: S.socio1011 },
     { cells: ["Target Point para El Debate (11-10-2026)", "6 al 9 de octubre", "1.002, panel por internet (CAWI)", "32 %", "25,9 %", "18,7 %"], source: S.target1011 },
     { cells: ["GAD3 para ABC (12-10-2026)", "6 al 8 de octubre", "1.077, teléfono (926 móviles y 151 fijos)", "31,4 %", "26,4 %", "18,2 %"], source: S.gad3 },
+    { cells: ["GESOP para Prensa Ibérica (12-10-2026)", "6 al 8 de octubre", "1.000, teléfono e internet", "28,7 %", "26,1 %", "18,9 %"], source: S.gesop1012 },
     { cells: ["Hamalgama Métrica para Vozpópuli (11-10-2026)", "5 al 8 de octubre", "1.000, teléfono (CATI)", "33,4 %", "25,3 %", "19,6 %"], source: S.hamalgama1011 },
     { cells: ["Sigma Dos para El Mundo (11-10-2026)", "1 al 8 de octubre", "2.017, teléfono e internet", "31,9 %", "25,3 %", "19,1 %"], source: S.doble },
+    { cells: ["IMOP Insights para El Confidencial (9-10-2026)", "5 al 7 de octubre", "900, teléfono (CATI) e internet (CAWI)", "30 %", "26 %", "19 %"], source: S.imop1009 },
     { cells: ["NC Report para La Razón (8-10-2026)", "1 al 6 de octubre", "1.000, mitad teléfono y mitad internet", "34,1 %", "25 %", "18,2 %"], source: S.doble },
     { cells: ["40dB para El País y la SER (sondeo flash)", "7 y 8 de octubre", "800, internet", "31,9 %", "28,1 %", "18,9 %"], source: S.dsevilla },
     { cells: ["DYM para el Grupo Joly", "5 al 7 de octubre", "1.011, internet", "34 %", "28,2 %", "18,2 %"], source: S.dsevilla },
@@ -147,10 +151,10 @@ const CHART_ERROR_MEDIO: GuideChart = {
 const CHART_OCT26: GuideChart = {
   kind: "ranges",
   unit: " %",
-  caption: "Rango de las nueve encuestas privadas de octubre de 2026 (barra) y barómetro del CIS de octubre (marca).",
+  caption: "Rango de las once encuestas privadas de octubre de 2026 (barra) y barómetro del CIS de octubre (marca).",
   note: "Datos de la tabla de esta página, con la fuente de cada encuesta.",
   rows: [
-    { label: "PP", min: 31.4, max: 34.1, marker: 22.2, markerLabel: "CIS" },
+    { label: "PP", min: 28.7, max: 34.1, marker: 22.2, markerLabel: "CIS" },
     { label: "PSOE", min: 25, max: 28.2, marker: 34, markerLabel: "CIS" },
     { label: "Vox", min: 18.2, max: 19.6, marker: 17.1, markerLabel: "CIS" },
   ],
@@ -183,21 +187,21 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
   // 1 · HUB
   g({
     id: "29n-encuestas-hub",
-    reviewedAt: "2026-10-21",
+    reviewedAt: "2026-10-22",
     path: "/elecciones/encuestas-29n",
     h1: "Encuestas de las elecciones del 29-N: las últimas, con fuente y fecha",
     title: "Encuestas elecciones 29-N: últimas, con fuente y fecha",
     description:
       "Encuestas del 29-N de octubre de 2026 con campo, muestra y fuente: CIS, Sigma Dos, GAD3, SocioMétrica, Target Point, NC Report, 40dB y más.",
     lead:
-      "Las nueve encuestas privadas publicadas en octubre de 2026 que recogemos (dos de ellas de Sigma Dos, la última el 19 de octubre) ponen primero al PP, entre el 31,4 % y el 34,1 %, y el barómetro del CIS pone primero al PSOE (34 %). Vox aparece tercero en todas, entre el 17,1 % y el 19,6 %. La diferencia entre el CIS y el resto viene sobre todo del método de estimación, no de la fecha.",
+      "Las once encuestas privadas publicadas en octubre de 2026 que recogemos (dos de ellas de Sigma Dos, la última el 19 de octubre) ponen primero al PP, entre el 28,7 % y el 34,1 %, y el barómetro del CIS pone primero al PSOE (34 %). Vox aparece tercero en todas, entre el 17,1 % y el 19,6 %. La diferencia entre el CIS y el resto viene sobre todo del método de estimación, no de la fecha.",
     cta: S.cis3582,
     secondaryCta: S.gad3,
     disclaimer: "Encuestas, no resultados. Se pueden publicar hasta el 23 de noviembre; del 24 al 28 está prohibido (artículo 69.7 de la LOREG).",
-    sources: [S.sigma1019, S.socio1011, S.target1011, S.hamalgama1011, S.cis3582, S.cis3582avance, S.gad3, S.doble, S.dsevilla, S.euronews, S.jec, L69],
+    sources: [S.sigma1019, S.socio1011, S.target1011, S.gesop1012, S.imop1009, S.hamalgama1011, S.cis3582, S.cis3582avance, S.gad3, S.doble, S.dsevilla, S.euronews, S.jec, L69],
     related: [R.cis, R.estudio, R.cocina, R.directa, R.margen, R.leer, R.historico, R.escanosEnc, R.mayoria, R.prohibidas],
     faqs: [
-      { q: "¿Quién va primero en las encuestas del 29-N?", a: "En las privadas de octubre de 2026, el PP: Sigma Dos 31,5 % (19-10) y 31,9 % (11-10), GAD3 31,4 %, SocioMétrica 32,6 %, Target Point 32 %, Hamalgama 33,4 %, NC Report 34,1 %, 40dB 31,9 % y DYM 34 %. En el barómetro del CIS de octubre, el PSOE, con el 34 %." },
+      { q: "¿Quién va primero en las encuestas del 29-N?", a: "En las privadas de octubre de 2026, el PP: Sigma Dos 31,5 % (19-10) y 31,9 % (11-10), GAD3 31,4 %, GESOP 28,7 %, IMOP 30 %, SocioMétrica 32,6 %, Target Point 32 %, Hamalgama 33,4 %, NC Report 34,1 %, 40dB 31,9 % y DYM 34 %. En el barómetro del CIS de octubre, el PSOE, con el 34 %." },
       { q: "¿Suman mayoría PP y Vox en las encuestas?", a: "En las privadas que publican escaños, sí: según el resumen de Diario de Sevilla del 14 de octubre, PP y Vox suman entre 189 y 212 escaños. La de Sigma Dos del 19 de octubre les da entre 197 y 205 (132–137 el PP y 65–68 Vox) y la de SocioMétrica del 11 de octubre, 205 (141 y 64). El barómetro del CIS no da escaños; en porcentaje, PP y Vox suman el 39,3 % y el PSOE, el 34 %." },
       { q: "¿Por qué el CIS da datos tan distintos a los privados?", a: "Porque convierte las respuestas en estimación con otro modelo. El CIS usa desde 2019 un modelo de escenarios propio; las privadas suelen ponderar por lo que cada persona votó en 2023. Con respuestas parecidas, dos modelos pueden dar ganadores distintos." },
       { q: "¿Cuál es la encuesta más fiable?", a: "Ninguna acierta siempre. En 2023 el CIS se acercó en el PSOE y falló en Sumar; 40dB casi clavó los escaños del PP y GAD3, a pie de urna, le dio 13 de más. Lo útil es mirar la tendencia de cada empresa y su ficha técnica." },
@@ -218,9 +222,9 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
         chart: CHART_OCT26,
         lists: [[
           "Vox es tercero en todas, con un rango estrecho: del 17,1 % (CIS) al 19,6 % (Hamalgama).",
-          "El PP va del 22,2 % (CIS) al 34,1 % (NC Report). Sin el CIS, el rango es 31,4–34,1 %.",
+          "El PP va del 22,2 % (CIS) al 34,1 % (NC Report). Sin el CIS, el rango es 28,7–34,1 % (de GESOP a NC Report).",
           "El PSOE va del 25 % (NC Report) al 34 % (CIS). Sin el CIS, 25–28,2 %.",
-          "La distancia PP–PSOE va de 9,1 puntos a favor del PP (NC Report) a 11,8 a favor del PSOE (CIS).",
+          "La distancia PP–PSOE va de 9,1 puntos a favor del PP (NC Report) a 11,8 a favor del PSOE (CIS). La más corta entre las privadas es la de GESOP: 2,6 puntos.",
         ]],
       },
       {
@@ -229,7 +233,7 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
         paragraphs: [
           "Las respuestas brutas no están tan lejos como la estimación final. En el CIS de octubre, el voto directo es PSOE 25,3 %, PP 14,7 % y Vox 11,6 %, con un 17,3 % que no sabe. Si solo quitamos a quien no sabe, no contesta, no votaría o vota nulo, sale PSOE 34,6 %, PP 20,1 % y Vox 15,9 %. El modelo del CIS termina en 34 %, 22,2 % y 17,1 %.",
           "Las privadas corrigen además por recuerdo de voto: si en su muestra hay más votantes de un partido de 2023 de los que hubo realmente, les dan menos peso. El CIS dejó de hacerlo en 2018 y desde 2019 aplica su «modelo bidimensional inercia-incertidumbre Alaminos-Tezanos», según su nota metodológica.",
-          "También cambia el canal: teléfono (GAD3, Hamalgama), internet (40dB, DYM, SocioMétrica, Target Point) o mixto (Sigma Dos, NC Report). Cada canal llega mejor a unos perfiles que a otros.",
+          "También cambia el canal: teléfono (GAD3, Hamalgama), internet (40dB, DYM, SocioMétrica, Target Point) o mixto (Sigma Dos, NC Report, GESOP, IMOP). Cada canal llega mejor a unos perfiles que a otros.",
         ],
       },
       {
@@ -432,6 +436,8 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
             { cells: ["GAD3 / ABC", "1.077", "Teléfono: 926 móviles y 151 fijos", "6 al 8 de octubre", "±3,1 (95,5 %)"], source: S.gad3 },
             { cells: ["Sigma Dos / El Mundo", "2.017", "Teléfono y panel online", "1 al 8 de octubre", "±2,2 (95,5 %)"], source: S.doble },
             { cells: ["NC Report / La Razón", "1.000", "Mitad teléfono, mitad internet", "1 al 6 de octubre", "±3,17 (95,5 %)"], source: S.doble },
+            { cells: ["GESOP / Prensa Ibérica", "1.000", "Teléfono e internet; cuotas de sexo y edad", "6 al 8 de octubre", "±3,1 (95 %)"], source: S.gesop1012 },
+            { cells: ["IMOP / El Confidencial", "900", "Teléfono (CATI) e internet (CAWI, panel propio)", "5 al 7 de octubre", "±3,3"], source: S.imop1009 },
             { cells: ["40dB / El País y SER", "800", "Internet", "7 y 8 de octubre", "No figura en la fuente"], source: S.dsevilla },
             { cells: ["CIS", "5.025", "Ver ficha del estudio 3582", "1 al 6 de octubre", "±1,2 en PSOE y PP"], source: S.cis3582 },
           ],

@@ -17,7 +17,7 @@ describe("guías «cuándo / qué pasa si» del 29-N (19-10-2026)", () => {
       expect(g.related.some((r) => r.href === "/elecciones")).toBe(true);
       const h = renderGuideHtml(g.path);
       expect(h).toContain('"FAQPage"');
-      expect(h).toMatch(/2026-10-(19|20)/);
+      expect(h).toMatch(/2026-10-(19|20|22)/);
     }
   });
   it("winner, calendar and practical guides link to the new pages", () => {
