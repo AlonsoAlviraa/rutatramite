@@ -180,6 +180,5 @@ a:hover { color:var(--moss-dark); }
 ins.adsbygoogle { max-width:100%; }
 ins.adsbygoogle[data-ad-status="unfilled"] { display:none !important; }
 .google-auto-placed { max-width:100%; overflow:hidden; contain:layout; margin-top:1.5rem; margin-bottom:1.5rem; clear:both; }
-table .google-auto-placed, form .google-auto-placed, .site-header .google-auto-placed, nav .google-auto-placed, details .google-auto-placed { display:none !important; }
 body:has(ins.adsbygoogle[data-anchor-status="displayed"]) { padding-bottom:calc(110px + env(safe-area-inset-bottom, 0px)); }
 @media (max-height:500px) and (orientation:landscape) { .site-header { position:static; } }
