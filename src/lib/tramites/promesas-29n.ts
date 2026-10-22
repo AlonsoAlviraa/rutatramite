@@ -102,6 +102,14 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 ],
 "related": [
 {
+"href": "/trabajo/huelga-general-11-noviembre",
+"label": "Huelga general del 11-N: tus derechos"
+},
+{
+"href": "/alquiler/caso-maricarmen-desahucio",
+"label": "Caso Maricarmen: qué pasó y qué cambió para los inquilinos"
+},
+{
 "href": "/elecciones/contrato-con-espana-pp",
 "label": "Contrato con España del PP: los 12 puntos"
 },

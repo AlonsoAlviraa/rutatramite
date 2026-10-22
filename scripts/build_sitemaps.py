@@ -241,6 +241,8 @@ CORE = [
     "/elecciones/voto-residentes-extranjero-cera",
     "/elecciones/votar-ley-de-nietos-29n",
     "/elecciones/promesas-incumplidas",
+    "/alquiler/caso-maricarmen-desahucio",
+    "/trabajo/huelga-general-11-noviembre",
     "/elecciones/voto-temporalmente-fuera-erta",
     "/elecciones/consultar-censo-electoral",
     "/elecciones/donde-voto-mesa-electoral",
