@@ -29940,6 +29940,10 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 ],
 "related": [
 {
+"href": "/elecciones/promesas-incumplidas",
+"label": "¿Cumplieron sus promesas de 2023? Lo que pasó"
+},
+{
 "href": "/elecciones/contrato-con-espana-pp",
 "label": "Contrato con España del PP: los 12 puntos"
 },

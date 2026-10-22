@@ -14,5 +14,5 @@ export const RELATED_LINKS: Record<string, string[]> = {
   "/modelos": ["/hacienda/modelo-030", "/colegio/cambiar-de-colegio-fuera-de-plazo"],
   "/elecciones": ["/elecciones/debate-electoral-29n", "/elecciones/sorteo-mesa-electoral-29n", "/elecciones/candidaturas-29n-boe", "/elecciones/cuando-habra-gobierno-29n", "/dni/consultar-cita", "/dni/urgente-sin-cita"],
   "/trabajo": ["/autorizacion-representacion-tramite", "/elecciones/salario-minimo-1800-euros"],
-  "/elecciones/promesas": ["/elecciones/encuestas-29n", "/elecciones/programas-electorales-29n", "/elecciones/debate-electoral-29n", "/elecciones/salario-minimo-1800-euros", "/elecciones/iva-vivienda-4-por-ciento"],
+  "/elecciones/promesas": ["/elecciones/promesas-incumplidas", "/elecciones/encuestas-29n", "/elecciones/programas-electorales-29n", "/elecciones/debate-electoral-29n", "/elecciones/salario-minimo-1800-euros", "/elecciones/iva-vivienda-4-por-ciento"],
 };

@@ -240,6 +240,7 @@ CORE = [
     "/elecciones/votar-en-persona-tras-pedir-correo",
     "/elecciones/voto-residentes-extranjero-cera",
     "/elecciones/votar-ley-de-nietos-29n",
+    "/elecciones/promesas-incumplidas",
     "/elecciones/voto-temporalmente-fuera-erta",
     "/elecciones/consultar-censo-electoral",
     "/elecciones/donde-voto-mesa-electoral",
