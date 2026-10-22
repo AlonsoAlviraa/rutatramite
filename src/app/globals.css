@@ -175,3 +175,11 @@ a:hover { color:var(--moss-dark); }
 @media (max-height:500px) { .site-header { position:static; } html { scroll-padding-top:1rem; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; } }
 @media print { .site-header,.site-footer,.skip-link,.nav-toggle,.directory-search,.guide-toc { display:none !important; } body { background:white; color:black; } .page-shell,[data-guide],[data-ficha] { max-width:none; padding:0; } .rt-card,section,pre { break-inside:avoid; } }
+
+/* AdSense Auto ads multi-dispositivo (22-10-2026). Ver vault 01-Runbooks/AdSense multi-dispositivo. */
+ins.adsbygoogle { max-width:100%; }
+ins.adsbygoogle[data-ad-status="unfilled"] { display:none !important; }
+.google-auto-placed { max-width:100%; overflow:hidden; contain:layout; margin-top:1.5rem; margin-bottom:1.5rem; clear:both; }
+table .google-auto-placed, form .google-auto-placed, .site-header .google-auto-placed, nav .google-auto-placed, details .google-auto-placed { display:none !important; }
+body:has(ins.adsbygoogle[data-anchor-status="displayed"]) { padding-bottom:calc(110px + env(safe-area-inset-bottom, 0px)); }
+@media (max-height:500px) and (orientation:landscape) { .site-header { position:static; } }
