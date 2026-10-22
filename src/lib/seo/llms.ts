@@ -50,7 +50,7 @@ const LLMS_LISTED = new Set<string>([
   "/becas", "/ayudas", "/alquiler", "/transporte", "/elecciones", "/ayudas-por-gobierno", "/modelos", "/descargas", "/recursos",
 ]);
 /** Guías con demanda en buscadores primero (vault RutaTrámite, 2026-10-10). */
-const LLMS_PRIORITY = ["/dni/cita-previa", "/extranjeria/autorizacion-regreso", "/inventario-fianza-alquiler", "/elecciones/voto-residentes-extranjero-cera", "/elecciones/pedir-voto-por-correo-por-internet", "/elecciones/enviar-voto-por-correo", "/elecciones/voto-temporalmente-fuera-erta", "/elecciones/que-llevar-a-votar", "/elecciones/miembro-de-mesa", "/elecciones/consultar-censo-electoral", "/elecciones/preguntas-frecuentes-29n"];
+const LLMS_PRIORITY = ["/elecciones/tarjeta-censal-cuando-llega", "/elecciones/programas-electorales-29n", "/elecciones/cuando-habra-gobierno-29n", "/elecciones/que-pasa-si-no-voto", "/elecciones/voto-nulo-ejemplos", "/elecciones/quiere-algun-partido-quitar-las-pensiones", "/dni", "/dni/cita-previa", "/extranjeria/autorizacion-regreso", "/inventario-fianza-alquiler", "/elecciones/voto-residentes-extranjero-cera", "/elecciones/pedir-voto-por-correo-por-internet", "/elecciones/enviar-voto-por-correo", "/elecciones/voto-temporalmente-fuera-erta", "/elecciones/que-llevar-a-votar", "/elecciones/miembro-de-mesa", "/elecciones/consultar-censo-electoral", "/elecciones/preguntas-frecuentes-29n"];
 
 const SITE_PAGES: Record<string, string> = {
   "/trabajo": "Trabajo, paro y prestaciones",

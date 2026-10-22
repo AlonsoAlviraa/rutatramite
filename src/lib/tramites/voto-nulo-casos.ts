@@ -5,7 +5,7 @@ export const VOTO_NULO_CASOS_GUIDES: Guide[] = [
  {
   "id": "vn-hub",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-19",
+  "reviewedAt": "2026-10-22",
   "path": "/elecciones/voto-nulo-ejemplos",
   "h1": "Voto nulo: 10 ejemplos de qué pasa con tu voto (insultos, chorizo, dos papeletas…)",
   "title": "Voto nulo: 10 ejemplos y qué pasa con tu voto en cada caso",
@@ -125,7 +125,7 @@ export const VOTO_NULO_CASOS_GUIDES: Guide[] = [
     "a": "La mesa electoral, por mayoría, durante el recuento. Los interventores pueden protestar y las papeletas discutidas se guardan con el acta."
    }
   ],
-  "sections": [
+  "sections": [{"id": "en-resumen", "title": "En resumen", "paragraphs": ["Un voto es nulo si la papeleta o el sobre se alteran: escribir, dibujar, tachar, romperla a propósito o meter papeletas de partidos distintos. Dos papeletas iguales en el mismo sobre cuentan como un voto válido y el sobre vacío es voto en blanco. Los votos nulos no cuentan para nada en el reparto de escaños.", "Datos clave, con fecha y fuente oficial:"], "lists": [["Votos nulos y en blanco: LOREG, artículo 96.", "Dos papeletas de la misma candidatura en un sobre: un voto válido; de candidaturas distintas: nulo.", "Sobre sin papeleta: voto en blanco, que es válido (artículo 96.5).", "El voto en blanco cuenta para la barrera del 3 %; el nulo no (artículo 163).", "Criterio de la Junta Electoral Central sobre marcas en la papeleta: Instrucción 1/2012 (BOE)."]]}, 
    {
     "id": "tabla",
     "title": "Los 10 casos, de un vistazo",

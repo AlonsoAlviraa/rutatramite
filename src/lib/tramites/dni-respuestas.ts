@@ -3,7 +3,7 @@
  * Fuentes: BOE Ley 84/1978 art. 6 (12 €), Ley 48/2015 art. 74.4 (familia numerosa 0 €),
  * RD 255/2025 (validez y documentos), Interior y Policía Nacional. Revisado 2026-10-19.
  */
-export const DNI_REVIEWED_AT = "2026-10-19";
+export const DNI_REVIEWED_AT = "2026-10-22";
 
 export const DNI_SOURCES = {
   ley84: { label: "BOE: Ley 84/1978, artículo 6 (tasa del DNI: 12 €)", href: "https://www.boe.es/buscar/act.php?id=BOE-A-1979-867" },
@@ -38,4 +38,8 @@ export const DNI_FAQS: { q: string; a: string }[] = [
   { q: "¿Cuánto dura el DNI?", a: "2 años si tienes menos de 5; 5 años de 5 a 29; 10 años de 30 a 69; y más de 10 años, con fecha de caducidad, desde los 70 (Real Decreto 255/2025, art. 7). Puedes renovarlo en los últimos 180 días de vigencia." },
   { q: "¿Cómo pido o consulto la cita del DNI en citapreviadnie.es?", a: "Entra en citapreviadnie.es (enlace desde Interior) o llama al 060. La cita es gratuita; ninguna web privada puede cobrarte por reservarla. Desde el mismo portal puedes consultar o anular la cita." },
   { q: "¿Puedo votar con el DNI caducado?", a: "Sí. Interior admite el DNI caducado si es el original y lleva tu foto. No sirve el resguardo de renovación." },
+  { q: "¿Cuánto cuesta el DNI por primera vez?", a: "Lo mismo que renovarlo: 12 € (Ley 84/1978, art. 6, BOE), salvo exención. Para la primera expedición necesitas además el certificado literal de nacimiento y el de empadronamiento." },
+  { q: "¿Cuánto cuesta renovar el DNI caducado?", a: "12 €, igual que si estuviera en vigor: la ley no fija ningún recargo por caducidad. Pides cita, llevas el DNI anterior y una foto, y te lo entregan normalmente en la misma visita." },
+  { q: "¿Es gratis renovar el DNI con familia numerosa?", a: "Sí. Los miembros de familias numerosas están exentos de la tasa del DNI y del pasaporte (Ley 48/2015, art. 74.4). Lleva el título de familia numerosa en vigor a la cita." },
+  { q: "¿Se puede hacer el pasaporte sin cita previa?", a: "Con carácter general no: la cita se pide gratis en citapreviadnie.es o en el 060. Si tienes un viaje inminente que puedas acreditar, consulta la atención excepcional que explica la guía de pasaporte urgente." },
 ];
