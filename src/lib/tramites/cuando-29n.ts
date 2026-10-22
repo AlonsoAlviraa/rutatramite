@@ -788,7 +788,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
     "href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#aveintisiete"
    }
   ],
-  "related": [
+  "related": [{"href": "/elecciones/que-llevar-a-votar", "label": "Qué llevar a votar"}, {"href": "/elecciones/que-pasa-si-no-voto", "label": "¿Qué pasa si no voto?"}, {"href": "/elecciones/miembro-de-mesa", "label": "Me ha tocado mesa: qué hacer"}, 
    {
     "href": "/elecciones/donde-voto-mesa-electoral",
     "label": "Dónde voto el 29-N"
@@ -814,7 +814,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
     "label": "Todas las guías de las elecciones"
    }
   ],
-  "faqs": [
+  "faqs": [{"q": "¿La tarjeta censal dice si me ha tocado mesa?", "a": "No. Solo indica dónde votas. Si te toca ser presidente o vocal, te lo notifican aparte tras el sorteo que hace el ayuntamiento (LOREG, artículos 26 y 27)."}, 
    {
     "q": "¿Cuándo llega la tarjeta censal del 29-N?",
     "a": "El INE indica que se enviará a partir del 2 de noviembre de 2026. No da una fecha de llegada; depende del reparto postal."
@@ -1343,7 +1343,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
     "href": "https://www.lamoncloa.gob.es/presidente/actividades/paginas/2023/161123-sanchez-2sesion-investidura-xv-legislatura.aspx"
    }
   ],
-  "related": [
+  "related": [{"href": "/elecciones/tarjeta-censal-cuando-llega", "label": "Tarjeta censal: cuándo llega"}, {"href": "/elecciones/que-pasa-si-no-voto", "label": "¿Qué pasa si no voto?"}, 
    {
     "href": "/elecciones/como-se-elige-presidente-gobierno",
     "label": "Cómo se elige al presidente"
@@ -1700,8 +1700,8 @@ export const CUANDO_29N_GUIDES: Guide[] = [
   "reviewedAt": "2026-10-19",
   "path": "/elecciones/que-pasa-si-no-voto",
   "h1": "¿Qué pasa si no voto el 29-N? No hay multa: votar es un derecho",
-  "title": "¿Qué pasa si no voto el 29-N? No hay multa ni sanción",
-  "description": "En España votar es un derecho, no una obligación: no hay multa por no votar. Qué cambia en el reparto de escaños y la excepción de la mesa electoral.",
+  "title": "¿Qué pasa si no voto en las elecciones? No hay multa (29-N)",
+  "description": "Si no votas en las elecciones generales no pasa nada: no hay multa ni sanción y sigues en el censo. Tu voto no va a ningún partido. La excepción: la mesa.",
   "lead": "Respuesta corta: no pasa nada. En España votar es un derecho y no hay multa ni sanción por no hacerlo. La abstención no cuenta en el reparto de escaños. La única obligación electoral es la de los miembros de mesa: si te toca y no vas sin causa justificada, sí hay pena.",
   "cta": {
    "href": "/elecciones/a-quien-beneficia-el-voto-en-blanco",
@@ -1733,7 +1733,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
     "href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
    }
   ],
-  "related": [{"href": "/elecciones/voto-nulo-ejemplos", "label": "Voto nulo: 10 ejemplos y si cuentan"}, 
+  "related": [{"href": "/elecciones/tarjeta-censal-cuando-llega", "label": "Tarjeta censal: cuándo llega"}, {"href": "/elecciones/donde-voto-mesa-electoral", "label": "Dónde voto el 29-N"}, {"href": "/elecciones/cuando-habra-gobierno-29n", "label": "¿Cuándo habrá Gobierno tras el 29-N?"}, {"href": "/elecciones/voto-nulo-ejemplos", "label": "Voto nulo: 10 ejemplos y si cuentan"}, 
    {
     "href": "/elecciones/a-quien-beneficia-el-voto-en-blanco",
     "label": "¿A quién beneficia el voto en blanco?"
@@ -1759,7 +1759,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
     "label": "Todas las guías de las elecciones"
    }
   ],
-  "faqs": [
+  "faqs": [{"q": "Si no voto, ¿mi voto se lo queda el partido más votado?", "a": "No. La abstención no se suma a nadie: los escaños se reparten solo con los votos válidos a candidaturas de cada provincia (LOREG, artículo 163)."}, {"q": "¿Me borran del censo si no voto?", "a": "No. El censo electoral se forma a partir del padrón, no depende de haber votado, y la LOREG no prevé ninguna consecuencia por abstenerse."}, {"q": "¿Y si no voto en las elecciones generales del 29 de noviembre?", "a": "Lo mismo que en cualquier otra elección en España: no hay sanción. Solo si te ha tocado ser presidente o vocal de mesa tienes que ir."}, 
    {
     "q": "¿Es obligatorio votar en España?",
     "a": "No. La Constitución reconoce el derecho a participar en los asuntos públicos (artículo 23) y la LOREG no castiga a quien no vota."
