@@ -56,6 +56,7 @@ const SITE_PAGES: Record<string, string> = {
   "/trabajo": "Trabajo, paro y prestaciones",
   "/elecciones/promesas": "Promesas electorales del 29-N: índice por partido y tema",
   "/recursos/padron-municipal": "Datos del padrón municipal",
+  "/quienes-somos": "Quiénes somos",
   "/metodologia": "Metodología",
   "/fuentes": "Fuentes oficiales",
   "/aviso-legal": "Aviso legal",
@@ -195,6 +196,7 @@ ${mdLink("Páginas clon de la cita del DNI", "/dni/paginas-clon-cita")}
 
 ## Criterios editoriales
 
+${mdLink("Quiénes somos", "/quienes-somos")}: proyecto informativo independiente, método editorial y correcciones.
 ${mdLink("Cómo verificamos", "/metodologia")}: fuentes, fechas y límites de la revisión.
 ${mdLink("Fuentes", "/fuentes")}: referencias del directorio y fuentes de cada guía.
 ${mdLink("Contacto", "/contacto")}: comunicar errores sin enviar documentos personales.
@@ -261,6 +263,7 @@ Las demás fichas siguen \`/empadronarse/{ccaa}/{provincia}/{municipio}\`. Solo 
 
 ## Editorial
 
+${mdLink("Quiénes somos", "/quienes-somos")}
 ${mdLink("Metodología", "/metodologia")}
 ${mdLink("Fuentes", "/fuentes")}
 ${mdLink("Contacto", "/contacto")}

@@ -422,6 +422,7 @@ Las demás fichas siguen `/empadronarse/{ccaa}/{provincia}/{municipio}`. Solo se
 
 ## Editorial
 
+- [Quiénes somos](https://rutatramite.com/quienes-somos)
 - [Metodología](https://rutatramite.com/metodologia)
 - [Fuentes](https://rutatramite.com/fuentes)
 - [Contacto](https://rutatramite.com/contacto)

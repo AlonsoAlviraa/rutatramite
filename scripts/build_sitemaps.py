@@ -276,6 +276,7 @@ CORE = [
     "/becas/apoyo-educativo",
     "/",
     "/empadronarse",
+    "/quienes-somos",
     "/metodologia",
     "/fuentes",
     "/aviso-legal",

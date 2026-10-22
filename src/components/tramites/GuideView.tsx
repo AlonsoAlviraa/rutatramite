@@ -47,7 +47,7 @@ export function GuideView({ guide }: { guide: Guide }) {
       <Breadcrumbs items={crumbs} />
       <h1 className="mt-2 font-display text-4xl text-mossDark">{guide.h1}</h1>
       <p className="mt-2 text-sm text-ink/70">
-        {guide.reviewedAt ? "Revisión editorial" : "Edición del contenido"} <time dateTime={modified}>{modified}</time>
+        Por <a href="/quienes-somos" rel="author">Equipo RutaTrámite</a> · {guide.reviewedAt ? "Revisado" : "Actualizado"}: <time dateTime={modified}>{modified}</time>
       </p>
       {guide.pack === "promesas-29n" ? <PromesasDataBar /> : null}
       <p className="mt-4 text-lg leading-relaxed">{guide.lead}</p>

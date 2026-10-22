@@ -25,7 +25,7 @@ describe("officially checked birth benefits and residence evidence", () => {
     expect(html).not.toMatch(/el reloj empieza ahora|padrón de dos años se construye/);
     expect(guide.sources?.some(s => s.href.includes("inclusion.gob.es"))).toBe(true);
     expect(guide.sources?.some(s => s.href.includes("BOE-A-2024-24099"))).toBe(true);
-    expect(html).toContain("Revisión editorial");
+    expect(html).toContain("Revisado");
   });
 
   it("gives NIE channels without fabricated appointment scarcity or scam verdicts", () => {

@@ -11,6 +11,7 @@ export function organizationJsonLd(): WithContext<Organization> {
     "@type": "Organization",
     "@id": `${SITE_ORIGIN}#organization`,
     name: PRODUCT_NAME,
+    alternateName: "Equipo RutaTrámite",
     url: SITE_ORIGIN,
     logo: `${SITE_ORIGIN}/icon`,
     description:
@@ -28,6 +29,7 @@ export function organizationJsonLd(): WithContext<Organization> {
       "modelos de escritos",
     ],
     publishingPrinciples: `${SITE_ORIGIN}/metodologia`,
+    correctionsPolicy: `${SITE_ORIGIN}/quienes-somos#correcciones`,
     sameAs: ["https://www.youtube.com/@rutatramitebot", "https://www.youtube.com/channel/UCMya0aRWeiB-4tSefDaeKUQ"],
     email: CONTACT_EMAIL,
     contactPoint: {
@@ -101,7 +103,7 @@ export function articleJsonLd(opts: {
     inLanguage: "es-ES",
     dateModified: opts.dateModified,
     mainEntityOfPage: absoluteUrl(opts.path),
-    author: { "@type": "Organization", "@id": `${SITE_ORIGIN}#organization`, name: PRODUCT_NAME, url: SITE_ORIGIN },
+    author: { "@type": "Organization", "@id": `${SITE_ORIGIN}#organization`, name: "Equipo RutaTrámite", url: `${SITE_ORIGIN}/quienes-somos` },
     publisher: { "@type": "Organization", "@id": `${SITE_ORIGIN}#organization`, name: PRODUCT_NAME, url: SITE_ORIGIN },
     ...(opts.sources?.length ? { citation: [...new Set(opts.sources)] } : {}),
   };
