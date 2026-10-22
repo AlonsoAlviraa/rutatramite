@@ -14,6 +14,25 @@ const ARATC = { href: "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-12375", l
 const CYL = { href: "https://elpais.com/espana/2024-01-06/las-principales-exigencias-de-vox-en-el-pacto-entre-manueco-y-gallardo-no-se-han-ejecutado-dos-anos-despues-de-su-alianza.html", label: "El País, 6-1-2024: balance del pacto PP-Vox en Castilla y León" };
 const RTVE24 = { href: "https://www.rtve.es/noticias/20240712/ruptura-pactos-pp-vox-comunidades-autonomas/16183724.shtml", label: "RTVE, 12-7-2024: Vox sale de los gobiernos autonómicos" };
 
+const H = (href: string, label: string) => ({ href, label });
+const R_IMP = H("https://www.rtve.es/noticias/20111230/subida-impuestos-no-prevista-rajoy/486083.shtml", "RTVE, 30-12-2011: «Mi intención es no subir los impuestos» (investidura, 19-12-2011)");
+const MON2011 = H("https://www.lamoncloa.gob.es/consejodeministros/paginas/enlaces/301211-medidas.aspx", "La Moncloa, 30-12-2011: medidas urgentes del Consejo de Ministros");
+const RDL20_11 = H("https://www.boe.es/eli/es/rdl/2011/12/30/20/con", "BOE: Real Decreto-ley 20/2011, de 30 de diciembre");
+const RDL20_12 = H("https://www.boe.es/eli/es/rdl/2012/07/13/20", "BOE: Real Decreto-ley 20/2012 (IVA general del 18 % al 21 %)");
+const ELP_TR = H("https://elpais.com/politica/2011/11/01/actualidad/1320140606_202944.html", "El País, 1-11-2011: el programa del PP incluye una ley de transparencia");
+const LTR = H("https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887", "BOE: Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno");
+const L16_12 = H("https://www.boe.es/eli/es/l/2012/12/27/16", "BOE: Ley 16/2012 (supresión de la deducción por vivienda habitual desde 2013)");
+const AZ96 = H("https://elpais.com/diario/1996/04/29/espana/830728815_850215.html", "El País, 29-4-1996: acuerdo de investidura PP-CiU");
+const RD247 = H("https://boe.es/eli/es/rd/2001/03/09/247", "BOE: Real Decreto 247/2001 (suspensión del servicio militar el 31-12-2001)");
+const PS04 = H("https://www.psoe.es/media-content/2015/03/Programa-Electoral-Generales-2004.pdf", "PSOE: programa electoral de 2004 (PDF)");
+const SC = H("https://dialnet.unirioja.es/descarga/articulo/4847538.pdf", "Dialnet: «La política en los Gobiernos de Zapatero» (tabla de Sánchez-Cuenca sobre el programa de 2004)");
+const L13_05 = H("https://www.boe.es/eli/es/l/2005/07/01/13", "BOE: Ley 13/2005 (matrimonio entre personas del mismo sexo)");
+const L39_06 = H("https://www.boe.es/eli/es/l/2006/12/14/39", "BOE: Ley 39/2006 de dependencia");
+const PS08 = H("https://www.rtve.es/elecciones/perfiles/zapatero/programa.shtml", "RTVE: programa del PSOE de 2008 (resumen)");
+const RDL2_08 = H("https://www.boe.es/eli/es/rdl/2008/04/21/2", "BOE: Real Decreto-ley 2/2008 (deducción de 400 € en el IRPF)");
+const EPA11 = H("https://www.ine.es/daco/daco42/daco4211/epa0411.pdf", "INE: EPA del cuarto trimestre de 2011 (paro del 22,85 %)");
+const SMI11 = H("https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-20150", "BOE: Real Decreto 1795/2010 (SMI de 2011: 641,40 € al mes)");
+
 const row = (cells: string[], source: { href: string; label: string }) => ({ cells, source });
 
 export const PROMESAS_INCUMPLIDAS_GUIDES: Guide[] = [
@@ -24,11 +43,11 @@ export const PROMESAS_INCUMPLIDAS_GUIDES: Guide[] = [
     path: "/elecciones/promesas-incumplidas",
     h1: "¿Cumplieron sus promesas? Lo que prometieron los partidos en 2023 y qué pasó",
     title: "¿Cumplieron sus promesas? Lo prometido en 2023 y qué pasó",
-    description: "Compromisos de 2023 de cada partido, con su estado (cumplido, en parte o no) y la prueba: BOE, Congreso y verificadores. Gobierno y comunidades.",
+    description: "Compromisos de 2023 y de Aznar, Rajoy y Zapatero, con su estado (cumplido, en parte o no) y la prueba en el BOE, el INE o verificadores.",
     lead: "Respuesta corta: solo puede cumplir una promesa quien gobierna. Desde 2023 gobierna en España la coalición PSOE-Sumar, con acuerdos de investidura con ERC, Junts, PNV, BNG y Coalición Canaria; PP y Vox gobernaron juntos en cinco comunidades hasta julio de 2024. El seguimiento más amplio de los pactos de 2023, el PactoCheck de Newtral, daba a 23 de julio de 2026 estas cifras sobre 50 medidas: 7 cumplidas, 27 en progreso, 11 pendientes y 5 incumplidas. Aquí recogemos solo compromisos con una prueba que se puede comprobar (el BOE o un verificador) y lo que se hizo con ellos.",
     cta: PACTO,
     secondaryCta: { href: "/elecciones/promesas", label: "Qué promete cada partido para el 29-N" },
-    sources: [PACTO, NEWTRAL, AMN, PAR, IMP, A49, VAL, VALP, ARA, ARATC, CYL, RTVE24],
+    sources: [PACTO, NEWTRAL, R_IMP, MON2011, RDL20_11, RDL20_12, ELP_TR, LTR, L16_12, AZ96, RD247, PS04, SC, L13_05, L39_06, PS08, RDL2_08, EPA11, SMI11, AMN, PAR, IMP, A49, VAL, VALP, ARA, ARATC, CYL, RTVE24],
     related: [
       { href: "/elecciones/promesas", label: "Promesas del 29-N: qué propone cada partido" },
       { href: "/elecciones/programas-electorales-29n", label: "¿Han salido ya los programas del 29-N?" },
@@ -41,6 +60,7 @@ export const PROMESAS_INCUMPLIDAS_GUIDES: Guide[] = [
       { q: "¿Cuántas promesas de 2023 cumplió el Gobierno?", a: "No existe una auditoría del programa completo. El PactoCheck de Newtral, que sigue 50 medidas de los pactos de investidura y de gobierno de 2023, contaba a 23 de julio de 2026 7 cumplidas, 27 en progreso, 11 pendientes y 5 incumplidas." },
       { q: "¿Cómo se valora a un partido de la oposición?", a: "En el Gobierno de España no puede ejecutar. Por eso, para PP y Vox recogemos lo que hicieron donde tuvieron poder ejecutivo: los gobiernos de coalición de las comunidades autónomas entre 2022-2023 y julio de 2024, cuando Vox salió de ellos." },
       { q: "¿Por qué la jornada de 37,5 horas figura como no cumplida?", a: "Porque el Congreso rechazó las dos iniciativas que se tramitaron (una proposición del Grupo Mixto en febrero de 2025 y el proyecto de ley del Gobierno de mayo de 2025), según Newtral." },
+      { q: "¿Incluís gobiernos anteriores?", a: "Sí: Aznar y Rajoy (PP) y Zapatero (PSOE), con seis compromisos de cada partido y resultados en el BOE, La Moncloa o el INE. No hemos incluido a Felipe González porque no encontramos programas y resultados con fuente suficiente para dar una muestra equilibrada." },
       { q: "¿Qué pasa con las medidas en tramitación al disolverse las Cortes?", a: "Las que no se aprobaron antes de la disolución no llegaron a ser ley en esta legislatura. Las marcamos como no aprobadas y lo explicamos en la fila." },
     ],
     sections: [
@@ -79,6 +99,40 @@ export const PROMESAS_INCUMPLIDAS_GUIDES: Guide[] = [
         },
       },
       {
+        id: "pp-anteriores",
+        title: "Gobiernos anteriores del PP: Aznar (1996-2004) y Rajoy (2011-2018)",
+        paragraphs: ["Compromisos de campaña, de programa o de investidura con fuente de la época y resultado en el BOE o en La Moncloa."],
+        table: {
+          caption: "Compromisos de los gobiernos del PP y su estado",
+          head: ["Compromiso", "Estado", "Qué pasó", "Fuente"],
+          rows: [
+            row(["Aznar, acuerdo de investidura con CiU (1996): Fuerzas Armadas profesionales y fin del servicio militar obligatorio", "Cumplido", "El Real Decreto 247/2001 adelantó la suspensión del servicio militar al 31 de diciembre de 2001. El acuerdo está en El País (29-4-1996)."], RD247),
+            row(["Rajoy, programa de 2011: ley de transparencia y portal de acceso a la información (El País, 1-11-2011)", "Cumplido", "Ley 19/2013, de 9 de diciembre. En la investidura la había anunciado para el primer trimestre de 2012."], LTR),
+            row(["Rajoy, investidura de 2011: las pensiones, única partida que no se recorta", "Cumplido en 2012", "El Consejo de Ministros del 30-12-2011 subió las pensiones un 1 % para 2012 (Real Decreto-ley 20/2011)."], MON2011),
+            row(["Rajoy, investidura (19-12-2011): «Mi intención es no subir los impuestos» (RTVE)", "No cumplido", "El 30-12-2011 aprobó un gravamen complementario temporal del IRPF y subió el IBI (Real Decreto-ley 20/2011)."], RDL20_11),
+            row(["Rajoy, campaña e investidura de 2011: no subir el IVA (RTVE)", "No cumplido", "El Real Decreto-ley 20/2012 subió el IVA general del 18 % al 21 % y el reducido del 8 % al 10 %, desde el 1 de septiembre de 2012."], RDL20_12),
+            row(["Rajoy, investidura de 2011: recuperar la deducción por compra de vivienda habitual (RTVE)", "En parte", "Se recuperó para 2012 (Real Decreto-ley 20/2011) y se suprimió para las compras desde el 1-1-2013 (Ley 16/2012)."], L16_12),
+          ],
+        },
+      },
+      {
+        id: "psoe-anteriores",
+        title: "Gobiernos anteriores del PSOE: Zapatero (2004-2011)",
+        paragraphs: ["Promesas de los programas de 2004 y 2008. Para 2004 nos apoyamos en la tabla académica de Sánchez-Cuenca, que revisa el programa punto por punto."],
+        table: {
+          caption: "Compromisos de los gobiernos de Zapatero y su estado",
+          head: ["Compromiso", "Estado", "Qué pasó", "Fuente"],
+          rows: [
+            row(["Programa de 2004: «Modificaremos el Código Civil a fin de posibilitar el matrimonio entre personas del mismo sexo»", "Cumplido", "Ley 13/2005, de 1 de julio."], L13_05),
+            row(["Programa de 2004: ley de dependencia y red de servicios de atención", "Cumplido", "Ley 39/2006, de 14 de diciembre."], L39_06),
+            row(["Programa de 2008: deducción de 400 € en el IRPF para asalariados y pensionistas", "Cumplido", "Real Decreto-ley 2/2008, de 21 de abril. Según Expansión, unos 6 millones de contribuyentes con rentas bajas no recibieron nada."], RDL2_08),
+            row(["Programa de 2004: 180.000 viviendas protegidas al año", "No cumplido", "Unas 84.000 al año entre 2004 y 2007 (tabla de Sánchez-Cuenca)."], SC),
+            row(["Programa de 2008: crear dos millones de empleos y bajar el paro al 7 %", "No cumplido", "Al final de 2011 el paro era del 22,85 %, con 5.273.600 parados (EPA del INE)."], EPA11),
+            row(["Programa de 2008: subir el salario mínimo hasta 800 €", "No cumplido", "El SMI de 2011 quedó en 641,40 € al mes (Real Decreto 1795/2010)."], SMI11),
+          ],
+        },
+      },
+      {
         id: "otros",
         title: "Partidos con acuerdos de investidura",
         paragraphs: [
@@ -96,6 +150,9 @@ export const PROMESAS_INCUMPLIDAS_GUIDES: Guide[] = [
           rows: [
             row(["Gobiernos autonómicos PP-Vox", "2 (uno suspendido por el TC)", "0", "1"], RTVE24),
             row(["Gobierno de España (PSOE y Sumar)", "4", "3", "2"], PACTO),
+            row(["Aznar (PP, 1996-2004)", "1", "0", "0"], RD247),
+            row(["Rajoy (PP, 2011-2018)", "3", "1", "2"], RDL20_12),
+            row(["Zapatero (PSOE, 2004-2011)", "3", "0", "3"], SC),
           ],
         },
       },
@@ -105,6 +162,7 @@ export const PROMESAS_INCUMPLIDAS_GUIDES: Guide[] = [
         paragraphs: [
           "Solo incluimos un compromiso si hay un documento que lo recoge (acuerdo de gobierno o de investidura, programa) y una prueba de lo que pasó: el BOE, una iniciativa del Congreso o un verificador (Newtral). Si no encontramos las dos cosas, lo dejamos fuera.",
           "Estados: «cumplido» si la norma está aprobada y publicada; «en parte» si se aprobó con menos alcance del prometido o el proceso sigue a medias; «no aprobado» si se registró pero no llegó a votarse; «no cumplido» si se votó y se rechazó o venció el plazo comprometido.",
+          "Para gobiernos anteriores usamos el programa o una declaración de campaña o de investidura recogida por la prensa de la época, y el resultado en el BOE, La Moncloa o el INE. Buscamos el mismo número de compromisos por partido y una mezcla de cumplidos y no cumplidos.",
           "Los partidos aparecen en el orden de votos de las elecciones de 2023. No usamos adjetivos ni calificamos las promesas: solo contamos lo que dice la fuente.",
         ],
       },
