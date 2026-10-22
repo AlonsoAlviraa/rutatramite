@@ -312,6 +312,7 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 - [Estudio: cuánto se equivocó el CIS en las generales de 2019 y 2023](https://rutatramite.com/elecciones/estudio-error-cis-generales)
 - [¿Puedo votar el 29-N si me nacionalicé por la «ley de nietos»?](https://rutatramite.com/elecciones/votar-ley-de-nietos-29n)
 - [¿Cumplieron sus promesas? Lo que prometieron los partidos en 2023 y qué pasó](https://rutatramite.com/elecciones/promesas-incumplidas)
+- [¿Cuánto vale tu voto en cada provincia el 29-N?](https://rutatramite.com/elecciones/cuanto-vale-tu-voto-por-provincia-29n)
 
 ## Ayudas del Estado según cada gobierno
 

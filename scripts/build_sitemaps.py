@@ -190,6 +190,7 @@ CORE = [
     "/elecciones/encuestas-29n",
     "/elecciones/miente-el-cis",
     "/elecciones/estudio-error-cis-generales",
+    "/elecciones/cuanto-vale-tu-voto-por-provincia-29n",
     "/elecciones/cocina-de-las-encuestas",
     "/elecciones/como-se-hace-una-encuesta-electoral",
     "/elecciones/intencion-directa-vs-estimacion-de-voto",

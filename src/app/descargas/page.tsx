@@ -56,7 +56,7 @@ export default function DescargasPage() {
         ]}
       />
       <Breadcrumbs items={[{ name: "Inicio", path: "/" }, { name: "Descargas", path: "/descargas" }]} />
-      <h1 className="font-display text-4xl text-mossDark">Formularios oficiales para descargar</h1>
+      <h1 className="font-display text-4xl text-mossDark">Formularios oficiales para descargar en PDF: EX-10, EX-15, padrón y 030</h1>
       <p className="text-lg">
         Una selección de {manifest.files.length} formularios y documentos de apoyo oficiales,
         hospedados tal como los publica cada Administración. Cada ficha indica la fuente exacta,
