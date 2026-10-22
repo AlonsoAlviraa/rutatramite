@@ -9,6 +9,7 @@ import { DISCLAIMER_CITA, LAST_VERIFIED } from "@/lib/tramites/facts";
 import { PACK_INDEX_PATH, type Guide } from "@/lib/tramites/types";
 import { PromesasDataBar } from "@/components/tramites/PromesasData";
 import { GuideChartSvg } from "@/components/tramites/GuideChartSvg";
+import { NextSteps } from "@/components/tramites/NextSteps";
 import { DocumentChecklist } from "@/components/tramites/DocumentChecklist";
 import type { DocumentProcedure } from "@/lib/tramites/document-checklists";
 
@@ -127,6 +128,7 @@ export function GuideView({ guide }: { guide: Guide }) {
           <p className="mt-3 text-sm"><a className="inline-flex min-h-11 items-center underline" href="/descargas">Todos los formularios descargables</a></p>
         </section>
       )}
+      <NextSteps path={guide.path} />
       <section id="fuentes" className="mt-10 border-t border-sand pt-5">
         <h2 className="font-display text-2xl text-mossDark">Fuentes y comprobación</h2>
         <p className="mt-3">{guide.pack === "modelos"

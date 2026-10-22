@@ -1343,7 +1343,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "related": [
 {
 "href": "/elecciones/programas-electorales-29n",
-"label": "Programas y mítines del 29-N"
+"label": "Cuándo salen los programas electorales del 29-N"
 },
 {
 "href": "/elecciones/promesas",
@@ -1887,7 +1887,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-"label": "¿Quiere algún partido quitar las pensiones?"
+"label": "¿Qué partido quiere quitar las pensiones?"
 },
 {
 "href": "/trabajo/revalorizacion-pensiones-2026",
@@ -5412,7 +5412,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "related": [
 {
 "href": "/elecciones/programas-electorales-29n",
-"label": "Programas y mítines del 29-N"
+"label": "Cuándo salen los programas electorales del 29-N"
 },
 {
 "href": "/elecciones/promesas",
@@ -29969,7 +29969,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 },
 {
 "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-"label": "¿Quiere algún partido quitar las pensiones?"
+"label": "¿Qué partido quiere quitar las pensiones?"
 },
 {
 "href": "/elecciones/promesas/que-propone-cada-partido-inmigracion",

@@ -52,7 +52,7 @@ export const PROMESAS_INCUMPLIDAS_GUIDES: Guide[] = [
       { href: "/elecciones/promesas", label: "Promesas del 29-N: qué propone cada partido" },
       { href: "/elecciones/programas-electorales-29n", label: "¿Han salido ya los programas del 29-N?" },
       { href: "/elecciones/promesas/metodologia", label: "Metodología de la comparativa de promesas" },
-      { href: "/elecciones/quiere-algun-partido-quitar-las-pensiones", label: "¿Quiere algún partido quitar las pensiones?" },
+      { href: "/elecciones/quiere-algun-partido-quitar-las-pensiones", label: "¿Qué partido quiere quitar las pensiones?" },
     ],
     disclaimer: "Un compromiso «en progreso» o «no aprobado» no es lo mismo que uno abandonado: lo indicamos en cada fila. Si una fuente cambia, actualizamos la tabla.",
     faqs: [

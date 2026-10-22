@@ -104,7 +104,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
    },
    {
     "href": "/elecciones/programas-electorales-29n",
-    "label": "Programas y mítines del 29-N"
+    "label": "Cuándo salen los programas electorales del 29-N"
    },
    {
     "href": "/trabajo/revalorizacion-pensiones-2026",
@@ -284,11 +284,11 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "lead": "Respuesta corta: según las declaraciones con fuente que hemos encontrado, no. Su candidato, Alberto Núñez Feijóo, dijo el 15 de octubre de 2026 que «las pensiones se actualizarán con el IPC» y que su viabilidad y su actualización conforme al IPC «son innegociables». No aclaró si haría otras reformas del sistema. Antes, la portavoz del PP en el Congreso, Ester Muñoz, había dicho que el sistema «va a petar» y que hay que cambiarlo de forma «valiente», según recoge El País. El 19 de octubre, Feijóo incluyó la actualización con el IPC en el punto 6 de su «Contrato con España».",
   "cta": {
    "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-   "label": "Ver qué ha dicho cada partido"
+   "label": "¿Qué partido quiere quitar las pensiones? Lo que ha dicho cada uno"
   },
   "secondaryCta": {
    "href": "/elecciones/programas-electorales-29n",
-   "label": "Programas y mítines del 29-N"
+   "label": "Cuándo salen los programas electorales del 29-N"
   },
   "sources": [
    {
@@ -331,7 +331,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
    },
    {
     "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-    "label": "¿Quiere algún partido quitar las pensiones?"
+    "label": "¿Qué partido quiere quitar las pensiones?"
    },
    {
     "href": "/elecciones/promesas/que-propone-cada-partido-pensiones",
@@ -486,11 +486,11 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "lead": "Respuesta corta: según las declaraciones con fuente que hemos encontrado, no. Su candidato, Pedro Sánchez, prometió el 14 de octubre de 2026 «cuatro años más de revalorización de las pensiones conforme al IPC» y dijo el 17 de octubre que «las pensiones no se tocan».",
   "cta": {
    "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-   "label": "Ver qué ha dicho cada partido"
+   "label": "¿Qué partido quiere quitar las pensiones? Lo que ha dicho cada uno"
   },
   "secondaryCta": {
    "href": "/elecciones/programas-electorales-29n",
-   "label": "Programas y mítines del 29-N"
+   "label": "Cuándo salen los programas electorales del 29-N"
   },
   "sources": [
    {
@@ -533,7 +533,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "related": [
    {
     "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-    "label": "¿Quiere algún partido quitar las pensiones?"
+    "label": "¿Qué partido quiere quitar las pensiones?"
    },
    {
     "href": "/elecciones/promesas/que-propone-cada-partido-pensiones",
@@ -668,11 +668,11 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "lead": "Respuesta corta: según las declaraciones con fuente que hemos encontrado, no. Su candidato, Santiago Abascal, lo repitió el 20 de octubre de 2026 en Ponferrada: «las pensiones se van a pagar como sea, de la manera que sea», y negó que Vox quiera privatizarlas (RTVE). El 11 de octubre dijo que le da igual «el modelo y la fórmula». Su diputado José María Figaredo propuso el 5 de octubre una reforma hacia «un modelo mixto que combine el reparto con la capitalización individual» y después negó que eso sea privatizar.",
   "cta": {
    "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-   "label": "Ver qué ha dicho cada partido"
+   "label": "¿Qué partido quiere quitar las pensiones? Lo que ha dicho cada uno"
   },
   "secondaryCta": {
    "href": "/elecciones/programas-electorales-29n",
-   "label": "Programas y mítines del 29-N"
+   "label": "Cuándo salen los programas electorales del 29-N"
   },
   "sources": [
    {
@@ -723,7 +723,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "related": [
    {
     "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-    "label": "¿Quiere algún partido quitar las pensiones?"
+    "label": "¿Qué partido quiere quitar las pensiones?"
    },
    {
     "href": "/elecciones/promesas/que-propone-cada-partido-pensiones",
@@ -882,11 +882,11 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "lead": "Respuesta corta: según las declaraciones con fuente que hemos encontrado, no. Ernest Urtasun dijo el 17 de octubre de 2026, en la presentación del Frente Amplio, que no van a permitir que se «cargue» el sistema público de pensiones. No hemos encontrado propuestas concretas suyas sobre pensiones.",
   "cta": {
    "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-   "label": "Ver qué ha dicho cada partido"
+   "label": "¿Qué partido quiere quitar las pensiones? Lo que ha dicho cada uno"
   },
   "secondaryCta": {
    "href": "/elecciones/programas-electorales-29n",
-   "label": "Programas y mítines del 29-N"
+   "label": "Cuándo salen los programas electorales del 29-N"
   },
   "sources": [
    {
@@ -921,7 +921,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "related": [
    {
     "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-    "label": "¿Quiere algún partido quitar las pensiones?"
+    "label": "¿Qué partido quiere quitar las pensiones?"
    },
    {
     "href": "/elecciones/promesas/que-propone-cada-partido-pensiones",
@@ -1046,11 +1046,11 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "lead": "Respuesta corta: según las declaraciones con fuente que hemos encontrado, no. Podemos impulsa una proposición de ley para que quien se jubile anticipadamente con 40 años o más cotizados no vea recortada su pensión por los coeficientes reductores. El Congreso aceptó tramitarla el 22 de septiembre de 2026.",
   "cta": {
    "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-   "label": "Ver qué ha dicho cada partido"
+   "label": "¿Qué partido quiere quitar las pensiones? Lo que ha dicho cada uno"
   },
   "secondaryCta": {
    "href": "/elecciones/programas-electorales-29n",
-   "label": "Programas y mítines del 29-N"
+   "label": "Cuándo salen los programas electorales del 29-N"
   },
   "sources": [
    {
@@ -1085,7 +1085,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "related": [
    {
     "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-    "label": "¿Quiere algún partido quitar las pensiones?"
+    "label": "¿Qué partido quiere quitar las pensiones?"
    },
    {
     "href": "/elecciones/promesas/que-propone-cada-partido-pensiones",

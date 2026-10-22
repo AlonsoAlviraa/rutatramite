@@ -56,7 +56,7 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
    },
    {
     "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-    "label": "¿Quiere algún partido quitar las pensiones?"
+    "label": "¿Qué partido quiere quitar las pensiones?"
    },
    {
     "href": "/elecciones/promesas/que-propone-cada-partido-pensiones",
@@ -483,7 +483,7 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
    },
    {
     "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
-    "label": "¿Quiere algún partido quitar las pensiones?"
+    "label": "¿Qué partido quiere quitar las pensiones?"
    }
   ],
   "disclaimer": "No somos la Seguridad Social. Las cifras salen del BOE y de la web oficial de la Seguridad Social, enlazados en cada apartado. Tu caso concreto lo resuelve el INSS: si una fuente oficial cambia, manda la fuente oficial.",

@@ -12,6 +12,7 @@ import { OfficialCta } from "@/components/empadronamiento/OfficialCta";
 import { CITA_DNI_URL, SEDE_AAPP_URL } from "@/lib/tramites/facts";
 import { AID_SOURCES } from "@/lib/ayudas";
 import { PACK_INDEX_PATH, type GuidePack } from "@/lib/tramites/types";
+import { NextSteps } from "@/components/tramites/NextSteps";
 import { RELATED_LINKS } from "@/lib/seo/relatedLinks";
 import { ALL_GUIDES } from "@/lib/tramites/catalog";
 import { JsonLd } from "@/components/empadronamiento/JsonLd";
@@ -140,6 +141,7 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
       ) : null}
       {pack === "viaje" && !passport && <DniQuickAnswers />}
       {pack === "viaje" && <DocumentFees passport={passport} />}
+      {pack === "viaje" && !passport && <NextSteps path="/dni" />}
       {passport ? <p className="mt-4 text-sm" data-dni-crosslink=""><a className="underline" href="/dni">Precio del DNI 2026 (12 €) y cómo renovarlo</a> · <a className="underline" href="/dni/cita-previa">Cita previa del DNI y del pasaporte</a></p> : null}
       <RelatedLinks path={passport ? "/pasaporte" : PACK_INDEX_PATH[pack]} />
       {pack === "bebe" ? (

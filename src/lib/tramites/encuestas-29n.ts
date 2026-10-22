@@ -71,14 +71,14 @@ const R = {
   dhondt: { href: "/elecciones/como-se-reparten-los-escanos", label: "Cómo se reparten los escaños" },
   presidente: { href: "/elecciones/como-se-elige-presidente-gobierno", label: "Cómo se elige al presidente" },
   nulo: { href: "/elecciones/voto-nulo-y-voto-en-blanco", label: "Voto nulo y voto en blanco" },
-  programas: { href: "/elecciones/programas-electorales-29n", label: "Programas electorales del 29-N" },
+  programas: { href: "/elecciones/programas-electorales-29n", label: "Cuándo salen los programas electorales del 29-N" },
   promesas: { href: "/elecciones/promesas", label: "Promesas de todos los partidos" },
   bulos: { href: "/elecciones/bulos-y-fraudes-electorales", label: "Bulos y fraudes en elecciones" },
   calendario: { href: "/elecciones/calendario-29-noviembre", label: "Calendario del 29 de noviembre" },
   reflexion: { href: "/elecciones/jornada-de-reflexion", label: "Jornada de reflexión" },
   provincias: { href: "/elecciones/diputados-por-provincia-29n", label: "Diputados por provincia el 29-N" },
   resultados: { href: "/elecciones/resultados-y-escrutinio", label: "Resultados y escrutinio" },
-  pensiones: { href: "/elecciones/quiere-algun-partido-quitar-las-pensiones", label: "¿Quiere algún partido quitar las pensiones?" },
+  pensiones: { href: "/elecciones/quiere-algun-partido-quitar-las-pensiones", label: "¿Qué partido quiere quitar las pensiones?" },
   jec: { href: "/elecciones/junta-electoral-central", label: "Qué es la Junta Electoral Central" },
 };
 
