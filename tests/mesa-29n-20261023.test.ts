@@ -4,7 +4,7 @@ import { ALL_GUIDES, getGuideByPath } from "@/lib/tramites/catalog";
 import { RELATED_LINKS } from "@/lib/seo/relatedLinks";
 import { readFileSync, existsSync } from "node:fs";
 
-const OFFICIAL = /^https:\/\/(www\.)?(boe\.es|juntaelectoralcentral\.es|infoelectoral\.interior\.gob\.es|ine\.es|elcorreoweb\.es)\//;
+const OFFICIAL = /^https:\/\/(www\.)?(boe\.es|juntaelectoralcentral\.es|infoelectoral\.interior\.gob\.es|ine\.es|elcorreoweb\.es|oeitss\.gob\.es)\//;
 
 describe("clúster mesa electoral 29-N (23-10-2026)", () => {
   it("five new pages, registered once, sourced, with FAQs and «Cómo revisamos»", () => {

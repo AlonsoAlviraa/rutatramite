@@ -321,7 +321,7 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 - [Qué dijo Feijóo en la Cadena SER: SMI, Igualdad, Vox, aborto y vivienda](https://rutatramite.com/elecciones/feijoo-cadena-ser-29n)
 - [Me ha tocado mesa y vivo fuera: otra ciudad, el extranjero o Erasmus](https://rutatramite.com/elecciones/mesa-electoral-vivo-fuera)
 - [Me ha tocado mesa y tengo un examen: estudiantes y oposiciones](https://rutatramite.com/elecciones/mesa-electoral-examen-estudiante)
-- [Me ha tocado mesa y trabajo fuera, a turnos o en un servicio esencial](https://rutatramite.com/elecciones/mesa-electoral-trabajo-fuera)
+- [Me ha tocado mesa y trabajo: el domingo, el lunes a primera hora, fuera o sin contrato](https://rutatramite.com/elecciones/mesa-electoral-trabajo-fuera)
 - [Me ha tocado mesa y cuido de un familiar dependiente (aunque cobre por ello)](https://rutatramite.com/elecciones/mesa-electoral-cuidado-familiar-dependiente)
 - [Me ha tocado mesa y tengo hijos pequeños: menores de 12, lactancia y familias monoparentales](https://rutatramite.com/elecciones/mesa-electoral-hijos-pequenos)
 - [Modelo de escrito de excusa para la mesa electoral (29-N)](https://rutatramite.com/elecciones/modelo-escrito-excusa-mesa-electoral)
