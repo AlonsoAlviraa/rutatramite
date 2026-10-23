@@ -74,7 +74,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
           "«Lo extraordinario no es que avance la ultraderecha, sino tener un gobierno progresista». (Fuente: El Confidencial)",
           "Qué significa para ti: lo que ha dicho cada partido sobre las pensiones, con fuente, está en nuestra página sobre las pensiones en el 29-N.",
         ],
-        lists: [["¿Quiere algún partido quitar las pensiones?: /elecciones/quiere-algun-partido-quitar-las-pensiones", "Salario mínimo de 1.800 €: la propuesta: /elecciones/salario-minimo-1800-euros"]],
+        lists: [["¿Quiere algún partido quitar las pensiones?: /elecciones/quiere-algun-partido-quitar-las-pensiones", "Salario mínimo de 1.800 €: la propuesta: /elecciones/salario-minimo-1800-euros", "¿Paga IRPF el salario mínimo en 2026?: /trabajo/salario-minimo-irpf-2026", "Qué dijo Feijóo en la SER: /elecciones/feijoo-cadena-ser-29n"]],
       },
       {
         id: "ceuta-inmigracion",

@@ -195,6 +195,8 @@ CORE = [
     "/elecciones/agenda-mitines-29n",
     "/elecciones/podcasts-entrevistas-candidatos-29n",
     "/elecciones/voto-util-29n",
+    "/elecciones/feijoo-cadena-ser-29n",
+    "/trabajo/salario-minimo-irpf-2026",
     "/elecciones/mapa-voto-util-29n",
     "/elecciones/cocina-de-las-encuestas",
     "/elecciones/como-se-hace-una-encuesta-electoral",
