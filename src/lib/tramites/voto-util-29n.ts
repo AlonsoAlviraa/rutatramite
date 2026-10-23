@@ -27,7 +27,7 @@ export const VOTO_UTIL_GUIDES: Guide[] = [
     cta: ESTUDIO,
     secondaryCta: BOE2023,
     sources: [BOE2023, L162, L163, RD806, RD1117],
-    related: [ESTUDIO, DHONDT, PROV, BARRERA, NULO, AGENDA, { href: "/elecciones", label: "Elecciones generales del 29-N" }],
+    related: [{ href: "/elecciones/mapa-voto-util-29n", label: "Mapa del voto útil por provincia: último escaño" }, ESTUDIO, DHONDT, PROV, BARRERA, NULO, AGENDA, { href: "/elecciones", label: "Elecciones generales del 29-N" }],
     faqs: [
       { q: "¿Qué es el voto útil?", a: "Votar a una candidatura con opciones reales de escaño en tu provincia en lugar de a tu primera preferencia. Es una decisión personal: la ley no lo menciona y cada voto cuenta igual en el recuento." },
       { q: "¿Por qué existe el voto útil en España?", a: "Porque los 350 diputados se reparten en 52 circunscripciones (artículo 162 de la LOREG) con la regla D'Hondt y una barrera del 3 % en cada una (artículo 163). En las provincias que eligen pocos diputados hace falta un porcentaje alto para lograr uno." },

@@ -815,7 +815,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.loreg("acientosesentaytres", "artículo 163: atribución de escaños"),
     secondaryCta: S.rd,
     sources: [S.loreg("acientosesentaytres", "artículo 163"), S.rd],
-    related: [{ href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, { href: "/elecciones/cuanto-vale-tu-voto-por-provincia-29n", label: "Cuánto vale tu voto por provincia (datos)" }, R.senado, R.nulo, R.resultados, R.faq],
+    related: [{ href: "/elecciones/mapa-voto-util-29n", label: "Mapa del voto útil por provincia: último escaño" }, { href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, { href: "/elecciones/cuanto-vale-tu-voto-por-provincia-29n", label: "Cuánto vale tu voto por provincia (datos)" }, R.senado, R.nulo, R.resultados, R.faq],
     faqs: [
       { q: "¿Cuántos diputados elige mi provincia?", a: "El anexo del Real Decreto 806/2026 lo detalla: por ejemplo, Madrid elige 38, Barcelona 32 y Soria 2." },
     ],

@@ -317,6 +317,7 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 - [Agenda de mítines del 29-N: próximos actos de cada candidato](https://rutatramite.com/elecciones/agenda-mitines-29n)
 - [Entrevistas y pódcast de los candidatos del 29-N: quién va y cuándo](https://rutatramite.com/elecciones/podcasts-entrevistas-candidatos-29n)
 - [Voto útil el 29-N: qué es, cómo afecta a derecha e izquierda y por qué tu provincia importa](https://rutatramite.com/elecciones/voto-util-29n)
+- [Mapa del voto útil por provincia: dónde estuvo más reñido el último escaño](https://rutatramite.com/elecciones/mapa-voto-util-29n)
 
 ## Ayudas del Estado según cada gobierno
 

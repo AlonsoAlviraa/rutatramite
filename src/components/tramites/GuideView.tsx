@@ -10,6 +10,7 @@ import { PACK_INDEX_PATH, type Guide } from "@/lib/tramites/types";
 import { PromesasDataBar } from "@/components/tramites/PromesasData";
 import { GuideChartSvg } from "@/components/tramites/GuideChartSvg";
 import { NextSteps } from "@/components/tramites/NextSteps";
+import { MapaVotoUtilSection } from "@/components/elecciones/MapaVotoUtilSection";
 import { DocumentChecklist } from "@/components/tramites/DocumentChecklist";
 import type { DocumentProcedure } from "@/lib/tramites/document-checklists";
 
@@ -57,6 +58,7 @@ export function GuideView({ guide }: { guide: Guide }) {
           <OfficialCta href={guide.secondaryCta.href} label={guide.secondaryCta.label} variant="secondary" />
         ) : null}
       </div>
+      {guide.id === "29n-mapa-voto-util" ? <MapaVotoUtilSection /> : null}
       <div className="guide-layout mt-8 grid min-w-0 grid-cols-1 min-[1280px]:grid-cols-[minmax(0,246px)_minmax(0,1fr)] min-[1280px]:items-start min-[1280px]:gap-x-10">
       <nav aria-label="En esta guía" className="guide-toc min-w-0 max-w-full min-[1280px]:sticky min-[1280px]:top-24 min-[1280px]:max-h-[calc(100vh-7rem)] min-[1280px]:overflow-auto">
         <h2 className="font-semibold">En esta guía</h2>

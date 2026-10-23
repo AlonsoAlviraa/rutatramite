@@ -195,6 +195,7 @@ CORE = [
     "/elecciones/agenda-mitines-29n",
     "/elecciones/podcasts-entrevistas-candidatos-29n",
     "/elecciones/voto-util-29n",
+    "/elecciones/mapa-voto-util-29n",
     "/elecciones/cocina-de-las-encuestas",
     "/elecciones/como-se-hace-una-encuesta-electoral",
     "/elecciones/intencion-directa-vs-estimacion-de-voto",

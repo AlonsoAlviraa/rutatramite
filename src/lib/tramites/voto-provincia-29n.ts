@@ -22,7 +22,7 @@ export const VOTO_PROVINCIA_GUIDES: Guide[] = [
     cta: RD806,
     secondaryCta: RD1117,
     sources: [RD806, RD1117, LOREG],
-    related: [{ href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, 
+    related: [{ href: "/elecciones/mapa-voto-util-29n", label: "Mapa del voto útil por provincia: último escaño" }, { href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, 
       { href: "/elecciones/diputados-por-provincia-29n", label: "Diputados por provincia el 29-N" },
       { href: "/elecciones/como-se-reparten-los-escanos", label: "Cómo se reparten los escaños" },
       { href: "/elecciones/barrera-del-3-por-ciento-y-voto-util", label: "Barrera del 3 % y voto útil" },
