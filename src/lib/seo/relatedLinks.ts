@@ -4,6 +4,13 @@
  * 2026-10-17: enlaces cruzados a guías prioritarias sin indexar (inspección GSC del 2026-10-17).
  */
 export const RELATED_LINKS: Record<string, string[]> = {
+  "/elecciones/excusa-mesa-electoral": ["/elecciones/modelo-escrito-excusa-mesa-electoral", "/elecciones/excusa-mesa-electoral-denegada", "/elecciones/mesa-electoral-casos-especiales"],
+  "/elecciones/sorteo-mesa-electoral-29n": ["/elecciones/suplente-mesa-electoral", "/elecciones/modelo-escrito-excusa-mesa-electoral"],
+  "/elecciones/horario-mesa-electoral": ["/elecciones/primero-en-votar-mesa-electoral", "/elecciones/mesa-electoral-casos-especiales"],
+  "/elecciones/que-pasa-si-no-voy-a-la-mesa": ["/elecciones/suplente-mesa-electoral", "/elecciones/excusa-mesa-electoral-denegada", "/elecciones/primero-en-votar-mesa-electoral"],
+  "/elecciones/como-votar-el-dia-29": ["/elecciones/primero-en-votar-mesa-electoral"],
+  "/elecciones/cuando-se-cobra-la-dieta-de-mesa": ["/elecciones/suplente-mesa-electoral"],
+  "/elecciones/voluntario-mesa-electoral": ["/elecciones/primero-en-votar-mesa-electoral", "/elecciones/suplente-mesa-electoral"],
   "/elecciones/salario-minimo-1800-euros": ["/trabajo/salario-minimo-irpf-2026", "/elecciones/feijoo-cadena-ser-29n"],
   "/elecciones/sanchez-la-revuelta-29n": ["/elecciones/feijoo-cadena-ser-29n", "/trabajo/salario-minimo-irpf-2026"],
   "/elecciones/deflactar-irpf-que-significa": ["/trabajo/salario-minimo-irpf-2026"],
@@ -18,7 +25,7 @@ export const RELATED_LINKS: Record<string, string[]> = {
   "/elecciones/diputados-por-provincia-29n": ["/elecciones/mapa-voto-util-29n", "/elecciones/voto-util-29n", "/elecciones/cuanto-vale-tu-voto-por-provincia-29n", "/elecciones/como-se-reparten-los-escanos"],
   "/elecciones/debate-electoral-29n": ["/elecciones/agenda-mitines-29n", "/elecciones/podcasts-entrevistas-candidatos-29n", "/elecciones/sanchez-la-revuelta-29n"],
   "/elecciones/campana-y-precampana": ["/elecciones/agenda-mitines-29n", "/elecciones/podcasts-entrevistas-candidatos-29n"],
-  "/elecciones": ["/elecciones/feijoo-cadena-ser-29n", "/elecciones/mapa-voto-util-29n", "/elecciones/voto-util-29n", "/elecciones/agenda-mitines-29n", "/elecciones/podcasts-entrevistas-candidatos-29n", "/elecciones/sanchez-la-revuelta-29n", "/elecciones/cuanto-vale-tu-voto-por-provincia-29n", "/trabajo/huelga-general-11-noviembre", "/alquiler/caso-maricarmen-desahucio", "/elecciones/debate-electoral-29n", "/elecciones/sorteo-mesa-electoral-29n", "/elecciones/candidaturas-29n-boe", "/elecciones/cuando-habra-gobierno-29n", "/dni/consultar-cita", "/dni/urgente-sin-cita"],
+  "/elecciones": ["/elecciones/suplente-mesa-electoral", "/elecciones/primero-en-votar-mesa-electoral", "/elecciones/feijoo-cadena-ser-29n", "/elecciones/mapa-voto-util-29n", "/elecciones/voto-util-29n", "/elecciones/agenda-mitines-29n", "/elecciones/podcasts-entrevistas-candidatos-29n", "/elecciones/sanchez-la-revuelta-29n", "/elecciones/cuanto-vale-tu-voto-por-provincia-29n", "/trabajo/huelga-general-11-noviembre", "/alquiler/caso-maricarmen-desahucio", "/elecciones/debate-electoral-29n", "/elecciones/sorteo-mesa-electoral-29n", "/elecciones/candidaturas-29n-boe", "/elecciones/cuando-habra-gobierno-29n", "/dni/consultar-cita", "/dni/urgente-sin-cita"],
   "/trabajo": ["/trabajo/salario-minimo-irpf-2026", "/trabajo/huelga-general-11-noviembre", "/autorizacion-representacion-tramite", "/elecciones/salario-minimo-1800-euros"],
   "/elecciones/promesas": ["/elecciones/promesas-incumplidas", "/elecciones/encuestas-29n", "/elecciones/programas-electorales-29n", "/elecciones/debate-electoral-29n", "/elecciones/salario-minimo-1800-euros", "/elecciones/iva-vivienda-4-por-ciento"],
 };

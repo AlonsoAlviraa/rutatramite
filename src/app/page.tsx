@@ -50,6 +50,8 @@ const ELECCIONES_29N = [
   { href: "/elecciones/mapa-voto-util-29n", title: "Mapa del voto útil", blurb: "Último escaño y peso del voto en cada provincia." },
   { href: "/elecciones/agenda-mitines-29n", title: "Agenda de mítines", blurb: "Próximos actos confirmados de cada candidato." },
   { href: "/elecciones/encuestas-29n", title: "Encuestas", blurb: "Media de encuestas publicadas, con su ficha técnica." },
+  { href: "/elecciones/excusa-mesa-electoral", title: "¿Te ha tocado mesa?", blurb: "Excusas, plazo de 7 días y modelo de escrito." },
+  { href: "/elecciones/suplente-mesa-electoral", title: "Suplente de mesa", blurb: "A qué hora ir, dieta y qué pasa si no vas." },
 ] as const;
 
 // Páginas con más clics en Google (GSC API, 28 días a 2026-10-23), sin repetir las del bloque 29-N.

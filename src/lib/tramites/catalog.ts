@@ -36,11 +36,12 @@ import { VOTO_UTIL_GUIDES } from "@/lib/tramites/voto-util-29n";
 import { MAPA_VOTO_UTIL_GUIDES } from "@/lib/tramites/mapa-voto-util-29n";
 import { MARICARMEN_HUELGA_GUIDES } from "@/lib/tramites/maricarmen-huelga-11n";
 import { VIRAL_20261023_GUIDES } from "@/lib/tramites/viral-20261023";
+import { MESA_29N_20261023_GUIDES, ampliarMesa } from "@/lib/tramites/mesa-29n-20261023";
 
 export const ALL_GUIDES: Guide[] = [
   ...ACTUALIDAD_20261006_GUIDES,
   ...ELECCIONES_29N_GUIDES,
-  ...CUANDO_29N_GUIDES,
+  ...CUANDO_29N_GUIDES.map(ampliarMesa),
   ...VOTO_NULO_CASOS_GUIDES,
   ...CONTRATO_PP_GUIDES,
   ...ELECCIONES_EXPLICADORES_GUIDES,
@@ -60,6 +61,7 @@ export const ALL_GUIDES: Guide[] = [
   ...MAPA_VOTO_UTIL_GUIDES,
   ...MARICARMEN_HUELGA_GUIDES,
   ...VIRAL_20261023_GUIDES,
+  ...MESA_29N_20261023_GUIDES,
   ...DNI_NICHOS_GUIDES,
   ...MUDANZA_GUIDES,
   ...EXTRANJERIA_GUIDES,

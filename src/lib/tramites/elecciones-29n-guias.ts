@@ -1,5 +1,6 @@
 import type { Guide } from "@/lib/tramites/types";
 import { ampliar29n } from "@/lib/tramites/elecciones-29n-ampliacion";
+import { ampliarMesa } from "@/lib/tramites/mesa-29n-20261023";
 
 /** 30 guías prácticas para las elecciones a Cortes Generales del 29 de noviembre de 2026 (RD 806/2026). */
 const reviewedAt = "2026-10-16";
@@ -1082,4 +1083,4 @@ const BASE_29N_GUIDES: Guide[] = [
 ];
 
 /** Guías con la ampliación del 18-10-2026 aplicada. */
-export const ELECCIONES_29N_GUIDES: Guide[] = BASE_29N_GUIDES.map(ampliar29n);
+export const ELECCIONES_29N_GUIDES: Guide[] = BASE_29N_GUIDES.map(ampliar29n).map(ampliarMesa);
