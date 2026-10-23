@@ -27,6 +27,8 @@ const SE = { href: "https://www.sindicatodeestudiantes.net/index.php/noticias/mo
 const STC40 = { href: "https://www.boe.es/boe/dias/2026/06/24/pdfs/BOE-A-2026-13752.pdf", label: "BOE: STC 40/2026 (anula el mandato del RDL 32/2021 para el Estatuto del Becario)" };
 const LGSS = { href: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724", label: "BOE: Ley General de la Seguridad Social (disposición adicional 52.ª, prácticas formativas)" };
 
+const FESMC = { href: "https://www.fesmcugt.org/noticias/actualidad/ricardo-casas-los-servicios-minimos-en-el-transporte-tienen-que-garantizar-lo-esencial-no-garantizar-la-normalidad", label: "FeSMC-UGT, 22-10-2026: UGT y CCOO presentan a Transportes su propuesta de servicios mínimos" };
+
 const row = (cells: string[], source: { href: string; label: string }) => ({ cells, source });
 
 export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
@@ -127,7 +129,7 @@ export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
   {
     id: "trabajo-huelga-general-11n",
     pack: "trabajo",
-    reviewedAt: "2026-10-22",
+    reviewedAt: "2026-10-23",
     path: "/trabajo/huelga-general-11-noviembre",
     h1: "Huelga general del 11 de noviembre: tus derechos si eres trabajador, funcionario, autónomo, becario o estudiante",
     title: "Huelga general 11-N: derechos, descuento y servicios mínimos",
@@ -135,7 +137,7 @@ export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
     lead: "Respuesta corta: la huelga general es el miércoles 11 de noviembre de 2026, 24 horas. La registraron el 19 de octubre en el Ministerio de Trabajo UGT y CCOO junto con CGT, CNT, Co.Bas, Intersindical, la Unión de Actores y Actrices, Solidaridad Obrera y la Confederación de Sindicatos de Inquilinas (UGT). Si trabajas por cuenta ajena, hacer huelga es un derecho fundamental (artículo 28.2 de la Constitución): no te pueden despedir ni sancionar, no tienes que avisar a la empresa y solo pierdes el salario de ese día. Los funcionarios también pueden. Los autónomos y los becarios sin contrato no tienen derecho de huelga laboral, y los estudiantes desde 3.º de ESO pueden no ir a clase sin sanción si la decisión es colectiva y se comunica al centro.",
     cta: RDL17,
     secondaryCta: { href: "/alquiler/caso-maricarmen-desahucio", label: "El caso Maricarmen, origen de la movilización" },
-    sources: [UGT, EDIARIO, HPV, CE, RDL17, STC11, TREBEP, ET, LGSS, STC40, LODE, RTVE, SE, SMI],
+    sources: [UGT, FESMC, EDIARIO, HPV, CE, RDL17, STC11, TREBEP, ET, LGSS, STC40, LODE, RTVE, SE, SMI],
     related: [
       { href: "/alquiler/caso-maricarmen-desahucio", label: "Caso Maricarmen: cronología y qué cambió" },
       { href: "/trabajo/vida-laboral", label: "Vida laboral: cómo pedirla" },
@@ -144,6 +146,7 @@ export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
     ],
     disclaimer: "Los servicios mínimos de cada sector los fija la autoridad competente en los días previos; consulta tu convenio y al comité de empresa.",
     faqs: [
+      { q: "¿Hay ya servicios mínimos para la huelga del 11-N?", a: "A 23-10-2026 no se han publicado. UGT y CCOO presentaron el 22-10 al Ministerio de Transportes su propuesta para el transporte; cada administración fija los suyos y suelen conocerse en los días previos." },
       { q: "¿Me pueden despedir por hacer huelga el 11-N?", a: "No. El artículo 6.1 del Real Decreto-ley 17/1977 dice que ejercer el derecho de huelga no extingue el contrato ni puede dar lugar a sanción, salvo que el trabajador incurra en falta laboral durante ella. Un despido por secundarla sería nulo por vulnerar un derecho fundamental." },
       { q: "¿Tengo que avisar a mi empresa de que voy a hacer huelga?", a: "No. El preaviso lo dan los convocantes (5 días, o 10 en servicios públicos, artículo 4 del Real Decreto-ley 17/1977). El trabajador no tiene que comunicar antes si la secunda." },
       { q: "¿Cuánto me descuentan?", a: "El salario del día y la parte proporcional de pagas extra y descanso semanal. Una forma de calcularlo es dividir el salario anual bruto entre 365. Con 1.800 € brutos en 14 pagas (25.200 € al año) son unos 69,04 €; con el salario mínimo de 2026 (1.221 € en 14 pagas, 17.094 € al año), unos 46,83 €. Las vacaciones no se tocan." },
@@ -180,6 +183,15 @@ export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
             row(["Estudiante de 1.º o 2.º de ESO o primaria", "No por sí mismo", "Decide la familia según las normas del centro; quien vaya a clase tiene derecho a recibirla."], RTVE),
           ],
         },
+      },
+      {
+        id: "servicios-minimos",
+        title: "Servicios mínimos del 11-N: estado a 23 de octubre",
+        paragraphs: [
+          "A 23-10-2026 no se ha publicado ninguna resolución oficial de servicios mínimos para el 11-N. Los fija cada administración competente (el Ministerio de Transportes en el transporte estatal, las comunidades autónomas en sus servicios) y suelen publicarse en los días previos a la huelga.",
+          "El 22-10-2026, FeSMC-UGT y FSC-CCOO presentaron al Ministerio de Transportes y Movilidad Sostenible su propuesta de servicios mínimos para el transporte. Según FeSMC-UGT, piden que sean proporcionados y que garanticen los servicios esenciales sin impedir el seguimiento de la huelga.",
+          "Si tu empresa te designa para cubrir servicios mínimos, debes acudir; si no te designa, puedes hacer huelga con normalidad. Esta sección se actualizará cuando se publiquen las resoluciones.",
+        ],
       },
       {
         id: "descuento",

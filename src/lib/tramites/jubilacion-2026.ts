@@ -5,7 +5,7 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
  {
   "id": "trabajo-revalorizacion-pensiones-2026",
   "pack": "trabajo",
-  "reviewedAt": "2026-10-20",
+  "reviewedAt": "2026-10-23",
   "path": "/trabajo/revalorizacion-pensiones-2026",
   "h1": "Subida de las pensiones en 2026: el 2,7 %, la pensión máxima y las mínimas",
   "title": "Subida de las pensiones 2026: 2,7 % y cuantías mínimas (BOE)",
@@ -39,6 +39,18 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
    {
     "label": "INE, 14-10-2026: nota de prensa del IPC de septiembre de 2026 (4,9 %)",
     "href": "https://www.ine.es/dyngs/Prensa/IPC0926.htm"
+   },
+   {
+    "label": "BOE: Ley General de la Seguridad Social, artículo 60 (complemento de brecha de género)",
+    "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a60"
+   },
+   {
+    "label": "Seguridad Social: complemento para la reducción de la brecha de género",
+    "href": "https://prestaciones.seg-social.es/servicio/complemento-brecha.html"
+   },
+   {
+    "label": "Seguridad Social: modelo C-155 de solicitud del complemento (PDF)",
+    "href": "https://www.seg-social.es/wps/wcm/connect/wss/998ebcc5-4ef9-4bdd-bcc4-7add27a12894/C-155_Castellano_4+%287%29.pdf?MOD=AJPERES"
    }
   ],
   "related": [
@@ -84,6 +96,18 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
    {
     "q": "¿Cuánto subirán en 2027?",
     "a": "Se sabrá con el IPC de noviembre de 2026: la ley fija la media de las tasas interanuales del IPC de diciembre de 2025 a noviembre de 2026. Con los diez meses ya publicados por el INE (hasta septiembre), la media va en el 3,33 %; faltan octubre y noviembre."
+   },
+   {
+    "q": "¿Cuánto es el complemento de brecha de género en 2026?",
+    "a": "36,90 € al mes por cada hijo, en 14 pagas y con un máximo de cuatro hijos, es decir, hasta 147,60 € al mes (Real Decreto-ley 3/2026 y artículo 60 de la Ley General de la Seguridad Social)."
+   },
+   {
+    "q": "¿Cómo se pide el complemento de brecha de género si ya estoy jubilado?",
+    "a": "Con el modelo C-155 de la Seguridad Social, en la sede electrónica, en run.gob.es sin certificado digital, por correo o con cita en un CAISS. Hay que adjuntar el libro de familia o el certificado del Registro Civil con los hijos."
+   },
+   {
+    "q": "¿Pueden cobrarlo los hombres?",
+    "a": "Sí, en tres casos: si cobran viudedad y un hijo en común cobra orfandad, o si en su jubilación o incapacidad permanente acreditan que su carrera se interrumpió o sus cotizaciones bajaron tras el nacimiento. En todos los casos su pensión debe ser más baja que la de la madre."
    }
   ],
   "sections": [
@@ -408,6 +432,83 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
       }
      ]
     }
+   },
+   {
+    "id": "brecha-genero",
+    "title": "Complemento de brecha de género: requisitos y cómo pedirlo",
+    "paragraphs": [
+     "Es un importe fijo por cada hijo que se suma a la pensión contributiva de jubilación, incapacidad permanente o viudedad (artículo 60 de la Ley General de la Seguridad Social). En 2026 son 36,90 € al mes por hijo, en 14 pagas, con un máximo de cuatro hijos (147,60 € al mes).",
+     "Cada hijo da derecho a un solo complemento, que cobra el progenitor con la pensión más baja. No se paga con la jubilación parcial: se reconoce al pasar a la jubilación completa. Tampoco con pensiones no contributivas.",
+     "Ejemplo: Carmen se jubila con dos hijos. Si su pensión es la más baja de la pareja, cobra 2 × 36,90 = 73,80 € más al mes, 1.033,20 € al año."
+    ],
+    "table": {
+     "caption": "Quién puede cobrar el complemento de brecha de género",
+     "head": [
+      "Situación",
+      "Requisito",
+      "Fuente"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Mujer con pensión de jubilación, incapacidad permanente o viudedad",
+        "Haber tenido uno o más hijos (biológicos o adoptados). No hace falta acreditar que interrumpió su carrera."
+       ],
+       "source": {
+        "label": "BOE: Ley General de la Seguridad Social, artículo 60 (complemento de brecha de género)",
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a60"
+       }
+      },
+      {
+       "cells": [
+        "Hombre con pensión de viudedad",
+        "Que algún hijo en común cobre pensión de orfandad, y que su pensión sea más baja que la de la madre."
+       ],
+       "source": {
+        "label": "BOE: Ley General de la Seguridad Social, artículo 60 (complemento de brecha de género)",
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a60"
+       }
+      },
+      {
+       "cells": [
+        "Hombre con jubilación o incapacidad permanente, hijos nacidos hasta 1994",
+        "Más de 120 días sin cotizar entre los nueve meses antes del nacimiento y los tres años después (o desde la adopción), y pensión más baja que la de la madre."
+       ],
+       "source": {
+        "label": "BOE: Ley General de la Seguridad Social, artículo 60 (complemento de brecha de género)",
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a60"
+       }
+      },
+      {
+       "cells": [
+        "Hombre con jubilación o incapacidad permanente, hijos nacidos desde 1995",
+        "Que la suma de sus bases de cotización de los 24 meses siguientes al nacimiento sea más de un 15 % inferior a la de los 24 meses anteriores, y pensión más baja que la de la madre."
+       ],
+       "source": {
+        "label": "BOE: Ley General de la Seguridad Social, artículo 60 (complemento de brecha de género)",
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a60"
+       }
+      },
+      {
+       "cells": [
+        "Importe 2026",
+        "36,90 € al mes por hijo, hasta cuatro hijos"
+       ],
+       "source": {
+        "label": "BOE: Real Decreto-ley 3/2026, de 3 de febrero (revalorización de pensiones 2026)",
+        "href": "https://www.boe.es/eli/es/rdl/2026/02/03/3"
+       }
+      }
+     ]
+    },
+    "lists": [
+     [
+      "Si pides ahora la pensión, marca el complemento en la misma solicitud.",
+      "Si ya cobras la pensión y no lo tienes, pídelo con el modelo C-155 en la sede electrónica de la Seguridad Social (certificado digital o Cl@ve), sin certificado en run.gob.es, por correo o con cita en un CAISS (901 10 65 70 o 91 541 25 30).",
+      "Adjunta el libro de familia o el certificado del Registro Civil con los hijos.",
+      "Los hombres que lo pidan por haber interrumpido su carrera deben poder acreditarlo; la Seguridad Social lo comprueba con su vida laboral."
+     ]
+    ]
    },
    {
     "id": "comprobar",
