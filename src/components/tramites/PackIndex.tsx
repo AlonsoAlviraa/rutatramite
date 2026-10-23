@@ -12,6 +12,7 @@ import { OfficialCta } from "@/components/empadronamiento/OfficialCta";
 import { CITA_DNI_URL, SEDE_AAPP_URL } from "@/lib/tramites/facts";
 import { AID_SOURCES } from "@/lib/ayudas";
 import { PACK_INDEX_PATH, type GuidePack } from "@/lib/tramites/types";
+import { HoySeHabla } from "@/components/tramites/HoySeHabla";
 import { NextSteps } from "@/components/tramites/NextSteps";
 import { RELATED_LINKS } from "@/lib/seo/relatedLinks";
 import { ALL_GUIDES } from "@/lib/tramites/catalog";
@@ -125,6 +126,7 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
       />
       <h1 className="mt-2 font-display text-4xl text-mossDark">{t.h1}</h1>
       <p className="mt-4 text-lg leading-relaxed">{t.lead}</p>
+      {pack === "elecciones" || pack === "trabajo" ? <HoySeHabla /> : null}
       {pack === "viaje" ? (
         <div className="mt-6">
           <OfficialCta

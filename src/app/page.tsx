@@ -1,3 +1,4 @@
+import { HoySeHabla } from "@/components/tramites/HoySeHabla";
 import { latestGuides } from "@/lib/seo/latest";
 import type { Metadata } from "next";
 import { Wizard } from "@/components/empadronamiento/Wizard";
@@ -119,6 +120,8 @@ export default function HomePage() {
         />
         <div className="home-shortcuts"><span>Acceso directo</span><a href="/dni/cita-previa">Pedir cita para el DNI</a><a href="/dni">Precio y renovación del DNI</a><a href="/empadronarse">Empadronarse</a><a href="/becas">Consultar becas</a><a href="/extranjeria">Extranjería</a></div>
       </section>
+
+      <HoySeHabla className="mt-8" />
 
       <section id="novedades" className="mt-10" data-home-latest="">
         <h2 className="font-display text-2xl text-mossDark">Nuevo y actualizado</h2>
