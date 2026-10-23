@@ -2,9 +2,9 @@ import { PackIndex } from "@/components/tramites/PackIndex";
 import { pageMetadata } from "@/lib/seo/meta";
 
 export const metadata = pageMetadata({
-  title: "Elecciones 29-N: voto por correo, mesas, listas y calendario",
+  title: "Elecciones 29-N: Pedro Sánchez irá a The Wild Project y más",
   description:
-    "Elecciones del 29 de noviembre: voto por correo hasta el 19-N, sorteo de mesas del 31-O al 4-N, candidaturas, campaña y qué propone cada partido.",
+    "Pedro Sánchez irá a The Wild Project de Jordi Wild: qué es, cuándo sale y cómo verlo. Y el 29-N: voto por correo, mesas, campaña y qué propone cada partido.",
   path: "/elecciones",
 });
 

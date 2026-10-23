@@ -5,6 +5,7 @@ import { DniQuickAnswers } from "@/components/tramites/DniQuickAnswers";
 import { Disclaimer } from "@/components/empadronamiento/Disclaimer";
 import { PackCard } from "@/components/ui/PackCard";
 import { PageShell } from "@/components/ui/PageShell";
+import { WildDestacado } from "@/components/tramites/WildDestacado";
 import { DirectorySearch } from "@/components/ui/DirectorySearch";
 import { guidesByPack } from "@/lib/tramites/catalog";
 import { DISCLAIMER_GENERICO } from "@/lib/tramites/facts";
@@ -126,6 +127,7 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
       />
       <h1 className="mt-2 font-display text-4xl text-mossDark">{t.h1}</h1>
       <p className="mt-4 text-lg leading-relaxed">{t.lead}</p>
+      {pack === "elecciones" ? <WildDestacado /> : null}
       {pack === "elecciones" || pack === "trabajo" ? <HoySeHabla /> : null}
       {pack === "viaje" ? (
         <div className="mt-6">

@@ -468,7 +468,16 @@ CORE = [
 ]
 
 
+FRESH_LASTMOD = {
+    # Actualización de última hora (Sánchez en The Wild Project), 23-10-2026.
+    "/elecciones": "2026-10-23T20:45:00+02:00",
+    "/elecciones/podcasts-entrevistas-candidatos-29n": "2026-10-23T20:45:00+02:00",
+    "/elecciones/agenda-mitines-29n": "2026-10-23T20:45:00+02:00",
+}
+
+
 def url_entry(path: str, lastmod: str | None = None) -> str:
+    lastmod = FRESH_LASTMOD.get(path, lastmod)
     loc = escape(f"{ORIGIN}{path}")
     modified = f"<lastmod>{escape(lastmod)}</lastmod>" if lastmod else ""
     return f"  <url><loc>{loc}</loc>{modified}</url>"

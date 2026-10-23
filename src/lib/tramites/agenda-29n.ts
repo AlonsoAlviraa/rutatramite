@@ -1,6 +1,6 @@
 import type { Guide } from "@/lib/tramites/types";
 
-const UPD = "23 de octubre de 2026, 9:00 (hora peninsular)";
+const UPD = "23 de octubre de 2026, 20:45 (hora peninsular)";
 
 const RTVE_CRONICA = { href: "https://www.rtve.es/play/noticias/20261022/pedro-sanchez-truco-recomendaron-moncloa-proteger-movil/17279368.shtml", label: "RTVE, 22-10-2026: crónica de la entrevista de Pedro Sánchez en La Revuelta" };
 const RTVE_DIRECTO = { href: "https://www.rtve.es/play/noticias/20261022/pedro-sanchez-revuelta-broncano-directo-video-cronica/17278843.shtml", label: "RTVE Play: La Revuelta con Pedro Sánchez (vídeo)" };
@@ -22,6 +22,7 @@ const WILD = { href: "https://www.europapress.es/nacional/noticia-jordi-wild-rec
 const REVUELTA_INV = { href: "https://www.eldiario.es/vertele/noticias/pedro-sanchez-acepta-invitacion-revuelta-sera-entrevistado-jueves-broncano-rtve_1_13604934.html", label: "elDiario.es (verTele), 22-10-2026: invitaciones de La Revuelta" };
 const COLAU_REVUELTA = { href: "https://www.marca.com/tiramillas/television/2026/10/22/ada-colau-confirma-ira-revuelta-acuerda-feijoo-te-traigo-pizza.html", label: "Marca, 22-10-2026: Ada Colau acepta ir a La Revuelta" };
 
+import { WILD_FAQS, WILD_JORDI_44, WILD_JORDI_PLAN, WILD_TEXTO, WILD_TWEET, WILD_WIKI } from "@/lib/tramites/wild-29n";
 const AGENDA = { href: "/elecciones/agenda-mitines-29n", label: "Agenda de mítines del 29-N" };
 const ENTREV = { href: "/elecciones/podcasts-entrevistas-candidatos-29n", label: "Entrevistas y pódcast de los candidatos" };
 const ARTIC = { href: "/elecciones/sanchez-la-revuelta-29n", label: "Lo que dijo Sánchez en La Revuelta" };
@@ -142,7 +143,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
     cta: VOX_ACTOS,
     secondaryCta: { href: "/elecciones/campana-y-precampana", label: "Campaña y precampaña: qué fechas marca la ley" },
     sources: [FEIJOO_VIGO, FEIJOO_SALAMANCA, SANCHEZ_GRANADA, SANCHEZ_GIJON, SANCHEZ_VITORIA, VOX_ACTOS, DEBATES_EE, LASEXTA],
-    related: [{ href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, ENTREV, ARTIC, DEBATE, CAMPANA, { href: "/elecciones/calendario-29-noviembre", label: "Calendario del 29-N" }, ELEC],
+    related: [{ href: "/elecciones", label: "Sánchez y Jordi Wild: cuándo sale la entrevista en The Wild Project" }, { href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, ENTREV, ARTIC, DEBATE, CAMPANA, { href: "/elecciones/calendario-29-noviembre", label: "Calendario del 29-N" }, ELEC],
     faqs: [
       { q: "¿Cuándo empieza la campaña electoral del 29-N?", a: "A las 0:00 del viernes 13 de noviembre de 2026 y termina a las 24:00 del viernes 27 (Real Decreto 806/2026). Los actos de antes son de precampaña." },
       { q: "¿Por qué hay candidatos sin actos en la tabla?", a: "Porque ni su partido ni un medio fiable han publicado todavía la fecha y el lugar. Marcamos «sin agenda publicada» y lo revisamos cada día." },
@@ -173,6 +174,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
         id: "debates",
         title: "Debates con fecha",
         paragraphs: [
+          "Pódcast: Pedro Sánchez confirmó en X el 23 de octubre que irá a The Wild Project de Jordi Wild («Ahí estaré»). Con él han aceptado los cuatro candidatos (Feijóo, Sánchez, Abascal y Colau). Según anunció Jordi Wild el 22 de octubre, las charlas se publican el 13 de noviembre. Detalle y fuentes en la página de entrevistas y pódcast.",
           "El PSOE ha aceptado un cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo el lunes 16 de noviembre en una cadena privada, fecha que el PP había aceptado antes en Mediaset. Sobre el debate a cuatro del jueves 26 de noviembre no hay acuerdo de cadena: el PSOE acepta el de RTVE y el PP responde que «no habrá debate a cuatro en RTVE» y lo quiere en Atresmedia. RTVE propone además uno de portavoces el lunes 23.",
           "laSexta emitirá dos debates con representantes de PP, PSOE, Vox y Frente Amplio los días 2 y 9 de noviembre, moderados por Ana Pastor.",
           "Todos los detalles, en la página de debates.",
@@ -197,17 +199,27 @@ export const AGENDA_29N_GUIDES: Guide[] = [
     h1: "Entrevistas y pódcast de los candidatos del 29-N: quién va y cuándo",
     title: "Candidatos del 29-N en pódcast y TV: La Revuelta, Jordi Wild",
     description: "Qué entrevistas y pódcast han aceptado Feijóo, Sánchez, Abascal y Colau antes del 29-N: La Revuelta, The Wild Project y más. Con fecha y fuente.",
-    lead: `Respuesta corta: Pedro Sánchez fue a La Revuelta el 22 de octubre. Feijóo, Abascal y Colau aceptaron ir al pódcast The Wild Project de Jordi Wild, que publicará todas las entrevistas el 13 de noviembre, primer día de campaña; Sánchez no había respondido a Wild el 22 de octubre («Eso ya lo responderé», dijo en La Revuelta). Ada Colau también aceptó ir a La Revuelta, sin fecha. Aquí está, por candidato, lo anunciado con su fuente. Los partidos van en el orden de votos de 2023. Última actualización: ${UPD}.`,
+    lead: `Última hora: Pedro Sánchez irá a The Wild Project. Lo confirmó en X el 23 de octubre a las 20:23 («Gracias por la invitación, @JordiWild. Ahí estaré») y Jordi Wild respondió «Pues ya estaría: 4/4». Los cuatro candidatos (Feijóo, Sánchez, Abascal y Colau) han aceptado. Según Jordi Wild, todas las charlas se publican el 13 de noviembre, primer día de campaña. Sánchez fue a La Revuelta el 22 de octubre. Actualizado el ${UPD}.`,
     cta: WILD,
     secondaryCta: REVUELTA_INV,
-    sources: [WILD, WILD_MARCA, SANCHEZ_WILD_HORM, REVUELTA_INV, COLAU_REVUELTA, COLAU_TVE, RTVE_ANUNCIO],
-    related: [ARTIC, AGENDA, DEBATE, CAMPANA, ELEC],
+    sources: [WILD_TWEET, WILD_JORDI_44, WILD_JORDI_PLAN, WILD_WIKI, WILD, WILD_MARCA, SANCHEZ_WILD_HORM, REVUELTA_INV, COLAU_REVUELTA, COLAU_TVE, RTVE_ANUNCIO],
+    related: [{ href: "/elecciones", label: "Pedro Sánchez en The Wild Project: qué es y cuándo sale" }, ARTIC, AGENDA, DEBATE, CAMPANA, ELEC],
     faqs: [
       { q: "¿Va a ir Feijóo a La Revuelta?", a: "El 22 de octubre David Broncano dijo que Feijóo y Abascal estaban invitados y que no habían respondido. No hay fecha." },
-      { q: "¿Cuándo son las entrevistas de Jordi Wild?", a: "Según Marca (22 de octubre), Jordi Wild publicará todas las entrevistas el viernes 13 de noviembre, primer día de campaña, con una hora de diferencia y de menos a más escaños. Feijóo, Abascal y Colau han aceptado. Sánchez no había respondido el 22 de octubre y el plazo que dio Wild acababa el viernes 23." },
+      ...WILD_FAQS,
       { q: "¿Va a ir Sánchez a El Hormiguero?", a: "Pablo Motos dijo que Sánchez está invitado para la campaña del 29-N. En La Revuelta, según El Plural, Sánchez dijo que irá «a El Hormiguero y donde haga falta». No hay fecha publicada." },
     ],
     sections: [
+      {
+        id: "sanchez-the-wild-project",
+        title: "Pedro Sánchez irá a The Wild Project",
+        paragraphs: [
+          `Confirmado por el candidato. Pedro Sánchez escribió en X el viernes 23 de octubre de 2026 a las 20:23 (hora peninsular): «${WILD_TEXTO}». Jordi Wild citó el mensaje a las 20:39: «Pues ya estaría: 4/4».`,
+          "Fecha: Sánchez no la ha dado. El 22 de octubre Jordi Wild anunció en X que publicará todas las charlas el 13 de noviembre, primer día oficial de campaña, con una hora de diferencia entre una y otra, de menos a más escaños. No hay hora publicada para cada entrevista.",
+          "Quién es Jordi Wild: Jorge Carrillo de Albornoz Torres, youtuber y podcaster español, autor del canal El Rincón de Giorgio (Wikipedia). Qué es The Wild Project: su pódcast de entrevistas, que empezó en 2020, con formato de charla con un invitado y una tertulia. El realizador y editor es Nacho Amela (Wikipedia).",
+          "En la tabla de abajo están las entrevistas y pódcast de todos los candidatos, con su fuente.",
+        ],
+      },
       {
         id: "tabla",
         title: "Entrevistas anunciadas por candidato",
@@ -216,10 +228,10 @@ export const AGENDA_29N_GUIDES: Guide[] = [
           caption: `Entrevistas y pódcast de los candidatos del 29-N (actualizado el ${UPD})`,
           head: ["Partido y candidato", "Programa", "Estado", "Fecha", "Fuente"],
           rows: [
-            { cells: ["PP · Alberto Núñez Feijóo", "The Wild Project (pódcast de Jordi Wild)", "Aceptada", "Publicación prevista el 13 de noviembre"], source: WILD_MARCA },
+            { cells: ["PSOE · Pedro Sánchez", "The Wild Project (pódcast de Jordi Wild)", "Confirmada por el candidato en X el 23 de octubre («Ahí estaré»)", "Publicación prevista el 13 de noviembre (anuncio de Jordi Wild)"], source: WILD_TWEET },
+            { cells: ["PP · Alberto Núñez Feijóo", "The Wild Project", "Aceptada", "Publicación prevista el 13 de noviembre"], source: WILD_MARCA },
             { cells: ["PP · Alberto Núñez Feijóo", "La Revuelta (La 1)", "Invitado, sin respuesta", "—"], source: REVUELTA_INV },
             { cells: ["PSOE · Pedro Sánchez", "La Revuelta (La 1)", "Emitida", "22 de octubre"], source: RTVE_DIRECTO },
-            { cells: ["PSOE · Pedro Sánchez", "The Wild Project", "Sin respuesta a 22 de octubre (plazo: 23 de octubre)", "—"], source: WILD_MARCA },
             { cells: ["PSOE · Pedro Sánchez", "El Hormiguero (Antena 3)", "Dice que irá; sin fecha", "—"], source: SANCHEZ_WILD_HORM },
             { cells: ["Vox · Santiago Abascal", "The Wild Project", "Aceptada", "Publicación prevista el 13 de noviembre"], source: WILD_MARCA },
             { cells: ["Vox · Santiago Abascal", "La Revuelta (La 1)", "Invitado, sin respuesta", "—"], source: REVUELTA_INV },
