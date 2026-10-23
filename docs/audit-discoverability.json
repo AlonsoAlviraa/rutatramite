@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-10-20T20:19:47.006197+00:00",
-  "build_id": "kk4ZA1tmRMmpcAmB1G0Qg",
+  "checked_at": "2026-10-23T06:54:19.697530+00:00",
+  "build_id": "4HOgb7vvD1sLTgqUZp5hk",
   "scope": "Generated HTML: distinct page/rule pairs. Skipped rules excluded; no HTTP, ranking or AI citation guarantee.",
-  "pages": 393,
+  "pages": 406,
   "counts": {
-    "pass": 8132,
-    "skipped": 514
+    "pass": 8405,
+    "skipped": 527
   },
   "maximum_click_depth": 3,
   "results": [
@@ -2079,7 +2079,7 @@
     },
     {
       "path": "/elecciones/promesas/que-propone-cada-partido-educacion",
-      "click_depth": 2,
+      "click_depth": 1,
       "checks": [
         {
           "rule": "title_present",
@@ -2173,7 +2173,7 @@
     },
     {
       "path": "/elecciones/promesas/que-propone-cada-partido-instituciones-y-gasto-publico",
-      "click_depth": 2,
+      "click_depth": 1,
       "checks": [
         {
           "rule": "title_present",
@@ -2267,7 +2267,7 @@
     },
     {
       "path": "/elecciones/promesas/partido-pp",
-      "click_depth": 2,
+      "click_depth": 1,
       "checks": [
         {
           "rule": "title_present",
@@ -2361,7 +2361,7 @@
     },
     {
       "path": "/elecciones/promesas/partido-psoe",
-      "click_depth": 2,
+      "click_depth": 1,
       "checks": [
         {
           "rule": "title_present",
@@ -2455,7 +2455,7 @@
     },
     {
       "path": "/elecciones/promesas/partido-vox",
-      "click_depth": 2,
+      "click_depth": 1,
       "checks": [
         {
           "rule": "title_present",
@@ -6121,7 +6121,7 @@
     },
     {
       "path": "/elecciones/salario-minimo-1800-euros",
-      "click_depth": 1,
+      "click_depth": 2,
       "checks": [
         {
           "rule": "title_present",
@@ -7061,7 +7061,7 @@
     },
     {
       "path": "/elecciones/debate-electoral-29n",
-      "click_depth": 2,
+      "click_depth": 1,
       "checks": [
         {
           "rule": "title_present",
@@ -7437,7 +7437,7 @@
     },
     {
       "path": "/elecciones/no-recibir-propaganda-electoral",
-      "click_depth": 1,
+      "click_depth": 2,
       "checks": [
         {
           "rule": "title_present",
@@ -8471,6 +8471,570 @@
     },
     {
       "path": "/elecciones/estudio-error-cis-generales",
+      "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/elecciones/cuanto-vale-tu-voto-por-provincia-29n",
+      "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/elecciones/sanchez-la-revuelta-29n",
+      "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/elecciones/agenda-mitines-29n",
+      "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/elecciones/podcasts-entrevistas-candidatos-29n",
+      "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/elecciones/voto-util-29n",
+      "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/elecciones/mapa-voto-util-29n",
       "click_depth": 2,
       "checks": [
         {
@@ -11008,6 +11572,194 @@
       ]
     },
     {
+      "path": "/trabajo/pension-viudedad-pareja-de-hecho-con-hijos",
+      "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/trabajo/fondo-garantia-pago-alimentos-300-euros",
+      "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
       "path": "/dni/clave-registrarse",
       "click_depth": 2,
       "checks": [
@@ -12982,6 +13734,382 @@
       ]
     },
     {
+      "path": "/elecciones/votar-ley-de-nietos-29n",
+      "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/elecciones/promesas-incumplidas",
+      "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/alquiler/caso-maricarmen-desahucio",
+      "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "path": "/trabajo/huelga-general-11-noviembre",
+      "click_depth": 2,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "pass"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "pass"
+        }
+      ]
+    },
+    {
       "path": "/elecciones/voto-temporalmente-fuera-erta",
       "click_depth": 2,
       "checks": [
@@ -13641,7 +14769,7 @@
     },
     {
       "path": "/elecciones/cuando-se-cobra-la-dieta-de-mesa",
-      "click_depth": 1,
+      "click_depth": 2,
       "checks": [
         {
           "rule": "title_present",
@@ -13735,7 +14863,7 @@
     },
     {
       "path": "/elecciones/voluntario-mesa-electoral",
-      "click_depth": 1,
+      "click_depth": 2,
       "checks": [
         {
           "rule": "title_present",
@@ -13829,7 +14957,7 @@
     },
     {
       "path": "/elecciones/que-pasa-si-no-voy-a-la-mesa",
-      "click_depth": 1,
+      "click_depth": 2,
       "checks": [
         {
           "rule": "title_present",
@@ -13923,7 +15051,7 @@
     },
     {
       "path": "/elecciones/horario-mesa-electoral",
-      "click_depth": 1,
+      "click_depth": 2,
       "checks": [
         {
           "rule": "title_present",
@@ -15990,6 +17118,100 @@
       ]
     },
     {
+      "path": "/quienes-somos",
+      "click_depth": 1,
+      "checks": [
+        {
+          "rule": "title_present",
+          "result": "pass"
+        },
+        {
+          "rule": "title_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "description_present",
+          "result": "pass"
+        },
+        {
+          "rule": "description_unique",
+          "result": "pass"
+        },
+        {
+          "rule": "one_nonempty_h1",
+          "result": "pass"
+        },
+        {
+          "rule": "canonical_matches_sitemap",
+          "result": "pass"
+        },
+        {
+          "rule": "indexable_meta",
+          "result": "pass"
+        },
+        {
+          "rule": "spanish_document",
+          "result": "pass"
+        },
+        {
+          "rule": "one_main_landmark",
+          "result": "pass"
+        },
+        {
+          "rule": "responsive_viewport",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_title",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_description",
+          "result": "pass"
+        },
+        {
+          "rule": "open_graph_url",
+          "result": "pass"
+        },
+        {
+          "rule": "twitter_card",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_present",
+          "result": "pass"
+        },
+        {
+          "rule": "jsonld_parseable",
+          "result": "pass"
+        },
+        {
+          "rule": "organization_identified",
+          "result": "pass"
+        },
+        {
+          "rule": "reachable_via_indexable_pages_from_home",
+          "result": "pass"
+        },
+        {
+          "rule": "local_fragment_targets",
+          "result": "pass"
+        },
+        {
+          "rule": "image_alt_attribute",
+          "result": "skipped"
+        },
+        {
+          "rule": "article_editorial_date",
+          "result": "skipped"
+        },
+        {
+          "rule": "citations_visible_as_links",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
       "path": "/metodologia",
       "click_depth": 1,
       "checks": [
@@ -17861,11 +19083,11 @@
         },
         {
           "rule": "article_editorial_date",
-          "result": "skipped"
+          "result": "pass"
         },
         {
           "rule": "citations_visible_as_links",
-          "result": "skipped"
+          "result": "pass"
         }
       ]
     },
