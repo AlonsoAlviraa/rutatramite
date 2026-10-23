@@ -10,7 +10,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
   "h1": "Debates electorales del 29-N: fechas propuestas, quién ha aceptado y qué falta",
   "title": "Debate electoral 29-N: 16, 23 y 26 de noviembre",
   "description": "¿Cuándo es el debate electoral del 29-N? Cara a cara en Mediaset el 16-N (aceptado por el PP), portavoces en RTVE el 23 y a cuatro el 26. Lo que falta.",
-  "lead": "Respuesta corta: a 23 de octubre de 2026 no hemos encontrado ningún debate con fecha cerrada por la cadena y por todos los participantes, pero hay avances: el PSOE y el PP han aceptado un cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo el lunes 16 de noviembre en una cadena privada (el PP la sitúa en Mediaset). Los dos aceptan también un debate a cuatro el jueves 26, pero no se ponen de acuerdo en la cadena: el PSOE acepta el de RTVE y el PP dice que «no habrá debate a cuatro en RTVE» y lo quiere en Atresmedia. RTVE propone además uno de portavoces el lunes 23, que el PP acepta y el PSOE no ha confirmado. Antes de la campaña, laSexta emitirá dos debates con representantes de PSOE, PP, Vox y Frente Amplio el 2 y el 9 de noviembre. La campaña va del 13 al 27 de noviembre.",
+  "lead": "Respuesta corta: a 23 de octubre de 2026 no hemos encontrado ningún debate con fecha cerrada por la cadena y por todos los participantes, pero hay avances: el PP y el PSOE han aceptado un cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo el lunes 16 de noviembre en una cadena privada (el PP la sitúa en Mediaset). Los dos aceptan también un debate a cuatro el jueves 26, pero no se ponen de acuerdo en la cadena: el PSOE acepta el de RTVE y el PP dice que «no habrá debate a cuatro en RTVE» y lo quiere en Atresmedia. RTVE propone además uno de portavoces el lunes 23, que el PP acepta y el PSOE no ha confirmado. Antes de la campaña, laSexta emitirá dos debates con representantes de PP, PSOE, Vox y Frente Amplio el 2 y el 9 de noviembre. La campaña va del 13 al 27 de noviembre.",
   "cta": {
    "href": "/elecciones/calendario-29-noviembre",
    "label": "Calendario completo del 29-N"
@@ -122,7 +122,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
    },
    {
     "q": "¿Qué son los debates de laSexta del 2 y el 9 de noviembre?",
-    "a": "Dos debates de «laSexta Debate: hablamos de lo que importa», moderados por Ana Pastor, con representantes (no necesariamente los candidatos) de PSOE, PP, Vox y Frente Amplio. El del 2 de noviembre trata vivienda y economía; el del 9, regeneración, inmigración y Estado de bienestar. Son antes de la campaña y tendrán público en plató."
+    "a": "Dos debates de «laSexta Debate: hablamos de lo que importa», moderados por Ana Pastor, con representantes (no necesariamente los candidatos) de PP, PSOE, Vox y Frente Amplio. El del 2 de noviembre trata vivienda y economía; el del 9, regeneración, inmigración y Estado de bienestar. Son antes de la campaña y tendrán público en plató."
    },
    {
     "q": "¿Cuándo fueron los debates de 2023?",
@@ -207,7 +207,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
       {
        "cells": [
         "laSexta",
-        "Dos debates de representantes de PSOE, PP, Vox y Frente Amplio, moderados por Ana Pastor (vivienda y economía; regeneración, inmigración y Estado de bienestar)",
+        "Dos debates de representantes de PP, PSOE, Vox y Frente Amplio, moderados por Ana Pastor (vivienda y economía; regeneración, inmigración y Estado de bienestar)",
         "Lunes 2 y lunes 9 de noviembre (anunciados por la cadena)"
        ],
        "source": {
@@ -321,7 +321,7 @@ export const CUANDO_29N_GUIDES: Guide[] = [
        "cells": [
         "Julio de 2023",
         "Debate a siete de portavoces en RTVE",
-        "PSOE, PP, Vox, Sumar, ERC, PNV y EH Bildu"
+        "PP, PSOE, Vox, Sumar, ERC, EH Bildu y PNV"
        ],
        "source": {
         "label": "RTVE, 19-07-2023: los tres debates de la campaña del 23-J",

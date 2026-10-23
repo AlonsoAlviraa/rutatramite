@@ -47,7 +47,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
     faqs: [
       { q: "¿Cuándo fue Pedro Sánchez a La Revuelta?", a: "El jueves 22 de octubre de 2026, en La 1 y RTVE Play, a partir de las 21:45. Fue el primer candidato al 29-N que acudió al programa." },
       { q: "¿Dónde se puede ver la entrevista completa?", a: "En RTVE Play, la plataforma gratuita de RTVE. El enlace está al principio de esta página." },
-      { q: "¿Van a ir otros candidatos?", a: "Según RTVE y elDiario.es, el programa invitó a los candidatos de PSOE, PP, Vox y Frente Amplio. Ada Colau ha aceptado; Feijóo y Abascal no habían respondido el 22 de octubre. Lo actualizamos en la página de entrevistas." },
+      { q: "¿Van a ir otros candidatos?", a: "Según RTVE y elDiario.es, el programa invitó a los candidatos de PP, PSOE, Vox y Frente Amplio. Ada Colau ha aceptado; Feijóo y Abascal no habían respondido el 22 de octubre. Lo actualizamos en la página de entrevistas." },
       { q: "¿Qué dijo sobre la vivienda?", a: "Que «la clave no es solo construir viviendas, sino que sean asequibles» y que el problema está «en los aticazos y en los fondos buitre», según El Confidencial." },
     ],
     sections: [
@@ -174,7 +174,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
         title: "Debates con fecha",
         paragraphs: [
           "El PSOE ha aceptado un cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo el lunes 16 de noviembre en una cadena privada, fecha que el PP había aceptado antes en Mediaset. Sobre el debate a cuatro del jueves 26 de noviembre no hay acuerdo de cadena: el PSOE acepta el de RTVE y el PP responde que «no habrá debate a cuatro en RTVE» y lo quiere en Atresmedia. RTVE propone además uno de portavoces el lunes 23.",
-          "laSexta emitirá dos debates con representantes de PSOE, PP, Vox y Frente Amplio los días 2 y 9 de noviembre, moderados por Ana Pastor.",
+          "laSexta emitirá dos debates con representantes de PP, PSOE, Vox y Frente Amplio los días 2 y 9 de noviembre, moderados por Ana Pastor.",
           "Todos los detalles, en la página de debates.",
         ],
       },
