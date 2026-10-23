@@ -36,7 +36,7 @@ a:hover { color:var(--moss-dark); }
 .brand-wordmark { display:block; font-size:1.45rem; }
 @media (prefers-reduced-motion:no-preference) { .brand-mark { transition:transform 150ms ease, box-shadow 150ms ease; } }
 @media (forced-colors:active) { .brand-lockup { forced-color-adjust:auto; border:1px solid LinkText; } }
-.brand-mark { display:block; width:40px; height:40px; flex:none; border-radius:9px; background:#1B4332; color:#FAF7F2; }
+.brand-mark { display:block; width:40px; height:40px; flex:none; border-radius:50%; background:#1B4332; color:#FAF7F2; }
 .brand-ruta { color:#252B26; }
 .brand-tramite { color:#1B4332; }
 .site-nav { display:flex; align-items:center; gap:1.1rem; }

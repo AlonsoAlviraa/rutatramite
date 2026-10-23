@@ -9,9 +9,9 @@ export function SiteHeader() {
           <a href="/" aria-label={PRODUCT_NAME} title="Ir a la portada de RutaTrámite" className="brand-lockup font-display text-xl font-bold leading-tight tracking-tight no-underline" data-brand-home="">
             <span className="flex items-center gap-[10px]">
               <svg className="brand-mark" width="40" height="40" viewBox="0 0 40 40" style={{ width: 40, height: 40 }} aria-hidden="true" focusable="false">
-                <rect width="40" height="40" rx="9" fill="#1B4332" />
-                <path d="M9 31 C15 25 20 27 24 21 S30 12 33 9" fill="none" stroke="#95D5B2" strokeWidth="2.2" strokeLinecap="round" strokeDasharray="0.1 4.2" />
-                <text x="20" y="28.5" textAnchor="middle" fontFamily="Georgia, 'Times New Roman', serif" fontSize="25" fontWeight="700" fill="#FAF7F2">R</text>
+                <rect width="40" height="40" rx="20" fill="#1B4332" />
+                <path d="M12 31V10h9a6 6 0 0 1 0 12h-4l11 9" fill="none" stroke="#FAF7F2" strokeWidth="3.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M24.5 31H28.5V27" fill="none" stroke="#E9A23B" strokeWidth="3.6" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
               <span className="brand-wordmark">
                 <span className="brand-ruta" style={{ color: "#252B26" }}>Ruta</span>

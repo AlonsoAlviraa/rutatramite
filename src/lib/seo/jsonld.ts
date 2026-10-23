@@ -13,7 +13,7 @@ export function organizationJsonLd(): WithContext<Organization> {
     name: PRODUCT_NAME,
     alternateName: "Equipo RutaTrámite",
     url: SITE_ORIGIN,
-    logo: `${SITE_ORIGIN}/icon`,
+    logo: `${SITE_ORIGIN}/icon-512.png`,
     description:
       "Guía ciudadana independiente sobre trámites en España: padrón, documentación, extranjería, educación, familia y modelos de escritos. No es Administración Pública.",
     areaServed: { "@type": "Country", name: "España" },

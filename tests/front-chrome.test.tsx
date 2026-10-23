@@ -76,7 +76,9 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
     expect(html).toContain("#252B26");
     expect(html).toContain("width:40px");
     expect(html).toContain("height:40px");
-    expect(html).toContain(">R<");
+    expect(html).toContain("M12 31V10h9a6 6 0 0 1 0 12h-4l11 9");
+    expect(html).toContain("#E9A23B");
+    expect(html).not.toContain(">R<");
     expect(html).toContain(">Ruta<");
     expect(html).toContain(">Trámite<");
     expect(html).toContain(PRODUCT_NAME);
@@ -97,7 +99,7 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
   it("Organization JSON-LD points logo at the shipped icon route, not a LocalBusiness", () => {
     const org = JSON.stringify(organizationJsonLd());
     expect(org).toContain('"@type":"Organization"');
-    expect(org).toContain(`"logo":"${SITE_ORIGIN}/icon"`);
+    expect(org).toContain(`"logo":"${SITE_ORIGIN}/icon-512.png"`);
     expect(org).toContain(`"name":"${PRODUCT_NAME}"`);
     expect(org).not.toContain("LocalBusiness");
   });
