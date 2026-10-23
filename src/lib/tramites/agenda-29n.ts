@@ -136,7 +136,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
     cta: VOX_ACTOS,
     secondaryCta: { href: "/elecciones/campana-y-precampana", label: "Campaña y precampaña: qué fechas marca la ley" },
     sources: [FEIJOO_VIGO, SANCHEZ_VITORIA, VOX_ACTOS, DEBATES_EE, LASEXTA],
-    related: [ENTREV, ARTIC, DEBATE, CAMPANA, { href: "/elecciones/calendario-29-noviembre", label: "Calendario del 29-N" }, ELEC],
+    related: [{ href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, ENTREV, ARTIC, DEBATE, CAMPANA, { href: "/elecciones/calendario-29-noviembre", label: "Calendario del 29-N" }, ELEC],
     faqs: [
       { q: "¿Cuándo empieza la campaña electoral del 29-N?", a: "A las 0:00 del viernes 13 de noviembre de 2026 y termina a las 24:00 del viernes 27 (Real Decreto 806/2026). Los actos de antes son de precampaña." },
       { q: "¿Por qué hay candidatos sin actos en la tabla?", a: "Porque ni su partido ni un medio fiable han publicado todavía la fecha y el lugar. Marcamos «sin agenda publicada» y lo revisamos cada día." },

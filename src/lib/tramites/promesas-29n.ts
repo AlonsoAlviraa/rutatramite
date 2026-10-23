@@ -31759,7 +31759,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
 }
 ],
-"related": [
+"related": [{"href": "/elecciones/voto-util-29n", "label": "Voto útil: derecha, izquierda y peso de tu provincia"}, 
 {
 "href": "/elecciones/como-se-reparten-los-escanos",
 "label": "Cómo se reparten los escaños"

@@ -1192,7 +1192,7 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
     cta: L163,
     secondaryCta: S.boe2023,
     sources: [L163, L162, S.boe2023],
-    related: [R.dhondt, R.blanco, R.provincias, R.escanosEnc, R.nulo, R.hub],
+    related: [{ href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, R.dhondt, R.blanco, R.provincias, R.escanosEnc, R.nulo, R.hub],
     faqs: [
       { q: "¿El 3 % es nacional?", a: "No. Se calcula en cada circunscripción sobre los votos válidos, que incluyen el voto en blanco." },
       { q: "¿En qué provincias importa el 3 %?", a: "Solo en las que reparten muchos escaños, como Madrid o Barcelona. En las demás, D'Hondt exige bastante más para lograr un escaño." },

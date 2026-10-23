@@ -32,6 +32,7 @@ import { NOVEDADES_20261021_GUIDES } from "@/lib/tramites/novedades-20261021";
 import { PROMESAS_INCUMPLIDAS_GUIDES } from "@/lib/tramites/promesas-incumplidas";
 import { VOTO_PROVINCIA_GUIDES } from "@/lib/tramites/voto-provincia-29n";
 import { AGENDA_29N_GUIDES } from "@/lib/tramites/agenda-29n";
+import { VOTO_UTIL_GUIDES } from "@/lib/tramites/voto-util-29n";
 import { MARICARMEN_HUELGA_GUIDES } from "@/lib/tramites/maricarmen-huelga-11n";
 
 export const ALL_GUIDES: Guide[] = [
@@ -53,6 +54,7 @@ export const ALL_GUIDES: Guide[] = [
   ...PROMESAS_INCUMPLIDAS_GUIDES,
   ...VOTO_PROVINCIA_GUIDES,
   ...AGENDA_29N_GUIDES,
+  ...VOTO_UTIL_GUIDES,
   ...MARICARMEN_HUELGA_GUIDES,
   ...DNI_NICHOS_GUIDES,
   ...MUDANZA_GUIDES,

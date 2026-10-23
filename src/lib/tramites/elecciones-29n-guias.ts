@@ -789,7 +789,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.loreg("anoventayseis", "artículo 96: votos nulos y en blanco"),
     secondaryCta: S.infoelectoral,
     sources: [S.loreg("anoventayseis", "artículo 96"), S.loreg("acientosesentaytres", "artículo 163: reparto de escaños")],
-    related: [{ href: "/elecciones/voto-nulo-ejemplos", label: "Voto nulo: 10 ejemplos y si cuentan" }, R.dhondt, R.senado, R.jornada, R.faq],
+    related: [{ href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, { href: "/elecciones/voto-nulo-ejemplos", label: "Voto nulo: 10 ejemplos y si cuentan" }, R.dhondt, R.senado, R.jornada, R.faq],
     faqs: [
       { q: "¿El voto en blanco ayuda a algún partido?", a: "Cuenta como voto válido. Por eso entra en el cálculo del 3 % mínimo que exige el artículo 163 para el reparto de escaños del Congreso." },
       { q: "¿Si meto dos papeletas iguales?", a: "Según el artículo 96, varias papeletas de la misma candidatura cuentan como un solo voto válido." },
@@ -815,7 +815,7 @@ const BASE_29N_GUIDES: Guide[] = [
     cta: S.loreg("acientosesentaytres", "artículo 163: atribución de escaños"),
     secondaryCta: S.rd,
     sources: [S.loreg("acientosesentaytres", "artículo 163"), S.rd],
-    related: [{ href: "/elecciones/cuanto-vale-tu-voto-por-provincia-29n", label: "Cuánto vale tu voto por provincia (datos)" }, R.senado, R.nulo, R.resultados, R.faq],
+    related: [{ href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, { href: "/elecciones/cuanto-vale-tu-voto-por-provincia-29n", label: "Cuánto vale tu voto por provincia (datos)" }, R.senado, R.nulo, R.resultados, R.faq],
     faqs: [
       { q: "¿Cuántos diputados elige mi provincia?", a: "El anexo del Real Decreto 806/2026 lo detalla: por ejemplo, Madrid elige 38, Barcelona 32 y Soria 2." },
     ],
