@@ -74,8 +74,8 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
     expect(html).toContain("#1B4332");
     expect(html).toContain("#FAF7F2");
     expect(html).toContain("#252B26");
-    expect(html).toContain("width:28px");
-    expect(html).toContain("height:28px");
+    expect(html).toContain("width:40px");
+    expect(html).toContain("height:40px");
     expect(html).toContain(">R<");
     expect(html).toContain(">Ruta<");
     expect(html).toContain(">Trámite<");
