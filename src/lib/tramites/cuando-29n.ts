@@ -5,12 +5,12 @@ export const CUANDO_29N_GUIDES: Guide[] = [
  {
   "id": "c29n-debate",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-22",
+  "reviewedAt": "2026-10-23",
   "path": "/elecciones/debate-electoral-29n",
   "h1": "Debates electorales del 29-N: fechas propuestas, quién ha aceptado y qué falta",
   "title": "Debate electoral 29-N: 16, 23 y 26 de noviembre",
   "description": "¿Cuándo es el debate electoral del 29-N? Cara a cara en Mediaset el 16-N (aceptado por el PP), portavoces en RTVE el 23 y a cuatro el 26. Lo que falta.",
-  "lead": "Respuesta corta: a 22 de octubre de 2026 no hemos encontrado ningún debate con fecha cerrada por la cadena y por todos los participantes. El PP ha aceptado un cara a cara en Mediaset el lunes 16 de noviembre, un debate a cuatro en Atresmedia el jueves 26 y uno de portavoces en RTVE el lunes 23; el PSOE dice que irá «a todos los debates» sin fijar fechas. Cualquier debate caerá dentro de la campaña, del 13 al 27 de noviembre.",
+  "lead": "Respuesta corta: a 23 de octubre de 2026 no hemos encontrado ningún debate con fecha cerrada por la cadena y por todos los participantes, pero hay avances: el PSOE y el PP han aceptado un cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo el lunes 16 de noviembre en una cadena privada (el PP la sitúa en Mediaset). Los dos aceptan también un debate a cuatro el jueves 26, pero no se ponen de acuerdo en la cadena: el PSOE acepta el de RTVE y el PP dice que «no habrá debate a cuatro en RTVE» y lo quiere en Atresmedia. RTVE propone además uno de portavoces el lunes 23, que el PP acepta y el PSOE no ha confirmado. Antes de la campaña, laSexta emitirá dos debates con representantes de PSOE, PP, Vox y Frente Amplio el 2 y el 9 de noviembre. La campaña va del 13 al 27 de noviembre.",
   "cta": {
    "href": "/elecciones/calendario-29-noviembre",
    "label": "Calendario completo del 29-N"
@@ -63,6 +63,22 @@ export const CUANDO_29N_GUIDES: Guide[] = [
    {
     "label": "LOREG, artículo 69: sondeos",
     "href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#asesentaynueve"
+   },
+   {
+    "label": "Europa Press, 22-10-2026: Sánchez acepta el cara a cara y pide el debate a cuatro en TVE; el PP lo rechaza",
+    "href": "https://www.europapress.es/nacional/noticia-sanchez-acepta-cara-cara-feijoo-quiere-debate-cuatro-26-noviembre-sea-tve-20261022175207.html"
+   },
+   {
+    "label": "El País, 22-10-2026: el PSOE acepta un cara a cara con Feijóo el 16 de noviembre",
+    "href": "https://elpais.com/espana/elecciones-generales/2026-10-22/el-psoe-acepta-un-cara-a-cara-con-feijoo-el-16-de-noviembre.html"
+   },
+   {
+    "label": "laSexta, 22-10-2026: Atresmedia mantiene su oferta de cara a cara y debate a cuatro",
+    "href": "https://www.lasexta.com/elecciones/generales/atresmedia-mantiene-oferta-organizar-debate-cara-cara-otro-cuatro-principales-partidos_202610226ada62db658beb674b23cc50.html"
+   },
+   {
+    "label": "Europa Press, 21-10-2026: laSexta emitirá dos debates el 2 y el 9 de noviembre",
+    "href": "https://www.europapress.es/sociedad/noticia-lasexta-emitira-dos-debates-ana-pastor-portavoces-psoe-pp-vox-frente-amplio-noviembre-20261021145644.html"
    }
   ],
   "related": [
@@ -94,15 +110,19 @@ export const CUANDO_29N_GUIDES: Guide[] = [
   "faqs": [
    {
     "q": "¿Cuándo es el debate electoral del 29-N?",
-    "a": "A 22 de octubre de 2026 no hay fecha cerrada por todas las partes. Las fechas que se manejan son el 16 de noviembre (cara a cara en Mediaset, aceptado por el PP), el 17 (cara a cara propuesto por RTVE), el 23 (portavoces en RTVE) y el 26 (debate a cuatro, propuesto por RTVE y pedido por el PP a Atresmedia)."
+    "a": "El único con fecha aceptada por los dos grandes partidos es el cara a cara Sánchez–Feijóo del lunes 16 de noviembre, en una cadena privada aún por cerrar. El debate a cuatro del jueves 26 tiene fecha, pero no cadena (el PSOE quiere RTVE y el PP, Atresmedia). Antes, laSexta emite dos debates de representantes de los partidos el 2 y el 9 de noviembre. Datos a 23 de octubre de 2026."
    },
    {
     "q": "¿Habrá cara a cara entre Sánchez y Feijóo?",
-    "a": "El PP ha aceptado el de Mediaset el lunes 16 de noviembre y RTVE propone el martes 17. El PSOE ha dicho que participará en todos los debates, pero que los organizan los medios, no los partidos; no ha anunciado una fecha."
+    "a": "Sí, si se mantiene lo anunciado: el 22 de octubre el PSOE aceptó un cara a cara «organizado por medios privados» el lunes 16 de noviembre, la fecha que el PP había aceptado en Mediaset. Falta que la cadena anuncie hora y formato."
    },
    {
     "q": "¿Habrá debate a cuatro?",
-    "a": "RTVE lo propone para el 26 de noviembre con PP, PSOE, Vox y Frente Amplio. Atresmedia ofrecía el 18 y el PP le ha pedido el 26. Antena 3 informó el 9 de octubre de que Vox habría aceptado esa fecha."
+    "a": "Está en el aire. PSOE y PP aceptan el jueves 26 de noviembre con Vox y Frente Amplio, pero el PSOE acepta la invitación de RTVE y el PP responde que «no habrá debate a cuatro en RTVE» y defiende Atresmedia, que mantiene su oferta. Antena 3 informó el 9 de octubre de que Vox habría aceptado el 26."
+   },
+   {
+    "q": "¿Qué son los debates de laSexta del 2 y el 9 de noviembre?",
+    "a": "Dos debates de «laSexta Debate: hablamos de lo que importa», moderados por Ana Pastor, con representantes (no necesariamente los candidatos) de PSOE, PP, Vox y Frente Amplio. El del 2 de noviembre trata vivienda y economía; el del 9, regeneración, inmigración y Estado de bienestar. Son antes de la campaña y tendrán público en plató."
    },
    {
     "q": "¿Cuándo fueron los debates de 2023?",
@@ -166,22 +186,33 @@ export const CUANDO_29N_GUIDES: Guide[] = [
        "cells": [
         "Atresmedia",
         "A cuatro con los principales candidatos",
-        "Miércoles 18 de noviembre (el PP pide el 26)"
+        "Ofrecía el miércoles 18; el PP pide el jueves 26. El 22-10 mantiene su oferta de cara a cara y debate a cuatro"
        ],
        "source": {
-        "label": "El País, 09-10-2026: Atresmedia ofrecía el 18 de noviembre para el debate a cuatro",
-        "href": "https://elpais.com/espana/elecciones-generales/2026-10-09/feijoo-acepta-un-debate-cara-a-cara-con-sanchez-y-otro-a-cuatro-con-el-resto-de-candidatos.html"
+        "label": "laSexta, 22-10-2026: Atresmedia mantiene su oferta de cara a cara y debate a cuatro",
+        "href": "https://www.lasexta.com/elecciones/generales/atresmedia-mantiene-oferta-organizar-debate-cara-cara-otro-cuatro-principales-partidos_202610226ada62db658beb674b23cc50.html"
        }
       },
       {
        "cells": [
         "Mediaset",
         "Cara a cara Sánchez–Feijóo",
-        "Lunes 16 de noviembre, fecha que plantea el PP al aceptar"
+        "Lunes 16 de noviembre: la plantea el PP; el PSOE acepta el 16 en «medios privados» sin citar cadena"
        ],
        "source": {
-        "label": "EFE, 09-10-2026: el PP acepta tres debates",
-        "href": "https://efe.com/espana/2026-10-09/pp-acepta-tres-debates-electorales-29n/"
+        "label": "Europa Press, 22-10-2026: Sánchez acepta el cara a cara y pide el debate a cuatro en TVE; el PP lo rechaza",
+        "href": "https://www.europapress.es/nacional/noticia-sanchez-acepta-cara-cara-feijoo-quiere-debate-cuatro-26-noviembre-sea-tve-20261022175207.html"
+       }
+      },
+      {
+       "cells": [
+        "laSexta",
+        "Dos debates de representantes de PSOE, PP, Vox y Frente Amplio, moderados por Ana Pastor (vivienda y economía; regeneración, inmigración y Estado de bienestar)",
+        "Lunes 2 y lunes 9 de noviembre (anunciados por la cadena)"
+       ],
+       "source": {
+        "label": "Europa Press, 21-10-2026: laSexta emitirá dos debates el 2 y el 9 de noviembre",
+        "href": "https://www.europapress.es/sociedad/noticia-lasexta-emitira-dos-debates-ana-pastor-portavoces-psoe-pp-vox-frente-amplio-noviembre-20261021145644.html"
        }
       }
      ]
@@ -202,6 +233,28 @@ export const CUANDO_29N_GUIDES: Guide[] = [
       "Fuente"
      ],
      "rows": [
+      {
+       "cells": [
+        "PP",
+        "«No habrá debate a cuatro en RTVE». Mantiene el 16 de noviembre en Mediaset y el 26 en Atresmedia",
+        "22-10-2026"
+       ],
+       "source": {
+        "label": "Europa Press, 22-10-2026: Sánchez acepta el cara a cara y pide el debate a cuatro en TVE; el PP lo rechaza",
+        "href": "https://www.europapress.es/nacional/noticia-sanchez-acepta-cara-cara-feijoo-quiere-debate-cuatro-26-noviembre-sea-tve-20261022175207.html"
+       }
+      },
+      {
+       "cells": [
+        "PSOE",
+        "Acepta el cara a cara del lunes 16 de noviembre «organizado por medios privados» y el debate a cuatro de RTVE el jueves 26. No se pronuncia sobre el de portavoces del 23",
+        "22-10-2026"
+       ],
+       "source": {
+        "label": "Europa Press, 22-10-2026: Sánchez acepta el cara a cara y pide el debate a cuatro en TVE; el PP lo rechaza",
+        "href": "https://www.europapress.es/nacional/noticia-sanchez-acepta-cara-cara-feijoo-quiere-debate-cuatro-26-noviembre-sea-tve-20261022175207.html"
+       }
+      },
       {
        "cells": [
         "PP",

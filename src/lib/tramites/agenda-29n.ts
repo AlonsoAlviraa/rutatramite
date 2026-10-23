@@ -1,6 +1,6 @@
 import type { Guide } from "@/lib/tramites/types";
 
-const UPD = "22 de octubre de 2026, 23:30 (hora peninsular)";
+const UPD = "23 de octubre de 2026, 9:00 (hora peninsular)";
 
 const RTVE_CRONICA = { href: "https://www.rtve.es/play/noticias/20261022/pedro-sanchez-truco-recomendaron-moncloa-proteger-movil/17279368.shtml", label: "RTVE, 22-10-2026: crónica de la entrevista de Pedro Sánchez en La Revuelta" };
 const RTVE_DIRECTO = { href: "https://www.rtve.es/play/noticias/20261022/pedro-sanchez-revuelta-broncano-directo-video-cronica/17278843.shtml", label: "RTVE Play: La Revuelta con Pedro Sánchez (vídeo)" };
@@ -10,8 +10,14 @@ const ELDIARIO_X = { href: "https://x.com/eldiarioes/status/2113365550797553759"
 const VOX_ACTOS = { href: "https://www.voxespana.es/proximos-actos", label: "Vox: próximos actos (web oficial)" };
 const FEIJOO_VIGO = { href: "https://www.elconfidencial.com/espana/2026-10-21/elecciones-generales-29-n-encuestas-directo_4449404/", label: "El Confidencial, 21-10-2026: Feijóo, acto en Vigo el 24 de octubre" };
 const SANCHEZ_VITORIA = { href: "https://www.infobae.com/espana/agencias/2026/10/22/sanchez-celebrara-un-acto-de-precampana-el-jueves-en-vitoria-para-llamar-a-la-movilizacion-de-los-vascos/", label: "Europa Press (vía Infobae), 22-10-2026: acto de Sánchez en Vitoria" };
-const DEBATES_EE = { href: EC.href, label: "El Confidencial, 22-10-2026: propuestas de debates de PSOE y PP" };
-const LASEXTA = { href: EC.href, label: "El Confidencial, 22-10-2026: laSexta, debates del 2 y 9 de noviembre" };
+const DEBATES_EE = { href: "https://www.europapress.es/nacional/noticia-sanchez-acepta-cara-cara-feijoo-quiere-debate-cuatro-26-noviembre-sea-tve-20261022175207.html", label: "Europa Press, 22-10-2026: el PSOE acepta el cara a cara del 16-N y pide el debate a cuatro en TVE; el PP lo rechaza" };
+const LASEXTA = { href: "https://www.europapress.es/sociedad/noticia-lasexta-emitira-dos-debates-ana-pastor-portavoces-psoe-pp-vox-frente-amplio-noviembre-20261021145644.html", label: "Europa Press, 21-10-2026: laSexta, debates del 2 y 9 de noviembre" };
+const FEIJOO_SALAMANCA = { href: "https://www.europapress.es/castilla-y-leon/noticia-feijoo-visitara-salamanca-domingo-participar-acto-pp-caem-20261021183139.html", label: "Europa Press, 21-10-2026: Feijóo, acto en Salamanca el domingo 25" };
+const SANCHEZ_GRANADA = { href: "https://www.europapress.es/andalucia/noticia-pedro-sanchez-participa-sabado-granada-acto-precampana-generales-20261020150449.html", label: "Europa Press, 20-10-2026: Sánchez, acto en Granada el sábado 24" };
+const SANCHEZ_GIJON = { href: "https://cadenaser.com/asturias/2026/10/20/pedro-sanchez-dara-un-mitin-en-gijon-el-proximo-lunes-en-la-precampana-de-las-elecciones-generales-ser-gijon/", label: "Cadena SER, 20-10-2026: Sánchez, mitin en Gijón el lunes 26" };
+const WILD_MARCA = { href: "https://www.marca.com/tiramillas/sociedad/2026/10/22/jordi-wild-sigo-noticias-pedro-sanchez-manana-ultimo-dia2.html", label: "Marca, 22-10-2026: Jordi Wild, sin respuesta de Sánchez y publicación el 13 de noviembre" };
+const SANCHEZ_WILD_HORM = { href: "https://www.elplural.com/extratele/pedro-sanchez-visitara-jordi-wild-el-hormiguero-anecdota-pablo-motos-gracia_802166102", label: "El Plural, 22-10-2026: qué dijo Sánchez en La Revuelta sobre Jordi Wild y El Hormiguero" };
+const COLAU_TVE = { href: "https://www.elperiodico.com/es/politica/20261023/colau-lanza-turne-televisiva-recuperar-135643168", label: "El Periódico, 23-10-2026: Colau, entrevistada en el programa de Manu Sánchez en TVE" };
 const WILD = { href: "https://www.europapress.es/nacional/noticia-jordi-wild-recibe-si-feijoo-abascal-colau-queda-espera-sanchez-20261020175837.html", label: "Europa Press, 20-10-2026: The Wild Project y los candidatos" };
 const REVUELTA_INV = { href: "https://www.eldiario.es/vertele/noticias/pedro-sanchez-acepta-invitacion-revuelta-sera-entrevistado-jueves-broncano-rtve_1_13604934.html", label: "elDiario.es (verTele), 22-10-2026: invitaciones de La Revuelta" };
 const COLAU_REVUELTA = { href: "https://www.marca.com/tiramillas/television/2026/10/22/ada-colau-confirma-ira-revuelta-acuerda-feijoo-te-traigo-pizza.html", label: "Marca, 22-10-2026: Ada Colau acepta ir a La Revuelta" };
@@ -126,7 +132,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
   {
     id: "29n-agenda-mitines",
     pack: "elecciones",
-    reviewedAt: "2026-10-22",
+    reviewedAt: "2026-10-23",
     disclaimer: "",
     path: "/elecciones/agenda-mitines-29n",
     h1: "Agenda de mítines del 29-N: próximos actos de cada candidato",
@@ -135,7 +141,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
     lead: `Respuesta corta: estos son los próximos actos públicos anunciados por los candidatos a las elecciones del 29 de noviembre, con fecha, ciudad, lugar y la fuente donde se anunciaron. Solo incluimos actos futuros publicados por el propio partido o por un medio fiable. Los partidos van en el orden de votos de las generales de 2023. Última actualización: ${UPD}.`,
     cta: VOX_ACTOS,
     secondaryCta: { href: "/elecciones/campana-y-precampana", label: "Campaña y precampaña: qué fechas marca la ley" },
-    sources: [FEIJOO_VIGO, SANCHEZ_VITORIA, VOX_ACTOS, DEBATES_EE, LASEXTA],
+    sources: [FEIJOO_VIGO, FEIJOO_SALAMANCA, SANCHEZ_GRANADA, SANCHEZ_GIJON, SANCHEZ_VITORIA, VOX_ACTOS, DEBATES_EE, LASEXTA],
     related: [{ href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, ENTREV, ARTIC, DEBATE, CAMPANA, { href: "/elecciones/calendario-29-noviembre", label: "Calendario del 29-N" }, ELEC],
     faqs: [
       { q: "¿Cuándo empieza la campaña electoral del 29-N?", a: "A las 0:00 del viernes 13 de noviembre de 2026 y termina a las 24:00 del viernes 27 (Real Decreto 806/2026). Los actos de antes son de precampaña." },
@@ -153,6 +159,9 @@ export const AGENDA_29N_GUIDES: Guide[] = [
           head: ["Partido y candidato", "Fecha", "Ciudad", "Lugar", "Fuente"],
           rows: [
             { cells: ["PP · Alberto Núñez Feijóo", "Sábado 24 de octubre, 12:00", "Vigo (Pontevedra)", "Estación Marítima, con Alfonso Rueda"], source: FEIJOO_VIGO },
+            { cells: ["PP · Alberto Núñez Feijóo", "Domingo 25 de octubre, 12:00", "Salamanca", "Centro de Artes Escénicas y de la Música (CAEM)"], source: FEIJOO_SALAMANCA },
+            { cells: ["PSOE · Pedro Sánchez", "Sábado 24 de octubre (hora no confirmada por Europa Press)", "Granada", "Palacio de Exposiciones y Congresos"], source: SANCHEZ_GRANADA },
+            { cells: ["PSOE · Pedro Sánchez", "Lunes 26 de octubre, 18:00", "Gijón (Asturias)", "Pabellón central de la Feria de Muestras de Asturias"], source: SANCHEZ_GIJON },
             { cells: ["PSOE · Pedro Sánchez", "Jueves 29 de octubre, 18:30", "Vitoria-Gasteiz (Álava)", "Palacio Europa"], source: SANCHEZ_VITORIA },
             { cells: ["Vox · Santiago Abascal", "Viernes 23 de octubre", "Menorca", "Lugar no publicado"], source: VOX_ACTOS },
             { cells: ["Vox · Santiago Abascal", "Sábado 24 de octubre", "Ibiza", "Lugar no publicado"], source: VOX_ACTOS },
@@ -164,7 +173,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
         id: "debates",
         title: "Debates con fecha",
         paragraphs: [
-          "El PSOE ha aceptado un cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo el lunes 16 de noviembre en una cadena privada, fecha que el PP había aceptado antes. Sobre el debate a cuatro del jueves 26 de noviembre no hay acuerdo de cadena: el PSOE lo quiere en RTVE y el PP en una privada.",
+          "El PSOE ha aceptado un cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo el lunes 16 de noviembre en una cadena privada, fecha que el PP había aceptado antes en Mediaset. Sobre el debate a cuatro del jueves 26 de noviembre no hay acuerdo de cadena: el PSOE acepta el de RTVE y el PP responde que «no habrá debate a cuatro en RTVE» y lo quiere en Atresmedia. RTVE propone además uno de portavoces el lunes 23.",
           "laSexta emitirá dos debates con representantes de PSOE, PP, Vox y Frente Amplio los días 2 y 9 de noviembre, moderados por Ana Pastor.",
           "Todos los detalles, en la página de debates.",
         ],
@@ -182,21 +191,21 @@ export const AGENDA_29N_GUIDES: Guide[] = [
   {
     id: "29n-entrevistas-candidatos",
     pack: "elecciones",
-    reviewedAt: "2026-10-22",
+    reviewedAt: "2026-10-23",
     disclaimer: "",
     path: "/elecciones/podcasts-entrevistas-candidatos-29n",
     h1: "Entrevistas y pódcast de los candidatos del 29-N: quién va y cuándo",
     title: "Candidatos del 29-N en pódcast y TV: La Revuelta, Jordi Wild",
     description: "Qué entrevistas y pódcast han aceptado Feijóo, Sánchez, Abascal y Colau antes del 29-N: La Revuelta, The Wild Project y más. Con fecha y fuente.",
-    lead: `Respuesta corta: Pedro Sánchez fue a La Revuelta el 22 de octubre. Feijóo, Abascal y Colau aceptaron ir al pódcast The Wild Project de Jordi Wild, sin fecha publicada; Ada Colau también aceptó ir a La Revuelta, sin fecha. Aquí está, por candidato, lo anunciado con su fuente. Los partidos van en el orden de votos de 2023. Última actualización: ${UPD}.`,
+    lead: `Respuesta corta: Pedro Sánchez fue a La Revuelta el 22 de octubre. Feijóo, Abascal y Colau aceptaron ir al pódcast The Wild Project de Jordi Wild, que publicará todas las entrevistas el 13 de noviembre, primer día de campaña; Sánchez no había respondido a Wild el 22 de octubre («Eso ya lo responderé», dijo en La Revuelta). Ada Colau también aceptó ir a La Revuelta, sin fecha. Aquí está, por candidato, lo anunciado con su fuente. Los partidos van en el orden de votos de 2023. Última actualización: ${UPD}.`,
     cta: WILD,
     secondaryCta: REVUELTA_INV,
-    sources: [WILD, REVUELTA_INV, COLAU_REVUELTA, RTVE_ANUNCIO],
+    sources: [WILD, WILD_MARCA, SANCHEZ_WILD_HORM, REVUELTA_INV, COLAU_REVUELTA, COLAU_TVE, RTVE_ANUNCIO],
     related: [ARTIC, AGENDA, DEBATE, CAMPANA, ELEC],
     faqs: [
       { q: "¿Va a ir Feijóo a La Revuelta?", a: "El 22 de octubre David Broncano dijo que Feijóo y Abascal estaban invitados y que no habían respondido. No hay fecha." },
-      { q: "¿Cuándo son las entrevistas de Jordi Wild?", a: "Jordi Wild planteó una «semana especial de elecciones». Feijóo, Abascal y Colau han aceptado; Sánchez no había respondido el 20 de octubre y el plazo que dio Wild acaba el viernes 23. No se han publicado fechas." },
-      { q: "¿Va a ir Sánchez a El Hormiguero?", a: "Pablo Motos dijo que Sánchez está invitado para la campaña del 29-N. No hay confirmación publicada." },
+      { q: "¿Cuándo son las entrevistas de Jordi Wild?", a: "Según Marca (22 de octubre), Jordi Wild publicará todas las entrevistas el viernes 13 de noviembre, primer día de campaña, con una hora de diferencia y de menos a más escaños. Feijóo, Abascal y Colau han aceptado. Sánchez no había respondido el 22 de octubre y el plazo que dio Wild acababa el viernes 23." },
+      { q: "¿Va a ir Sánchez a El Hormiguero?", a: "Pablo Motos dijo que Sánchez está invitado para la campaña del 29-N. En La Revuelta, según El Plural, Sánchez dijo que irá «a El Hormiguero y donde haga falta». No hay fecha publicada." },
     ],
     sections: [
       {
@@ -207,14 +216,15 @@ export const AGENDA_29N_GUIDES: Guide[] = [
           caption: `Entrevistas y pódcast de los candidatos del 29-N (actualizado el ${UPD})`,
           head: ["Partido y candidato", "Programa", "Estado", "Fecha", "Fuente"],
           rows: [
-            { cells: ["PP · Alberto Núñez Feijóo", "The Wild Project (pódcast de Jordi Wild)", "Aceptada", "Sin fecha publicada"], source: WILD },
+            { cells: ["PP · Alberto Núñez Feijóo", "The Wild Project (pódcast de Jordi Wild)", "Aceptada", "Publicación prevista el 13 de noviembre"], source: WILD_MARCA },
             { cells: ["PP · Alberto Núñez Feijóo", "La Revuelta (La 1)", "Invitado, sin respuesta", "—"], source: REVUELTA_INV },
             { cells: ["PSOE · Pedro Sánchez", "La Revuelta (La 1)", "Emitida", "22 de octubre"], source: RTVE_DIRECTO },
-            { cells: ["PSOE · Pedro Sánchez", "The Wild Project", "Sin respuesta a 20 de octubre", "—"], source: WILD },
-            { cells: ["PSOE · Pedro Sánchez", "El Hormiguero (Antena 3)", "Invitado por el programa, sin confirmar", "—"], source: REVUELTA_INV },
-            { cells: ["Vox · Santiago Abascal", "The Wild Project", "Aceptada", "Sin fecha publicada"], source: WILD },
+            { cells: ["PSOE · Pedro Sánchez", "The Wild Project", "Sin respuesta a 22 de octubre (plazo: 23 de octubre)", "—"], source: WILD_MARCA },
+            { cells: ["PSOE · Pedro Sánchez", "El Hormiguero (Antena 3)", "Dice que irá; sin fecha", "—"], source: SANCHEZ_WILD_HORM },
+            { cells: ["Vox · Santiago Abascal", "The Wild Project", "Aceptada", "Publicación prevista el 13 de noviembre"], source: WILD_MARCA },
             { cells: ["Vox · Santiago Abascal", "La Revuelta (La 1)", "Invitado, sin respuesta", "—"], source: REVUELTA_INV },
-            { cells: ["Frente Amplio · Ada Colau", "The Wild Project", "Aceptada", "Sin fecha publicada"], source: WILD },
+            { cells: ["Frente Amplio · Ada Colau", "The Wild Project", "Aceptada", "Publicación prevista el 13 de noviembre"], source: WILD_MARCA },
+            { cells: ["Frente Amplio · Ada Colau", "Programa de Manu Sánchez en TVE («El Perro Andaluz», grabado en Bilbao)", "Entrevistada", "22 de octubre"], source: COLAU_TVE },
             { cells: ["Frente Amplio · Ada Colau", "La Revuelta (La 1)", "Aceptada", "Sin fecha publicada"], source: COLAU_REVUELTA },
           ],
         },
@@ -224,7 +234,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
         title: "Criterios",
         paragraphs: [
           "Solo incluimos entrevistas confirmadas por el programa, el candidato o un medio fiable. Cuando se emiten, enlazamos el vídeo oficial y, si es relevante, un resumen con citas comprobadas como el de Sánchez en La Revuelta.",
-          "Jordi Wild planteó al principio que acudieran todos o ninguno; según Europa Press, ha dado de plazo hasta el viernes 23 de octubre para cerrar las participaciones.",
+          "Jordi Wild planteó al principio que acudieran todos o ninguno; según Europa Press, dio de plazo hasta el viernes 23 de octubre para cerrar las participaciones. Según Marca, publicará las entrevistas el 13 de noviembre y ha rechazado otras peticiones de partidos (Podemos, ERC, Junts y SALF).",
           "Los debates electorales tienen su propia página, enlazada abajo.",
         ],
       },
