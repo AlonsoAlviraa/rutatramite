@@ -1,4 +1,5 @@
 import type { Guide, GuideSection } from "@/lib/tramites/types";
+import { CASOS_EXTRA_SECTIONS, LC, MESA_CASOS_20261023_GUIDES, PARRAFOS_EXCUSA } from "@/lib/tramites/mesa-casos-20261023";
 
 /**
  * Cluster «mesa electoral» del 23-10-2026, antes del sorteo (31-10 a 4-11-2026).
@@ -96,7 +97,7 @@ type Ext = { sections: GuideSection[]; faqs?: { q: string; a: string }[]; source
 export const AMPLIACION_MESA_20261023: Record<string, Ext> = {
   [P.excusa]: {
     sources: [S.a119, S.l39, S.a143],
-    related: [L.modelo, L.denegada, L.suplente, L.casos, L.primero],
+    related: [L.modelo, L.denegada, L.suplente, L.casos, L.primero, LC.fuera, LC.trabajo, LC.examen, LC.cuidado, LC.hijos],
     sections: [
       {
         id: "plazo-ejemplo",
@@ -263,6 +264,7 @@ Firma: ______________________`;
 const BYLINE_LEAD = "Por el Equipo RutaTrámite. ";
 
 export const MESA_29N_20261023_GUIDES: Guide[] = [
+  ...MESA_CASOS_20261023_GUIDES,
   {
     id: "mesa-modelo-excusa",
     pack: "elecciones",
@@ -276,7 +278,7 @@ export const MESA_29N_20261023_GUIDES: Guide[] = [
     cta: { href: DOCX, label: "Descargar el modelo en Word (.docx)" },
     secondaryCta: { href: PDF, label: "Descargar el modelo en PDF" },
     sources: [S.a27, S.jec611, S.a119, S.l39],
-    related: [L.excusa, L.denegada, L.suplente, L.casos, L.hub],
+    related: [L.excusa, L.denegada, L.suplente, L.casos, L.hub, LC.fuera, LC.trabajo, LC.examen, LC.cuidado, LC.hijos],
     faqs: [
       { q: "¿Dónde presento el escrito de excusa de la mesa electoral?", a: "Ante la Junta Electoral de Zona que figura en tu notificación, en el lugar o canal que esta indique. Guarda una copia sellada o el justificante de registro." },
       { q: "¿Tengo que adjuntar documentos?", a: "Sí. La LOREG exige causa «justificada y documentada» y la Instrucción 6/2011 pide acreditar la causa con un documento. Sin él, lo normal es que se deniegue." },
@@ -293,6 +295,14 @@ export const MESA_29N_20261023_GUIDES: Guide[] = [
           "Rellena todo lo que va entre corchetes y borra los ejemplos que no uses. Firma a mano o con firma electrónica si lo presentas por un registro electrónico.",
         ],
         models: [{ id: "excusa-mesa-electoral", title: "Escrito de excusa para no formar parte de la mesa electoral", body: MODELO_TEXTO }],
+      },
+      {
+        id: "parrafos-opcionales",
+        title: "Párrafos opcionales según tu causa",
+        paragraphs: [
+          "Si tu caso no es tan simple como «tengo 67 años», sustituye el punto 2 por el párrafo que encaje y rellena los corchetes. Están también al final del Word y del PDF. Cada uno cita el apartado de la Instrucción 6/2011 en el que se apoya; los que dicen «solicito que se valore» corresponden a causas que la Junta decide caso a caso.",
+        ],
+        models: PARRAFOS_EXCUSA,
       },
       {
         id: "que-poner",
@@ -539,7 +549,7 @@ export const MESA_29N_20261023_GUIDES: Guide[] = [
     cta: { href: S.jec611.href, label: "Leer la Instrucción 6/2011 (causas de excusa)" },
     secondaryCta: { href: P.modelo, label: "Modelo de escrito de excusa" },
     sources: [S.jec611, S.a2, S.a26, S.a27, S.a28, S.a88, S.a89, S.a90, S.dieta, S.mesaInfo],
-    related: [L.excusa, L.modelo, L.dieta, L.horario, L.suplente, L.primero],
+    related: [L.excusa, L.modelo, L.dieta, L.horario, L.suplente, L.primero, LC.fuera, LC.trabajo, LC.examen, LC.cuidado, LC.hijos],
     faqs: [
       { q: "¿Un autónomo puede librarse de la mesa electoral?", a: "Ser autónomo no es por sí solo una causa de la Instrucción 6/2011. Sí lo es, a valorar, ser un profesional insustituible de un acontecimiento público programado antes de la convocatoria cuya ausencia lo cancelaría con perjuicio económico relevante, o trabajar en un servicio esencial." },
       { q: "¿Tengo permiso si teletrabajo?", a: "Sí. El artículo 28 de la LOREG da el permiso a los trabajadores por cuenta ajena sin distinguir dónde trabajan: jornada completa el día de la votación si es laboral y reducción de 5 horas el día siguiente." },
@@ -584,6 +594,13 @@ export const MESA_29N_20261023_GUIDES: Guide[] = [
               "Detención: ninguna autoridad puede detener a los miembros de mesa durante sus funciones, salvo flagrante delito (artículo 90).",
             ],
         ],
+      },
+      ...CASOS_EXTRA_SECTIONS,
+      {
+        id: "guias-por-caso",
+        title: "Guías detalladas por situación",
+        paragraphs: ["Para estos casos tenemos una guía propia con el texto exacto de la Instrucción, los documentos, un ejemplo con fechas y un párrafo listo para el escrito."],
+        lists: [[LC.fuera, LC.examen, LC.trabajo, LC.cuidado, LC.hijos].map((l) => `${l.label}: rutatramite.com${l.href}`)],
       },
       COMO_REVISAMOS,
     ],

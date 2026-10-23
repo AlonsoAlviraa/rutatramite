@@ -52,6 +52,8 @@ const ELECCIONES_29N = [
   { href: "/elecciones/encuestas-29n", title: "Encuestas", blurb: "Media de encuestas publicadas, con su ficha técnica." },
   { href: "/elecciones/excusa-mesa-electoral", title: "¿Te ha tocado mesa?", blurb: "Excusas, plazo de 7 días y modelo de escrito." },
   { href: "/elecciones/suplente-mesa-electoral", title: "Suplente de mesa", blurb: "A qué hora ir, dieta y qué pasa si no vas." },
+  { href: "/elecciones/mesa-electoral-vivo-fuera", title: "Mesa y vives o trabajas fuera", blurb: "Otra ciudad, extranjero, Erasmus o turnos: qué acepta la Junta." },
+  { href: "/elecciones/mesa-electoral-hijos-pequenos", title: "Mesa con hijos o cuidados", blurb: "Menores de 12, lactancia, monoparental y familiares dependientes." },
 ] as const;
 
 // Páginas con más clics en Google (GSC API, 28 días a 2026-10-23), sin repetir las del bloque 29-N.

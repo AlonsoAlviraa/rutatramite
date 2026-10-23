@@ -8,7 +8,7 @@ const OFFICIAL = /^https:\/\/(www\.)?(boe\.es|juntaelectoralcentral\.es|infoelec
 
 describe("clúster mesa electoral 29-N (23-10-2026)", () => {
   it("five new pages, registered once, sourced, with FAQs and «Cómo revisamos»", () => {
-    expect(MESA_29N_20261023_GUIDES).toHaveLength(5);
+    expect(MESA_29N_20261023_GUIDES).toHaveLength(10);
     for (const g of MESA_29N_20261023_GUIDES) {
       expect(getGuideByPath(g.path)).toBe(g);
       expect(ALL_GUIDES.filter((x) => x.path === g.path)).toHaveLength(1);

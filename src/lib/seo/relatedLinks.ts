@@ -4,7 +4,12 @@
  * 2026-10-17: enlaces cruzados a guías prioritarias sin indexar (inspección GSC del 2026-10-17).
  */
 export const RELATED_LINKS: Record<string, string[]> = {
-  "/elecciones/excusa-mesa-electoral": ["/elecciones/modelo-escrito-excusa-mesa-electoral", "/elecciones/excusa-mesa-electoral-denegada", "/elecciones/mesa-electoral-casos-especiales"],
+  "/elecciones/mesa-electoral-vivo-fuera": ["/elecciones/modelo-escrito-excusa-mesa-electoral", "/elecciones/excusa-mesa-electoral", "/elecciones/mesa-electoral-casos-especiales"],
+  "/elecciones/mesa-electoral-examen-estudiante": ["/elecciones/modelo-escrito-excusa-mesa-electoral", "/elecciones/excusa-mesa-electoral", "/elecciones/mesa-electoral-casos-especiales"],
+  "/elecciones/mesa-electoral-trabajo-fuera": ["/elecciones/modelo-escrito-excusa-mesa-electoral", "/elecciones/excusa-mesa-electoral", "/elecciones/mesa-electoral-casos-especiales"],
+  "/elecciones/mesa-electoral-cuidado-familiar-dependiente": ["/elecciones/modelo-escrito-excusa-mesa-electoral", "/elecciones/excusa-mesa-electoral", "/elecciones/mesa-electoral-casos-especiales"],
+  "/elecciones/mesa-electoral-hijos-pequenos": ["/elecciones/modelo-escrito-excusa-mesa-electoral", "/elecciones/excusa-mesa-electoral", "/elecciones/mesa-electoral-casos-especiales"],
+  "/elecciones/excusa-mesa-electoral": ["/elecciones/modelo-escrito-excusa-mesa-electoral", "/elecciones/excusa-mesa-electoral-denegada", "/elecciones/mesa-electoral-casos-especiales", "/elecciones/mesa-electoral-vivo-fuera", "/elecciones/mesa-electoral-examen-estudiante", "/elecciones/mesa-electoral-trabajo-fuera"],
   "/elecciones/sorteo-mesa-electoral-29n": ["/elecciones/suplente-mesa-electoral", "/elecciones/modelo-escrito-excusa-mesa-electoral"],
   "/elecciones/horario-mesa-electoral": ["/elecciones/primero-en-votar-mesa-electoral", "/elecciones/mesa-electoral-casos-especiales"],
   "/elecciones/que-pasa-si-no-voy-a-la-mesa": ["/elecciones/suplente-mesa-electoral", "/elecciones/excusa-mesa-electoral-denegada", "/elecciones/primero-en-votar-mesa-electoral"],
