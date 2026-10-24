@@ -1,6 +1,6 @@
 import type { Guide } from "@/lib/tramites/types";
 
-const UPD = "23 de octubre de 2026, 20:45 (hora peninsular)";
+const UPD = "24 de octubre de 2026, 08:30 (hora peninsular)";
 
 const RTVE_CRONICA = { href: "https://www.rtve.es/play/noticias/20261022/pedro-sanchez-truco-recomendaron-moncloa-proteger-movil/17279368.shtml", label: "RTVE, 22-10-2026: crónica de la entrevista de Pedro Sánchez en La Revuelta" };
 const RTVE_DIRECTO = { href: "https://www.rtve.es/play/noticias/20261022/pedro-sanchez-revuelta-broncano-directo-video-cronica/17278843.shtml", label: "RTVE Play: La Revuelta con Pedro Sánchez (vídeo)" };
@@ -14,6 +14,8 @@ const DEBATES_EE = { href: "https://www.europapress.es/nacional/noticia-sanchez-
 const LASEXTA = { href: "https://www.europapress.es/sociedad/noticia-lasexta-emitira-dos-debates-ana-pastor-portavoces-psoe-pp-vox-frente-amplio-noviembre-20261021145644.html", label: "Europa Press, 21-10-2026: laSexta, debates del 2 y 9 de noviembre" };
 const FEIJOO_SALAMANCA = { href: "https://www.europapress.es/castilla-y-leon/noticia-feijoo-visitara-salamanca-domingo-participar-acto-pp-caem-20261021183139.html", label: "Europa Press, 21-10-2026: Feijóo, acto en Salamanca el domingo 25" };
 const SANCHEZ_GRANADA = { href: "https://www.europapress.es/andalucia/noticia-pedro-sanchez-participa-sabado-granada-acto-precampana-generales-20261020150449.html", label: "Europa Press, 20-10-2026: Sánchez, acto en Granada el sábado 24" };
+const SANCHEZ_GRANADA_HORA = { href: "https://www.europapress.es/andalucia/noticia-pedro-sanchez-protagonizara-sabado-granada-segundo-gran-acto-precampana-andalucia-cara-29n-20261023163750.html", label: "Europa Press, 23-10-2026: Sánchez, acto en Granada el sábado 24 a las 11:30" };
+const VOX_CYL = { href: "https://www.europapress.es/castilla-y-leon/noticia-abascal-tendra-actos-precampana-martes-zamora-miercoles-28-valladolid-20261022190251.html", label: "Europa Press, 22-10-2026 (act. 23-10): actos de Abascal en Zamora, Santander, Valladolid y Ávila" };
 const SANCHEZ_GIJON = { href: "https://cadenaser.com/asturias/2026/10/20/pedro-sanchez-dara-un-mitin-en-gijon-el-proximo-lunes-en-la-precampana-de-las-elecciones-generales-ser-gijon/", label: "Cadena SER, 20-10-2026: Sánchez, mitin en Gijón el lunes 26" };
 const WILD_MARCA = { href: "https://www.marca.com/tiramillas/sociedad/2026/10/22/jordi-wild-sigo-noticias-pedro-sanchez-manana-ultimo-dia2.html", label: "Marca, 22-10-2026: Jordi Wild, sin respuesta de Sánchez y publicación el 13 de noviembre" };
 const SANCHEZ_WILD_HORM = { href: "https://www.elplural.com/extratele/pedro-sanchez-visitara-jordi-wild-el-hormiguero-anecdota-pablo-motos-gracia_802166102", label: "El Plural, 22-10-2026: qué dijo Sánchez en La Revuelta sobre Jordi Wild y El Hormiguero" };
@@ -133,7 +135,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
   {
     id: "29n-agenda-mitines",
     pack: "elecciones",
-    reviewedAt: "2026-10-23",
+    reviewedAt: "2026-10-24",
     disclaimer: "",
     path: "/elecciones/agenda-mitines-29n",
     h1: "Agenda de mítines del 29-N: próximos actos de cada candidato",
@@ -142,7 +144,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
     lead: `Respuesta corta: estos son los próximos actos públicos anunciados por los candidatos a las elecciones del 29 de noviembre, con fecha, ciudad, lugar y la fuente donde se anunciaron. Solo incluimos actos futuros publicados por el propio partido o por un medio fiable. Los partidos van en el orden de votos de las generales de 2023. Última actualización: ${UPD}.`,
     cta: VOX_ACTOS,
     secondaryCta: { href: "/elecciones/campana-y-precampana", label: "Campaña y precampaña: qué fechas marca la ley" },
-    sources: [FEIJOO_VIGO, FEIJOO_SALAMANCA, SANCHEZ_GRANADA, SANCHEZ_GIJON, SANCHEZ_VITORIA, VOX_ACTOS, DEBATES_EE, LASEXTA],
+    sources: [FEIJOO_VIGO, FEIJOO_SALAMANCA, SANCHEZ_GRANADA_HORA, SANCHEZ_GRANADA, SANCHEZ_GIJON, SANCHEZ_VITORIA, VOX_ACTOS, VOX_CYL, DEBATES_EE, LASEXTA],
     related: [{ href: "/elecciones", label: "Sánchez y Jordi Wild: cuándo sale la entrevista en The Wild Project" }, { href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, ENTREV, ARTIC, DEBATE, CAMPANA, { href: "/elecciones/calendario-29-noviembre", label: "Calendario del 29-N" }, ELEC],
     faqs: [
       { q: "¿Cuándo empieza la campaña electoral del 29-N?", a: "A las 0:00 del viernes 13 de noviembre de 2026 y termina a las 24:00 del viernes 27 (Real Decreto 806/2026). Los actos de antes son de precampaña." },
@@ -161,11 +163,14 @@ export const AGENDA_29N_GUIDES: Guide[] = [
           rows: [
             { cells: ["PP · Alberto Núñez Feijóo", "Sábado 24 de octubre, 12:00", "Vigo (Pontevedra)", "Estación Marítima, con Alfonso Rueda"], source: FEIJOO_VIGO },
             { cells: ["PP · Alberto Núñez Feijóo", "Domingo 25 de octubre, 12:00", "Salamanca", "Centro de Artes Escénicas y de la Música (CAEM)"], source: FEIJOO_SALAMANCA },
-            { cells: ["PSOE · Pedro Sánchez", "Sábado 24 de octubre (hora no confirmada por Europa Press)", "Granada", "Palacio de Exposiciones y Congresos"], source: SANCHEZ_GRANADA },
+            { cells: ["PSOE · Pedro Sánchez", "Sábado 24 de octubre, 11:30", "Granada", "Sala Federico García Lorca del Palacio de Congresos, con María Jesús Montero"], source: SANCHEZ_GRANADA_HORA },
             { cells: ["PSOE · Pedro Sánchez", "Lunes 26 de octubre, 18:00", "Gijón (Asturias)", "Pabellón central de la Feria de Muestras de Asturias"], source: SANCHEZ_GIJON },
             { cells: ["PSOE · Pedro Sánchez", "Jueves 29 de octubre, 18:30", "Vitoria-Gasteiz (Álava)", "Palacio Europa"], source: SANCHEZ_VITORIA },
-            { cells: ["Vox · Santiago Abascal", "Viernes 23 de octubre", "Menorca", "Lugar no publicado"], source: VOX_ACTOS },
             { cells: ["Vox · Santiago Abascal", "Sábado 24 de octubre", "Ibiza", "Lugar no publicado"], source: VOX_ACTOS },
+            { cells: ["Vox · Santiago Abascal", "Martes 27 de octubre, 19:00", "Zamora", "Plaza de la Marina"], source: VOX_CYL },
+            { cells: ["Vox · Santiago Abascal", "Miércoles 28 de octubre, 12:00", "Santander", "Jardines de Pereda"], source: VOX_CYL },
+            { cells: ["Vox · Santiago Abascal", "Miércoles 28 de octubre, 19:00", "Valladolid", "Pabellón 3 de la Feria de Valladolid"], source: VOX_CYL },
+            { cells: ["Vox · Santiago Abascal", "Jueves 29 de octubre, 19:00", "Ávila", "Palacio de Congresos Lienzo Norte"], source: VOX_CYL },
             { cells: ["Frente Amplio · Ada Colau", "Sin agenda publicada", "—", "—"], source: { href: EC.href, label: "El Confidencial, 22-10-2026: sin actos futuros de Frente Amplio anunciados" } },
           ],
         },
@@ -193,7 +198,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
   {
     id: "29n-entrevistas-candidatos",
     pack: "elecciones",
-    reviewedAt: "2026-10-23",
+    reviewedAt: "2026-10-24",
     disclaimer: "",
     path: "/elecciones/podcasts-entrevistas-candidatos-29n",
     h1: "Entrevistas y pódcast de los candidatos del 29-N: quién va y cuándo",
@@ -228,9 +233,9 @@ export const AGENDA_29N_GUIDES: Guide[] = [
           caption: `Entrevistas y pódcast de los candidatos del 29-N (actualizado el ${UPD})`,
           head: ["Partido y candidato", "Programa", "Estado", "Fecha", "Fuente"],
           rows: [
-            { cells: ["PSOE · Pedro Sánchez", "The Wild Project (pódcast de Jordi Wild)", "Confirmada por el candidato en X el 23 de octubre («Ahí estaré»)", "Publicación prevista el 13 de noviembre (anuncio de Jordi Wild)"], source: WILD_TWEET },
             { cells: ["PP · Alberto Núñez Feijóo", "The Wild Project", "Aceptada", "Publicación prevista el 13 de noviembre"], source: WILD_MARCA },
             { cells: ["PP · Alberto Núñez Feijóo", "La Revuelta (La 1)", "Invitado, sin respuesta", "—"], source: REVUELTA_INV },
+            { cells: ["PSOE · Pedro Sánchez", "The Wild Project (pódcast de Jordi Wild)", "Confirmada por el candidato en X el 23 de octubre («Ahí estaré»)", "Publicación prevista el 13 de noviembre (anuncio de Jordi Wild)"], source: WILD_TWEET },
             { cells: ["PSOE · Pedro Sánchez", "La Revuelta (La 1)", "Emitida", "22 de octubre"], source: RTVE_DIRECTO },
             { cells: ["PSOE · Pedro Sánchez", "El Hormiguero (Antena 3)", "Dice que irá; sin fecha", "—"], source: SANCHEZ_WILD_HORM },
             { cells: ["Vox · Santiago Abascal", "The Wild Project", "Aceptada", "Publicación prevista el 13 de noviembre"], source: WILD_MARCA },

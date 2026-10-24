@@ -26,6 +26,7 @@ const S = {
   socio1011: { href: "https://www.elespanol.com/espana/politica/20261011/sanchez-no-funciona-apropiarse-maricarmen-huelga-oposicion-cae-sondeo-noche/1003744416762_0.html", label: "El Español, 11 de octubre de 2026: encuesta de SocioMétrica y ficha técnica" },
   target1011: { href: "https://www.eldebate.com/espana/20261011/izquierda-apenas-reacciona-adelanto-frente-derecha-le-saca-casi-15-puntos_468080.html", label: "El Debate, 11 de octubre de 2026: encuesta de Target Point y ficha técnica" },
   gesop1012: { href: "https://www.elperiodico.com/es/politica/20261012/encuesta-elecciones-generales-espana-2026-29n-135212729", label: "El Periódico (Prensa Ibérica), 12 de octubre de 2026: encuesta de GESOP y ficha técnica" },
+  imop1023: { href: "https://www.elconfidencial.com/espana/2026-10-23/encuesta-imop-elecciones-29n-bloque-psoe-frente-amplio_4450302/", label: "El Confidencial, 23 de octubre de 2026: encuesta de IMOP Insights (segunda oleada) y ficha técnica" },
   imop1009: { href: "https://www.imop.es/encuesta-pre-electoral-para-el-confidencial-2026/", label: "IMOP Insights, 9 de octubre de 2026: encuesta preelectoral para El Confidencial y ficha técnica" },
   dsevilla: { href: "https://www.diariodesevilla.es/espana/elecciones/encuestas-elecciones-generales-29-n_0_2008155768.html", label: "Diario de Sevilla, 14 de octubre de 2026: todas las encuestas del 29-N" },
   doble: { href: "https://doblelectura.es/guia/encuestas-elecciones-generales-2026", label: "Doble Lectura: fichas técnicas de las encuestas de octubre de 2026" },
@@ -90,6 +91,7 @@ const TABLA_OCT26: GuideTable = {
   caption: "Encuestas publicadas para el 29-N con trabajo de campo en octubre de 2026 (estimación sobre voto válido)",
   head: ["Encuesta y medio", "Campo", "Muestra y método", "PP", "PSOE", "Vox", "Fuente"],
   rows: [
+    { cells: ["IMOP Insights para El Confidencial (23-10-2026)", "13 al 16 de octubre", "1.000, teléfono (CATI) e internet (CAWI)", "28,5 %", "27,1 %", "20 %"], source: S.imop1023 },
     { cells: ["Sigma Dos para El Mundo (19-10-2026)", "1 al 14 de octubre", "3.007, teléfono (CATI) e internet (CAWI)", "31,5 %", "25,3 %", "19,5 %"], source: S.sigma1019 },
     { cells: ["CIS, barómetro de octubre (publicado el 14-10-2026)", "1 al 6 de octubre", "5.025 entrevistas", "22,2 %", "34 %", "17,1 %"], source: S.cis3582 },
     { cells: ["SocioMétrica para El Español (11-10-2026)", "10 y 11 de octubre", "1.000, panel por internet (CAWI)", "32,6 %", "26,2 %", "18,8 %"], source: S.socio1011 },
@@ -187,22 +189,22 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
   // 1 · HUB
   g({
     id: "29n-encuestas-hub",
-    reviewedAt: "2026-10-22",
+    reviewedAt: "2026-10-24",
     path: "/elecciones/encuestas-29n",
     h1: "Encuestas de las elecciones del 29-N: las últimas, con fuente y fecha",
     title: "Encuestas elecciones 29-N: últimas, con fuente y fecha",
     description:
       "Encuestas del 29-N de octubre de 2026 con campo, muestra y fuente: CIS, Sigma Dos, GAD3, SocioMétrica, Target Point, NC Report, 40dB y más.",
     lead:
-      "Las once encuestas privadas publicadas en octubre de 2026 que recogemos (dos de ellas de Sigma Dos, la última el 19 de octubre) ponen primero al PP, entre el 28,7 % y el 34,1 %, y el barómetro del CIS pone primero al PSOE (34 %). Vox aparece tercero en todas, entre el 17,1 % y el 19,6 %. La diferencia entre el CIS y el resto viene sobre todo del método de estimación, no de la fecha.",
+      "Las doce encuestas privadas publicadas en octubre de 2026 que recogemos (dos de Sigma Dos y dos de IMOP, la última el 23 de octubre) ponen primero al PP, entre el 28,5 % y el 34,1 %, y el barómetro del CIS pone primero al PSOE (34 %). Vox aparece tercero en todas, entre el 17,1 % y el 20 %. La diferencia entre el CIS y el resto viene sobre todo del método de estimación, no de la fecha.",
     cta: S.cis3582,
     secondaryCta: S.gad3,
     disclaimer: "Encuestas, no resultados. Se pueden publicar hasta el 23 de noviembre; del 24 al 28 está prohibido (artículo 69.7 de la LOREG).",
-    sources: [S.sigma1019, S.socio1011, S.target1011, S.gesop1012, S.imop1009, S.hamalgama1011, S.cis3582, S.cis3582avance, S.gad3, S.doble, S.dsevilla, S.euronews, S.jec, L69],
+    sources: [S.imop1023, S.sigma1019, S.socio1011, S.target1011, S.gesop1012, S.imop1009, S.hamalgama1011, S.cis3582, S.cis3582avance, S.gad3, S.doble, S.dsevilla, S.euronews, S.jec, L69],
     related: [R.cis, R.estudio, R.cocina, R.directa, R.margen, R.leer, R.historico, R.escanosEnc, R.mayoria, R.prohibidas],
     faqs: [
-      { q: "¿Quién va primero en las encuestas del 29-N?", a: "En las privadas de octubre de 2026, el PP: Sigma Dos 31,5 % (19-10) y 31,9 % (11-10), GAD3 31,4 %, GESOP 28,7 %, IMOP 30 %, SocioMétrica 32,6 %, Target Point 32 %, Hamalgama 33,4 %, NC Report 34,1 %, 40dB 31,9 % y DYM 34 %. En el barómetro del CIS de octubre, el PSOE, con el 34 %." },
-      { q: "¿Suman mayoría PP y Vox en las encuestas?", a: "En las privadas que publican escaños, sí: según el resumen de Diario de Sevilla del 14 de octubre, PP y Vox suman entre 189 y 212 escaños. La de Sigma Dos del 19 de octubre les da entre 197 y 205 (132–137 el PP y 65–68 Vox) y la de SocioMétrica del 11 de octubre, 205 (141 y 64). El barómetro del CIS no da escaños; en porcentaje, PP y Vox suman el 39,3 % y el PSOE, el 34 %." },
+      { q: "¿Quién va primero en las encuestas del 29-N?", a: "En las privadas de octubre de 2026, el PP: Sigma Dos 31,5 % (19-10) y 31,9 % (11-10), GAD3 31,4 %, GESOP 28,7 %, IMOP 28,5 % (23-10) y 30 % (9-10), SocioMétrica 32,6 %, Target Point 32 %, Hamalgama 33,4 %, NC Report 34,1 %, 40dB 31,9 % y DYM 34 %. En el barómetro del CIS de octubre, el PSOE, con el 34 %." },
+      { q: "¿Suman mayoría PP y Vox en las encuestas?", a: "En las privadas que publican escaños, sí: según el resumen de Diario de Sevilla del 14 de octubre, PP y Vox suman entre 189 y 212 escaños. La de Sigma Dos del 19 de octubre les da entre 197 y 205 (132–137 el PP y 65–68 Vox) la de SocioMétrica del 11 de octubre, 205 (141 y 64), y la de IMOP del 23 de octubre, 195 (123 el PP, con UPN, y 72 Vox). El barómetro del CIS no da escaños; en porcentaje, PP y Vox suman el 39,3 % y el PSOE, el 34 %." },
       { q: "¿Por qué el CIS da datos tan distintos a los privados?", a: "Porque convierte las respuestas en estimación con otro modelo. El CIS usa desde 2019 un modelo de escenarios propio; las privadas suelen ponderar por lo que cada persona votó en 2023. Con respuestas parecidas, dos modelos pueden dar ganadores distintos." },
       { q: "¿Cuál es la encuesta más fiable?", a: "Ninguna acierta siempre. En 2023 el CIS se acercó en el PSOE y falló en Sumar; 40dB casi clavó los escaños del PP y GAD3, a pie de urna, le dio 13 de más. Lo útil es mirar la tendencia de cada empresa y su ficha técnica." },
       { q: "¿Hasta cuándo se publican encuestas?", a: "Hasta el lunes 23 de noviembre. Del 24 al 28 de noviembre de 2026 no se pueden publicar ni difundir sondeos (artículo 69.7 de la LOREG y calendario de la Junta Electoral Central)." },
@@ -395,6 +397,7 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
   g({
     id: "29n-como-se-hace-encuesta",
     path: "/elecciones/como-se-hace-una-encuesta-electoral",
+    reviewedAt: "2026-10-24",
     h1: "Cómo se hace una encuesta electoral, paso a paso",
     title: "Cómo se hace una encuesta electoral paso a paso",
     description:
@@ -437,6 +440,7 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
             { cells: ["Sigma Dos / El Mundo", "2.017", "Teléfono y panel online", "1 al 8 de octubre", "±2,2 (95,5 %)"], source: S.doble },
             { cells: ["NC Report / La Razón", "1.000", "Mitad teléfono, mitad internet", "1 al 6 de octubre", "±3,17 (95,5 %)"], source: S.doble },
             { cells: ["GESOP / Prensa Ibérica", "1.000", "Teléfono e internet; cuotas de sexo y edad", "6 al 8 de octubre", "±3,1 (95 %)"], source: S.gesop1012 },
+            { cells: ["IMOP / El Confidencial (2.ª oleada)", "1.000", "Teléfono (CATI, 70 % móviles) e internet (CAWI), 45/55", "13 al 16 de octubre", "±3,3"], source: S.imop1023 },
             { cells: ["IMOP / El Confidencial", "900", "Teléfono (CATI) e internet (CAWI, panel propio)", "5 al 7 de octubre", "±3,3"], source: S.imop1009 },
             { cells: ["40dB / El País y SER", "800", "Internet", "7 y 8 de octubre", "No figura en la fuente"], source: S.dsevilla },
             { cells: ["CIS", "5.025", "Ver ficha del estudio 3582", "1 al 6 de octubre", "±1,2 en PSOE y PP"], source: S.cis3582 },

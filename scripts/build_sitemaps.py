@@ -471,8 +471,12 @@ CORE = [
 FRESH_LASTMOD = {
     # Actualización de última hora (Sánchez en The Wild Project), 23-10-2026.
     "/elecciones": "2026-10-23T20:45:00+02:00",
-    "/elecciones/podcasts-entrevistas-candidatos-29n": "2026-10-23T20:45:00+02:00",
-    "/elecciones/agenda-mitines-29n": "2026-10-23T20:45:00+02:00",
+    # Rutina 24-10-2026: agenda (Vox 27-29 oct, hora de Granada), IMOP 2.ª oleada, propuestas PP del 23-10.
+    "/elecciones/podcasts-entrevistas-candidatos-29n": "2026-10-24T08:30:00+02:00",
+    "/elecciones/agenda-mitines-29n": "2026-10-24T08:30:00+02:00",
+    "/elecciones/encuestas-29n": "2026-10-24T08:30:00+02:00",
+    "/elecciones/programas-electorales-29n": "2026-10-24T08:30:00+02:00",
+    "/elecciones/mapa-voto-util-29n": "2026-10-24T08:30:00+02:00",
 }
 
 

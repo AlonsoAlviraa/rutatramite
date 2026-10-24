@@ -33,7 +33,7 @@ export const MAPA_VOTO_UTIL_GUIDES: Guide[] = [
   {
     id: "29n-mapa-voto-util",
     pack: "elecciones",
-    reviewedAt: "2026-10-23",
+    reviewedAt: "2026-10-24",
     disclaimer: "",
     path: "/elecciones/mapa-voto-util-29n",
     h1: "Mapa del voto útil por provincia: dónde estuvo más reñido el último escaño",

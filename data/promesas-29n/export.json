@@ -1,6 +1,6 @@
 {
  "name": "Promesas electorales del 29-N (elecciones generales 2026) por partido y su aplicación territorial",
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "publisher": "RutaTrámite",
  "url": "https://rutatramite.com/elecciones/promesas",
  "methodology": "https://rutatramite.com/elecciones/promesas/metodologia",
@@ -2533,6 +2533,79 @@
    "cost": "Unos 13.000 millones de euros (cifra del partido).",
    "impact": null,
    "who": "Ernest Urtasun (número dos de Comuns-Frente Amplio por Barcelona) y Rosa Martínez, Barcelona, 22-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "party": "pp",
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "pp-irpf-2027-smi-exento",
+   "topic": "impuestos",
+   "profiles": [
+    "familia"
+   ],
+   "measure": "Rebajar el IRPF en 2027 «para que la inflación y los impuestos no se coman el salario» y fijar por ley que quien cobre el salario mínimo no pague IRPF, con un umbral que suba automáticamente cada vez que suba el SMI. Hoy quien solo cobra el SMI ya paga 0 € de IRPF por una deducción de 590,89 € aprobada para 2026.",
+   "quote": "El umbral subirá automáticamente cada vez que suba el Salario Mínimo",
+   "source_url": "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/",
+   "source_title": "pp.es: Feijóo, rebaja del IRPF en 2027 (mitin en Valencia)",
+   "source_date": "2026-10-23",
+   "source_type": "oficial-partido",
+   "who": "Alberto Núñez Feijóo, mitin en el Palau de les Arts de Valencia, 23-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "party": "pp",
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "pp-igualdad-otro-ministerio",
+   "topic": "instituciones",
+   "profiles": [],
+   "measure": "Reducir el número de ministerios e integrar Igualdad en un ministerio con otras competencias. Feijóo precisó que no elimina las políticas de igualdad.",
+   "quote": "Yo no voy a mantener 22 ministerios",
+   "source_url": "https://www.sercomunicacion.com/aimar-bretos-entrevista-a-alberto-nunez-feijoo-en-hoy-por-hoy/",
+   "source_title": "SER Comunicación: resumen oficial de la entrevista a Feijóo en Hoy por Hoy",
+   "source_date": "2026-10-23",
+   "source_type": "prensa",
+   "who": "Alberto Núñez Feijóo, entrevista en Hoy por Hoy (Cadena SER), 23-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "party": "pp",
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "pp-reforma-eutanasia",
+   "topic": "sanidad",
+   "profiles": [
+    "dependencia"
+   ],
+   "measure": "Reformar la ley de eutanasia para reforzar las garantías médicas. No se comprometió a derogarla.",
+   "quote": "La muerte digna es un concepto con el que estoy de acuerdo",
+   "source_url": "https://cadenaser.com/nacional/2026/10/23/feijoo-no-descarta-gobernar-con-vox-si-los-espanoles-me-mandan-dar-estabilidad-con-la-tercera-fuerza-politica-asi-lo-hare-cadena-ser/",
+   "source_title": "Cadena SER: entrevista a Feijóo en Hoy por Hoy",
+   "source_date": "2026-10-23",
+   "source_type": "prensa",
+   "who": "Alberto Núñez Feijóo, entrevista en Hoy por Hoy (Cadena SER), 23-10-2026",
    "aplicacion": {
     "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
     "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",

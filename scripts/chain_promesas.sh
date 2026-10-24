@@ -8,6 +8,7 @@ python3 $S/sync_promesas_mitines_20261021.py
 python3 $S/sync_promesas_pp_sevilla_20261021.py
 [ "$WITH22" = 1 ] && python3 $S/sync_promesas_mitines_20261022.py
 [ "$WITH23" = 1 ] && python3 $S/sync_promesas_mitines_20261023.py
+[ "$WITH24" = 1 ] && python3 $S/sync_promesas_mitines_20261024.py
 python3 $S/gen_promesas_29n.py
 python3 $S/splice_promesas_ts.py
 python3 $S/patch_promesas_temas_20261019.py
@@ -29,4 +30,5 @@ python3 $S/link_promesas_incumplidas_20261022.py
 python3 $S/link_maricarmen_huelga_20261022.py
 python3 $S/fix_anclas_promesas_20261023.py
 [ "$WITH23" = 1 ] && python3 $S/edit_programas_mitines_20261023.py
+[ "$WITH24" = 1 ] && python3 $S/edit_programas_mitines_20261024.py
 true
