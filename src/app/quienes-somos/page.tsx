@@ -55,6 +55,32 @@ export default function QuienesSomosPage() {
           lista de referencias está en <a className="underline" href="/fuentes">Fuentes</a>.
         </li>
       </ul>
+      <h2 className="pt-4 text-2xl font-semibold">Qué cubrimos</h2>
+      <ul className="list-disc space-y-2 pl-5">
+        <li>
+          <a className="underline" href="/empadronarse">Empadronamiento</a>: requisitos, documentos y
+          oficinas por municipio. Cuando un ayuntamiento publica datos propios en su sede, los
+          revisamos uno a uno y lo indicamos en la ficha.
+        </li>
+        <li>
+          <a className="underline" href="/elecciones">Elecciones</a>: plazos, voto por correo,
+          mesas electorales y reparto de escaños, a partir de la LOREG y del real decreto de
+          convocatoria.
+        </li>
+        <li>
+          <a className="underline" href="/becas">Becas</a>,{" "}
+          <a className="underline" href="/extranjeria">extranjería</a>,{" "}
+          <a className="underline" href="/bebe">nacimiento y crianza</a> y otros trámites
+          habituales, con la convocatoria o la norma que se aplica en cada caso.
+        </li>
+      </ul>
+      <h2 className="pt-4 text-2xl font-semibold">Lo que no hacemos</h2>
+      <p>
+        No presentamos solicitudes en nombre de nadie, no cobramos por tramitar y no damos
+        asesoramiento jurídico individual. Si un caso depende de circunstancias personales, la
+        respuesta válida es la del organismo que resuelve. Por eso cada guía enlaza su sede o su
+        teléfono oficial.
+      </p>
       <h2 id="correcciones" className="pt-4 text-2xl font-semibold">Cómo corregimos errores</h2>
       <p>
         Si encuentras un dato incorrecto o desactualizado, escríbenos desde{" "}

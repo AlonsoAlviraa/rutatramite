@@ -1132,5 +1132,37 @@
       "Acreditación de la identidad (DNI para mayores de 14 años; tarjeta de residencia o pasaporte para personas extranjeras).",
       "Acreditación del domicilio: escritura, nota registral o recibo del IBI; contrato de alquiler en vigor o factura de suministro de menos de dos meses; o autorización del titular con su documento."
     ]
+  },
+  "38038": {
+    "tramite_alta_url": "https://sede.santacruzdetenerife.es/sede/tramite/t103",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "unknown",
+    "oficinas": [],
+    "procedure_docs": {
+      "alta": [
+        "Hoja padronal firmada por todas las personas mayores de 18 años; la referencia catastral de la vivienda es un dato obligatorio.",
+        "Documento de identidad en vigor de cada persona: DNI (obligatorio desde los 14 años); ciudadanos de la UE, Islandia, Liechtenstein, Noruega y Suiza, certificado de registro con NIE más pasaporte o documento de identidad; resto, TIE o, en su defecto, pasaporte.",
+        "Menores de 14 años sin documento: libro de familia o certificado de nacimiento.",
+        "Acreditación del domicilio según el Anexo IX de la sede; si en la vivienda ya hay alguien empadronado, su autorización en la hoja padronal, su título sobre la vivienda y su documento de identidad."
+      ]
+    },
+    "peculiaridades": [
+      "Se puede tramitar en el registro electrónico con certificado digital, DNI electrónico o Cl@ve, o en persona en las Oficinas de Atención e Información Ciudadana (OAIC), donde se puede pedir cita previa.",
+      "Sin tasa. Información: 010 o 922 606 010, de lunes a viernes de 8:00 a 15:00."
+    ],
+    "source_urls": [
+      "https://sede.santacruzdetenerife.es/sede/tramite/t103"
+    ],
+    "confidence": "official",
+    "reviewed_on": "2026-10-24",
+    "last_verified": "2026-10-24",
+    "review_note": "Sede electrónica municipal: trámite Inscripción/Modificación en el Padrón (código PMH), tramitación electrónica nivel 4, sin tasa.",
+    "docs_extra": [
+      "Hoja padronal firmada por todas las personas mayores de 18 años; la referencia catastral de la vivienda es un dato obligatorio.",
+      "Documento de identidad en vigor de cada persona: DNI (obligatorio desde los 14 años); ciudadanos de la UE, Islandia, Liechtenstein, Noruega y Suiza, certificado de registro con NIE más pasaporte o documento de identidad; resto, TIE o, en su defecto, pasaporte.",
+      "Menores de 14 años sin documento: libro de familia o certificado de nacimiento.",
+      "Acreditación del domicilio según el Anexo IX de la sede; si en la vivienda ya hay alguien empadronado, su autorización en la hoja padronal, su título sobre la vivienda y su documento de identidad."
+    ]
   }
 }

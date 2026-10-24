@@ -14,7 +14,7 @@ describe("municipal evidence", () => {
   });
   it("exports all selected municipalities and preserves unknown values", () => {
     const data = padronDataset();
-    expect(data.records).toHaveLength(21);
+    expect(data.records).toHaveLength(27);
     expect(new Set(data.records.map(r => r.ine_code)).size).toBe(21);
     for (const r of data.records) {
       expect(padronCsv()).toContain(r.ine_code);

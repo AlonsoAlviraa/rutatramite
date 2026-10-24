@@ -469,6 +469,9 @@ CORE = [
 
 
 FRESH_LASTMOD = {
+    "/empadronarse/canarias": "2026-10-24T11:15:00+02:00",
+    "/empadronarse/canarias/santa-cruz-de-tenerife/santa-cruz-de-tenerife": "2026-10-24T11:15:00+02:00",
+    "/quienes-somos": "2026-10-24T11:14:00+02:00",
     "/becas/mec/subsanacion": "2026-10-24T11:10:00+02:00",
     "/becas/mec/no-cobrada": "2026-10-24T11:10:00+02:00",
     "/becas/cobro-al-presentar": "2026-10-24T11:10:00+02:00",
