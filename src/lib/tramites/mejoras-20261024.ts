@@ -579,6 +579,312 @@ export const MEJORAS_20261024: Record<string, Mejora> = {
   "/elecciones/promesas/comunidad-murcia": {"reviewedAt": "2026-10-24", "sources": [{"href": "https://www.boe.es/eli/es/rd/2026/10/05/806", "label": "BOE: Real Decreto 806/2026, artículo 3 y anexo"}, {"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a69", "label": "BOE: Constitución, artículo 69 (Senado)"}, {"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#anoventayseis", "label": "BOE: LOREG, artículo 96 (votos nulos)"}], "sections": [{"id": "circunscripciones-29n", "title": "Diputados y senadores que elige la Región de Murcia el 29-N", "paragraphs": ["Según el anexo del Real Decreto 806/2026, la Región de Murcia vota el 29 de noviembre en una sola circunscripción (Murcia) y elige 10 de los 350 diputados del Congreso, el 2,9 % del total. Cada circunscripción reparte sus escaños por separado: solo cuentan las candidaturas que superan el 3 % de los votos válidos en esa provincia y después se aplica la fórmula D'Hondt (artículo 163 de la LOREG).", "En el Senado cada provincia elige 4 senadores (4 en total en la Región de Murcia) y en la papeleta puedes marcar hasta tres nombres; si marcas más, el voto es nulo (artículo 69.2 de la Constitución y artículo 96.3 de la LOREG).", "Además de los senadores que se votan el 29-N, el parlamento autonómico de la Región de Murcia designa un senador y otro más por cada millón de habitantes (artículo 69.5 de la Constitución). Esos no aparecen en la papeleta."], "table": {"caption": "Escaños por circunscripción en la Región de Murcia (Real Decreto 806/2026)", "head": ["Circunscripción", "Diputados", "Senadores elegidos"], "rows": [{"cells": ["Murcia", "10", "4"]}]}}]},
   "/elecciones/promesas/comunidad-navarra": {"reviewedAt": "2026-10-24", "sources": [{"href": "https://www.boe.es/eli/es/rd/2026/10/05/806", "label": "BOE: Real Decreto 806/2026, artículo 3 y anexo"}, {"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a69", "label": "BOE: Constitución, artículo 69 (Senado)"}, {"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#anoventayseis", "label": "BOE: LOREG, artículo 96 (votos nulos)"}], "sections": [{"id": "circunscripciones-29n", "title": "Diputados y senadores que elige Navarra el 29-N", "paragraphs": ["Según el anexo del Real Decreto 806/2026, Navarra vota el 29 de noviembre en una sola circunscripción (Navarra) y elige 5 de los 350 diputados del Congreso, el 1,4 % del total. Cada circunscripción reparte sus escaños por separado: solo cuentan las candidaturas que superan el 3 % de los votos válidos en esa provincia y después se aplica la fórmula D'Hondt (artículo 163 de la LOREG).", "En el Senado cada provincia elige 4 senadores (4 en total en Navarra) y en la papeleta puedes marcar hasta tres nombres; si marcas más, el voto es nulo (artículo 69.2 de la Constitución y artículo 96.3 de la LOREG).", "Además de los senadores que se votan el 29-N, el parlamento autonómico de Navarra designa un senador y otro más por cada millón de habitantes (artículo 69.5 de la Constitución). Esos no aparecen en la papeleta."], "table": {"caption": "Escaños por circunscripción en Navarra (Real Decreto 806/2026)", "head": ["Circunscripción", "Diputados", "Senadores elegidos"], "rows": [{"cells": ["Navarra", "5", "4"]}]}}]},
   "/elecciones/promesas/comunidad-pais-vasco": {"reviewedAt": "2026-10-24", "sources": [{"href": "https://www.boe.es/eli/es/rd/2026/10/05/806", "label": "BOE: Real Decreto 806/2026, artículo 3 y anexo"}, {"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a69", "label": "BOE: Constitución, artículo 69 (Senado)"}, {"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#anoventayseis", "label": "BOE: LOREG, artículo 96 (votos nulos)"}], "sections": [{"id": "circunscripciones-29n", "title": "Diputados y senadores que elige el País Vasco el 29-N", "paragraphs": ["Según el anexo del Real Decreto 806/2026, el País Vasco vota el 29 de noviembre en 3 circunscripciones (Araba/Álava, Bizkaia, Gipuzkoa) y elige 18 de los 350 diputados del Congreso, el 5,1 % del total. Cada circunscripción reparte sus escaños por separado: solo cuentan las candidaturas que superan el 3 % de los votos válidos en esa provincia y después se aplica la fórmula D'Hondt (artículo 163 de la LOREG).", "En el Senado cada provincia elige 4 senadores (12 en total en el País Vasco) y en la papeleta puedes marcar hasta tres nombres; si marcas más, el voto es nulo (artículo 69.2 de la Constitución y artículo 96.3 de la LOREG).", "Además de los senadores que se votan el 29-N, el parlamento autonómico de el País Vasco designa un senador y otro más por cada millón de habitantes (artículo 69.5 de la Constitución). Esos no aparecen en la papeleta."], "table": {"caption": "Escaños por circunscripción en el País Vasco (Real Decreto 806/2026)", "head": ["Circunscripción", "Diputados", "Senadores elegidos"], "rows": [{"cells": ["Araba/Álava", "4", "4"]}, {"cells": ["Bizkaia", "8", "4"]}, {"cells": ["Gipuzkoa", "6", "4"]}]}}]},
+  "/becas/mec/subsanacion": {
+    "reviewedAt": R,
+    "sources": [
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68",
+        "label": "BOE: Ley 39/2015, artículo 68 (subsanación)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
+        "label": "BOE: Ley 39/2015, artículo 30 (cómputo de plazos)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43",
+        "label": "BOE: Ley 39/2015, artículo 43 (notificaciones electrónicas)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a124",
+        "label": "BOE: Ley 39/2015, artículo 124 (plazo del recurso de reposición)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "plazo-legal-subsanar",
+        "title": "Qué dice la Ley 39/2015 sobre el requerimiento",
+        "paragraphs": [
+          "El artículo 68.1 de la Ley 39/2015 establece que, si una solicitud no reúne los requisitos exigidos, la administración debe requerirte para que en un plazo de diez días subsanes la falta o aportes los documentos preceptivos. Si no lo haces, se te tiene por desistido de tu petición, previa resolución dictada en los términos del artículo 21.",
+          "Esos diez días son hábiles: no cuentan sábados, domingos ni festivos, y empiezan el día siguiente a la notificación. Si la notificación te llega por vía electrónica, cuenta desde que accedes a su contenido; si no la abres en diez días naturales desde que se pone a tu disposición, se entiende rechazada y el plazo continúa igualmente."
+        ],
+        "lists": [
+          [
+            "Ley 39/2015, artículo 30: los plazos por días son hábiles salvo que una ley diga otra cosa; se excluyen sábados, domingos y festivos, y se cuentan desde el día siguiente a la notificación.",
+            "Artículo 43: si la notificación electrónica es obligatoria o la elegiste, se entiende rechazada a los diez días naturales de ponerla a tu disposición sin abrirla, y el procedimiento sigue.",
+            "Artículo 124: contra una resolución expresa que pone fin a la vía administrativa, el recurso potestativo de reposición se presenta en el plazo de un mes."
+          ]
+        ]
+      }
+    ]
+  },
+  "/becas/mec/no-cobrada": {
+    "reviewedAt": R,
+    "sources": [
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
+        "label": "BOE: Ley 39/2015, artículo 30 (cómputo de plazos)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43",
+        "label": "BOE: Ley 39/2015, artículo 43 (notificaciones electrónicas)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a124",
+        "label": "BOE: Ley 39/2015, artículo 124 (plazo del recurso de reposición)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "notificaciones-y-recursos",
+        "title": "Notificaciones y plazos que conviene vigilar",
+        "paragraphs": [
+          "Cuando una beca se resuelve y no llega el pago, lo primero es comprobar qué te han notificado. Las notificaciones electrónicas se entienden practicadas cuando accedes a su contenido; si son obligatorias o las elegiste y no las abres en diez días naturales, se tienen por rechazadas y el procedimiento sigue su curso (artículo 43 de la Ley 39/2015).",
+          "Si lo que hay es una resolución que no compartes, el plazo general del recurso de reposición contra un acto expreso es de un mes (artículo 124). Revisa el pie de la propia resolución, que indica el recurso concreto, el órgano y el plazo."
+        ],
+        "lists": [
+          [
+            "Ley 39/2015, artículo 30: los plazos por días son hábiles salvo que una ley diga otra cosa; se excluyen sábados, domingos y festivos, y se cuentan desde el día siguiente a la notificación.",
+            "Artículo 43: si la notificación electrónica es obligatoria o la elegiste, se entiende rechazada a los diez días naturales de ponerla a tu disposición sin abrirla, y el procedimiento sigue.",
+            "Artículo 124: contra una resolución expresa que pone fin a la vía administrativa, el recurso potestativo de reposición se presenta en el plazo de un mes."
+          ]
+        ]
+      }
+    ]
+  },
+  "/becas/cobro-al-presentar": {
+    "reviewedAt": R,
+    "sources": [
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a5",
+        "label": "BOE: Ley 39/2015, artículo 5 (representación)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
+        "label": "BOE: Ley 39/2015, artículo 30 (cómputo de plazos)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43",
+        "label": "BOE: Ley 39/2015, artículo 43 (notificaciones electrónicas)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a124",
+        "label": "BOE: Ley 39/2015, artículo 124 (plazo del recurso de reposición)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "representacion-y-plazos",
+        "title": "Si otra persona hace el trámite por ti",
+        "paragraphs": [
+          "La Ley 39/2015 permite actuar por medio de representante (artículo 5). Para presentar solicitudes, interponer recursos o renunciar a derechos en nombre de otra persona hay que acreditar la representación; para actos de mero trámite se presume.",
+          "Desconfía de cualquier intermediario que te pida dinero por presentar una beca del Ministerio: la solicitud se hace gratis en la sede electrónica, con Cl@ve, certificado electrónico o usuario y contraseña. Si ya has pagado, guarda los justificantes y revisa tus plazos:"
+        ],
+        "lists": [
+          [
+            "Ley 39/2015, artículo 30: los plazos por días son hábiles salvo que una ley diga otra cosa; se excluyen sábados, domingos y festivos, y se cuentan desde el día siguiente a la notificación.",
+            "Artículo 43: si la notificación electrónica es obligatoria o la elegiste, se entiende rechazada a los diez días naturales de ponerla a tu disposición sin abrirla, y el procedimiento sigue.",
+            "Artículo 124: contra una resolución expresa que pone fin a la vía administrativa, el recurso potestativo de reposición se presenta en el plazo de un mes."
+          ]
+        ]
+      }
+    ]
+  },
+  "/becas/apoyo-educativo": {
+    "reviewedAt": R,
+    "sources": [
+      {
+        "href": "https://www.becaseducacion.gob.es/becas-y-ayudas/ayudas-apoyo-educativo/como-solicitarla.htm",
+        "label": "Ministerio de Educación: cómo solicitar la ayuda de apoyo educativo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "convocatoria-2026-2027",
+        "title": "Convocatoria 2026/2027: fechas y forma de solicitud",
+        "paragraphs": [
+          "Según la web oficial de becas del Ministerio, la convocatoria de ayudas para alumnado con necesidad específica de apoyo educativo del curso 2026/2027 se publicó el 8 de mayo de 2026, y el plazo de solicitud fue del 19 de mayo al 10 de septiembre de 2026.",
+          "Todo el proceso se hace en la sede electrónica del Ministerio, con Cl@ve, certificado electrónico o el usuario y contraseña de la sede. No se pide documentación de entrada, porque las unidades de becas consultan los datos; solo en algunos casos te requerirán un documento. Comprueba que obtienes el justificante y que la solicitud no queda en borrador, porque un borrador no es válido. Teléfono de la Oficina de Atención al Ciudadano: 910 837 937."
+        ]
+      }
+    ]
+  },
+  "/becas/colaboracion": {
+    "reviewedAt": R,
+    "sources": [
+      {
+        "href": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/catalogo/general/99/998142/ficha/998142-2026.html",
+        "label": "Ministerio de Educación: becas de colaboración 2026-2027"
+      }
+    ],
+    "sections": [
+      {
+        "id": "requisitos-2026-2027",
+        "title": "Requisitos de la convocatoria 2026-2027",
+        "paragraphs": [
+          "La ficha oficial del Ministerio (código SIA 998142) recoge 2.111 becas de 2.000 euros para estudiantes del último curso de Grado o del primer curso de Máster oficial, destinadas a tareas de investigación en departamentos universitarios. La convocatoria se publicó en el BOE el 17 de julio de 2026 y el plazo fue del 21 de julio a las 08:00 al 22 de septiembre de 2026 a las 15:00; ya está cerrado.",
+          "En Grado hay que estar matriculado de todo lo que falta para terminar y haber superado el 75 % de la carga lectiva, con estas notas medias mínimas:"
+        ],
+        "lists": [
+          [
+            "7,25: Ingeniería y Arquitectura o Enseñanzas Técnicas.",
+            "7,70: Ciencias o Ciencias Experimentales y Ciencias Sociales y Jurídicas.",
+            "7,80: Ciencias de la Salud.",
+            "8,00: Artes y Humanidades.",
+            "Todas las solicitudes llevan un proyecto de colaboración avalado y puntuado por el departamento, que se sube escaneado a la aplicación."
+          ]
+        ]
+      }
+    ]
+  },
+  "/becas/autonomicas/beca-salario-gva": {
+    "reviewedAt": R,
+    "sources": [
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68",
+        "label": "BOE: Ley 39/2015, artículo 68 (subsanación)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
+        "label": "BOE: Ley 39/2015, artículo 30 (cómputo de plazos)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43",
+        "label": "BOE: Ley 39/2015, artículo 43 (notificaciones electrónicas)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a124",
+        "label": "BOE: Ley 39/2015, artículo 124 (plazo del recurso de reposición)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "plazos-ley-39",
+        "title": "Plazos generales si te requieren o resuelven",
+        "paragraphs": [
+          "Las bases de cada convocatoria autonómica fijan sus propios plazos de solicitud, pero los trámites posteriores siguen la Ley 39/2015. Si tu solicitud está incompleta, el artículo 68 da diez días para subsanar; si no lo haces, se te tiene por desistido.",
+          "La Generalitat publica la convocatoria y sus resoluciones en su guía de procedimientos (gva.es); revisa allí la resolución que te afecte y el recurso que indica."
+        ],
+        "lists": [
+          [
+            "Ley 39/2015, artículo 30: los plazos por días son hábiles salvo que una ley diga otra cosa; se excluyen sábados, domingos y festivos, y se cuentan desde el día siguiente a la notificación.",
+            "Artículo 43: si la notificación electrónica es obligatoria o la elegiste, se entiende rechazada a los diez días naturales de ponerla a tu disposición sin abrirla, y el procedimiento sigue.",
+            "Artículo 124: contra una resolución expresa que pone fin a la vía administrativa, el recurso potestativo de reposición se presenta en el plazo de un mes."
+          ]
+        ]
+      }
+    ]
+  },
+  "/becas/autonomicas/ayudas-estudio-cyl": {
+    "reviewedAt": R,
+    "sources": [
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68",
+        "label": "BOE: Ley 39/2015, artículo 68 (subsanación)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
+        "label": "BOE: Ley 39/2015, artículo 30 (cómputo de plazos)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43",
+        "label": "BOE: Ley 39/2015, artículo 43 (notificaciones electrónicas)"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a124",
+        "label": "BOE: Ley 39/2015, artículo 124 (plazo del recurso de reposición)"
+      },
+      {
+        "href": "https://www.educa.jcyl.es/universidad/es/becas_universitarias/ayudas-estudio",
+        "label": "Junta de Castilla y León: ayudas al estudio"
+      }
+    ],
+    "sections": [
+      {
+        "id": "plazos-ley-39",
+        "title": "Plazos generales si te requieren o resuelven",
+        "paragraphs": [
+          "Las bases de cada convocatoria autonómica fijan sus propios plazos de solicitud, pero los trámites posteriores siguen la Ley 39/2015. Si tu solicitud está incompleta, el artículo 68 da diez días para subsanar; si no lo haces, se te tiene por desistido.",
+          "La Junta de Castilla y León publica en su portal de educación las resoluciones de cada curso y, para 2025-2026, un acceso específico de subsanación al final de la página de ayudas al estudio."
+        ],
+        "lists": [
+          [
+            "Ley 39/2015, artículo 30: los plazos por días son hábiles salvo que una ley diga otra cosa; se excluyen sábados, domingos y festivos, y se cuentan desde el día siguiente a la notificación.",
+            "Artículo 43: si la notificación electrónica es obligatoria o la elegiste, se entiende rechazada a los diez días naturales de ponerla a tu disposición sin abrirla, y el procedimiento sigue.",
+            "Artículo 124: contra una resolución expresa que pone fin a la vía administrativa, el recurso potestativo de reposición se presenta en el plazo de un mes."
+          ]
+        ]
+      }
+    ]
+  },
+  "/extranjeria/arraigo-padron": {
+    "reviewedAt": R,
+    "sources": [
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099#a1-38",
+        "label": "BOE: Real Decreto 1155/2024, artículos 125 y 126"
+      },
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a16",
+        "label": "BOE: Ley 7/1985, artículo 16 (padrón)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "requisitos-reglamento",
+        "title": "Qué exige el Reglamento de 2024",
+        "paragraphs": [
+          "El padrón importa porque, según el artículo 16 de la Ley 7/1985, sus datos prueban la residencia y el domicilio habitual, y sus certificados son documento público. Para extranjeros sin residencia de larga duración ajenos a la UE y el EEE, la inscripción debe renovarse cada dos años.",
+          "El Real Decreto 1155/2024 prevé cinco arraigos (artículo 125): segunda oportunidad, sociolaboral, social, socioformativo y familiar. La autorización dura un año, salvo la de arraigo familiar, que dura cinco. Los requisitos generales del artículo 126 son acumulativos:"
+        ],
+        "lists": [
+          [
+            "Estar en España y no ser solicitante de protección internacional.",
+            "Dos años de permanencia continuada antes de la solicitud (no se exige en el arraigo familiar).",
+            "No tener antecedentes penales en España ni en los países de residencia de los cinco años anteriores.",
+            "Haber pagado la tasa y no tener otra autorización ni otro procedimiento de estancia o residencia en curso (letra h, añadida por el RD 316/2026)."
+          ]
+        ]
+      }
+    ]
+  },
+  "/extranjeria/nie": {
+    "reviewedAt": R,
+    "sources": [
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099#a2-17",
+        "label": "BOE: Real Decreto 1155/2024, artículo 205 (NIE)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "nie-en-el-reglamento",
+        "title": "Qué dice el Reglamento sobre el NIE",
+        "paragraphs": [
+          "El artículo 205 del Real Decreto 1155/2024 define el NIE como un número personal, único y exclusivo, que debe figurar en todos los documentos que se te expidan. La Dirección General de la Policía lo asigna de oficio cuando inicias un procedimiento para un documento que te habilite a permanecer en España.",
+          "Si solo te relacionas con España por intereses económicos, profesionales o sociales, debes pedirlo tú, personalmente, en una Oficina de Extranjería o comisaría, o en un consulado si estás fuera. Además, no puedes estar en situación irregular y debes indicar el motivo. El plazo máximo para resolver es de cinco días; si no hay respuesta, la solicitud se entiende desestimada. Las mismas reglas valen para los certificados de residente y de no residente."
+        ]
+      }
+    ]
+  },
+  "/extranjeria/huellas-sin-citas-barcelona": {
+    "reviewedAt": R,
+    "sources": [
+      {
+        "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099#a2-21",
+        "label": "BOE: Real Decreto 1155/2024, artículo 209 (TIE)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "plazo-tie",
+        "title": "El plazo legal para pedir la TIE",
+        "paragraphs": [
+          "La toma de huellas es el paso para obtener la tarjeta de identidad de extranjero (TIE). Según el artículo 209 del Real Decreto 1155/2024, quien tiene un visado o una autorización para más de seis meses tiene el derecho y el deber de obtenerla, y debe pedirla personalmente en el plazo de un mes desde la entrada en España o desde que la autorización se concede o empieza a tener efecto.",
+          "La TIE es personal e intransferible y acredita tu situación legal. Incumplir las obligaciones sobre la tarjeta puede llevar a sanciones de la Ley Orgánica 4/2000. Si no encuentras cita dentro del mes, guarda las capturas de tus intentos con fecha y hora como prueba de que lo intentaste."
+        ]
+      }
+    ]
+  },
 };
 
 const APLICADAS = new WeakSet<Guide>();
