@@ -1,3 +1,4 @@
+import { mejorar20261024 } from "@/lib/tramites/mejoras-20261024";
 import { ACTUALIDAD_20261006_GUIDES } from "@/lib/tramites/actualidad-20261006";
 import { AYUDAS_GOBIERNO_GUIDES } from "@/lib/tramites/ayudas-por-gobierno";
 import { PROMESAS_29N_GUIDES, ELECCIONES_EXPLICADORES_GUIDES } from "@/lib/tramites/promesas-29n";
@@ -78,7 +79,7 @@ export const ALL_GUIDES: Guide[] = [
   ...FAMILIA_CCAA_GUIDES,
   ...COBROS_AVISOS_GUIDES,
   ...MODELO_GUIDES,
-];
+].map(mejorar20261024);
 
 export const TRAVEL_PATHS = VIAJE_GUIDES.map((g) => g.path);
 

@@ -469,6 +469,20 @@ CORE = [
 
 
 FRESH_LASTMOD = {
+    # Mejoras fase 2 lote 1 (24-10): guías electorales flojas ampliadas con LOREG/CE/RDL 29/2026.
+    "/elecciones/jornada-de-reflexion": "2026-10-24T12:40:00+02:00",
+    "/elecciones/encuestas-prohibidas": "2026-10-24T12:40:00+02:00",
+    "/elecciones/junta-electoral-central": "2026-10-24T12:40:00+02:00",
+    "/elecciones/interventores-y-apoderados": "2026-10-24T12:40:00+02:00",
+    "/elecciones/resultados-y-escrutinio": "2026-10-24T12:40:00+02:00",
+    "/elecciones/voto-nulo-y-voto-en-blanco": "2026-10-24T12:40:00+02:00",
+    "/elecciones/extranjeros-pueden-votar-generales": "2026-10-24T12:40:00+02:00",
+    "/elecciones/que-llevar-a-votar": "2026-10-24T12:40:00+02:00",
+    "/elecciones/dni-caducado-votar": "2026-10-24T12:40:00+02:00",
+    "/elecciones/votar-en-persona-tras-pedir-correo": "2026-10-24T12:40:00+02:00",
+    "/elecciones/como-se-elige-presidente-gobierno": "2026-10-24T12:40:00+02:00",
+    "/elecciones/deduccion-alquiler-10-por-ciento": "2026-10-24T12:40:00+02:00",
+    "/elecciones/prorroga-alquiler-dos-anos": "2026-10-24T12:40:00+02:00",
     # Mejoras fase 1 (auditoría 24-10): enlaces a promesas, sorteo de mesa, /becas fecha, /dni precio arriba.
     "/": "2026-10-24T12:00:00+02:00",
     "/elecciones": "2026-10-24T12:00:00+02:00",
