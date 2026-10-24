@@ -145,13 +145,13 @@
     "name": "Bilbao",
     "oleada": "A",
     "wave0": true,
-    "candidate": "https://www.bilbaoturismo.net/BilbaoTurismo/es/turistas",
+    "candidate": "https://www.bilbao.eus/",
     "all": [
-      "https://www.bilbaoturismo.net/BilbaoTurismo/es/turistas"
+      "https://www.bilbao.eus/"
     ],
     "status": 200,
-    "final_url": "https://www.bilbaoturismo.net/BilbaoTurismo/es/turistas",
-    "host": "www.bilbaoturismo.net",
+    "final_url": "https://www.bilbao.eus/",
+    "host": "www.bilbao.eus",
     "error": null
   },
   {

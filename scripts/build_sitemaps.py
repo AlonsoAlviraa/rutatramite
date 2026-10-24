@@ -469,6 +469,11 @@ CORE = [
 
 
 FRESH_LASTMOD = {
+    "/empadronarse/cataluna/barcelona/barcelona": "2026-10-24T13:30:00+02:00",
+    "/empadronarse/comunidad-valenciana/valencia/valencia": "2026-10-24T13:30:00+02:00",
+    "/empadronarse/aragon/zaragoza/zaragoza": "2026-10-24T13:30:00+02:00",
+    "/empadronarse/andalucia/sevilla/sevilla": "2026-10-24T13:30:00+02:00",
+    "/empadronarse/pais-vasco/bizkaia/bilbao": "2026-10-24T13:30:00+02:00",
     # Mejoras fase 2 lote 1 (24-10): guías electorales flojas ampliadas con LOREG/CE/RDL 29/2026.
     "/elecciones/jornada-de-reflexion": "2026-10-24T12:40:00+02:00",
     "/elecciones/encuestas-prohibidas": "2026-10-24T12:40:00+02:00",

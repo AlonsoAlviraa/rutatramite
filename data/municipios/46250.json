@@ -11,23 +11,39 @@
   "poblacion": 840792,
   "poblacion_ref": "INE 1-ene-2025 (vía listado público; contrastar cifra vigente en ine.es)",
   "sede_url": "https://www.valencia.es/cas/inicio",
-  "tramite_alta_url": null,
-  "cita_url": null,
+  "tramite_alta_url": "https://sede.valencia.es/sede/registro/procedimiento/PA.GP.11",
+  "cita_url": "https://www.valencia.es/cas/tramites/cita-previa",
   "certificado_url": null,
-  "online": "unknown",
+  "online": true,
   "presencial": true,
-  "cita_previa": "unknown",
-  "oficinas": [],
+  "cita_previa": "required",
+  "oficinas": [
+    {
+      "nombre": "Oficina de Padrón",
+      "direccion": "Plaza del Ayuntamiento (entrada por calle Periodista Azzati, 2)",
+      "cp": "46002",
+      "lat": null,
+      "lon": null,
+      "horario": "Lunes a viernes, 8:30–14:00",
+      "telefono": "010 / 963 100 010",
+      "cita": true
+    }
+  ],
   "tasa_alta": 0,
   "tasa_volante": null,
   "tasa_certificado": null,
   "docs_extra": [],
-  "peculiaridades": [],
+  "peculiaridades": [
+    "Se puede tramitar por la sede electrónica (procedimiento PA.GP.11)",
+    "La atención presencial es solo con cita previa (web, 010 o 963 100 010)"
+  ],
   "idiomas_sede": [
     "es"
   ],
-  "last_verified": "2026-09-03",
+  "last_verified": "2026-10-24",
   "source_urls": [
+    "https://sede.valencia.es/sede/registro/procedimiento/PA.GP.11",
+    "https://www.valencia.es/cas/tramites/cita-previa",
     "https://www.valencia.es/cas/inicio",
     "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031"
   ],
