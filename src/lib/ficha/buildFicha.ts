@@ -366,7 +366,7 @@ export function neighborsOf(m: Municipio, index: MunicipioIndexEntry[], n = 5): 
     .slice(0, n);
 }
 
-const RESUMEN_LOCAL_ON = false;
+const RESUMEN_LOCAL_ON = true;
 function resumenLocal(m: Municipio): FichaSection | null {
   if (!RESUMEN_LOCAL_ON || !m.reviewed_on || m.confidence !== "official") return null;
   const items: string[] = [];
