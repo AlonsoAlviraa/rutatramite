@@ -360,6 +360,206 @@ export const MEJORAS_20261024: Record<string, Mejora> = {
     ],
     faqs: [{ q: "¿Puede negarse el casero?", a: "Solo si pactáis otras condiciones, firmáis un nuevo contrato o te ha comunicado en plazo que necesita la vivienda para él o su familia (disposición final quinta del Real Decreto-ley 29/2026)." }],
   },
+  "/elecciones/prestamo-tu-casa-50000-euros": {
+    reviewedAt: R,
+    sources: [{ href: "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20823#a1-11", label: "BOE: Real Decreto-ley 29/2026, artículo 19 (Línea TU CASA)" }],
+    sections: [
+      {
+        id: "que-dice-el-articulo-19",
+        title: "Qué dice exactamente el artículo 19 del Real Decreto-ley 29/2026",
+        paragraphs: [
+          "El artículo 19 crea la línea TU CASA para financiar el acceso a la primera vivienda habitual hipotecada, «independientemente de su edad», como complemento de la financiación privada. El préstamo cubre la cantidad menor entre el 20 % del valor de la vivienda hipotecada y 50.000 euros, a tipo de interés del cero por ciento y sin comisiones.",
+          "La gestión corresponde al Instituto de Crédito Oficial (ICO), que analiza las operaciones según sus políticas de riesgos y las condiciones de elegibilidad. El objeto, los beneficiarios, los límites y el importe inicial de la línea se fijarán por Acuerdo del Consejo de Ministros, por lo que hoy no hay formulario ni plazo para pedirlo.",
+          "El mismo artículo aprueba un crédito extraordinario de 10.000 millones de euros para la línea y establece que la vivienda debe destinarse a residencia habitual y queda sujeta de forma permanente a un precio máximo de transmisión: en las ventas posteriores no podrá superar el precio de compra actualizado con el IPC. Si se alquila, la renta debe quedar por debajo del índice de referencia de precios.",
+        ],
+        lists: [[
+          "Quién lo gestiona: el ICO, como entidad colaboradora del Ministerio de Vivienda y Agenda Urbana.",
+          "Qué falta: el Acuerdo del Consejo de Ministros con requisitos y procedimiento.",
+          "Qué condiciona: la venta futura (precio máximo) y el alquiler (renta limitada).",
+        ]],
+      },
+    ],
+    faqs: [{ q: "¿Necesito tener menos de 35 años?", a: "No. El artículo 19 dice que el préstamo se dirige a quienes accedan a su primera vivienda habitual hipotecada «independientemente de su edad». Los demás requisitos se conocerán con el Acuerdo del Consejo de Ministros." }],
+  },
+  "/elecciones/bulos-y-fraudes-electorales": {
+    reviewedAt: R,
+    sources: [loreg("acientocuarentayseis", "artículo 146: compra de votos y coacciones"), loreg("asetentaydos", "artículo 72: voto por correo"), loreg("acientocuarentaycinco", "artículo 145: encuestas")],
+    sections: [
+      {
+        id: "lo-que-dice-la-ley",
+        title: "Lo que dice la ley sobre los engaños más repetidos",
+        paragraphs: [
+          "Muchos bulos se desmontan leyendo la LOREG. El voto por correo se pide en una oficina de Correos y la solicitud debe hacerse en persona, enseñando el DNI original; no se admite fotocopia (artículo 72). Solo si una enfermedad lo impide puede pedirlo otra persona con autorización notarial o consular y certificado médico oficial y gratuito.",
+          "El artículo 146 castiga con prisión de seis meses a tres años o multa a quien pida el voto a cambio de recompensas, dinero o promesas, a quien presione con violencia o intimidación para que alguien vote de una forma o no vote, y a quien impida la entrada o salida de electores del colegio.",
+          "Publicar encuestas incumpliendo la normativa también es delito (artículo 145), y desde el 24 de noviembre no pueden difundirse sondeos.",
+        ],
+        lists: [[
+          "Nadie puede cobrarte por pedir o enviar el voto por correo.",
+          "Ofrecer dinero o regalos a cambio del voto es delito, tanto para quien lo pide como para quien presiona.",
+          "Un mensaje que te pide votar «por internet» o confirmar datos por SMS no es oficial.",
+          "Si sospechas de un delito electoral, acude a la Junta Electoral de Zona, a la Fiscalía o a la policía.",
+        ]],
+      },
+    ],
+    faqs: [{ q: "¿Me pueden quitar el voto si no contesto un mensaje?", a: "No. El derecho a votar se acredita con la inscripción en el censo y tu documento de identidad en la mesa (artículo 85 de la LOREG). Ningún SMS o correo lo cambia." }],
+  },
+  "/elecciones/diputados-por-provincia-29n": {
+    reviewedAt: R,
+    sources: [{ href: "https://www.boe.es/eli/es/rd/2026/10/05/806", label: "BOE: Real Decreto 806/2026, artículo 3 y anexo" }, loreg("acientosesentaydos", "artículo 162: reparto de escaños"), loreg("acientosesentaytres", "artículo 163: fórmula D'Hondt")],
+    sections: [
+      {
+        id: "anexo-completo",
+        title: "Las 52 circunscripciones, según el anexo del Real Decreto 806/2026",
+        paragraphs: [
+          "El artículo 3 del Real Decreto 806/2026 remite al anexo para el número de diputados de cada circunscripción. Esta es la lista completa por orden de diputados.",
+        ],
+        table: {
+          caption: "Diputados por circunscripción, elecciones generales del 29 de noviembre de 2026",
+          head: ["Diputados", "Circunscripciones"],
+          rows: [
+            { cells: ["38", "Madrid"] },
+            { cells: ["32", "Barcelona"] },
+            { cells: ["16", "Valencia/València"] },
+            { cells: ["12", "Alicante/Alacant, Sevilla"] },
+            { cells: ["11", "Málaga"] },
+            { cells: ["10", "Murcia"] },
+            { cells: ["8", "Balears (Illes), Bizkaia, Cádiz, Coruña (A), Palmas (Las)"] },
+            { cells: ["7", "Asturias, Granada, Pontevedra, Santa Cruz de Tenerife, Zaragoza"] },
+            { cells: ["6", "Almería, Córdoba, Gipuzkoa, Girona, Tarragona, Toledo"] },
+            { cells: ["5", "Badajoz, Cantabria, Castellón/Castelló, Ciudad Real, Huelva, Jaén, Navarra, Valladolid"] },
+            { cells: ["4", "Albacete, Araba/Álava, Burgos, Cáceres, León, Lleida, Lugo, Ourense, Rioja (La), Salamanca"] },
+            { cells: ["3", "Ávila, Cuenca, Guadalajara, Huesca, Palencia, Segovia, Teruel, Zamora"] },
+            { cells: ["2", "Soria"] },
+            { cells: ["1", "Ceuta, Melilla"] },
+          ],
+        },
+      },
+      {
+        id: "umbral-3",
+        title: "El umbral del 3 % y el Senado",
+        paragraphs: [
+          "En cada provincia no entran en el reparto las candidaturas que no lleguen al 3 % de los votos válidos, que incluyen el voto en blanco (artículo 163 de la LOREG). Después se aplica D'Hondt: se dividen los votos de cada candidatura entre 1, 2, 3… y los escaños van a los cocientes mayores.",
+          "Para el Senado, el mismo real decreto fija cuatro senadores por provincia; tres en Gran Canaria, Mallorca y Tenerife; uno en Ibiza, Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote y La Palma, y dos en Ceuta y en Melilla.",
+        ],
+      },
+    ],
+  },
+  "/elecciones/como-votar-el-dia-29": {
+    reviewedAt: R,
+    sources: [loreg("aochentaycuatro", "artículo 84: horario"), loreg("aochentayseis", "artículo 86: votación"), loreg("aochentayocho", "artículo 88: cierre"), loreg("aochentaysiete", "artículo 87: ayuda de una persona de confianza")],
+    sections: [
+      {
+        id: "horario-y-cierre",
+        title: "Horario, identificación y cierre según la LOREG",
+        paragraphs: [
+          "Los miembros de la mesa se reúnen a las 8:00 (artículo 80) y la votación empieza a las 9:00 y sigue sin interrupción hasta las 20:00 (artículo 84). A las 20:00 el presidente anuncia que va a concluir la votación; si alguien que está en el local o en el acceso todavía no ha votado, puede hacerlo, y ya no vota nadie más (artículo 88).",
+          "La identificación se hace con DNI, pasaporte o permiso de conducir con fotografía (artículo 85). El voto es secreto y solo puedes votar en la mesa que te corresponde (artículo 86). Los vocales e interventores comprueban en las listas del censo que puedes votar.",
+          "Si no sabes leer o tienes una discapacidad que te impide escoger la papeleta, meterla en el sobre o entregarla, puedes ir acompañado de una persona de confianza (artículo 87). Las personas ciegas que usan braille pueden usar además el voto accesible si lo solicitaron en plazo.",
+        ],
+        lists: [[
+          "8:00: se constituye la mesa.",
+          "9:00: «Empieza la votación».",
+          "20:00: votan quienes ya están dentro; luego se introducen los votos por correo y votan la mesa y los interventores.",
+          "Después: escrutinio público, al que puede asistir cualquiera (artículo 95).",
+        ]],
+      },
+    ],
+  },
+  "/elecciones/deflactar-irpf-que-significa": {
+    reviewedAt: R,
+    sources: [{ href: "https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764#a63", label: "BOE: Ley 35/2006 del IRPF, artículo 63 (escala estatal)" }, { href: "https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764#a74", label: "BOE: Ley 35/2006 del IRPF, artículo 74 (escala autonómica)" }],
+    sections: [
+      {
+        id: "escala-estatal",
+        title: "La escala estatal que se deflactaría",
+        paragraphs: [
+          "El artículo 63 de la Ley del IRPF fija la escala estatal que se aplica a la base liquidable general. Esa es la parte que puede cambiar el Estado. A ella se suma la escala autonómica que aprueba cada comunidad (artículo 74), por lo que el tipo total que paga cada persona depende también de dónde vive.",
+          "Deflactar consiste en subir los límites de cada tramo en un porcentaje, normalmente la inflación. Los tipos no cambian; cambia a partir de qué cantidad se aplican.",
+        ],
+        table: {
+          caption: "Escala estatal del IRPF vigente (artículo 63.1 de la Ley 35/2006)",
+          head: ["Base liquidable desde", "Hasta", "Tipo estatal"],
+          rows: [
+            { cells: ["0 €", "12.450 €", "9,50 %"] },
+            { cells: ["12.450 €", "20.200 €", "12 %"] },
+            { cells: ["20.200 €", "35.200 €", "15 %"] },
+            { cells: ["35.200 €", "60.000 €", "18,50 %"] },
+            { cells: ["60.000 €", "300.000 €", "22,50 %"] },
+            { cells: ["300.000 €", "en adelante", "24,50 %"] },
+          ],
+        },
+      },
+    ],
+    faqs: [{ q: "¿Deflactar baja los tipos?", a: "No. Los porcentajes de la tabla se mantienen; lo que sube son los importes que separan un tramo de otro." }],
+  },
+  "/elecciones/prioridad-nacional-que-es": {
+    reviewedAt: R,
+    sources: [ce("a13", "artículo 13: derechos de los extranjeros"), ce("a14", "artículo 14: igualdad"), ce("a148", "artículo 148: competencias autonómicas")],
+    sections: [
+      {
+        id: "marco-constitucional",
+        title: "Qué dice hoy la Constitución sobre extranjeros e igualdad",
+        paragraphs: [
+          "Para entender el debate ayuda saber qué fija hoy la Constitución. El artículo 13 dice que los extranjeros gozan en España de las libertades públicas del Título I «en los términos que establezcan los tratados y la ley», y reserva a los españoles el derecho de sufragio del artículo 23, salvo lo que se pacte por reciprocidad para las elecciones municipales.",
+          "El artículo 14 establece que los españoles son iguales ante la ley sin discriminación por nacimiento, raza, sexo, religión, opinión u otra condición. El artículo 148 permite a las comunidades autónomas asumir competencias en vivienda y asistencia social, que son las materias donde el partido plantea aplicar su criterio.",
+          "Cómo encajaría la propuesta en ese marco dependería del texto legal que se presentara, que a 24 de octubre de 2026 no se ha publicado. No valoramos si es o no compatible: eso corresponde, en su caso, a los tribunales.",
+        ],
+      },
+    ],
+  },
+  "/elecciones/propuesta-fin-cita-previa": {
+    reviewedAt: R,
+    sources: [{ href: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a13", label: "BOE: Ley 39/2015, artículo 13 (derechos ante la Administración)" }, { href: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a28", label: "BOE: Ley 39/2015, artículo 28 (documentos ya en poder de la Administración)" }, { href: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a24", label: "BOE: Ley 39/2015, artículo 24 (silencio administrativo)" }],
+    sections: [
+      {
+        id: "que-dice-la-ley-hoy",
+        title: "Qué dice hoy la Ley 39/2015 sobre estos temas",
+        paragraphs: [
+          "La ley básica del procedimiento administrativo no regula la cita previa como tal: cada administración organiza la atención presencial de sus oficinas. Sí reconoce, en su artículo 13, el derecho a ser asistido en el uso de medios electrónicos y a ser tratado con respeto y deferencia.",
+          "Otras medidas del mismo programa ya tienen una base en la ley actual. El artículo 28.2 reconoce el derecho a no aportar documentos que ya tenga cualquier administración, que puede consultarlos salvo que te opongas. Y el artículo 24 fija como regla general el silencio positivo en procedimientos iniciados a petición del interesado, con excepciones cuando una ley lo establece.",
+          "La propuesta iría más allá de lo vigente al prohibir exigir cita previa en todas las administraciones. Para el trámite que necesites hoy, revisa en la web oficial si la oficina atiende sin cita.",
+        ],
+      },
+    ],
+  },
+  "/elecciones/voto-accesible-braille": {
+    reviewedAt: R,
+    sources: [{ href: "https://www.boe.es/eli/es/rd/2007/12/07/1612/con", label: "BOE: Real Decreto 1612/2007, texto consolidado" }, loreg("aochentaysiete", "artículo 87")],
+    sections: [
+      {
+        id: "requisitos-y-kit",
+        title: "Quién puede pedirlo y qué contiene el sobre",
+        paragraphs: [
+          "Según el artículo 3 del Real Decreto 1612/2007, en la redacción aplicable a estas elecciones, pueden usarlo las personas con discapacidad visual que conozcan el braille y tengan reconocido un grado de discapacidad igual o superior al 33 % o estén afiliadas a la ONCE. La comunicación se hace al Ministerio del Interior desde la convocatoria hasta el vigésimo séptimo día posterior. Una reforma publicada en 2026 elimina el requisito del grado o la afiliación, pero entra en vigor el 2 de enero de 2027.",
+          "Tras comunicarlo recibes una confirmación que te permite recoger la documentación en tu mesa. El día de la votación te diriges al presidente de la mesa, que te entrega el material y te indica el espacio del colegio habilitado para usarlo (artículo 6).",
+        ],
+        lists: [[
+          "Congreso: instrucciones en braille, un sobre de votación y un sobre por candidatura, rotulado en tinta y braille, con su papeleta dentro.",
+          "Senado: un sobre de votación, una plantilla con ventanas troqueladas sobre la papeleta para marcar con una X y una guía en braille con los candidatos en el mismo orden.",
+          "Alternativa siempre disponible: votar con ayuda de una persona de confianza (artículo 87.1 de la LOREG).",
+        ]],
+      },
+    ],
+  },
+  "/elecciones/votar-hospitalizado-o-enfermo": {
+    reviewedAt: R,
+    sources: [loreg("asetentaydos", "artículo 72"), loreg("asetentaytres", "artículo 73: envío y recepción")],
+    sections: [
+      {
+        id: "detalle-legal",
+        title: "Los detalles que fija la LOREG",
+        paragraphs: [
+          "El artículo 72 exige que la solicitud se haga en persona en Correos con el DNI original, y prevé una excepción: si una enfermedad o incapacidad impide hacerlo, otra persona puede presentarla con un certificado médico oficial y gratuito y una autorización notarial o consular. Esa autorización es individual: no puede incluir a varios electores y una misma persona no puede representar a más de uno. La Junta Electoral comprueba cada caso.",
+          "La documentación llega por correo certificado y el acuse debe firmarlo el propio elector tras identificarse. Si no está en casa, recibe un aviso para recogerla en la oficina de Correos, en persona o mediante la misma representación (artículo 73). El voto se envía después por correo certificado.",
+        ],
+        lists: [[
+          "Certificado médico: oficial y gratuito.",
+          "Autorización: ante notario o cónsul, una por elector.",
+          "Recepción: la firma el elector; si está ingresado, conviene indicar en la solicitud el domicilio donde podrá recibirla.",
+        ]],
+      },
+    ],
+  },
 };
 
 const APLICADAS = new WeakSet<Guide>();

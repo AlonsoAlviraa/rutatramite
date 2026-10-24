@@ -469,6 +469,15 @@ CORE = [
 
 
 FRESH_LASTMOD = {
+    "/elecciones/prestamo-tu-casa-50000-euros": "2026-10-24T11:15:00+02:00",
+    "/elecciones/bulos-y-fraudes-electorales": "2026-10-24T11:15:00+02:00",
+    "/elecciones/diputados-por-provincia-29n": "2026-10-24T11:15:00+02:00",
+    "/elecciones/como-votar-el-dia-29": "2026-10-24T11:15:00+02:00",
+    "/elecciones/deflactar-irpf-que-significa": "2026-10-24T11:15:00+02:00",
+    "/elecciones/prioridad-nacional-que-es": "2026-10-24T11:15:00+02:00",
+    "/elecciones/propuesta-fin-cita-previa": "2026-10-24T11:15:00+02:00",
+    "/elecciones/voto-accesible-braille": "2026-10-24T11:15:00+02:00",
+    "/elecciones/votar-hospitalizado-o-enfermo": "2026-10-24T11:15:00+02:00",
     "/empadronarse/cantabria": "2026-10-24T11:55:00+02:00",
     "/empadronarse/la-rioja": "2026-10-24T11:55:00+02:00",
     "/empadronarse/comunidad-foral-de-navarra": "2026-10-24T11:55:00+02:00",
