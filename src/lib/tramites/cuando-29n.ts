@@ -359,12 +359,12 @@ export const CUANDO_29N_GUIDES: Guide[] = [
  {
   "id": "c29n-sorteo-mesa",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-19",
+  "reviewedAt": "2026-10-24",
   "path": "/elecciones/sorteo-mesa-electoral-29n",
   "h1": "¿Me ha tocado mesa electoral? Cuándo es el sorteo y cuándo te avisan (29-N)",
-  "title": "Sorteo mesa electoral 29-N: fechas y cómo saber si te toca",
-  "description": "Sorteo de mesas del 29-N: del 31 de octubre al 4 de noviembre; te lo notifican en 3 días. Plazo para alegar, renuncia con 65 años y dieta de 75 €.",
-  "lead": "Respuesta corta: los ayuntamientos sortean las mesas entre el 31 de octubre y el 4 de noviembre de 2026, y deben notificar la designación en los 3 días siguientes al sorteo. Si tu ayuntamiento sortea el último día, la notificación debe llegar como tarde el 7 de noviembre. Desde que te notifican tienes 7 días para alegar una causa justificada. Si te toca como presidente o vocal titular, cobras una dieta de 75 € (Orden INT/650/2026).",
+  "title": "Sorteo mesa electoral 29-N (31 oct-4 nov): ¿me ha tocado?",
+  "description": "Sorteo de mesas del 29-N: 31 de octubre a 4 de noviembre. Cómo saber si te ha tocado: notificación personal en 3 días (hasta el 7-N). Dieta de 75 €.",
+  "lead": "Respuesta corta: sabrás si te ha tocado mesa cuando te llegue la notificación personal; no hay una lista pública en internet. Los ayuntamientos sortean las mesas entre el 31 de octubre y el 4 de noviembre de 2026, y deben notificar la designación en los 3 días siguientes al sorteo. Si tu ayuntamiento sortea el último día, la notificación debe llegar como tarde el 7 de noviembre. Desde que te notifican tienes 7 días para alegar una causa justificada. Si te toca como presidente o vocal titular, cobras una dieta de 75 € (Orden INT/650/2026).",
   "cta": {
    "href": "/elecciones/excusa-mesa-electoral",
    "label": "Excusas para la mesa electoral"
@@ -435,6 +435,14 @@ export const CUANDO_29N_GUIDES: Guide[] = [
   ],
   "faqs": [
    {
+    "q": "¿Cómo sé si me ha tocado mesa electoral?",
+    "a": "Por la notificación personal que te entrega el ayuntamiento en los 3 días siguientes al sorteo, junto con el manual de instrucciones (artículo 27.2 de la LOREG). No existe una consulta estatal por internet. Si no te han notificado nada a 7 de noviembre de 2026, lo normal es que no te haya tocado; si tienes dudas, pregunta en tu ayuntamiento."
+   },
+   {
+    "q": "¿Me pueden avisar por teléfono, correo electrónico o WhatsApp?",
+    "a": "La designación vale con la notificación oficial, que normalmente se entrega en mano en tu domicilio y se firma al recibirla. Desconfía de mensajes que pidan datos o pagos para «consultar» si te ha tocado mesa: el trámite es gratuito."
+   },
+   {
     "q": "¿Cuándo es el sorteo de mesas del 29-N?",
     "a": "Entre el 31 de octubre y el 4 de noviembre de 2026. Cada ayuntamiento elige el día dentro de ese plazo (calendario de la Junta Electoral Central y artículo 26.4 de la LOREG)."
    },
@@ -456,6 +464,21 @@ export const CUANDO_29N_GUIDES: Guide[] = [
    }
   ],
   "sections": [
+   {
+    "id": "como-saber",
+    "title": "Cómo saber si me ha tocado mesa",
+    "paragraphs": [
+     "La única forma válida es la notificación personal. El ayuntamiento hace el sorteo en público entre el 31 de octubre y el 4 de noviembre de 2026 y tiene 3 días para notificar a las personas designadas, así que todas las notificaciones deben estar entregadas como tarde el 7 de noviembre (calendario de la Junta Electoral Central y artículos 26 y 27 de la LOREG).",
+     "No hay una lista nacional ni un buscador oficial por internet. Si quieres saber qué día sortea tu ayuntamiento, puedes preguntarlo allí: el acto es público. Si a 7 de noviembre no has recibido nada, lo habitual es que no te haya tocado."
+    ],
+    "lists": [
+     [
+      "Revisa tu buzón y avisa en casa: la notificación suele entregarse en mano y hay que firmar el recibí.",
+      "Comprueba en la notificación el cargo (presidente, vocal o suplente), la sección, la mesa y el local.",
+      "Si tienes una causa para no ir, el plazo de 7 días empieza a contar desde que te notifican."
+     ]
+    ]
+   },
    {
     "id": "plazos",
     "title": "Del sorteo al 29 de noviembre, día a día",

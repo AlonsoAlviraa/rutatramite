@@ -469,8 +469,13 @@ CORE = [
 
 
 FRESH_LASTMOD = {
+    # Mejoras fase 1 (auditoría 24-10): enlaces a promesas, sorteo de mesa, /becas fecha, /dni precio arriba.
+    "/": "2026-10-24T12:00:00+02:00",
+    "/elecciones": "2026-10-24T12:00:00+02:00",
+    "/elecciones/sorteo-mesa-electoral-29n": "2026-10-24T12:00:00+02:00",
+    "/becas": "2026-10-24T12:00:00+02:00",
+    "/dni": "2026-10-24T12:00:00+02:00",
     # Actualización de última hora (Sánchez en The Wild Project), 23-10-2026.
-    "/elecciones": "2026-10-23T20:45:00+02:00",
     # Rutina 24-10-2026: agenda (Vox 27-29 oct, hora de Granada), IMOP 2.ª oleada, propuestas PP del 23-10.
     "/elecciones/podcasts-entrevistas-candidatos-29n": "2026-10-24T08:30:00+02:00",
     "/elecciones/agenda-mitines-29n": "2026-10-24T08:30:00+02:00",

@@ -22,6 +22,7 @@ import { AYUDAS_GOBIERNO_NOTE } from "@/lib/tramites/ayudas-por-gobierno";
 import { fechaLarga, PromesasDataBar, PromesasMatrix } from "@/components/tramites/PromesasData";
 import { PROMESAS_29N_NOTE, PROMESAS_29N_UPDATED } from "@/lib/tramites/promesas-29n";
 import { absoluteUrl } from "@/lib/geo/paths";
+import { articleJsonLd } from "@/lib/seo/jsonld";
 
 /** Shared document heading for the hubs whose title and H1 must match. */
 export const PACK_DOCUMENT_HEADINGS = {
@@ -66,7 +67,7 @@ const titles: Record<GuidePack, { h1: string; lead: string }> = {
   },
   becas: {
     h1: PACK_DOCUMENT_HEADINGS.becas,
-    lead: "Respuesta corta: el estado de la beca MEC 2026-27 se consulta en la sede electrónica del Ministerio de Educación, en el apartado de tus expedientes, con los datos del solicitante. El plazo ordinario fue del 7 de abril al 19 de mayo de 2026 y la ventana para modificar datos, del 7 al 28 de septiembre de 2026. Abajo tienes las guías de solicitud, estado, cobro, resolución y devolución.",
+    lead: "Respuesta corta: el estado de la beca MEC 2026-27 se consulta en la sede electrónica del Ministerio de Educación, en el apartado de tus expedientes, con los datos del solicitante. El plazo ordinario fue del 7 de abril al 19 de mayo de 2026 y la ventana para modificar datos, del 7 al 28 de septiembre de 2026. A 24 de octubre de 2026, el Ministerio no ha anunciado la resolución definitiva. Abajo tienes las guías de solicitud, estado, cobro, resolución y devolución.",
   },
   alquiler: {
     h1: "Ayudas al alquiler: Bono Joven y nuevas convocatorias",
@@ -127,6 +128,11 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
       />
       <h1 className="mt-2 font-display text-4xl text-mossDark">{t.h1}</h1>
       <p className="mt-4 text-lg leading-relaxed">{t.lead}</p>
+      {pack === "viaje" && !passport ? (
+        <p className="mt-4 border border-sand p-4" data-dni-precio-renovar="">
+          <strong>¿Cuánto cuesta renovar el DNI en 2026?</strong> 12 €, tanto si está en vigor como si ha caducado, y lo mismo la primera vez (<a className="underline" href="https://www.boe.es/buscar/act.php?id=BOE-A-1979-867">Ley 84/1978, art. 6, BOE</a>). Es gratis para familias numerosas y para cambiar el domicilio de un DNI en vigor. El pasaporte cuesta 30 €; los dos en la misma cita, 42 €.
+        </p>
+      ) : null}
       {pack === "elecciones" ? <WildDestacado /> : null}
       {pack === "elecciones" || pack === "trabajo" ? <HoySeHabla /> : null}
       {pack === "viaje" ? (
@@ -224,7 +230,16 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
         </>
       ) : null}
       {pack === "elecciones" ? (
-        <p className="mt-4 text-sm"><a className="underline" href="/elecciones/promesas">Promesas del 29-N: qué propone cada partido, por comunidad y perfil</a> · <a className="underline" href="/ayudas-por-gobierno">Ayudas del Estado según cada gobierno desde 1996 (informativo, no partidista)</a></p>
+        <section aria-labelledby="promesas-29n-title" className="mt-8" data-elecciones-promesas="">
+          <h2 id="promesas-29n-title" className="font-display text-2xl text-mossDark">Qué propone cada partido</h2>
+          <p className="mt-2">Recogemos las medidas y declaraciones de PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21 con cita, fuente y fecha, en el mismo formato para todos y sin valoraciones.</p>
+          <ul className="mt-2 list-disc space-y-1 pl-5">
+            <li><a className="underline" href="/elecciones/promesas">Promesas del 29-N: qué propone cada partido, por comunidad y perfil</a></li>
+            <li><a className="underline" href="/elecciones/promesas/que-propone-cada-partido-vivienda">Vivienda: qué propone cada partido</a></li>
+            <li><a className="underline" href="/elecciones/promesas/partido-frente-amplio">Frente Amplio: sus propuestas para el 29-N</a></li>
+            <li><a className="underline" href="/ayudas-por-gobierno">Ayudas del Estado según cada gobierno desde 1996 (informativo, no partidista)</a></li>
+          </ul>
+        </section>
       ) : null}
       {pack === "becas" ? (
         <p className="mt-4 text-sm">
@@ -240,17 +255,19 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
           <JsonLd data={{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
             { "@type": "Question", name: "¿Cómo consulto el estado de mi beca MEC 2026-27?", acceptedAnswer: { "@type": "Answer", text: "En la sede electrónica del Ministerio de Educación, en «Mis expedientes» y «Mis notificaciones», con el DNI o NIE y la clave con la que hiciste la solicitud. Cuando hay una notificación nueva, el Ministerio avisa por correo electrónico." } },
             { "@type": "Question", name: "¿Cuándo sale la resolución de la beca MEC 2026-27?", acceptedAnswer: { "@type": "Answer", text: "No hay una fecha única. Según el Ministerio, en los meses siguientes al fin del plazo de solicitud (que fue el 19 de mayo de 2026) notifica primero si cumples los requisitos económicos; después, la concesión de la matrícula, las cuantías fijas y la cuantía variable mínima de 60 € cuando la convocatoria la prevé; más adelante, la cuantía variable, que puede llegar en dos partes." } },
-            { "@type": "Question", name: "¿Ha salido la resolución definitiva de la beca MEC 2026-27?", acceptedAnswer: { "@type": "Answer", text: "A 21 de octubre de 2026, la página de novedades del Ministerio no la anuncia. La resolución definitiva se publica en la web del Ministerio con la lista de todas las personas beneficiarias, después de las notificaciones individuales. Si tu solicitud no aparece en esa lista, no está concedida." } },
+            { "@type": "Question", name: "¿Ha salido la resolución definitiva de la beca MEC 2026-27?", acceptedAnswer: { "@type": "Answer", text: "A 24 de octubre de 2026, la página de novedades del Ministerio no la anuncia. La resolución definitiva se publica en la web del Ministerio con la lista de todas las personas beneficiarias, después de las notificaciones individuales. Si tu solicitud no aparece en esa lista, no está concedida." } },
             { "@type": "Question", name: "¿Puedo pedir la beca MEC si mi familia vive en Cataluña?", acceptedAnswer: { "@type": "Answer", text: "Desde el curso 2026-27, no: la competencia pasó a la Generalitat y debes pedir la beca de la convocatoria catalana. Cuenta el domicilio familiar, no dónde estudias." } }
           ] }} />
           <section id="preguntas" className="mt-8 space-y-3" data-becas-faq="">
             <h2 className="font-display text-2xl text-mossDark">Preguntas frecuentes sobre la beca MEC 2026-27</h2>
             <p><strong>¿Cómo consulto el estado de mi beca MEC 2026-27?</strong> En la sede electrónica del Ministerio de Educación, en «Mis expedientes» y «Mis notificaciones», con el DNI o NIE y la clave con la que hiciste la solicitud. Cuando hay una notificación nueva, el Ministerio avisa por correo electrónico.</p>
             <p><strong>¿Cuándo sale la resolución de la beca MEC 2026-27?</strong> No hay una fecha única. Según el Ministerio, en los meses siguientes al fin del plazo de solicitud (que fue el 19 de mayo de 2026) notifica primero si cumples los requisitos económicos; después, la concesión de la matrícula, las cuantías fijas y la cuantía variable mínima de 60 € cuando la convocatoria la prevé; más adelante, la cuantía variable, que puede llegar en dos partes.</p>
-            <p><strong>¿Ha salido la resolución definitiva de la beca MEC 2026-27?</strong> A 21 de octubre de 2026, la página de novedades del Ministerio no la anuncia. La resolución definitiva se publica en la web del Ministerio con la lista de todas las personas beneficiarias, después de las notificaciones individuales. Si tu solicitud no aparece en esa lista, no está concedida.</p>
+            <p><strong>¿Ha salido la resolución definitiva de la beca MEC 2026-27?</strong> A 24 de octubre de 2026, la página de novedades del Ministerio no la anuncia. La resolución definitiva se publica en la web del Ministerio con la lista de todas las personas beneficiarias, después de las notificaciones individuales. Si tu solicitud no aparece en esa lista, no está concedida.</p>
             <p><strong>¿Puedo pedir la beca MEC si mi familia vive en Cataluña?</strong> Desde el curso 2026-27, no: la competencia pasó a la Generalitat y debes pedir la beca de la convocatoria catalana. Cuenta el domicilio familiar, no dónde estudias.</p>
-            <p className="text-sm">Fuentes: <a className="underline" href="https://www.becaseducacion.gob.es/dudas/faqs.html">Ministerio de Educación: preguntas frecuentes (cómo y cuándo se resuelve)</a> · <a className="underline" href="https://www.becaseducacion.gob.es/novedades.html">Ministerio de Educación: novedades (consultado el 21-10-2026)</a> · <a className="underline" href="/becas/mec/estado">Guía: consultar el estado y las notificaciones</a></p>
+            <p className="text-sm">Fuentes: <a className="underline" href="https://www.becaseducacion.gob.es/dudas/faqs.html">Ministerio de Educación: preguntas frecuentes (cómo y cuándo se resuelve)</a> · <a className="underline" href="https://www.becaseducacion.gob.es/novedades.html">Ministerio de Educación: novedades (consultado el 24-10-2026)</a> · <a className="underline" href="/becas/mec/estado">Guía: consultar el estado y las notificaciones</a></p>
+            <p className="text-sm" data-becas-reviewed="">Por Equipo RutaTrámite · Revisado el <time dateTime="2026-10-24">24 de octubre de 2026</time>.</p>
           </section>
+          <JsonLd data={articleJsonLd({ headline: "Beca MEC 2026-27: cómo consultar el estado y cuándo sale la resolución", description: "Consulta del estado de la beca MEC 2026-27 en la sede del Ministerio de Educación y situación de la resolución definitiva a 24 de octubre de 2026.", path: "/becas", dateModified: "2026-10-24", sources: ["https://www.becaseducacion.gob.es/dudas/faqs.html", "https://www.becaseducacion.gob.es/novedades.html", "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-9261"] })} />
         </>
       ) : null}
       {(pack === "becas" || pack === "alquiler") && <><p className="mt-4"><a className="inline-flex min-h-11 items-center underline" href="/ayudas">Ver el calendario conjunto de becas y alquiler</a></p><AidCalendar category={pack} /></>}

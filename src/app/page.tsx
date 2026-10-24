@@ -118,6 +118,14 @@ export default function HomePage() {
             </a>
           ))}
         </div>
+        <p className="mt-4 text-sm" data-home-promesas="">
+          <strong>Qué propone cada partido:</strong> medidas y declaraciones fechadas, con su fuente y en el mismo formato para todos.{" "}
+          <a className="underline" href="/elecciones/promesas">Promesas del 29-N</a>
+          {" · "}
+          <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-vivienda">Vivienda: qué propone cada partido</a>
+          {" · "}
+          <a className="underline" href="/elecciones/promesas/partido-frente-amplio">Frente Amplio: sus propuestas</a>
+        </p>
       </section>
 
       <HoySeHabla className="home-section home-hoy" />
