@@ -12,9 +12,10 @@ No GSC index counts or rankings are claimed here. After activate, Google still u
 
 ## A — Build a release tarball (local / CI tree)
 
-From the repo at the SHA above:
+From the repo at the SHA above. Run it with `set -e` (or check each exit code): if `npm test` fails, stop here and do not build, upload or activate.
 
 ```bash
+set -e
 python3 scripts/release_inputs.py
 NEXT_PUBLIC_SITE_URL=https://rutatramite.com npm ci --no-audit --no-fund
 NEXT_PUBLIC_SITE_URL=https://rutatramite.com npm test
