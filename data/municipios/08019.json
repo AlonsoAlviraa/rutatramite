@@ -16,7 +16,7 @@
   "certificado_url": null,
   "online": true,
   "presencial": true,
-  "cita_previa": "required",
+  "cita_previa": "unknown",
   "oficinas": [
     {
       "nombre": "Oficinas de Atención Ciudadana (OAC) del Ajuntament de Barcelona",

@@ -14,9 +14,9 @@
   "tramite_alta_url": "https://www.bilbao.eus/cs/Satellite?c=BIO_Tramite_FA&categoria=personal&idProc=1279197831212&language=es&menuAcordeonActivo=14&pageid=1272990143135&pagename=Bilbaonet%2FBIO_Tramite_FA%2FBIO_TramiteSrvTram&perfil=ciudadano&pestana=1&selec=2",
   "cita_url": null,
   "certificado_url": null,
-  "online": false,
+  "online": true,
   "presencial": true,
-  "cita_previa": "walk-in",
+  "cita_previa": "recommended",
   "oficinas": [
     {
       "nombre": "Ayuntamiento de Bilbao (OAC y Oficinas de Distrito)",

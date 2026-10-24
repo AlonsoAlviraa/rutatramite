@@ -37,7 +37,7 @@ export function HubView({
   }
   const top = model.municipios.slice(0, 10);
   const rest = model.municipios.slice(10);
-  const dateModified = HUB_REVIEWED_AT;
+  const dateModified = model.reviewedAt ?? HUB_REVIEWED_AT;
   const provinces = provinceSlug ? [] : (ccaaBySlug(ccaaSlug)?.province_codes ?? []).map(code => loadTerritories().provinces[code]).filter(Boolean);
   return (
     <PageShell as="article" data-hub={model.kind}>
@@ -98,6 +98,29 @@ export function HubView({
             ))}
           </ul>
         </>
+      ) : null}
+      {model.verificadas?.length ? (
+        <section aria-labelledby="hub-verificadas" className="mt-10">
+          <h2 id="hub-verificadas" className="font-display text-2xl text-mossDark">Cómo se empadrona en cada ayuntamiento revisado</h2>
+          {model.resumen.map((p, i) => <p key={i} className="mt-3 leading-relaxed">{p}</p>)}
+          {model.verificadas.map((c) => (
+            <div key={c.path} className="mt-6 break-words">
+              <h3 className="font-display text-xl text-mossDark"><a className="underline underline-offset-4" href={c.path}>{c.name}</a></h3>
+              <ul className="mt-2 list-disc space-y-1 pl-5">
+                <li><strong>Canal:</strong> {c.canal}.</li>
+                <li><strong>Cita:</strong> {c.cita}.</li>
+                <li><strong>Tasa:</strong> {c.tasa}</li>
+                {c.oficina ? <li><strong>Oficina:</strong> {c.oficina}</li> : null}
+                {c.docs.length ? <li><strong>Documentos:</strong> {c.docs.join(" ")}</li> : null}
+                {c.detalle.map((d, i) => <li key={i}>{d}</li>)}
+              </ul>
+              <p className="mt-2 text-sm">
+                {c.links.map((l, i) => <span key={l.href}>{i ? " · " : ""}<a className="inline-flex min-h-11 items-center underline underline-offset-4" href={l.href} rel="noopener">{l.label}</a></span>)}
+                {" "}<span className="text-ink/70">Revisado: <time dateTime={c.reviewedOn}>{c.reviewedOn}</time>.</span>
+              </p>
+            </div>
+          ))}
+        </section>
       ) : null}
       <h2 className="mt-10 font-display text-2xl text-mossDark">Situaciones frecuentes</h2>
       <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-sm">
