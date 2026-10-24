@@ -181,6 +181,7 @@ CORE = [
     "/elecciones/suplente-mesa-electoral",
     "/elecciones/primero-en-votar-mesa-electoral",
     "/elecciones/excusa-mesa-electoral-denegada",
+    "/elecciones/notificacion-mesa-electoral-que-hacer",
     "/elecciones/mesa-electoral-casos-especiales",
     "/elecciones/mesa-electoral-vivo-fuera",
     "/elecciones/mesa-electoral-examen-estudiante",
