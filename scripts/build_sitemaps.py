@@ -469,6 +469,11 @@ CORE = [
 
 
 FRESH_LASTMOD = {
+    "/empadronarse/cantabria": "2026-10-24T11:55:00+02:00",
+    "/empadronarse/la-rioja": "2026-10-24T11:55:00+02:00",
+    "/empadronarse/comunidad-foral-de-navarra": "2026-10-24T11:55:00+02:00",
+    "/empadronarse/principado-de-asturias": "2026-10-24T11:55:00+02:00",
+    "/empadronarse/castilla-la-mancha": "2026-10-24T11:55:00+02:00",
     "/empadronarse/andalucia/cordoba/cordoba": "2026-10-24T11:35:00+02:00",
     "/empadronarse/galicia/a-coruna/la-coruna": "2026-10-24T11:35:00+02:00",
     "/empadronarse/andalucia/granada/granada": "2026-10-24T11:35:00+02:00",

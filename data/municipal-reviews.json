@@ -942,5 +942,195 @@
       "https://sedeelectronica.vitoria-gasteiz.org/portal/es/w/solicitud-de-alta-en-el-padron-en-una-vivienda-alquilada-por-completo-2405539",
       "https://www.vitoria-gasteiz.org/wb021/was/we001Action.do?accionWe001=adjunto&idioma=en&nombre=105609.pdf"
     ]
+  },
+  "39075": {
+    "tramite_alta_url": "https://sede.santander.es/tramites/alta-padron-habitantes",
+    "online": false,
+    "presencial": true,
+    "cita_previa": "walk-in",
+    "oficinas": [
+      {
+        "nombre": "Servicio de Estadística (Padrón de Habitantes), Edificio Ribalaygua",
+        "direccion": "Calle Los Escalantes, 3, 2.ª planta",
+        "cp": null,
+        "horario": "Horario de oficina",
+        "telefono": null
+      }
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Hoja padronal cumplimentada y firmada por todas las personas mayores de edad que se empadronan.",
+        "Documento de identidad (DNI, tarjeta de residencia o pasaporte en vigor), original y fotocopia.",
+        "Acreditación de la vivienda: escritura o recibo de agua, luz o teléfono si es propietario; contrato de alquiler en vigor si es arrendatario; autorización firmada del titular con copia de su documento si no es ni lo uno ni lo otro."
+      ]
+    },
+    "peculiaridades": [
+      "La sede indica que el alta no tiene tramitación en línea ni telefónica: se hace en persona.",
+      "Desde el 18 de octubre de 2023 no se exige cita previa para los trámites del Servicio de Estadística."
+    ],
+    "source_urls": [
+      "https://sede.santander.es/tramites/alta-padron-habitantes"
+    ],
+    "confidence": "official",
+    "reviewed_on": "2026-10-24",
+    "last_verified": "2026-10-24",
+    "review_note": "La sede indica que el alta no tiene tramitación en línea ni telefónica: se hace en persona.",
+    "docs_extra": [
+      "Hoja padronal cumplimentada y firmada por todas las personas mayores de edad que se empadronan.",
+      "Documento de identidad (DNI, tarjeta de residencia o pasaporte en vigor), original y fotocopia.",
+      "Acreditación de la vivienda: escritura o recibo de agua, luz o teléfono si es propietario; contrato de alquiler en vigor si es arrendatario; autorización firmada del titular con copia de su documento si no es ni lo uno ni lo otro."
+    ]
+  },
+  "26089": {
+    "tramite_alta_url": "https://sedeelectronica.logrono.es/wps/portal/web/inicio/sedeElectronica/teAyudamos/buscadorTramites/tramites/?WCM_GLOBAL_CONTEXT=%2FSedeElectronica%2FSedeElectronica%2FTramites%2F162ffb804bcd2191ba63ffc1117f39a7",
+    "cita_url": "https://citaprevia.logrono.es",
+    "online": false,
+    "presencial": true,
+    "cita_previa": "unknown",
+    "oficinas": [],
+    "procedure_docs": {
+      "alta": [
+        "Solicitud de inscripción en el Padrón de Habitantes.",
+        "Hoja de inscripción padronal.",
+        "Declaración de residencia en el domicilio para nuevos residentes."
+      ]
+    },
+    "peculiaridades": [
+      "El Ayuntamiento indica que el trámite es presencial y personal en la Unidad de Estadística.",
+      "El sistema municipal de cita previa ofrece el servicio «Alta en Padrón (Estadística y Base de Datos)»."
+    ],
+    "source_urls": [
+      "https://sedeelectronica.logrono.es/wps/portal/web/inicio/sedeElectronica/teAyudamos/buscadorTramites/tramites/?WCM_GLOBAL_CONTEXT=%2FSedeElectronica%2FSedeElectronica%2FTramites%2F162ffb804bcd2191ba63ffc1117f39a7",
+      "https://logrono.es/contratacion-tramites",
+      "https://sedeelectronica.logrono.es/wps/portal/web/inicio/sedeElectronica/serviciosSede/citaPrevia/"
+    ],
+    "confidence": "official",
+    "reviewed_on": "2026-10-24",
+    "last_verified": "2026-10-24",
+    "review_note": "El Ayuntamiento indica que el trámite es presencial y personal en la Unidad de Estadística.",
+    "docs_extra": [
+      "Solicitud de inscripción en el Padrón de Habitantes.",
+      "Hoja de inscripción padronal.",
+      "Declaración de residencia en el domicilio para nuevos residentes."
+    ]
+  },
+  "31201": {
+    "tramite_alta_url": "https://sedeelectronica.pamplona.es/FichaTramite.aspx?id=205112TA",
+    "cita_url": "https://spe.pamplona.es/FichaTramite.aspx?id=209072TA",
+    "online": true,
+    "presencial": true,
+    "cita_previa": "required",
+    "oficinas": [
+      {
+        "nombre": "Oficina de Atención Ciudadana (OAC)",
+        "direccion": "C/ Mayor, 2, planta baja (Palacio del Condestable)",
+        "cp": "31001",
+        "horario": "Lunes a viernes, 8:30–14:30",
+        "telefono": "010 / 948 420 100 (cita previa)"
+      }
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Documento de identidad original en vigor (DNI, tarjeta de residencia, documento de un país de la UE o pasaporte); para menores, libro de familia o certificado de nacimiento.",
+        "Vivienda en propiedad: si se adquirió hace más de un año, la oficina lo comprueba sin documentos; si no, escrituras, nota simple, herencia o recibo de suministro a su nombre.",
+        "Vivienda ajena: contrato de alquiler de más de 6 meses y último recibo, recibo de suministro a su nombre o autorización del propietario o titular con copia de su documento."
+      ]
+    },
+    "peculiaridades": [
+      "En presencial deben comparecer todas las personas mayores de edad y menores emancipados, salvo los supuestos de autorización (mayores de 80 años o personas que no pueden desplazarse, con certificado médico).",
+      "También se tramita por la sede con certificado digital o Cl@ve, adjuntando la documentación digitalizada."
+    ],
+    "fee_public_note": "La sede del Ayuntamiento de Pamplona indica que el alta es gratuita.",
+    "source_urls": [
+      "https://sedeelectronica.pamplona.es/FichaTramite.aspx?id=205112TA",
+      "https://sedeelectronica.pamplona.es/FichaTramite.aspx?id=20-52306"
+    ],
+    "confidence": "official",
+    "reviewed_on": "2026-10-24",
+    "last_verified": "2026-10-24",
+    "review_note": "En presencial deben comparecer todas las personas mayores de edad y menores emancipados, salvo los supuestos de autorización (mayores de 80 años o personas que no pueden desplazarse, con certificado médico).",
+    "docs_extra": [
+      "Documento de identidad original en vigor (DNI, tarjeta de residencia, documento de un país de la UE o pasaporte); para menores, libro de familia o certificado de nacimiento.",
+      "Vivienda en propiedad: si se adquirió hace más de un año, la oficina lo comprueba sin documentos; si no, escrituras, nota simple, herencia o recibo de suministro a su nombre.",
+      "Vivienda ajena: contrato de alquiler de más de 6 meses y último recibo, recibo de suministro a su nombre o autorización del propietario o titular con copia de su documento."
+    ]
+  },
+  "33044": {
+    "tramite_alta_url": "https://sede.oviedo.es/tramites/padron/alta-en-el-padron-municipal-de-habitantes",
+    "online": false,
+    "presencial": true,
+    "cita_previa": "walk-in",
+    "oficinas": [
+      {
+        "nombre": "Sección de Estadística",
+        "direccion": "C/ Rosal, 23",
+        "cp": "33009",
+        "horario": "Atención de lunes a viernes laborables, 9:00–14:00; números del gestor de colas desde las 8:30 hasta las 12:00 o hasta agotarse",
+        "telefono": "985 981 889"
+      }
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Hoja de inscripción padronal firmada por las personas mayores de 16 años que se dan de alta y, si procede, por el titular ya empadronado que autoriza.",
+        "Documentos de identidad originales y en vigor de quienes se inscriben y de quien autoriza.",
+        "Documentos de ocupación de la vivienda y, en su caso, documentos de menores."
+      ]
+    },
+    "peculiaridades": [
+      "El alta se realiza exclusivamente en persona en la Sección de Estadística, sacando número en el gestor de colas.",
+      "El Ayuntamiento ya no exige cita previa para los trámites presenciales del padrón."
+    ],
+    "source_urls": [
+      "https://sede.oviedo.es/tramites/padron/alta-en-el-padron-municipal-de-habitantes",
+      "https://www.oviedo.es/-/padron-y-estadistica"
+    ],
+    "confidence": "official",
+    "reviewed_on": "2026-10-24",
+    "last_verified": "2026-10-24",
+    "review_note": "El alta se realiza exclusivamente en persona en la Sección de Estadística, sacando número en el gestor de colas.",
+    "docs_extra": [
+      "Hoja de inscripción padronal firmada por las personas mayores de 16 años que se dan de alta y, si procede, por el titular ya empadronado que autoriza.",
+      "Documentos de identidad originales y en vigor de quienes se inscriben y de quien autoriza.",
+      "Documentos de ocupación de la vivienda y, en su caso, documentos de menores."
+    ]
+  },
+  "02003": {
+    "tramite_alta_url": "https://www.albacete.es/es/tramites/altas-cambios-domicilio-padron-habitantes",
+    "cita_url": "https://citaprevia.ayto-albacete.es/citaprevia/",
+    "online": "unknown",
+    "presencial": true,
+    "cita_previa": "required",
+    "oficinas": [
+      {
+        "nombre": "Oficina Municipal de Atención a la Ciudadanía (OMACi)",
+        "direccion": "Calle Iris, 9",
+        "cp": null,
+        "horario": "Lunes a jueves 9:00–14:00 y 17:00–19:00; viernes 9:00–14:00",
+        "telefono": null
+      }
+    ],
+    "procedure_docs": {
+      "alta": [
+        "Hoja padronal firmada por todas las personas mayores de edad.",
+        "Acreditación de la identidad (DNI para mayores de 14 años; tarjeta de residencia o pasaporte para personas extranjeras).",
+        "Acreditación del domicilio: escritura, nota registral o recibo del IBI; contrato de alquiler en vigor o factura de suministro de menos de dos meses; o autorización del titular con su documento."
+      ]
+    },
+    "peculiaridades": [
+      "La cita previa es imprescindible para el alta o el cambio de domicilio presencial; el resto de trámites de la OMACi se atienden con tique del gestor de turnos."
+    ],
+    "source_urls": [
+      "https://www.albacete.es/es/tramites/altas-cambios-domicilio-padron-habitantes",
+      "https://www.albacete.es/es/tu-ayuntamiento/padron-habitantes-atencion-ciudadana"
+    ],
+    "confidence": "official",
+    "reviewed_on": "2026-10-24",
+    "last_verified": "2026-10-24",
+    "review_note": "La cita previa es imprescindible para el alta o el cambio de domicilio presencial; el resto de trámites de la OMACi se atienden con tique del gestor de turnos.",
+    "docs_extra": [
+      "Hoja padronal firmada por todas las personas mayores de edad.",
+      "Acreditación de la identidad (DNI para mayores de 14 años; tarjeta de residencia o pasaporte para personas extranjeras).",
+      "Acreditación del domicilio: escritura, nota registral o recibo del IBI; contrato de alquiler en vigor o factura de suministro de menos de dos meses; o autorización del titular con su documento."
+    ]
   }
 }
