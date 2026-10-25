@@ -37,6 +37,9 @@ const S = {
 };
 
 export const P_CANARIAS = "/elecciones/hora-canarias-29n";
+export const P_CRUCES = "/elecciones/cuantas-cruces-senado-provincia-isla";
+export const P_CEUTA = "/elecciones/ceuta-melilla-29n";
+export const P_BILINGUE = "/elecciones/papeletas-bilingues-29n";
 export const P_FORMENTERA = "/elecciones/formentera-senador-propio-29n";
 const P_CERA = "/elecciones/voto-residentes-extranjero-cera";
 const L = {
@@ -51,6 +54,10 @@ const L = {
   correo: { href: "/elecciones/voto-por-correo", label: "Cómo pedir el voto por correo" },
   candidaturas: { href: "/elecciones/candidaturas-29n-boe", label: "Listas del 29-N: cuándo salen en el BOE" },
   nietos: { href: "/elecciones/votar-ley-de-nietos-29n", label: "¿Puedo votar si me nacionalicé por la ley de nietos?" },
+  cruces: { href: P_CRUCES, label: "Cuántas cruces en el Senado, por provincia e isla" },
+  ceuta: { href: P_CEUTA, label: "Ceuta y Melilla: 1 diputado y 2 senadores" },
+  bilingue: { href: P_BILINGUE, label: "Papeletas bilingües: dónde y si cuenta el voto" },
+  nulo: { href: "/elecciones/voto-nulo-ejemplos", label: "Voto nulo: ejemplos" },
   reflexion: { href: "/elecciones/jornada-de-reflexion", label: "Jornada de reflexión: 28 de noviembre" },
 };
 const BY = "Por Equipo RutaTrámite. Última revisión: 25 de octubre de 2026.";
@@ -186,9 +193,117 @@ export const TERRITORIO_29N_GUIDES: Guide[] = [
       ]),
     ],
   },
+  {
+    id: "29n-cruces-senado-territorio",
+    pack: "elecciones",
+    reviewedAt: R,
+    path: P_CRUCES,
+    h1: "¿Cuántas cruces puedo poner en el Senado? Tabla por provincia e isla (29-N)",
+    title: "Cuántas cruces en el Senado el 29-N: provincia por provincia",
+    description: "Hasta 3 cruces en las provincias; 2 en Gran Canaria, Mallorca, Tenerife, Ceuta y Melilla; 1 en el resto de islas, también Formentera. Artículo 166 de la LOREG.",
+    lead: "Respuesta corta: en las 47 provincias que votan al Senado como provincia (todas salvo las insulares) puedes marcar hasta 3 nombres en la papeleta sepia del Senado; en Gran Canaria, Mallorca, Tenerife, Ceuta y Melilla, hasta 2; en Ibiza, Formentera, Menorca, Fuerteventura, Lanzarote, La Palma, La Gomera y El Hierro, solo 1. Lo dice el artículo 166.1.a de la LOREG.",
+    cta: S.a166,
+    secondaryCta: S.a165,
+    sources: [S.a166, S.a165, S.a161, S.lo2, S.rd],
+    related: [L.senado, L.formentera, L.canarias, L.ceuta, L.nulo, L.calendario],
+    faqs: [
+      { q: "¿Puedo marcar menos cruces de las permitidas?", a: "Sí. Puedes marcar una, varias o ninguna, siempre sin pasar del máximo de tu circunscripción." },
+      { q: "¿Qué pasa si pongo más cruces de las permitidas?", a: "El voto al Senado puede considerarse nulo. Tu voto al Congreso, que va en otro sobre, no se ve afectado." },
+      { q: "¿Puedo marcar candidatos de partidos distintos?", a: "Sí. En el Senado votas a personas, y puedes repartir tus cruces entre distintas candidaturas." },
+      { q: "¿Por qué en Formentera solo 1?", a: "Porque desde la Ley Orgánica 2/2026 Formentera elige un único senador propio, y en las islas que eligen uno se marca un nombre." },
+    ],
+    sections: [
+      sec("en-resumen", "Lo importante en 30 segundos", [BY]),
+      {
+        id: "tabla",
+        title: "Senadores y cruces por tipo de circunscripción",
+        paragraphs: ["En cada circunscripción se pueden marcar menos nombres que senadores elige: así la minoría también puede tener representación."],
+        table: {
+          caption: "Senado 29-N: cuántos nombres puedes marcar (art. 165 y 166.1.a LOREG)",
+          head: ["Dónde votas", "Senadores que elige", "Cruces como máximo"],
+          rows: [
+            { cells: ["Cualquiera de las 47 provincias (todas salvo Illes Balears, Las Palmas y Santa Cruz de Tenerife, que votan por islas)", "4", "3"], source: S.a166 },
+            { cells: ["Gran Canaria, Mallorca, Tenerife", "3", "2"], source: S.a166 },
+            { cells: ["Ceuta, Melilla", "2", "2"], source: S.a166 },
+            { cells: ["Ibiza, Formentera, Menorca, Fuerteventura, Lanzarote, La Palma, La Gomera, El Hierro", "1", "1"], source: S.a166 },
+          ],
+        },
+      },
+      sec("suma", "Cuántos senadores se eligen en total", [
+        "Sumando el artículo 165 de la LOREG: 47 provincias × 4 = 188; Gran Canaria, Mallorca y Tenerife, 3 × 3 = 9; las otras 8 islas, 8; Ceuta y Melilla, 2 + 2 = 4. Total: 209 senadores elegidos directamente. Los parlamentos autonómicos designan además otros senadores, que no se votan el 29-N.",
+      ]),
+      sec("ejemplos", "Ejemplos", [
+        "Votas en Soria: puedes marcar 1, 2 o 3 nombres.",
+        "Votas en Palma (Mallorca): hasta 2 nombres.",
+        "Votas en Melilla: hasta 2 nombres, aunque la ciudad elige 2 senadores.",
+        "Votas en Formentera o en El Hierro: 1 nombre.",
+      ]),
+    ],
+  },
+  {
+    id: "29n-ceuta-melilla",
+    pack: "elecciones",
+    reviewedAt: R,
+    path: P_CEUTA,
+    h1: "Ceuta y Melilla el 29-N: 1 diputado y 2 senadores cada una",
+    title: "Ceuta y Melilla el 29-N: diputados, senadores y cruces",
+    description: "Ceuta y Melilla eligen 1 diputado y 2 senadores cada una. En el Senado puedes marcar hasta 2 nombres. Fechas, voto por correo y fuentes oficiales.",
+    lead: "Respuesta corta: Ceuta y Melilla son cada una una circunscripción que elige 1 diputado (artículo 162.2 de la LOREG) y 2 senadores (artículo 165.3). En la papeleta del Senado puedes marcar hasta 2 nombres (artículo 166.1.a). Como solo hay un escaño en el Congreso, se lo lleva la candidatura con más votos.",
+    cta: S.a162,
+    secondaryCta: S.a165,
+    sources: [S.a162, S.a165, S.a166, S.rd, S.jec],
+    related: [L.cruces, L.senado, L.correo, L.calendario, L.candidaturas],
+    faqs: [
+      { q: "¿Cuántos diputados eligen Ceuta y Melilla?", a: "Uno cada una (artículo 162.2 de la LOREG)." },
+      { q: "¿Cuántos senadores?", a: "Dos cada una (artículo 165.3). Puedes marcar hasta 2 nombres." },
+      { q: "¿Las fechas son distintas?", a: "No. Voto por correo hasta el 19 de noviembre, campaña del 13 al 27, votación el 29 de 9:00 a 20:00." },
+    ],
+    sections: [
+      sec("en-resumen", "Lo importante en 30 segundos", [BY], [[
+        "Congreso: 1 diputado por Ceuta y 1 por Melilla.",
+        "Senado: 2 senadores por cada ciudad; hasta 2 cruces.",
+        "Mismas fechas que en el resto de España.",
+      ]]),
+      sec("un-escano", "Qué significa elegir un solo diputado", [
+        "Con un solo escaño, el reparto proporcional no tiene efecto práctico: con la fórmula del artículo 163 de la LOREG, el único escaño va a la candidatura más votada en la ciudad.",
+      ]),
+      sec("ejemplo", "Ejemplo", [
+        "Votas en Ceuta: en la papeleta blanca eliges una lista para el Congreso; en la sepia marcas hasta 2 personas para el Senado, de la misma o de distintas candidaturas.",
+      ]),
+    ],
+  },
+  {
+    id: "29n-papeletas-bilingues",
+    pack: "elecciones",
+    reviewedAt: R,
+    path: P_BILINGUE,
+    h1: "Papeletas y sobres bilingües el 29-N: dónde y si cuenta el voto",
+    title: "Papeletas bilingües el 29-N: dónde se usan y qué vale",
+    description: "En las comunidades con lengua cooficial, papeletas y sobres van en castellano y en esa lengua (RD 605/1999, art. 4.6). En Navarra, en la zona vascófona.",
+    lead: "Respuesta corta: en las comunidades autónomas con otra lengua oficial además del castellano, las papeletas y los sobres oficiales se imprimen en las dos lenguas. En Navarra, en los municipios de la zona vascófona de la Ley Foral 18/1986. Lo dice el artículo 4.6 del Real Decreto 605/1999. Votar con la papeleta en una lengua u otra no cambia nada: el voto vale igual.",
+    cta: S.rd605,
+    secondaryCta: S.jec,
+    sources: [S.rd605, S.a166, S.jec],
+    related: [L.nulo, L.senado, L.cruces, L.correo],
+    faqs: [
+      { q: "¿Dónde son bilingües las papeletas?", a: "En las comunidades autónomas con lengua cooficial (Cataluña, Comunitat Valenciana, Illes Balears, Galicia y País Vasco) y, en Navarra, en la zona vascófona de la Ley Foral 18/1986." },
+      { q: "¿Mi voto es nulo si uso una papeleta solo en castellano?", a: "No por la lengua. La papeleta tiene que ser la oficial de tu circunscripción; si dudas, usa las que hay en el colegio." },
+      { q: "¿Y el voto por correo?", a: "Recibes las papeletas y sobres oficiales de tu circunscripción, con el mismo criterio de lengua." },
+    ],
+    sections: [
+      sec("en-resumen", "Lo importante en 30 segundos", [BY], [[
+        "Bilingües: papeletas y sobres en comunidades con lengua cooficial y en la zona vascófona de Navarra.",
+        "En el resto de España: solo en castellano.",
+        "La lengua de la papeleta no cambia el valor del voto.",
+      ]]),
+      sec("que-revisar", "Qué sí puede anular tu voto", [
+        "Usar una papeleta que no es el modelo oficial, meter papeletas de distintas candidaturas en el sobre del Congreso, tachar o añadir nombres, o pasar del número de cruces en el Senado. La lengua no es una de esas causas.",
+      ]),
+    ],
+  },
 ];
 
-type Extra = { sections: GuideSection[]; faqs?: Guide["faqs"]; sources?: Guide["sources"]; related?: Guide["related"]; lead?: string; description?: string };
+type Extra = { drop?: string[]; sections: GuideSection[]; faqs?: Guide["faqs"]; sources?: Guide["sources"]; related?: Guide["related"]; lead?: string; description?: string };
 const AMPL: Record<string, Extra> = {
   [P_CERA]: {
     description: "CERA: no hay que pedir el voto, llega de oficio del 24 al 30-oct. Correo al consulado hasta el 24-nov; urna del 21 al 26-nov. Plazos calculados.",
@@ -233,6 +348,49 @@ const AMPL: Record<string, Extra> = {
     sources: [S.a75, S.lo12, S.jec, S.rd],
     related: [L.erta, L.nietos, L.canarias],
   },
+  "/elecciones/encuestas-prohibidas": {
+    drop: ["detalle"],
+    sections: [
+      sec("canarias-y-fechas", "Canarias y el resto de España: mismas fechas", [
+        "El artículo 69.7 de la LOREG prohíbe publicar, difundir o reproducir sondeos por cualquier medio durante los cinco días anteriores al de la votación. Para el 29-N son del 24 al 28 de noviembre, en toda España, también en Canarias.",
+        "La diferencia en Canarias está en la noche electoral: la Junta Electoral Central ha dicho en varios acuerdos que no se difundan estimaciones ni resultados allí antes de las 21:00 hora peninsular, cuando cierran sus colegios.",
+        "Si ves un «sondeo» circulando esos días, comprueba quién lo firma y cuándo se hizo antes de creerlo o compartirlo.",
+      ]),
+    ],
+    faqs: [
+      { q: "¿En Canarias la prohibición de encuestas es distinta?", a: "No. Es del 24 al 28 de noviembre en toda España. Lo que cambia es la noche del 29: según la Junta Electoral Central, en Canarias no deben difundirse estimaciones ni resultados antes de las 21:00 hora peninsular." },
+    ],
+    sources: [S.a69, S.jec352, S.jec400],
+    related: [L.canarias],
+  },
+  "/elecciones/cambio-de-domicilio-y-censo": {
+    sections: [
+      {
+        id: "voto-correo-mudanza",
+        title: "Si te has mudado lejos: vota por correo (hasta el 19 de noviembre)",
+        paragraphs: [
+          "El artículo 72 de la LOREG permite pedir el voto por correo «a partir de la fecha de la convocatoria y hasta el décimo día anterior al de la votación». Para el 29-N: del 6 de octubre al 19 de noviembre. Puedes indicar tu dirección nueva para recibir la documentación.",
+        ],
+        table: {
+          caption: "Voto por correo si vives lejos de tu mesa",
+          head: ["Paso", "Fecha", "Cálculo"],
+          rows: [
+            { cells: ["Pedir el voto en Correos", "Hasta el 19 de noviembre", "29-nov − 10 días (art. 72)"], source: S.a72 },
+            { cells: ["Recibir la documentación en casa", "Del 9 al 22 de noviembre", "Calendario JEC"], source: S.jec },
+            { cells: ["Depositar el voto en Correos", "Hasta el 25 de noviembre", "Calendario JEC"], source: S.jec },
+          ],
+        },
+      },
+      sec("si-vives-fuera", "Si te has ido a vivir al extranjero", [
+        "Si te diste de alta en el consulado (CERA) antes del cierre del censo, la documentación te llega de oficio; si sigues en el censo de España y solo estás fuera una temporada, puedes pedir el voto ERTA hasta el 31 de octubre de 2026.",
+      ]),
+    ],
+    faqs: [
+      { q: "¿Hasta cuándo pido el voto por correo si me he mudado?", a: "Hasta el 19 de noviembre de 2026 (artículo 72 de la LOREG: hasta el décimo día anterior a la votación)." },
+    ],
+    sources: [S.a72, S.jec],
+    related: [L.correo, L.cera, L.erta],
+  },
 };
 
 const mergeBy = <T,>(a: T[] | undefined, b: T[] | undefined, k: (x: T) => string): T[] => {
@@ -242,10 +400,12 @@ const mergeBy = <T,>(a: T[] | undefined, b: T[] | undefined, k: (x: T) => string
   return out;
 };
 const ENTRANTES: Record<string, { href: string; label: string }[]> = {
-  "/elecciones/como-votar-al-senado": [L.formentera, L.canarias],
+  "/elecciones/como-votar-al-senado": [L.cruces, L.formentera, L.canarias, L.ceuta, L.bilingue],
+  "/elecciones/voto-nulo-ejemplos": [L.cruces, L.bilingue],
+  "/elecciones/voto-por-correo": [L.cera, L.bilingue],
   "/elecciones/resultados-y-escrutinio": [L.canarias],
   "/elecciones/encuestas-prohibidas": [L.canarias],
-  "/elecciones/calendario-29-noviembre": [L.canarias, L.formentera, L.cera],
+  "/elecciones/calendario-29-noviembre": [L.canarias, L.formentera, L.cera, L.cruces, L.ceuta],
   "/elecciones/voto-temporalmente-fuera-erta": [L.cera],
   "/elecciones/promesas/comunidad-canarias": [L.canarias],
 };
@@ -259,7 +419,7 @@ export function ampliarTerritorio(g: Guide): Guide {
       reviewedAt: R,
       ...(x.lead ? { lead: x.lead } : {}),
       ...(x.description ? { description: x.description } : {}),
-      sections: [...x.sections, ...g.sections],
+      sections: [...x.sections, ...g.sections.filter((z) => !(x.drop ?? []).includes(z.id))],
       faqs: mergeBy(x.faqs, g.faqs, (f) => f.q),
       sources: mergeBy(g.sources, x.sources, (s) => s.href),
       related: mergeBy(g.related, x.related, (r) => r.href),

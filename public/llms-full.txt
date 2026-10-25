@@ -332,6 +332,9 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 - [Me ha llegado la notificación de mesa electoral: ¿qué hago ahora?](https://rutatramite.com/elecciones/notificacion-mesa-electoral-que-hacer)
 - [La hora de Canarias el 29-N: se vota de 9:00 a 20:00 hora canaria (21:00 peninsular)](https://rutatramite.com/elecciones/hora-canarias-29n)
 - [Formentera elige por primera vez su propio senador el 29-N](https://rutatramite.com/elecciones/formentera-senador-propio-29n)
+- [¿Cuántas cruces puedo poner en el Senado? Tabla por provincia e isla (29-N)](https://rutatramite.com/elecciones/cuantas-cruces-senado-provincia-isla)
+- [Ceuta y Melilla el 29-N: 1 diputado y 2 senadores cada una](https://rutatramite.com/elecciones/ceuta-melilla-29n)
+- [Papeletas y sobres bilingües el 29-N: dónde y si cuenta el voto](https://rutatramite.com/elecciones/papeletas-bilingues-29n)
 
 ## Ayudas del Estado según cada gobierno
 
