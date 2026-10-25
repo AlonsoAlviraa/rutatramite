@@ -36,7 +36,7 @@ describe("serie «¿Quiere [partido] quitar las pensiones?»", () => {
       expect(g.description.length).toBeLessThanOrEqual(160);
       const h = renderGuideHtml(g.path);
       expect(h).toContain('"FAQPage"');
-      expect(h).toMatch(/2026-10-(1[89]|2[0-3])/);
+      expect(h).toMatch(/2026-10-(1[89]|2[0-5])/);
     }
   });
 });

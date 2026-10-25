@@ -1,6 +1,6 @@
 import type { Guide } from "@/lib/tramites/types";
 
-const UPD = "24 de octubre de 2026, 08:30 (hora peninsular)";
+const UPD = "25 de octubre de 2026, 08:30 (hora peninsular)";
 
 const RTVE_CRONICA = { href: "https://www.rtve.es/play/noticias/20261022/pedro-sanchez-truco-recomendaron-moncloa-proteger-movil/17279368.shtml", label: "RTVE, 22-10-2026: crónica de la entrevista de Pedro Sánchez en La Revuelta" };
 const RTVE_DIRECTO = { href: "https://www.rtve.es/play/noticias/20261022/pedro-sanchez-revuelta-broncano-directo-video-cronica/17278843.shtml", label: "RTVE Play: La Revuelta con Pedro Sánchez (vídeo)" };
@@ -161,12 +161,9 @@ export const AGENDA_29N_GUIDES: Guide[] = [
           caption: `Agenda de actos de precampaña del 29-N (actualizada el ${UPD})`,
           head: ["Partido y candidato", "Fecha", "Ciudad", "Lugar", "Fuente"],
           rows: [
-            { cells: ["PP · Alberto Núñez Feijóo", "Sábado 24 de octubre, 12:00", "Vigo (Pontevedra)", "Estación Marítima, con Alfonso Rueda"], source: FEIJOO_VIGO },
             { cells: ["PP · Alberto Núñez Feijóo", "Domingo 25 de octubre, 12:00", "Salamanca", "Centro de Artes Escénicas y de la Música (CAEM)"], source: FEIJOO_SALAMANCA },
-            { cells: ["PSOE · Pedro Sánchez", "Sábado 24 de octubre, 11:30", "Granada", "Sala Federico García Lorca del Palacio de Congresos, con María Jesús Montero"], source: SANCHEZ_GRANADA_HORA },
             { cells: ["PSOE · Pedro Sánchez", "Lunes 26 de octubre, 18:00", "Gijón (Asturias)", "Pabellón central de la Feria de Muestras de Asturias"], source: SANCHEZ_GIJON },
             { cells: ["PSOE · Pedro Sánchez", "Jueves 29 de octubre, 18:30", "Vitoria-Gasteiz (Álava)", "Palacio Europa"], source: SANCHEZ_VITORIA },
-            { cells: ["Vox · Santiago Abascal", "Sábado 24 de octubre", "Ibiza", "Lugar no publicado"], source: VOX_ACTOS },
             { cells: ["Vox · Santiago Abascal", "Martes 27 de octubre, 19:00", "Zamora", "Plaza de la Marina"], source: VOX_CYL },
             { cells: ["Vox · Santiago Abascal", "Miércoles 28 de octubre, 12:00", "Santander", "Jardines de Pereda"], source: VOX_CYL },
             { cells: ["Vox · Santiago Abascal", "Miércoles 28 de octubre, 19:00", "Valladolid", "Pabellón 3 de la Feria de Valladolid"], source: VOX_CYL },

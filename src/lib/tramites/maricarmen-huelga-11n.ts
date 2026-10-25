@@ -129,7 +129,7 @@ export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
   {
     id: "trabajo-huelga-general-11n",
     pack: "trabajo",
-    reviewedAt: "2026-10-23",
+    reviewedAt: "2026-10-25",
     path: "/trabajo/huelga-general-11-noviembre",
     h1: "Huelga general del 11 de noviembre: tus derechos si eres trabajador, funcionario, autónomo, becario o estudiante",
     title: "Huelga general 11-N: derechos, descuento y servicios mínimos",
@@ -146,7 +146,7 @@ export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
     ],
     disclaimer: "Los servicios mínimos de cada sector los fija la autoridad competente en los días previos; consulta tu convenio y al comité de empresa.",
     faqs: [
-      { q: "¿Hay ya servicios mínimos para la huelga del 11-N?", a: "A 23-10-2026 no se han publicado. UGT y CCOO presentaron el 22-10 al Ministerio de Transportes su propuesta para el transporte; cada administración fija los suyos y suelen conocerse en los días previos." },
+      { q: "¿Hay ya servicios mínimos para la huelga del 11-N?", a: "A 25-10-2026 no se han publicado. UGT y CCOO presentaron el 22-10 al Ministerio de Transportes su propuesta para el transporte; cada administración fija los suyos y suelen conocerse en los días previos." },
       { q: "¿Me pueden despedir por hacer huelga el 11-N?", a: "No. El artículo 6.1 del Real Decreto-ley 17/1977 dice que ejercer el derecho de huelga no extingue el contrato ni puede dar lugar a sanción, salvo que el trabajador incurra en falta laboral durante ella. Un despido por secundarla sería nulo por vulnerar un derecho fundamental." },
       { q: "¿Tengo que avisar a mi empresa de que voy a hacer huelga?", a: "No. El preaviso lo dan los convocantes (5 días, o 10 en servicios públicos, artículo 4 del Real Decreto-ley 17/1977). El trabajador no tiene que comunicar antes si la secunda." },
       { q: "¿Cuánto me descuentan?", a: "El salario del día y la parte proporcional de pagas extra y descanso semanal. Una forma de calcularlo es dividir el salario anual bruto entre 365. Con 1.800 € brutos en 14 pagas (25.200 € al año) son unos 69,04 €; con el salario mínimo de 2026 (1.221 € en 14 pagas, 17.094 € al año), unos 46,83 €. Las vacaciones no se tocan." },
@@ -188,7 +188,7 @@ export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
         id: "servicios-minimos",
         title: "Servicios mínimos del 11-N: estado a 23 de octubre",
         paragraphs: [
-          "A 23-10-2026 no se ha publicado ninguna resolución oficial de servicios mínimos para el 11-N. Los fija cada administración competente (el Ministerio de Transportes en el transporte estatal, las comunidades autónomas en sus servicios) y suelen publicarse en los días previos a la huelga.",
+          "A 25-10-2026 no se ha publicado ninguna resolución oficial de servicios mínimos para el 11-N. Los fija cada administración competente (el Ministerio de Transportes en el transporte estatal, las comunidades autónomas en sus servicios) y suelen publicarse en los días previos a la huelga.",
           "El 22-10-2026, FeSMC-UGT y FSC-CCOO presentaron al Ministerio de Transportes y Movilidad Sostenible su propuesta de servicios mínimos para el transporte. Según FeSMC-UGT, piden que sean proporcionados y que garanticen los servicios esenciales sin impedir el seguimiento de la huelga.",
           "Si tu empresa te designa para cubrir servicios mínimos, debes acudir; si no te designa, puedes hacer huelga con normalidad. Esta sección se actualizará cuando se publiquen las resoluciones.",
         ],

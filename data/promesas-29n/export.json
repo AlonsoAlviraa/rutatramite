@@ -1,6 +1,6 @@
 {
  "name": "Promesas electorales del 29-N (elecciones generales 2026) por partido y su aplicación territorial",
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "publisher": "RutaTrámite",
  "url": "https://rutatramite.com/elecciones/promesas",
  "methodology": "https://rutatramite.com/elecciones/promesas/metodologia",
@@ -2606,6 +2606,131 @@
    "source_date": "2026-10-23",
    "source_type": "prensa",
    "who": "Alberto Núñez Feijóo, entrevista en Hoy por Hoy (Cadena SER), 23-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "pp-minimo-familiar-hijos",
+   "party": "pp",
+   "topic": "impuestos",
+   "profiles": [
+    "familia"
+   ],
+   "measure": "Mejorar la exención del mínimo familiar del IRPF para que las familias con hijos paguen menos impuestos. No concretó cuantías. Hoy el mínimo por descendientes es de 2.400 € al año por el primer hijo, 2.700 € por el segundo, 4.000 € por el tercero y 4.500 € por el cuarto y siguientes (artículo 58 de la Ley del IRPF).",
+   "quote": "Es lo lógico y necesario en este momento",
+   "source_url": "https://www.pp.es/actualidad/articulos/feijoo-se-compromete-a-mejorar-la-exencion-del-minimo-familiar-para-que-las-familias-con-hijos-paguen-menos-impuestos/",
+   "source_title": "pp.es: Feijóo, mitin en Vigo (mínimo familiar)",
+   "source_date": "2026-10-24",
+   "source_type": "oficial-partido",
+   "who": "Alberto Núñez Feijóo, mitin en Vigo, 24-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": "Unos 10.000 millones de euros al año (cifra del partido, según Infobae).",
+   "impact": null,
+   "id": "fa-pension-minima-smi",
+   "party": "frente-amplio",
+   "topic": "pensiones",
+   "profiles": [
+    "jubilado"
+   ],
+   "measure": "Que ninguna pensión esté por debajo del salario mínimo (SMI, hoy 1.221 € al mes en 14 pagas) y que las pensiones mínimas suban al mismo ritmo que el SMI. Financiación según el partido: tributación mínima efectiva para grandes empresas y un impuesto del 2 % a los patrimonios de más de un millón de euros.",
+   "quote": "Si sube el SMI, lo lógico es que las pensiones suban al mismo ritmo y que ninguna esté por debajo",
+   "source_url": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html",
+   "source_title": "Europa Press: Frente Amplio propone que ninguna pensión esté por debajo del SMI",
+   "source_date": "2026-10-24",
+   "source_type": "prensa",
+   "who": "Ada Colau y Emilio Delgado, manifestación en defensa de las pensiones públicas, Madrid, 24-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": "Unos 10.000 millones de euros al año (cifra del partido, según Infobae).",
+   "impact": null,
+   "id": "fa-jubilacion-65",
+   "party": "frente-amplio",
+   "topic": "pensiones",
+   "profiles": [
+    "jubilado"
+   ],
+   "measure": "Fijar en 65 años la edad máxima de jubilación. Hoy, a los 65 solo se jubila sin recorte quien tiene 38 años y 3 meses cotizados; el resto, a los 66 años y 10 meses. Financiación según el partido: eliminar de forma progresiva el tope máximo de cotización y una aportación de las empresas más automatizadas.",
+   "quote": "y no ir más allá",
+   "source_url": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html",
+   "source_title": "Europa Press: Frente Amplio propone fijar en 65 años la edad máxima de jubilación",
+   "source_date": "2026-10-24",
+   "source_type": "prensa",
+   "who": "Ada Colau y Emilio Delgado, manifestación en defensa de las pensiones públicas, Madrid, 24-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "vox-pitiusas-vivienda",
+   "party": "vox",
+   "topic": "vivienda",
+   "profiles": [
+    "joven-alquiler"
+   ],
+   "measure": "Para Ibiza y Formentera: «vivienda para quien trabaja aquí», liberar suelo, quitar impuestos y tasas al construir y plazos cerrados para las licencias. Lo planteó la cabeza de lista por Baleares en el acto de Abascal.",
+   "quote": "Vivienda para quien trabaja aquí, liberar suelo, quitar impuestos y tasas al construir, y plazos cerrados para las licencias",
+   "source_url": "https://cadenaser.com/baleares/2026/10/24/vox-promete-vivienda-para-quien-trabaje-en-ibiza-en-el-acto-de-abascal-en-la-isla-radio-ibiza/",
+   "source_title": "Cadena SER (Radio Ibiza): Vox promete vivienda para quien trabaje en Ibiza",
+   "source_date": "2026-10-24",
+   "source_type": "prensa",
+   "who": "Maribel Cerezo, cabeza de lista de Vox por Baleares, acto con Santiago Abascal en Ibiza, 24-10-2026",
+   "aplicacion": {
+    "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
+    "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",
+    "canarias": "Sí: es una medida estatal, igual en toda España.",
+    "ceuta_melilla": "Sí: es una medida estatal, igual en toda España."
+   }
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "podemos-expropiar-fondos",
+   "party": "podemos",
+   "topic": "vivienda",
+   "profiles": [
+    "joven-alquiler"
+   ],
+   "measure": "Expropiar pisos a los fondos buitre «por miles» y subir los impuestos a las rentas más altas para reforzar los servicios públicos. No detalló el procedimiento.",
+   "quote": "porque las casas son para vivir y no para hacer negocio",
+   "source_url": "https://www.elespanol.com/espana/20261024/montero-rufian-llaman-someter-psoe-izquierda-primer-acto-frente/1003744433653_0.html",
+   "source_title": "El Español (con EFE): primer acto conjunto de Montero y Rufián",
+   "source_date": "2026-10-24",
+   "source_type": "prensa",
+   "who": "Irene Montero, acto conjunto con Gabriel Rufián (ERC) en Nou Barris, Barcelona, 24-10-2026",
    "aplicacion": {
     "regimen_comun": "Sí: es una medida estatal, igual en toda España.",
     "pais_vasco_navarra": "Sí: es una medida estatal, igual en toda España.",

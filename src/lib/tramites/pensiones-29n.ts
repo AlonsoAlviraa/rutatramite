@@ -5,12 +5,12 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
  {
   "id": "pens29n-hub",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-21",
+  "reviewedAt": "2026-10-25",
   "path": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
   "h1": "¿Quiere algún partido quitar las pensiones? Lo que ha dicho cada uno",
   "title": "¿Quiere algún partido quitar las pensiones? Lo que dicen el 29-N",
   "description": "¿Quién quiere quitar las pensiones? Lo que han dicho PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21 antes del 29-N, con fecha y fuente de cada frase.",
-  "lead": "Respuesta corta: a 21 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N.",
+  "lead": "Respuesta corta: a 25 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio propone que ninguna pensión baje del salario mínimo y fijar en 65 años la edad máxima de jubilación (24-10) y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N.",
   "cta": {
    "href": "/elecciones/promesas/que-propone-cada-partido-pensiones",
    "label": "Comparar propuestas sobre pensiones"
@@ -75,6 +75,10 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
    {
     "label": "BOE: Real Decreto 806/2026, convocatoria del 29-N",
     "href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
+   },
+   {
+    "label": "Europa Press, 24-10-2026: Frente Amplio propone que ninguna pensión esté por debajo del SMI y jubilación como máximo a los 65",
+    "href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
    }
   ],
   "related": [
@@ -119,7 +123,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "faqs": [
    {
     "q": "¿Qué partido quiere quitar las pensiones?",
-    "a": "A 21 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N."
+    "a": "A 25 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio propone que ninguna pensión baje del salario mínimo y fijar en 65 años la edad máxima de jubilación (24-10) y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N."
    },
    {
     "q": "¿Por qué se habla ahora de quitar las pensiones?",
@@ -143,7 +147,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "respuesta",
     "title": "Respuesta corta",
     "paragraphs": [
-     "A 21 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio dice que no permitirá que se «cargue» el sistema público y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N."
+     "A 25 de octubre de 2026 no hemos encontrado ninguna declaración de PP, PSOE, Vox, Frente Amplio, Podemos ni Democracia 21 a favor de quitar las pensiones. PP, PSOE y Vox se han comprometido a pagarlas o a actualizarlas con el IPC; Frente Amplio propone que ninguna pensión baje del salario mínimo y fijar en 65 años la edad máxima de jubilación (24-10) y Podemos propone jubilarse antes sin recorte con 40 años cotizados. Ninguno ha publicado todavía su programa para el 29-N."
     ]
    },
    {
@@ -198,11 +202,11 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
        "cells": [
         "Frente Amplio",
         "¿Quitarlas? No hemos encontrado ninguna declaración en ese sentido",
-        "Urtasun: no permitirán que se «cargue» el sistema público de pensiones (17-10-2026)."
+        "Colau: que ninguna pensión esté por debajo del salario mínimo y jubilación como máximo a los 65 años (24-10-2026). Urtasun: no permitirán que se «cargue» el sistema público de pensiones (17-10-2026)."
        ],
        "source": {
-        "label": "elDiario.es, 17-10-2026: presentación del Frente Amplio en Madrid",
-        "href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+        "label": "Europa Press, 24-10-2026: Frente Amplio propone que ninguna pensión esté por debajo del SMI y jubilación como máximo a los 65",
+        "href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
        }
       },
       {
@@ -874,12 +878,12 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
  {
   "id": "pens29n-frente-amplio",
   "pack": "elecciones",
-  "reviewedAt": "2026-10-19",
+  "reviewedAt": "2026-10-25",
   "path": "/elecciones/quiere-frente-amplio-quitar-las-pensiones",
   "h1": "¿Quiere Frente Amplio quitar las pensiones? Lo que ha dicho y votado",
   "title": "¿Quiere Frente Amplio quitar las pensiones? Lo que ha dicho",
   "description": "¿Quiere Frente Amplio quitar las pensiones? Lo que ha dicho en la precampaña del 29-N, lo que no ha concretado y lo que dice la ley, con fuentes.",
-  "lead": "Respuesta corta: según las declaraciones con fuente que hemos encontrado, no. Ernest Urtasun dijo el 17 de octubre de 2026, en la presentación del Frente Amplio, que no van a permitir que se «cargue» el sistema público de pensiones. No hemos encontrado propuestas concretas suyas sobre pensiones.",
+  "lead": "Respuesta corta: según las declaraciones con fuente que hemos encontrado, no. El 24 de octubre de 2026, en la manifestación por las pensiones en Madrid, Ada Colau propuso que ninguna pensión esté por debajo del salario mínimo (hoy 1.221 € al mes en 14 pagas) y fijar en 65 años la edad máxima de jubilación. Ernest Urtasun dijo el 17 de octubre que no van a permitir que se «cargue» el sistema público de pensiones.",
   "cta": {
    "href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
    "label": "¿Qué partido quiere quitar las pensiones? Lo que ha dicho cada uno"
@@ -916,6 +920,14 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
    {
     "label": "BOE: Real Decreto 806/2026, convocatoria del 29-N",
     "href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
+   },
+   {
+    "label": "Europa Press, 24-10-2026: Frente Amplio propone que ninguna pensión esté por debajo del SMI y jubilación como máximo a los 65",
+    "href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
+   },
+   {
+    "label": "Infobae, 24-10-2026: coste y financiación del plan de pensiones de Frente Amplio",
+    "href": "https://www.infobae.com/espana/2026/10/24/frente-amplio-presenta-su-plan-de-pensiones-jubilacion-a-los-65-anos-y-cuantia-minima-igual-al-smi/"
    }
   ],
   "related": [
@@ -952,15 +964,19 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
   "faqs": [
    {
     "q": "¿Quiere Frente Amplio quitar las pensiones?",
-    "a": "Según las declaraciones con fuente que hemos encontrado, no. Ernest Urtasun dijo el 17 de octubre de 2026, en la presentación del Frente Amplio, que no van a permitir que se «cargue» el sistema público de pensiones. No hemos encontrado propuestas concretas suyas sobre pensiones."
+    "a": "Según las declaraciones con fuente que hemos encontrado, no. El 24 de octubre de 2026, en la manifestación por las pensiones en Madrid, Ada Colau propuso que ninguna pensión esté por debajo del salario mínimo (hoy 1.221 € al mes en 14 pagas) y fijar en 65 años la edad máxima de jubilación. Ernest Urtasun dijo el 17 de octubre que no van a permitir que se «cargue» el sistema público de pensiones."
    },
    {
     "q": "¿Qué ha dicho Frente Amplio sobre subir las pensiones con el IPC?",
-    "a": "Urtasun dijo el 17 de octubre de 2026 que no permitirán que se «cargue» el sistema público de pensiones (elDiario.es)."
+    "a": "Colau dijo el 24 de octubre de 2026: «Si sube el SMI, lo lógico es que las pensiones suban al mismo ritmo y que ninguna esté por debajo» (Europa Press). Urtasun dijo el 17 de octubre que no permitirán que se «cargue» el sistema público de pensiones (elDiario.es)."
+   },
+   {
+    "q": "¿Cuánto costaría la propuesta de Frente Amplio sobre pensiones?",
+    "a": "Según el partido, unos 10.000 millones de euros al año cada medida (pensión mínima igual al SMI y jubilación a los 65), 20.000 millones en total. La primera la pagaría con tributación mínima a grandes empresas y un impuesto del 2 % a patrimonios de más de un millón de euros; la segunda, quitando de forma progresiva el tope máximo de cotización y con una aportación de las empresas más automatizadas (Infobae, 24-10-2026). Son cifras del partido, no estimaciones oficiales."
    },
    {
     "q": "¿Ha publicado Frente Amplio su programa para el 29-N?",
-    "a": "A 19 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
+    "a": "A 25 de octubre de 2026, no. Cuando lo publique, añadiremos aquí lo que diga sobre pensiones, con el enlace."
    },
    {
     "q": "¿Puede un Gobierno dejar de subir las pensiones por su cuenta?",
@@ -972,14 +988,14 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "respuesta",
     "title": "Respuesta corta",
     "paragraphs": [
-     "Según las declaraciones con fuente que hemos encontrado, no. Ernest Urtasun dijo el 17 de octubre de 2026, en la presentación del Frente Amplio, que no van a permitir que se «cargue» el sistema público de pensiones. No hemos encontrado propuestas concretas suyas sobre pensiones."
+     "Según las declaraciones con fuente que hemos encontrado, no. El 24 de octubre de 2026, en la manifestación por las pensiones en Madrid, Ada Colau propuso que ninguna pensión esté por debajo del salario mínimo (hoy 1.221 € al mes en 14 pagas) y fijar en 65 años la edad máxima de jubilación. Ernest Urtasun dijo el 17 de octubre que no van a permitir que se «cargue» el sistema público de pensiones."
     ]
    },
    {
     "id": "que-ha-dicho",
     "title": "Qué ha dicho Frente Amplio sobre las pensiones",
     "paragraphs": [
-     "Declaraciones públicas con fuente y fecha, revisadas el 19 de octubre de 2026."
+     "Declaraciones públicas con fuente y fecha, revisadas el 25 de octubre de 2026."
     ],
     "table": {
      "caption": "Frente Amplio: declaraciones sobre pensiones",
@@ -989,6 +1005,36 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
       "Fuente"
      ],
      "rows": [
+      {
+       "cells": [
+        "Que ninguna pensión esté por debajo del salario mínimo y que las pensiones mínimas suban al mismo ritmo que el SMI: «Si sube el SMI, lo lógico es que las pensiones suban al mismo ritmo y que ninguna esté por debajo». Hoy el SMI es de 1.221 € al mes en 14 pagas.",
+        "Ada Colau y Emilio Delgado, manifestación por las pensiones, Madrid, 24-10-2026"
+       ],
+       "source": {
+        "label": "Europa Press, 24-10-2026: Frente Amplio propone que ninguna pensión esté por debajo del SMI y jubilación como máximo a los 65",
+        "href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
+       }
+      },
+      {
+       "cells": [
+        "Fijar en 65 años la edad máxima de jubilación, «y no ir más allá». Hoy a los 65 solo se jubila sin recorte quien tiene 38 años y 3 meses cotizados; el resto, a los 66 años y 10 meses.",
+        "Ada Colau y Emilio Delgado, manifestación por las pensiones, Madrid, 24-10-2026"
+       ],
+       "source": {
+        "label": "Europa Press, 24-10-2026: Frente Amplio propone que ninguna pensión esté por debajo del SMI y jubilación como máximo a los 65",
+        "href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
+       }
+      },
+      {
+       "cells": [
+        "Coste y financiación según el partido: unos 10.000 millones al año cada medida, con impuestos a grandes empresas y patrimonios de más de un millón y quitando de forma progresiva el tope máximo de cotización.",
+        "Frente Amplio, 24-10-2026"
+       ],
+       "source": {
+        "label": "Infobae, 24-10-2026: coste y financiación del plan de pensiones de Frente Amplio",
+        "href": "https://www.infobae.com/espana/2026/10/24/frente-amplio-presenta-su-plan-de-pensiones-jubilacion-a-los-65-anos-y-cuantia-minima-igual-al-smi/"
+       }
+      },
       {
        "cells": [
         "Dijo que el Frente Amplio no va a permitir que se «cargue» el sistema público de pensiones.",
@@ -1013,7 +1059,7 @@ export const PENSIONES_29N_GUIDES: Guide[] = [
     "id": "programa",
     "title": "Programa electoral",
     "paragraphs": [
-     "Programa del 29-N: no publicado a 19 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
+     "Programa del 29-N: no publicado a 25 de octubre de 2026. Cuando se publique, añadiremos lo que diga sobre pensiones."
     ]
    },
    {
