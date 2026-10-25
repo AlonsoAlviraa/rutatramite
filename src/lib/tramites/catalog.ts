@@ -41,6 +41,7 @@ import { MESA_29N_20261023_GUIDES, ampliarMesa } from "@/lib/tramites/mesa-29n-2
 import { CARTAS_29N_20261024_GUIDES, ampliarCartas } from "@/lib/tramites/cartas-29n-20261024";
 import { AUTONOMOS_VERIFACTU_20261025_GUIDES, enlazarAutonomosVerifactu } from "@/lib/tramites/autonomos-verifactu-20261025";
 import { TERRITORIO_29N_GUIDES, ampliarTerritorio } from "@/lib/tramites/territorio-29n-20261025";
+import { TRANSPORTE_29N_GUIDES, enlazarTransporte } from "@/lib/tramites/transporte-votar-29n-20261025";
 
 export const ALL_GUIDES: Guide[] = [
   ...ACTUALIDAD_20261006_GUIDES,
@@ -69,6 +70,7 @@ export const ALL_GUIDES: Guide[] = [
   ...CARTAS_29N_20261024_GUIDES,
   ...AUTONOMOS_VERIFACTU_20261025_GUIDES,
   ...TERRITORIO_29N_GUIDES,
+  ...TRANSPORTE_29N_GUIDES,
   ...DNI_NICHOS_GUIDES,
   ...MUDANZA_GUIDES,
   ...EXTRANJERIA_GUIDES,
@@ -85,7 +87,7 @@ export const ALL_GUIDES: Guide[] = [
   ...FAMILIA_CCAA_GUIDES,
   ...COBROS_AVISOS_GUIDES,
   ...MODELO_GUIDES,
-].map(ampliarCartas).map(mejorar20261024).map(enlazarAutonomosVerifactu).map(ampliarTerritorio);
+].map(ampliarCartas).map(mejorar20261024).map(enlazarAutonomosVerifactu).map(ampliarTerritorio).map(enlazarTransporte);
 
 export const TRAVEL_PATHS = VIAJE_GUIDES.map((g) => g.path);
 

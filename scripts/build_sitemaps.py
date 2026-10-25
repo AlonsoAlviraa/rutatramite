@@ -215,6 +215,7 @@ CORE = [
     "/elecciones/cuantas-cruces-senado-provincia-isla",
     "/elecciones/ceuta-melilla-29n",
     "/elecciones/papeletas-bilingues-29n",
+    "/elecciones/transporte-para-ir-a-votar-29n",
     "/elecciones/mapa-voto-util-29n",
     "/elecciones/cocina-de-las-encuestas",
     "/elecciones/como-se-hace-una-encuesta-electoral",
