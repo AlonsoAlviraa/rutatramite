@@ -39,7 +39,7 @@ import { MARICARMEN_HUELGA_GUIDES } from "@/lib/tramites/maricarmen-huelga-11n";
 import { VIRAL_20261023_GUIDES } from "@/lib/tramites/viral-20261023";
 import { MESA_29N_20261023_GUIDES, ampliarMesa } from "@/lib/tramites/mesa-29n-20261023";
 import { CARTAS_29N_20261024_GUIDES, ampliarCartas } from "@/lib/tramites/cartas-29n-20261024";
-import { AUTONOMOS_VERIFACTU_20261025_GUIDES } from "@/lib/tramites/autonomos-verifactu-20261025";
+import { AUTONOMOS_VERIFACTU_20261025_GUIDES, enlazarAutonomosVerifactu } from "@/lib/tramites/autonomos-verifactu-20261025";
 
 export const ALL_GUIDES: Guide[] = [
   ...ACTUALIDAD_20261006_GUIDES,
@@ -83,7 +83,7 @@ export const ALL_GUIDES: Guide[] = [
   ...FAMILIA_CCAA_GUIDES,
   ...COBROS_AVISOS_GUIDES,
   ...MODELO_GUIDES,
-].map(ampliarCartas).map(mejorar20261024);
+].map(ampliarCartas).map(mejorar20261024).map(enlazarAutonomosVerifactu);
 
 export const TRAVEL_PATHS = VIAJE_GUIDES.map((g) => g.path);
 

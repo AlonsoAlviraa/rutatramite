@@ -254,3 +254,18 @@ export const AUTONOMOS_VERIFACTU_20261025_GUIDES: Guide[] = [
     ],
   },
 ];
+
+/** Enlaces entrantes desde guías relacionadas (añade al final de `related`, sin duplicar). */
+const ENTRANTES: Record<string, { href: string; label: string }[]> = {
+  "/trabajo/vida-laboral": [L.base],
+  "/trabajo/salario-minimo-irpf-2026": [L.base, L.vf],
+  "/trabajo/cita-previa-sepe": [L.base],
+  "/elecciones/deflactar-irpf-que-significa": [L.vf],
+};
+export function enlazarAutonomosVerifactu(g: Guide): Guide {
+  const add = ENTRANTES[g.path];
+  if (!add) return g;
+  const have = new Set((g.related ?? []).map((r) => r.href));
+  const extra = add.filter((r) => !have.has(r.href));
+  return extra.length ? Object.assign(g, { related: [...(g.related ?? []), ...extra] }) : g;
+}
