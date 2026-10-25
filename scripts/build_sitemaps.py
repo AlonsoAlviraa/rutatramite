@@ -208,6 +208,8 @@ CORE = [
     "/elecciones/voto-util-29n",
     "/elecciones/feijoo-cadena-ser-29n",
     "/trabajo/salario-minimo-irpf-2026",
+    "/trabajo/verifactu-obligatorio-1-enero-2027",
+    "/trabajo/autonomos-cambio-base-cotizacion-2027",
     "/elecciones/mapa-voto-util-29n",
     "/elecciones/cocina-de-las-encuestas",
     "/elecciones/como-se-hace-una-encuesta-electoral",

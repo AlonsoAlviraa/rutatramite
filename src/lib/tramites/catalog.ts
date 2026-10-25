@@ -39,6 +39,7 @@ import { MARICARMEN_HUELGA_GUIDES } from "@/lib/tramites/maricarmen-huelga-11n";
 import { VIRAL_20261023_GUIDES } from "@/lib/tramites/viral-20261023";
 import { MESA_29N_20261023_GUIDES, ampliarMesa } from "@/lib/tramites/mesa-29n-20261023";
 import { CARTAS_29N_20261024_GUIDES, ampliarCartas } from "@/lib/tramites/cartas-29n-20261024";
+import { AUTONOMOS_VERIFACTU_20261025_GUIDES } from "@/lib/tramites/autonomos-verifactu-20261025";
 
 export const ALL_GUIDES: Guide[] = [
   ...ACTUALIDAD_20261006_GUIDES,
@@ -65,6 +66,7 @@ export const ALL_GUIDES: Guide[] = [
   ...VIRAL_20261023_GUIDES,
   ...MESA_29N_20261023_GUIDES,
   ...CARTAS_29N_20261024_GUIDES,
+  ...AUTONOMOS_VERIFACTU_20261025_GUIDES,
   ...DNI_NICHOS_GUIDES,
   ...MUDANZA_GUIDES,
   ...EXTRANJERIA_GUIDES,
