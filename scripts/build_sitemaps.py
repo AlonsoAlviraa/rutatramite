@@ -210,6 +210,8 @@ CORE = [
     "/trabajo/salario-minimo-irpf-2026",
     "/trabajo/verifactu-obligatorio-1-enero-2027",
     "/trabajo/autonomos-cambio-base-cotizacion-2027",
+    "/elecciones/hora-canarias-29n",
+    "/elecciones/formentera-senador-propio-29n",
     "/elecciones/mapa-voto-util-29n",
     "/elecciones/cocina-de-las-encuestas",
     "/elecciones/como-se-hace-una-encuesta-electoral",
