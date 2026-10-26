@@ -1,6 +1,6 @@
 import type { Guide } from "@/lib/tramites/types";
 
-const UPD = "25 de octubre de 2026, 08:30 (hora peninsular)";
+const UPD = "26 de octubre de 2026, 08:30 (hora peninsular)";
 
 const RTVE_CRONICA = { href: "https://www.rtve.es/play/noticias/20261022/pedro-sanchez-truco-recomendaron-moncloa-proteger-movil/17279368.shtml", label: "RTVE, 22-10-2026: crónica de la entrevista de Pedro Sánchez en La Revuelta" };
 const RTVE_DIRECTO = { href: "https://www.rtve.es/play/noticias/20261022/pedro-sanchez-revuelta-broncano-directo-video-cronica/17278843.shtml", label: "RTVE Play: La Revuelta con Pedro Sánchez (vídeo)" };
@@ -8,14 +8,12 @@ const RTVE_ANUNCIO = { href: "https://www.rtve.es/rtve/20261021/pedro-sanchez-in
 const EC = { href: "https://www.elconfidencial.com/espana/2026-10-21/elecciones-generales-29-n-encuestas-directo_4449404/", label: "El Confidencial, directo del 22-10-2026 (citas de la entrevista)" };
 const ELDIARIO_X = { href: "https://x.com/eldiarioes/status/2113365550797553759", label: "elDiario.es en X, 22-10-2026" };
 const VOX_ACTOS = { href: "https://www.voxespana.es/proximos-actos", label: "Vox: próximos actos (web oficial)" };
-const FEIJOO_VIGO = { href: "https://www.elconfidencial.com/espana/2026-10-21/elecciones-generales-29-n-encuestas-directo_4449404/", label: "El Confidencial, 21-10-2026: Feijóo, acto en Vigo el 24 de octubre" };
 const SANCHEZ_VITORIA = { href: "https://www.infobae.com/espana/agencias/2026/10/22/sanchez-celebrara-un-acto-de-precampana-el-jueves-en-vitoria-para-llamar-a-la-movilizacion-de-los-vascos/", label: "Europa Press (vía Infobae), 22-10-2026: acto de Sánchez en Vitoria" };
 const DEBATES_EE = { href: "https://www.europapress.es/nacional/noticia-sanchez-acepta-cara-cara-feijoo-quiere-debate-cuatro-26-noviembre-sea-tve-20261022175207.html", label: "Europa Press, 22-10-2026: el PSOE acepta el cara a cara del 16-N y pide el debate a cuatro en TVE; el PP lo rechaza" };
 const LASEXTA = { href: "https://www.europapress.es/sociedad/noticia-lasexta-emitira-dos-debates-ana-pastor-portavoces-psoe-pp-vox-frente-amplio-noviembre-20261021145644.html", label: "Europa Press, 21-10-2026: laSexta, debates del 2 y 9 de noviembre" };
-const FEIJOO_SALAMANCA = { href: "https://www.europapress.es/castilla-y-leon/noticia-feijoo-visitara-salamanca-domingo-participar-acto-pp-caem-20261021183139.html", label: "Europa Press, 21-10-2026: Feijóo, acto en Salamanca el domingo 25" };
-const SANCHEZ_GRANADA = { href: "https://www.europapress.es/andalucia/noticia-pedro-sanchez-participa-sabado-granada-acto-precampana-generales-20261020150449.html", label: "Europa Press, 20-10-2026: Sánchez, acto en Granada el sábado 24" };
-const SANCHEZ_GRANADA_HORA = { href: "https://www.europapress.es/andalucia/noticia-pedro-sanchez-protagonizara-sabado-granada-segundo-gran-acto-precampana-andalucia-cara-29n-20261023163750.html", label: "Europa Press, 23-10-2026: Sánchez, acto en Granada el sábado 24 a las 11:30" };
 const VOX_CYL = { href: "https://www.europapress.es/castilla-y-leon/noticia-abascal-tendra-actos-precampana-martes-zamora-miercoles-28-valladolid-20261022190251.html", label: "Europa Press, 22-10-2026 (act. 23-10): actos de Abascal en Zamora, Santander, Valladolid y Ávila" };
+const FEIJOO_VALENCIA = { href: "https://www.eldebate.com/espana/comunidad-valenciana/20261023/pp-confirma-llevara-feijoo-plaza-toros-valencia-no-vamos-llenar-vamos-reventar_473293.html", label: "El Debate, 23-10-2026: el PP confirma el mitin de Feijóo en la Plaza de Toros de Valencia (22-11)" };
+const FEIJOO_VALENCIA_VP = { href: "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/mompo-anuncia-que-el-pp-celebrara-un-mitin-en-la-plaza-de-toros-de-valencia-no-la-vamos-a-llenar-la-vamos-a-reventar", label: "Valencia Plaza, 23-10-2026: Mompó anuncia el mitin en la Plaza de Toros" };
 const SANCHEZ_GIJON = { href: "https://cadenaser.com/asturias/2026/10/20/pedro-sanchez-dara-un-mitin-en-gijon-el-proximo-lunes-en-la-precampana-de-las-elecciones-generales-ser-gijon/", label: "Cadena SER, 20-10-2026: Sánchez, mitin en Gijón el lunes 26" };
 const WILD_MARCA = { href: "https://www.marca.com/tiramillas/sociedad/2026/10/22/jordi-wild-sigo-noticias-pedro-sanchez-manana-ultimo-dia2.html", label: "Marca, 22-10-2026: Jordi Wild, sin respuesta de Sánchez y publicación el 13 de noviembre" };
 const SANCHEZ_WILD_HORM = { href: "https://www.elplural.com/extratele/pedro-sanchez-visitara-jordi-wild-el-hormiguero-anecdota-pablo-motos-gracia_802166102", label: "El Plural, 22-10-2026: qué dijo Sánchez en La Revuelta sobre Jordi Wild y El Hormiguero" };
@@ -135,7 +133,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
   {
     id: "29n-agenda-mitines",
     pack: "elecciones",
-    reviewedAt: "2026-10-24",
+    reviewedAt: "2026-10-26",
     disclaimer: "",
     path: "/elecciones/agenda-mitines-29n",
     h1: "Agenda de mítines del 29-N: próximos actos de cada candidato",
@@ -144,7 +142,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
     lead: `Respuesta corta: estos son los próximos actos públicos anunciados por los candidatos a las elecciones del 29 de noviembre, con fecha, ciudad, lugar y la fuente donde se anunciaron. Solo incluimos actos futuros publicados por el propio partido o por un medio fiable. Los partidos van en el orden de votos de las generales de 2023. Última actualización: ${UPD}.`,
     cta: VOX_ACTOS,
     secondaryCta: { href: "/elecciones/campana-y-precampana", label: "Campaña y precampaña: qué fechas marca la ley" },
-    sources: [FEIJOO_VIGO, FEIJOO_SALAMANCA, SANCHEZ_GRANADA_HORA, SANCHEZ_GRANADA, SANCHEZ_GIJON, SANCHEZ_VITORIA, VOX_ACTOS, VOX_CYL, DEBATES_EE, LASEXTA],
+    sources: [FEIJOO_VALENCIA, FEIJOO_VALENCIA_VP, SANCHEZ_GIJON, SANCHEZ_VITORIA, VOX_ACTOS, VOX_CYL, DEBATES_EE, LASEXTA],
     related: [{ href: "/elecciones", label: "Sánchez y Jordi Wild: cuándo sale la entrevista en The Wild Project" }, { href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, ENTREV, ARTIC, DEBATE, CAMPANA, { href: "/elecciones/calendario-29-noviembre", label: "Calendario del 29-N" }, ELEC],
     faqs: [
       { q: "¿Cuándo empieza la campaña electoral del 29-N?", a: "A las 0:00 del viernes 13 de noviembre de 2026 y termina a las 24:00 del viernes 27 (Real Decreto 806/2026). Los actos de antes son de precampaña." },
@@ -161,11 +159,13 @@ export const AGENDA_29N_GUIDES: Guide[] = [
           caption: `Agenda de actos de precampaña del 29-N (actualizada el ${UPD})`,
           head: ["Partido y candidato", "Fecha", "Ciudad", "Lugar", "Fuente"],
           rows: [
-            { cells: ["PP · Alberto Núñez Feijóo", "Domingo 25 de octubre, 12:00", "Salamanca", "Centro de Artes Escénicas y de la Música (CAEM)"], source: FEIJOO_SALAMANCA },
-            { cells: ["PSOE · Pedro Sánchez", "Lunes 26 de octubre, 18:00", "Gijón (Asturias)", "Pabellón central de la Feria de Muestras de Asturias"], source: SANCHEZ_GIJON },
+            { cells: ["PP · Alberto Núñez Feijóo", "Domingo 22 de noviembre (hora no publicada)", "Valencia", "Plaza de Toros"], source: FEIJOO_VALENCIA },
+            { cells: ["PSOE · Pedro Sánchez", "Lunes 26 de octubre, 18:00", "Gijón (Asturias)", "Pabellón central del recinto ferial Luis Adaro (Feria de Muestras)"], source: SANCHEZ_GIJON },
             { cells: ["PSOE · Pedro Sánchez", "Jueves 29 de octubre, 18:30", "Vitoria-Gasteiz (Álava)", "Palacio Europa"], source: SANCHEZ_VITORIA },
+            { cells: ["Vox · Santiago Abascal", "Lunes 26 de octubre (hora no publicada)", "Talavera de la Reina (Toledo)", "Presentación de candidatos (lugar no publicado)"], source: VOX_ACTOS },
+            { cells: ["Vox · Santiago Abascal", "Martes 27 de octubre (hora no publicada)", "Plasencia (Cáceres)", "Declaración a medios (lugar no publicado)"], source: VOX_ACTOS },
             { cells: ["Vox · Santiago Abascal", "Martes 27 de octubre, 19:00", "Zamora", "Plaza de la Marina"], source: VOX_CYL },
-            { cells: ["Vox · Santiago Abascal", "Miércoles 28 de octubre, 12:00", "Santander", "Jardines de Pereda"], source: VOX_CYL },
+            { cells: ["Vox · Santiago Abascal", "Miércoles 28 de octubre, 12:00", "Santander", "Jardines de Pereda (declaración a medios)"], source: VOX_CYL },
             { cells: ["Vox · Santiago Abascal", "Miércoles 28 de octubre, 19:00", "Valladolid", "Pabellón 3 de la Feria de Valladolid"], source: VOX_CYL },
             { cells: ["Vox · Santiago Abascal", "Jueves 29 de octubre, 19:00", "Ávila", "Palacio de Congresos Lienzo Norte"], source: VOX_CYL },
             { cells: ["Frente Amplio · Ada Colau", "Sin agenda publicada", "—", "—"], source: { href: EC.href, label: "El Confidencial, 22-10-2026: sin actos futuros de Frente Amplio anunciados" } },

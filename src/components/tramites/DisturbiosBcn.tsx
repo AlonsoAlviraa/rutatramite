@@ -20,8 +20,7 @@ export function DisturbiosBcn() {
           </li>
         ))}
       </ol>
-      <p className="mt-4">Se actualizará cuando los Mossos publiquen el balance oficial del 24 de octubre.</p>
-      <p className="mt-2">Datos oficiales de delitos por municipio: <a className="underline" href={INTERIOR_BALANCES}>Balance de Criminalidad del Ministerio del Interior</a>.</p>
+      <p className="mt-4">Datos oficiales de delitos por municipio: <a className="underline" href={INTERIOR_BALANCES}>Balance de Criminalidad del Ministerio del Interior</a>.</p>
       <p className="mt-2 text-base">Equipo RutaTrámite</p>
     </section>
   );

@@ -29,6 +29,8 @@ const LGSS = { href: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724", la
 
 const FESMC = { href: "https://www.fesmcugt.org/noticias/actualidad/ricardo-casas-los-servicios-minimos-en-el-transporte-tienen-que-garantizar-lo-esencial-no-garantizar-la-normalidad", label: "FeSMC-UGT, 22-10-2026: UGT y CCOO presentan a Transportes su propuesta de servicios mínimos" };
 
+const MITMA = { href: "https://www.transportes.gob.es/transporte-terrestre/resoluciones-de-servicios-minimos-ferroviarios", label: "Ministerio de Transportes: resoluciones de servicios mínimos ferroviarios (consultado el 26-10-2026)" };
+
 const row = (cells: string[], source: { href: string; label: string }) => ({ cells, source });
 
 export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
@@ -129,7 +131,7 @@ export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
   {
     id: "trabajo-huelga-general-11n",
     pack: "trabajo",
-    reviewedAt: "2026-10-25",
+    reviewedAt: "2026-10-26",
     path: "/trabajo/huelga-general-11-noviembre",
     h1: "Huelga general del 11 de noviembre: tus derechos si eres trabajador, funcionario, autónomo, becario o estudiante",
     title: "Huelga general 11-N: derechos, descuento y servicios mínimos",
@@ -137,7 +139,7 @@ export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
     lead: "Respuesta corta: la huelga general es el miércoles 11 de noviembre de 2026, 24 horas. La registraron el 19 de octubre en el Ministerio de Trabajo UGT y CCOO junto con CGT, CNT, Co.Bas, Intersindical, la Unión de Actores y Actrices, Solidaridad Obrera y la Confederación de Sindicatos de Inquilinas (UGT). Si trabajas por cuenta ajena, hacer huelga es un derecho fundamental (artículo 28.2 de la Constitución): no te pueden despedir ni sancionar, no tienes que avisar a la empresa y solo pierdes el salario de ese día. Los funcionarios también pueden. Los autónomos y los becarios sin contrato no tienen derecho de huelga laboral, y los estudiantes desde 3.º de ESO pueden no ir a clase sin sanción si la decisión es colectiva y se comunica al centro.",
     cta: RDL17,
     secondaryCta: { href: "/alquiler/caso-maricarmen-desahucio", label: "El caso Maricarmen, origen de la movilización" },
-    sources: [UGT, FESMC, EDIARIO, HPV, CE, RDL17, STC11, TREBEP, ET, LGSS, STC40, LODE, RTVE, SE, SMI],
+    sources: [UGT, FESMC, MITMA, EDIARIO, HPV, CE, RDL17, STC11, TREBEP, ET, LGSS, STC40, LODE, RTVE, SE, SMI],
     related: [
       { href: "/alquiler/caso-maricarmen-desahucio", label: "Caso Maricarmen: cronología y qué cambió" },
       { href: "/trabajo/vida-laboral", label: "Vida laboral: cómo pedirla" },
@@ -146,7 +148,7 @@ export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
     ],
     disclaimer: "Los servicios mínimos de cada sector los fija la autoridad competente en los días previos; consulta tu convenio y al comité de empresa.",
     faqs: [
-      { q: "¿Hay ya servicios mínimos para la huelga del 11-N?", a: "A 25-10-2026 no se han publicado. UGT y CCOO presentaron el 22-10 al Ministerio de Transportes su propuesta para el transporte; cada administración fija los suyos y suelen conocerse en los días previos." },
+      { q: "¿Hay ya servicios mínimos para la huelga del 11-N?", a: "A 26-10-2026 no se han publicado. UGT y CCOO presentaron el 22-10 al Ministerio de Transportes su propuesta para el transporte; cada administración fija los suyos y suelen conocerse en los días previos." },
       { q: "¿Me pueden despedir por hacer huelga el 11-N?", a: "No. El artículo 6.1 del Real Decreto-ley 17/1977 dice que ejercer el derecho de huelga no extingue el contrato ni puede dar lugar a sanción, salvo que el trabajador incurra en falta laboral durante ella. Un despido por secundarla sería nulo por vulnerar un derecho fundamental." },
       { q: "¿Tengo que avisar a mi empresa de que voy a hacer huelga?", a: "No. El preaviso lo dan los convocantes (5 días, o 10 en servicios públicos, artículo 4 del Real Decreto-ley 17/1977). El trabajador no tiene que comunicar antes si la secunda." },
       { q: "¿Cuánto me descuentan?", a: "El salario del día y la parte proporcional de pagas extra y descanso semanal. Una forma de calcularlo es dividir el salario anual bruto entre 365. Con 1.800 € brutos en 14 pagas (25.200 € al año) son unos 69,04 €; con el salario mínimo de 2026 (1.221 € en 14 pagas, 17.094 € al año), unos 46,83 €. Las vacaciones no se tocan." },
@@ -186,9 +188,10 @@ export const MARICARMEN_HUELGA_GUIDES: Guide[] = [
       },
       {
         id: "servicios-minimos",
-        title: "Servicios mínimos del 11-N: estado a 23 de octubre",
+        title: "Servicios mínimos del 11-N: estado a 26 de octubre",
         paragraphs: [
-          "A 25-10-2026 no se ha publicado ninguna resolución oficial de servicios mínimos para el 11-N. Los fija cada administración competente (el Ministerio de Transportes en el transporte estatal, las comunidades autónomas en sus servicios) y suelen publicarse en los días previos a la huelga.",
+          "A 26-10-2026 no se ha publicado ninguna resolución oficial de servicios mínimos para el 11-N: la página de resoluciones ferroviarias del Ministerio de Transportes no recoge ninguna para esa fecha. Los fija cada administración competente (el Ministerio de Transportes en el transporte estatal, las comunidades autónomas en sus servicios) y suelen publicarse en los días previos a la huelga.",
+          "Referencia reciente: para las huelgas generales del 15 de octubre de 2025, el Ministerio de Transportes firmó las resoluciones de servicios mínimos ferroviarios (Renfe, Ouigo, Iryo y empresas auxiliares) el 13 de octubre de 2025, dos días antes del paro. Si se repite ese calendario, las del 11-N llegarían hacia el 9 de noviembre.",
           "El 22-10-2026, FeSMC-UGT y FSC-CCOO presentaron al Ministerio de Transportes y Movilidad Sostenible su propuesta de servicios mínimos para el transporte. Según FeSMC-UGT, piden que sean proporcionados y que garanticen los servicios esenciales sin impedir el seguimiento de la huelga.",
           "Si tu empresa te designa para cubrir servicios mínimos, debes acudir; si no te designa, puedes hacer huelga con normalidad. Esta sección se actualizará cuando se publiquen las resoluciones.",
         ],

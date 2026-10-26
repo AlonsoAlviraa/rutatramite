@@ -1,5 +1,5 @@
 // Rutina diaria: actualizar DISTURBIOS_UPD y la fila del 24-10 cuando Mossos publique el balance oficial.
-export const DISTURBIOS_UPD = "24 de octubre de 2026, 22:15 (hora peninsular)";
+export const DISTURBIOS_UPD = "26 de octubre de 2026, 08:30 (hora peninsular)";
 
 export type Fuente = { label: string; href: string };
 export type FilaDisturbio = { fecha: string; lugar: string; balance: string; fuentes: Fuente[] };
@@ -10,8 +10,10 @@ export const DISTURBIOS_BCN: FilaDisturbio[] = [
   {
     fecha: "24-10-2026",
     lugar: "Plaza Catalunya, la Rambla y Portal de l'Àngel. Concentración juvenil «Instituts Indignats», convocada por redes sociales y no comunicada, según el Ayuntamiento. Perímetro cerrado entre Universitat y Urquinaona.",
-    balance: "Balance oficial de Mossos pendiente; los medios no coinciden en el número de detenidos. Hubo cargas policiales, contenedores y mobiliario urbano quemados y saqueos en comercios.",
+    balance: "128 detenidos (122 hombres y 6 mujeres; 72 menores de edad, el 56 %), de los que 2 tenían antecedentes por desórdenes públicos. 14 mossos heridos, 4 de ellos graves. 33 intervenciones de los Bomberos por incendios, 23 comercios vandalizados y 68 actas por decomiso de armas blancas, espráis, pasamontañas, pirotecnia y piedras, según el balance de los Mossos del 25-10. El Ayuntamiento cuenta 31 contenedores quemados.",
     fuentes: [
+      { label: "Ayuntamiento de Barcelona (balance, 25-10)", href: "https://www.barcelona.cat/infobarcelona/ca/tema/seguretat-i-prevencio/els-aldarulls-al-centre-de-barcelona-acaben-amb-la-detencio-de-128-persones_42275.html" },
+      { label: "Europa Press (balance de los Mossos, 25-10)", href: "https://www.europapress.es/catalunya/noticia-128-detenidos-disturbios-barcelona-sabado-72-ellos-menores-edad-20261025090646.html" },
       { label: "El País", href: "https://elpais.com/espana/catalunya/2026-10-24/centenares-de-jovenes-violentos-destrozan-el-centro-de-barcelona.html" },
       { label: "RTVE", href: "https://www.rtve.es/noticias/20261024/protesta-estudiantes-barcelona-degenera-disturbios-enfrentamientos-con-mossos-desquadra/17282127.shtml" },
       { label: "Europa Press", href: "https://www.europapress.es/catalunya/noticia-mossos-empiezan-despejar-disturbios-plaza-catalunya-barcelona-varios-detenidos-20261024215308.html" },

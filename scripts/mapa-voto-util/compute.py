@@ -35,7 +35,8 @@ POLLS=[("Sigma Dos / El Mundo","1-14 oct","19-10-2026",3007,31.5,25.3,19.5),("So
 ("Target Point / El Debate","6-9 oct","11-10-2026",1002,32,25.9,18.7),("GAD3 / ABC","6-8 oct","12-10-2026",1077,31.4,26.4,18.2),
 ("GESOP / Prensa Ibérica","6-8 oct","12-10-2026",1000,28.7,26.1,18.9),("Hamalgama Métrica / Vozpópuli","5-8 oct","11-10-2026",1000,33.4,25.3,19.6),
 ("IMOP Insights / El Confidencial","13-16 oct","23-10-2026",1000,28.5,27.1,20),("NC Report / La Razón","1-6 oct","8-10-2026",1000,34.1,25,18.2),
-("40dB / El País-SER","7-8 oct","2026-10",800,31.9,28.1,18.9),("DYM / Grupo Joly","5-7 oct","2026-10",1011,34,28.2,18.2)]
+("40dB / El País-SER","7-8 oct","2026-10",800,31.9,28.1,18.9),("DYM / Grupo Joly","5-7 oct","2026-10",1011,34,28.2,18.2),
+("Ateneo del Dato / elDiario.es","20-22 oct","25-10-2026",2000,31.1,27.6,19.8)]
 A={'PP':sum(p[4] for p in POLLS)/len(POLLS),'PSOE':sum(p[5] for p in POLLS)/len(POLLS),'Vox':sum(p[6] for p in POLLS)/len(POLLS)}
 A={k:round(v,2) for k,v in A.items()}
 SW={k:A[k]-N23[k] for k in A}

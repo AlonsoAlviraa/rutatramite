@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "election": {
   "name": "Elecciones generales a Cortes (Congreso y Senado)",
   "date": "2026-11-29",
@@ -1998,6 +1998,99 @@
    "source_date": "2026-10-24",
    "source_type": "prensa",
    "who": "Irene Montero, acto conjunto con Gabriel Rufián (ERC) en Nou Barris, Barcelona, 24-10-2026"
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "vox-gravamen-remesas",
+   "party": "vox",
+   "topic": "impuestos",
+   "profiles": [],
+   "measure": "Un impuesto sobre las remesas, el dinero que se envía al extranjero, para que «el dinero generado en España» se quede en servicios aquí. No concreta el tipo ni a quién se aplicaría.",
+   "quote": "el dinero generado en España ha de redundar en mejores servicios aquí",
+   "source_url": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf",
+   "source_title": "voxespana.es: documento «Recuperar España»",
+   "source_date": "2026-10",
+   "source_type": "oficial-partido",
+   "who": "Vox, documento «Recuperar España» (octubre de 2026)"
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "vox-prohibir-burka",
+   "party": "vox",
+   "topic": "inmigracion",
+   "profiles": [],
+   "measure": "Prohibir el burka y el niqab en los espacios públicos.",
+   "quote": "Prohibir el burka y el niqab en espacios públicos",
+   "source_url": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf",
+   "source_title": "voxespana.es: documento «Recuperar España»",
+   "source_date": "2026-10",
+   "source_type": "oficial-partido",
+   "who": "Vox, documento «Recuperar España» (octubre de 2026)"
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "vox-imv-solo-espanoles",
+   "party": "vox",
+   "topic": "inmigracion",
+   "profiles": [
+    "parado",
+    "familia"
+   ],
+   "measure": "Que el Ingreso Mínimo Vital solo lo cobren españoles. Hoy pueden pedirlo también los extranjeros con al menos un año de residencia legal en España.",
+   "quote": "Ingreso Mínimo Vital solo para los españoles necesitados",
+   "source_url": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf",
+   "source_title": "voxespana.es: documento «Recuperar España»",
+   "source_date": "2026-10",
+   "source_type": "oficial-partido",
+   "who": "Vox, documento «Recuperar España» (octubre de 2026)"
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "vox-impuestos-cero-primera-vivienda",
+   "party": "vox",
+   "topic": "vivienda",
+   "profiles": [
+    "joven-alquiler",
+    "familia"
+   ],
+   "measure": "«Impuestos cero» al comprar la primera vivienda, junto con liberar suelo e invertir en vivienda protegida. No detalla qué impuestos (hoy se paga el ITP en vivienda usada o el IVA del 10 % en vivienda nueva).",
+   "quote": "impuestos cero a tu primera vivienda",
+   "source_url": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf",
+   "source_title": "voxespana.es: documento «Recuperar España»",
+   "source_date": "2026-10",
+   "source_type": "oficial-partido",
+   "who": "Vox, documento «Recuperar España» (octubre de 2026)"
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "fa-impuestos-especuladores",
+   "party": "frente-amplio",
+   "topic": "vivienda",
+   "profiles": [
+    "joven-alquiler"
+   ],
+   "measure": "Subir los impuestos a quienes especulan con la vivienda y expropiar pisos a los fondos buitre. No detalló qué impuestos ni el procedimiento.",
+   "quote": "freír a impuestos a los especuladores",
+   "source_url": "https://www.europapress.es/nacional/noticia-colau-llama-llenar-calles-poner-cuerpo-frente-politicos-solo-usan-piquito-oro-20261025140652.html",
+   "source_title": "Europa Press: mitin de Frente Amplio en Móstoles",
+   "source_date": "2026-10-25",
+   "source_type": "prensa",
+   "who": "Toni Valero (IU, n.º 3 de Frente Amplio por Madrid), mitin en Móstoles, 25-10-2026"
   }
  ]
 }

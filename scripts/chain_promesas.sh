@@ -10,6 +10,7 @@ python3 $S/sync_promesas_pp_sevilla_20261021.py
 [ "$WITH23" = 1 ] && python3 $S/sync_promesas_mitines_20261023.py
 [ "$WITH24" = 1 ] && python3 $S/sync_promesas_mitines_20261024.py
 [ "$WITH25" = 1 ] && python3 $S/sync_promesas_mitines_20261025.py
+[ "$WITH26" = 1 ] && python3 $S/sync_promesas_mitines_20261026.py
 python3 $S/gen_promesas_29n.py
 python3 $S/splice_promesas_ts.py
 python3 $S/patch_promesas_temas_20261019.py
@@ -33,4 +34,5 @@ python3 $S/fix_anclas_promesas_20261023.py
 [ "$WITH23" = 1 ] && python3 $S/edit_programas_mitines_20261023.py
 [ "$WITH24" = 1 ] && python3 $S/edit_programas_mitines_20261024.py
 [ "$WITH25" = 1 ] && python3 $S/edit_programas_mitines_20261025.py
+[ "$WITH26" = 1 ] && python3 $S/edit_programas_mitines_20261026.py
 true
