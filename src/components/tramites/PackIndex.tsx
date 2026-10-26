@@ -27,9 +27,9 @@ import { articleJsonLd } from "@/lib/seo/jsonld";
 
 /** Shared document heading for the hubs whose title and H1 must match. */
 export const PACK_DOCUMENT_HEADINGS = {
-  viaje: "Renovar DNI y pasaporte 2026 en España: precio 12 € y 30 €, cita previa",
+  viaje: "Tasas DNI y pasaporte España 2026: 12 € y 30 €, cita previa",
   pasaporte: "Pasaporte en España 2026: cuánto cuesta (30 €), cita y urgente",
-  becas: "Beca MEC 2026-27: consultar estado, plazos, cobro y otras becas",
+  becas: "Consulta beca MEC 2026-27: estado, resolución y cobro",
   extranjeria: "Extranjería: citas, documentos y expedientes",
 } as const;
 

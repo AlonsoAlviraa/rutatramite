@@ -57,7 +57,7 @@ describe("hallabilidad de las rutas de la auditoría del 22 de septiembre", () =
       [homeMetadata, renderToStaticMarkup(createElement(HomePage)), /documentos y sedes oficiales/],
       [dniMetadata, renderToStaticMarkup(createElement(DniPage)), /cita previa/, /12 € y 30 €/, /España/],
       [passportMetadata, renderToStaticMarkup(createElement(PassportPage)), /30 €/, /España/],
-      [becasMetadata, renderToStaticMarkup(createElement(BecasPage)), /2026-27/, /consultar estado, plazos, cobro y otras becas/],
+      [becasMetadata, renderToStaticMarkup(createElement(BecasPage)), /2026-27/, /estado, resolución y cobro/],
       [extranjeriaMetadata, renderToStaticMarkup(createElement(ExtranjeriaPage)), /citas, documentos y expedientes/],
     ] as const;
     for (const [meta, html, ...terms] of pages) {
