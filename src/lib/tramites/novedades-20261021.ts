@@ -81,7 +81,7 @@ export const NOVEDADES_20261021_GUIDES: Guide[] = [
   {
     id: "trabajo-viudedad-pareja-hecho-hijos",
     pack: "trabajo",
-    reviewedAt: "2026-10-21",
+    reviewedAt: "2026-10-26",
     path: "/trabajo/pension-viudedad-pareja-de-hecho-con-hijos",
     h1: "Pensión de viudedad si erais pareja de hecho con hijos y no estabais registrados",
     title: "Viudedad sin registrar la pareja de hecho: 2 años y con hijos",
@@ -89,7 +89,9 @@ export const NOVEDADES_20261021_GUIDES: Guide[] = [
     lead: "Respuesta corta: desde el 21 de octubre de 2026, si tenías hijos en común con tu pareja fallecida, ya no hace falta haber inscrito la pareja de hecho en un registro ni ante notario. Basta con acreditar, con el certificado de empadronamiento, al menos dos años de convivencia estable e ininterrumpida justo antes del fallecimiento (Real Decreto-ley 31/2026, que modifica el artículo 221 de la Ley General de la Seguridad Social). Si el fallecimiento fue antes de esa fecha y entonces no pudiste cobrar, tienes 12 meses para pedirla.",
     cta: RDL,
     secondaryCta: SEGSOC,
-    sources: [RDL, LGSS221, SEGSOC],
+    sources: [RDL, LGSS221, SEGSOC,
+      { href: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a223", label: "BOE: Ley General de la Seguridad Social, artículo 223.2 (extinción por nuevo matrimonio o pareja de hecho)" },
+      { href: "https://www.boe.es/buscar/act.php?id=BOE-A-1967-2876", label: "BOE: Orden de 13 de febrero de 1967, artículo 11 (cuándo se mantiene la viudedad)" }],
     related: [
       { href: "/trabajo/fondo-garantia-pago-alimentos-300-euros", label: "Fondo de Garantía de Alimentos: anticipo de 300 €" },
       { href: "/trabajo/vida-laboral", label: "Descargar la vida laboral" },
@@ -102,6 +104,7 @@ export const NOVEDADES_20261021_GUIDES: Guide[] = [
       { q: "¿Qué cambia si no teníamos hijos en común?", a: "Nada. Sin hijos en común siguen haciendo falta cinco años de convivencia y la inscripción en un registro o el documento público con al menos dos años de antelación al fallecimiento." },
       { q: "¿Cómo demuestro los dos años?", a: "Con el certificado de empadronamiento: la norma dice que la convivencia «deberá ser acreditada mediante el correspondiente certificado de empadronamiento». Pide uno histórico o colectivo que muestre que vivíais juntos." },
       { q: "Mi pareja murió en 2025 y me denegaron la pensión. ¿Puedo pedirla?", a: "Sí, si ahora cumples los requisitos: la nueva disposición transitoria 48.ª de la Ley General de la Seguridad Social da 12 meses desde el 21 de octubre de 2026 para pedirla. Se cobra desde el día 1 del mes siguiente a la solicitud, no con atrasos." },
+      { q: "¿Pierdo la viudedad si me vuelvo a casar o formo pareja de hecho?", a: "Por regla general, sí: se extingue (artículo 223.2 de la Ley General de la Seguridad Social). Pero la mantienes si cumples a la vez tres condiciones: tener más de 61 años (o menos si cobras una incapacidad permanente absoluta o gran invalidez o tienes una discapacidad del 65 % o más), que la viudedad sea al menos el 75 % de tus ingresos y que los ingresos de la nueva pareja, contando la pensión, no pasen del doble del salario mínimo anual (artículo 11 de la Orden de 13 de febrero de 1967)." },
       { q: "¿Se aplica a funcionarios de Clases Pasivas?", a: "Sí. El Real Decreto-ley hace el mismo cambio en el artículo 38 de la Ley de Clases Pasivas, con su propia disposición transitoria y el mismo plazo de 12 meses." },
     ],
     sections: [
@@ -125,6 +128,28 @@ export const NOVEDADES_20261021_GUIDES: Guide[] = [
         paragraphs: [
           "Ana y Jorge vivían juntos en Zaragoza desde marzo de 2023, con una hija nacida en 2024, y nunca se registraron como pareja de hecho. Jorge muere en diciembre de 2026. Ana tiene más de dos años de convivencia en el padrón y una hija en común, así que puede pedir la pensión de viudedad aunque no hubiera registro.",
           "Si Jorge hubiera muerto en mayo de 2026 y a Ana le hubieran denegado la pensión por no estar registrados, Ana puede pedirla ahora dentro de los 12 meses siguientes al 21 de octubre de 2026. La cobraría desde el día 1 del mes siguiente a su nueva solicitud.",
+        ],
+      },
+      {
+        id: "nuevo-matrimonio",
+        title: "Si te vuelves a casar o formas una nueva pareja de hecho",
+        paragraphs: [
+          "Por regla general, la pensión de viudedad se acaba si te casas o constituyes una pareja de hecho (artículo 223.2 de la Ley General de la Seguridad Social). La misma ley deja excepciones, que están en el artículo 11 de la Orden de 13 de febrero de 1967. Para mantenerla tienes que cumplir las tres condiciones a la vez:",
+        ],
+        lists: [[
+          "Tener más de 61 años. Si tienes menos, debes cobrar también una pensión de incapacidad permanente absoluta o de gran invalidez, o tener una discapacidad del 65 % o más.",
+          "Que la viudedad sea tu principal o única fuente de ingresos: al menos el 75 % de lo que ingresas al año, contando el complemento a mínimos. Se miran los ingresos del año anterior.",
+          "Que los ingresos anuales de la nueva pareja, de cualquier tipo y contando la viudedad, no pasen del doble del salario mínimo interprofesional anual vigente.",
+        ]],
+      },
+      {
+        id: "nuevo-matrimonio-detalles",
+        title: "Qué más debes saber",
+        paragraphs: [
+          "Si cumples las dos primeras condiciones pero entre los dos superáis ese límite de ingresos, no pierdes la pensión: te la reducen lo justo para no superarlo.",
+          "Si tu nueva pareja fallece y eso te da derecho a otra viudedad, no puedes cobrar las dos: tienes que elegir una.",
+          "Ejemplo: Carmen tiene 66 años y su única renta es la viudedad. Se casa con Pedro, que no tiene ingresos. Cumple la edad, la viudedad es el 100 % de sus ingresos y, si la pensión no pasa del doble del salario mínimo, la mantiene. Si Pedro cobrara una jubilación y entre los dos superaran ese límite, a Carmen le reducirían la viudedad lo necesario.",
+          "Esto vale para las pensiones de la Seguridad Social. Si cobras la viudedad de Clases Pasivas (funcionarios), consulta sus reglas propias.",
         ],
       },
       {

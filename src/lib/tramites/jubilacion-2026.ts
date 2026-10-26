@@ -529,7 +529,7 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
  {
   "id": "trabajo-como-pedir-la-jubilacion",
   "pack": "trabajo",
-  "reviewedAt": "2026-10-18",
+  "reviewedAt": "2026-10-26",
   "path": "/trabajo/como-pedir-la-jubilacion",
   "h1": "Cómo pedir la jubilación en 2026: edad, plazos, simulador y solicitud",
   "title": "Cómo pedir la jubilación en 2026: edad, plazos y simulador",
@@ -564,6 +564,11 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
     "label": "BOE: Ley General de la Seguridad Social, artículo 58",
     "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a58"
    }
+,
+   {
+    "label": "BOE: Ley General de la Seguridad Social, artículo 210.2 (jubilación demorada; redacción del RDL 11/2024, desde el 1-4-2025)",
+    "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a210"
+   }
   ],
   "related": [
    {
@@ -592,6 +597,10 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
    {
     "q": "¿A qué edad me puedo jubilar en 2026?",
     "a": "A los 65 años si has cotizado 38 años y 3 meses o más; con menos cotización, a los 66 años y 10 meses. Desde 2027: 65 años con 38 años y 6 meses cotizados, o 67 años."
+   },
+   {
+    "q": "¿Cuánto gano si retraso la jubilación?",
+    "a": "Si al cumplir tu edad ordinaria ya tenías 15 años cotizados, por cada año completo que sigas trabajando y cotizando después te suman un 4 % a la pensión. Desde el segundo año completo, un periodo de más de 6 meses suma un 2 %. También puedes elegir un pago único o una combinación. Lo dice el artículo 210.2 de la Ley General de la Seguridad Social."
    },
    {
     "q": "¿Cuántos años hay que cotizar para cobrar la jubilación?",
@@ -690,6 +699,24 @@ export const JUBILACION_2026_GUIDES: Guide[] = [
       "Sin certificado: usa la plataforma segura de la Seguridad Social con tu correo y un selfie mostrando tu documento de identidad; firmas a mano en pantalla con un código.",
       "Antes de enviarla, actualiza tus datos fiscales y comprueba la cuenta bancaria. El sistema te dirá si podrías tener derecho al complemento a mínimos.",
       "En persona: pide cita previa en un centro de atención de la Seguridad Social (CAISS)."
+     ]
+    ]
+   },
+   {
+    "id": "demorada",
+    "title": "Jubilación demorada: un 4 % más por cada año",
+    "paragraphs": [
+     "Si sigues trabajando después de tu edad ordinaria de jubilación, cobras un complemento. Para tenerlo, al cumplir esa edad ya tenías que tener el mínimo cotizado (15 años). Así lo regula el artículo 210.2 de la Ley General de la Seguridad Social, en la redacción vigente desde el 1 de abril de 2025.",
+     "Hay tres formas de cobrarlo, y eliges una sola vez, al pedir la jubilación. Si no eliges, se aplica la primera.",
+     "Ejemplo: Luis tiene derecho al 100 % de su base reguladora, que es de 1.500 € al mes. Retrasa la jubilación 2 años y 7 meses, trabajando y cotizando todo ese tiempo. Le suman un 4 % por cada uno de los dos años completos y un 2 % por los 7 meses, porque ya pasó el segundo año. En total son un 10 %, así que cobra el 110 %: 1.650 € al mes, en 14 pagas. Es un ejemplo de cálculo, no una cifra oficial.",
+     "No hay complemento en la jubilación parcial, en la jubilación flexible ni si te jubilas desde una situación asimilada al alta. Sí puedes cobrarlo con la jubilación activa (cobrar la pensión y trabajar), pero mientras sigas en ella el complemento no aumenta.",
+     "El simulador de la Seguridad Social te permite probar distintas fechas de jubilación con tus datos."
+    ],
+    "lists": [
+     [
+      "Un 4 % más de pensión por cada año completo cotizado después de tu edad ordinaria. A partir del segundo año completo, un periodo de más de 6 meses y menos de un año suma un 2 %. La pensión no puede pasar del máximo legal. Si llegas a ese máximo, el porcentaje que no se aplica se cobra aparte, cada año, en 14 pagas.",
+      "Un pago único, que depende de los años que hayas cotizado y de los años de retraso. Si has cotizado 44 años y 6 meses o más, la cantidad sube un 10 %. La fórmula exacta está en el artículo 210.2.b de la ley.",
+      "Una combinación de las dos anteriores, en los términos que fije el reglamento."
      ]
     ]
    },

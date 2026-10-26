@@ -24,6 +24,7 @@ const S = {
   erta: { href: "https://www.boe.es/eli/es/rd/2007/12/07/1621", label: "BOE: Real Decreto 1621/2007, voto de los temporalmente ausentes" },
   infoelectoral: { href: "https://infoelectoral.interior.gob.es/", label: "Ministerio del Interior: Infoelectoral" },
   aeatMesa: { href: "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/irpf-2025/7-cumplimentacion-irpf/7_1-rendimientos-trabajo-personal/7_1_1-rendimientos-integros/7_1_1_2-dietas-gastos-viaje/reglas-especiales/miembros-mesas-electorales.html", label: "Agencia Tributaria, manual de la renta: cantidades de los miembros de las mesas electorales" },
+  jecInstr523: { href: "https://www.boe.es/buscar/act.php?id=BOE-A-2023-13667", label: "BOE: Instrucción 5/2023 de la Junta Electoral Central, entrega del voto por correo en Correos" },
   loreg: (anchor: string, label: string) => ({ href: `${LOREG}#${anchor}`, label: `LOREG, ${label}` }),
 };
 
@@ -183,11 +184,13 @@ const BASE_29N_GUIDES: Guide[] = [
       "Metes la papeleta en el sobre de votación, lo cierras y lo juntas con el certificado del censo dentro del sobre dirigido a tu mesa. Lo entregas en una oficina de Correos como certificado, sin pagar, como muy tarde el 25 de noviembre de 2026.",
     cta: S.correos,
     secondaryCta: S.jec,
-    sources: [S.jec, S.correosNota, S.loreg("asetentaytres", "artículo 73: remisión del voto por correo")],
+    reviewedAt: "2026-10-26",
+    sources: [S.jec, S.correosNota, S.loreg("asetentaytres", "artículo 73: remisión del voto por correo"), S.jecInstr523],
     related: [R.documentacion, R.noLlega, R.nulo, R.correo],
     faqs: [
       { q: "¿Hay que pagar el sello?", a: "No. Este envío no lleva franqueo; lo entregas en Correos como correo certificado." },
-      { q: "¿Lo puede llevar otra persona a Correos?", a: "Consulta en Correos o en la Junta Electoral de Zona antes de delegar el envío; nuestras fuentes no lo detallan." },
+      { q: "¿Lo puede llevar otra persona a Correos?", a: "Sí, pero solo si tú no puedes ir. Necesita una autorización firmada por ti y una fotocopia de tu DNI, pasaporte u otro documento oficial; además, Correos guarda copia del documento de quien lo entrega. Sin esa autorización, Correos no lo acepta (Instrucción 5/2023 de la Junta Electoral Central)." },
+      { q: "¿Puedo echarlo en un buzón amarillo?", a: "No. Los votos por correo recogidos en buzones no son válidos: Correos los envía a la Junta Electoral de Zona, no a tu mesa. Entrégalo en una oficina." },
     ],
     sections: [
       {
@@ -200,6 +203,16 @@ const BASE_29N_GUIDES: Guide[] = [
           "Mete el sobre de votación y el certificado del censo en el sobre dirigido a la mesa.",
           "Entrégalo en Correos como certificado antes de que acabe el 25 de noviembre de 2026.",
         ]],
+      },
+      {
+        id: "quien-entrega",
+        title: "Quién puede entregarlo en Correos",
+        paragraphs: [
+          "Lo normal es que lo entregues tú, en persona, en una oficina de Correos y enseñando tu DNI, pasaporte, permiso de conducir, tarjeta de residencia u otro documento que te identifique. Así lo exige la Instrucción 5/2023 de la Junta Electoral Central, que interpreta el artículo 73.3 de la LOREG.",
+          "Si no puedes ir, puede llevarlo otra persona en tu nombre con una autorización firmada por ti y una fotocopia de tu documento de identidad. Correos se queda la autorización y las copias de tu documento y del de quien lo entrega, y las manda a la Junta Electoral de Zona.",
+          "Ejemplo: Rosa, de 82 años, no puede salir de casa. Firma una autorización para su hijo y le da una fotocopia de su DNI. El hijo va a Correos con el sobre de la mesa, la autorización, esa fotocopia y su propio DNI.",
+          "No lo eches en un buzón: los votos recogidos en buzones no son válidos.",
+        ],
       },
       {
         id: "plazo",
