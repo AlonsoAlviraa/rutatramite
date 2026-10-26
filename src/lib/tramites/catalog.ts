@@ -39,6 +39,7 @@ import { MARICARMEN_HUELGA_GUIDES } from "@/lib/tramites/maricarmen-huelga-11n";
 import { VIRAL_20261023_GUIDES } from "@/lib/tramites/viral-20261023";
 import { MESA_29N_20261023_GUIDES, ampliarMesa } from "@/lib/tramites/mesa-29n-20261023";
 import { CARTAS_29N_20261024_GUIDES, ampliarCartas } from "@/lib/tramites/cartas-29n-20261024";
+import { DONATIVOS_NOMINA_GUIDES, enlazarDonativosNomina } from "@/lib/tramites/donativos-nomina-2027-20261026";
 import { AUTONOMOS_VERIFACTU_20261025_GUIDES, enlazarAutonomosVerifactu } from "@/lib/tramites/autonomos-verifactu-20261025";
 import { SITUACIONES_ESPECIALES_GUIDES, enlazarSituacionesEspeciales } from "@/lib/tramites/votar-situaciones-especiales-20261026";
 import { mejorarCtr20261026 } from "@/lib/tramites/mejoras-ctr-20261026";
@@ -71,6 +72,7 @@ export const ALL_GUIDES: Guide[] = [
   ...MESA_29N_20261023_GUIDES,
   ...CARTAS_29N_20261024_GUIDES,
   ...AUTONOMOS_VERIFACTU_20261025_GUIDES,
+  ...DONATIVOS_NOMINA_GUIDES,
   ...TERRITORIO_29N_GUIDES,
   ...TRANSPORTE_29N_GUIDES,
   ...SITUACIONES_ESPECIALES_GUIDES,
@@ -90,7 +92,7 @@ export const ALL_GUIDES: Guide[] = [
   ...FAMILIA_CCAA_GUIDES,
   ...COBROS_AVISOS_GUIDES,
   ...MODELO_GUIDES,
-].map(ampliarCartas).map(mejorar20261024).map(enlazarAutonomosVerifactu).map(ampliarTerritorio).map(enlazarTransporte).map(mejorarCtr20261026).map(enlazarSituacionesEspeciales);
+].map(ampliarCartas).map(mejorar20261024).map(enlazarAutonomosVerifactu).map(ampliarTerritorio).map(enlazarTransporte).map(mejorarCtr20261026).map(enlazarSituacionesEspeciales).map(enlazarDonativosNomina);
 
 export const TRAVEL_PATHS = VIAJE_GUIDES.map((g) => g.path);
 
