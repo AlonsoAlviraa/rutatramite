@@ -15,7 +15,7 @@ t2+='export const MAPA_Y26_RAW: Record<string, Esc> = '+json.dumps(y26,ensure_as
 open('/workspace/wt-mapa/src/lib/datos/mapa-voto-util-2026.ts','w').write(t2)
 ts+='export const MAPA_POLLS = '+json.dumps([dict(n=p[0],campo=p[1],pub=p[2],muestra=p[3],pp=p[4],psoe=p[5],vox=p[6]) for p in m['polls']],ensure_ascii=False)+';\n'
 ts+=f'export const MAPA_MEDIA = {json.dumps(m["avg"])};\nexport const MAPA_NAC23 = {json.dumps(m["N23"])};\nexport const MAPA_SWING = {json.dumps(m["swing"])};\n'
-ts+='export const POLLS_DATE = "25-10-2026";\n'
+ts+='export const POLLS_DATE = "26-10-2026";\n'
 open('/workspace/wt-mapa/src/lib/datos/mapa-voto-util.ts','w').write(ts)
 print(len(ts))
 # CSV (solo 2023 oficial + diputados/poblacion 2026, sin encuestas)

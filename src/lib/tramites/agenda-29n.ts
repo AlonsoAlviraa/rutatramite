@@ -1,6 +1,6 @@
 import type { Guide } from "@/lib/tramites/types";
 
-const UPD = "26 de octubre de 2026, 08:30 (hora peninsular)";
+const UPD = "27 de octubre de 2026, 09:30 (hora peninsular)";
 
 const RTVE_CRONICA = { href: "https://www.rtve.es/play/noticias/20261022/pedro-sanchez-truco-recomendaron-moncloa-proteger-movil/17279368.shtml", label: "RTVE, 22-10-2026: crónica de la entrevista de Pedro Sánchez en La Revuelta" };
 const RTVE_DIRECTO = { href: "https://www.rtve.es/play/noticias/20261022/pedro-sanchez-revuelta-broncano-directo-video-cronica/17278843.shtml", label: "RTVE Play: La Revuelta con Pedro Sánchez (vídeo)" };
@@ -14,7 +14,10 @@ const LASEXTA = { href: "https://www.europapress.es/sociedad/noticia-lasexta-emi
 const VOX_CYL = { href: "https://www.europapress.es/castilla-y-leon/noticia-abascal-tendra-actos-precampana-martes-zamora-miercoles-28-valladolid-20261022190251.html", label: "Europa Press, 22-10-2026 (act. 23-10): actos de Abascal en Zamora, Santander, Valladolid y Ávila" };
 const FEIJOO_VALENCIA = { href: "https://www.eldebate.com/espana/comunidad-valenciana/20261023/pp-confirma-llevara-feijoo-plaza-toros-valencia-no-vamos-llenar-vamos-reventar_473293.html", label: "El Debate, 23-10-2026: el PP confirma el mitin de Feijóo en la Plaza de Toros de Valencia (22-11)" };
 const FEIJOO_VALENCIA_VP = { href: "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/mompo-anuncia-que-el-pp-celebrara-un-mitin-en-la-plaza-de-toros-de-valencia-no-la-vamos-a-llenar-la-vamos-a-reventar", label: "Valencia Plaza, 23-10-2026: Mompó anuncia el mitin en la Plaza de Toros" };
-const SANCHEZ_GIJON = { href: "https://cadenaser.com/asturias/2026/10/20/pedro-sanchez-dara-un-mitin-en-gijon-el-proximo-lunes-en-la-precampana-de-las-elecciones-generales-ser-gijon/", label: "Cadena SER, 20-10-2026: Sánchez, mitin en Gijón el lunes 26" };
+const FEIJOO_CORUNA = { href: "https://www.laopinioncoruna.es/coruna/2026/10/26/feijoo-protagonizara-sabado-acto-precampana-135760718.html", label: "La Opinión A Coruña, 26-10-2026: acto de Feijóo en ExpoCoruña el sábado 31" };
+const FEIJOO_CORUNA_ABC = { href: "https://www.abc.es/espana/galicia/feijoo-vuelve-galicia-segundo-fin-semana-consecutivo-20261026122251-nt.html", label: "ABC, 26-10-2026: Feijóo vuelve a Galicia el sábado 31" };
+const WILD_FORMATO_EC = { href: "https://www.elconfidencial.com/espana/2026-10-26/jordi-wild-pedro-sanchez-colau-feijoo-1qrt_4452950/", label: "El Confidencial, 26-10-2026: condiciones de las entrevistas de Jordi Wild" };
+const WILD_FORMATO_ABC = { href: "https://www.abc.es/espana/entrevistas-jordi-wild-sanchez-feijoo-abascal-colau-20261026104234-nt.html", label: "ABC, 26-10-2026: así serán las entrevistas de The Wild Project" };
 const WILD_MARCA = { href: "https://www.marca.com/tiramillas/sociedad/2026/10/22/jordi-wild-sigo-noticias-pedro-sanchez-manana-ultimo-dia2.html", label: "Marca, 22-10-2026: Jordi Wild, sin respuesta de Sánchez y publicación el 13 de noviembre" };
 const SANCHEZ_WILD_HORM = { href: "https://www.elplural.com/extratele/pedro-sanchez-visitara-jordi-wild-el-hormiguero-anecdota-pablo-motos-gracia_802166102", label: "El Plural, 22-10-2026: qué dijo Sánchez en La Revuelta sobre Jordi Wild y El Hormiguero" };
 const COLAU_TVE = { href: "https://www.elperiodico.com/es/politica/20261023/colau-lanza-turne-televisiva-recuperar-135643168", label: "El Periódico, 23-10-2026: Colau, entrevistada en el programa de Manu Sánchez en TVE" };
@@ -133,7 +136,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
   {
     id: "29n-agenda-mitines",
     pack: "elecciones",
-    reviewedAt: "2026-10-26",
+    reviewedAt: "2026-10-27",
     disclaimer: "",
     path: "/elecciones/agenda-mitines-29n",
     h1: "Agenda de mítines del 29-N: próximos actos de cada candidato",
@@ -142,7 +145,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
     lead: `Respuesta corta: estos son los próximos actos públicos anunciados por los candidatos a las elecciones del 29 de noviembre, con fecha, ciudad, lugar y la fuente donde se anunciaron. Solo incluimos actos futuros publicados por el propio partido o por un medio fiable. Los partidos van en el orden de votos de las generales de 2023. Última actualización: ${UPD}.`,
     cta: VOX_ACTOS,
     secondaryCta: { href: "/elecciones/campana-y-precampana", label: "Campaña y precampaña: qué fechas marca la ley" },
-    sources: [FEIJOO_VALENCIA, FEIJOO_VALENCIA_VP, SANCHEZ_GIJON, SANCHEZ_VITORIA, VOX_ACTOS, VOX_CYL, DEBATES_EE, LASEXTA],
+    sources: [FEIJOO_CORUNA, FEIJOO_CORUNA_ABC, FEIJOO_VALENCIA, FEIJOO_VALENCIA_VP, SANCHEZ_VITORIA, VOX_ACTOS, VOX_CYL, DEBATES_EE, LASEXTA],
     related: [{ href: "/elecciones", label: "Sánchez y Jordi Wild: cuándo sale la entrevista en The Wild Project" }, { href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, ENTREV, ARTIC, DEBATE, CAMPANA, { href: "/elecciones/calendario-29-noviembre", label: "Calendario del 29-N" }, ELEC],
     faqs: [
       { q: "¿Cuándo empieza la campaña electoral del 29-N?", a: "A las 0:00 del viernes 13 de noviembre de 2026 y termina a las 24:00 del viernes 27 (Real Decreto 806/2026). Los actos de antes son de precampaña." },
@@ -159,10 +162,9 @@ export const AGENDA_29N_GUIDES: Guide[] = [
           caption: `Agenda de actos de precampaña del 29-N (actualizada el ${UPD})`,
           head: ["Partido y candidato", "Fecha", "Ciudad", "Lugar", "Fuente"],
           rows: [
+            { cells: ["PP · Alberto Núñez Feijóo", "Sábado 31 de octubre, 12:00", "A Coruña", "ExpoCoruña (entrada libre)"], source: FEIJOO_CORUNA },
             { cells: ["PP · Alberto Núñez Feijóo", "Domingo 22 de noviembre (hora no publicada)", "Valencia", "Plaza de Toros"], source: FEIJOO_VALENCIA },
-            { cells: ["PSOE · Pedro Sánchez", "Lunes 26 de octubre, 18:00", "Gijón (Asturias)", "Pabellón central del recinto ferial Luis Adaro (Feria de Muestras)"], source: SANCHEZ_GIJON },
             { cells: ["PSOE · Pedro Sánchez", "Jueves 29 de octubre, 18:30", "Vitoria-Gasteiz (Álava)", "Palacio Europa"], source: SANCHEZ_VITORIA },
-            { cells: ["Vox · Santiago Abascal", "Lunes 26 de octubre (hora no publicada)", "Talavera de la Reina (Toledo)", "Presentación de candidatos (lugar no publicado)"], source: VOX_ACTOS },
             { cells: ["Vox · Santiago Abascal", "Martes 27 de octubre (hora no publicada)", "Plasencia (Cáceres)", "Declaración a medios (lugar no publicado)"], source: VOX_ACTOS },
             { cells: ["Vox · Santiago Abascal", "Martes 27 de octubre, 19:00", "Zamora", "Plaza de la Marina"], source: VOX_CYL },
             { cells: ["Vox · Santiago Abascal", "Miércoles 28 de octubre, 12:00", "Santander", "Jardines de Pereda (declaración a medios)"], source: VOX_CYL },
@@ -195,7 +197,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
   {
     id: "29n-entrevistas-candidatos",
     pack: "elecciones",
-    reviewedAt: "2026-10-24",
+    reviewedAt: "2026-10-27",
     disclaimer: "",
     path: "/elecciones/podcasts-entrevistas-candidatos-29n",
     h1: "Entrevistas y pódcast de los candidatos del 29-N: quién va y cuándo",
@@ -204,11 +206,12 @@ export const AGENDA_29N_GUIDES: Guide[] = [
     lead: `Última hora: Pedro Sánchez irá a The Wild Project. Lo confirmó en X el 23 de octubre a las 20:23 («Gracias por la invitación, @JordiWild. Ahí estaré») y Jordi Wild respondió «Pues ya estaría: 4/4». Los cuatro candidatos (Feijóo, Sánchez, Abascal y Colau) han aceptado. Según Jordi Wild, todas las charlas se publican el 13 de noviembre, primer día de campaña. Sánchez fue a La Revuelta el 22 de octubre. Actualizado el ${UPD}.`,
     cta: WILD,
     secondaryCta: REVUELTA_INV,
-    sources: [WILD_TWEET, WILD_JORDI_44, WILD_JORDI_PLAN, WILD_WIKI, WILD, WILD_MARCA, SANCHEZ_WILD_HORM, REVUELTA_INV, COLAU_REVUELTA, COLAU_TVE, RTVE_ANUNCIO],
+    sources: [WILD_TWEET, WILD_JORDI_44, WILD_JORDI_PLAN, WILD_FORMATO_EC, WILD_FORMATO_ABC, WILD_WIKI, WILD, WILD_MARCA, SANCHEZ_WILD_HORM, REVUELTA_INV, COLAU_REVUELTA, COLAU_TVE, RTVE_ANUNCIO],
     related: [{ href: "/elecciones", label: "Pedro Sánchez en The Wild Project: qué es y cuándo sale" }, ARTIC, AGENDA, DEBATE, CAMPANA, ELEC],
     faqs: [
       { q: "¿Va a ir Feijóo a La Revuelta?", a: "El 22 de octubre David Broncano dijo que Feijóo y Abascal estaban invitados y que no habían respondido. No hay fecha." },
       ...WILD_FAQS,
+      { q: "¿Cuánto durarán las entrevistas de Jordi Wild a los candidatos?", a: "Entre 60 y 90 minutos cada una, según escribió Jordi Wild en X («Las charlas serán mucho más cortas que mi formato habitual: 60-90 minutos»), recogido por El Confidencial y ABC el 26 de octubre. Serán individuales: ha descartado un debate a cuatro." },
       { q: "¿Va a ir Sánchez a El Hormiguero?", a: "Pablo Motos dijo que Sánchez está invitado para la campaña del 29-N. En La Revuelta, según El Plural, Sánchez dijo que irá «a El Hormiguero y donde haga falta». No hay fecha publicada." },
     ],
     sections: [
@@ -219,6 +222,7 @@ export const AGENDA_29N_GUIDES: Guide[] = [
           `Confirmado por el candidato. Pedro Sánchez escribió en X el viernes 23 de octubre de 2026 a las 20:23 (hora peninsular): «${WILD_TEXTO}». Jordi Wild citó el mensaje a las 20:39: «Pues ya estaría: 4/4».`,
           "Fecha: Sánchez no la ha dado. El 22 de octubre Jordi Wild anunció en X que publicará todas las charlas el 13 de noviembre, primer día oficial de campaña, con una hora de diferencia entre una y otra, de menos a más escaños. No hay hora publicada para cada entrevista.",
           "Quién es Jordi Wild: Jorge Carrillo de Albornoz Torres, youtuber y podcaster español, autor del canal El Rincón de Giorgio (Wikipedia). Qué es The Wild Project: su pódcast de entrevistas, que empezó en 2020, con formato de charla con un invitado y una tertulia. El realizador y editor es Nacho Amela (Wikipedia).",
+          "Formato anunciado por Jordi Wild en X (recogido por El Confidencial y ABC el 26 de octubre): cuatro entrevistas individuales de 60 a 90 minutos, sin debate a cuatro («Descarto el gran debate a cuatro»), y dos periodistas verificadores en el plató («No están a mi favor, sino a favor de lo veraz»). Según ABC, los equipos de campaña no conocerán antes las preguntas y las entrevistas se publicarán íntegras, sin recortes.",
           "En la tabla de abajo están las entrevistas y pódcast de todos los candidatos, con su fuente.",
         ],
       },

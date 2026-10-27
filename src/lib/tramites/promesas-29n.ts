@@ -1,19 +1,19 @@
 import type { Guide } from "@/lib/tramites/types";
 
 /** Promesas y medidas del 29-N. GENERADO desde data/promesas-29n/promises.json con scripts/gen_promesas_29n.py: no editar a mano. */
-export const PROMESAS_29N_UPDATED = "2026-10-26";
+export const PROMESAS_29N_UPDATED = "2026-10-27";
 export const PROMESAS_29N_NOTE = "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.";
 
 export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-vivienda",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/que-propone-cada-partido-vivienda",
 "h1": "Qué propone cada partido sobre vivienda para el 29-N",
 "title": "Vivienda: qué propone cada partido el 29-N",
 "description": "Vivienda el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
-"lead": "Respuesta corta: 6 de los 6 partidos que comparamos han concretado algo sobre vivienda a 26 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"lead": "Respuesta corta: 6 de los 6 partidos que comparamos han concretado algo sobre vivienda a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -122,6 +122,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "Europa Press: mitin de Frente Amplio en Móstoles (25 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.europapress.es/nacional/noticia-colau-llama-llenar-calles-poner-cuerpo-frente-politicos-solo-usan-piquito-oro-20261025140652.html"
+},
+{
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
 }
 ],
 "related": [
@@ -170,7 +174,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 26 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
 },
 {
 "q": "¿Por qué algunas medidas pone «prensa»?",
@@ -199,6 +203,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "«Bonificación del 75% en el IRPF por alquilar viviendas vacías» (Plan de vivienda del PP (23 medidas) presentado por Feijóo en Sevilla; documento publicado por El Español, 22-10-2026; fuente: El Español: el plan de vivienda de 23 medidas del PP).",
 "«Deducción del 15% del alquiler para jóvenes» (Plan de vivienda del PP (23 medidas) presentado por Feijóo en Sevilla; documento publicado por El Español, 22-10-2026; fuente: El Español: el plan de vivienda de 23 medidas del PP).",
 "«De una vivienda podemos sacar dos» (Juan Bravo, vicesecretario de Hacienda, Vivienda e Infraestructuras del PP, entrevista en À Punt Ràdio, 22-10-2026; fuente: El País: el PP propone segregar pisos de gran tamaño).",
+"«No será una ventanilla donde informar, no, será un mando único indiscutible» (Alberto Núñez Feijóo, declaraciones a Vozpópuli, 26-10-2026; fuente: Vozpópuli: Feijóo y la vicepresidencia de vivienda).",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -384,6 +389,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "El País: el PP propone segregar pisos de gran tamaño, 22 de octubre de 2026",
 "href": "https://elpais.com/economia/vivienda/2026-10-22/el-pp-propone-segregar-pisos-de-gran-tamano-como-remedio-ante-la-falta-de-vivienda.html"
+}
+},
+{
+"cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
 }
 }
 ]
@@ -758,12 +774,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-impuestos",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/que-propone-cada-partido-impuestos",
 "h1": "Qué propone cada partido sobre impuestos y coste de la vida para el 29-N",
 "title": "Impuestos y coste de la vida: qué propone cada partido el 29-N",
 "description": "Impuestos y coste de la vida el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
-"lead": "Respuesta corta: 5 de los 6 partidos que comparamos han concretado algo sobre impuestos y coste de la vida a 26 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"lead": "Respuesta corta: 5 de los 6 partidos que comparamos han concretado algo sobre impuestos y coste de la vida a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -864,7 +880,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 26 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
 },
 {
 "q": "¿Por qué algunas medidas pone «prensa»?",
@@ -991,7 +1007,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
 "Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -1151,12 +1167,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-empleo-y-salarios",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/que-propone-cada-partido-empleo-y-salarios",
 "h1": "Qué propone cada partido sobre empleo y salarios para el 29-N",
 "title": "Empleo y salarios: qué propone cada partido el 29-N",
 "description": "Empleo y salarios el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
-"lead": "Respuesta corta: 4 de los 6 partidos que comparamos han concretado algo sobre empleo y salarios a 26 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"lead": "Respuesta corta: 4 de los 6 partidos que comparamos han concretado algo sobre empleo y salarios a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -1245,7 +1261,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 26 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
 },
 {
 "q": "¿Por qué algunas medidas pone «prensa»?",
@@ -1366,7 +1382,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Vox",
 "paragraphs": [
 "Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -1374,7 +1390,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
 "Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -1755,12 +1771,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-burocracia-y-cita-previa",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/que-propone-cada-partido-burocracia-y-cita-previa",
 "h1": "Qué propone cada partido sobre burocracia y administración para el 29-N",
 "title": "Burocracia y administración: qué propone cada partido el 29-N",
 "description": "Burocracia y administración el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
-"lead": "Respuesta corta: 2 de los 6 partidos que comparamos han concretado algo sobre burocracia y administración a 26 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"lead": "Respuesta corta: 2 de los 6 partidos que comparamos han concretado algo sobre burocracia y administración a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -1825,7 +1841,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 26 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
 },
 {
 "q": "¿Por qué algunas medidas pone «prensa»?",
@@ -1892,7 +1908,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
 "Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -1978,7 +1994,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
 "Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -1986,7 +2002,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Podemos",
 "paragraphs": [
 "Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -1994,7 +2010,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Democracia 21 (D21)",
 "paragraphs": [
 "Candidato o líder: Miriam González. Programa para el 29-N: pendiente de programa. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en las circunscripciones de Madrid y Barcelona, según la Junta Electoral Central.",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -2310,12 +2326,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-sanidad",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/que-propone-cada-partido-sanidad",
 "h1": "Qué propone cada partido sobre sanidad para el 29-N",
 "title": "Sanidad: qué propone cada partido el 29-N",
 "description": "Sanidad el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
-"lead": "Respuesta corta: 2 de los 6 partidos que comparamos han concretado algo sobre sanidad a 26 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"lead": "Respuesta corta: 2 de los 6 partidos que comparamos han concretado algo sobre sanidad a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2384,7 +2400,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 26 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
 },
 {
 "q": "¿Por qué algunas medidas pone «prensa»?",
@@ -2463,7 +2479,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
 "Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -2471,7 +2487,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Vox",
 "paragraphs": [
 "Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -2509,7 +2525,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Podemos",
 "paragraphs": [
 "Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -2517,7 +2533,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Democracia 21 (D21)",
 "paragraphs": [
 "Candidato o líder: Miriam González. Programa para el 29-N: pendiente de programa. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en las circunscripciones de Madrid y Barcelona, según la Junta Electoral Central.",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -2541,12 +2557,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-educacion",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/que-propone-cada-partido-educacion",
 "h1": "Qué propone cada partido sobre educación para el 29-N",
 "title": "Educación: qué propone cada partido el 29-N",
 "description": "Educación el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
-"lead": "Respuesta corta: 3 de los 6 partidos que comparamos han concretado algo sobre educación a 26 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"lead": "Respuesta corta: 3 de los 6 partidos que comparamos han concretado algo sobre educación a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2611,7 +2627,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 26 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
 },
 {
 "q": "¿Por qué algunas medidas pone «prensa»?",
@@ -2684,7 +2700,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Vox",
 "paragraphs": [
 "Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -2692,7 +2708,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
 "Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -2700,7 +2716,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Podemos",
 "paragraphs": [
 "Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -2754,12 +2770,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-instituciones-y-gasto-publico",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/que-propone-cada-partido-instituciones-y-gasto-publico",
 "h1": "Qué propone cada partido sobre instituciones y gasto público para el 29-N",
 "title": "Instituciones y gasto público: qué propone cada partido el 29-N",
 "description": "Instituciones y gasto público el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
-"lead": "Respuesta corta: 4 de los 6 partidos que comparamos han concretado algo sobre instituciones y gasto público a 26 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"lead": "Respuesta corta: 5 de los 6 partidos que comparamos han concretado algo sobre instituciones y gasto público a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2808,6 +2824,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "SER Comunicación: resumen oficial de la entrevista a Feijóo en Hoy por Hoy (23 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.sercomunicacion.com/aimar-bretos-entrevista-a-alberto-nunez-feijoo-en-hoy-por-hoy/"
+},
+{
+"label": "elDiario.es: carta de Colau a los candidatos (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
 }
 ],
 "related": [
@@ -2848,7 +2868,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 26 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
 },
 {
 "q": "¿Por qué algunas medidas pone «prensa»?",
@@ -2969,7 +2989,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Vox",
 "paragraphs": [
 "Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -2977,8 +2997,30 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
 "Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"«Hay que regular legalmente el uso de la inteligencia artificial en campañas electorales» (Ada Colau, carta a Feijóo, Sánchez y Abascal, 26-10-2026; fuente: elDiario.es: carta de Colau a los candidatos)."
+],
+"table": {
+"caption": "Frente Amplio: medidas sobre instituciones y gasto público",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+}
 ]
+}
 },
 {
 "id": "podemos",
@@ -3077,12 +3119,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-partido-pp",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/partido-pp",
 "h1": "Partido Popular (PP): qué promete para el 29-N",
 "title": "PP: promesas y medidas para el 29-N",
 "description": "Qué propone PP para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: PP ha concretado 44 medidas con fuente a 26 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"lead": "Respuesta corta: PP ha concretado 45 medidas con fuente a 27 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -3181,6 +3223,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "href": "https://www.pp.es/actualidad/articulos/feijoo-se-compromete-a-mejorar-la-exencion-del-minimo-familiar-para-que-las-familias-con-hijos-paguen-menos-impuestos/"
 },
 {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+},
+{
 "label": "Web oficial de PP",
 "href": "https://www.pp.es/"
 }
@@ -3227,7 +3273,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "faqs": [
 {
 "q": "¿Ha publicado PP su programa para el 29-N?",
-"a": "A 26 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique. El 19 de octubre presentó el «Contrato con España», 12 compromisos firmados por Feijóo que no son el programa; sus puntos están incorporados aquí, tema a tema."
+"a": "A 27 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique. El 19 de octubre presentó el «Contrato con España», 12 compromisos firmados por Feijóo que no son el programa; sus puntos están incorporados aquí, tema a tema."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -3269,6 +3315,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Crear un Fondo Estatal de Garantía del Alquiler que cubra un porcentaje de los impagos y bonificar un 75 % en el IRPF, el primer año, a quien ponga en alquiler una vivienda vacía.",
 "Deducción del 15 % del alquiler para los jóvenes, aval público para la fianza del alquiler de los menores de 35 años e IRPF cero el primer año de trabajo con rebajas los tres siguientes («Plan Prepara»).",
 "Facilitar la segregación de viviendas grandes («de 150 o 200 metros cuadrados») en dos para aumentar la oferta. Ya es posible hoy donde lo permite la normativa urbanística, que depende de ayuntamientos y comunidades autónomas.",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -3454,6 +3501,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "El País: el PP propone segregar pisos de gran tamaño, 22 de octubre de 2026",
 "href": "https://elpais.com/economia/vivienda/2026-10-22/el-pp-propone-segregar-pisos-de-gran-tamano-como-remedio-ante-la-falta-de-vivienda.html"
+}
+},
+{
+"cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
 }
 }
 ]
@@ -3936,12 +3994,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-partido-psoe",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/partido-psoe",
 "h1": "Partido Socialista Obrero Español (PSOE): qué promete para el 29-N",
 "title": "PSOE: promesas y medidas para el 29-N",
 "description": "Qué propone PSOE para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: PSOE ha concretado 13 medidas con fuente a 26 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"lead": "Respuesta corta: PSOE ha concretado 14 medidas con fuente a 27 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -3982,6 +4040,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "20minutos: Sánchez en Burgos (21 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+},
+{
+"label": "Europa Press: Sánchez en Gijón (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 },
 {
 "label": "Web oficial de PSOE",
@@ -4026,7 +4088,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "faqs": [
 {
 "q": "¿Ha publicado PSOE su programa para el 29-N?",
-"a": "A 26 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
+"a": "A 27 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -4131,7 +4193,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "impuestos",
 "title": "Impuestos y coste de la vida",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -4208,7 +4270,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "administracion",
 "title": "Burocracia y administración",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -4216,7 +4278,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Pensiones",
 "paragraphs": [
 "Revalorizar las pensiones públicas con el IPC durante los cuatro años de legislatura.",
-"Declaración: «las pensiones no se tocan»."
+"Declaración: «las pensiones no se tocan».",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados)."
 ],
 "table": {
 "caption": "PSOE: pensiones",
@@ -4248,6 +4311,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Europa Press: Sánchez en Fuenlabrada, 17 de octubre de 2026",
 "href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
 }
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
+}
 }
 ]
 }
@@ -4256,7 +4330,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "sanidad",
 "title": "Sanidad",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -4334,12 +4408,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-partido-vox",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/partido-vox",
 "h1": "Vox: qué promete para el 29-N",
 "title": "Vox: promesas y medidas para el 29-N",
 "description": "Qué propone Vox para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: Vox ha concretado 19 medidas con fuente a 26 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"lead": "Respuesta corta: Vox ha concretado 19 medidas con fuente a 27 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -4436,7 +4510,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "faqs": [
 {
 "q": "¿Ha publicado Vox su programa para el 29-N?",
-"a": "A 26 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
+"a": "A 27 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -4580,7 +4654,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "empleo",
 "title": "Empleo y salarios",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -4782,21 +4856,21 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "sanidad",
 "title": "Sanidad",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "educacion",
 "title": "Educación",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "instituciones",
 "title": "Instituciones y gasto público",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 }
 ]
@@ -4804,12 +4878,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-partido-frente-amplio",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/partido-frente-amplio",
 "h1": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns): qué promete para el 29-N",
 "title": "Frente Amplio: promesas y medidas para el 29-N",
 "description": "Qué propone Frente Amplio para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: Frente Amplio ha concretado 9 medidas con fuente a 26 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"lead": "Respuesta corta: Frente Amplio ha concretado 10 medidas con fuente a 27 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -4850,6 +4924,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "Europa Press: mitin de Frente Amplio en Móstoles (25 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.europapress.es/nacional/noticia-colau-llama-llenar-calles-poner-cuerpo-frente-politicos-solo-usan-piquito-oro-20261025140652.html"
+},
+{
+"label": "elDiario.es: carta de Colau a los candidatos (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
 },
 {
 "label": "Web oficial de Frente Amplio",
@@ -4894,7 +4972,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "faqs": [
 {
 "q": "¿Ha publicado Frente Amplio su programa para el 29-N?",
-"a": "A 26 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
+"a": "A 27 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -5014,21 +5092,21 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "empleo",
 "title": "Empleo y salarios",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "inmigracion",
 "title": "Inmigración",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "administracion",
 "title": "Burocracia y administración",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -5117,27 +5195,49 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "educacion",
 "title": "Educación",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "instituciones",
 "title": "Instituciones y gasto público",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña."
+],
+"table": {
+"caption": "Frente Amplio: instituciones y gasto público",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+}
 ]
+}
 }
 ]
 },
 {
 "id": "p29n-partido-podemos",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/partido-podemos",
 "h1": "Podemos: qué promete para el 29-N",
 "title": "Podemos: promesas y medidas para el 29-N",
 "description": "Qué propone Podemos para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: Podemos ha concretado 13 medidas con fuente a 26 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"lead": "Respuesta corta: Podemos ha concretado 13 medidas con fuente a 27 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -5226,7 +5326,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "faqs": [
 {
 "q": "¿Ha publicado Podemos su programa para el 29-N?",
-"a": "A 26 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique. El 19 de octubre publicó «5 propuestas para tener paz, casa y trabajo», que no son el programa; están incorporadas aquí, tema a tema."
+"a": "A 27 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique. El 19 de octubre publicó «5 propuestas para tener paz, casa y trabajo», que no son el programa; están incorporadas aquí, tema a tema."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -5428,7 +5528,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "administracion",
 "title": "Burocracia y administración",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -5464,14 +5564,14 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "sanidad",
 "title": "Sanidad",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "educacion",
 "title": "Educación",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -5532,12 +5632,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-partido-democracia-21",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/partido-democracia-21",
 "h1": "Democracia 21 (D21): qué promete para el 29-N",
 "title": "Democracia 21: promesas y medidas para el 29-N",
 "description": "Qué propone Democracia 21 para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: Democracia 21 ha concretado 10 medidas con fuente a 26 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"lead": "Respuesta corta: Democracia 21 ha concretado 10 medidas con fuente a 27 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -5602,7 +5702,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "faqs": [
 {
 "q": "¿Ha publicado Democracia 21 su programa para el 29-N?",
-"a": "A 26 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
+"a": "A 27 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -5793,21 +5893,21 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "administracion",
 "title": "Burocracia y administración",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "pensiones",
 "title": "Pensiones",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "sanidad",
 "title": "Sanidad",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -5878,7 +5978,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "h1": "Otros partidos del 29-N: ERC, Junts, Bildu, PNV, BNG y más",
 "title": "Otros partidos del 29-N: qué proponen",
 "description": "ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria, UPN y nuevos partidos en el 29-N: estado de sus programas y cuándo se conocerán las candidaturas.",
-"lead": "Respuesta corta: a 26 de octubre de 2026 ninguno de estos partidos ha publicado su programa para el 29-N. Los añadiremos con el mismo formato cuando lo hagan o cuando el BOE publique las candidaturas proclamadas (3 de noviembre).",
+"lead": "Respuesta corta: a 27 de octubre de 2026 ninguno de estos partidos ha publicado su programa para el 29-N. Los añadiremos con el mismo formato cuando lo hagan o cuando el BOE publique las candidaturas proclamadas (3 de noviembre).",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -5960,12 +6060,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-andalucia",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-andalucia",
 "h1": "Promesas del 29-N y cómo afectarían en Andalucía",
 "title": "Promesas electorales del 29-N en Andalucía",
 "description": "Cómo afectarían en Andalucía las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 60 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Andalucía elige 60 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 82 se aplicarían igual en Andalucía, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Andalucía se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Andalucía elige 60 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Andalucía, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Andalucía se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -6022,11 +6122,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Andalucía?",
-"a": "A 26 de octubre de 2026, 82 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -6034,11 +6134,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Andalucía",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Andalucía.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Andalucía.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Andalucía, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Andalucía, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -6051,8 +6151,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -6065,8 +6165,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -6093,8 +6193,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -6651,6 +6751,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -6790,6 +6901,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -7102,6 +7224,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -7262,12 +7395,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-aragon",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-aragon",
 "h1": "Promesas del 29-N y cómo afectarían en Aragón",
 "title": "Promesas electorales del 29-N en Aragón",
 "description": "Cómo afectarían en Aragón las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 13 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Aragón elige 13 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 82 se aplicarían igual en Aragón, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Aragón se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Aragón elige 13 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Aragón, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Aragón se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -7324,11 +7457,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Aragón?",
-"a": "A 26 de octubre de 2026, 82 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -7336,11 +7469,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Aragón",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Aragón.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Aragón.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Aragón, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Aragón, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -7353,8 +7486,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -7367,8 +7500,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -7395,8 +7528,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -7953,6 +8086,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -8092,6 +8236,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -8404,6 +8559,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -8564,12 +8730,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-asturias",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-asturias",
 "h1": "Promesas del 29-N y cómo afectarían en Asturias",
 "title": "Promesas electorales del 29-N en Asturias",
 "description": "Cómo afectarían en Asturias las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 7 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Asturias elige 7 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 82 se aplicarían igual en Asturias, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Asturias se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Asturias elige 7 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Asturias, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Asturias se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -8626,11 +8792,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Asturias?",
-"a": "A 26 de octubre de 2026, 82 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -8638,11 +8804,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Asturias",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Asturias.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Asturias.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Asturias, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Asturias, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -8655,8 +8821,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -8669,8 +8835,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -8697,8 +8863,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -9255,6 +9421,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -9394,6 +9571,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -9706,6 +9894,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -9866,12 +10065,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-illes-balears",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-illes-balears",
 "h1": "Promesas del 29-N y cómo afectarían en Illes Balears",
 "title": "Promesas electorales del 29-N en Illes Balears",
 "description": "Cómo afectarían en Illes Balears las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 8 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Illes Balears elige 8 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 82 se aplicarían igual en Illes Balears, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Illes Balears se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Illes Balears elige 8 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Illes Balears, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Illes Balears se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -9928,11 +10127,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Illes Balears?",
-"a": "A 26 de octubre de 2026, 82 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -9940,11 +10139,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Illes Balears",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Illes Balears.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Illes Balears.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Illes Balears, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Illes Balears, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -9957,8 +10156,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -9971,8 +10170,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -9999,8 +10198,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -10557,6 +10756,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -10696,6 +10906,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -11008,6 +11229,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -11168,12 +11400,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-canarias",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-canarias",
 "h1": "Promesas del 29-N y cómo afectarían en Canarias",
 "title": "Promesas electorales del 29-N en Canarias",
 "description": "Cómo afectarían en Canarias las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 15 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Canarias elige 15 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 77 se aplicarían igual en Canarias, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Canarias, las propuestas de bajar el IVA (vivienda nueva, alimentos) no se aplicarían tal cual.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Canarias elige 15 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 80 se aplicarían igual en Canarias, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Canarias, las propuestas de bajar el IVA (vivienda nueva, alimentos) no se aplicarían tal cual.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -11230,11 +11462,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Canarias?",
-"a": "A 26 de octubre de 2026, 77 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 80 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -11242,11 +11474,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Canarias",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Canarias.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Canarias.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Canarias, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Canarias, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -11259,8 +11491,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"34",
+"45",
+"35",
 "4",
 "6",
 "pendiente de programa"
@@ -11273,8 +11505,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"13",
-"11",
+"14",
+"12",
 "1",
 "1",
 "pendiente de programa"
@@ -11301,8 +11533,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -11859,6 +12091,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -11998,6 +12241,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -12310,6 +12564,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -12470,12 +12735,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-cantabria",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-cantabria",
 "h1": "Promesas del 29-N y cómo afectarían en Cantabria",
 "title": "Promesas electorales del 29-N en Cantabria",
 "description": "Cómo afectarían en Cantabria las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 5 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Cantabria elige 5 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 82 se aplicarían igual en Cantabria, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cantabria se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Cantabria elige 5 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Cantabria, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cantabria se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -12532,11 +12797,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Cantabria?",
-"a": "A 26 de octubre de 2026, 82 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -12544,11 +12809,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Cantabria",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Cantabria.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Cantabria.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Cantabria, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Cantabria, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -12561,8 +12826,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -12575,8 +12840,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -12603,8 +12868,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -13161,6 +13426,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -13300,6 +13576,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -13612,6 +13899,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -13772,12 +14070,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-castilla-y-leon",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-castilla-y-leon",
 "h1": "Promesas del 29-N y cómo afectarían en Castilla y León",
 "title": "Promesas electorales del 29-N en Castilla y León",
 "description": "Cómo afectarían en Castilla y León las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 31 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Castilla y León elige 31 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 82 se aplicarían igual en Castilla y León, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla y León se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Castilla y León elige 31 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Castilla y León, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla y León se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -13834,11 +14132,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Castilla y León?",
-"a": "A 26 de octubre de 2026, 82 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -13846,11 +14144,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Castilla y León",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Castilla y León.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Castilla y León.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Castilla y León, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Castilla y León, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -13863,8 +14161,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -13877,8 +14175,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -13905,8 +14203,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -14463,6 +14761,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -14602,6 +14911,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -14914,6 +15234,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -15074,12 +15405,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-castilla-la-mancha",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-castilla-la-mancha",
 "h1": "Promesas del 29-N y cómo afectarían en Castilla-La Mancha",
 "title": "Promesas electorales del 29-N en Castilla-La Mancha",
 "description": "Cómo afectarían en Castilla-La Mancha las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 21 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Castilla-La Mancha elige 21 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 82 se aplicarían igual en Castilla-La Mancha, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla-La Mancha se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Castilla-La Mancha elige 21 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Castilla-La Mancha, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla-La Mancha se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -15136,11 +15467,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Castilla-La Mancha?",
-"a": "A 26 de octubre de 2026, 82 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -15148,11 +15479,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Castilla-La Mancha",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Castilla-La Mancha.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Castilla-La Mancha.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Castilla-La Mancha, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Castilla-La Mancha, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -15165,8 +15496,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -15179,8 +15510,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -15207,8 +15538,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -15765,6 +16096,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -15904,6 +16246,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -16216,6 +16569,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -16376,12 +16740,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-cataluna",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-cataluna",
 "h1": "Promesas del 29-N y cómo afectarían en Cataluña",
 "title": "Promesas electorales del 29-N en Cataluña",
 "description": "Cómo afectarían en Cataluña las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 48 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Cataluña elige 48 diputados el 29-N (BOE, RD 806/2026). De las 108 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 89 se aplicarían igual en Cataluña, 16 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cataluña se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Cataluña elige 48 diputados el 29-N (BOE, RD 806/2026). De las 111 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 92 se aplicarían igual en Cataluña, 16 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cataluña se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -16438,11 +16802,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Cataluña?",
-"a": "A 26 de octubre de 2026, 89 de 108 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 16 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 92 de 111 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 16 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -16450,11 +16814,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Cataluña",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Cataluña.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Cataluña.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Cataluña, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Cataluña, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -16467,8 +16831,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -16481,8 +16845,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -16509,8 +16873,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -17067,6 +17431,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -17206,6 +17581,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -17518,6 +17904,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -17777,12 +18174,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-comunitat-valenciana",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-comunitat-valenciana",
 "h1": "Promesas del 29-N y cómo afectarían en Comunitat Valenciana",
 "title": "Promesas electorales del 29-N en Comunitat Valenciana",
 "description": "Cómo afectarían en Comunitat Valenciana las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 33 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Comunitat Valenciana elige 33 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 82 se aplicarían igual en Comunitat Valenciana, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunitat Valenciana se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Comunitat Valenciana elige 33 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Comunitat Valenciana, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunitat Valenciana se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -17839,11 +18236,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Comunitat Valenciana?",
-"a": "A 26 de octubre de 2026, 82 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -17851,11 +18248,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Comunitat Valenciana",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Comunitat Valenciana.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Comunitat Valenciana.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Comunitat Valenciana, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Comunitat Valenciana, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -17868,8 +18265,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -17882,8 +18279,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -17910,8 +18307,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -18468,6 +18865,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -18607,6 +19015,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -18919,6 +19338,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -19079,12 +19509,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-extremadura",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-extremadura",
 "h1": "Promesas del 29-N y cómo afectarían en Extremadura",
 "title": "Promesas electorales del 29-N en Extremadura",
 "description": "Cómo afectarían en Extremadura las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 9 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Extremadura elige 9 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 82 se aplicarían igual en Extremadura, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Extremadura se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Extremadura elige 9 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Extremadura, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Extremadura se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -19141,11 +19571,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Extremadura?",
-"a": "A 26 de octubre de 2026, 82 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -19153,11 +19583,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Extremadura",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Extremadura.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Extremadura.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Extremadura, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Extremadura, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -19170,8 +19600,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -19184,8 +19614,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -19212,8 +19642,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -19770,6 +20200,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -19909,6 +20350,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -20221,6 +20673,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -20381,12 +20844,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-galicia",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-galicia",
 "h1": "Promesas del 29-N y cómo afectarían en Galicia",
 "title": "Promesas electorales del 29-N en Galicia",
 "description": "Cómo afectarían en Galicia las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 23 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Galicia elige 23 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 82 se aplicarían igual en Galicia, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Galicia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Galicia elige 23 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Galicia, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Galicia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -20443,11 +20906,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Galicia?",
-"a": "A 26 de octubre de 2026, 82 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -20455,11 +20918,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Galicia",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Galicia.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Galicia.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Galicia, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Galicia, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -20472,8 +20935,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -20486,8 +20949,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -20514,8 +20977,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -21072,6 +21535,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -21211,6 +21685,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -21523,6 +22008,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -21683,12 +22179,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-madrid",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-madrid",
 "h1": "Promesas del 29-N y cómo afectarían en Comunidad de Madrid",
 "title": "Promesas electorales del 29-N en Comunidad de Madrid",
 "description": "Cómo afectarían en Comunidad de Madrid las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 38 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Comunidad de Madrid elige 38 diputados el 29-N (BOE, RD 806/2026). De las 108 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 89 se aplicarían igual en Comunidad de Madrid, 16 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunidad de Madrid se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Comunidad de Madrid elige 38 diputados el 29-N (BOE, RD 806/2026). De las 111 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 92 se aplicarían igual en Comunidad de Madrid, 16 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunidad de Madrid se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -21745,11 +22241,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Comunidad de Madrid?",
-"a": "A 26 de octubre de 2026, 89 de 108 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 16 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 92 de 111 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 16 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -21757,11 +22253,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Comunidad de Madrid",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Comunidad de Madrid.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Comunidad de Madrid.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Comunidad de Madrid, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Comunidad de Madrid, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -21774,8 +22270,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -21788,8 +22284,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -21816,8 +22312,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -22374,6 +22870,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -22513,6 +23020,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -22825,6 +23343,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -23084,12 +23613,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-murcia",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-murcia",
 "h1": "Promesas del 29-N y cómo afectarían en Región de Murcia",
 "title": "Promesas electorales del 29-N en Región de Murcia",
 "description": "Cómo afectarían en Región de Murcia las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 10 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Región de Murcia elige 10 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 82 se aplicarían igual en Región de Murcia, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Región de Murcia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Región de Murcia elige 10 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Región de Murcia, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Región de Murcia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -23146,11 +23675,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Región de Murcia?",
-"a": "A 26 de octubre de 2026, 82 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -23158,11 +23687,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Región de Murcia",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Región de Murcia.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Región de Murcia.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Región de Murcia, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Región de Murcia, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -23175,8 +23704,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -23189,8 +23718,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -23217,8 +23746,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -23775,6 +24304,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -23914,6 +24454,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -24226,6 +24777,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -24386,12 +24948,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-navarra",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-navarra",
 "h1": "Promesas del 29-N y cómo afectarían en Navarra",
 "title": "Promesas electorales del 29-N en Navarra",
 "description": "Cómo afectarían en Navarra las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 5 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Navarra elige 5 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 78 se aplicarían igual en Navarra, 14 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Navarra, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Navarra elige 5 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 81 se aplicarían igual en Navarra, 14 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Navarra, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -24448,11 +25010,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Navarra?",
-"a": "A 26 de octubre de 2026, 78 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 81 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -24460,11 +25022,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Navarra",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Navarra.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Navarra.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Navarra, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Navarra, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -24477,8 +25039,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"35",
+"45",
+"36",
 "4",
 "5",
 "pendiente de programa"
@@ -24491,8 +25053,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"13",
-"11",
+"14",
+"12",
 "1",
 "1",
 "pendiente de programa"
@@ -24519,8 +25081,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -25077,6 +25639,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -25216,6 +25789,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -25528,6 +26112,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -25688,12 +26283,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-pais-vasco",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-pais-vasco",
 "h1": "Promesas del 29-N y cómo afectarían en País Vasco",
 "title": "Promesas electorales del 29-N en País Vasco",
 "description": "Cómo afectarían en País Vasco las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 18 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): País Vasco elige 18 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 78 se aplicarían igual en País Vasco, 14 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En País Vasco, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): País Vasco elige 18 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 81 se aplicarían igual en País Vasco, 14 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En País Vasco, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -25750,11 +26345,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en País Vasco?",
-"a": "A 26 de octubre de 2026, 78 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 81 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -25762,11 +26357,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en País Vasco",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para País Vasco.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para País Vasco.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en País Vasco, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en País Vasco, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -25779,8 +26374,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"35",
+"45",
+"36",
 "4",
 "5",
 "pendiente de programa"
@@ -25793,8 +26388,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"13",
-"11",
+"14",
+"12",
 "1",
 "1",
 "pendiente de programa"
@@ -25821,8 +26416,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -26379,6 +26974,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -26518,6 +27124,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -26830,6 +27447,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -26990,12 +27618,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-la-rioja",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-la-rioja",
 "h1": "Promesas del 29-N y cómo afectarían en La Rioja",
 "title": "Promesas electorales del 29-N en La Rioja",
 "description": "Cómo afectarían en La Rioja las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 4 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): La Rioja elige 4 diputados el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 82 se aplicarían igual en La Rioja, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En La Rioja se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): La Rioja elige 4 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en La Rioja, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En La Rioja se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -27052,11 +27680,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en La Rioja?",
-"a": "A 26 de octubre de 2026, 82 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -27064,11 +27692,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en La Rioja",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para La Rioja.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para La Rioja.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en La Rioja, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en La Rioja, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -27081,8 +27709,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"38",
+"45",
+"39",
 "4",
 "2",
 "pendiente de programa"
@@ -27095,8 +27723,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
+"14",
 "13",
-"12",
 "1",
 "0",
 "pendiente de programa"
@@ -27123,8 +27751,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -27681,6 +28309,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -27820,6 +28459,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -28132,6 +28782,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -28292,12 +28953,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-ceuta",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-ceuta",
 "h1": "Promesas del 29-N y cómo afectarían en Ceuta",
 "title": "Promesas electorales del 29-N en Ceuta",
 "description": "Cómo afectarían en Ceuta las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 1 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Ceuta elige 1 diputado el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 77 se aplicarían igual en Ceuta, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Ceuta, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Ceuta elige 1 diputado el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 80 se aplicarían igual en Ceuta, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Ceuta, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -28354,11 +29015,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Ceuta?",
-"a": "A 26 de octubre de 2026, 77 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 80 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -28366,11 +29027,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Ceuta",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Ceuta.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Ceuta.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Ceuta, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Ceuta, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -28383,8 +29044,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"34",
+"45",
+"35",
 "4",
 "6",
 "pendiente de programa"
@@ -28397,8 +29058,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"13",
-"11",
+"14",
+"12",
 "1",
 "1",
 "pendiente de programa"
@@ -28425,8 +29086,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -28983,6 +29644,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -29122,6 +29794,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -29434,6 +30117,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -29594,12 +30288,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-melilla",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-melilla",
 "h1": "Promesas del 29-N y cómo afectarían en Melilla",
 "title": "Promesas electorales del 29-N en Melilla",
 "description": "Cómo afectarían en Melilla las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 1 diputados.",
-"lead": "Respuesta corta (datos a 26 de octubre de 2026): Melilla elige 1 diputado el 29-N (BOE, RD 806/2026). De las 98 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 77 se aplicarían igual en Melilla, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Melilla, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Melilla elige 1 diputado el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 80 se aplicarían igual en Melilla, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Melilla, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -29656,11 +30350,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Melilla?",
-"a": "A 26 de octubre de 2026, 77 de 98 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 80 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 26 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -29668,11 +30362,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Melilla",
 "paragraphs": [
-"Última actualización de los datos: 26 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Melilla.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Melilla.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Melilla, por partido (a 26 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Melilla, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -29685,8 +30379,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"44",
-"34",
+"45",
+"35",
 "4",
 "6",
 "pendiente de programa"
@@ -29699,8 +30393,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"13",
-"11",
+"14",
+"12",
 "1",
 "1",
 "pendiente de programa"
@@ -29727,8 +30421,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"9",
-"7",
+"10",
+"8",
 "2",
 "0",
 "pendiente de programa"
@@ -30285,6 +30979,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
 "PSOE",
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Sí: es una medida estatal, igual en toda España."
@@ -30424,6 +31129,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
 "href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -30736,6 +31452,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"Sí: es una medida estatal, igual en toda España."
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Podemos",
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
 "Sí: es una medida estatal, igual en toda España."
@@ -30896,12 +31623,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-estudiante",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-estudiante",
 "h1": "Promesas del 29-N para estudiantes: qué propone cada partido",
 "title": "29-N para estudiantes: qué te afectaría",
 "description": "Qué cambiaría para estudiantes con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
-"lead": "Respuesta corta: 5 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a estudiantes a 26 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"lead": "Respuesta corta: 5 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a estudiantes a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -31126,7 +31853,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -31199,12 +31926,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-familia",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-familia",
 "h1": "Promesas del 29-N para familias con hijos: qué propone cada partido",
 "title": "29-N para familias con hijos: qué te afectaría",
 "description": "Qué cambiaría para familias con hijos con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
-"lead": "Respuesta corta: 6 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a familias con hijos a 26 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"lead": "Respuesta corta: 6 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a familias con hijos a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -31974,12 +32701,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-joven-alquiler",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-joven-alquiler",
 "h1": "Promesas del 29-N para jóvenes que alquilan o quieren comprar: qué propone cada partido",
 "title": "29-N para jóvenes y alquiler: qué te afectaría",
 "description": "Qué cambiaría para jóvenes que alquilan o quieren comprar con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
-"lead": "Respuesta corta: 6 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a jóvenes que alquilan o quieren comprar a 26 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"lead": "Respuesta corta: 6 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a jóvenes que alquilan o quieren comprar a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -32100,6 +32827,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "Europa Press: mitin de Frente Amplio en Móstoles (25 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.europapress.es/nacional/noticia-colau-llama-llenar-calles-poner-cuerpo-frente-politicos-solo-usan-piquito-oro-20261025140652.html"
+},
+{
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
 }
 ],
 "related": [
@@ -32166,6 +32897,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
 "Crear un Fondo Estatal de Garantía del Alquiler que cubra un porcentaje de los impagos y bonificar un 75 % en el IRPF, el primer año, a quien ponga en alquiler una vivienda vacía.",
 "Deducción del 15 % del alquiler para los jóvenes, aval público para la fianza del alquiler de los menores de 35 años e IRPF cero el primer año de trabajo con rebajas los tres siguientes («Plan Prepara»).",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -32373,6 +33105,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "El Español: el plan de vivienda de 23 medidas del PP, 22 de octubre de 2026",
 "href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+}
+},
+{
+"cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
 }
 }
 ]
@@ -32789,12 +33532,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-jubilado",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-jubilado",
 "h1": "Promesas del 29-N para jubilados y pensionistas: qué propone cada partido",
 "title": "29-N para jubilados y pensionistas: qué te afectaría",
 "description": "Qué cambiaría para jubilados y pensionistas con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
-"lead": "Respuesta corta: 5 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a jubilados y pensionistas a 26 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"lead": "Respuesta corta: 5 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a jubilados y pensionistas a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -32875,6 +33618,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "Europa Press: Frente Amplio propone que ninguna pensión esté por debajo del SMI (24 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
+},
+{
+"label": "Europa Press: Sánchez en Gijón (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 ],
 "related": [
@@ -33011,7 +33758,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
 "Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
 "Revalorizar las pensiones públicas con el IPC durante los cuatro años de legislatura.",
-"Declaración: «las pensiones no se tocan»."
+"Declaración: «las pensiones no se tocan».",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados)."
 ],
 "table": {
 "caption": "PSOE: medidas que afectan a jubilados y pensionistas",
@@ -33064,6 +33812,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Europa Press: Sánchez en Fuenlabrada, 17 de octubre de 2026",
 "href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 }
 ]
@@ -33232,7 +33991,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "democracia-21",
 "title": "Democracia 21 (D21)",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -33247,12 +34006,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-autonomo",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-autonomo",
 "h1": "Promesas del 29-N para autónomos: qué propone cada partido",
 "title": "29-N para autónomos: qué te afectaría",
 "description": "Qué cambiaría para autónomos con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
-"lead": "Respuesta corta: 4 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a autónomos a 26 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"lead": "Respuesta corta: 4 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a autónomos a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -33470,7 +34229,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "psoe",
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -33566,7 +34325,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -33639,12 +34398,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-parado",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-parado",
 "h1": "Promesas del 29-N para personas en paro: qué propone cada partido",
 "title": "29-N para personas en paro: qué te afectaría",
 "description": "Qué cambiaría para personas en paro con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
-"lead": "Respuesta corta: 4 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a personas en paro a 26 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"lead": "Respuesta corta: 4 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a personas en paro a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -33872,7 +34631,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -33920,7 +34679,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "democracia-21",
 "title": "Democracia 21 (D21)",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -33935,12 +34694,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-dependencia",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-dependencia",
 "h1": "Promesas del 29-N para personas con discapacidad o dependencia: qué propone cada partido",
 "title": "29-N para discapacidad y dependencia: qué te afectaría",
 "description": "Qué cambiaría para personas con discapacidad o dependencia con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
-"lead": "Respuesta corta: 2 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a personas con discapacidad o dependencia a 26 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"lead": "Respuesta corta: 2 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a personas con discapacidad o dependencia a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -34070,7 +34829,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "psoe",
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -34130,21 +34889,21 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "podemos",
 "title": "Podemos",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "democracia-21",
 "title": "Democracia 21 (D21)",
 "paragraphs": [
-"Pendiente de programa: a 26 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -34159,7 +34918,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-metodologia",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/metodologia",
 "h1": "Metodología de las promesas del 29-N: fuentes, orden y actualizaciones",
 "title": "Metodología: cómo comparamos las promesas del 29-N",
@@ -34248,7 +35007,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "actualizacion",
 "title": "Actualización diaria",
 "paragraphs": [
-"Revisamos cada día las webs oficiales de los partidos, el BOE y la Junta Electoral Central. Cuando un partido publique su programa, sustituimos sus anuncios por el texto del programa. Última revisión: 26 de octubre de 2026.",
+"Revisamos cada día las webs oficiales de los partidos, el BOE y la Junta Electoral Central. Cuando un partido publique su programa, sustituimos sus anuncios por el texto del programa. Última revisión: 27 de octubre de 2026.",
 "¿Ves un error o una medida que falta? Escríbenos desde la página de contacto con el enlace a la fuente."
 ]
 }
@@ -34260,12 +35019,12 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "id": "e29n-programas-electorales-29n",
 "pack": "elecciones",
-"reviewedAt": "2026-10-26",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/programas-electorales-29n",
 "h1": "Programas electorales del 29-N: cuándo se publican y dónde leerlos",
 "title": "Programas electorales del 29-N: cuándo salen y dónde verlos",
 "description": "¿Han salido ya los programas electorales del 29-N? A 18 de octubre ningún partido ha publicado el suyo. Qué han propuesto en los mítines, con fuente.",
-"lead": "Respuesta corta: a 26 de octubre de 2026 ningún partido ha publicado todavía su programa electoral para el 29-N. El PP presentó el 19 de octubre su «Contrato con España», un documento de 12 compromisos que no es su programa. Mientras tanto, aquí tienes lo que han propuesto en mítines y actos de precampaña, por tema, con quién lo dijo, dónde, cuándo y la fuente.",
+"lead": "Respuesta corta: a 27 de octubre de 2026 ningún partido ha publicado todavía su programa electoral para el 29-N. El PP presentó el 19 de octubre su «Contrato con España», un documento de 12 compromisos que no es su programa. Mientras tanto, aquí tienes lo que han propuesto en mítines y actos de precampaña, por tema, con quién lo dijo, dónde, cuándo y la fuente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Comparar promesas de todos los partidos"
@@ -34534,6 +35293,22 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "label": "La Gaceta de Salamanca, 25-10-2026: acto de Feijóo en Salamanca",
 "href": "https://www.lagacetadesalamanca.es/salamanca/feijoo-lanza-salamanca-promesa-cambio-impuestos-millon-20261025132329-nt.html"
+},
+{
+"label": "Europa Press, 26-10-2026: Sánchez en Gijón",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
+},
+{
+"label": "Vozpópuli, 26-10-2026: Feijóo y la vicepresidencia de vivienda",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+},
+{
+"label": "elDiario.es, 26-10-2026: carta de Colau a los candidatos",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+},
+{
+"label": "ABC, 26-10-2026: Vox presenta candidatos en Talavera de la Reina",
+"href": "https://www.abc.es/espana/vox-presenta-talavera-reina-candidatos-elecciones-generales-20261026190136-nt.html"
 }
 ],
 "related": [
@@ -34594,7 +35369,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "faqs": [
 {
 "q": "¿Cuándo salen los programas electorales del 29-N?",
-"a": "No hay fecha fijada por ley: cada partido decide cuándo lo publica. A 26 de octubre de 2026 no hemos localizado el programa completo para el 29-N de ningún partido con diputados en el Congreso (PP, PSOE, Vox, Frente Amplio, Podemos, ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria ni UPN). La campaña va del 13 al 27 de noviembre; actualizaremos esta página cuando salgan. En 2023 los cuatro partidos más votados lo presentaron entre 3 días antes del inicio de la campaña y su primer día; la del 29-N empieza el 13 de noviembre."
+"a": "No hay fecha fijada por ley: cada partido decide cuándo lo publica. A 27 de octubre de 2026 no hemos localizado el programa completo para el 29-N de ningún partido con diputados en el Congreso (PP, PSOE, Vox, Frente Amplio, Podemos, ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria ni UPN). La campaña va del 13 al 27 de noviembre; actualizaremos esta página cuando salgan. En 2023 los cuatro partidos más votados lo presentaron entre 3 días antes del inicio de la campaña y su primer día; la del 29-N empieza el 13 de noviembre."
 },
 {
 "q": "¿El Contrato con España es el programa electoral del PP?",
@@ -34602,7 +35377,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 },
 {
 "q": "¿Qué han propuesto los partidos en los mítines del 29-N?",
-"a": "A 26 de octubre, en mítines y actos: el PP, una ley antiokupación con desalojo en 48 horas (Barcelona, 18-10), deducciones a quien prorrogue el alquiler con subidas por debajo del IPC y rebajas del IVA y el ITP a menores de 40 años (Sevilla, 21-10), un fondo público de garantía del alquiler (plan de vivienda publicado el 22-10), bajar el IRPF en 2027 y que el salario mínimo no pague IRPF por ley (Valencia, 23-10), mejorar el mínimo familiar del IRPF (Vigo, 24-10) y un IVA del 0 % en alimentos básicos; el PSOE, mantener los decretos de vivienda y revalorizar las pensiones con el IPC y subir el salario mínimo cada año (Valladolid, 19-10) y reformar la Constitución para blindar el aborto (Burgos, 21-10); Vox, garantizar el pago de las pensiones y repatriar a quien entra de forma irregular y dar prioridad a los españoles en ayudas al alquiler y plazas de guardería (Ponferrada, 20-10) y «recuperar Ceuta al precio que sea» (Segovia, 22-10) y vivienda para quien trabaja en Ibiza y Formentera (Ibiza, 24-10), y un impuesto a las remesas e «impuestos cero» a la primera vivienda (documento «Recuperar España»); el Frente Amplio, invertir el 1 % del PIB en vivienda pública y una prestación universal por crianza (Barcelona, 22-10) y que ninguna pensión baje del salario mínimo, con jubilación como máximo a los 65 años (Madrid, 24-10) y más impuestos a los especuladores de vivienda (Móstoles, 25-10); Podemos, la jornada de 30 horas semanales, un salario mínimo de 1.800 € y expropiar pisos a fondos buitre (Barcelona, 24-10); Democracia 21, un tope temporal del alquiler con garantía pública de cobro para el propietario (programa adelantado por El Mundo, 22-10). Cada propuesta, con su fuente, está en esta página."
+"a": "A 27 de octubre, en mítines y actos: el PP, una ley antiokupación con desalojo en 48 horas (Barcelona, 18-10), deducciones a quien prorrogue el alquiler con subidas por debajo del IPC y rebajas del IVA y el ITP a menores de 40 años (Sevilla, 21-10), un fondo público de garantía del alquiler (plan de vivienda publicado el 22-10), bajar el IRPF en 2027 y que el salario mínimo no pague IRPF por ley (Valencia, 23-10), mejorar el mínimo familiar del IRPF (Vigo, 24-10), un IVA del 0 % en alimentos básicos y una vicepresidencia de vivienda con «mando único» (Vozpópuli, 26-10); el PSOE, mantener los decretos de vivienda y revalorizar las pensiones con el IPC y subir el salario mínimo cada año (Valladolid, 19-10) y reformar la Constitución para blindar el aborto (Burgos, 21-10) y las pensiones con el IPC (Gijón, 26-10); Vox, garantizar el pago de las pensiones y repatriar a quien entra de forma irregular y dar prioridad a los españoles en ayudas al alquiler y plazas de guardería (Ponferrada, 20-10) y «recuperar Ceuta al precio que sea» (Segovia, 22-10) y vivienda para quien trabaja en Ibiza y Formentera (Ibiza, 24-10), y un impuesto a las remesas e «impuestos cero» a la primera vivienda (documento «Recuperar España»); el Frente Amplio, invertir el 1 % del PIB en vivienda pública y una prestación universal por crianza (Barcelona, 22-10) y que ninguna pensión baje del salario mínimo, con jubilación como máximo a los 65 años (Madrid, 24-10) y más impuestos a los especuladores de vivienda (Móstoles, 25-10), y regular por ley la IA en campaña (carta de Colau, 26-10); Podemos, la jornada de 30 horas semanales, un salario mínimo de 1.800 € y expropiar pisos a fondos buitre (Barcelona, 24-10); Democracia 21, un tope temporal del alquiler con garantía pública de cobro para el propietario (programa adelantado por El Mundo, 22-10). Cada propuesta, con su fuente, está en esta página."
 },
 {
 "q": "¿Lo que se dice en un mitin es el programa electoral?",
@@ -34628,9 +35403,9 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "sections": [
 {
 "id": "estado",
-"title": "Estado a 26 de octubre: ningún programa publicado",
+"title": "Estado a 27 de octubre: ningún programa publicado",
 "paragraphs": [
-"Ningún partido con diputados en el Congreso ha publicado todavía su programa para las generales del 29 de noviembre. Lo comprobamos el 26 de octubre en sus webs oficiales y en la prensa (comparadores como eleccionesenespana.es seguían en «Pendiente» el 17-10; pp.es sin PDF del 29-N). Las webs de PSOE, Vox, Podemos y ERC no permiten la comprobación automática; en esos casos revisamos sus notas y las noticias.",
+"Ningún partido con diputados en el Congreso ha publicado todavía su programa para las generales del 29 de noviembre. Lo comprobamos el 27 de octubre en sus webs oficiales y en la prensa (comparadores como eleccionesenespana.es seguían en «Pendiente» el 17-10; pp.es sin PDF del 29-N). Las webs de PSOE, Vox, Podemos y ERC no permiten la comprobación automática; en esos casos revisamos sus notas y las noticias.",
 "El 19 de octubre, Alberto Núñez Feijóo firmó en Madrid el «Contrato con España», 12 compromisos para el caso de que llegue a la Presidencia del Gobierno. El propio documento dice que «va más allá de un programa de Gobierno o una lista de medidas», así que no lo contamos como programa: el del PP sigue pendiente. Los 12 puntos están en su página.",
 "El mismo día, Podemos publicó en su cuenta oficial «5 propuestas para tener paz, casa y trabajo». Tampoco es un programa: el partido las presenta como su plan de cinco puntos para la campaña.",
 "Vox tiene un programa temático de desregulación publicado en junio de 2026, pero no es el programa del 29-N.",
@@ -34732,8 +35507,8 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "id": "pp",
 "title": "PP: qué ha propuesto en mítines y actos",
 "paragraphs": [
-"Candidato: Alberto Núñez Feijóo. Actos revisados: acto en Ceuta (07-10), simposio sanitario con Carmen Fúnez (07-10), mitin en Madrid (10-10), comparecencia en Bruselas (15-10), acto en Toledo (16-10), Bendodo en Granada (16-10), acto en Barcelona con Xavier García Albiol (18-10) y firma del «Contrato con España» en Madrid (19-10) y acto sobre vivienda en Sevilla con Juanma Moreno (21-10) y Alberto Nadal en los Montes de Toledo (21-10), y entrevista a Juan Bravo en À Punt Ràdio (22-10). El 22-10 El Español publicó el documento completo de su plan de vivienda (23 medidas). Mitin en Valencia (23-10) y entrevista en Hoy por Hoy, de la Cadena SER. Mitin en Vigo (24-10). Acto en Salamanca con los cabezas de lista (25-10): bajada «inmediata» de impuestos a los trabajadores, un millón de viviendas y pensiones, sin cifras nuevas.",
-"Programa del 29-N: no publicado a 26 de octubre de 2026."
+"Candidato: Alberto Núñez Feijóo. Actos revisados: acto en Ceuta (07-10), simposio sanitario con Carmen Fúnez (07-10), mitin en Madrid (10-10), comparecencia en Bruselas (15-10), acto en Toledo (16-10), Bendodo en Granada (16-10), acto en Barcelona con Xavier García Albiol (18-10) y firma del «Contrato con España» en Madrid (19-10) y acto sobre vivienda en Sevilla con Juanma Moreno (21-10) y Alberto Nadal en los Montes de Toledo (21-10), y entrevista a Juan Bravo en À Punt Ràdio (22-10). El 22-10 El Español publicó el documento completo de su plan de vivienda (23 medidas). Mitin en Valencia (23-10) y entrevista en Hoy por Hoy, de la Cadena SER. Mitin en Vigo (24-10). Acto en Salamanca con los cabezas de lista (25-10): bajada «inmediata» de impuestos a los trabajadores, un millón de viviendas y pensiones, sin cifras nuevas. Declaraciones a Vozpópuli (26-10): la vivienda irá a una vicepresidencia con «mando único».",
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
 ],
 "table": {
 "caption": "PP: propuestas en mítines y actos, por tema",
@@ -34841,6 +35616,17 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "source": {
 "label": "El País, 22-10-2026: el PP propone segregar pisos de gran tamaño",
 "href": "https://elpais.com/economia/vivienda/2026-10-22/el-pp-propone-segregar-pisos-de-gran-tamano-como-remedio-ante-la-falta-de-vivienda.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» sobre todos los ministerios: «No será una ventanilla donde informar, no, será un mando único indiscutible». La primera Conferencia de Presidentes se dedicaría al millón de viviendas.",
+"Alberto Núñez Feijóo, declaraciones a Vozpópuli, 26-10-2026"
+],
+"source": {
+"label": "Vozpópuli, 26-10-2026: Feijóo y la vicepresidencia de vivienda",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
 }
 },
 {
@@ -35015,8 +35801,8 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "id": "psoe",
 "title": "PSOE: qué ha propuesto en mítines y actos",
 "paragraphs": [
-"Candidato: Pedro Sánchez. Actos revisados: mítines en Dos Hermanas (10-10), Zaragoza (14-10), Fuenlabrada (17-10), Valladolid (19-10) y Burgos (21-10), y acto en Granada (24-10), sin medidas nuevas respecto a las ya recogidas. Entrevista a Sánchez en El País (25-10), sin medidas nuevas.",
-"Programa del 29-N: no publicado a 26 de octubre de 2026."
+"Candidato: Pedro Sánchez. Actos revisados: mítines en Dos Hermanas (10-10), Zaragoza (14-10), Fuenlabrada (17-10), Valladolid (19-10) y Burgos (21-10), y acto en Granada (24-10), sin medidas nuevas respecto a las ya recogidas. Entrevista a Sánchez en El País (25-10), sin medidas nuevas. Mitin en Gijón (26-10): reforma constitucional para blindar las pensiones y su subida con el IPC.",
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
 ],
 "table": {
 "caption": "PSOE: propuestas en mítines y actos, por tema",
@@ -35058,6 +35844,17 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "source": {
 "label": "Europa Press, 17-10-2026",
 "href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Sánchez prometió: «La próxima legislatura reformaremos la Constitución para blindar las pensiones y su revalorización conforme al IPC». Hoy esa subida está en una ley (Ley 21/2021); reformar la Constitución exige tres quintos de cada Cámara (210 diputados).",
+"Pedro Sánchez, mitin en Gijón, 26-10-2026"
+],
+"source": {
+"label": "Europa Press, 26-10-2026: Sánchez en Gijón",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 },
 {
@@ -35133,8 +35930,8 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "id": "vox",
 "title": "Vox: qué ha propuesto en mítines y actos",
 "paragraphs": [
-"Candidato: Santiago Abascal. Actos revisados: mitin en Estepona (11-10), comparecencia en Ceuta (12-10) acto en Ponferrada (20-10) y acto en Segovia (22-10), y actos en Palma e Ibiza (24-10). Documento «Recuperar España» en voxespana.es (octubre), de 6 páginas: resume sus prioridades, no es el programa electoral.",
-"Programa del 29-N: no publicado a 26 de octubre de 2026."
+"Candidato: Santiago Abascal. Actos revisados: mitin en Estepona (11-10), comparecencia en Ceuta (12-10) acto en Ponferrada (20-10) y acto en Segovia (22-10), y actos en Palma e Ibiza (24-10). Documento «Recuperar España» en voxespana.es (octubre), de 6 páginas: resume sus prioridades, no es el programa electoral. Presentación de candidatos en Talavera de la Reina (26-10), sin medidas nuevas.",
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
 ],
 "table": {
 "caption": "Vox: propuestas en mítines y actos, por tema",
@@ -35284,8 +36081,8 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio: qué ha propuesto en mítines y actos",
 "paragraphs": [
-"Candidata: Ada Colau. Actos revisados: declaraciones de Ernest Urtasun en Barcelona (14-10) mitin de presentación en Madrid (17-10) y declaraciones de Ernest Urtasun y Rosa Martínez en Barcelona (22-10), y manifestación por las pensiones en Madrid (24-10), y mitin en Móstoles (25-10).",
-"Programa del 29-N: no publicado a 26 de octubre de 2026."
+"Candidata: Ada Colau. Actos revisados: declaraciones de Ernest Urtasun en Barcelona (14-10) mitin de presentación en Madrid (17-10) y declaraciones de Ernest Urtasun y Rosa Martínez en Barcelona (22-10), y manifestación por las pensiones en Madrid (24-10), y mitin en Móstoles (25-10), y carta de Colau a los demás candidatos sobre el uso de la IA (26-10).",
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
 ],
 "table": {
 "caption": "Frente Amplio: propuestas en mítines y actos, por tema",
@@ -35375,6 +36172,17 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Otros: instituciones",
+"«Hay que regular legalmente el uso de la inteligencia artificial en campañas electorales». Mientras, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades.",
+"Ada Colau, carta a los candidatos, 26-10-2026"
+],
+"source": {
+"label": "elDiario.es, 26-10-2026: carta de Colau a los candidatos",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
 "Impuestos",
 "Urtasun propuso una prestación universal por crianza, concedida mediante deducciones en el IRPF, con un coste de unos 13.000 millones de euros según el partido.",
 "Ernest Urtasun y Rosa Martínez, Barcelona, 22-10-2026"
@@ -35392,7 +36200,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "title": "Podemos: qué ha propuesto en mítines y actos",
 "paragraphs": [
 "Candidata: Irene Montero. Actos revisados: presentación de su candidatura en Madrid (12-09, antes de la convocatoria), Consejo Ciudadano Estatal en Madrid (17-10) y «5 propuestas» publicadas en su cuenta oficial (19-10), y acto conjunto en Barcelona con ERC (24-10).",
-"Programa del 29-N: no publicado a 26 de octubre de 2026."
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
 ],
 "table": {
 "caption": "Podemos: propuestas en mítines y actos, por tema",
@@ -35488,8 +36296,8 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "title": "ERC: qué ha propuesto en mítines y actos",
 "paragraphs": [
 "Cabeza de lista por Barcelona: Gabriel Rufián. ERC y Podemos han acordado hacer campaña conjunta.",
-"Programa del 29-N: no publicado a 26 de octubre de 2026.",
-"No hemos encontrado propuestas concretas verificables en mítines a fecha de 26 de octubre."
+"Programa del 29-N: no publicado a 27 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 27 de octubre."
 ]
 },
 {
@@ -35497,8 +36305,8 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "title": "Junts: qué ha propuesto en mítines y actos",
 "paragraphs": [
 "Cabeza de lista al Congreso: Míriam Nogueras. Acto revisado: Consejo Nacional en La Garriga (Barcelona), 17-10.",
-"Programa del 29-N: no publicado a 26 de octubre de 2026.",
-"No hemos encontrado propuestas concretas verificables en mítines a fecha de 26 de octubre."
+"Programa del 29-N: no publicado a 27 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 27 de octubre."
 ]
 },
 {
@@ -35506,8 +36314,8 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "title": "EH Bildu: qué ha propuesto en mítines y actos",
 "paragraphs": [
 "Acto revisado: acto en Donostia, 10-10, con la portavoz en el Congreso, Mertxe Aizpurua.",
-"Programa del 29-N: no publicado a 26 de octubre de 2026.",
-"No hemos encontrado propuestas concretas verificables en mítines a fecha de 26 de octubre."
+"Programa del 29-N: no publicado a 27 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 27 de octubre."
 ]
 },
 {
@@ -35515,8 +36323,8 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "title": "PNV: qué ha propuesto en mítines y actos",
 "paragraphs": [
 "Cabezas de lista: Maribel Vaquero, Idoia Sagastizabal y Gorka Urtaran. Actos revisados: comparecencia en Donostia (10-10) y presentación de candidaturas (17-10).",
-"Programa del 29-N: no publicado a 26 de octubre de 2026.",
-"No hemos encontrado propuestas concretas verificables en mítines a fecha de 26 de octubre."
+"Programa del 29-N: no publicado a 27 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 27 de octubre."
 ]
 },
 {
@@ -35524,7 +36332,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "title": "BNG: qué ha propuesto en mítines y actos",
 "paragraphs": [
 "Diputado en el Congreso: Néstor Rego. Acto revisado: acto con familias afectadas por un desahucio en Narón (A Coruña), 17-10.",
-"Programa del 29-N: no publicado a 26 de octubre de 2026."
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
 ],
 "table": {
 "caption": "BNG: propuestas en mítines y actos, por tema",
@@ -35554,8 +36362,8 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "title": "Coalición Canaria: qué ha propuesto en mítines y actos",
 "paragraphs": [
 "Cabeza de lista por Santa Cruz de Tenerife: Cristina Valido, en candidatura conjunta con Primero Canarias.",
-"Programa del 29-N: no publicado a 26 de octubre de 2026.",
-"No hemos encontrado propuestas concretas verificables en mítines a fecha de 26 de octubre."
+"Programa del 29-N: no publicado a 27 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 27 de octubre."
 ]
 },
 {
@@ -35563,16 +36371,16 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "title": "UPN: qué ha propuesto en mítines y actos",
 "paragraphs": [
 "UPN concurre en Navarra en coalición con el PP.",
-"Programa del 29-N: no publicado a 26 de octubre de 2026.",
-"No hemos encontrado propuestas concretas verificables en mítines a fecha de 26 de octubre."
+"Programa del 29-N: no publicado a 27 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 27 de octubre."
 ]
 },
 {
 "id": "democracia-21",
 "title": "Democracia 21: qué ha propuesto en mítines y actos",
 "paragraphs": [
-"Candidata: Miriam González. Partido nuevo; concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en Madrid y Barcelona, según la Junta Electoral Central. Acto revisado: presentación en Madrid (10-10). El Mundo publicó el 22-10 el apartado de vivienda de su programa, al que dice haber tenido acceso; a 26 de octubre el partido no ha publicado el programa en democracia21.es.",
-"Programa del 29-N: no publicado a 26 de octubre de 2026."
+"Candidata: Miriam González. Partido nuevo; concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en Madrid y Barcelona, según la Junta Electoral Central. Acto revisado: presentación en Madrid (10-10). El Mundo publicó el 22-10 el apartado de vivienda de su programa, al que dice haber tenido acceso; a 27 de octubre el partido no ha publicado el programa en democracia21.es.",
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
 ],
 "table": {
 "caption": "Democracia 21: propuestas en mítines y actos, por tema",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "election": {
   "name": "Elecciones generales a Cortes (Congreso y Senado)",
   "date": "2026-11-29",
@@ -2091,6 +2091,61 @@
    "source_date": "2026-10-25",
    "source_type": "prensa",
    "who": "Toni Valero (IU, n.º 3 de Frente Amplio por Madrid), mitin en Móstoles, 25-10-2026"
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "psoe-constitucion-pensiones-ipc",
+   "party": "psoe",
+   "topic": "pensiones",
+   "profiles": [
+    "jubilado"
+   ],
+   "measure": "Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+   "quote": "La próxima legislatura reformaremos la Constitución para blindar las pensiones y su revalorización conforme al IPC",
+   "source_url": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html",
+   "source_title": "Europa Press: Sánchez en Gijón",
+   "source_date": "2026-10-26",
+   "source_type": "prensa",
+   "who": "Pedro Sánchez, mitin de precampaña en Gijón, 26-10-2026"
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "pp-vicepresidencia-vivienda",
+   "party": "pp",
+   "topic": "vivienda",
+   "profiles": [
+    "joven-alquiler"
+   ],
+   "measure": "Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+   "quote": "No será una ventanilla donde informar, no, será un mando único indiscutible",
+   "source_url": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html",
+   "source_title": "Vozpópuli: Feijóo y la vicepresidencia de vivienda",
+   "source_date": "2026-10-26",
+   "source_type": "prensa",
+   "who": "Alberto Núñez Feijóo, declaraciones a Vozpópuli, 26-10-2026"
+  },
+  {
+   "level": "estatal",
+   "tax": null,
+   "cost": null,
+   "impact": null,
+   "id": "fa-regular-ia-campanas",
+   "party": "frente-amplio",
+   "topic": "instituciones",
+   "profiles": [],
+   "measure": "Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+   "quote": "Hay que regular legalmente el uso de la inteligencia artificial en campañas electorales",
+   "source_url": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html",
+   "source_title": "elDiario.es: carta de Colau a los candidatos",
+   "source_date": "2026-10-26",
+   "source_type": "prensa",
+   "who": "Ada Colau, carta a Feijóo, Sánchez y Abascal, 26-10-2026"
   }
  ]
 }
