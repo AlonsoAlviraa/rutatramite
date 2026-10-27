@@ -19,10 +19,25 @@ describe("gestiones clave 2026-10-13 (Cl@ve, FNMT, vida laboral, SEPE, IMV)", ()
       expect(html).toContain('"@type":"FAQPage"');
       expect(html).toContain(g.h1);
     }
-    expect(guidesIn("/trabajo").map((g) => g.path).sort()).toEqual(["/trabajo/autonomos-cambio-base-cotizacion-2027", "/trabajo/cita-previa-sepe", "/trabajo/como-pedir-la-jubilacion",
-      "/trabajo/donativos-desgravar-antes-31-diciembre", "/trabajo/fondo-garantia-pago-alimentos-300-euros", "/trabajo/huelga-general-11-noviembre", "/trabajo/ingreso-minimo-vital",
+    expect(guidesIn("/trabajo").map((g) => g.path).sort()).toEqual(["/trabajo/autonomos-cambio-base-cotizacion-2027",
+      "/trabajo/carta-revalorizacion-pensiones-2027",
+      "/trabajo/cita-previa-sepe",
+      "/trabajo/como-pedir-la-jubilacion",
+      "/trabajo/donativos-desgravar-antes-31-diciembre",
+      "/trabajo/fondo-garantia-pago-alimentos-300-euros",
+      "/trabajo/huelga-general-11-noviembre",
+      "/trabajo/ingreso-minimo-vital",
+      "/trabajo/jubilacion-anticipada-2026",
       "/trabajo/mei-2027-cuanto-sube-cotizacion",
-      "/trabajo/nomina-enero-2027", "/trabajo/pension-viudedad-pareja-de-hecho-con-hijos", "/trabajo/revalorizacion-pensiones-2026", "/trabajo/salario-minimo-irpf-2026", "/trabajo/verifactu-obligatorio-1-enero-2027", "/trabajo/vida-laboral"]);
+      "/trabajo/nomina-enero-2027",
+      "/trabajo/pension-no-contributiva-2026",
+      "/trabajo/pension-viudedad-pareja-de-hecho-con-hijos",
+      "/trabajo/plan-auto-plus-ayuda-coche-electrico",
+      "/trabajo/regularizacion-cuotas-autonomos-notificacion",
+      "/trabajo/revalorizacion-pensiones-2026",
+      "/trabajo/salario-minimo-irpf-2026",
+      "/trabajo/verifactu-obligatorio-1-enero-2027",
+      "/trabajo/vida-laboral"]);
   });
   it("DNI validity follows RD 255/2025 (no 'permanente')", () => {
     const v = DNI_FAQS.find((f) => f.q.includes("Cuánto dura"))!;
