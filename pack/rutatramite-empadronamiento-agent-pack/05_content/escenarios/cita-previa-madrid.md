@@ -43,6 +43,8 @@ Usa el apartado «Documentación» y los formularios de la sede. Madrid ofrece a
 - Autorizaciones, representación y documentos de menores cuando correspondan.
 - Declaración relativa a personas inscritas que ya no viven allí, si es tu caso.
 
+Qué es la hoja padronal, quién la firma y qué documentos la acompañan: [formulario de empadronamiento en Madrid](/empadronarse/formulario-empadronamiento-madrid).
+
 No prepares el expediente solo con una lista nacional: los detalles de Madrid están en su ficha. Puedes orientarte con nuestras guías de [contrato propio](/empadronarse/con-contrato) o [sin contrato propio](/empadronarse/sin-contrato).
 
 ## Alternativa por internet y problemas de disponibilidad
