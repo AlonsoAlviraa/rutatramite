@@ -190,6 +190,12 @@ export function buildPilarModel() {
       paragraphs: [
         "Elige la guía que corresponde a tu caso y contrasta sus indicaciones con el procedimiento municipal.",
       ],
+      links: [
+        { href: "/empadronarse/documentos-necesarios", label: "Documentos necesarios para empadronarse" },
+        { href: "/empadronarse/cuanto-tarda-plazo", label: "Cuánto tarda: plazo de 3 meses y silencio positivo" },
+        { href: "/empadronarse/padron-y-voto-29n", label: "Padrón y voto el 29-N" },
+        { href: "/elecciones/cambio-de-domicilio-y-censo", label: "Me he mudado: ¿dónde voto el 29-N?" },
+      ],
     },
     {
       id: "cobertura",

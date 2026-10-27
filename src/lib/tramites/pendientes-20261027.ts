@@ -33,6 +33,9 @@ const S = {
   cert: { href: "https://prestaciones.seg-social.es/servicio/certificado-revalorizacion-pensiones.html", label: "Seguridad Social: certificado de revalorización de pensiones" },
   ine: { href: "https://www.ine.es/dynt3/Calendario/en/calenHTML.htm?q=2026", label: "INE: calendario de publicaciones 2026" },
   imserso: { href: "https://imserso.es/", label: "Imserso (pensiones no contributivas)" },
+  autoPres: { href: "https://www.mintur.gob.es/es-es/GabinetePrensa/NotasPrensa/2026/Paginas/El-Programa-Auto+-ayudara-con-hasta-4.500-euros-a-la-compra-de-vehiculos-electricos-y-europeos.aspx", label: "Ministerio de Industria: nota de 3-2-2026 (dotación de 400 millones de euros para 2026)" },
+  autoBdns: { href: "https://www.boe.es/boe/dias/2026/08/04/pdfs/BOE-B-2026-26062.pdf", label: "BOE-B-2026-26062: extracto de la convocatoria Línea 1 (350 millones de euros)" },
+  autoPlazo: { href: "https://www.mintur.gob.es/es-es/GabinetePrensa/NotasPrensa/2026/Paginas/industria-abre-plazo-solicitar-ayudas-programa-auto-plus-vehiculos-electricos.aspx", label: "Ministerio de Industria: apertura del plazo de solicitud del Programa Auto+" },
   auto: { href: "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-16010", label: "BOE: Real Decreto 609/2026 (Programa Auto+)" },
   sedeMin: { href: "https://sede.serviciosmin.gob.es/es-es/procedimientoselectronicos/Paginas/detalle-procedimientos.aspx?IdProcedimiento=308", label: "Sede del Ministerio de Industria: solicitud de la ayuda Auto+" },
 };
@@ -127,7 +130,7 @@ export const PENDIENTES_1027_GUIDES: Guide[] = [
     lead: "Respuesta corta: el Programa Auto+ (Real Decreto 609/2026) ayuda a comprar vehículos con etiqueta CERO. Para particulares, el máximo es 4.500 € en turismos y 5.000 € en furgonetas N1, y la cantidad real depende del tipo de vehículo, del precio y de si se montó en la Unión Europea. Se pide en la sede del Ministerio de Industria, con certificado digital o a través del concesionario, hasta el 31 de diciembre de 2026 o hasta agotar el presupuesto.",
     cta: { href: S.sedeMin.href, label: "Solicitar la ayuda en la sede de Industria" },
     secondaryCta: { href: S.auto.href, label: "Leer el Real Decreto 609/2026 en el BOE" },
-    sources: [S.auto, S.sedeMin],
+    sources: [S.auto, S.sedeMin, S.autoPres, S.autoBdns, S.autoPlazo],
     related: [L.trabajo],
     disclaimer: "Resumen del Real Decreto 609/2026. Las cuantías y requisitos exactos dependen del vehículo; comprueba la ficha del procedimiento antes de comprar.",
     faqs: [
@@ -135,6 +138,7 @@ export const PENDIENTES_1027_GUIDES: Guide[] = [
       { q: "¿Cuánto es para un eléctrico puro de menos de 35.000 €?", a: "Si se montó en la UE: 50 % + 25 % + 15 % = 90 % de 4.500 €, es decir 4.050 €. Con la batería también ensamblada en la UE (y el resto de condiciones), el 100 %: 4.500 €." },
       { q: "¿Y para un híbrido enchufable?", a: "Un PHEV de hasta 35.000 € montado en la UE: 25 % + 25 % + 15 % = 65 % de 4.500 €, es decir 2.925 €." },
       { q: "¿Hay precio máximo?", a: "Sí: 45.000 € para turismos y 10.000 € para motos, antes de impuestos y tras descuentos, extras incluidos." },
+      { q: "¿Cuánto dinero hay en total?", a: "El Ministerio de Industria anunció una dotación de 400 millones de euros para 2026 (nota de prensa del 3 de febrero de 2026). La convocatoria para particulares (Línea 1) cuenta con 350 millones, según su extracto en el BOE (BOE-B-2026-26062). Las solicitudes se atienden por orden de presentación hasta agotar los fondos." },
       { q: "¿Tengo que quedarme el coche?", a: "Sí, al menos 2 años (artículo 10 del real decreto)." },
     ],
     sections: [
@@ -142,6 +146,7 @@ export const PENDIENTES_1027_GUIDES: Guide[] = [
       sec("maximos", "Importes máximos para particulares (Línea 1)", ["Anexo II del Real Decreto 609/2026."], [["Turismos (M1): 4.500 €", "Furgonetas (N1): 5.000 €", "Motos L3e, L4e, L5e: 1.100 €", "Cuadriciclos L6e, L7e: 1.500 €"]]),
       sec("porcentajes", "Cómo se calcula el porcentaje", ["La ayuda suma tres componentes, en porcentaje del máximo."], [["Tipo: eléctrico puro 50 %; autonomía extendida o enchufable 25 %", "Precio: turismo hasta 35.000 € 25 %; de 35.000 a 45.000 € 15 %; otros vehículos 25 %", "Montaje: montaje final en la UE 15 %, más 10 % si la batería se ensambló en la UE"]]),
       sec("como", "Cómo se pide", ["La solicitud se presenta en la sede electrónica del Ministerio de Industria con certificado digital. El concesionario puede presentarla en tu nombre como representante. Si falta algo, tienes 10 días para subsanar. El plazo indicado en la sede va del 4 de agosto al 31 de diciembre de 2026."]),
+      sec("presupuesto", "Presupuesto: 400 millones para 2026", ["El Ministerio de Industria fijó una dotación de 400 millones de euros para 2026, con efecto retroactivo desde el 1 de enero de 2026 (nota de prensa del 3 de febrero de 2026). La Línea 1, para particulares, tiene 350 millones según el extracto de la convocatoria publicado en el BOE (BOE-B-2026-26062), con plazo hasta las 14:00 (hora peninsular) del 31 de diciembre de 2026. Las ayudas se conceden por orden de presentación hasta agotar los fondos, así que conviene no dejarlo para el final."]),
     ],
   },
   {

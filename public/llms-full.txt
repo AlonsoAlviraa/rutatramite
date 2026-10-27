@@ -103,6 +103,9 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 ## Mudanza
 
 - [Índice: Mudanza](https://rutatramite.com/mudanza)
+- [Documentos necesarios para empadronarse en España](https://rutatramite.com/empadronarse/documentos-necesarios)
+- [¿Cuánto tarda el empadronamiento? Plazo de 3 meses y silencio positivo](https://rutatramite.com/empadronarse/cuanto-tarda-plazo)
+- [Padrón y voto el 29-N: dónde votas si te empadronaste hace poco](https://rutatramite.com/empadronarse/padron-y-voto-29n)
 - [Me he mudado: padrón, domicilio fiscal y otros trámites](https://rutatramite.com/mudanza)
 - [Cambiar el domicilio del DNI: exención y documentos](https://rutatramite.com/dni/cambio-domicilio)
 - [Modelo 030: quién lo usa para cambiar de domicilio y en qué plazo](https://rutatramite.com/hacienda/modelo-030)
