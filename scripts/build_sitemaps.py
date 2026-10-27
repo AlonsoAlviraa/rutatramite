@@ -381,6 +381,7 @@ CORE = [
     "/empadronarse/documentos-necesarios",
     "/empadronarse/cuanto-tarda-plazo",
     "/empadronarse/padron-y-voto-29n",
+    "/empadronarse/formulario-empadronamiento-madrid",
     "/colegio",
     "/colegio/cambiar-de-colegio-fuera-de-plazo",
     "/colegio/cambio-de-colegio-por-mudanza",
