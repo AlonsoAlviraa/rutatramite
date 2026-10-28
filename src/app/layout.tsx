@@ -1,13 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import { Newsreader, Public_Sans } from "next/font/google";
-import { NextIntlClientProvider } from "next-intl";
 import { JsonLd } from "@/components/empadronamiento/JsonLd";
 import { SiteFooter } from "@/components/empadronamiento/SiteFooter";
 import { SiteHeader } from "@/components/empadronamiento/SiteHeader";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo/jsonld";
-import { PRODUCT_NAME, SITE_ORIGIN } from "@/lib/types";
-import messages from "../../messages/es.json";
+import { ADSENSE_CLIENT, PRODUCT_NAME, SITE_ORIGIN } from "@/lib/types";
 import "./globals.css";
+import { Metrics } from "@/components/ui/Metrics";
 
 const sans = Public_Sans({
   subsets: ["latin"],
@@ -42,7 +41,7 @@ export const metadata: Metadata = {
   category: "reference",
   alternates: {
     canonical: SITE_ORIGIN,
-    languages: { es: SITE_ORIGIN },
+    languages: { es: SITE_ORIGIN, "x-default": SITE_ORIGIN },
   },
   openGraph: {
     type: "website",
@@ -61,22 +60,28 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   formatDetection: { telephone: false, email: false, address: false },
-  other: { "geo.region": "ES" },
+  other: { "geo.region": "ES", "google-adsense-account": ADSENSE_CLIENT },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className={`${sans.variable} ${display.variable}`}>
+      <head>
+        <script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="min-h-screen font-sans antialiased">
         <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
-        <NextIntlClientProvider locale="es" messages={messages} timeZone="Europe/Madrid">
-          <a className="skip-link" href="#contenido">
-            Saltar al contenido
-          </a>
-          <SiteHeader />
-          <main id="contenido">{children}</main>
-          <SiteFooter />
-        </NextIntlClientProvider>
+        <a className="skip-link" href="#contenido" tabIndex={0}>
+          Saltar al contenido
+        </a>
+        <SiteHeader />
+        <main id="contenido">{children}</main>
+        <SiteFooter />
+        <Metrics />
       </body>
     </html>
   );

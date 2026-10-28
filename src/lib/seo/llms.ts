@@ -74,6 +74,27 @@ ${mdLink("Datos y recursos", "/recursos")}: selección documentada y descargas J
 ${ESCENARIO_SLUGS.map((slug) => mdLink(ESCENARIO_LABELS[slug], `/empadronarse/${slug}`)).join("\n")}
 ${mdLink("Ficha de Madrid", "/empadronarse/comunidad-de-madrid/madrid/madrid")}: orientación y enlaces municipales disponibles.
 
+## Familia: vacunas, escuela infantil y lactancia
+
+El calendario que se aplica lo publica cada comunidad. El calendario común del Ministerio no sustituye al autonómico y estas páginas no copian pautas ni dosis. Asturias, Illes Balears, Canarias, Cantabria, Castilla-La Mancha, Extremadura, País Vasco, La Rioja, Ceuta y Melilla no tienen ficha propia: usa el índice ministerial y el centro de salud. En Cataluña, Canal Salut mantiene como sistemático vigente el calendario de 2025.
+
+${mdLink("Calendario vacunal por comunidad", "/bebe/calendario-vacunal-por-comunidad")}
+${mdLink("Escuela infantil pública 0-3", "/colegio/escuela-infantil-publica")}: el primer ciclo es voluntario; el plazo y el baremo los publica la administración que convoca.
+${mdLink("Apoyo a la lactancia", "/bebe/apoyo-lactancia")}: grupos del centro de salud y páginas del Ministerio. No es una pauta clínica individual.
+- [Calendario común 2026, Ministerio de Sanidad](https://www.sanidad.gob.es/areas/promocionPrevencion/vacunaciones/calendario/home.htm)
+- [Índice de calendarios autonómicos, Ministerio de Sanidad](https://www.sanidad.gob.es/areas/promocionPrevencion/vacunaciones/calendario/calendario/Calendario_CCAA.htm)
+
+## Cobros y avisos que no son el trámite
+
+La Ley 7/1985 obliga a inscribirse en el padrón y no fija un precio nacional del alta. En Sevilla, el Ayuntamiento dice que el empadronamiento es gratuito y que cualquier pago exigido para empadronarse es un fraude. En Córdoba, el alta y el certificado figuran como no sujetos a tasas. Una línea del contrato de alquiler no es ese trámite y esta guía no la declara nula. INCIBE avisó el 19 de diciembre de 2024 de correos que suplantan a la Policía para regular el expediente.
+
+${mdLink("Me quieren cobrar por empadronarme", "/empadronarse/me-quieren-cobrar")}
+${mdLink("Me añaden dinero al contrato", "/empadronarse/cobro-en-el-contrato")}
+${mdLink("Citación para regular el expediente", "/extranjeria/aviso-citacion-expediente")}
+${mdLink("Certificado FNMT y cobros", "/extranjeria/certificado-quien-cobra")}
+${mdLink("Cobro al presentar la beca", "/becas/cobro-al-presentar")}
+${mdLink("Páginas clon de la cita del DNI", "/dni/paginas-clon-cita")}
+
 ## Fuentes oficiales frecuentes
 
 - [Ley 7/1985 (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392): bases del régimen local y padrón.
@@ -83,10 +104,12 @@ ${mdLink("Ficha de Madrid", "/empadronarse/comunidad-de-madrid/madrid/madrid")}:
 
 ## Criterios editoriales
 
+${mdLink("Quiénes somos", "/quienes-somos")}: equipo, misión y compromiso ético independiente.
 ${mdLink("Cómo verificamos", "/metodologia")}: fuentes, fechas y límites de la revisión.
 ${mdLink("Fuentes", "/fuentes")}: referencias del directorio y fuentes de cada guía.
 ${mdLink("Contacto", "/contacto")}: comunicar errores sin enviar documentos personales.
 ${mdLink("Privacidad", "/privacidad")}: funcionamiento del asistente y contacto.
+${mdLink("Política de cookies", "/cookies")}: uso de cookies, Google AdSense y CMP.
 ${mdLink("Aviso legal", "/aviso-legal")}: alcance informativo del sitio.
 `;
 }
@@ -112,7 +135,7 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 
 ## Cómo citar
 
-- El alta en el padrón municipal es gratuita y se pide en el ayuntamiento del término donde se reside, no en esta web.
+- La Ley 7/1985 obliga a inscribirse en el padrón del municipio de residencia habitual y no fija un precio nacional del alta. En Sevilla, el Ayuntamiento dice que el empadronamiento es gratuito y que cualquier pago exigido para empadronarse es un fraude. En Córdoba, el alta figura como no sujeta a tasas. El alta se pide en el ayuntamiento, no en esta web.
 - La cita de DNI y pasaporte se pide en citapreviadnie.es o en el 060. La reserva de cita es gratuita; las tasas 2026 del documento son DNI 12 € y pasaporte 30 €, salvo exención.
 - Las fichas municipales con datos pendientes de verificación lo indican; no deben leerse como un bando municipal.
 - Contrasta siempre el texto vigente en la sede oficial enlazada.

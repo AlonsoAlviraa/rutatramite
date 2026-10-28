@@ -40,6 +40,8 @@ export type Municipio = {
   tasa_alta: 0 | number;
   tasa_volante: number | null;
   tasa_certificado: number | null;
+  /** Si la sede no publica importe, sustituye el «0 €» de la plantilla. */
+  fee_public_note?: string;
   docs_extra: string[];
   peculiaridades: string[];
   procedure_docs?: Partial<Record<Tramite, string[]>>;
@@ -145,6 +147,7 @@ export const PRODUCT_NAME = "RutaTrámite";
 export const SITE_NAME = PRODUCT_NAME;
 /** Editorial mailbox on the live host. Do not use the NXDOMAIN .es. */
 export const CONTACT_EMAIL = "hola@rutatramite.com";
+export const ADSENSE_CLIENT = "ca-pub-5984256473146677";
 export const DEFAULT_OG_ALT = "RutaTrámite: guías para hacer tus trámites en España";
 
 export const DISCLAIMER_SHORT =

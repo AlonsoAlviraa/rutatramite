@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://rutatramite.com/recursos/padron-municipal</loc></url>
+  <url><loc>https://rutatramite.com/ayudas</loc></url>
+  <url><loc>https://rutatramite.com/transporte</loc></url>
+  <url><loc>https://rutatramite.com/alquiler</loc></url>
+  <url><loc>https://rutatramite.com/alquiler/ayudas-por-comunidad</loc></url>
+  <url><loc>https://rutatramite.com/alquiler/bono-alquiler-joven</loc></url>
+  <url><loc>https://rutatramite.com/alquiler/plan-vivienda-2026-2030</loc></url>
+  <url><loc>https://rutatramite.com/alquiler/bono-alquiler-joven-madrid</loc></url>
+  <url><loc>https://rutatramite.com/alquiler/bono-alquiler-joven-andalucia</loc></url>
+  <url><loc>https://rutatramite.com/alquiler/ayudas-alquiler-cataluna</loc></url>
+  <url><loc>https://rutatramite.com/alquiler/decretos-vivienda-derogados-octubre-2026</loc></url>
+  <url><loc>https://rutatramite.com/alquiler/propuestas-vivienda-6-octubre-2026</loc></url>
+  <url><loc>https://rutatramite.com/elecciones</loc></url>
+  <url><loc>https://rutatramite.com/elecciones/voto-por-correo</loc></url>
+  <url><loc>https://rutatramite.com/elecciones/calendario-29-noviembre</loc></url>
+  <url><loc>https://rutatramite.com/elecciones/quien-puede-votar</loc></url>
+  <url><loc>https://rutatramite.com/elecciones/nuevo-partido-coalicion</loc></url>
+  <url><loc>https://rutatramite.com/elecciones/huelga-general-sindicatos</loc></url>
+  <url><loc>https://rutatramite.com/becas/ayudas-estudiantes</loc></url>
+  <url><loc>https://rutatramite.com/becas/apoyo-educativo</loc></url>
   <url><loc>https://rutatramite.com/</loc></url>
-  <url><loc>https://rutatramite.com/empadronarse</loc></url>
+  <url><loc>https://rutatramite.com/empadronarse</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/quienes-somos</loc></url>
   <url><loc>https://rutatramite.com/metodologia</loc></url>
   <url><loc>https://rutatramite.com/fuentes</loc></url>
   <url><loc>https://rutatramite.com/aviso-legal</loc></url>
   <url><loc>https://rutatramite.com/privacidad</loc></url>
+  <url><loc>https://rutatramite.com/cookies</loc></url>
   <url><loc>https://rutatramite.com/contacto</loc></url>
   <url><loc>https://rutatramite.com/empadronarse/con-contrato</loc></url>
   <url><loc>https://rutatramite.com/empadronarse/sin-contrato</loc></url>
@@ -18,8 +40,10 @@
   <url><loc>https://rutatramite.com/empadronarse/volante-vs-certificado</loc></url>
   <url><loc>https://rutatramite.com/empadronarse/renovacion-2-anos</loc></url>
   <url><loc>https://rutatramite.com/empadronarse/cambio-de-domicilio</loc></url>
+  <url><loc>https://rutatramite.com/empadronarse/me-quieren-cobrar</loc></url>
+  <url><loc>https://rutatramite.com/empadronarse/cobro-en-el-contrato</loc></url>
   <url><loc>https://rutatramite.com/empadronarse/baja</loc></url>
-  <url><loc>https://rutatramite.com/dni</loc></url>
+  <url><loc>https://rutatramite.com/dni</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://rutatramite.com/dni/cita-previa</loc></url>
   <url><loc>https://rutatramite.com/dni/renovar-caducado</loc></url>
   <url><loc>https://rutatramite.com/dni/misma-cita-pasaporte</loc></url>
@@ -29,7 +53,7 @@
   <url><loc>https://rutatramite.com/dni/midni</loc></url>
   <url><loc>https://rutatramite.com/dni/unidades-moviles</loc></url>
   <url><loc>https://rutatramite.com/dni/cambio-domicilio</loc></url>
-  <url><loc>https://rutatramite.com/pasaporte</loc></url>
+  <url><loc>https://rutatramite.com/pasaporte</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://rutatramite.com/pasaporte/cita-previa</loc></url>
   <url><loc>https://rutatramite.com/pasaporte/urgente</loc></url>
   <url><loc>https://rutatramite.com/pasaporte/caducado-sin-cita</loc></url>
@@ -82,6 +106,7 @@
   <url><loc>https://rutatramite.com/bebe/inscripcion-nacimiento-registro-civil</loc></url>
   <url><loc>https://rutatramite.com/becas</loc></url>
   <url><loc>https://rutatramite.com/becas/mec</loc></url>
+  <url><loc>https://rutatramite.com/becas/cobro-al-presentar</loc></url>
   <url><loc>https://rutatramite.com/becas/mec/plazo</loc></url>
   <url><loc>https://rutatramite.com/becas/mec/modificar-datos</loc></url>
   <url><loc>https://rutatramite.com/becas/mec/cuando-se-cobra</loc></url>
@@ -102,19 +127,31 @@
   <url><loc>https://rutatramite.com/extranjeria/tie-recogida-cuanto-tarda</loc></url>
   <url><loc>https://rutatramite.com/extranjeria/autorizacion-regreso-ex13</loc></url>
   <url><loc>https://rutatramite.com/extranjeria/certificado-digital-nie</loc></url>
+  <url><loc>https://rutatramite.com/extranjeria/aviso-citacion-expediente</loc></url>
+  <url><loc>https://rutatramite.com/extranjeria/certificado-quien-cobra</loc></url>
   <url><loc>https://rutatramite.com/colegio/cambiar-de-colegio-a-mitad-de-curso</loc></url>
   <url><loc>https://rutatramite.com/colegio/cambio-de-colegio-por-acoso</loc></url>
   <url><loc>https://rutatramite.com/colegio/lista-espera-escuela-infantil</loc></url>
+  <url><loc>https://rutatramite.com/colegio/escuela-infantil-publica</loc></url>
   <url><loc>https://rutatramite.com/colegio/inscripcion-extraescolares-ayuntamiento</loc></url>
   <url><loc>https://rutatramite.com/comedor/beca-comedor-2026-2027</loc></url>
   <url><loc>https://rutatramite.com/comedor/menu-especial-comedor</loc></url>
-  <url><loc>https://rutatramite.com/comedor/t16-como-solicitar</loc></url>
-  <url><loc>https://rutatramite.com/comedor/abono-joven-estudiante</loc></url>
+  <url><loc>https://rutatramite.com/transporte/t16-como-solicitar</loc></url>
+  <url><loc>https://rutatramite.com/transporte/abono-joven-estudiante</loc></url>
   <url><loc>https://rutatramite.com/fp/cambiar-de-instituto-a-mitad-de-curso</loc></url>
   <url><loc>https://rutatramite.com/fp/documentos-matricula-eso</loc></url>
   <url><loc>https://rutatramite.com/fp/reserva-de-plaza-fp</loc></url>
   <url><loc>https://rutatramite.com/bebe/calendario-vacunal-madrid</loc></url>
   <url><loc>https://rutatramite.com/bebe/calendario-vacunal-castilla-y-leon</loc></url>
+  <url><loc>https://rutatramite.com/bebe/calendario-vacunal-por-comunidad</loc></url>
+  <url><loc>https://rutatramite.com/bebe/calendario-vacunal-andalucia</loc></url>
+  <url><loc>https://rutatramite.com/bebe/calendario-vacunal-aragon</loc></url>
+  <url><loc>https://rutatramite.com/bebe/calendario-vacunal-cataluna</loc></url>
+  <url><loc>https://rutatramite.com/bebe/calendario-vacunal-comunitat-valenciana</loc></url>
+  <url><loc>https://rutatramite.com/bebe/calendario-vacunal-murcia</loc></url>
+  <url><loc>https://rutatramite.com/bebe/calendario-vacunal-galicia</loc></url>
+  <url><loc>https://rutatramite.com/bebe/calendario-vacunal-navarra</loc></url>
+  <url><loc>https://rutatramite.com/bebe/apoyo-lactancia</loc></url>
   <url><loc>https://rutatramite.com/bebe/certificado-vacunacion-descargar</loc></url>
   <url><loc>https://rutatramite.com/bebe/cartilla-vacunacion-digital</loc></url>
   <url><loc>https://rutatramite.com/bebe/libro-de-familia-vigente</loc></url>
@@ -156,6 +193,8 @@
   <url><loc>https://rutatramite.com/acuse-de-recibo-modelo</loc></url>
   <url><loc>https://rutatramite.com/modelo-subsanacion</loc></url>
   <url><loc>https://rutatramite.com/modelo-030-cambio-domicilio</loc></url>
+  <url><loc>https://rutatramite.com/descargas</loc></url>
+  <url><loc>https://rutatramite.com/recursos</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://rutatramite.com/empadronarse/andalucia</loc></url>
   <url><loc>https://rutatramite.com/empadronarse/andalucia/almeria</loc></url>
   <url><loc>https://rutatramite.com/empadronarse/andalucia/cadiz</loc></url>
@@ -227,5 +266,22 @@
   <url><loc>https://rutatramite.com/empadronarse/ceuta/ceuta</loc></url>
   <url><loc>https://rutatramite.com/empadronarse/melilla</loc></url>
   <url><loc>https://rutatramite.com/empadronarse/melilla/melilla</loc></url>
-  <url><loc>https://rutatramite.com/empadronarse/comunidad-de-madrid/madrid/madrid</loc><lastmod>2026-09-03</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/comunidad-de-madrid/madrid/madrid</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/cataluna/barcelona/barcelona</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/comunidad-valenciana/valencia/valencia</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/aragon/zaragoza/zaragoza</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/andalucia/sevilla/sevilla</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/andalucia/malaga/malaga</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/region-de-murcia/murcia/murcia</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/illes-balears/illes-balears/palma</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/comunidad-valenciana/alicante/alacant-alicante</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/pais-vasco/bizkaia/bilbao</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/andalucia/cordoba/cordoba</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/castilla-y-leon/valladolid/valladolid</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/galicia/pontevedra/vigo</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/cataluna/barcelona/lhospitalet-de-llobregat</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/galicia/a-coruna/la-coruna</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/comunidad-valenciana/alicante/elx-elche</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/andalucia/granada/granada</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://rutatramite.com/empadronarse/cataluna/barcelona/terrassa</loc><lastmod>2026-10-10</lastmod></url>
 </urlset>
