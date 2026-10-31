@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Wizard } from "@/components/empadronamiento/Wizard";
 import { Disclaimer } from "@/components/empadronamiento/Disclaimer";
 import { PackCard } from "@/components/ui/PackCard";
+import { PARTY_PAGES } from "@/components/tramites/PackIndex";
 import { PageShell } from "@/components/ui/PageShell";
 import { DirectorySearch } from "@/components/ui/DirectorySearch";
 import { GeoLead } from "@/components/ui/GeoLead";
@@ -66,6 +67,21 @@ const POPULARES = [
   { href: "/elecciones/que-pasa-si-no-voto", label: "¿Qué pasa si no voto?" },
   { href: "/trabajo/revalorizacion-pensiones-2026", label: "Revalorización de pensiones 2026" },
   { href: "/descargas", label: "Formularios oficiales (EX-10 y más)" },
+  // 2026-10-31: resto del top-30 por clics (GSC, 28 días a 2026-10-27) que aún no se enlazaba desde la portada.
+  // Las páginas sobre un solo partido se enlazan desde la lista simétrica de fichas y desde /elecciones.
+  { href: "/elecciones/sorteo-mesa-electoral-29n", label: "¿Me ha tocado mesa? Sorteo y aviso" },
+  { href: "/elecciones/notificacion-mesa-electoral-que-hacer", label: "Notificación de mesa: qué hacer" },
+  { href: "/elecciones/voluntario-mesa-electoral", label: "¿Se puede pedir ser mesa electoral?" },
+  { href: "/elecciones/mesa-electoral-cuidado-familiar-dependiente", label: "Mesa y cuidas de un familiar dependiente" },
+  { href: "/elecciones/candidaturas-29n-boe", label: "Listas electorales del 29-N en el BOE" },
+  { href: "/elecciones/a-quien-beneficia-el-voto-en-blanco", label: "Voto en blanco, nulo y abstención" },
+  { href: "/elecciones/voto-util-29n", label: "Voto útil: qué es" },
+  { href: "/elecciones/papeleta-rota-voto-nulo", label: "Papeleta rota: ¿voto nulo?" },
+  { href: "/elecciones/escribir-en-la-papeleta", label: "Escribir en la papeleta" },
+  { href: "/elecciones/objeto-en-el-sobre-de-votacion", label: "Un objeto en el sobre de votación" },
+  { href: "/elecciones/cis-preelectoral-29n", label: "CIS preelectoral del 29-N" },
+  { href: "/elecciones/como-se-hace-una-encuesta-electoral", label: "Cómo se hace una encuesta electoral" },
+  { href: "/trabajo/huelga-general-11-noviembre", label: "Huelga general del 11 de noviembre" },
 ] as const;
 
 const CASOS = [
@@ -124,7 +140,9 @@ export default function HomePage() {
           {" · "}
           <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-vivienda">Vivienda: qué propone cada partido</a>
           {" · "}
-          <a className="underline" href="/elecciones/promesas/partido-frente-amplio">Frente Amplio: sus propuestas</a>
+          <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-sanidad">Sanidad: qué propone cada partido</a>
+          {". Ficha de cada partido: "}
+          {PARTY_PAGES.map((p, i) => (<span key={p.href}>{i ? " · " : ""}<a className="underline" href={p.href}>{p.label}</a></span>))}
         </p>
       </section>
 

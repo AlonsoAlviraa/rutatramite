@@ -25,6 +25,16 @@ import { PROMESAS_29N_NOTE, PROMESAS_29N_UPDATED } from "@/lib/tramites/promesas
 import { absoluteUrl } from "@/lib/geo/paths";
 import { articleJsonLd } from "@/lib/seo/jsonld";
 
+// 2026-10-31: enlaces simétricos a las 6 fichas de partido, mismo orden que la comparativa (votos en 2023).
+export const PARTY_PAGES = [
+  { href: "/elecciones/promesas/partido-pp", label: "PP" },
+  { href: "/elecciones/promesas/partido-psoe", label: "PSOE" },
+  { href: "/elecciones/promesas/partido-vox", label: "Vox" },
+  { href: "/elecciones/promesas/partido-frente-amplio", label: "Frente Amplio" },
+  { href: "/elecciones/promesas/partido-podemos", label: "Podemos" },
+  { href: "/elecciones/promesas/partido-democracia-21", label: "Democracia 21" },
+] as const;
+
 /** Shared document heading for the hubs whose title and H1 must match. */
 export const PACK_DOCUMENT_HEADINGS = {
   viaje: "Tasas DNI y pasaporte España 2026: 12 € y 30 €, cita previa",
@@ -238,7 +248,10 @@ export function PackIndex({ pack, focus }: { pack: GuidePack; focus?: "pasaporte
           <ul className="mt-2 list-disc space-y-1 pl-5">
             <li><a className="underline" href="/elecciones/promesas">Promesas del 29-N: qué propone cada partido, por comunidad y perfil</a></li>
             <li><a className="underline" href="/elecciones/promesas/que-propone-cada-partido-vivienda">Vivienda: qué propone cada partido</a></li>
-            <li><a className="underline" href="/elecciones/promesas/partido-frente-amplio">Frente Amplio: sus propuestas para el 29-N</a></li>
+            <li><a className="underline" href="/elecciones/promesas/que-propone-cada-partido-sanidad">Sanidad: qué propone cada partido</a></li>
+            <li data-partidos-simetricos="">Ficha de cada partido (orden por votos en 2023):{" "}
+              {PARTY_PAGES.map((p, i) => (<span key={p.href}>{i ? " · " : ""}<a className="underline" href={p.href}>{p.label}</a></span>))}
+            </li>
             <li><a className="underline" href="/ayudas-por-gobierno">Ayudas del Estado según cada gobierno desde 1996 (informativo, no partidista)</a></li>
           </ul>
         </section>

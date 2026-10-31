@@ -8,6 +8,7 @@ import { HUB_REVIEWED_AT, type HubModel } from "@/lib/hub/buildHub";
 import { ccaaPath, provinciaPath } from "@/lib/geo/paths";
 import { articleJsonLd } from "@/lib/seo/jsonld";
 import { ccaaBySlug, loadTerritories } from "@/lib/geo/territories";
+import { CIUDADES_AUTONOMAS_PADRON } from "@/lib/hub/ciudadesAutonomas";
 
 const RELATED_ESCENARIOS = [
   { href: "/empadronarse/sin-contrato", label: "Sin contrato" },
@@ -37,7 +38,8 @@ export function HubView({
   }
   const top = model.municipios.slice(0, 10);
   const rest = model.municipios.slice(10);
-  const dateModified = model.reviewedAt ?? HUB_REVIEWED_AT;
+  const ciudad = !provinceSlug ? CIUDADES_AUTONOMAS_PADRON[ccaaSlug] : undefined;
+  const dateModified = ciudad?.reviewedOn ?? model.reviewedAt ?? HUB_REVIEWED_AT;
   const provinces = provinceSlug ? [] : (ccaaBySlug(ccaaSlug)?.province_codes ?? []).map(code => loadTerritories().provinces[code]).filter(Boolean);
   return (
     <PageShell as="article" data-hub={model.kind}>
@@ -83,6 +85,21 @@ export function HubView({
         <>
           <h2 className="mt-10 font-display text-2xl text-mossDark">Municipios de este territorio</h2>
           <p>Aún no hemos incorporado fichas de este territorio a nuestro catálogo.</p>
+          {ciudad ? (
+            <section aria-labelledby="hub-ciudad" className="mt-8" data-hub-ciudad={ccaaSlug}>
+              <h2 id="hub-ciudad" className="font-display text-2xl text-mossDark">Cómo empadronarse en {region?.name ?? model.h1}, según su sede oficial</h2>
+              <p className="mt-3 leading-relaxed"><strong>Quién lo tramita:</strong> {ciudad.organo}</p>
+              <h3 className="mt-4 font-display text-xl text-mossDark">Dónde se pide</h3>
+              <ul className="mt-2 list-disc space-y-1 pl-5">{ciudad.canales.map((c, i) => <li key={i}>{c}</li>)}</ul>
+              <h3 className="mt-4 font-display text-xl text-mossDark">Documentos que pide la sede</h3>
+              <ul className="mt-2 list-disc space-y-1 pl-5">{ciudad.documentos.map((c, i) => <li key={i}>{c}</li>)}</ul>
+              {ciudad.notas.map((n, i) => <p key={i} className="mt-3 leading-relaxed">{n}</p>)}
+              <p className="mt-3 text-sm">
+                {ciudad.links.map((l, i) => <span key={l.href}>{i ? " · " : ""}<a className="inline-flex min-h-11 items-center underline underline-offset-4" href={l.href} rel="noopener">{l.label}</a></span>)}
+                {" "}<span className="text-ink/70">Revisado: <time dateTime={ciudad.reviewedOn}>{ciudad.reviewedOn}</time>. Por Equipo RutaTrámite.</span>
+              </p>
+            </section>
+          ) : null}
         </>
       )}
       {rest.length > 0 ? (

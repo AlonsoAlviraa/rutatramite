@@ -14,6 +14,7 @@ python3 $S/sync_promesas_pp_sevilla_20261021.py
 [ "$WITH27" = 1 ] && python3 $S/sync_promesas_mitines_20261027.py
 python3 $S/gen_promesas_29n.py
 python3 $S/splice_promesas_ts.py
+python3 $S/dedupe_promesas_ccaa_20261031.py
 python3 $S/patch_promesas_temas_20261019.py
 python3 $S/edit_programas_mitines_20261019.py
 python3 $S/exploit_clicks_20261019.py

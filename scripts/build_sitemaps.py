@@ -623,8 +623,16 @@ FRESH_LASTMOD = {
 }
 
 
+# 2026-10-31: fecha real de contenido por URL (dateModified del JSON-LD de cada página,
+# generado con scripts/content_dates.py). Se usa la más reciente entre esa, FRESH_LASTMOD
+# y la fecha de verificación del dato; si ninguna existe, no se emite <lastmod>.
+_CD = Path(__file__).resolve().parents[1] / "data/sitemap-lastmod.json"
+CONTENT_DATES: dict[str, str] = json.loads(_CD.read_text(encoding="utf-8")) if _CD.exists() else {}
+
+
 def url_entry(path: str, lastmod: str | None = None) -> str:
-    lastmod = FRESH_LASTMOD.get(path, lastmod)
+    dates = [d[:10] for d in (lastmod, FRESH_LASTMOD.get(path), CONTENT_DATES.get(path)) if d]
+    lastmod = max(dates) if dates else None
     loc = escape(f"{ORIGIN}{path}")
     modified = f"<lastmod>{escape(lastmod)}</lastmod>" if lastmod else ""
     return f"  <url><loc>{loc}</loc>{modified}</url>"
