@@ -44,6 +44,8 @@ import { PENDIENTES_1027_GUIDES, enlazarPendientes1027 } from "@/lib/tramites/pe
 import { TARJETA_MADRID_1027_GUIDES, enlazarTarjetaMadrid1027 } from "@/lib/tramites/tarjeta-madrid-20261027";
 import { FORM_CIUDADES_1027_GUIDES, enlazarFormCiudades1027 } from "@/lib/tramites/formularios-ciudades-20261027";
 import { FORM_CIUDADES2_1027_GUIDES, enlazarFormCiudades2_1027 } from "@/lib/tramites/formularios-ciudades2-20261027";
+import { MESAS_CIUDADES_1031_GUIDES, enlazarMesasCiudades1031 } from "@/lib/tramites/mesas-ciudades-20261031";
+import { MESAS_CIUDADES_1031B_ALL, enlazarMesasCiudades1031b } from "@/lib/tramites/mesas-ciudades-20261031b";
 import { EMPADRONAMIENTO_1027_GUIDES, enlazarEmpadronamiento1027 } from "@/lib/tramites/empadronamiento-20261027";
 import { AUTONOMOS_VERIFACTU_20261025_GUIDES, enlazarAutonomosVerifactu } from "@/lib/tramites/autonomos-verifactu-20261025";
 import { SITUACIONES_ESPECIALES_GUIDES, enlazarSituacionesEspeciales } from "@/lib/tramites/votar-situaciones-especiales-20261026";
@@ -82,6 +84,8 @@ export const ALL_GUIDES: Guide[] = [
   ...EMPADRONAMIENTO_1027_GUIDES,
   ...TARJETA_MADRID_1027_GUIDES,
   ...FORM_CIUDADES_1027_GUIDES, ...FORM_CIUDADES2_1027_GUIDES,
+  ...MESAS_CIUDADES_1031_GUIDES,
+  ...MESAS_CIUDADES_1031B_ALL,
   ...TERRITORIO_29N_GUIDES,
   ...TRANSPORTE_29N_GUIDES,
   ...SITUACIONES_ESPECIALES_GUIDES,
@@ -101,7 +105,7 @@ export const ALL_GUIDES: Guide[] = [
   ...FAMILIA_CCAA_GUIDES,
   ...COBROS_AVISOS_GUIDES,
   ...MODELO_GUIDES,
-].map(ampliarCartas).map(mejorar20261024).map(enlazarAutonomosVerifactu).map(ampliarTerritorio).map(enlazarTransporte).map(mejorarCtr20261026).map(enlazarSituacionesEspeciales).map(enlazarDonativosNomina).map(enlazarPendientes1027).map(enlazarEmpadronamiento1027).map(enlazarTarjetaMadrid1027).map(enlazarFormCiudades1027).map(enlazarFormCiudades2_1027);
+].map(ampliarCartas).map(mejorar20261024).map(enlazarAutonomosVerifactu).map(ampliarTerritorio).map(enlazarTransporte).map(mejorarCtr20261026).map(enlazarSituacionesEspeciales).map(enlazarDonativosNomina).map(enlazarPendientes1027).map(enlazarEmpadronamiento1027).map(enlazarTarjetaMadrid1027).map(enlazarFormCiudades1027).map(enlazarFormCiudades2_1027).map(enlazarMesasCiudades1031).map(enlazarMesasCiudades1031b);
 
 export const TRAVEL_PATHS = VIAJE_GUIDES.map((g) => g.path);
 
