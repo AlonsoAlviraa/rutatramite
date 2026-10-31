@@ -151,6 +151,7 @@ Este archivo lista las páginas HTML públicas pensadas para citarse. La versió
 - [Índice: Transporte](https://rutatramite.com/transporte)
 - [T-16: cómo solicitarla para un menor en Barcelona](https://rutatramite.com/transporte/t16-como-solicitar)
 - [Abonos jóvenes de transporte: Madrid, T-jove y Abono Único](https://rutatramite.com/transporte/abono-joven-estudiante)
+- [Corte del AVE Madrid–Andalucía: reembolso, cambio de billete y cómo reclamar](https://rutatramite.com/transporte/corte-ave-madrid-andalucia-reembolso)
 
 ## Formación Profesional
 

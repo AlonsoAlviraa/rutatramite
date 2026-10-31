@@ -469,6 +469,7 @@ CORE = [
     "/comedor/menu-especial-comedor",
     "/transporte/t16-como-solicitar",
     "/transporte/abono-joven-estudiante",
+    "/transporte/corte-ave-madrid-andalucia-reembolso",
     "/fp/cambiar-de-instituto-a-mitad-de-curso",
     "/fp/documentos-matricula-eso",
     "/fp/reserva-de-plaza-fp",
@@ -530,6 +531,10 @@ CORE = [
 
 
 FRESH_LASTMOD = {
+    "/transporte/corte-ave-madrid-andalucia-reembolso": "2026-10-31T19:00:00+01:00",
+    "/elecciones/voto-por-correo": "2026-10-31T19:00:00+01:00",
+    "/elecciones/transporte-para-ir-a-votar-29n": "2026-10-31T19:00:00+01:00",
+    "/elecciones/ficha-tecnica-encuesta": "2026-10-31T19:00:00+01:00",
     "/elecciones/mesa-electoral-soria": "2026-10-31T15:00:00+01:00",
     "/elecciones/mesa-electoral-valladolid": "2026-10-31T15:00:00+01:00",
     "/elecciones/mesa-electoral-madrid": "2026-10-31T15:00:00+01:00",
