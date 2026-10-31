@@ -2,8 +2,8 @@
 
 Este archivo sustituye a la versión de PR #2 (SHA `c4976d3…`), que ya no describe producción.
 
-- **Release activa:** `20261031T141354Z` (tag `20261031T141116Z-mesas2`, build `qNleLJIbC3h2fcyV5zs1-`, commit `70ff8c2`, 479 URLs en sitemap): 20 páginas más de mesa electoral por ciudad y el índice `/elecciones/mesa-electoral-por-ciudad` (25 ciudades en total).
-- **Rollback de referencia:** `20261031T133405Z` (anterior: `20261031T112030Z`).
+- **Release activa:** `20261031T171213Z` (tag `20261031T1810Z-ave`, build `rEzw0hqXsVF13_xjffytk`, commit `c0f88af` + fechas `ac74d55`, 480 URLs en sitemap): nueva `/transporte/corte-ave-madrid-andalucia-reembolso` y bloques en `/elecciones/voto-por-correo`, `/elecciones/transporte-para-ir-a-votar-29n` y `/elecciones/ficha-tecnica-encuesta`.
+- **Rollback de referencia:** `20261031T141354Z` (anterior: `20261031T133405Z`).
 - Raíz en el VPS: `/srv/tenants/slot2` (`app` → `releases/<stamp>`, servicio `slot2-app.service`, puerto 8100).
 - No hay credenciales en este repo. Los helpers de acceso leen su propia configuración privada fuera del árbol.
 
