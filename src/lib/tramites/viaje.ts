@@ -21,7 +21,7 @@ const tasasBox: { id: string; title: string; paragraphs: string[]; lists?: strin
   paragraphs: [
     `Reservar la cita es gratuito. La llamada al ${TELEFONO_CITA} tiene un coste que debes consultar con tu operador. Las tasas vigentes son ${TASA_DNI_LABEL} para el DNI y ${TASA_PASAPORTE_LABEL} para el pasaporte ordinario. Puedes pagarlas en efectivo o con tarjeta en la unidad de documentación, o mediante el pago telemático del portal oficial.`,
     "DNI: están exentos los miembros de familia numerosa que lo acrediten; la renovación de un documento en vigor por cambio de filiación o domicilio; y los menores de 14 años de una unidad de convivencia que solicite el ingreso mínimo vital. Pasaporte: la exención publicada corresponde a miembros de familia numerosa. La pérdida del documento no es por sí sola una exención.",
-    "Tasas y exenciones contrastadas con Interior el 7 de septiembre de 2026. Consulta las fuentes al final de esta guía para comprobar cambios posteriores.",
+    "Tasas y exenciones contrastadas con Interior el 19 de octubre de 2026. Consulta las fuentes al final de esta guía para comprobar cambios posteriores.",
   ],
 };
 
@@ -33,8 +33,8 @@ export const VIAJE_GUIDES: Guide[] = ([
     "h1": "Cita previa DNI en citapreviadnie.es: pedir o consultar",
     "title": "Cita previa DNI en citapreviadnie.es: pedir o consultar",
     "description": "Pide, consulta o anula tu cita del DNI en citapreviadnie.es o el 060. La reserva es gratuita; tasas: 12 € el DNI y 30 € el pasaporte. Revisa oficina y justificante.",
-    "lead": "La cita del DNI se solicita en citapreviadnie.es o por el 060, los canales indicados por Interior. La reserva es gratuita y la llamada tiene coste. Antes de confirmar, comprueba si necesitas primera expedición, renovación o duplicado y prepara los datos que solicite el portal oficial.",
-    "reviewedAt": "2026-09-16",
+    "lead": "La cita previa del DNI (y del pasaporte) se pide en citapreviadnie.es —también escrito citapreviadnie— o por el 060, los únicos canales que indica Interior. La web oficial es www.citapreviadnie.es. La reserva es gratuita; la llamada al 060 tiene coste. Antes de confirmar, elige primera expedición, renovación o duplicado y guarda el justificante.",
+    "reviewedAt": "2026-10-19",
     "sources": [
       {
         "href": "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/dni/cita-previa/",
@@ -63,6 +63,7 @@ export const VIAJE_GUIDES: Guide[] = ([
     },
     "faqs": [
       { "q": "¿Cómo pido cita para el DNI?", "a": "En citapreviadnie.es (con los datos de tu DNI o con DNI electrónico) o llamando al 060. Eliges trámite, oficina, fecha y hora y guardas el justificante. La cita es gratuita." },
+      { "q": "¿Es segura la web citapreviadnie.es?", "a": "Sí, si el dominio es exactamente citapreviadnie.es (o www.citapreviadnie.es) y has entrado desde el enlace de Interior. No pagues a webs que imiten el nombre para «gestionar» la cita: la reserva es gratuita. La tasa del DNI (12 €) o del pasaporte (30 €) solo se paga en el portal oficial o en la oficina." },
       { "q": "¿Cómo consulto o anulo mi cita del DNI?", "a": "Entra en citapreviadnie.es con los mismos datos y elige consultar o anular. Allí verás la oficina, el día y la hora. Si anulas, puedes pedir una cita nueva." },
       { "q": "¿Cuánto cuesta el DNI y cuándo se paga?", "a": "12 € (Ley 84/1978, art. 6). Se paga por internet al pedir la cita o en la oficina, en efectivo o con tarjeta. El pasaporte cuesta 30 €. Las familias numerosas no pagan ninguno de los dos." },
       { "q": "¿Qué llevo a la cita?", "a": "Para renovar, el DNI anterior y una foto reciente de 32 × 26 mm con fondo blanco. Si cambias de domicilio, lleva también el certificado de empadronamiento. La primera vez, además, el certificado literal de nacimiento." },
@@ -84,6 +85,10 @@ export const VIAJE_GUIDES: Guide[] = ([
       {
         "href": "/dni/unidades-moviles",
         "label": "Citas de equipos móviles"
+      },
+      {
+        "href": "/pasaporte",
+        "label": "Pasaporte: tasa 30 € y requisitos"
       }
     ],
     "sections": [
@@ -91,7 +96,7 @@ export const VIAJE_GUIDES: Guide[] = ([
         "id": "acceso",
         "title": "Entrar en el portal oficial",
         "paragraphs": [
-          "Accede desde el enlace de Interior y comprueba que estás en citapreviadnie.es antes de introducir datos. La pantalla de entrada ofrece acceso con datos DNI/NIE o con DNI electrónico. También enlaza una vía para cuando no dispones de los datos por pérdida o sustracción.",
+          "Accede desde el enlace de Interior y comprueba que la barra del navegador muestra citapreviadnie.es (no un dominio parecido) antes de introducir datos. La pantalla de entrada ofrece acceso con datos DNI/NIE o con DNI electrónico. También enlaza una vía para cuando no dispones de los datos por pérdida o sustracción.",
           "Si se trata de una primera expedición o no puedes completar el acceso, consulta las instrucciones del portal o el 060. No inventes datos para superar los campos ni envíes copias de tu documento a RutaTrámite."
         ]
       },

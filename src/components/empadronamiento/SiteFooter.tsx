@@ -30,6 +30,7 @@ const cols = [
   {
     title: "Sobre RutaTrámite",
     links: [
+      { href: "/quienes-somos", label: "Quiénes somos" },
       { href: "/metodologia", label: "Cómo verificamos" },
       { href: "/fuentes", label: "Fuentes" },
       { href: "/recursos", label: "Datos y recursos" },

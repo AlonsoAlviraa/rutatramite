@@ -27,16 +27,6 @@ import { isFichaIndexable } from "@/lib/seo/localSignals";
 import { CITA_DNI_URL, SEDE_AAPP_URL } from "@/lib/tramites/facts";
 import { PRODUCT_NAME } from "@/lib/types";
 
-function stripTags(input: string): string {
-  let previous = "";
-  let current = input;
-  while (current !== previous) {
-    previous = current;
-    current = current.replace(/<[^>]+>/g, "");
-  }
-  return current;
-}
-
 // Experimento 2026-10-10 (titleExperiment.ts): las rutas tratadas pueden publicar { absolute } sin sufijo
 // cuando title + « · RutaTrámite» supera 60 caracteres; el texto del title sigue siendo igual al H1.
 function heading(meta: Metadata): string {
@@ -48,7 +38,7 @@ function heading(meta: Metadata): string {
 function h1(html: string): string {
   const match = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/);
   if (!match) throw new Error("falta el H1");
-  return stripTags(match[1]).replace(/\s+/g, " ").trim();
+  return match[1].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 }
 
 function before(html: string, marker: string): string {
@@ -67,7 +57,7 @@ describe("hallabilidad de las rutas de la auditoría del 22 de septiembre", () =
       [homeMetadata, renderToStaticMarkup(createElement(HomePage)), /documentos y sedes oficiales/],
       [dniMetadata, renderToStaticMarkup(createElement(DniPage)), /cita previa/, /12 € y 30 €/, /España/],
       [passportMetadata, renderToStaticMarkup(createElement(PassportPage)), /30 €/, /España/],
-      [becasMetadata, renderToStaticMarkup(createElement(BecasPage)), /2026-27/, /consultar estado, plazos, cobro y otras becas/],
+      [becasMetadata, renderToStaticMarkup(createElement(BecasPage)), /2026-27/, /estado, resolución y cobro/],
       [extranjeriaMetadata, renderToStaticMarkup(createElement(ExtranjeriaPage)), /citas, documentos y expedientes/],
     ] as const;
     for (const [meta, html, ...terms] of pages) {

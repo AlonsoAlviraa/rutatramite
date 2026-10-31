@@ -98,9 +98,9 @@ export const BECAS_GUIDES: Guide[] = [
     pack: "becas",
     path: "/becas/mec/modificar-datos",
     h1: "Modificar datos de la beca MEC (7-28 de septiembre)",
-    title: "Modificar datos beca MEC: plazo del 7 al 28 de septiembre",
+    title: "Modificar datos beca MEC 2026-27: plazo cerrado y qué hacer",
     description:
-      "Universidad, titulación, domicilio o cuenta bancaria: el septiembre de la beca MEC tiene ventana propia del 7 al 28. Qué se puede cambiar y qué pasa fuera de plazo.",
+      "La ventana para actualizar la beca MEC fue del 7 al 28 de septiembre. Si cambió tu universidad, matrícula o cuenta, cómo comunicarlo a tu Unidad de Becas.",
     lead: `Del ${MEC_MODIFICACION_VENTANA}, con apertura a las 08:00 del día 7 y cierre a las 15:00 del día 28 (hora peninsular), puedes actualizar una solicitud ya presentada en la convocatoria del Ministerio 2026-27 en la sede electrónica del Ministerio: universidad, titulación, domicilio o cuenta bancaria. Esta ventana no sirve para pedir la beca por primera vez. Si tu expediente pertenece a otra administración, sigue su convocatoria y sus avisos. Fuera de plazo, consulta con tu Unidad de Becas cómo comunicar el cambio.`,
     cta: { href: AID_SOURCES.ministry.href, label: "Instrucciones oficiales para modificar datos" },
     related: [{ href: "/becas/mec", label: "Convocatoria y administración competente" }, ...relMec, { href: "/ayudas", label: "Calendario de ayudas" }, { href: "/becas/ayudas-estudiantes", label: "Ayudas para estudiantes" }],

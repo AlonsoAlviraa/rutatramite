@@ -1,13 +1,16 @@
+import { HoySeHabla } from "@/components/tramites/HoySeHabla";
 import { latestGuides } from "@/lib/seo/latest";
 import type { Metadata } from "next";
 import { Wizard } from "@/components/empadronamiento/Wizard";
 import { Disclaimer } from "@/components/empadronamiento/Disclaimer";
 import { PackCard } from "@/components/ui/PackCard";
+import { PARTY_PAGES } from "@/components/tramites/PackIndex";
 import { PageShell } from "@/components/ui/PageShell";
 import { DirectorySearch } from "@/components/ui/DirectorySearch";
 import { GeoLead } from "@/components/ui/GeoLead";
 import { loadIndex } from "@/lib/data/load";
 import { pageMetadata } from "@/lib/seo/meta";
+import { HOME_PRIORITY_LINKS } from "@/lib/seo/priorityLinks";
 import { guideSearchEntries } from "@/lib/seo/siteSearch";
 import { ESCENARIO_LABELS, WIZARD_QUESTIONS } from "@/lib/types";
 
@@ -21,65 +24,64 @@ export const metadata: Metadata = pageMetadata({
 });
 
 const PACKS = [
-  { href: "/elecciones", title: "Elecciones 29 de noviembre", blurb: "Voto por correo hasta el 19 de noviembre, calendario del BOE y quién está en el censo." },
-  { href: "/ayudas", title: "Ayudas y plazos", blurb: "Becas y alquiler: consulta la convocatoria, el territorio y qué solicitudes admiten presentación." },
-  { href: "/alquiler", title: "Ayudas al alquiler", blurb: "Bono Alquiler Joven, convocatorias autonómicas y nuevo Plan de Vivienda 2026-2030." },
-  {
-    href: "/empadronarse",
-    title: "Padrón",
-    blurb: "Alta, volante, certificado y cambio de domicilio. El trámite es del ayuntamiento.",
-  },
-  {
-    href: "/dni",
-    title: "DNI y pasaporte",
-    blurb: "Renovar el DNI cuesta 12 € y el pasaporte 30 €. Cita gratuita en citapreviadnie.es; documentos y pasos.",
-  },
-  { href: "/trabajo", title: "Trabajo y paro", blurb: "Vida laboral, cita del SEPE e ingreso mínimo vital 2026." },
-  {
-    href: "/extranjeria",
-    title: "Extranjería",
-    blurb: "Citas, TIE, NIE, arraigo y expedientes: guías para elegir el trámite y su canal oficial.",
-  },
-  {
-    href: "/mudanza",
-    title: "Mudanza",
-    blurb: "Qué domicilio comunicar al ayuntamiento, Policía y Hacienda, según tu situación.",
-  },
-  {
-    href: "/colegio",
-    title: "Colegio",
-    blurb: "Cambio de centro, incluso fuera de plazo o por mudanza.",
-  },
-  {
-    href: "/comedor",
-    title: "Comedor",
-    blurb: "Beca fuera de plazo, impago, alergias e IES sin comedor.",
-  },
-  {
-    href: "/transporte",
-    title: "Transporte",
-    blurb: "T-16, Abono Joven y títulos equivalentes. El trámite es del operador.",
-  },
-  {
-    href: "/fp",
-    title: "Formación Profesional",
-    blurb: "Matrícula en septiembre, vacantes y convalidaciones.",
-  },
-  {
-    href: "/bebe",
-    title: "Bebé",
-    blurb: "Registro Civil, tarjeta sanitaria, padrón y cartilla de vacunación.",
-  },
-  {
-    href: "/becas",
-    title: "Becas",
-    blurb: "MEC 2026-27: plazos, estado y cobro. Convocatorias en sede oficial.",
-  },
-  {
-    href: "/modelos",
-    title: "Modelos y cartas",
-    blurb: "Baja voluntaria, finiquito, padrón, alquiler y colegio. Modelos orientativos para adaptar al trámite.",
-  },
+  { href: "/dni", title: "DNI y pasaporte", blurb: "Renovar el DNI cuesta 12 € y el pasaporte 30 €. Cita gratuita, documentos y urgencias." },
+  { href: "/empadronarse", title: "Padrón", blurb: "Alta, volante, certificado y cambio de domicilio. El trámite es del ayuntamiento." },
+  { href: "/trabajo", title: "Trabajo y pensiones", blurb: "Vida laboral, SEPE, ingreso mínimo vital, revalorización de pensiones y huelga del 11-N." },
+  { href: "/alquiler", title: "Alquiler y vivienda", blurb: "Bono Alquiler Joven, ayudas por comunidad y Plan de Vivienda 2026-2030." },
+  { href: "/extranjeria", title: "Extranjería", blurb: "Citas, TIE, NIE, arraigo y expedientes: el trámite y su canal oficial." },
+  { href: "/becas", title: "Becas", blurb: "Becas MEC 2026-27: plazos, estado de la solicitud y cuándo se cobra." },
+  { href: "/ayudas", title: "Ayudas y plazos", blurb: "Convocatorias abiertas, territorio y qué solicitudes admiten presentación." },
+  { href: "/mudanza", title: "Mudanza", blurb: "Qué domicilio comunicar al ayuntamiento, Policía y Hacienda, según tu situación." },
+] as const;
+
+const MORE_TOPICS = [
+  { href: "/colegio", label: "Colegio" },
+  { href: "/comedor", label: "Comedor" },
+  { href: "/transporte", label: "Transporte" },
+  { href: "/fp", label: "FP" },
+  { href: "/bebe", label: "Bebé" },
+  { href: "/modelos", label: "Modelos y cartas" },
+  { href: "/descargas", label: "Formularios (EX-10…)" },
+] as const;
+
+const ELECCIONES_29N = [
+  { href: "/elecciones/como-votar-el-dia-29", title: "Cómo votar el 29-N", blurb: "Qué llevar, horario y pasos en el colegio electoral." },
+  { href: "/elecciones/tarjeta-censal-cuando-llega", title: "Tarjeta censal", blurb: "Cuándo llega y qué hacer si no te llega." },
+  { href: "/elecciones/programas-electorales-29n", title: "Programas electorales", blurb: "Cuándo se publican y dónde leerlos." },
+  { href: "/elecciones/mapa-voto-util-29n", title: "Mapa del voto útil", blurb: "Último escaño y peso del voto en cada provincia." },
+  { href: "/elecciones/agenda-mitines-29n", title: "Agenda de mítines", blurb: "Próximos actos confirmados de cada candidato." },
+  { href: "/elecciones/encuestas-29n", title: "Encuestas", blurb: "Media de encuestas publicadas, con su ficha técnica." },
+  { href: "/elecciones/excusa-mesa-electoral", title: "¿Te ha tocado mesa?", blurb: "Excusas, plazo de 7 días y modelo de escrito." },
+  { href: "/elecciones/suplente-mesa-electoral", title: "Suplente de mesa", blurb: "A qué hora ir, dieta y qué pasa si no vas." },
+  { href: "/elecciones/mesa-electoral-vivo-fuera", title: "Mesa y vives o trabajas fuera", blurb: "Otra ciudad, extranjero, Erasmus o turnos: qué acepta la Junta." },
+  { href: "/elecciones/mesa-electoral-hijos-pequenos", title: "Mesa con hijos o cuidados", blurb: "Menores de 12, lactancia, monoparental y familiares dependientes." },
+] as const;
+
+// Páginas con más clics en Google (GSC API, 28 días a 2026-10-23), sin repetir las del bloque 29-N.
+const POPULARES = [
+  { href: "/elecciones/cuando-habra-gobierno-29n", label: "¿Cuándo habrá Gobierno tras el 29-N?" },
+  { href: "/elecciones/quiere-algun-partido-quitar-las-pensiones", label: "¿Quiere algún partido quitar las pensiones?" },
+  { href: "/dni", label: "Renovar el DNI: precio y cita" },
+  { href: "/elecciones/resultados-y-escrutinio", label: "Resultados y escrutinio" },
+  { href: "/elecciones/voto-nulo-ejemplos", label: "Voto nulo: ejemplos" },
+  { href: "/elecciones/que-pasa-si-no-voto", label: "¿Qué pasa si no voto?" },
+  { href: "/trabajo/revalorizacion-pensiones-2026", label: "Revalorización de pensiones 2026" },
+  { href: "/descargas", label: "Formularios oficiales (EX-10 y más)" },
+  // 2026-10-31: resto del top-30 por clics (GSC, 28 días a 2026-10-27) que aún no se enlazaba desde la portada.
+  // Las páginas sobre un solo partido se enlazan desde la lista simétrica de fichas y desde /elecciones.
+  { href: "/elecciones/sorteo-mesa-electoral-29n", label: "¿Me ha tocado mesa? Sorteo y aviso" },
+  { href: "/elecciones/notificacion-mesa-electoral-que-hacer", label: "Notificación de mesa: qué hacer" },
+  { href: "/elecciones/voluntario-mesa-electoral", label: "¿Se puede pedir ser mesa electoral?" },
+  { href: "/elecciones/mesa-electoral-cuidado-familiar-dependiente", label: "Mesa y cuidas de un familiar dependiente" },
+  { href: "/elecciones/candidaturas-29n-boe", label: "Listas electorales del 29-N en el BOE" },
+  { href: "/elecciones/a-quien-beneficia-el-voto-en-blanco", label: "Voto en blanco, nulo y abstención" },
+  { href: "/elecciones/voto-util-29n", label: "Voto útil: qué es" },
+  { href: "/elecciones/papeleta-rota-voto-nulo", label: "Papeleta rota: ¿voto nulo?" },
+  { href: "/elecciones/escribir-en-la-papeleta", label: "Escribir en la papeleta" },
+  { href: "/elecciones/objeto-en-el-sobre-de-votacion", label: "Un objeto en el sobre de votación" },
+  { href: "/elecciones/cis-preelectoral-29n", label: "CIS preelectoral del 29-N" },
+  { href: "/elecciones/como-se-hace-una-encuesta-electoral", label: "Cómo se hace una encuesta electoral" },
+  { href: "/trabajo/huelga-general-11-noviembre", label: "Huelga general del 11 de noviembre" },
 ] as const;
 
 const CASOS = [
@@ -108,34 +110,85 @@ export default function HomePage() {
       <section className="rt-hero">
         <h1 className="hero-title font-display">{HOME_HEADING}</h1>
         <GeoLead>
-          RutaTrámite explica documentos, requisitos y sedes oficiales de trámites en España (padrón, DNI,
-          extranjería, becas y modelos). El trámite se presenta en el organismo responsable, no aquí. El alta en
-          el padrón es gratuita. No somos Administración.
+          Guías claras para hacer tus trámites en España, con el enlace a la sede oficial. Gratis, sin registro y sin
+          ser la Administración.
         </GeoLead>
         <DirectorySearch
           entries={guideSearchEntries()}
-          hint="Busca una guía por trámite. Los municipios están en el padrón, el asistente o la búsqueda completa."
+          hint="Escribe el trámite o tu municipio."
         />
-        <div className="home-shortcuts"><span>Acceso directo</span><a href="/dni/cita-previa">Pedir cita para el DNI</a><a href="/dni">Precio y renovación del DNI</a><a href="/empadronarse">Empadronarse</a><a href="/becas">Consultar becas</a><a href="/extranjeria">Extranjería</a></div>
+        <div className="home-shortcuts"><span>Acceso directo</span><a href="/dni/cita-previa">Pedir cita para el DNI</a><a href="/empadronarse">Empadronarse</a><a href="/elecciones/voto-por-correo">Voto por correo</a><a href="/becas">Consultar becas</a><a href="/extranjeria">Extranjería</a></div>
       </section>
 
-      <section id="novedades" className="mt-10" data-home-latest="">
-        <h2 className="font-display text-2xl text-mossDark">Nuevo y actualizado</h2>
-        <p className="mt-2"><strong>Elecciones del 29-N:</strong> <a className="underline" href="/elecciones/promesas">qué propone cada partido</a> · <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-vivienda">vivienda</a> · <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-pensiones">pensiones</a> · <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-impuestos">impuestos</a> · <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-empleo-y-salarios">empleo y salarios</a> · <a className="underline" href="/elecciones/voto-por-correo">voto por correo</a></p>
-        <ul className="mt-3 grid gap-1 sm:grid-cols-2">
-          {latestGuides(12).map((g) => (<li key={g.path}><a className="underline" href={g.path}>{g.h1}</a> <time className="text-sm text-ink/60" dateTime={g.reviewedAt}>{g.reviewedAt}</time></li>))}
-        </ul>
-        <p className="mt-2 text-sm"><a className="underline" href="/feed.xml">Suscríbete a las novedades (RSS/Atom)</a></p>
-      </section>
-
-      <section id="tramites" className="mt-12" data-pack-grid="">
-        <h2 className="font-display text-2xl text-mossDark">Trámites por tema</h2>
-        <p className="mt-2 max-w-2xl text-ink/75">
-          Elige una categoría y encuentra documentos, requisitos y enlaces oficiales.
+      <section id="elecciones-29n" aria-labelledby="elecciones-29n-title" className="home-panel" data-home-29n="">
+        <div className="home-head">
+          <h2 id="elecciones-29n-title" className="font-display text-2xl text-mossDark">Elecciones del 29 de noviembre</h2>
+          <a className="home-more" href="/elecciones">Todo sobre el 29-N →</a>
+        </div>
+        <p className="home-sub">Voto por correo hasta el 19 de noviembre. Calendario y datos del BOE.</p>
+        <div className="home-grid">
+          {ELECCIONES_29N.map((c) => (
+            <a key={c.href} href={c.href} className="home-card">
+              <span className="home-card-title">{c.title}</span>
+              <span className="home-card-text">{c.blurb}</span>
+            </a>
+          ))}
+        </div>
+        <p className="mt-4 text-sm" data-home-promesas="">
+          <strong>Qué propone cada partido:</strong> medidas y declaraciones fechadas, con su fuente y en el mismo formato para todos.{" "}
+          <a className="underline" href="/elecciones/promesas">Promesas del 29-N</a>
+          {" · "}
+          <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-vivienda">Vivienda: qué propone cada partido</a>
+          {" · "}
+          <a className="underline" href="/elecciones/promesas/que-propone-cada-partido-sanidad">Sanidad: qué propone cada partido</a>
+          {". Ficha de cada partido: "}
+          {PARTY_PAGES.map((p, i) => (<span key={p.href}>{i ? " · " : ""}<a className="underline" href={p.href}>{p.label}</a></span>))}
         </p>
-        <div className="topic-directory" data-home-topics="">
+      </section>
+
+      <HoySeHabla className="home-section home-hoy" />
+
+      <section id="tramites" aria-labelledby="tramites-title" className="home-section" data-pack-grid="">
+        <h2 id="tramites-title" className="font-display text-2xl text-mossDark">Trámites por tema</h2>
+        <div className="home-grid home-grid--topics" data-home-topics="">
           {PACKS.map((p) => (
             <PackCard key={p.href} {...p} />
+          ))}
+        </div>
+        <nav aria-label="Más temas" className="home-chips">
+          <span>Más temas:</span>
+          {MORE_TOPICS.map((t) => (<a key={t.href} href={t.href}>{t.label}</a>))}
+        </nav>
+      </section>
+
+      <section id="populares" aria-labelledby="populares-title" className="home-section" data-home-popular="">
+        <h2 id="populares-title" className="font-display text-2xl text-mossDark">Las guías más consultadas</h2>
+        <ul className="home-list home-list--cols">
+          {POPULARES.map((l) => (<li key={l.href}><a href={l.href}>{l.label}</a></li>))}
+        </ul>
+      </section>
+
+      <section id="novedades" className="home-section" data-home-latest="">
+        <h2 className="font-display text-2xl text-mossDark">Nuevo y actualizado</h2>
+        <ul className="mt-3 grid gap-1 sm:grid-cols-2">
+          {latestGuides(8).map((g) => (<li key={g.path}><a className="inline-block min-h-11 py-[10px] underline" href={g.path}>{g.h1}</a> <time className="text-sm text-ink/60" dateTime={g.reviewedAt}>{g.reviewedAt}</time></li>))}
+        </ul>
+        <p className="mt-2 text-sm"><a className="inline-flex min-h-11 items-center underline" href="/feed.xml">Suscríbete a las novedades (RSS/Atom)</a></p>
+      </section>
+
+      <section id="respuestas-rapidas" aria-labelledby="respuestas-rapidas-title" className="mt-12" data-home-priority="">
+        <h2 id="respuestas-rapidas-title" className="font-display text-2xl text-mossDark">Respuestas rápidas por trámite</h2>
+        <p className="mt-2 max-w-2xl text-ink/75">
+          Dudas concretas que suelen surgir con plazos, citas y documentos. Cada guía enlaza a la sede oficial.
+        </p>
+        <div className="mt-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {HOME_PRIORITY_LINKS.map((group) => (
+            <div key={group.title}>
+              <h3 className="font-semibold text-mossDark">{group.title}</h3>
+              <ul className="mt-2 list-disc space-y-1 pl-5">
+                {group.links.map((l) => (<li key={l.href}><a className="underline" href={l.href}>{l.label}</a></li>))}
+              </ul>
+            </div>
           ))}
         </div>
       </section>

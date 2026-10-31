@@ -11,23 +11,41 @@
   "poblacion": 693091,
   "poblacion_ref": "INE 1-ene-2025 (vía listado público; contrastar cifra vigente en ine.es)",
   "sede_url": "https://www.zaragoza.es/sede/",
-  "tramite_alta_url": null,
-  "cita_url": null,
+  "tramite_alta_url": "https://www.zaragoza.es/sede/servicio/tramite/3317",
+  "cita_url": "https://www.zaragoza.es/sede/portal/tramites-servicios/cita-previa",
   "certificado_url": null,
-  "online": "unknown",
+  "online": false,
   "presencial": true,
-  "cita_previa": "unknown",
-  "oficinas": [],
+  "cita_previa": "walk-in",
+  "oficinas": [
+    {
+      "nombre": "Oficina de Registro y Atención Ciudadana (ORC)",
+      "direccion": "Plaza del Pilar, 18",
+      "cp": "50003",
+      "lat": null,
+      "lon": null,
+      "horario": "Lunes a viernes 8:30–14:00; tardes 16:00–19:00 lunes, jueves y primer y último viernes de mes (julio y agosto solo mañanas)",
+      "telefono": "010",
+      "cita": false
+    }
+  ],
   "tasa_alta": 0,
   "tasa_volante": null,
   "tasa_certificado": null,
   "docs_extra": [],
-  "peculiaridades": [],
+  "peculiaridades": [
+    "El alta en el padrón es obligatoriamente presencial; por internet (certificado o Cl@ve) solo se tramitan otros cambios, como el de domicilio",
+    "En la Oficina de Relaciones con la Ciudadanía (Plaza del Pilar, 18) se atiende sin cita previa: lunes a viernes 8:30–14:00; tardes de 16:00 a 19:00 los lunes, jueves y el primer y último viernes de cada mes (en julio y agosto solo mañanas)",
+    "En las Juntas Municipales y Vecinales se atiende sin cita de 9:30 a 13:30 y con cita de 8:30 a 9:30",
+    "Hay que presentar original y copia de todos los documentos"
+  ],
   "idiomas_sede": [
     "es"
   ],
-  "last_verified": "2026-09-03",
+  "last_verified": "2026-10-24",
   "source_urls": [
+    "https://www.zaragoza.es/sede/servicio/tramite/3317",
+    "https://www.zaragoza.es/sede/portal/tramites-servicios/cita-previa",
     "https://www.zaragoza.es/sede/",
     "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031"
   ],

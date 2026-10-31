@@ -18,7 +18,7 @@ const S = {
   imvLey: { href: "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007", label: "BOE: Ley 19/2021, del ingreso mínimo vital" },
 };
 
-const g = (x: Omit<Guide, "reviewedAt" | "disclaimer">): Guide => ({ reviewedAt, disclaimer: DISCLAIMER, ...x });
+const g = (x: Omit<Guide, "reviewedAt" | "disclaimer"> & { reviewedAt?: string }): Guide => ({ reviewedAt, disclaimer: DISCLAIMER, ...x });
 
 export const GESTIONES_CLAVE_GUIDES: Guide[] = [
   g({
@@ -66,22 +66,28 @@ export const GESTIONES_CLAVE_GUIDES: Guide[] = [
   }),
   g({
     id: "vida-laboral",
+    reviewedAt: "2026-10-20",
     pack: "trabajo",
     path: "/trabajo/vida-laboral",
     h1: "Informe de vida laboral: cómo descargarlo por SMS, Cl@ve o certificado",
-    title: "Vida laboral: cómo descargarla gratis en 2026 (SMS o Cl@ve)",
-    description: "Descarga tu informe de vida laboral en Import@ss: con un SMS al móvil registrado, con Cl@ve o con certificado digital. Gratis y al momento en PDF.",
+    title: "Vida laboral por SMS: descárgala gratis paso a paso (2026)",
+    description: "Descarga la vida laboral por SMS en Import@ss con tu DNI o NIE, fecha de nacimiento y móvil registrado. Qué hacer si tu móvil no está dado de alta.",
     lead: "El informe de vida laboral se descarga gratis y al momento en Import@ss, el portal de la Seguridad Social. Si tienes tu móvil registrado allí, basta con un SMS. Si no, usa Cl@ve o un certificado digital.",
     cta: { href: S.vida.href, label: "Ir a Import@ss" },
     secondaryCta: { href: "/dni/clave-registrarse", label: "Registrarse en Cl@ve" },
     sources: [S.vida],
-    related: [{ href: "/trabajo/cita-previa-sepe", label: "Cita previa del SEPE" }, { href: "/certificado-empresa-sepe", label: "Certificado de empresa para el SEPE" }, { href: "/trabajo/ingreso-minimo-vital", label: "Ingreso mínimo vital 2026" }],
+    related: [{ href: "/trabajo/cita-previa-sepe", label: "Cita previa del SEPE" }, { href: "/certificado-empresa-sepe", label: "Certificado de empresa para el SEPE" }, { href: "/trabajo/ingreso-minimo-vital", label: "Ingreso mínimo vital 2026" }, { href: "/trabajo/como-pedir-la-jubilacion", label: "Cómo pedir la jubilación en 2026" }, { href: "/trabajo/revalorizacion-pensiones-2026", label: "Subida de las pensiones en 2026" }],
     faqs: [
       { q: "¿Cómo saco la vida laboral sin certificado digital?", a: "Por SMS: en Import@ss elige la opción de vía SMS, escribe tu DNI o NIE, tu fecha de nacimiento y el móvil que tienes registrado en la Seguridad Social, y recibirás un código para descargar el PDF." },
       { q: "¿Y si mi móvil no está registrado en la Seguridad Social?", a: "Import@ss permite comunicarlo sin identificación electrónica, con una foto de tu documento y un selfie. Cuando lo validen, ya podrás usar la vía SMS." },
       { q: "¿Tiene coste?", a: "No. El informe es gratuito en la web oficial." },
+      { q: "¿Aparecen los años trabajados en el extranjero o la mili?", a: "No. El informe de vida laboral no recoge periodos en el extranjero, el servicio militar ni la prestación social sustitutoria. Si nunca has estado de alta en la Seguridad Social, no hay informe que descargar." },
+      { q: "¿Me la pueden mandar a casa?", a: "Sí. En Import@ss puedes pedir que te envíen el informe por correo al domicilio que tengas comunicado a la Tesorería General de la Seguridad Social, y consultar después el estado de la solicitud." },
+      { q: "Falta una empresa en mi vida laboral, ¿qué hago?", a: "Desde la misma página de Import@ss puedes solicitar la incorporación o modificación de datos si detectas errores. Guarda nóminas o contratos de ese periodo por si te los piden." },
     ],
     sections: [
+      { id: "sms-pasos", title: "Vida laboral por SMS, paso a paso", paragraphs: ["Es la vía más rápida si no tienes Cl@ve ni certificado. Solo funciona si tu móvil está registrado en la Seguridad Social."], lists: [["Entra en Import@ss y busca «Informe de tu vida laboral» dentro de «Vida laboral e informes».", "Elige identificarte con la opción Vía SMS.", "Escribe tu DNI o NIE, tu fecha de nacimiento y el móvil que tienes registrado.", "Introduce el código que te llega por SMS.", "Descarga el PDF: puedes pedir la vida laboral completa o acotada a unas fechas."]] },
+      { id: "que-incluye", title: "Qué incluye el informe", paragraphs: ["Todas tus situaciones de alta y baja en los distintos regímenes de la Seguridad Social y el número de días que has estado de alta. Puedes pedirlo en cualquier momento."], lists: [["No incluye periodos trabajados en el extranjero.", "No incluye el servicio militar ni la prestación social sustitutoria.", "Si nunca has estado de alta, no se puede obtener."]] },
       { id: "vias", title: "Tres formas de obtenerla", paragraphs: ["Todas en Import@ss, en Vida laboral e informes:"], lists: [["Vía SMS: DNI/NIE, fecha de nacimiento y móvil registrado.", "Con Cl@ve: identificación con Cl@ve Móvil o Cl@ve PIN.", "Con certificado digital o DNI electrónico."]] },
       { id: "para-que", title: "Para qué te la piden", paragraphs: ["Es habitual para pedir el paro, una hipoteca o alquiler, becas y ayudas, o para comprobar tus cotizaciones y días trabajados. Revisa que aparezcan todas tus empresas; si falta algo, consúltalo con la Seguridad Social."] },
     ],

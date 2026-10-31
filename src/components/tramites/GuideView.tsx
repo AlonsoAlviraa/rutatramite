@@ -8,13 +8,25 @@ import { descargasForGuide } from "@/lib/descargas";
 import { DISCLAIMER_CITA, LAST_VERIFIED } from "@/lib/tramites/facts";
 import { PACK_INDEX_PATH, type Guide } from "@/lib/tramites/types";
 import { PromesasDataBar } from "@/components/tramites/PromesasData";
+import { GuideChartSvg } from "@/components/tramites/GuideChartSvg";
+import { NextSteps } from "@/components/tramites/NextSteps";
+import { MapaVotoUtilSection } from "@/components/elecciones/MapaVotoUtilSection";
 import { DocumentChecklist } from "@/components/tramites/DocumentChecklist";
 import type { DocumentProcedure } from "@/lib/tramites/document-checklists";
+
+/** Section hubs that differ from the pack index (e.g. /pasaporte/* lives in the DNI pack). */
+const SECTION_HUBS: Record<string, string> = {
+  "/pasaporte": "Pasaporte: precio, cita y pasaporte urgente",
+  "/dni": "DNI: cita previa, precio y renovación",
+};
 
 export function GuideView({ guide }: { guide: Guide }) {
   const faqs = guideFaqs(guide);
   const formularios = descargasForGuide(guide.path);
-  const related = guide.related.filter((link, index, links) =>
+  const sectionHub = "/" + guide.path.split("/")[1];
+  const hubLink = SECTION_HUBS[sectionHub] && sectionHub !== guide.path && sectionHub !== PACK_INDEX_PATH[guide.pack]
+    ? [{ href: sectionHub, label: SECTION_HUBS[sectionHub] }] : [];
+  const related = [...guide.related, ...hubLink].filter((link, index, links) =>
     link.href !== guide.path && links.findIndex((item) => item.href === link.href) === index,
   );
   const modified = guide.reviewedAt ?? LAST_VERIFIED;
@@ -31,11 +43,12 @@ export function GuideView({ guide }: { guide: Guide }) {
   return (
     <PageShell as="article" className="min-[1280px]:max-w-[1120px]" data-guide={guide.id} data-pack={guide.pack}>
       <JsonLd data={guideFaqJsonLd(guide)} />
+      {guide.dataset ? <JsonLd data={guide.dataset} /> : null}
       <JsonLd data={articleJsonLd({ headline: guide.h1, description: guide.lead, path: guide.path, dateModified: modified, sources: (guide.sources ?? [guide.cta, ...(guide.secondaryCta ? [guide.secondaryCta] : [])]).map(source => source.href).filter(href => href.startsWith("https://")) })} />
       <Breadcrumbs items={crumbs} />
       <h1 className="mt-2 font-display text-4xl text-mossDark">{guide.h1}</h1>
       <p className="mt-2 text-sm text-ink/70">
-        {guide.reviewedAt ? "Revisión editorial" : "Edición del contenido"} <time dateTime={modified}>{modified}</time>
+        Por <a href="/quienes-somos" rel="author">Equipo RutaTrámite</a> · {guide.reviewedAt ? "Revisado" : "Actualizado"}: <time dateTime={modified}>{modified}</time>
       </p>
       {guide.pack === "promesas-29n" ? <PromesasDataBar /> : null}
       <p className="mt-4 text-lg leading-relaxed">{guide.lead}</p>
@@ -45,6 +58,7 @@ export function GuideView({ guide }: { guide: Guide }) {
           <OfficialCta href={guide.secondaryCta.href} label={guide.secondaryCta.label} variant="secondary" />
         ) : null}
       </div>
+      {guide.id === "29n-mapa-voto-util" ? <MapaVotoUtilSection /> : null}
       <div className="guide-layout mt-8 grid min-w-0 grid-cols-1 min-[1280px]:grid-cols-[minmax(0,246px)_minmax(0,1fr)] min-[1280px]:items-start min-[1280px]:gap-x-10">
       <nav aria-label="En esta guía" className="guide-toc min-w-0 max-w-full min-[1280px]:sticky min-[1280px]:top-24 min-[1280px]:max-h-[calc(100vh-7rem)] min-[1280px]:overflow-auto">
         <h2 className="font-semibold">En esta guía</h2>
@@ -71,9 +85,10 @@ export function GuideView({ guide }: { guide: Guide }) {
               ))}
             </ul>
           ))}
+          {s.chart ? <GuideChartSvg chart={s.chart} /> : null}
           {s.table ? (
-            <div className="overflow-x-auto" data-guide-table="">
-              <table className="w-full border-collapse text-left text-sm">
+            <div className="guide-table-wrap" data-guide-table="">
+              <table className="guide-table w-full border-collapse text-left">
                 <caption className="mb-2 text-left font-semibold">{s.table.caption}</caption>
                 <thead>
                   <tr>{s.table.head.map((h) => <th key={h} scope="col" className="border-b border-sand px-2 py-2">{h}</th>)}</tr>
@@ -81,8 +96,8 @@ export function GuideView({ guide }: { guide: Guide }) {
                 <tbody>
                   {s.table.rows.map((row, i) => (
                     <tr key={i} className="align-top">
-                      {row.cells.map((c, j) => j === 0 ? <th key={j} scope="row" className="border-b border-sand px-2 py-2 font-normal">{c}</th> : <td key={j} className="border-b border-sand px-2 py-2">{c}</td>)}
-                      <td className="border-b border-sand px-2 py-2"><a className="underline underline-offset-4" href={row.source.href}>{row.source.label}</a></td>
+                      {row.cells.map((c, j) => j === 0 ? <th key={j} scope="row" className="border-b border-sand px-2 py-2 font-normal">{keepDates(c)}</th> : <td key={j} data-label={s.table!.head[j]} className="border-b border-sand px-2 py-2">{keepDates(c)}</td>)}
+                      <td data-label={s.table!.head[row.cells.length] ?? "Fuente"} className="guide-table-source border-b border-sand px-2 py-2"><a className="underline underline-offset-4" href={row.source.href}><span>{keepDates(row.source.label)}</span></a></td>
                     </tr>
                   ))}
                 </tbody>
@@ -112,18 +127,19 @@ export function GuideView({ guide }: { guide: Guide }) {
               </li>
             ))}
           </ul>
-          <p className="mt-3 text-sm"><a className="underline" href="/descargas">Todos los formularios descargables</a></p>
+          <p className="mt-3 text-sm"><a className="inline-flex min-h-11 items-center underline" href="/descargas">Todos los formularios descargables</a></p>
         </section>
       )}
+      <NextSteps path={guide.path} />
       <section id="fuentes" className="mt-10 border-t border-sand pt-5">
         <h2 className="font-display text-2xl text-mossDark">Fuentes y comprobación</h2>
-        <p className="mt-3 text-sm">{guide.pack === "modelos"
+        <p className="mt-3">{guide.pack === "modelos"
           ? "Consulta estas referencias antes de adaptar y utilizar el modelo."
           : "Comprueba las condiciones y los avisos vigentes en las fuentes oficiales."}</p>
         <ul className="mt-3 min-w-0 space-y-2">
-          {(guide.sources ?? [guide.cta, ...(guide.secondaryCta ? [guide.secondaryCta] : [])]).map((source) => <li key={source.href}><a data-official-source href={source.href} className="underline underline-offset-4">{source.label}</a></li>)}
+          {(guide.sources ?? [guide.cta, ...(guide.secondaryCta ? [guide.secondaryCta] : [])]).map((source) => <li key={source.href}><a data-official-source href={source.href} className="inline-flex min-h-[44px] items-center underline underline-offset-4">{source.label}</a></li>)}
         </ul>
-        <p className="mt-3 text-sm"><a className="underline" href="/metodologia">Cómo revisamos las guías</a> · <a className="underline" href="/contacto">Avisar de un error</a></p>
+        <p className="mt-3"><a className="inline-flex min-h-[44px] items-center underline" href="/metodologia">Cómo revisamos las guías</a> · <a className="inline-flex min-h-[44px] items-center underline" href="/contacto">Avisar de un error</a></p>
       </section>
       {faqs.length > 0 && <section id="preguntas-frecuentes" className="mt-10">
         <h2 className="font-display text-2xl text-mossDark">Preguntas frecuentes</h2>
@@ -146,13 +162,20 @@ export function GuideView({ guide }: { guide: Guide }) {
           </ul>
         </section>
       ) : null}
-      <p className="mt-10 text-sm leading-relaxed text-ink/80" data-disclaimer="">
+      {guide.disclaimer === "" ? null : <p className="mt-10 leading-relaxed text-ink/80" data-disclaimer="">
         {guide.disclaimer ?? (guide.pack === "viaje" ? DISCLAIMER_CITA : "Información orientativa. Confirma los requisitos de tu caso en el organismo responsable. No somos Administración Pública.")}
-      </p>
+      </p>}
       </div>
       </div>
     </PageShell>
   );
+}
+
+/** Evita que una fecha como 16-10-2026 se parta en el guion al final de línea. */
+function keepDates(text: string) {
+  const parts = text.split(/(\d{1,2}-\d{1,2}-\d{4})/);
+  if (parts.length === 1) return text;
+  return parts.map((part, i) => (i % 2 === 1 ? <span key={i} className="whitespace-nowrap">{part}</span> : part));
 }
 
 function packLabel(pack: Guide["pack"]): string {

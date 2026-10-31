@@ -14,8 +14,8 @@ describe("municipal evidence", () => {
   });
   it("exports all selected municipalities and preserves unknown values", () => {
     const data = padronDataset();
-    expect(data.records).toHaveLength(21);
-    expect(new Set(data.records.map(r => r.ine_code)).size).toBe(21);
+    expect(data.records).toHaveLength(27);
+    expect(new Set(data.records.map(r => r.ine_code)).size).toBe(27);
     for (const r of data.records) {
       expect(padronCsv()).toContain(r.ine_code);
       if (r.review_status === "verificado") for (const k of ["alta","docs_extra","canal"]) expect(r.evidence[k].source_url).toBeTruthy();

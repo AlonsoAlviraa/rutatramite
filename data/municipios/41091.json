@@ -11,23 +11,27 @@
   "poblacion": 689423,
   "poblacion_ref": "INE 1-ene-2025 (vía listado público; contrastar cifra vigente en ine.es)",
   "sede_url": "https://www.sevilla.org/",
-  "tramite_alta_url": null,
-  "cita_url": null,
+  "tramite_alta_url": "https://www.sevilla.org/servicios/empadronamiento/informacion-empadronamiento/medios-de-empadronamiento",
+  "cita_url": "https://www.sevilla.org/servicios/participacion-ciudadana/citas-previas-en-pacs-y-distritos-municipales",
   "certificado_url": null,
-  "online": "unknown",
+  "online": true,
   "presencial": true,
-  "cita_previa": "unknown",
+  "cita_previa": "required",
   "oficinas": [],
   "tasa_alta": 0,
   "tasa_volante": null,
   "tasa_certificado": null,
   "docs_extra": [],
-  "peculiaridades": [],
+  "peculiaridades": [
+    "Por internet se tramita con firma digital, adjuntando la hoja padronal",
+    "La cita previa presencial se pide por el 010 o el 955 010 010"
+  ],
   "idiomas_sede": [
     "es"
   ],
-  "last_verified": "2026-09-03",
+  "last_verified": "2026-10-24",
   "source_urls": [
+    "https://www.sevilla.org/servicios/empadronamiento/informacion-empadronamiento/medios-de-empadronamiento",
     "https://www.sevilla.org/",
     "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031"
   ],

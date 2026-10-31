@@ -4,7 +4,7 @@ import { pageMetadata } from "@/lib/seo/meta";
 
 export const metadata: Metadata = pageMetadata({
   title: PACK_DOCUMENT_HEADINGS.viaje,
-  description: "Renovar el DNI cuesta 12 € y el pasaporte 30 €, salvo exención. Casos gratuitos, cómo pagar y qué documentos preparar antes de pedir la cita oficial, que es gratuita.",
+  description: "Tasa del DNI y del pasaporte 2026: renovar el DNI cuesta 12 € y el pasaporte 30 € (42 € juntos). Gratis con familia numerosa. Documentos y cita previa gratuita.",
   path: "/dni",
   keywords: [],
 });

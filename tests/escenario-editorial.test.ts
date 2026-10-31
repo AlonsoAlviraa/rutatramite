@@ -68,13 +68,7 @@ function readContent(slug: string): string {
 }
 
 function visible(md: string): string {
-  let previous = "";
-  let current = md;
-  while (current !== previous) {
-    previous = current;
-    current = current.replace(/<!--[\s\S]*?-->/g, "");
-  }
-  return current;
+  return md.replace(/<!--[\s\S]*?-->/g, "");
 }
 
 type Faq = { q: string; body: string };

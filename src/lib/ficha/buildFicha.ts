@@ -366,6 +366,32 @@ export function neighborsOf(m: Municipio, index: MunicipioIndexEntry[], n = 5): 
     .slice(0, n);
 }
 
+const RESUMEN_LOCAL_ON = true;
+function resumenLocal(m: Municipio): FichaSection | null {
+  if (!RESUMEN_LOCAL_ON || !m.reviewed_on || m.confidence !== "official") return null;
+  const items: string[] = [];
+  const canal = m.online === true ? (m.presencial === false ? "solo por internet" : "por internet (sede electrónica con identificación digital) o en persona")
+    : m.online === false ? "solo en persona" : m.online === "partial" ? "en parte por internet y en parte en persona" : null;
+  if (canal) items.push(`Canal para el alta: ${canal}.`);
+  const cita = { required: "hace falta cita previa", recommended: "se recomienda pedir cita, aunque hay atención sin ella según la oficina", "walk-in": "se atiende sin cita en ventanilla, según horario", unknown: null }[m.cita_previa];
+  if (cita) items.push(`Atención presencial: ${cita}.`);
+  const of = m.oficinas?.[0];
+  if (of) items.push(`Oficina de referencia: ${[of.nombre, of.direccion, of.cp, of.horario, of.telefono ? `tel. ${of.telefono}` : null].filter(Boolean).join(", ")}.`);
+  if (m.fee_public_note) items.push(m.fee_public_note);
+  const docs = m.procedure_docs?.alta ?? [];
+  for (const d of docs.slice(0, 3)) items.push(`Documentación: ${d}`);
+  const notes = [...new Set([m.review_note, ...(m.peculiaridades ?? [])].filter((x): x is string => !!x))];
+  return {
+    id: "resumen-local",
+    title: `${m.name}: lo que publica el ayuntamiento`,
+    paragraphs: [
+      `Este resumen recoge lo que el Ayuntamiento de ${m.name} publica sobre el alta en el padrón, contrastado con su web oficial el ${m.reviewed_on}. ${notes[0] ?? ""}`.trim(),
+    ],
+    lists: [items],
+    links: [...new Set([...(m.tramite_alta_url ? [m.tramite_alta_url] : []), ...(m.cita_url ? [m.cita_url] : [])])].map((href) => ({ href, label: href === m.cita_url && href !== m.tramite_alta_url ? `Cita previa: ${new URL(href).hostname}` : `Trámite oficial: ${new URL(href).hostname}` })),
+  };
+}
+
 export function buildFichaModel(m: Municipio, index: MunicipioIndexEntry[]): FichaModel {
   const nb = neighborsOf(m, index);
   const canal = canalPhrase(m);
@@ -380,7 +406,9 @@ export function buildFichaModel(m: Municipio, index: MunicipioIndexEntry[]): Fic
     href: escenarioPath(slug),
   }));
 
+  const local = resumenLocal(m);
   const sections: FichaSection[] = [
+    ...(local ? [local] : []),
     {
       id: "que-es",
       title: `Qué es el padrón en ${m.name}`,

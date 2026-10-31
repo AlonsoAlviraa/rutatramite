@@ -46,7 +46,9 @@ def apply_in(pr, reg):
     if 'itp' in tax:
         return "En parte: el ITP lo fija " + ("la Hacienda foral." if reg == 'foral' else "la comunidad autónoma.")
     if 'autonómica' in lvl:
-        return "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+        return {"vivienda": "Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica.",
+                "sanidad": "Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado).",
+                "educacion": "Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."}.get(pr['topic'], "Sí, pero necesita a la comunidad: la gestión es competencia autonómica.")
     return "Sí: es una medida estatal, igual en toda España."
 def apply_kind(pr, reg):
     t = apply_in(pr, reg)
@@ -62,7 +64,11 @@ def fmtdate(s):
     if len(p) == 2: return f"{MESES[int(p[1])-1]} de {p[0]}"
     return f"{int(p[2])} de {MESES[int(p[1])-1]} de {p[0]}"
 def pname(pid): return P[pid]['name']
-def short(pid): return {"pp":"PP","psoe":"PSOE","vox":"Vox","frente-amplio":"Frente Amplio","podemos":"Podemos"}[pid]
+def short(pid): return {"pp":"PP","psoe":"PSOE","vox":"Vox","frente-amplio":"Frente Amplio","podemos":"Podemos","democracia-21":"Democracia 21"}[pid]
+NP = len(ORDER)
+ALLP = ", ".join(short(o) for o in ORDER[:-1]) + " y " + short(ORDER[-1])
+def runs_in(pid, slug): return slug in P[pid].get('circunscripciones', [slug])
+def who(pr): return pr.get('who')
 def fitdesc(s):
     s = re.sub(r'\s+', ' ', s).strip()
     pad = " Fuentes y fecha de cada medida."
@@ -107,15 +113,26 @@ def party_table(prs, cap, extra=None):
     return {"caption": cap, "head": head, "rows": rows}
 dU = fmtdate(UPD)
 # ---- topics (comparators)
-TOPIC_SLUG = {"vivienda":"vivienda","impuestos":"impuestos","empleo":"empleo-y-salarios","inmigracion":"inmigracion","administracion":"burocracia-y-cita-previa","pensiones":"pensiones"}
+TOPIC_SLUG = {"vivienda":"vivienda","impuestos":"impuestos","empleo":"empleo-y-salarios","inmigracion":"inmigracion","administracion":"burocracia-y-cita-previa","pensiones":"pensiones","sanidad":"sanidad","educacion":"educacion","instituciones":"instituciones-y-gasto-publico"}
+LGS = {"label": "BOE: Ley 14/1986, General de Sanidad", "href": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-10499"}
+LOE = {"label": "BOE: Ley Orgánica 2/2006, de Educación", "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899"}
+TOPIC_EXTRA = {
+ "sanidad": {"id": "quien-decide", "title": "Quién decide en sanidad: Estado y comunidades", "paragraphs": [
+   "La Ley General de Sanidad (Ley 14/1986) organiza el Sistema Nacional de Salud como el conjunto de los servicios de salud del Estado y de las comunidades autónomas. El Estado fija las bases y la coordinación general de la sanidad (artículo 149.1.16.ª de la Constitución); la gestión de hospitales y centros de salud corresponde a cada comunidad. En Ceuta y Melilla la gestiona el Estado, a través del Instituto Nacional de Gestión Sanitaria (INGESA).",
+   "Por eso muchas promesas sanitarias de unas generales necesitan después el acuerdo o la gestión de la comunidad autónoma: listas de espera, plantillas y conciertos dependen sobre todo del servicio de salud de tu comunidad."]},
+ "educacion": {"id": "quien-decide", "title": "Quién decide en educación: Estado y comunidades", "paragraphs": [
+   "La Ley Orgánica de Educación (LOE, Ley Orgánica 2/2006) fija la ordenación general del sistema educativo, los títulos y las enseñanzas mínimas. Las comunidades autónomas gestionan los centros, el profesorado y buena parte del currículo; en Ceuta y Melilla lo gestiona el Ministerio de Educación.",
+   "Un objetivo estatal, como reducir el abandono escolar, se aplica en la práctica con programas acordados con las comunidades autónomas."]},
+}
+TOPIC_SRC = {"sanidad": [LGS], "educacion": [LOE]}
 for t, tname in TOP.items():
     prs = [p for p in PR if p['topic'] == t]
     secs = []
     for pid in ORDER:
         mine = [p for p in prs if p['party'] == pid]
-        paras = [f"Candidato o líder: {P[pid]['leader']}. Programa para el 29-N: {P[pid]['programa29n']}."]
+        paras = [f"Candidato o líder: {P[pid]['leader']}. Programa para el 29-N: {P[pid]['programa29n']}." + ((" " + P[pid]['nota']) if P[pid].get('nota') else "")]
         if mine:
-            paras += [f"«{p['quote']}» ({p['source_title']}, {fmtdate(p['source_date'])})." for p in mine]
+            paras += [(f"«{p['quote']}» ({who(p)}; fuente: {p['source_title']})." if who(p) else f"«{p['quote']}» ({p['source_title']}, {fmtdate(p['source_date'])}).") for p in mine]
             for p in mine:
                 it = impact_text(p)
                 if it: paras.append(it)
@@ -124,23 +141,24 @@ for t, tname in TOP.items():
             sec = {"id": pid, "title": f"{pname(pid)}", "paragraphs": paras + [PEND.format(d=dU)]}
         secs.append(sec)
     n = len({p['party'] for p in prs})
+    if t in TOPIC_EXTRA: secs.append(TOPIC_EXTRA[t])
     secs.append({"id": "como-leer", "title": "Cómo leer esta comparativa", "paragraphs": [D['order_rule'], "Que un partido tenga más filas no significa que su propuesta sea mejor: solo refleja cuántas medidas concretas ha publicado hasta ahora. Las marcadas como «prensa» no tienen todavía un documento oficial del partido."]})
     G.append(None); G.pop()
     guide(f"que-propone-cada-partido-{TOPIC_SLUG[t]}",
           f"Qué propone cada partido sobre {tname.lower()} para el 29-N",
           f"{tname}: qué propone cada partido el 29-N",
-          f"{tname} en las elecciones del 29 de noviembre: qué propone PP, PSOE, Vox, Frente Amplio y Podemos, con la cita y la fuente de cada medida.",
-          f"Respuesta corta: {n} de los 5 partidos principales han concretado algo sobre {tname.lower()} a {dU}; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+          f"{tname} el 29-N: qué proponen {ALLP}, con la cita, la fecha y la fuente de cada medida.",
+          f"Respuesta corta: {n} de los {NP} partidos que comparamos han concretado algo sobre {tname.lower()} a {dU}, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
           secs,
           [{"q": f"¿Qué partido propone más sobre {tname.lower()}?", "a": "No lo valoramos. Mostramos todas las medidas concretas que cada partido ha publicado o anunciado, con la misma estructura para todos."},
            {"q": "¿Están ya los programas electorales del 29-N?", "a": f"A {dU} ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."},
            {"q": "¿Por qué algunas medidas pone «prensa»?", "a": "Porque el anuncio solo aparece en medios y no en un documento oficial del partido. Lo indicamos para que sepas cuánto peso darle."}],
           COMMON_REL + [{"href": f"{BASE}/perfil-joven-alquiler", "label": "Cómo te afecta si eres joven y alquilas"}],
-          uniq_sources(prs))
+          uniq_sources(prs) + TOPIC_SRC.get(t, []))
 # ---- parties
 for pid in ORDER:
     mine = [p for p in PR if p['party'] == pid]
-    secs = [{"id": "ficha", "title": "Ficha", "paragraphs": [f"Líder o candidato: {P[pid]['leader']}.", f"Resultado en 2023: {P[pid]['votes2023']}.", f"Programa para el 29-N: {P[pid]['programa29n']}.", "Las candidaturas se proclaman el 2 de noviembre y se publican en el BOE el 3 de noviembre: hasta entonces no hay candidatos oficiales."]}]
+    secs = [{"id": "ficha", "title": "Ficha", "paragraphs": [f"Líder o candidato: {P[pid]['leader']}.", f"Resultado en 2023: {P[pid]['votes2023']}.", f"Programa para el 29-N: {P[pid]['programa29n']}."] + ([P[pid]['nota']] if P[pid].get('nota') else []) + ["Las candidaturas se proclaman el 2 de noviembre y se publican en el BOE el 3 de noviembre: hasta entonces no hay candidatos oficiales."]}]
     for t, tname in TOP.items():
         m = [p for p in mine if p['topic'] == t]
         if m:
@@ -149,7 +167,7 @@ for pid in ORDER:
             secs.append({"id": t, "title": tname, "paragraphs": [PEND.format(d=dU)]})
     guide(f"partido-{pid}", f"{pname(pid)}: qué promete para el 29-N",
           f"{short(pid)}: promesas y medidas para el 29-N",
-          f"Qué propone {short(pid)} para las elecciones del 29 de noviembre: vivienda, impuestos, empleo, pensiones y más, con la fuente y la fecha de cada medida.",
+          f"Qué propone {short(pid)} para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
           f"Respuesta corta: {short(pid)} ha concretado {len(mine)} medida{'s' if len(mine)!=1 else ''} con fuente a {dU}; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
           secs,
           [{"q": f"¿Ha publicado {short(pid)} su programa para el 29-N?", "a": f"A {dU}, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."},
@@ -162,7 +180,7 @@ guide("otros-partidos", "Otros partidos del 29-N: ERC, Junts, Bildu, PNV, BNG y 
       "ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria, UPN y nuevos partidos en el 29-N: estado de sus programas y cuándo se conocerán las candidaturas.",
       f"Respuesta corta: a {dU} ninguno de estos partidos ha publicado su programa para el 29-N. Los añadiremos con el mismo formato cuando lo hagan o cuando el BOE publique las candidaturas proclamadas (3 de noviembre).",
       [{"id": "lista", "title": "Estado de cada partido", "paragraphs": [f"{o}: pendiente de programa." for o in D['others']]},
-       {"id": "criterio", "title": "Por qué no tienen ficha propia todavía", "paragraphs": ["Damos ficha propia a los partidos con grupo estatal relevante en 2023. Los partidos que solo se presentan en algunas provincias aparecerán en las páginas de su comunidad en cuanto publiquen medidas."]}],
+       {"id": "criterio", "title": "Por qué no tienen ficha propia todavía", "paragraphs": ["Damos ficha propia a los partidos con grupo estatal relevante en 2023 y a Democracia 21, que se presenta como alternativa estatal aunque solo concurre en Madrid y Barcelona. Las propuestas de mítines de los demás partidos están en la página de programas y mítines del 29-N."]}],
       [{"q": "¿Cuándo se sabe qué partidos se presentan?", "a": "Las candidaturas se presentan del 21 al 26 de octubre y el BOE publica las proclamadas el 3 de noviembre."},
        {"q": "¿Aparecen en mi papeleta los partidos que solo van en otras provincias?", "a": "No: en las generales cada provincia tiene sus propias listas, así que solo verás las candidaturas presentadas en la tuya."}],
       COMMON_REL, [RD])
@@ -171,6 +189,9 @@ for slug, name, dip, reg in CCAA:
     rows = []
     for pid in ORDER:
         mine = [p for p in PR if p['party'] == pid]
+        if not runs_in(pid, slug):
+            rows.append({"cells": [short(pid), "No presenta candidatura en esta comunidad", "No aplica: solo concurre en Madrid y Barcelona"], "source": {"label": "Junta Electoral Central: coaliciones", "href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"}})
+            continue
         if not mine:
             rows.append({"cells": [short(pid), "Pendiente de programa", "—"], "source": {"label": "Web del partido", "href": P[pid]['web']}})
         for p in mine:
@@ -179,19 +200,24 @@ for slug, name, dip, reg in CCAA:
     for pid in ORDER:
         c = {"igual": 0, "comunidad": 0, "parcial": 0}
         mine = [p for p in PR if p['party'] == pid]
+        if not runs_in(pid, slug):
+            summary.append({"cells": [short(pid), "0 (no se presenta en esta comunidad)", "0", "0", "0", "No aplica: solo concurre en Madrid y Barcelona"], "source": {"label": "Junta Electoral Central: coaliciones", "href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"}})
+            continue
         for p in mine: c[apply_kind(p, reg)] += 1
         for k in cnt: cnt[k] += c[k]
         prog = P[pid]['programa29n']
         summary.append({"cells": [short(pid), str(len(mine)) if mine else "0 (pendiente de programa)", str(c['igual']), str(c['comunidad']), str(c['parcial']), prog], "source": {"label": ("Programa oficial" if prog.startswith("http") else f"Web oficial de {short(pid)}"), "href": prog if prog.startswith("http") else P[pid]['web']}})
-    pend = [short(pid) for pid in ORDER if not P[pid]['programa29n'].startswith("http")]
-    pend_txt = ("Ningún partido principal ha publicado aún su programa completo del 29-N." if len(pend) == len(ORDER) else ("Programa completo pendiente: " + ", ".join(pend) + ".") if pend else "")
+    HERE = [pid for pid in ORDER if runs_in(pid, slug)]
+    PRH = [p for p in PR if p['party'] in HERE]
+    pend = [short(pid) for pid in HERE if not P[pid]['programa29n'].startswith("http")]
+    pend_txt = ("Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N." if len(pend) == len(HERE) else ("Programa completo pendiente: " + ", ".join(pend) + ".") if pend else "")
     nota = {"canarias": "En Canarias, las propuestas de bajar el IVA (vivienda nueva, alimentos) no se aplicarían tal cual.",
             "ceutamelilla": f"En {name}, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
             "foral": f"En {name}, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
             "comun": f"En {name} se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico."}[reg]
     guide(f"comunidad-{slug}", f"Promesas del 29-N y cómo afectarían en {name}", f"Promesas electorales del 29-N en {name}",
-          f"Cómo afectarían en {name} las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige {dip} diputados.",
-          f"Respuesta corta (datos a {dU}): {name} elige {dip} diputado{'s' if dip!=1 else ''} el 29-N (BOE, RD 806/2026). De las {len(PR)} medidas con fuente que han anunciado los 5 partidos principales, {cnt['igual']} se aplicarían igual en {name}, {cnt['comunidad']} necesitarían además al gobierno autonómico y {cnt['parcial']} solo en parte o no tal cual. {pend_txt} {nota}",
+          f"Cómo afectarían en {name} las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige {dip} diputados.",
+          f"Respuesta corta (datos a {dU}): {name} elige {dip} diputado{'s' if dip!=1 else ''} el 29-N (BOE, RD 806/2026). De las {len(PRH)} medidas con fuente que han anunciado los {len(HERE)} partidos de esta comparativa que se presentan aquí, {cnt['igual']} se aplicarían igual en {name}, {cnt['comunidad']} necesitarían además al gobierno autonómico y {cnt['parcial']} solo en parte o no tal cual. {pend_txt} {nota}",
           [{"id": "resumen", "title": f"Resumen por partido en {name}", "paragraphs": [f"Última actualización de los datos: {dU}. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para {name}.", "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."], "table": {"caption": f"Medidas anunciadas para el 29-N y cómo se aplicarían en {name}, por partido (a {dU})", "head": ["Partido", "Medidas con fuente", "Igual que en el resto de España", "Necesitan también a la comunidad", "Solo en parte o no tal cual aquí", "Programa del 29-N"], "rows": summary}},
            {"id": "que-se-vota", "title": f"Qué se vota en {name} el 29-N", "paragraphs": [f"Se eligen {dip} diputado{'s' if dip!=1 else ''} al Congreso y los senadores de la circunscripción. No hay elecciones autonómicas convocadas para ese día por el Real Decreto 806/2026."]},
            {"id": "competencias", "title": "Qué decide el Estado y qué decide tu comunidad", "paragraphs": [REGIME[reg], "Por eso una misma promesa estatal puede notarse distinto según dónde vivas. La columna «¿Se aplicaría aquí?» lo explica medida a medida."]},
@@ -199,7 +225,7 @@ for slug, name, dip, reg in CCAA:
           [{"q": f"¿Cuántos diputados elige {name}?", "a": f"{dip}, según el anexo del Real Decreto 806/2026 de convocatoria."},
            {"q": f"¿Se vota también el parlamento de {name} el 29-N?", "a": "No. El Real Decreto 806/2026 solo convoca elecciones al Congreso y al Senado."},
            {"q": "¿Por qué una promesa no se aplicaría en mi comunidad?", "a": "Porque algunos impuestos o competencias son autonómicos o forales, o porque en tu territorio no rige el IVA (Canarias, Ceuta y Melilla)."},
-           {"q": f"¿Cuántas medidas del 29-N se aplicarían igual en {name}?", "a": f"A {dU}, {cnt['igual']} de {len(PR)} medidas anunciadas con fuente se aplicarían igual que en el resto de España, {cnt['comunidad']} necesitarían también al gobierno autonómico y {cnt['parcial']} solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."},
+           {"q": f"¿Cuántas medidas del 29-N se aplicarían igual en {name}?", "a": f"A {dU}, {cnt['igual']} de {len(PRH)} medidas anunciadas con fuente se aplicarían igual que en el resto de España, {cnt['comunidad']} necesitarían también al gobierno autonómico y {cnt['parcial']} solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."},
            {"q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?", "a": f"Última actualización: {dU}. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."}],
           COMMON_REL, [RD, {"label": "BOE: Ley 35/2006 del IRPF", "href": LOIRPF}, {"label": "BOE: Ley 37/1992 del IVA", "href": LIVA}])
 # ---- profiles
@@ -214,8 +240,8 @@ for k, (label, lower, ayg) in PROFILES.items():
             secs.append({"id": pid, "title": pname(pid), "paragraphs": [PEND.format(d=dU)]})
     secs.append({"id": "historia", "title": "Qué hicieron los gobiernos anteriores", "paragraphs": [f"Para comparar promesas con hechos, consulta qué ayudas creó y recortó cada gobierno desde 1996 para {lower}, con su norma del BOE: {ayg}."]})
     guide(f"perfil-{k}", f"Promesas del 29-N para {lower}: qué propone cada partido", f"29-N para {label.lower()}: qué te afectaría",
-          f"Qué cambiaría para {lower} con las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos, con cálculos cuando hay datos oficiales.",
-          f"Respuesta corta: {len({p['party'] for p in prs})} de los 5 partidos principales tienen alguna medida publicada que afecta a {lower} a {dU}. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+          f"Qué cambiaría para {lower} con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
+          f"Respuesta corta: {len({p['party'] for p in prs})} de los {NP} partidos que comparamos tienen alguna medida publicada que afecta a {lower} a {dU}. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
           secs,
           [{"q": f"¿Qué partido es mejor para {lower}?", "a": "No hacemos esa valoración. Te mostramos qué propone cada uno y, cuando es posible, cuánto supondría, para que decidas tú."},
            {"q": "¿De dónde salen los cálculos?", "a": "Solo calculamos cuando la medida da cifras exactas (porcentajes, topes) y aplicamos la operación a precios de ejemplo. El método está en la página de metodología."},

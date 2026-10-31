@@ -40,7 +40,7 @@ def read(path):
         return r.read().decode()
 home=read('/')
 passport=read('/pasaporte')
-assert 'tasas-documentos' in passport and 'REF_1086' in passport and 'REF_480' in passport
+assert 'tasas-documentos' in passport and 'REF_1086' in passport and 'BOE-A-1979-867' in passport and 'tasas/dni/' in passport
 pilar=read('/empadronarse')
 assert 'Git es la fuente de verdad' not in pilar and 'Oleada A:' not in pilar
 assert 'Cómo empadronarse, paso a paso' in pilar

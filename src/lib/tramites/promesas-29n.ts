@@ -1,19 +1,19 @@
 import type { Guide } from "@/lib/tramites/types";
 
 /** Promesas y medidas del 29-N. GENERADO desde data/promesas-29n/promises.json con scripts/gen_promesas_29n.py: no editar a mano. */
-export const PROMESAS_29N_UPDATED = "2026-10-13";
+export const PROMESAS_29N_UPDATED = "2026-10-27";
 export const PROMESAS_29N_NOTE = "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.";
 
 export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-vivienda",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/que-propone-cada-partido-vivienda",
 "h1": "Qué propone cada partido sobre vivienda para el 29-N",
 "title": "Vivienda: qué propone cada partido el 29-N",
-"description": "Vivienda en las elecciones del 29 de noviembre: qué propone PP, PSOE, Vox, Frente Amplio y Podemos, con la cita y la fuente de cada medida.",
-"lead": "Respuesta corta: 4 de los 5 partidos principales han concretado algo sobre vivienda a 13 de octubre de 2026; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"description": "Vivienda el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
+"lead": "Respuesta corta: 6 de los 6 partidos que comparamos han concretado algo sobre vivienda a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -58,9 +58,89 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "RTVE: comunicado del Frente Amplio (12 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+},
+{
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo (16 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+},
+{
+"label": "Europa Press: Urtasun en Barcelona (14 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+},
+{
+"label": "Cadena SER: Montero presenta su candidatura (12 de septiembre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+},
+{
+"label": "Europa Press: presentación de Democracia 21 (10 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "RTVE: Feijóo en Barcelona (ley antiokupación) (18 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+},
+{
+"label": "voxespana.es: acto de Ponferrada (20 de octubre de 2026, web oficial del partido)",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+},
+{
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial) (21 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+},
+{
+"label": "El Mundo: el programa de vivienda de Democracia 21 (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+},
+{
+"label": "El Español: el plan de vivienda de 23 medidas del PP (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+},
+{
+"label": "El País: el PP propone segregar pisos de gran tamaño (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://elpais.com/economia/vivienda/2026-10-22/el-pp-propone-segregar-pisos-de-gran-tamano-como-remedio-ante-la-falta-de-vivienda.html"
+},
+{
+"label": "Cadena SER (Radio Ibiza): Vox promete vivienda para quien trabaje en Ibiza (24 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://cadenaser.com/baleares/2026/10/24/vox-promete-vivienda-para-quien-trabaje-en-ibiza-en-el-acto-de-abascal-en-la-isla-radio-ibiza/"
+},
+{
+"label": "El Español (con EFE): primer acto conjunto de Montero y Rufián (24 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elespanol.com/espana/20261024/montero-rufian-llaman-someter-psoe-izquierda-primer-acto-frente/1003744433653_0.html"
+},
+{
+"label": "voxespana.es: documento «Recuperar España» (octubre de 2026, web oficial del partido)",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+},
+{
+"label": "Europa Press: mitin de Frente Amplio en Móstoles (25 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-colau-llama-llenar-calles-poner-cuerpo-frente-politicos-solo-usan-piquito-oro-20261025140652.html"
+},
+{
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
 }
 ],
 "related": [
+{
+"href": "/trabajo/huelga-general-11-noviembre",
+"label": "Huelga general del 11-N: tus derechos"
+},
+{
+"href": "/alquiler/caso-maricarmen-desahucio",
+"label": "Caso Maricarmen: qué pasó y qué cambió para los inquilinos"
+},
+{
+"href": "/elecciones/contrato-con-espana-pp",
+"label": "Contrato con España del PP: los 12 puntos"
+},
 {
 "href": "/elecciones/promesas",
 "label": "Promesas del 29-N: todas las medidas"
@@ -80,6 +160,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -90,7 +174,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 13 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
 },
 {
 "q": "¿Por qué algunas medidas pone «prensa»?",
@@ -109,6 +193,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "«permitirán sentar las bases para la construcción de un millón de viviendas en una legislatura» (pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026).",
 "«reducir los plazos medios de producción de 10 años a 4» (pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026).",
 "«El Partido Popular se compromete a derogar la Ley de Vivienda actual, eliminar los controles de precios» (El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026).",
+"«para adquirir una vivienda habitual en municipios despoblados» (Alberto Núñez Feijóo, acto de Afammer en Toledo, 16-10-2026; fuente: La Vanguardia: Feijóo en el acto de Afammer en Toledo).",
+"«Tolerancia cero con los okupas, fuera en 48 horas sí o sí» (Alberto Núñez Feijóo, acto de precampaña en Barcelona con Xavier García Albiol, 18-10-2026; fuente: RTVE: Feijóo en Barcelona (ley antiokupación)).",
+"«construir al menos un millón de nuevas viviendas» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP).",
+"«deducciones fiscales para inquilinos y propietarios que prorroguen sus contratos hasta tres años con subidas por debajo del IPC» (Alberto Núñez Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026; fuente: pp.es: acto sobre vivienda en Sevilla (nota oficial)).",
+"«el silencio administrativo positivo a los 90 días con carácter general» (Alberto Núñez Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026; fuente: pp.es: acto sobre vivienda en Sevilla (nota oficial)).",
+"«en los cien primeros días de Gobierno aprobará la Ley del Suelo, la Ley para desalojar okupas en 48 horas y la reforma de la Ley de Propiedad Horizontal» (Alberto Núñez Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026; fuente: pp.es: acto sobre vivienda en Sevilla (nota oficial)).",
+"«avales del 100% y rebaja del 60% del IVA y del ITP» (Alberto Núñez Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026; fuente: pp.es: acto sobre vivienda en Sevilla (nota oficial)).",
+"«Bonificación del 75% en el IRPF por alquilar viviendas vacías» (Plan de vivienda del PP (23 medidas) presentado por Feijóo en Sevilla; documento publicado por El Español, 22-10-2026; fuente: El Español: el plan de vivienda de 23 medidas del PP).",
+"«Deducción del 15% del alquiler para jóvenes» (Plan de vivienda del PP (23 medidas) presentado por Feijóo en Sevilla; documento publicado por El Español, 22-10-2026; fuente: El Español: el plan de vivienda de 23 medidas del PP).",
+"«De una vivienda podemos sacar dos» (Juan Bravo, vicesecretario de Hacienda, Vivienda e Infraestructuras del PP, entrevista en À Punt Ràdio, 22-10-2026; fuente: El País: el PP propone segregar pisos de gran tamaño).",
+"«No será una ventanilla donde informar, no, será un mando único indiscutible» (Alberto Núñez Feijóo, declaraciones a Vozpópuli, 26-10-2026; fuente: Vozpópuli: Feijóo y la vicepresidencia de vivienda).",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -184,6 +279,127 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
 "href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+}
+},
+{
+"cells": [
+"PP",
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "RTVE: Feijóo en Barcelona (ley antiokupación), 18 de octubre de 2026",
+"href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Crear un Fondo Estatal de Garantía del Alquiler que cubra un porcentaje de los impagos y bonificar un 75 % en el IRPF, el primer año, a quien ponga en alquiler una vivienda vacía.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español: el plan de vivienda de 23 medidas del PP, 22 de octubre de 2026",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducción del 15 % del alquiler para los jóvenes, aval público para la fianza del alquiler de los menores de 35 años e IRPF cero el primer año de trabajo con rebajas los tres siguientes («Plan Prepara»).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español: el plan de vivienda de 23 medidas del PP, 22 de octubre de 2026",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+}
+},
+{
+"cells": [
+"PP",
+"Facilitar la segregación de viviendas grandes («de 150 o 200 metros cuadrados») en dos para aumentar la oferta. Ya es posible hoy donde lo permite la normativa urbanística, que depende de ayuntamientos y comunidades autónomas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El País: el PP propone segregar pisos de gran tamaño, 22 de octubre de 2026",
+"href": "https://elpais.com/economia/vivienda/2026-10-22/el-pp-propone-segregar-pisos-de-gran-tamano-como-remedio-ante-la-falta-de-vivienda.html"
+}
+},
+{
+"cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
 }
 }
 ]
@@ -275,7 +491,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "paragraphs": [
 "Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
 "«defendiendo la prioridad nacional, para que los españoles no sean discriminados en su propia patria» (voxespana.es: declaración tras la convocatoria, 5 de octubre de 2026).",
-"«construir \"masivamente\" vivienda social y adjudicarla siguiendo el criterio de \"prioridad nacional\"» (Expansión: propuesta de Ignacio Garriga, 11 de octubre de 2026)."
+"«construir \"masivamente\" vivienda social y adjudicarla siguiendo el criterio de \"prioridad nacional\"» (Expansión: propuesta de Ignacio Garriga, 11 de octubre de 2026).",
+"«que los españoles sean los primeros en recibir ayudas sociales, ayudas al alquiler y plazas de guardería» (Santiago Abascal, acto de precampaña en Ponferrada (León), 20-10-2026; fuente: voxespana.es: acto de Ponferrada).",
+"«Vivienda para quien trabaja aquí, liberar suelo, quitar impuestos y tasas al construir, y plazos cerrados para las licencias» (Maribel Cerezo, cabeza de lista de Vox por Baleares, acto con Santiago Abascal en Ibiza, 24-10-2026; fuente: Cadena SER (Radio Ibiza): Vox promete vivienda para quien trabaje en Ibiza).",
+"«impuestos cero a tu primera vivienda» (Vox, documento «Recuperar España» (octubre de 2026); fuente: voxespana.es: documento «Recuperar España»)."
 ],
 "table": {
 "caption": "Vox: medidas sobre vivienda",
@@ -307,6 +526,39 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Expansión: propuesta de Ignacio Garriga, 11 de octubre de 2026",
 "href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/11/6acb4be4468aebef4f8b459b.html"
 }
+},
+{
+"cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
+"Vox",
+"Para Ibiza y Formentera: «vivienda para quien trabaja aquí», liberar suelo, quitar impuestos y tasas al construir y plazos cerrados para las licencias. Lo planteó la cabeza de lista por Baleares en el acto de Abascal.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Cadena SER (Radio Ibiza): Vox promete vivienda para quien trabaje en Ibiza, 24 de octubre de 2026",
+"href": "https://cadenaser.com/baleares/2026/10/24/vox-promete-vivienda-para-quien-trabaje-en-ibiza-en-el-acto-de-abascal-en-la-isla-radio-ibiza/"
+}
+},
+{
+"cells": [
+"Vox",
+"«Impuestos cero» al comprar la primera vivienda, junto con liberar suelo e invertir en vivienda protegida. No detalla qué impuestos (hoy se paga el ITP en vivienda usada o el IVA del 10 % en vivienda nueva).",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España», octubre de 2026",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+}
 }
 ]
 }
@@ -316,7 +568,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
 "Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
-"«Plantar cara a los fondos buitre, garantizar el derecho a la vivienda y seguir conquistando derechos» (RTVE: comunicado del Frente Amplio, 12 de octubre de 2026)."
+"«Plantar cara a los fondos buitre, garantizar el derecho a la vivienda y seguir conquistando derechos» (RTVE: comunicado del Frente Amplio, 12 de octubre de 2026).",
+"«es necesario que el Estado invierta un 1% del PIB en vivienda pública asequible, a través de la construcción, pero también de la compra» (Ernest Urtasun (Comuns, Frente Amplio), declaraciones en Barcelona, 14-10-2026; fuente: Europa Press: Urtasun en Barcelona).",
+"«No podemos dejar que la vivienda sea un activo financiero en el que los grandes tenedores y los grandes fondos internacionales especulan» (Ernest Urtasun (Comuns, Frente Amplio), declaraciones en Barcelona, 14-10-2026; fuente: Europa Press: Urtasun en Barcelona).",
+"«freír a impuestos a los especuladores» (Toni Valero (IU, n.º 3 de Frente Amplio por Madrid), mitin en Móstoles, 25-10-2026; fuente: Europa Press: mitin de Frente Amplio en Móstoles)."
 ],
 "table": {
 "caption": "Frente Amplio: medidas sobre vivienda",
@@ -337,6 +592,39 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
 "href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
 }
+},
+{
+"cells": [
+"Frente Amplio",
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"Frenar las compras especulativas de vivienda y las de los fondos de inversión.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"Subir los impuestos a quienes especulan con la vivienda y expropiar pisos a los fondos buitre. No detalló qué impuestos ni el procedimiento.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: mitin de Frente Amplio en Móstoles, 25 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-colau-llama-llenar-calles-poner-cuerpo-frente-politicos-solo-usan-piquito-oro-20261025140652.html"
+}
 }
 ]
 }
@@ -346,14 +634,138 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Podemos",
 "paragraphs": [
 "Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"«Hay que bajar los precios y prohibir la especulación» (Irene Montero, presentación de su candidatura, Madrid, 12-09-2026 (antes de la convocatoria); fuente: Cadena SER: Montero presenta su candidatura).",
+"«Las casas son para vivir.» (Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026; fuente: Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»).",
+"«porque las casas son para vivir y no para hacer negocio» (Irene Montero, acto conjunto con Gabriel Rufián (ERC) en Nou Barris, Barcelona, 24-10-2026; fuente: El Español (con EFE): primer acto conjunto de Montero y Rufián)."
+],
+"table": {
+"caption": "Podemos: medidas sobre vivienda",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Podemos",
+"Bajar los precios de la vivienda y prohibir la especulación.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Cadena SER: Montero presenta su candidatura, 12 de septiembre de 2026",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"Expropiar pisos a los fondos buitre «por miles» y subir los impuestos a las rentas más altas para reforzar los servicios públicos. No detalló el procedimiento.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español (con EFE): primer acto conjunto de Montero y Rufián, 24 de octubre de 2026",
+"href": "https://www.elespanol.com/espana/20261024/montero-rufian-llaman-someter-psoe-izquierda-primer-acto-frente/1003744433653_0.html"
+}
+}
 ]
+}
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Candidato o líder: Miriam González. Programa para el 29-N: pendiente de programa. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en las circunscripciones de Madrid y Barcelona, según la Junta Electoral Central.",
+"«Si tenemos jóvenes que están ganando 1.300 euros, el máximo que deberían gastarse en alquiler de vivienda o en vivienda son 350 euros» (Miriam González, presentación de Democracia 21, Madrid, 10-10-2026; fuente: Europa Press: presentación de Democracia 21).",
+"«los 10.000 millones de fondos de nueva generación que no se han ejecutado se puedan dedicar a un fondo soberano nacional para vivienda protegida y asequible» (Miriam González, presentación de Democracia 21, Madrid, 10-10-2026; fuente: Europa Press: presentación de Democracia 21).",
+"«límite temporal y excepcional de los precios de los alquileres» (Democracia 21, apartado de vivienda de su programa adelantado por El Mundo, 22-10-2026; fuente: El Mundo: el programa de vivienda de Democracia 21).",
+"«Servicio de Mediación de Arrendamientos gratuito y vinculante» (Democracia 21, apartado de vivienda de su programa adelantado por El Mundo, 22-10-2026; fuente: El Mundo: el programa de vivienda de Democracia 21).",
+"«reducir el IVA del 10% al 4% para la construcción y rehabilitación integral de viviendas asequibles» (Democracia 21, apartado de vivienda de su programa adelantado por El Mundo, 22-10-2026; fuente: El Mundo: el programa de vivienda de Democracia 21)."
+],
+"table": {
+"caption": "Democracia 21: medidas sobre vivienda",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"Plan nacional de construcción de barrios con diez años de seguridad jurídica; que un joven que gane 1.300 € no pague más de 350 € por su vivienda y, mientras tanto, quitar todos los impuestos sobre la vivienda a los menores de 35 años.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Destinar 10.000 millones de euros de fondos Next Generation no ejecutados a un fondo soberano de vivienda protegida y asequible.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Límite «temporal y excepcional» de los precios del alquiler y un Servicio Social de Garantía de Arrendamientos: el Estado paga el alquiler al propietario si el inquilino es declarado vulnerable y no hay alternativa habitacional inmediata.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Mundo: el programa de vivienda de Democracia 21, 22 de octubre de 2026",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Servicio de Mediación de Arrendamientos gratuito y vinculante (máximo 30 días) y juzgados especializados de arrendamientos (60 días más); tipificar como estafa firmar un contrato con intención premeditada de no pagar y el subarriendo ilegal; regular en la LAU el alquiler por habitaciones.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Mundo: el programa de vivienda de Democracia 21, 22 de octubre de 2026",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"IVA del 4 % (ahora 10 %) para construir y rehabilitar vivienda asequible; suelo público cedido hasta 75 años sin perder la titularidad pública; licencias de obra mayor en 30 días y declaración responsable digital para obras menores.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Mundo: el programa de vivienda de Democracia 21, 22 de octubre de 2026",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+}
+]
+}
 },
 {
 "id": "como-leer",
 "title": "Cómo leer esta comparativa",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar).",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final.",
 "Que un partido tenga más filas no significa que su propuesta sea mejor: solo refleja cuántas medidas concretas ha publicado hasta ahora. Las marcadas como «prensa» no tienen todavía un documento oficial del partido."
 ]
 }
@@ -362,12 +774,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-impuestos",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/que-propone-cada-partido-impuestos",
 "h1": "Qué propone cada partido sobre impuestos y coste de la vida para el 29-N",
 "title": "Impuestos y coste de la vida: qué propone cada partido el 29-N",
-"description": "Impuestos y coste de la vida en las elecciones del 29 de noviembre: qué propone PP, PSOE, Vox, Frente Amplio y Podemos, con la cita y la fuente de cada…",
-"lead": "Respuesta corta: 2 de los 5 partidos principales han concretado algo sobre impuestos y coste de la vida a 13 de octubre de 2026; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"description": "Impuestos y coste de la vida el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
+"lead": "Respuesta corta: 5 de los 6 partidos que comparamos han concretado algo sobre impuestos y coste de la vida a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -392,6 +804,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "voxespana.es: acto de Estepona (11 de octubre de 2026, web oficial del partido)",
 "href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+},
+{
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo (16 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+},
+{
+"label": "Europa Press: Consejo Ciudadano de Podemos (17 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-montero-lanza-candidatura-acusa-frente-amplio-preferir-pactar-psoe-senado-podemos-ccaa-20261017123614.html"
+},
+{
+"label": "Europa Press: presentación de Democracia 21 (10 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "pp.es: Bendodo en Granada (autónomos) (16 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+},
+{
+"label": "EFE (vía Infobae): Frente Amplio plantea una prestación universal por crianza (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.infobae.com/espana/agencias/2026/10/22/frente-amplio-plantea-una-prestacion-universal-por-crianza-y-pide-consenso-entre-partidos/"
+},
+{
+"label": "pp.es: Feijóo, rebaja del IRPF en 2027 (mitin en Valencia) (23 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/"
+},
+{
+"label": "pp.es: Feijóo, mitin en Vigo (mínimo familiar) (24 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-se-compromete-a-mejorar-la-exencion-del-minimo-familiar-para-que-las-familias-con-hijos-paguen-menos-impuestos/"
+},
+{
+"label": "voxespana.es: documento «Recuperar España» (octubre de 2026, web oficial del partido)",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
 }
 ],
 "related": [
@@ -414,6 +866,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -424,7 +880,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 13 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
 },
 {
 "q": "¿Por qué algunas medidas pone «prensa»?",
@@ -439,7 +895,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
 "«aplicar el IVA cero a los alimentos básicos y reducir la fiscalidad de los carburantes» (pp.es: entrevista a Juan Bravo, 9 de octubre de 2026).",
 "«Defendemos el Consejo Defensa del Contribuyente y una Ley de Derechos y Garantías» (pp.es: entrevista a Juan Bravo, 9 de octubre de 2026).",
-"«Entre sus medidas prioritarias destaca la deflactación de la tarifa del IRPF» (Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026)."
+"«Entre sus medidas prioritarias destaca la deflactación de la tarifa del IRPF» (Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026).",
+"«el IVA de la electricidad en el 10 % y el Impuesto sobre el Valor de la Producción de Energía Eléctrica en el 0 %» (Alberto Núñez Feijóo, acto de Afammer en Toledo, 16-10-2026; fuente: La Vanguardia: Feijóo en el acto de Afammer en Toledo).",
+"«1,4 millones de autónomos no paguen el IVA si facturan menos de 85.000 euros» (Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026; fuente: pp.es: Bendodo en Granada (autónomos)).",
+"«Revisaremos una a una las más de cien subidas fiscales de los últimos años» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP).",
+"«El umbral subirá automáticamente cada vez que suba el Salario Mínimo» (Alberto Núñez Feijóo, mitin en el Palau de les Arts de Valencia, 23-10-2026; fuente: pp.es: Feijóo, rebaja del IRPF en 2027 (mitin en Valencia)).",
+"«Es lo lógico y necesario en este momento» (Alberto Núñez Feijóo, mitin en Vigo, 24-10-2026; fuente: pp.es: Feijóo, mitin en Vigo (mínimo familiar))."
 ],
 "table": {
 "caption": "PP: medidas sobre impuestos y coste de la vida",
@@ -482,6 +943,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
 "href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
 }
+},
+{
+"cells": [
+"PP",
+"IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"Eliminar el IVA para autónomos que facturen menos de 85.000 euros al año (plan anunciado para unos 1,4 millones de autónomos).",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Rebajar el IRPF en 2027 «para que la inflación y los impuestos no se coman el salario» y fijar por ley que quien cobre el salario mínimo no pague IRPF, con un umbral que suba automáticamente cada vez que suba el SMI. Hoy quien solo cobra el SMI ya paga 0 € de IRPF por una deducción de 590,89 € aprobada para 2026.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Feijóo, rebaja del IRPF en 2027 (mitin en Valencia), 23 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/"
+}
+},
+{
+"cells": [
+"PP",
+"Mejorar la exención del mínimo familiar del IRPF para que las familias con hijos paguen menos impuestos. No concretó cuantías. Hoy el mínimo por descendientes es de 2.400 € al año por el primer hijo, 2.700 € por el segundo, 4.000 € por el tercero y 4.500 € por el cuarto y siguientes (artículo 58 de la Ley del IRPF).",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Feijóo, mitin en Vigo (mínimo familiar), 24 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-se-compromete-a-mejorar-la-exencion-del-minimo-familiar-para-que-las-familias-con-hijos-paguen-menos-impuestos/"
+}
 }
 ]
 }
@@ -491,7 +1007,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
 "Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -499,7 +1015,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Vox",
 "paragraphs": [
 "Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
-"«Que los impuestos sean los menos y que sirvan mucho más a los intereses nacionales» (voxespana.es: acto de Estepona, 11 de octubre de 2026)."
+"«Que los impuestos sean los menos y que sirvan mucho más a los intereses nacionales» (voxespana.es: acto de Estepona, 11 de octubre de 2026).",
+"«el dinero generado en España ha de redundar en mejores servicios aquí» (Vox, documento «Recuperar España» (octubre de 2026); fuente: voxespana.es: documento «Recuperar España»)."
 ],
 "table": {
 "caption": "Vox: medidas sobre impuestos y coste de la vida",
@@ -520,6 +1037,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
 "href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
 }
+},
+{
+"cells": [
+"Vox",
+"Un impuesto sobre las remesas, el dinero que se envía al extranjero, para que «el dinero generado en España» se quede en servicios aquí. No concreta el tipo ni a quién se aplicaría.",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España», octubre de 2026",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+}
 }
 ]
 }
@@ -529,22 +1057,108 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
 "Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"«prestación universal por crianza» (Ernest Urtasun (número dos de Comuns-Frente Amplio por Barcelona) y Rosa Martínez, Barcelona, 22-10-2026; fuente: EFE (vía Infobae): Frente Amplio plantea una prestación universal por crianza)."
+],
+"table": {
+"caption": "Frente Amplio: medidas sobre impuestos y coste de la vida",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Frente Amplio",
+"Prestación universal por crianza concedida mediante deducciones en el IRPF, con un coste estimado de unos 13.000 millones de euros, contra la pobreza infantil.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "EFE (vía Infobae): Frente Amplio plantea una prestación universal por crianza, 22 de octubre de 2026",
+"href": "https://www.infobae.com/espana/agencias/2026/10/22/frente-amplio-plantea-una-prestacion-universal-por-crianza-y-pide-consenso-entre-partidos/"
+}
+}
 ]
+}
 },
 {
 "id": "podemos",
 "title": "Podemos",
 "paragraphs": [
 "Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"«acabar con el negocio de la vivienda, bajar el coste de la vida, mejorar los salarios y defender los servicios públicos» (Irene Montero, Consejo Ciudadano Estatal de Podemos, Madrid, 17-10-2026; fuente: Europa Press: Consejo Ciudadano de Podemos).",
+"«Bajar el coste de la vida.» (Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026; fuente: Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»)."
+],
+"table": {
+"caption": "Podemos: medidas sobre impuestos y coste de la vida",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Podemos",
+"Objetivos de campaña: acabar con «el negocio de la vivienda», bajar el coste de la vida, mejorar los salarios y defender los servicios públicos.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Consejo Ciudadano de Podemos, 17 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-montero-lanza-candidatura-acusa-frente-amplio-preferir-pactar-psoe-senado-podemos-ccaa-20261017123614.html"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+}
 ]
+}
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Candidato o líder: Miriam González. Programa para el 29-N: pendiente de programa. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en las circunscripciones de Madrid y Barcelona, según la Junta Electoral Central.",
+"«aliviar la presión fiscal» (Miriam González, presentación de Democracia 21, Madrid, 10-10-2026; fuente: Europa Press: presentación de Democracia 21)."
+],
+"table": {
+"caption": "Democracia 21: medidas sobre impuestos y coste de la vida",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"«Aliviar la presión fiscal» a la vez que se recuperan los servicios públicos.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
 },
 {
 "id": "como-leer",
 "title": "Cómo leer esta comparativa",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar).",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final.",
 "Que un partido tenga más filas no significa que su propuesta sea mejor: solo refleja cuántas medidas concretas ha publicado hasta ahora. Las marcadas como «prensa» no tienen todavía un documento oficial del partido."
 ]
 }
@@ -553,12 +1167,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-empleo-y-salarios",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/que-propone-cada-partido-empleo-y-salarios",
 "h1": "Qué propone cada partido sobre empleo y salarios para el 29-N",
 "title": "Empleo y salarios: qué propone cada partido el 29-N",
-"description": "Empleo y salarios en las elecciones del 29 de noviembre: qué propone PP, PSOE, Vox, Frente Amplio y Podemos, con la cita y la fuente de cada medida.",
-"lead": "Respuesta corta: 2 de los 5 partidos principales han concretado algo sobre empleo y salarios a 13 de octubre de 2026; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"description": "Empleo y salarios el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
+"lead": "Respuesta corta: 4 de los 6 partidos que comparamos han concretado algo sobre empleo y salarios a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -579,6 +1193,34 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "ABC: presentación de Irene Montero (12 de septiembre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+},
+{
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo (16 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+},
+{
+"label": "ABC: Sánchez en Zaragoza (14 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+},
+{
+"label": "Europa Press: presentación de Democracia 21 (10 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "pp.es: Bendodo en Granada (autónomos) (16 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+},
+{
+"label": "RTVE: Sánchez promete que subirá el salario mínimo «todos los años» (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.rtve.es/noticias/20261019/sanchez-promete-subira-salario-minimo-todos-anos/17273693.shtml"
 }
 ],
 "related": [
@@ -601,6 +1243,14 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
+},
+{
+"href": "/elecciones/salario-minimo-1800-euros",
+"label": "Salario mínimo de 1.800 €: la propuesta y el SMI actual"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -611,7 +1261,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 13 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
 },
 {
 "q": "¿Por qué algunas medidas pone «prensa»?",
@@ -624,7 +1274,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Popular (PP)",
 "paragraphs": [
 "Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
-"«eliminar o bonificar el IRPF a los jóvenes durante los primeros 4 años de su vida laboral, de manera progresiva» (pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026)."
+"«eliminar o bonificar el IRPF a los jóvenes durante los primeros 4 años de su vida laboral, de manera progresiva» (pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026).",
+"«una cuota de autónomos de 50 euros al mes durante tres años para menores de 40 años; una reducción del 50 % del IRPF durante los dos primeros años de actividad; un bono de Incorporación Rural de hasta 15.000 euros; y, avales públicos de hasta el 80% de la inversión» (Alberto Núñez Feijóo, acto de Afammer en Toledo, 16-10-2026; fuente: La Vanguardia: Feijóo en el acto de Afammer en Toledo).",
+"«tarifa cero en el primer y segundo año de actividad a menores de 35 años» (Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026; fuente: pp.es: Bendodo en Granada (autónomos)).",
+"«Nuestro objetivo económico más ambicioso es que suba el salario medio de los españoles» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP)."
 ],
 "table": {
 "caption": "PP: medidas sobre empleo y salarios",
@@ -645,6 +1298,39 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
 }
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que emprendan en zonas rurales: cuota de autónomos de 50 € al mes durante tres años, 50 % menos de IRPF los dos primeros años, bono de incorporación rural de hasta 15.000 € y avales públicos de hasta el 80 % de la inversión.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"Tarifa o cuota cero durante los dos primeros años de actividad para nuevos autónomos menores de 35 años.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
 }
 ]
 }
@@ -654,15 +1340,49 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
 "Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"«conseguir bajar el paro a cifras de un dígito para ese horizonte de final de década» (Pedro Sánchez, mitin en Zaragoza, 14-10-2026; fuente: ABC: Sánchez en Zaragoza).",
+"«SMI año a año» (Pedro Sánchez, mitin de precampaña en Valladolid, 19-10-2026; fuente: RTVE: Sánchez promete que subirá el salario mínimo «todos los años»)."
+],
+"table": {
+"caption": "PSOE: medidas sobre empleo y salarios",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PSOE",
+"Bajar el paro a cifras de un dígito hacia 2030.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Subir el salario mínimo interprofesional cada año mientras gobierne. No dio cifra ni calendario.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "RTVE: Sánchez promete que subirá el salario mínimo «todos los años», 19 de octubre de 2026",
+"href": "https://www.rtve.es/noticias/20261019/sanchez-promete-subira-salario-minimo-todos-anos/17273693.shtml"
+}
+}
 ]
+}
 },
 {
 "id": "vox",
 "title": "Vox",
 "paragraphs": [
 "Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -670,7 +1390,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
 "Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -679,7 +1399,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "paragraphs": [
 "Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
 "«prometiendo un salario mínimo de 1.800 euros» (ABC: presentación de Irene Montero, 12 de septiembre de 2026).",
-"«la jornada semanal de 30 horas» (ABC: presentación de Irene Montero, 12 de septiembre de 2026)."
+"«la jornada semanal de 30 horas» (ABC: presentación de Irene Montero, 12 de septiembre de 2026).",
+"«Subir el SMI a 1.800€ y jornada laboral de 30h.» (Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026; fuente: Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»)."
 ],
 "table": {
 "caption": "Podemos: medidas sobre empleo y salarios",
@@ -711,6 +1432,47 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
 }
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+}
+]
+}
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Candidato o líder: Miriam González. Programa para el 29-N: pendiente de programa. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en las circunscripciones de Madrid y Barcelona, según la Junta Electoral Central.",
+"«la eliminación de trabas para el emprendimiento y una \"política sostenible de subidas de salarios\"» (Miriam González, presentación de Democracia 21, Madrid, 10-10-2026; fuente: Europa Press: presentación de Democracia 21)."
+],
+"table": {
+"caption": "Democracia 21: medidas sobre empleo y salarios",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"Quitar trabas al emprendimiento y una «política sostenible de subidas de salarios».",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
 }
 ]
 }
@@ -719,7 +1481,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "como-leer",
 "title": "Cómo leer esta comparativa",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar).",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final.",
 "Que un partido tenga más filas no significa que su propuesta sea mejor: solo refleja cuántas medidas concretas ha publicado hasta ahora. Las marcadas como «prensa» no tienen todavía un documento oficial del partido."
 ]
 }
@@ -728,12 +1490,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-inmigracion",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-19",
 "path": "/elecciones/promesas/que-propone-cada-partido-inmigracion",
 "h1": "Qué propone cada partido sobre inmigración para el 29-N",
-"title": "Inmigración: qué propone cada partido el 29-N",
-"description": "Inmigración en las elecciones del 29 de noviembre: qué propone PP, PSOE, Vox, Frente Amplio y Podemos, con la cita y la fuente de cada medida.",
-"lead": "Respuesta corta: 1 de los 5 partidos principales han concretado algo sobre inmigración a 13 de octubre de 2026; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"title": "Inmigración el 29-N: qué proponen PP, PSOE, Vox y el resto",
+"description": "Qué dicen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21 sobre inmigración antes del 29-N: cada medida con quién la dijo, cuándo y su fuente.",
+"lead": "Respuesta corta: a 19 de octubre de 2026 ningún partido ha publicado su programa para el 29-N. Han hecho propuestas o declaraciones fechadas sobre inmigración PP, PSOE, Vox, Podemos y Democracia 21; de Frente Amplio no hemos encontrado ninguna concreta. Abajo, cada partido con la misma estructura.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -748,11 +1510,39 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
 },
 {
-"label": "voxespana.es: acto de Estepona (11 de octubre de 2026, web oficial del partido)",
+"label": "El Español, 07-10-2026: Feijóo en Ceuta",
+"href": "https://www.elespanol.com/espana/politica/20261007/feijoo-presidente-solo-debe-defender-muro-frontera-ceuta-primera-carpeta-consejo-ministros/1003744411845_0.html"
+},
+{
+"label": "Europa Press, 14-10-2026: Sánchez en Zaragoza",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+},
+{
+"label": "voxespana.es: acto de Estepona, 11-10-2026 (web oficial del partido)",
 "href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+},
+{
+"label": "ABC (EFE), 12-10-2026: Abascal en Ceuta",
+"href": "https://www.abc.es/sociedad/abascal-exige-ceuta-militarizar-frontera-expulsar-migrantes-20261012153921-nt.html"
+},
+{
+"label": "El Periódico, 02-02-2026: peticiones de Podemos tras la regularización",
+"href": "https://www.elperiodico.com/es/politica/20260202/pedira-gobierno-migrantes-regularizados-puedan-126353274"
+},
+{
+"label": "Europa Press, 10-10-2026: presentación de Democracia 21",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "Junta Electoral Central: coaliciones de las generales del 29-N",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 ],
 "related": [
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Cuándo salen los programas electorales del 29-N"
+},
 {
 "href": "/elecciones/promesas",
 "label": "Promesas del 29-N: todas las medidas"
@@ -777,16 +1567,24 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
 "faqs": [
 {
+"q": "¿Qué propone Vox sobre inmigración?",
+"a": "Abascal propuso el 11-10-2026 la «remigración»: repatriar a quien entra de forma irregular, que los extranjeros que delinquen cumplan la pena en su país y que vuelvan quienes vienen «a vivir de las ayudas sociales» (web de Vox). El 12-10-2026 pidió militarizar la frontera de Ceuta (ABC)."
+},
+{
+"q": "¿Qué propone el PP sobre inmigración?",
+"a": "Feijóo prometió en Ceuta el 07-10-2026 una ley de extranjería que permita expulsiones inmediatas por entradas irregulares (El Español)."
+},
+{
+"q": "¿Qué dicen PSOE, Frente Amplio, Podemos y Democracia 21?",
+"a": "Sánchez defendió la regularización de migrantes el 14-10-2026 (Europa Press). Podemos pidió en febrero que los regularizados puedan votar (El Periódico). Democracia 21 habló de «decidir quién entra» y de desterrar los discursos xenófobos (Europa Press, 10-10-2026). De Frente Amplio no hemos encontrado propuestas concretas a 19 de octubre."
+},
+{
 "q": "¿Qué partido propone más sobre inmigración?",
-"a": "No lo valoramos. Mostramos todas las medidas concretas que cada partido ha publicado o anunciado, con la misma estructura para todos."
+"a": "No lo valoramos. Mostramos todas las medidas y declaraciones concretas con fuente fechada, con la misma estructura para todos."
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 13 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
-},
-{
-"q": "¿Por qué algunas medidas pone «prensa»?",
-"a": "Porque el anuncio solo aparece en medios y no en un documento oficial del partido. Lo indicamos para que sepas cuánto peso darle."
+"a": "A 19 de octubre de 2026 ningún partido ha publicado su programa completo para el 29-N. Actualizamos esta página cuando lo hagan."
 }
 ],
 "sections": [
@@ -794,43 +1592,98 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "pp",
 "title": "Partido Popular (PP)",
 "paragraphs": [
-"Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
-]
-},
-{
-"id": "psoe",
-"title": "Partido Socialista Obrero Español (PSOE)",
-"paragraphs": [
-"Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
-]
-},
-{
-"id": "vox",
-"title": "Vox",
-"paragraphs": [
-"Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
-"«El que viene ilegalmente a España tiene que ser repatriado» (voxespana.es: acto de Estepona, 11 de octubre de 2026)."
+"Candidato: Alberto Núñez Feijóo. Programa para el 29-N: no publicado a 19 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre inmigración: 1."
 ],
 "table": {
-"caption": "Vox: medidas sobre inmigración",
+"caption": "Partido Popular: inmigración",
 "head": [
-"Partido",
-"Medida",
+"Medida o declaración",
+"Quién, dónde y cuándo",
 "Tipo de fuente",
 "Fuente"
 ],
 "rows": [
 {
 "cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
+"Una nueva ley de extranjería que permita expulsiones inmediatas por entradas irregulares. Sobre Ceuta: «La única solución es que los 15.000 se vayan de Ceuta y se vayan de España».",
+"Alberto Núñez Feijóo, acto de precampaña en Ceuta, 07-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español, 07-10-2026: Feijóo en Ceuta",
+"href": "https://www.elespanol.com/espana/politica/20261007/feijoo-presidente-solo-debe-defender-muro-frontera-ceuta-primera-carpeta-consejo-ministros/1003744411845_0.html"
+}
+}
+]
+}
+},
+{
+"id": "psoe",
+"title": "Partido Socialista Obrero Español (PSOE)",
+"paragraphs": [
+"Candidato: Pedro Sánchez. Programa para el 29-N: no publicado a 19 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre inmigración: 1."
+],
+"table": {
+"caption": "Partido Socialista Obrero Español: inmigración",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Defendió la regularización de migrantes: de 1,2 millones de personas en trámites para obtener permiso de residencia y trabajo, «casi medio millón están trabajando y cotizando a la Seguridad Social».",
+"Pedro Sánchez, acto en Zaragoza, 14-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press, 14-10-2026: Sánchez en Zaragoza",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+}
+}
+]
+}
+},
+{
+"id": "vox",
+"title": "Vox",
+"paragraphs": [
+"Candidato: Santiago Abascal. Tiene un «Programa de desregulación» temático de junio de 2026, que no es el programa del 29-N. Programa para el 29-N: no publicado a 19 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre inmigración: 2."
+],
+"table": {
+"caption": "Vox: inmigración",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"«Remigración»: repatriar a quien entra en España de forma irregular, que los extranjeros que cometen delitos cumplan la pena en su país y que vuelvan quienes vienen «a vivir de las ayudas sociales».",
+"Santiago Abascal, mitin en Estepona (Málaga), 11-10-2026",
 "web oficial del partido"
 ],
 "source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
+"label": "voxespana.es: acto de Estepona, 11-10-2026 (web oficial del partido)",
 "href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+}
+},
+{
+"cells": [
+"Militarizar la frontera de Ceuta con Marruecos y expulsar a quienes entraron de forma irregular en la crisis de finales de julio.",
+"Santiago Abascal, comparecencia en Ceuta, 12-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC (EFE), 12-10-2026: Abascal en Ceuta",
+"href": "https://www.abc.es/sociedad/abascal-exige-ceuta-militarizar-frontera-expulsar-migrantes-20261012153921-nt.html"
 }
 }
 ]
@@ -840,24 +1693,77 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Candidata: Ada Colau. Programa para el 29-N: no publicado a 19 de octubre de 2026.",
+"No hemos encontrado propuestas ni declaraciones concretas verificables de este partido sobre este tema a 19 de octubre de 2026."
 ]
 },
 {
 "id": "podemos",
 "title": "Podemos",
 "paragraphs": [
-"Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Candidata: Irene Montero. Programa para el 29-N: no publicado a 19 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre inmigración: 1."
+],
+"table": {
+"caption": "Podemos: inmigración",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Pedir que los migrantes regularizados puedan votar y una reforma legal que acorte los plazos para obtener la nacionalidad; condicionar la cesión de competencias migratorias a Cataluña al cierre de los CIE.",
+"Pablo Fernández, portavoz de Podemos, rueda de prensa en Madrid, 02-02-2026 (antes de la convocatoria)",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Periódico, 02-02-2026: peticiones de Podemos tras la regularización",
+"href": "https://www.elperiodico.com/es/politica/20260202/pedira-gobierno-migrantes-regularizados-puedan-126353274"
+}
+}
 ]
+}
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (partido nuevo)",
+"paragraphs": [
+"Candidata: Miriam González. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en Madrid y Barcelona, según la Junta Electoral Central. Programa para el 29-N: no publicado a 19 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre inmigración: 1."
+],
+"table": {
+"caption": "Democracia 21: inmigración",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"La inmigración como «activo y ventaja competitiva», con una política «sensata y con cabeza»: «Tenemos que desterrar los discursos xenófobos, pero decidiendo quién entra, cómo entra, cuándo entra y cuándo sale si tiene que salir».",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press, 10-10-2026: presentación de Democracia 21",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
 },
 {
 "id": "como-leer",
 "title": "Cómo leer esta comparativa",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar).",
-"Que un partido tenga más filas no significa que su propuesta sea mejor: solo refleja cuántas medidas concretas ha publicado hasta ahora. Las marcadas como «prensa» no tienen todavía un documento oficial del partido."
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, que no concurrió en 2023, va al final.",
+"Mismas secciones para todos. Una declaración en un mitin no es el programa electoral: el programa puede recogerla, cambiarla o no incluirla. Que un partido tenga más filas no significa que su propuesta sea mejor.",
+"No recogemos críticas a otros partidos ni valoramos las propuestas. Las filas marcadas como «prensa» no tienen un documento oficial del partido."
 ]
 }
 ]
@@ -865,12 +1771,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-burocracia-y-cita-previa",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/que-propone-cada-partido-burocracia-y-cita-previa",
 "h1": "Qué propone cada partido sobre burocracia y administración para el 29-N",
 "title": "Burocracia y administración: qué propone cada partido el 29-N",
-"description": "Burocracia y administración en las elecciones del 29 de noviembre: qué propone PP, PSOE, Vox, Frente Amplio y Podemos, con la cita y la fuente de cada medida.",
-"lead": "Respuesta corta: 1 de los 5 partidos principales han concretado algo sobre burocracia y administración a 13 de octubre de 2026; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"description": "Burocracia y administración el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
+"lead": "Respuesta corta: 2 de los 6 partidos que comparamos han concretado algo sobre burocracia y administración a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -887,6 +1793,18 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "Vox: Programa de desregulación (PDF) (junio de 2026, web oficial del partido)",
 "href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
+},
+{
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo (16 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+},
+{
+"label": "pp.es: Bendodo en Granada (autónomos) (16 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
 }
 ],
 "related": [
@@ -909,6 +1827,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -919,7 +1841,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 13 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
 },
 {
 "q": "¿Por qué algunas medidas pone «prensa»?",
@@ -932,15 +1854,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Popular (PP)",
 "paragraphs": [
 "Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"«no introducir nuevos trámites hasta realizar una revisión normativa que reduzca los existentes al menos un 30 % y evite que se tenga que presentar dos veces la misma documentación» (Alberto Núñez Feijóo, acto de Afammer en Toledo, 16-10-2026; fuente: La Vanguardia: Feijóo en el acto de Afammer en Toledo).",
+"«de cuatro declaraciones al año a dos o incluso una» (Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026; fuente: pp.es: Bendodo en Granada (autónomos)).",
+"«menos ministerios, menos altos cargos y menos asesores» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP)."
+],
+"table": {
+"caption": "PP: medidas sobre burocracia y administración",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"No crear trámites nuevos hasta revisar la normativa y reducir los existentes al menos un 30 %; no tener que presentar dos veces el mismo documento.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"Reducir las declaraciones de los autónomos de cuatro al año a dos o incluso una.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+}
 ]
+}
 },
 {
 "id": "psoe",
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
 "Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -1026,7 +1994,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
 "Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -1034,14 +2002,22 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Podemos",
 "paragraphs": [
 "Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Candidato o líder: Miriam González. Programa para el 29-N: pendiente de programa. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en las circunscripciones de Madrid y Barcelona, según la Junta Electoral Central.",
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "como-leer",
 "title": "Cómo leer esta comparativa",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar).",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final.",
 "Que un partido tenga más filas no significa que su propuesta sea mejor: solo refleja cuántas medidas concretas ha publicado hasta ahora. Las marcadas como «prensa» no tienen todavía un documento oficial del partido."
 ]
 }
@@ -1050,12 +2026,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-que-propone-cada-partido-pensiones",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-19",
 "path": "/elecciones/promesas/que-propone-cada-partido-pensiones",
 "h1": "Qué propone cada partido sobre pensiones para el 29-N",
-"title": "Pensiones: qué propone cada partido el 29-N",
-"description": "Pensiones en las elecciones del 29 de noviembre: qué propone PP, PSOE, Vox, Frente Amplio y Podemos, con la cita y la fuente de cada medida.",
-"lead": "Respuesta corta: 1 de los 5 partidos principales han concretado algo sobre pensiones a 13 de octubre de 2026; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"title": "Pensiones el 29-N: qué proponen PP, PSOE, Vox y el resto",
+"description": "Qué dicen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21 sobre pensiones antes del 29-N: cada medida con quién la dijo, cuándo y su fuente.",
+"lead": "Respuesta corta: a 19 de octubre de 2026 ningún partido ha publicado su programa para el 29-N. PP, PSOE y Vox se han comprometido a actualizar o pagar las pensiones; Frente Amplio dice que no permitirá que se «cargue» el sistema y Podemos propone jubilarse antes sin recorte con 40 años cotizados. De Democracia 21 no hemos encontrado declaraciones sobre pensiones.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -1070,8 +2046,324 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
 },
 {
-"label": "voxespana.es: acto de Estepona (11 de octubre de 2026, web oficial del partido)",
+"label": "El País, 15-10-2026: Feijóo en Bruselas",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+},
+{
+"label": "Europa Press, 14-10-2026: Sánchez en Zaragoza",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+},
+{
+"label": "Europa Press, 17-10-2026: Sánchez en Fuenlabrada",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+},
+{
+"label": "voxespana.es: acto de Estepona, 11-10-2026 (web oficial del partido)",
 "href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+},
+{
+"label": "Europa Press, 11-10-2026: Abascal en Estepona",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+},
+{
+"label": "elDiario.es, 17-10-2026: presentación del Frente Amplio",
+"href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+},
+{
+"label": "El Debate, 22-09-2026: ley de Podemos sobre jubilación anticipada",
+"href": "https://www.eldebate.com/economia/20260922/congreso-aprueba-tramitar-no-penalizar-jubilacion-anticipada-40-anos-cotizados_461700.html"
+},
+{
+"label": "Junta Electoral Central: coaliciones de las generales del 29-N",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
+}
+],
+"related": [
+{
+"href": "/elecciones/contrato-con-espana-pp",
+"label": "Contrato con España del PP: los 12 puntos"
+},
+{
+"href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
+"label": "¿Qué partido quiere quitar las pensiones?"
+},
+{
+"href": "/trabajo/revalorizacion-pensiones-2026",
+"label": "Subida de las pensiones en 2026"
+},
+{
+"href": "/elecciones/promesas",
+"label": "Promesas del 29-N: todas las medidas"
+},
+{
+"href": "/elecciones/promesas/metodologia",
+"label": "Cómo elaboramos esta comparativa"
+},
+{
+"href": "/elecciones",
+"label": "Elecciones del 29-N: cómo votar"
+},
+{
+"href": "/ayudas-por-gobierno",
+"label": "Ayudas según cada gobierno desde 1996"
+},
+{
+"href": "/elecciones/promesas/perfil-joven-alquiler",
+"label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
+}
+],
+"disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
+"faqs": [
+{
+"q": "¿Algún partido quiere quitar las pensiones?",
+"a": "A 19 de octubre de 2026 no hemos encontrado ninguna declaración en ese sentido. Lo explicamos partido a partido en «¿Quiere algún partido quitar las pensiones?»."
+},
+{
+"q": "¿Qué partido propone más sobre pensiones?",
+"a": "No lo valoramos. Mostramos todas las medidas y declaraciones concretas con fuente fechada, con la misma estructura para todos."
+},
+{
+"q": "¿Están ya los programas electorales del 29-N?",
+"a": "A 19 de octubre de 2026 ningún partido ha publicado su programa completo para el 29-N. Actualizamos esta página cuando lo hagan."
+}
+],
+"sections": [
+{
+"id": "pp",
+"title": "Partido Popular (PP)",
+"paragraphs": [
+"Candidato: Alberto Núñez Feijóo. Programa para el 29-N: no publicado a 19 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre pensiones: 1."
+],
+"table": {
+"caption": "Partido Popular: pensiones",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"«Las pensiones se actualizarán con el IPC»; garantizar el sistema público de pensiones y su viabilidad, que llamó «innegociables».",
+"Alberto Núñez Feijóo, comparecencia en Bruselas, 15-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El País, 15-10-2026: Feijóo en Bruselas",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+}
+}
+]
+}
+},
+{
+"id": "psoe",
+"title": "Partido Socialista Obrero Español (PSOE)",
+"paragraphs": [
+"Candidato: Pedro Sánchez. Programa para el 29-N: no publicado a 19 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre pensiones: 2."
+],
+"table": {
+"caption": "Partido Socialista Obrero Español: pensiones",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"«Cuatro años más de revalorización de las pensiones conforme al IPC» y «cero recortes».",
+"Pedro Sánchez, acto en Zaragoza, 14-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press, 14-10-2026: Sánchez en Zaragoza",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+}
+},
+{
+"cells": [
+"«Las pensiones no se tocan».",
+"Pedro Sánchez, mitin en Fuenlabrada (Madrid), 17-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press, 17-10-2026: Sánchez en Fuenlabrada",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+}
+}
+]
+}
+},
+{
+"id": "vox",
+"title": "Vox",
+"paragraphs": [
+"Candidato: Santiago Abascal. Tiene un «Programa de desregulación» temático de junio de 2026, que no es el programa del 29-N. Programa para el 29-N: no publicado a 19 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre pensiones: 2."
+],
+"table": {
+"caption": "Vox: pensiones",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Garantizar el pago de las pensiones, sin detallar la fórmula de revalorización.",
+"Santiago Abascal, mitin en Estepona (Málaga), 11-10-2026",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: acto de Estepona, 11-10-2026 (web oficial del partido)",
+"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+}
+},
+{
+"cells": [
+"Las pensiones «se van a pagar al precio que sea y como sea»; «nos da igual el modelo y la fórmula». Negó que Vox vaya a privatizarlas.",
+"Santiago Abascal, mitin en Estepona (Málaga), 11-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press, 11-10-2026: Abascal en Estepona",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+}
+}
+]
+}
+},
+{
+"id": "frente-amplio",
+"title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
+"paragraphs": [
+"Candidata: Ada Colau. Programa para el 29-N: no publicado a 19 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre pensiones: 1."
+],
+"table": {
+"caption": "Frente Amplio: pensiones",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"No permitir que se «cargue» el sistema público de pensiones.",
+"Ernest Urtasun, mitin de presentación en Madrid, 17-10-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "elDiario.es, 17-10-2026: presentación del Frente Amplio",
+"href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+}
+}
+]
+}
+},
+{
+"id": "podemos",
+"title": "Podemos",
+"paragraphs": [
+"Candidata: Irene Montero. Programa para el 29-N: no publicado a 19 de octubre de 2026.",
+"Declaraciones y medidas con fuente sobre pensiones: 1."
+],
+"table": {
+"caption": "Podemos: pensiones",
+"head": [
+"Medida o declaración",
+"Quién, dónde y cuándo",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Proposición de ley para jubilarse anticipadamente sin recorte por coeficientes reductores con 40 años o más cotizados; el Congreso la tomó en consideración.",
+"Ione Belarra, Congreso, 22-09-2026",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Debate, 22-09-2026: ley de Podemos sobre jubilación anticipada",
+"href": "https://www.eldebate.com/economia/20260922/congreso-aprueba-tramitar-no-penalizar-jubilacion-anticipada-40-anos-cotizados_461700.html"
+}
+}
+]
+}
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (partido nuevo)",
+"paragraphs": [
+"Candidata: Miriam González. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en Madrid y Barcelona, según la Junta Electoral Central. Programa para el 29-N: no publicado a 19 de octubre de 2026.",
+"No hemos encontrado propuestas ni declaraciones concretas verificables de este partido sobre este tema a 19 de octubre de 2026."
+]
+},
+{
+"id": "como-leer",
+"title": "Cómo leer esta comparativa",
+"paragraphs": [
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, que no concurrió en 2023, va al final.",
+"Mismas secciones para todos. Una declaración en un mitin no es el programa electoral: el programa puede recogerla, cambiarla o no incluirla. Que un partido tenga más filas no significa que su propuesta sea mejor.",
+"No recogemos críticas a otros partidos ni valoramos las propuestas. Las filas marcadas como «prensa» no tienen un documento oficial del partido."
+]
+}
+]
+},
+{
+"id": "p29n-que-propone-cada-partido-sanidad",
+"pack": "promesas-29n",
+"reviewedAt": "2026-10-27",
+"path": "/elecciones/promesas/que-propone-cada-partido-sanidad",
+"h1": "Qué propone cada partido sobre sanidad para el 29-N",
+"title": "Sanidad: qué propone cada partido el 29-N",
+"description": "Sanidad el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
+"lead": "Respuesta corta: 2 de los 6 partidos que comparamos han concretado algo sobre sanidad a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"cta": {
+"href": "/elecciones/promesas",
+"label": "Ver todas las promesas del 29-N"
+},
+"secondaryCta": {
+"href": "/elecciones",
+"label": "Guía para votar el 29-N"
+},
+"sources": [
+{
+"label": "BOE: Real Decreto 806/2026, convocatoria del 29-N",
+"href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
+},
+{
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez) (7 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+},
+{
+"label": "Redacción Médica: presentación del Frente Amplio (17 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Cadena SER: entrevista a Feijóo en Hoy por Hoy (23 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://cadenaser.com/nacional/2026/10/23/feijoo-no-descarta-gobernar-con-vox-si-los-espanoles-me-mandan-dar-estabilidad-con-la-tercera-fuerza-politica-asi-lo-hare-cadena-ser/"
+},
+{
+"label": "BOE: Ley 14/1986, General de Sanidad",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-10499"
 }
 ],
 "related": [
@@ -1094,17 +2386,21 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/perfil-joven-alquiler",
 "label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
 "faqs": [
 {
-"q": "¿Qué partido propone más sobre pensiones?",
+"q": "¿Qué partido propone más sobre sanidad?",
 "a": "No lo valoramos. Mostramos todas las medidas concretas que cada partido ha publicado o anunciado, con la misma estructura para todos."
 },
 {
 "q": "¿Están ya los programas electorales del 29-N?",
-"a": "A 13 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
 },
 {
 "q": "¿Por qué algunas medidas pone «prensa»?",
@@ -1117,26 +2413,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Popular (PP)",
 "paragraphs": [
 "Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
-]
-},
-{
-"id": "psoe",
-"title": "Partido Socialista Obrero Español (PSOE)",
-"paragraphs": [
-"Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
-]
-},
-{
-"id": "vox",
-"title": "Vox",
-"paragraphs": [
-"Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
-"«se van a pagar al precio que sea y como sea» (voxespana.es: acto de Estepona, 11 de octubre de 2026)."
+"«un plan que contempla incorporar 10.000 profesionales y una inversión de 700 millones de euros anuales hasta alcanzar ese objetivo» (Carmen Fúnez, vicesecretaria de Sanidad del PP, VII Simposium del Observatorio de la Sanidad, 07-10-2026; fuente: pp.es: proyecto sanitario del PP (Carmen Fúnez)).",
+"«incluya “una pieza específica” para sostener económicamente el Sistema Nacional de Salud» (Carmen Fúnez, vicesecretaria de Sanidad del PP, VII Simposium del Observatorio de la Sanidad, 07-10-2026; fuente: pp.es: proyecto sanitario del PP (Carmen Fúnez)).",
+"«Más médicos y con mejores condiciones» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP).",
+"«La muerte digna es un concepto con el que estoy de acuerdo» (Alberto Núñez Feijóo, entrevista en Hoy por Hoy (Cadena SER), 23-10-2026; fuente: Cadena SER: entrevista a Feijóo en Hoy por Hoy)."
 ],
 "table": {
-"caption": "Vox: medidas sobre pensiones",
+"caption": "PP: medidas sobre sanidad",
 "head": [
 "Partido",
 "Medida",
@@ -1146,24 +2429,286 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "rows": [
 {
 "cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
+"PP",
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
 "web oficial del partido"
 ],
 "source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+}
+},
+{
+"cells": [
+"PP",
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Reformar la ley de eutanasia para reforzar las garantías médicas. No se comprometió a derogarla.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Cadena SER: entrevista a Feijóo en Hoy por Hoy, 23 de octubre de 2026",
+"href": "https://cadenaser.com/nacional/2026/10/23/feijoo-no-descarta-gobernar-con-vox-si-los-espanoles-me-mandan-dar-estabilidad-con-la-tercera-fuerza-politica-asi-lo-hare-cadena-ser/"
 }
 }
 ]
 }
 },
 {
+"id": "psoe",
+"title": "Partido Socialista Obrero Español (PSOE)",
+"paragraphs": [
+"Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "vox",
+"title": "Vox",
+"paragraphs": [
+"Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
 "Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"«El Frente Amplio avanza con el ejemplo de todas las personas que luchan por la sanidad pública y la defienden frente a los recortes» (Ada Colau, mitin de presentación del Frente Amplio, Madrid, 17-10-2026; fuente: Redacción Médica: presentación del Frente Amplio)."
+],
+"table": {
+"caption": "Frente Amplio: medidas sobre sanidad",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
+}
+}
+]
+}
+},
+{
+"id": "podemos",
+"title": "Podemos",
+"paragraphs": [
+"Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Candidato o líder: Miriam González. Programa para el 29-N: pendiente de programa. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en las circunscripciones de Madrid y Barcelona, según la Junta Electoral Central.",
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "quien-decide",
+"title": "Quién decide en sanidad: Estado y comunidades",
+"paragraphs": [
+"La Ley General de Sanidad (Ley 14/1986) organiza el Sistema Nacional de Salud como el conjunto de los servicios de salud del Estado y de las comunidades autónomas. El Estado fija las bases y la coordinación general de la sanidad (artículo 149.1.16.ª de la Constitución); la gestión de hospitales y centros de salud corresponde a cada comunidad. En Ceuta y Melilla la gestiona el Estado, a través del Instituto Nacional de Gestión Sanitaria (INGESA).",
+"Por eso muchas promesas sanitarias de unas generales necesitan después el acuerdo o la gestión de la comunidad autónoma: listas de espera, plantillas y conciertos dependen sobre todo del servicio de salud de tu comunidad."
+]
+},
+{
+"id": "como-leer",
+"title": "Cómo leer esta comparativa",
+"paragraphs": [
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final.",
+"Que un partido tenga más filas no significa que su propuesta sea mejor: solo refleja cuántas medidas concretas ha publicado hasta ahora. Las marcadas como «prensa» no tienen todavía un documento oficial del partido."
+]
+}
+]
+},
+{
+"id": "p29n-que-propone-cada-partido-educacion",
+"pack": "promesas-29n",
+"reviewedAt": "2026-10-27",
+"path": "/elecciones/promesas/que-propone-cada-partido-educacion",
+"h1": "Qué propone cada partido sobre educación para el 29-N",
+"title": "Educación: qué propone cada partido el 29-N",
+"description": "Educación el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
+"lead": "Respuesta corta: 3 de los 6 partidos que comparamos han concretado algo sobre educación a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"cta": {
+"href": "/elecciones/promesas",
+"label": "Ver todas las promesas del 29-N"
+},
+"secondaryCta": {
+"href": "/elecciones",
+"label": "Guía para votar el 29-N"
+},
+"sources": [
+{
+"label": "BOE: Real Decreto 806/2026, convocatoria del 29-N",
+"href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
+},
+{
+"label": "ABC: Sánchez en Zaragoza (14 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+},
+{
+"label": "Europa Press: presentación de Democracia 21 (10 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "BOE: Ley Orgánica 2/2006, de Educación",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899"
+}
+],
+"related": [
+{
+"href": "/elecciones/promesas",
+"label": "Promesas del 29-N: todas las medidas"
+},
+{
+"href": "/elecciones/promesas/metodologia",
+"label": "Cómo elaboramos esta comparativa"
+},
+{
+"href": "/elecciones",
+"label": "Elecciones del 29-N: cómo votar"
+},
+{
+"href": "/ayudas-por-gobierno",
+"label": "Ayudas según cada gobierno desde 1996"
+},
+{
+"href": "/elecciones/promesas/perfil-joven-alquiler",
+"label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
+}
+],
+"disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
+"faqs": [
+{
+"q": "¿Qué partido propone más sobre educación?",
+"a": "No lo valoramos. Mostramos todas las medidas concretas que cada partido ha publicado o anunciado, con la misma estructura para todos."
+},
+{
+"q": "¿Están ya los programas electorales del 29-N?",
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+},
+{
+"q": "¿Por qué algunas medidas pone «prensa»?",
+"a": "Porque el anuncio solo aparece en medios y no en un documento oficial del partido. Lo indicamos para que sepas cuánto peso darle."
+}
+],
+"sections": [
+{
+"id": "pp",
+"title": "Partido Popular (PP)",
+"paragraphs": [
+"Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
+"«Los contenidos serán elaborados por las reales academias» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP)."
+],
+"table": {
+"caption": "PP: medidas sobre educación",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+}
+]
+}
+},
+{
+"id": "psoe",
+"title": "Partido Socialista Obrero Español (PSOE)",
+"paragraphs": [
+"Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
+"«la caída de cuatro puntos de la tasa de abandono escolar hasta 2030» (Pedro Sánchez, mitin en Zaragoza, 14-10-2026; fuente: ABC: Sánchez en Zaragoza)."
+],
+"table": {
+"caption": "PSOE: medidas sobre educación",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PSOE",
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+}
+]
+}
+},
+{
+"id": "vox",
+"title": "Vox",
+"paragraphs": [
+"Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "frente-amplio",
+"title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
+"paragraphs": [
+"Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -1171,14 +2716,401 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Podemos",
 "paragraphs": [
 "Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Candidato o líder: Miriam González. Programa para el 29-N: pendiente de programa. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en las circunscripciones de Madrid y Barcelona, según la Junta Electoral Central.",
+"«con grados más flexibles y más prácticas» (Miriam González, presentación de Democracia 21, Madrid, 10-10-2026; fuente: Europa Press: presentación de Democracia 21)."
+],
+"table": {
+"caption": "Democracia 21: medidas sobre educación",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"Una «puesta a punto de la educación», con grados más flexibles y más prácticas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
+},
+{
+"id": "quien-decide",
+"title": "Quién decide en educación: Estado y comunidades",
+"paragraphs": [
+"La Ley Orgánica de Educación (LOE, Ley Orgánica 2/2006) fija la ordenación general del sistema educativo, los títulos y las enseñanzas mínimas. Las comunidades autónomas gestionan los centros, el profesorado y buena parte del currículo; en Ceuta y Melilla lo gestiona el Ministerio de Educación.",
+"Un objetivo estatal, como reducir el abandono escolar, se aplica en la práctica con programas acordados con las comunidades autónomas."
 ]
 },
 {
 "id": "como-leer",
 "title": "Cómo leer esta comparativa",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar).",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final.",
+"Que un partido tenga más filas no significa que su propuesta sea mejor: solo refleja cuántas medidas concretas ha publicado hasta ahora. Las marcadas como «prensa» no tienen todavía un documento oficial del partido."
+]
+}
+]
+},
+{
+"id": "p29n-que-propone-cada-partido-instituciones-y-gasto-publico",
+"pack": "promesas-29n",
+"reviewedAt": "2026-10-27",
+"path": "/elecciones/promesas/que-propone-cada-partido-instituciones-y-gasto-publico",
+"h1": "Qué propone cada partido sobre instituciones y gasto público para el 29-N",
+"title": "Instituciones y gasto público: qué propone cada partido el 29-N",
+"description": "Instituciones y gasto público el 29-N: qué proponen PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21, con la cita, la fecha y la fuente de cada medida.",
+"lead": "Respuesta corta: 5 de los 6 partidos que comparamos han concretado algo sobre instituciones y gasto público a 27 de octubre de 2026, en notas oficiales, mítines o actos; ningún programa completo del 29-N está publicado aún. Abajo, cada partido con sus medidas citadas o marcado como «pendiente de programa».",
+"cta": {
+"href": "/elecciones/promesas",
+"label": "Ver todas las promesas del 29-N"
+},
+"secondaryCta": {
+"href": "/elecciones",
+"label": "Guía para votar el 29-N"
+},
+"sources": [
+{
+"label": "BOE: Real Decreto 806/2026, convocatoria del 29-N",
+"href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
+},
+{
+"label": "pp.es: mitin de Feijóo en Madrid (10 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-convoca-a-todos-los-espanoles-a-la-reconstruccion-nacional-para-poner-fin-al-muro-la-delincuencia-y-la-decadencia/"
+},
+{
+"label": "ABC: Sánchez en Zaragoza (14 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+},
+{
+"label": "Cadena SER: Montero presenta su candidatura (12 de septiembre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+},
+{
+"label": "Europa Press: presentación de Democracia 21 (10 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+},
+{
+"label": "El Periódico: Alberto Nadal propone un pacto nacional del agua (21 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elperiodico.com/es/economia/20261021/alberto-nadal-pp-propone-pacto-135590341"
+},
+{
+"label": "20minutos: Sánchez en Burgos (21 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+},
+{
+"label": "SER Comunicación: resumen oficial de la entrevista a Feijóo en Hoy por Hoy (23 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.sercomunicacion.com/aimar-bretos-entrevista-a-alberto-nunez-feijoo-en-hoy-por-hoy/"
+},
+{
+"label": "elDiario.es: carta de Colau a los candidatos (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+],
+"related": [
+{
+"href": "/elecciones/contrato-con-espana-pp",
+"label": "Contrato con España del PP: los 12 puntos"
+},
+{
+"href": "/elecciones/promesas",
+"label": "Promesas del 29-N: todas las medidas"
+},
+{
+"href": "/elecciones/promesas/metodologia",
+"label": "Cómo elaboramos esta comparativa"
+},
+{
+"href": "/elecciones",
+"label": "Elecciones del 29-N: cómo votar"
+},
+{
+"href": "/ayudas-por-gobierno",
+"label": "Ayudas según cada gobierno desde 1996"
+},
+{
+"href": "/elecciones/promesas/perfil-joven-alquiler",
+"label": "Cómo te afecta si eres joven y alquilas"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
+}
+],
+"disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
+"faqs": [
+{
+"q": "¿Qué partido propone más sobre instituciones y gasto público?",
+"a": "No lo valoramos. Mostramos todas las medidas concretas que cada partido ha publicado o anunciado, con la misma estructura para todos."
+},
+{
+"q": "¿Están ya los programas electorales del 29-N?",
+"a": "A 27 de octubre de 2026 ningún partido principal ha publicado su programa completo para el 29-N. Actualizamos esta página cada día."
+},
+{
+"q": "¿Por qué algunas medidas pone «prensa»?",
+"a": "Porque el anuncio solo aparece en medios y no en un documento oficial del partido. Lo indicamos para que sepas cuánto peso darle."
+}
+],
+"sections": [
+{
+"id": "pp",
+"title": "Partido Popular (PP)",
+"paragraphs": [
+"Candidato o líder: Alberto Núñez Feijóo. Programa para el 29-N: pendiente de programa.",
+"«España necesita dirección, revisar las reglas, recuperar los contrapesos y fortalecer las instituciones» (Alberto Núñez Feijóo, mitin en Ifema, Madrid, 10-10-2026; fuente: pp.es: mitin de Feijóo en Madrid).",
+"«convocará obligatoriamente elecciones si acumula más de una prórroga» (Alberto Núñez Feijóo, «Contrato con España» (documento firmado), Espacio Larra, Madrid, 19-10-2026; fuente: ABC: documento íntegro del «Contrato con España» del PP).",
+"«un plan de choque para reforzar la red eléctrica durante sus primeros 18 meses» (Alberto Nadal, vicesecretario de Economía del PP, visita a explotaciones ganaderas de los Montes de Toledo, 21-10-2026; fuente: El Periódico: Alberto Nadal propone un pacto nacional del agua).",
+"«Yo no voy a mantener 22 ministerios» (Alberto Núñez Feijóo, entrevista en Hoy por Hoy (Cadena SER), 23-10-2026; fuente: SER Comunicación: resumen oficial de la entrevista a Feijóo en Hoy por Hoy)."
+],
+"table": {
+"caption": "PP: medidas sobre instituciones y gasto público",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Revisar las reglas, recuperar los contrapesos y fortalecer las instituciones.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: mitin de Feijóo en Madrid, 10 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-convoca-a-todos-los-espanoles-a-la-reconstruccion-nacional-para-poner-fin-al-muro-la-delincuencia-y-la-decadencia/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Pacto nacional del agua (ejecutar las infraestructuras hidráulicas pendientes y repartir el agua con mecanismos más flexibles) y un plan de choque en los primeros 18 meses de gobierno para reforzar la red eléctrica y facilitar nuevas conexiones. Presupuesto y calendario: sin concretar.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Periódico: Alberto Nadal propone un pacto nacional del agua, 21 de octubre de 2026",
+"href": "https://www.elperiodico.com/es/economia/20261021/alberto-nadal-pp-propone-pacto-135590341"
+}
+},
+{
+"cells": [
+"PP",
+"Reducir el número de ministerios e integrar Igualdad en un ministerio con otras competencias. Feijóo precisó que no elimina las políticas de igualdad.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "SER Comunicación: resumen oficial de la entrevista a Feijóo en Hoy por Hoy, 23 de octubre de 2026",
+"href": "https://www.sercomunicacion.com/aimar-bretos-entrevista-a-alberto-nunez-feijoo-en-hoy-por-hoy/"
+}
+}
+]
+}
+},
+{
+"id": "psoe",
+"title": "Partido Socialista Obrero Español (PSOE)",
+"paragraphs": [
+"Candidato o líder: Pedro Sánchez. Programa para el 29-N: pendiente de programa.",
+"«cero recortes» (Pedro Sánchez, mitin en Zaragoza, 14-10-2026; fuente: ABC: Sánchez en Zaragoza).",
+"«En la próxima legislatura reformaremos la Constitución para blindar el derecho al aborto de las mujeres» (Pedro Sánchez, mitin de precampaña en Burgos, 21-10-2026; fuente: 20minutos: Sánchez en Burgos)."
+],
+"table": {
+"caption": "PSOE: medidas sobre instituciones y gasto público",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PSOE",
+"«Cero recortes» en un nuevo mandato.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar el derecho al aborto. El proyecto de reforma que estaba en el Congreso decayó con la disolución de las Cortes; una reforma constitucional necesita como mínimo tres quintos del Congreso y del Senado (artículo 167).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
+"href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+}
+]
+}
+},
+{
+"id": "vox",
+"title": "Vox",
+"paragraphs": [
+"Candidato o líder: Santiago Abascal. Programa para el 29-N: pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026).",
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "frente-amplio",
+"title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
+"paragraphs": [
+"Candidato o líder: Ada Colau (propuesta el 12-10-2026, sin proclamar). Programa para el 29-N: pendiente de programa.",
+"«Hay que regular legalmente el uso de la inteligencia artificial en campañas electorales» (Ada Colau, carta a Feijóo, Sánchez y Abascal, 26-10-2026; fuente: elDiario.es: carta de Colau a los candidatos)."
+],
+"table": {
+"caption": "Frente Amplio: medidas sobre instituciones y gasto público",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+}
+]
+}
+},
+{
+"id": "podemos",
+"title": "Podemos",
+"paragraphs": [
+"Candidato o líder: Irene Montero (precandidata; primarias el 14 y 15 de octubre). Programa para el 29-N: pendiente de programa.",
+"«no es ninguna locura decir que no podemos gastarnos dinero en armas mientras tenemos bomberos que están protegiendo nuestro país de los incendios cobrando una miseria» (Irene Montero, presentación de su candidatura, Madrid, 12-09-2026 (antes de la convocatoria); fuente: Cadena SER: Montero presenta su candidatura).",
+"«Ni un euro para guerras.» (Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026; fuente: Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»).",
+"«Proteger lo público y políticas contra el cambio climático.» (Podemos, «5 propuestas para tener paz, casa y trabajo» (post oficial con vídeo de Pablo Fernández), 19-10-2026; fuente: Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo»)."
+],
+"table": {
+"caption": "Podemos: medidas sobre instituciones y gasto público",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Podemos",
+"No destinar más dinero a armamento mientras haya servicios públicos mal pagados.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Cadena SER: Montero presenta su candidatura, 12 de septiembre de 2026",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+}
+]
+}
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Candidato o líder: Miriam González. Programa para el 29-N: pendiente de programa. Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en las circunscripciones de Madrid y Barcelona, según la Junta Electoral Central.",
+"«hay que hacer que el Ministerio Fiscal responda al Parlamento, no al presidente de Gobierno» (Miriam González, presentación de Democracia 21, Madrid, 10-10-2026; fuente: Europa Press: presentación de Democracia 21)."
+],
+"table": {
+"caption": "Democracia 21: medidas sobre instituciones y gasto público",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"Despolitizar el CGPJ, que la Fiscalía responda ante el Parlamento, juzgados especializados contra la corrupción, eliminar aforamientos, recortar subvenciones a partidos y fundaciones, quitar el 90 % de los asesores y que los diputados se reúnan con sus votantes al menos cada dos semanas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
+},
+{
+"id": "como-leer",
+"title": "Cómo leer esta comparativa",
+"paragraphs": [
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final.",
 "Que un partido tenga más filas no significa que su propuesta sea mejor: solo refleja cuántas medidas concretas ha publicado hasta ahora. Las marcadas como «prensa» no tienen todavía un documento oficial del partido."
 ]
 }
@@ -1187,12 +3119,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-partido-pp",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/partido-pp",
 "h1": "Partido Popular (PP): qué promete para el 29-N",
 "title": "PP: promesas y medidas para el 29-N",
-"description": "Qué propone PP para las elecciones del 29 de noviembre: vivienda, impuestos, empleo, pensiones y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: PP ha concretado 10 medidas con fuente a 13 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"description": "Qué propone PP para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
+"lead": "Respuesta corta: PP ha concretado 45 medidas con fuente a 27 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -1227,11 +3159,83 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
 },
 {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo (16 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+},
+{
+"label": "El País: Feijóo en Bruselas (15 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+},
+{
+"label": "El Español: Feijóo en Ceuta (7 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elespanol.com/espana/politica/20261007/feijoo-presidente-solo-debe-defender-muro-frontera-ceuta-primera-carpeta-consejo-ministros/1003744411845_0.html"
+},
+{
+"label": "pp.es: mitin de Feijóo en Madrid (10 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-convoca-a-todos-los-espanoles-a-la-reconstruccion-nacional-para-poner-fin-al-muro-la-delincuencia-y-la-decadencia/"
+},
+{
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez) (7 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+},
+{
+"label": "RTVE: Feijóo en Barcelona (ley antiokupación) (18 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+},
+{
+"label": "pp.es: Bendodo en Granada (autónomos) (16 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial) (21 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+},
+{
+"label": "El Periódico: Alberto Nadal propone un pacto nacional del agua (21 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elperiodico.com/es/economia/20261021/alberto-nadal-pp-propone-pacto-135590341"
+},
+{
+"label": "El Español: el plan de vivienda de 23 medidas del PP (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+},
+{
+"label": "El País: el PP propone segregar pisos de gran tamaño (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://elpais.com/economia/vivienda/2026-10-22/el-pp-propone-segregar-pisos-de-gran-tamano-como-remedio-ante-la-falta-de-vivienda.html"
+},
+{
+"label": "pp.es: Feijóo, rebaja del IRPF en 2027 (mitin en Valencia) (23 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/"
+},
+{
+"label": "SER Comunicación: resumen oficial de la entrevista a Feijóo en Hoy por Hoy (23 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.sercomunicacion.com/aimar-bretos-entrevista-a-alberto-nunez-feijoo-en-hoy-por-hoy/"
+},
+{
+"label": "Cadena SER: entrevista a Feijóo en Hoy por Hoy (23 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://cadenaser.com/nacional/2026/10/23/feijoo-no-descarta-gobernar-con-vox-si-los-espanoles-me-mandan-dar-estabilidad-con-la-tercera-fuerza-politica-asi-lo-hare-cadena-ser/"
+},
+{
+"label": "pp.es: Feijóo, mitin en Vigo (mínimo familiar) (24 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-se-compromete-a-mejorar-la-exencion-del-minimo-familiar-para-que-las-familias-con-hijos-paguen-menos-impuestos/"
+},
+{
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+},
+{
 "label": "Web oficial de PP",
 "href": "https://www.pp.es/"
 }
 ],
 "related": [
+{
+"href": "/elecciones/contrato-con-espana-pp",
+"label": "Contrato con España del PP: los 12 puntos"
+},
 {
 "href": "/elecciones/promesas",
 "label": "Promesas del 29-N: todas las medidas"
@@ -1259,13 +3263,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/partido-frente-amplio",
 "label": "Qué promete Frente Amplio"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
 "faqs": [
 {
 "q": "¿Ha publicado PP su programa para el 29-N?",
-"a": "A 13 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
+"a": "A 27 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique. El 19 de octubre presentó el «Contrato con España», 12 compromisos firmados por Feijóo que no son el programa; sus puntos están incorporados aquí, tema a tema."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -1273,7 +3281,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Por qué este orden de partidos?",
-"a": "Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"a": "Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 }
 ],
 "sections": [
@@ -1297,6 +3305,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Sentar las bases para construir un millón de viviendas en una legislatura, movilizando suelo público y con colaboración público-privada.",
 "Reducir los plazos medios para producir vivienda de 10 a 4 años y favorecer el silencio administrativo positivo en licencias.",
 "Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Crear un Fondo Estatal de Garantía del Alquiler que cubra un porcentaje de los impagos y bonificar un 75 % en el IRPF, el primer año, a quien ponga en alquiler una vivienda vacía.",
+"Deducción del 15 % del alquiler para los jóvenes, aval público para la fianza del alquiler de los menores de 35 años e IRPF cero el primer año de trabajo con rebajas los tres siguientes («Plan Prepara»).",
+"Facilitar la segregación de viviendas grandes («de 150 o 200 metros cuadrados») en dos para aumentar la oferta. Ya es posible hoy donde lo permite la normativa urbanística, que depende de ayuntamientos y comunidades autónomas.",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -1373,6 +3392,127 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
 "href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
 }
+},
+{
+"cells": [
+"PP",
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "RTVE: Feijóo en Barcelona (ley antiokupación), 18 de octubre de 2026",
+"href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Crear un Fondo Estatal de Garantía del Alquiler que cubra un porcentaje de los impagos y bonificar un 75 % en el IRPF, el primer año, a quien ponga en alquiler una vivienda vacía.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español: el plan de vivienda de 23 medidas del PP, 22 de octubre de 2026",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducción del 15 % del alquiler para los jóvenes, aval público para la fianza del alquiler de los menores de 35 años e IRPF cero el primer año de trabajo con rebajas los tres siguientes («Plan Prepara»).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español: el plan de vivienda de 23 medidas del PP, 22 de octubre de 2026",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+}
+},
+{
+"cells": [
+"PP",
+"Facilitar la segregación de viviendas grandes («de 150 o 200 metros cuadrados») en dos para aumentar la oferta. Ya es posible hoy donde lo permite la normativa urbanística, que depende de ayuntamientos y comunidades autónomas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El País: el PP propone segregar pisos de gran tamaño, 22 de octubre de 2026",
+"href": "https://elpais.com/economia/vivienda/2026-10-22/el-pp-propone-segregar-pisos-de-gran-tamano-como-remedio-ante-la-falta-de-vivienda.html"
+}
+},
+{
+"cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
 }
 ]
 }
@@ -1383,7 +3523,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "paragraphs": [
 "IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
 "Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación)."
+"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
+"IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
+"Eliminar el IVA para autónomos que facturen menos de 85.000 euros al año (plan anunciado para unos 1,4 millones de autónomos).",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"Rebajar el IRPF en 2027 «para que la inflación y los impuestos no se coman el salario» y fijar por ley que quien cobre el salario mínimo no pague IRPF, con un umbral que suba automáticamente cada vez que suba el SMI. Hoy quien solo cobra el SMI ya paga 0 € de IRPF por una deducción de 590,89 € aprobada para 2026.",
+"Mejorar la exención del mínimo familiar del IRPF para que las familias con hijos paguen menos impuestos. No concretó cuantías. Hoy el mínimo por descendientes es de 2.400 € al año por el primer hijo, 2.700 € por el segundo, 4.000 € por el tercero y 4.500 € por el cuarto y siguientes (artículo 58 de la Ley del IRPF)."
 ],
 "table": {
 "caption": "PP: impuestos y coste de la vida",
@@ -1426,6 +3571,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
 "href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
 }
+},
+{
+"cells": [
+"PP",
+"IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"Eliminar el IVA para autónomos que facturen menos de 85.000 euros al año (plan anunciado para unos 1,4 millones de autónomos).",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 10: revisar «una a una» las más de cien subidas fiscales de los últimos años y bajar los impuestos.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Rebajar el IRPF en 2027 «para que la inflación y los impuestos no se coman el salario» y fijar por ley que quien cobre el salario mínimo no pague IRPF, con un umbral que suba automáticamente cada vez que suba el SMI. Hoy quien solo cobra el SMI ya paga 0 € de IRPF por una deducción de 590,89 € aprobada para 2026.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Feijóo, rebaja del IRPF en 2027 (mitin en Valencia), 23 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/"
+}
+},
+{
+"cells": [
+"PP",
+"Mejorar la exención del mínimo familiar del IRPF para que las familias con hijos paguen menos impuestos. No concretó cuantías. Hoy el mínimo por descendientes es de 2.400 € al año por el primer hijo, 2.700 € por el segundo, 4.000 € por el tercero y 4.500 € por el cuarto y siguientes (artículo 58 de la Ley del IRPF).",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Feijóo, mitin en Vigo (mínimo familiar), 24 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-se-compromete-a-mejorar-la-exencion-del-minimo-familiar-para-que-las-familias-con-hijos-paguen-menos-impuestos/"
+}
 }
 ]
 }
@@ -1434,7 +3634,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "empleo",
 "title": "Empleo y salarios",
 "paragraphs": [
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva."
+"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
+"Para menores de 40 años que emprendan en zonas rurales: cuota de autónomos de 50 € al mes durante tres años, 50 % menos de IRPF los dos primeros años, bono de incorporación rural de hasta 15.000 € y avales públicos de hasta el 80 % de la inversión.",
+"Tarifa o cuota cero durante los dos primeros años de actividad para nuevos autónomos menores de 35 años.",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo»."
 ],
 "table": {
 "caption": "PP: empleo y salarios",
@@ -1455,6 +3658,39 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
 }
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que emprendan en zonas rurales: cuota de autónomos de 50 € al mes durante tres años, 50 % menos de IRPF los dos primeros años, bono de incorporación rural de hasta 15.000 € y avales públicos de hasta el 80 % de la inversión.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"Tarifa o cuota cero durante los dos primeros años de actividad para nuevos autónomos menores de 35 años.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 11: que suba el salario medio, con más productividad, y que «el subsidio no compita con el empleo».",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
 }
 ]
 }
@@ -1463,34 +3699,307 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "inmigracion",
 "title": "Inmigración",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Una nueva ley de extranjería que permita expulsiones inmediatas por entradas irregulares; reforzar el control fronterizo de Ceuta.",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1)."
+],
+"table": {
+"caption": "PP: inmigración",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Una nueva ley de extranjería que permita expulsiones inmediatas por entradas irregulares; reforzar el control fronterizo de Ceuta.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español: Feijóo en Ceuta, 7 de octubre de 2026",
+"href": "https://www.elespanol.com/espana/politica/20261007/feijoo-presidente-solo-debe-defender-muro-frontera-ceuta-primera-carpeta-consejo-ministros/1003744411845_0.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 5: prohibir por ley las regularizaciones colectivas, reforzar los criterios de acceso a la nacionalidad y reforzar las fronteras con medios humanos, materiales y tecnológicos (punto 1).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+}
 ]
+}
 },
 {
 "id": "administracion",
 "title": "Burocracia y administración",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"No crear trámites nuevos hasta revisar la normativa y reducir los existentes al menos un 30 %; no tener que presentar dos veces el mismo documento.",
+"Reducir las declaraciones de los autónomos de cuatro al año a dos o incluso una.",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados."
+],
+"table": {
+"caption": "PP: burocracia y administración",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"No crear trámites nuevos hasta revisar la normativa y reducir los existentes al menos un 30 %; no tener que presentar dos veces el mismo documento.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"Reducir las declaraciones de los autónomos de cuatro al año a dos o incluso una.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 3: auditar «cada euro» y reducir ministerios, altos cargos y asesores; todo cargo político responderá por la corrupción de sus subordinados.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+}
 ]
+}
 },
 {
 "id": "pensiones",
 "title": "Pensiones",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Actualizar las pensiones con el IPC y garantizar la viabilidad del sistema público de pensiones.",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo."
+],
+"table": {
+"caption": "PP: pensiones",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Actualizar las pensiones con el IPC y garantizar la viabilidad del sistema público de pensiones.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El País: Feijóo en Bruselas, 15 de octubre de 2026",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+}
 ]
+}
+},
+{
+"id": "sanidad",
+"title": "Sanidad",
+"paragraphs": [
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"Reformar la ley de eutanasia para reforzar las garantías médicas. No se comprometió a derogarla."
+],
+"table": {
+"caption": "PP: sanidad",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+}
+},
+{
+"cells": [
+"PP",
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 7: más médicos y mejores condiciones laborales y retributivas para los profesionales sanitarios.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Reformar la ley de eutanasia para reforzar las garantías médicas. No se comprometió a derogarla.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Cadena SER: entrevista a Feijóo en Hoy por Hoy, 23 de octubre de 2026",
+"href": "https://cadenaser.com/nacional/2026/10/23/feijoo-no-descarta-gobernar-con-vox-si-los-espanoles-me-mandan-dar-estabilidad-con-la-tercera-fuerza-politica-asi-lo-hare-cadena-ser/"
+}
+}
+]
+}
+},
+{
+"id": "educacion",
+"title": "Educación",
+"paragraphs": [
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales."
+],
+"table": {
+"caption": "PP: educación",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+}
+]
+}
+},
+{
+"id": "instituciones",
+"title": "Instituciones y gasto público",
+"paragraphs": [
+"Revisar las reglas, recuperar los contrapesos y fortalecer las instituciones.",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"Pacto nacional del agua (ejecutar las infraestructuras hidráulicas pendientes y repartir el agua con mecanismos más flexibles) y un plan de choque en los primeros 18 meses de gobierno para reforzar la red eléctrica y facilitar nuevas conexiones. Presupuesto y calendario: sin concretar.",
+"Reducir el número de ministerios e integrar Igualdad en un ministerio con otras competencias. Feijóo precisó que no elimina las políticas de igualdad."
+],
+"table": {
+"caption": "PP: instituciones y gasto público",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Revisar las reglas, recuperar los contrapesos y fortalecer las instituciones.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: mitin de Feijóo en Madrid, 10 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-convoca-a-todos-los-espanoles-a-la-reconstruccion-nacional-para-poner-fin-al-muro-la-delincuencia-y-la-decadencia/"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 2: que «los jueces elegirán a los jueces»; Tribunal Constitucional, Fiscalía General y órganos reguladores dirigidos por personas independientes; presupuestos cada año y elecciones obligatorias si se acumula más de una prórroga presupuestaria.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Pacto nacional del agua (ejecutar las infraestructuras hidráulicas pendientes y repartir el agua con mecanismos más flexibles) y un plan de choque en los primeros 18 meses de gobierno para reforzar la red eléctrica y facilitar nuevas conexiones. Presupuesto y calendario: sin concretar.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Periódico: Alberto Nadal propone un pacto nacional del agua, 21 de octubre de 2026",
+"href": "https://www.elperiodico.com/es/economia/20261021/alberto-nadal-pp-propone-pacto-135590341"
+}
+},
+{
+"cells": [
+"PP",
+"Reducir el número de ministerios e integrar Igualdad en un ministerio con otras competencias. Feijóo precisó que no elimina las políticas de igualdad.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "SER Comunicación: resumen oficial de la entrevista a Feijóo en Hoy por Hoy, 23 de octubre de 2026",
+"href": "https://www.sercomunicacion.com/aimar-bretos-entrevista-a-alberto-nunez-feijoo-en-hoy-por-hoy/"
+}
+}
+]
+}
 }
 ]
 },
 {
 "id": "p29n-partido-psoe",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/partido-psoe",
 "h1": "Partido Socialista Obrero Español (PSOE): qué promete para el 29-N",
 "title": "PSOE: promesas y medidas para el 29-N",
-"description": "Qué propone PSOE para las elecciones del 29 de noviembre: vivienda, impuestos, empleo, pensiones y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: PSOE ha concretado 5 medidas con fuente a 13 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"description": "Qué propone PSOE para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
+"lead": "Respuesta corta: PSOE ha concretado 14 medidas con fuente a 27 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -1511,6 +4020,30 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "La Moncloa: medidas de los decretos de vivienda (8 de octubre de 2026, fuente oficial del Gobierno)",
 "href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
+},
+{
+"label": "Europa Press: Sánchez en Zaragoza (14 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+},
+{
+"label": "Europa Press: Sánchez en Fuenlabrada (17 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+},
+{
+"label": "ABC: Sánchez en Zaragoza (14 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+},
+{
+"label": "RTVE: Sánchez promete que subirá el salario mínimo «todos los años» (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.rtve.es/noticias/20261019/sanchez-promete-subira-salario-minimo-todos-anos/17273693.shtml"
+},
+{
+"label": "20minutos: Sánchez en Burgos (21 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+},
+{
+"label": "Europa Press: Sánchez en Gijón (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 },
 {
 "label": "Web oficial de PSOE",
@@ -1545,13 +4078,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/partido-frente-amplio",
 "label": "Qué promete Frente Amplio"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
 "faqs": [
 {
 "q": "¿Ha publicado PSOE su programa para el 29-N?",
-"a": "A 13 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
+"a": "A 27 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -1559,7 +4096,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Por qué este orden de partidos?",
-"a": "Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"a": "Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 }
 ],
 "sections": [
@@ -1656,48 +4193,227 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "impuestos",
 "title": "Impuestos y coste de la vida",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "empleo",
 "title": "Empleo y salarios",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Bajar el paro a cifras de un dígito hacia 2030.",
+"Subir el salario mínimo interprofesional cada año mientras gobierne. No dio cifra ni calendario."
+],
+"table": {
+"caption": "PSOE: empleo y salarios",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PSOE",
+"Bajar el paro a cifras de un dígito hacia 2030.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Subir el salario mínimo interprofesional cada año mientras gobierne. No dio cifra ni calendario.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "RTVE: Sánchez promete que subirá el salario mínimo «todos los años», 19 de octubre de 2026",
+"href": "https://www.rtve.es/noticias/20261019/sanchez-promete-subira-salario-minimo-todos-anos/17273693.shtml"
+}
+}
 ]
+}
 },
 {
 "id": "inmigracion",
 "title": "Inmigración",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Defender la regularización de migrantes y vincularla a las pensiones: de 1,2 millones de personas en trámites, «casi medio millón» trabajan y cotizan."
+],
+"table": {
+"caption": "PSOE: inmigración",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PSOE",
+"Defender la regularización de migrantes y vincularla a las pensiones: de 1,2 millones de personas en trámites, «casi medio millón» trabajan y cotizan.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+}
+}
 ]
+}
 },
 {
 "id": "administracion",
 "title": "Burocracia y administración",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "pensiones",
 "title": "Pensiones",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Revalorizar las pensiones públicas con el IPC durante los cuatro años de legislatura.",
+"Declaración: «las pensiones no se tocan».",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados)."
+],
+"table": {
+"caption": "PSOE: pensiones",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PSOE",
+"Revalorizar las pensiones públicas con el IPC durante los cuatro años de legislatura.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Declaración: «las pensiones no se tocan».",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Sánchez en Fuenlabrada, 17 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
+}
+}
 ]
+}
+},
+{
+"id": "sanidad",
+"title": "Sanidad",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "educacion",
+"title": "Educación",
+"paragraphs": [
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030."
+],
+"table": {
+"caption": "PSOE: educación",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PSOE",
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+}
+]
+}
+},
+{
+"id": "instituciones",
+"title": "Instituciones y gasto público",
+"paragraphs": [
+"«Cero recortes» en un nuevo mandato.",
+"Reformar la Constitución en la próxima legislatura para blindar el derecho al aborto. El proyecto de reforma que estaba en el Congreso decayó con la disolución de las Cortes; una reforma constitucional necesita como mínimo tres quintos del Congreso y del Senado (artículo 167)."
+],
+"table": {
+"caption": "PSOE: instituciones y gasto público",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PSOE",
+"«Cero recortes» en un nuevo mandato.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar el derecho al aborto. El proyecto de reforma que estaba en el Congreso decayó con la disolución de las Cortes; una reforma constitucional necesita como mínimo tres quintos del Congreso y del Senado (artículo 167).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "20minutos: Sánchez en Burgos, 21 de octubre de 2026",
+"href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+}
+]
+}
 }
 ]
 },
 {
 "id": "p29n-partido-vox",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/partido-vox",
 "h1": "Vox: qué promete para el 29-N",
 "title": "Vox: promesas y medidas para el 29-N",
-"description": "Qué propone Vox para las elecciones del 29 de noviembre: vivienda, impuestos, empleo, pensiones y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: Vox ha concretado 10 medidas con fuente a 13 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"description": "Qué propone Vox para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
+"lead": "Respuesta corta: Vox ha concretado 19 medidas con fuente a 27 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -1726,6 +4442,30 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "Expansión: propuesta de Ignacio Garriga (11 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/11/6acb4be4468aebef4f8b459b.html"
+},
+{
+"label": "Europa Press: Abascal en Estepona (11 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+},
+{
+"label": "ABC (EFE): Abascal en Ceuta (12 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/sociedad/abascal-exige-ceuta-militarizar-frontera-expulsar-migrantes-20261012153921-nt.html"
+},
+{
+"label": "voxespana.es: acto de Ponferrada (20 de octubre de 2026, web oficial del partido)",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+},
+{
+"label": "voxespana.es: Abascal en Segovia (22 de octubre de 2026, web oficial del partido)",
+"href": "https://www.voxespana.es/abascal/abascal-pide-confiar-en-vox-para-hacer-una-politica-distinta-y-con-sentido-comun-20261022"
+},
+{
+"label": "Cadena SER (Radio Ibiza): Vox promete vivienda para quien trabaje en Ibiza (24 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://cadenaser.com/baleares/2026/10/24/vox-promete-vivienda-para-quien-trabaje-en-ibiza-en-el-acto-de-abascal-en-la-isla-radio-ibiza/"
+},
+{
+"label": "voxespana.es: documento «Recuperar España» (octubre de 2026, web oficial del partido)",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
 },
 {
 "label": "Web oficial de Vox",
@@ -1760,13 +4500,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/partido-frente-amplio",
 "label": "Qué promete Frente Amplio"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
 "faqs": [
 {
 "q": "¿Ha publicado Vox su programa para el 29-N?",
-"a": "A 13 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
+"a": "A 27 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -1774,7 +4518,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Por qué este orden de partidos?",
-"a": "Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"a": "Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 }
 ],
 "sections": [
@@ -1793,7 +4537,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Vivienda",
 "paragraphs": [
 "«Prioridad nacional»: que los españoles vayan primero en ayudas sociales y vivienda pública; construir vivienda social de forma masiva.",
-"Construir vivienda social «masivamente», liberalizar suelo, ayudas directas a jóvenes compradores y poder pagar ciertos impuestos a plazos."
+"Construir vivienda social «masivamente», liberalizar suelo, ayudas directas a jóvenes compradores y poder pagar ciertos impuestos a plazos.",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Para Ibiza y Formentera: «vivienda para quien trabaja aquí», liberar suelo, quitar impuestos y tasas al construir y plazos cerrados para las licencias. Lo planteó la cabeza de lista por Baleares en el acto de Abascal.",
+"«Impuestos cero» al comprar la primera vivienda, junto con liberar suelo e invertir en vivienda protegida. No detalla qué impuestos (hoy se paga el ITP en vivienda usada o el IVA del 10 % en vivienda nueva)."
 ],
 "table": {
 "caption": "Vox: vivienda",
@@ -1825,6 +4572,39 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Expansión: propuesta de Ignacio Garriga, 11 de octubre de 2026",
 "href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/11/6acb4be4468aebef4f8b459b.html"
 }
+},
+{
+"cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
+"Vox",
+"Para Ibiza y Formentera: «vivienda para quien trabaja aquí», liberar suelo, quitar impuestos y tasas al construir y plazos cerrados para las licencias. Lo planteó la cabeza de lista por Baleares en el acto de Abascal.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Cadena SER (Radio Ibiza): Vox promete vivienda para quien trabaje en Ibiza, 24 de octubre de 2026",
+"href": "https://cadenaser.com/baleares/2026/10/24/vox-promete-vivienda-para-quien-trabaje-en-ibiza-en-el-acto-de-abascal-en-la-isla-radio-ibiza/"
+}
+},
+{
+"cells": [
+"Vox",
+"«Impuestos cero» al comprar la primera vivienda, junto con liberar suelo e invertir en vivienda protegida. No detalla qué impuestos (hoy se paga el ITP en vivienda usada o el IVA del 10 % en vivienda nueva).",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España», octubre de 2026",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+}
 }
 ]
 }
@@ -1833,7 +4613,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "impuestos",
 "title": "Impuestos y coste de la vida",
 "paragraphs": [
-"Reducir la presión fiscal y revisar las prioridades del gasto."
+"Reducir la presión fiscal y revisar las prioridades del gasto.",
+"Un impuesto sobre las remesas, el dinero que se envía al extranjero, para que «el dinero generado en España» se quede en servicios aquí. No concreta el tipo ni a quién se aplicaría."
 ],
 "table": {
 "caption": "Vox: impuestos y coste de la vida",
@@ -1854,6 +4635,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
 "href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
 }
+},
+{
+"cells": [
+"Vox",
+"Un impuesto sobre las remesas, el dinero que se envía al extranjero, para que «el dinero generado en España» se quede en servicios aquí. No concreta el tipo ni a quién se aplicaría.",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España», octubre de 2026",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+}
 }
 ]
 }
@@ -1862,14 +4654,18 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "empleo",
 "title": "Empleo y salarios",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "inmigracion",
 "title": "Inmigración",
 "paragraphs": [
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales."
+"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
+"Militarizar la frontera de Ceuta con Marruecos y expulsar a quienes entraron de forma irregular en la crisis de finales de julio.",
+"Prioridad declarada para el día después del 29-N: «recuperar Ceuta al precio que sea». No concretó medidas.",
+"Prohibir el burka y el niqab en los espacios públicos.",
+"Que el Ingreso Mínimo Vital solo lo cobren españoles. Hoy pueden pedirlo también los extranjeros con al menos un año de residencia legal en España."
 ],
 "table": {
 "caption": "Vox: inmigración",
@@ -1889,6 +4685,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
 "href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+}
+},
+{
+"cells": [
+"Vox",
+"Militarizar la frontera de Ceuta con Marruecos y expulsar a quienes entraron de forma irregular en la crisis de finales de julio.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC (EFE): Abascal en Ceuta, 12 de octubre de 2026",
+"href": "https://www.abc.es/sociedad/abascal-exige-ceuta-militarizar-frontera-expulsar-migrantes-20261012153921-nt.html"
+}
+},
+{
+"cells": [
+"Vox",
+"Prioridad declarada para el día después del 29-N: «recuperar Ceuta al precio que sea». No concretó medidas.",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: Abascal en Segovia, 22 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-pide-confiar-en-vox-para-hacer-una-politica-distinta-y-con-sentido-comun-20261022"
+}
+},
+{
+"cells": [
+"Vox",
+"Prohibir el burka y el niqab en los espacios públicos.",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España», octubre de 2026",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+}
+},
+{
+"cells": [
+"Vox",
+"Que el Ingreso Mínimo Vital solo lo cobren españoles. Hoy pueden pedirlo también los extranjeros con al menos un año de residencia legal en España.",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España», octubre de 2026",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
 }
 }
 ]
@@ -1975,7 +4815,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "pensiones",
 "title": "Pensiones",
 "paragraphs": [
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización)."
+"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
+"Pagar las pensiones «al precio que sea y como sea», sin fijar modelo ni fórmula; negó que Vox vaya a privatizarlas."
 ],
 "table": {
 "caption": "Vox: pensiones",
@@ -1996,21 +4837,53 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
 "href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
 }
+},
+{
+"cells": [
+"Vox",
+"Pagar las pensiones «al precio que sea y como sea», sin fijar modelo ni fórmula; negó que Vox vaya a privatizarlas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Abascal en Estepona, 11 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+}
 }
 ]
 }
+},
+{
+"id": "sanidad",
+"title": "Sanidad",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "educacion",
+"title": "Educación",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "instituciones",
+"title": "Instituciones y gasto público",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
 }
 ]
 },
 {
 "id": "p29n-partido-frente-amplio",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/partido-frente-amplio",
 "h1": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns): qué promete para el 29-N",
 "title": "Frente Amplio: promesas y medidas para el 29-N",
-"description": "Qué propone Frente Amplio para las elecciones del 29 de noviembre: vivienda, impuestos, empleo, pensiones y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: Frente Amplio ha concretado 1 medida con fuente a 13 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"description": "Qué propone Frente Amplio para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
+"lead": "Respuesta corta: Frente Amplio ha concretado 10 medidas con fuente a 27 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2027,6 +4900,34 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "RTVE: comunicado del Frente Amplio (12 de octubre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+},
+{
+"label": "Europa Press: Urtasun en Barcelona (14 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+},
+{
+"label": "elDiario.es: presentación del Frente Amplio (17 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+},
+{
+"label": "Redacción Médica: presentación del Frente Amplio (17 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
+},
+{
+"label": "EFE (vía Infobae): Frente Amplio plantea una prestación universal por crianza (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.infobae.com/espana/agencias/2026/10/22/frente-amplio-plantea-una-prestacion-universal-por-crianza-y-pide-consenso-entre-partidos/"
+},
+{
+"label": "Europa Press: Frente Amplio propone que ninguna pensión esté por debajo del SMI (24 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
+},
+{
+"label": "Europa Press: mitin de Frente Amplio en Móstoles (25 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-colau-llama-llenar-calles-poner-cuerpo-frente-politicos-solo-usan-piquito-oro-20261025140652.html"
+},
+{
+"label": "elDiario.es: carta de Colau a los candidatos (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
 },
 {
 "label": "Web oficial de Frente Amplio",
@@ -2061,13 +4962,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/partido-vox",
 "label": "Qué promete Vox"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
 "faqs": [
 {
 "q": "¿Ha publicado Frente Amplio su programa para el 29-N?",
-"a": "A 13 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
+"a": "A 27 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -2075,7 +4980,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Por qué este orden de partidos?",
-"a": "Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"a": "Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 }
 ],
 "sections": [
@@ -2093,7 +4998,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "vivienda",
 "title": "Vivienda",
 "paragraphs": [
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía."
+"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Frenar las compras especulativas de vivienda y las de los fondos de inversión.",
+"Subir los impuestos a quienes especulan con la vivienda y expropiar pisos a los fondos buitre. No detalló qué impuestos ni el procedimiento."
 ],
 "table": {
 "caption": "Frente Amplio: vivienda",
@@ -2114,6 +5022,39 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
 "href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
 }
+},
+{
+"cells": [
+"Frente Amplio",
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"Frenar las compras especulativas de vivienda y las de los fondos de inversión.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"Subir los impuestos a quienes especulan con la vivienda y expropiar pisos a los fondos buitre. No detalló qué impuestos ni el procedimiento.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: mitin de Frente Amplio en Móstoles, 25 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-colau-llama-llenar-calles-poner-cuerpo-frente-politicos-solo-usan-piquito-oro-20261025140652.html"
+}
 }
 ]
 }
@@ -2122,48 +5063,181 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "impuestos",
 "title": "Impuestos y coste de la vida",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Prestación universal por crianza concedida mediante deducciones en el IRPF, con un coste estimado de unos 13.000 millones de euros, contra la pobreza infantil."
+],
+"table": {
+"caption": "Frente Amplio: impuestos y coste de la vida",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Frente Amplio",
+"Prestación universal por crianza concedida mediante deducciones en el IRPF, con un coste estimado de unos 13.000 millones de euros, contra la pobreza infantil.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "EFE (vía Infobae): Frente Amplio plantea una prestación universal por crianza, 22 de octubre de 2026",
+"href": "https://www.infobae.com/espana/agencias/2026/10/22/frente-amplio-plantea-una-prestacion-universal-por-crianza-y-pide-consenso-entre-partidos/"
+}
+}
 ]
+}
 },
 {
 "id": "empleo",
 "title": "Empleo y salarios",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "inmigracion",
 "title": "Inmigración",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "administracion",
 "title": "Burocracia y administración",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "pensiones",
 "title": "Pensiones",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"No permitir que se desmonte el sistema público de pensiones.",
+"Que ninguna pensión esté por debajo del salario mínimo (SMI, hoy 1.221 € al mes en 14 pagas) y que las pensiones mínimas suban al mismo ritmo que el SMI. Financiación según el partido: tributación mínima efectiva para grandes empresas y un impuesto del 2 % a los patrimonios de más de un millón de euros.",
+"Fijar en 65 años la edad máxima de jubilación. Hoy, a los 65 solo se jubila sin recorte quien tiene 38 años y 3 meses cotizados; el resto, a los 66 años y 10 meses. Financiación según el partido: eliminar de forma progresiva el tope máximo de cotización y una aportación de las empresas más automatizadas."
+],
+"table": {
+"caption": "Frente Amplio: pensiones",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Frente Amplio",
+"No permitir que se desmonte el sistema público de pensiones.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "elDiario.es: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"Que ninguna pensión esté por debajo del salario mínimo (SMI, hoy 1.221 € al mes en 14 pagas) y que las pensiones mínimas suban al mismo ritmo que el SMI. Financiación según el partido: tributación mínima efectiva para grandes empresas y un impuesto del 2 % a los patrimonios de más de un millón de euros.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Frente Amplio propone que ninguna pensión esté por debajo del SMI, 24 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"Fijar en 65 años la edad máxima de jubilación. Hoy, a los 65 solo se jubila sin recorte quien tiene 38 años y 3 meses cotizados; el resto, a los 66 años y 10 meses. Financiación según el partido: eliminar de forma progresiva el tope máximo de cotización y una aportación de las empresas más automatizadas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Frente Amplio propone fijar en 65 años la edad máxima de jubilación, 24 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
+}
+}
 ]
+}
+},
+{
+"id": "sanidad",
+"title": "Sanidad",
+"paragraphs": [
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía."
+],
+"table": {
+"caption": "Frente Amplio: sanidad",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
+}
+}
+]
+}
+},
+{
+"id": "educacion",
+"title": "Educación",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "instituciones",
+"title": "Instituciones y gasto público",
+"paragraphs": [
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña."
+],
+"table": {
+"caption": "Frente Amplio: instituciones y gasto público",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Frente Amplio",
+"Regular por ley el uso de la inteligencia artificial en las campañas electorales. Mientras tanto, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades en campaña.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "elDiario.es: carta de Colau a los candidatos, 26 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+}
+]
+}
 }
 ]
 },
 {
 "id": "p29n-partido-podemos",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/partido-podemos",
 "h1": "Podemos: qué promete para el 29-N",
 "title": "Podemos: promesas y medidas para el 29-N",
-"description": "Qué propone Podemos para las elecciones del 29 de noviembre: vivienda, impuestos, empleo, pensiones y más, con la fuente y la fecha de cada medida.",
-"lead": "Respuesta corta: Podemos ha concretado 2 medidas con fuente a 13 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
+"description": "Qué propone Podemos para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
+"lead": "Respuesta corta: Podemos ha concretado 13 medidas con fuente a 27 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2180,6 +5254,30 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "ABC: presentación de Irene Montero (12 de septiembre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+},
+{
+"label": "Cadena SER: Montero presenta su candidatura (12 de septiembre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+},
+{
+"label": "Europa Press: Consejo Ciudadano de Podemos (17 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-montero-lanza-candidatura-acusa-frente-amplio-preferir-pactar-psoe-senado-podemos-ccaa-20261017123614.html"
+},
+{
+"label": "El Periódico: peticiones de Podemos tras la regularización (2 de febrero de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elperiodico.com/es/politica/20260202/pedira-gobierno-migrantes-regularizados-puedan-126353274"
+},
+{
+"label": "El Debate: ley de Podemos sobre jubilación anticipada (22 de septiembre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.eldebate.com/economia/20260922/congreso-aprueba-tramitar-no-penalizar-jubilacion-anticipada-40-anos-cotizados_461700.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+},
+{
+"label": "El Español (con EFE): primer acto conjunto de Montero y Rufián (24 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elespanol.com/espana/20261024/montero-rufian-llaman-someter-psoe-izquierda-primer-acto-frente/1003744433653_0.html"
 },
 {
 "label": "Web oficial de Podemos",
@@ -2214,13 +5312,21 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones/promesas/partido-vox",
 "label": "Qué promete Vox"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
+},
+{
+"href": "/elecciones/salario-minimo-1800-euros",
+"label": "Salario mínimo de 1.800 €: la propuesta y el SMI actual"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
 "faqs": [
 {
 "q": "¿Ha publicado Podemos su programa para el 29-N?",
-"a": "A 13 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
+"a": "A 27 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique. El 19 de octubre publicó «5 propuestas para tener paz, casa y trabajo», que no son el programa; están incorporadas aquí, tema a tema."
 },
 {
 "q": "¿Cómo eligen qué medidas aparecen?",
@@ -2228,7 +5334,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Por qué este orden de partidos?",
-"a": "Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"a": "Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 }
 ],
 "sections": [
@@ -2246,22 +5352,103 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "vivienda",
 "title": "Vivienda",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Bajar los precios de la vivienda y prohibir la especulación.",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Expropiar pisos a los fondos buitre «por miles» y subir los impuestos a las rentas más altas para reforzar los servicios públicos. No detalló el procedimiento."
+],
+"table": {
+"caption": "Podemos: vivienda",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Podemos",
+"Bajar los precios de la vivienda y prohibir la especulación.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Cadena SER: Montero presenta su candidatura, 12 de septiembre de 2026",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"Expropiar pisos a los fondos buitre «por miles» y subir los impuestos a las rentas más altas para reforzar los servicios públicos. No detalló el procedimiento.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español (con EFE): primer acto conjunto de Montero y Rufián, 24 de octubre de 2026",
+"href": "https://www.elespanol.com/espana/20261024/montero-rufian-llaman-someter-psoe-izquierda-primer-acto-frente/1003744433653_0.html"
+}
+}
 ]
+}
 },
 {
 "id": "impuestos",
 "title": "Impuestos y coste de la vida",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Objetivos de campaña: acabar con «el negocio de la vivienda», bajar el coste de la vida, mejorar los salarios y defender los servicios públicos.",
+"5 propuestas, punto 2: bajar el coste de la vida."
+],
+"table": {
+"caption": "Podemos: impuestos y coste de la vida",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Podemos",
+"Objetivos de campaña: acabar con «el negocio de la vivienda», bajar el coste de la vida, mejorar los salarios y defender los servicios públicos.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Consejo Ciudadano de Podemos, 17 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-montero-lanza-candidatura-acusa-frente-amplio-preferir-pactar-psoe-senado-podemos-ccaa-20261017123614.html"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+}
 ]
+}
 },
 {
 "id": "empleo",
 "title": "Empleo y salarios",
 "paragraphs": [
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Reducir la jornada laboral a 30 horas semanales."
+"Reducir la jornada laboral a 30 horas semanales.",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas."
 ],
 "table": {
 "caption": "Podemos: empleo y salarios",
@@ -2293,6 +5480,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
 }
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
 }
 ]
 }
@@ -2301,34 +5499,145 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "inmigracion",
 "title": "Inmigración",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Que los migrantes regularizados puedan votar, acortar el plazo para obtener la nacionalidad, derogar la ley de extranjería y cerrar los CIE."
+],
+"table": {
+"caption": "Podemos: inmigración",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Podemos",
+"Que los migrantes regularizados puedan votar, acortar el plazo para obtener la nacionalidad, derogar la ley de extranjería y cerrar los CIE.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Periódico: peticiones de Podemos tras la regularización, 2 de febrero de 2026",
+"href": "https://www.elperiodico.com/es/politica/20260202/pedira-gobierno-migrantes-regularizados-puedan-126353274"
+}
+}
 ]
+}
 },
 {
 "id": "administracion",
 "title": "Burocracia y administración",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "pensiones",
 "title": "Pensiones",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Jubilarse anticipadamente sin recorte por coeficientes reductores con 40 años o más cotizados (proposición de ley tomada en consideración)."
+],
+"table": {
+"caption": "Podemos: pensiones",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Podemos",
+"Jubilarse anticipadamente sin recorte por coeficientes reductores con 40 años o más cotizados (proposición de ley tomada en consideración).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Debate: ley de Podemos sobre jubilación anticipada, 22 de septiembre de 2026",
+"href": "https://www.eldebate.com/economia/20260922/congreso-aprueba-tramitar-no-penalizar-jubilacion-anticipada-40-anos-cotizados_461700.html"
+}
+}
 ]
+}
+},
+{
+"id": "sanidad",
+"title": "Sanidad",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "educacion",
+"title": "Educación",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "instituciones",
+"title": "Instituciones y gasto público",
+"paragraphs": [
+"No destinar más dinero a armamento mientras haya servicios públicos mal pagados.",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático."
+],
+"table": {
+"caption": "Podemos: instituciones y gasto público",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Podemos",
+"No destinar más dinero a armamento mientras haya servicios públicos mal pagados.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Cadena SER: Montero presenta su candidatura, 12 de septiembre de 2026",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 3: «Ni un euro para guerras».",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 5: proteger lo público y políticas contra el cambio climático.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+}
+]
+}
 }
 ]
 },
 {
-"id": "p29n-otros-partidos",
+"id": "p29n-partido-democracia-21",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
-"path": "/elecciones/promesas/otros-partidos",
-"h1": "Otros partidos del 29-N: ERC, Junts, Bildu, PNV, BNG y más",
-"title": "Otros partidos del 29-N: qué proponen",
-"description": "ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria, UPN y nuevos partidos en el 29-N: estado de sus programas y cuándo se conocerán las candidaturas.",
-"lead": "Respuesta corta: a 13 de octubre de 2026 ninguno de estos partidos ha publicado su programa para el 29-N. Los añadiremos con el mismo formato cuando lo hagan o cuando el BOE publique las candidaturas proclamadas (3 de noviembre).",
+"reviewedAt": "2026-10-27",
+"path": "/elecciones/promesas/partido-democracia-21",
+"h1": "Democracia 21 (D21): qué promete para el 29-N",
+"title": "Democracia 21: promesas y medidas para el 29-N",
+"description": "Qué propone Democracia 21 para las elecciones del 29-N: vivienda, impuestos, empleo, pensiones, sanidad y más, con la fuente y la fecha de cada medida.",
+"lead": "Respuesta corta: Democracia 21 ha concretado 10 medidas con fuente a 27 de octubre de 2026; su programa completo para el 29-N está pendiente. Mismo formato y mismos temas que el resto de partidos.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2341,9 +5650,362 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "BOE: Real Decreto 806/2026, convocatoria del 29-N",
 "href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
+},
+{
+"label": "Europa Press: presentación de Democracia 21 (10 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "El Mundo: el programa de vivienda de Democracia 21 (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+},
+{
+"label": "Web oficial de Democracia 21",
+"href": "https://democracia21.es/"
 }
 ],
 "related": [
+{
+"href": "/elecciones/promesas",
+"label": "Promesas del 29-N: todas las medidas"
+},
+{
+"href": "/elecciones/promesas/metodologia",
+"label": "Cómo elaboramos esta comparativa"
+},
+{
+"href": "/elecciones",
+"label": "Elecciones del 29-N: cómo votar"
+},
+{
+"href": "/ayudas-por-gobierno",
+"label": "Ayudas según cada gobierno desde 1996"
+},
+{
+"href": "/elecciones/promesas/partido-pp",
+"label": "Qué promete PP"
+},
+{
+"href": "/elecciones/promesas/partido-psoe",
+"label": "Qué promete PSOE"
+},
+{
+"href": "/elecciones/promesas/partido-vox",
+"label": "Qué promete Vox"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
+}
+],
+"disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
+"faqs": [
+{
+"q": "¿Ha publicado Democracia 21 su programa para el 29-N?",
+"a": "A 27 de octubre de 2026, no. Recogemos lo que ha anunciado con fuente y fecha, y lo sustituiremos por el programa en cuanto se publique."
+},
+{
+"q": "¿Cómo eligen qué medidas aparecen?",
+"a": "Aparecen todas las medidas concretas que hemos encontrado con fuente fechada. No seleccionamos por relevancia ni por afinidad."
+},
+{
+"q": "¿Por qué este orden de partidos?",
+"a": "Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
+}
+],
+"sections": [
+{
+"id": "ficha",
+"title": "Ficha",
+"paragraphs": [
+"Líder o candidato: Miriam González.",
+"Resultado en 2023: no concurrió (partido nuevo).",
+"Programa para el 29-N: pendiente de programa.",
+"Concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en las circunscripciones de Madrid y Barcelona, según la Junta Electoral Central.",
+"Las candidaturas se proclaman el 2 de noviembre y se publican en el BOE el 3 de noviembre: hasta entonces no hay candidatos oficiales."
+]
+},
+{
+"id": "vivienda",
+"title": "Vivienda",
+"paragraphs": [
+"Plan nacional de construcción de barrios con diez años de seguridad jurídica; que un joven que gane 1.300 € no pague más de 350 € por su vivienda y, mientras tanto, quitar todos los impuestos sobre la vivienda a los menores de 35 años.",
+"Destinar 10.000 millones de euros de fondos Next Generation no ejecutados a un fondo soberano de vivienda protegida y asequible.",
+"Límite «temporal y excepcional» de los precios del alquiler y un Servicio Social de Garantía de Arrendamientos: el Estado paga el alquiler al propietario si el inquilino es declarado vulnerable y no hay alternativa habitacional inmediata.",
+"Servicio de Mediación de Arrendamientos gratuito y vinculante (máximo 30 días) y juzgados especializados de arrendamientos (60 días más); tipificar como estafa firmar un contrato con intención premeditada de no pagar y el subarriendo ilegal; regular en la LAU el alquiler por habitaciones.",
+"IVA del 4 % (ahora 10 %) para construir y rehabilitar vivienda asequible; suelo público cedido hasta 75 años sin perder la titularidad pública; licencias de obra mayor en 30 días y declaración responsable digital para obras menores."
+],
+"table": {
+"caption": "Democracia 21: vivienda",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"Plan nacional de construcción de barrios con diez años de seguridad jurídica; que un joven que gane 1.300 € no pague más de 350 € por su vivienda y, mientras tanto, quitar todos los impuestos sobre la vivienda a los menores de 35 años.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Destinar 10.000 millones de euros de fondos Next Generation no ejecutados a un fondo soberano de vivienda protegida y asequible.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Límite «temporal y excepcional» de los precios del alquiler y un Servicio Social de Garantía de Arrendamientos: el Estado paga el alquiler al propietario si el inquilino es declarado vulnerable y no hay alternativa habitacional inmediata.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Mundo: el programa de vivienda de Democracia 21, 22 de octubre de 2026",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Servicio de Mediación de Arrendamientos gratuito y vinculante (máximo 30 días) y juzgados especializados de arrendamientos (60 días más); tipificar como estafa firmar un contrato con intención premeditada de no pagar y el subarriendo ilegal; regular en la LAU el alquiler por habitaciones.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Mundo: el programa de vivienda de Democracia 21, 22 de octubre de 2026",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"IVA del 4 % (ahora 10 %) para construir y rehabilitar vivienda asequible; suelo público cedido hasta 75 años sin perder la titularidad pública; licencias de obra mayor en 30 días y declaración responsable digital para obras menores.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Mundo: el programa de vivienda de Democracia 21, 22 de octubre de 2026",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+}
+]
+}
+},
+{
+"id": "impuestos",
+"title": "Impuestos y coste de la vida",
+"paragraphs": [
+"«Aliviar la presión fiscal» a la vez que se recuperan los servicios públicos."
+],
+"table": {
+"caption": "Democracia 21: impuestos y coste de la vida",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"«Aliviar la presión fiscal» a la vez que se recuperan los servicios públicos.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
+},
+{
+"id": "empleo",
+"title": "Empleo y salarios",
+"paragraphs": [
+"Quitar trabas al emprendimiento y una «política sostenible de subidas de salarios»."
+],
+"table": {
+"caption": "Democracia 21: empleo y salarios",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"Quitar trabas al emprendimiento y una «política sostenible de subidas de salarios».",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
+},
+{
+"id": "inmigracion",
+"title": "Inmigración",
+"paragraphs": [
+"La inmigración como «activo y ventaja competitiva», «decidiendo quién entra, cómo entra, cuándo entra y cuándo sale»."
+],
+"table": {
+"caption": "Democracia 21: inmigración",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"La inmigración como «activo y ventaja competitiva», «decidiendo quién entra, cómo entra, cuándo entra y cuándo sale».",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
+},
+{
+"id": "administracion",
+"title": "Burocracia y administración",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "pensiones",
+"title": "Pensiones",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "sanidad",
+"title": "Sanidad",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "educacion",
+"title": "Educación",
+"paragraphs": [
+"Una «puesta a punto de la educación», con grados más flexibles y más prácticas."
+],
+"table": {
+"caption": "Democracia 21: educación",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"Una «puesta a punto de la educación», con grados más flexibles y más prácticas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
+},
+{
+"id": "instituciones",
+"title": "Instituciones y gasto público",
+"paragraphs": [
+"Despolitizar el CGPJ, que la Fiscalía responda ante el Parlamento, juzgados especializados contra la corrupción, eliminar aforamientos, recortar subvenciones a partidos y fundaciones, quitar el 90 % de los asesores y que los diputados se reúnan con sus votantes al menos cada dos semanas."
+],
+"table": {
+"caption": "Democracia 21: instituciones y gasto público",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"Despolitizar el CGPJ, que la Fiscalía responda ante el Parlamento, juzgados especializados contra la corrupción, eliminar aforamientos, recortar subvenciones a partidos y fundaciones, quitar el 90 % de los asesores y que los diputados se reúnan con sus votantes al menos cada dos semanas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
+}
+]
+},
+{
+"id": "p29n-otros-partidos",
+"pack": "promesas-29n",
+"reviewedAt": "2026-10-19",
+"path": "/elecciones/promesas/otros-partidos",
+"h1": "Otros partidos del 29-N: ERC, Junts, Bildu, PNV, BNG y más",
+"title": "Otros partidos del 29-N: qué proponen",
+"description": "ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria, UPN y nuevos partidos en el 29-N: estado de sus programas y cuándo se conocerán las candidaturas.",
+"lead": "Respuesta corta: a 27 de octubre de 2026 ninguno de estos partidos ha publicado su programa para el 29-N. Los añadiremos con el mismo formato cuando lo hagan o cuando el BOE publique las candidaturas proclamadas (3 de noviembre).",
+"cta": {
+"href": "/elecciones/promesas",
+"label": "Ver todas las promesas del 29-N"
+},
+"secondaryCta": {
+"href": "/elecciones",
+"label": "Guía para votar el 29-N"
+},
+"sources": [
+{
+"label": "BOE: Real Decreto 806/2026, convocatoria del 29-N",
+"href": "https://www.boe.es/eli/es/rd/2026/10/05/806"
+},
+{
+"label": "Junta Electoral Central: coaliciones de las generales del 29-N",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
+},
+{
+"label": "Europa Press, 10-10-2026: presentación de Democracia 21",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+],
+"related": [
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Cuándo salen los programas electorales del 29-N"
+},
 {
 "href": "/elecciones/promesas",
 "label": "Promesas del 29-N: todas las medidas"
@@ -2383,15 +6045,14 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "PNV: pendiente de programa.",
 "BNG: pendiente de programa.",
 "Coalición Canaria: pendiente de programa.",
-"UPN: pendiente de programa.",
-"Democracia 21 (nuevo, anunciado el 10-10-2026): pendiente de programa."
+"UPN: pendiente de programa."
 ]
 },
 {
 "id": "criterio",
 "title": "Por qué no tienen ficha propia todavía",
 "paragraphs": [
-"Damos ficha propia a los partidos con grupo estatal relevante en 2023. Los partidos que solo se presentan en algunas provincias aparecerán en las páginas de su comunidad en cuanto publiquen medidas."
+"Damos ficha propia a los partidos con grupo estatal relevante en 2023 y a Democracia 21, que se presenta como alternativa estatal aunque solo concurre en Madrid y Barcelona. Las propuestas de mítines de los demás partidos están en la página de programas y mítines del 29-N."
 ]
 }
 ]
@@ -2399,12 +6060,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-andalucia",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-andalucia",
 "h1": "Promesas del 29-N y cómo afectarían en Andalucía",
 "title": "Promesas electorales del 29-N en Andalucía",
-"description": "Cómo afectarían en Andalucía las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 60 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Andalucía elige 60 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Andalucía, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Andalucía se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Andalucía las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 60 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Andalucía elige 60 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Andalucía, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Andalucía se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2461,11 +6122,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Andalucía?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -2473,11 +6134,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Andalucía",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Andalucía.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Andalucía.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Andalucía, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Andalucía, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -2490,10 +6151,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -2504,9 +6165,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -2518,9 +6179,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -2532,9 +6193,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -2546,8 +6207,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -2555,6 +6216,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -2577,12 +6252,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Andalucía",
+"title": "Medidas que dependen de Andalucía o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 85 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Andalucía (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Andalucía",
+"caption": "Promesas del 29-N que en Andalucía dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -2593,45 +6269,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -2659,111 +6302,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -2780,30 +6357,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -2814,18 +6369,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -2836,7 +6380,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -2847,7 +6391,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -2867,35 +6411,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -2906,12 +6461,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-aragon",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-aragon",
 "h1": "Promesas del 29-N y cómo afectarían en Aragón",
 "title": "Promesas electorales del 29-N en Aragón",
-"description": "Cómo afectarían en Aragón las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 13 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Aragón elige 13 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Aragón, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Aragón se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Aragón las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 13 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Aragón elige 13 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Aragón, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Aragón se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -2968,11 +6523,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Aragón?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -2980,11 +6535,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Aragón",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Aragón.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Aragón.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Aragón, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Aragón, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -2997,10 +6552,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -3011,9 +6566,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -3025,9 +6580,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -3039,9 +6594,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -3053,8 +6608,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -3062,6 +6617,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -3084,12 +6653,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Aragón",
+"title": "Medidas que dependen de Aragón o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 85 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Aragón (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Aragón",
+"caption": "Promesas del 29-N que en Aragón dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -3100,45 +6670,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -3166,111 +6703,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -3287,30 +6758,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -3321,18 +6770,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -3343,7 +6781,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -3354,7 +6792,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -3374,35 +6812,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -3413,12 +6862,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-asturias",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-asturias",
 "h1": "Promesas del 29-N y cómo afectarían en Asturias",
 "title": "Promesas electorales del 29-N en Asturias",
-"description": "Cómo afectarían en Asturias las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 7 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Asturias elige 7 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Asturias, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Asturias se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Asturias las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 7 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Asturias elige 7 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Asturias, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Asturias se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -3475,11 +6924,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Asturias?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -3487,11 +6936,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Asturias",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Asturias.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Asturias.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Asturias, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Asturias, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -3504,10 +6953,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -3518,9 +6967,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -3532,9 +6981,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -3546,9 +6995,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -3560,8 +7009,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -3569,6 +7018,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -3591,12 +7054,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Asturias",
+"title": "Medidas que dependen de Asturias o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 85 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Asturias (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Asturias",
+"caption": "Promesas del 29-N que en Asturias dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -3607,45 +7071,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -3673,111 +7104,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -3794,30 +7159,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -3828,18 +7171,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -3850,7 +7182,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -3861,7 +7193,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -3881,35 +7213,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -3920,12 +7263,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-illes-balears",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-illes-balears",
 "h1": "Promesas del 29-N y cómo afectarían en Illes Balears",
 "title": "Promesas electorales del 29-N en Illes Balears",
-"description": "Cómo afectarían en Illes Balears las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 8 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Illes Balears elige 8 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Illes Balears, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Illes Balears se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Illes Balears las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 8 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Illes Balears elige 8 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Illes Balears, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Illes Balears se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -3982,11 +7325,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Illes Balears?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -3994,11 +7337,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Illes Balears",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Illes Balears.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Illes Balears.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Illes Balears, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Illes Balears, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -4011,10 +7354,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -4025,9 +7368,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -4039,9 +7382,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -4053,9 +7396,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -4067,8 +7410,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -4076,6 +7419,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -4098,12 +7455,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Illes Balears",
+"title": "Medidas que dependen de Illes Balears o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 85 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Illes Balears (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Illes Balears",
+"caption": "Promesas del 29-N que en Illes Balears dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -4114,45 +7472,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -4180,111 +7505,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -4301,30 +7560,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -4335,18 +7572,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -4357,7 +7583,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -4368,7 +7594,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -4388,35 +7614,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -4427,12 +7664,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-canarias",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-canarias",
 "h1": "Promesas del 29-N y cómo afectarían en Canarias",
 "title": "Promesas electorales del 29-N en Canarias",
-"description": "Cómo afectarían en Canarias las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 15 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Canarias elige 15 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 16 se aplicarían igual en Canarias, 8 necesitarían además al gobierno autonómico y 4 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Canarias, las propuestas de bajar el IVA (vivienda nueva, alimentos) no se aplicarían tal cual.",
+"description": "Cómo afectarían en Canarias las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 15 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Canarias elige 15 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 80 se aplicarían igual en Canarias, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Canarias, las propuestas de bajar el IVA (vivienda nueva, alimentos) no se aplicarían tal cual.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -4489,11 +7726,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Canarias?",
-"a": "A 13 de octubre de 2026, 16 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 4 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 80 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -4501,11 +7738,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Canarias",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Canarias.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Canarias.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Canarias, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Canarias, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -4518,10 +7755,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"5",
-"2",
-"3",
+"45",
+"35",
+"4",
+"6",
 "pendiente de programa"
 ],
 "source": {
@@ -4532,9 +7769,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"4",
-"0",
+"14",
+"12",
+"1",
 "1",
 "pendiente de programa"
 ],
@@ -4546,9 +7783,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -4560,9 +7797,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -4574,8 +7811,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -4583,6 +7820,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -4605,12 +7856,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Canarias",
+"title": "Medidas que dependen de Canarias o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 80 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Canarias (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Canarias",
+"caption": "Promesas del 29-N que en Canarias dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -4638,28 +7890,6 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -4698,78 +7928,56 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; y aquí no hay IVA, sino IGIC."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
+"No aplica tal cual: aquí no hay IVA (IGIC)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
-"PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"PP",
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
+"PP",
+"Eliminar el IVA para autónomos que facturen menos de 85.000 euros al año (plan anunciado para unos 1,4 millones de autónomos).",
+"No aplica tal cual: aquí no hay IVA (IGIC)."
 ],
 "source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
+"label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
 }
 },
 {
@@ -4785,13 +7993,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
+"PSOE",
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -4808,30 +8016,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -4842,18 +8028,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -4864,7 +8039,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -4875,7 +8050,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -4895,35 +8070,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -4934,12 +8120,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-cantabria",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-cantabria",
 "h1": "Promesas del 29-N y cómo afectarían en Cantabria",
 "title": "Promesas electorales del 29-N en Cantabria",
-"description": "Cómo afectarían en Cantabria las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 5 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Cantabria elige 5 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Cantabria, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Cantabria se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Cantabria las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 5 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Cantabria elige 5 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Cantabria, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cantabria se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -4996,11 +8182,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Cantabria?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -5008,11 +8194,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Cantabria",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Cantabria.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Cantabria.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Cantabria, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Cantabria, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -5025,10 +8211,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -5039,9 +8225,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -5053,9 +8239,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -5067,9 +8253,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -5081,8 +8267,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -5090,6 +8276,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -5112,12 +8312,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Cantabria",
+"title": "Medidas que dependen de Cantabria o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 85 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Cantabria (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Cantabria",
+"caption": "Promesas del 29-N que en Cantabria dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -5128,45 +8329,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -5194,111 +8362,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -5315,30 +8417,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -5349,18 +8429,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -5371,7 +8440,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -5382,7 +8451,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -5402,35 +8471,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -5441,12 +8521,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-castilla-y-leon",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-castilla-y-leon",
 "h1": "Promesas del 29-N y cómo afectarían en Castilla y León",
 "title": "Promesas electorales del 29-N en Castilla y León",
-"description": "Cómo afectarían en Castilla y León las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 31 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Castilla y León elige 31 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Castilla y León, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Castilla y León se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Castilla y León las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 31 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Castilla y León elige 31 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Castilla y León, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla y León se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -5503,11 +8583,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Castilla y León?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -5515,11 +8595,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Castilla y León",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Castilla y León.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Castilla y León.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Castilla y León, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Castilla y León, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -5532,10 +8612,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -5546,9 +8626,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -5560,9 +8640,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -5574,9 +8654,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -5588,8 +8668,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -5597,6 +8677,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -5619,12 +8713,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Castilla y León",
+"title": "Medidas que dependen de Castilla y León o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 85 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Castilla y León (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Castilla y León",
+"caption": "Promesas del 29-N que en Castilla y León dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -5635,45 +8730,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -5701,111 +8763,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -5822,30 +8818,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -5856,18 +8830,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -5878,7 +8841,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -5889,7 +8852,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -5909,35 +8872,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -5948,12 +8922,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-castilla-la-mancha",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-castilla-la-mancha",
 "h1": "Promesas del 29-N y cómo afectarían en Castilla-La Mancha",
 "title": "Promesas electorales del 29-N en Castilla-La Mancha",
-"description": "Cómo afectarían en Castilla-La Mancha las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 21 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Castilla-La Mancha elige 21 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Castilla-La Mancha, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Castilla-La Mancha se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Castilla-La Mancha las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 21 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Castilla-La Mancha elige 21 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Castilla-La Mancha, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Castilla-La Mancha se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -6010,11 +8984,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Castilla-La Mancha?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -6022,11 +8996,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Castilla-La Mancha",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Castilla-La Mancha.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Castilla-La Mancha.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Castilla-La Mancha, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Castilla-La Mancha, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -6039,10 +9013,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -6053,9 +9027,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -6067,9 +9041,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -6081,9 +9055,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -6095,8 +9069,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -6104,6 +9078,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -6126,12 +9114,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Castilla-La Mancha",
+"title": "Medidas que dependen de Castilla-La Mancha o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 85 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Castilla-La Mancha (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Castilla-La Mancha",
+"caption": "Promesas del 29-N que en Castilla-La Mancha dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -6142,45 +9131,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -6208,111 +9164,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -6329,30 +9219,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -6363,18 +9231,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -6385,7 +9242,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -6396,7 +9253,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -6416,35 +9273,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -6455,12 +9323,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-cataluna",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-cataluna",
 "h1": "Promesas del 29-N y cómo afectarían en Cataluña",
 "title": "Promesas electorales del 29-N en Cataluña",
-"description": "Cómo afectarían en Cataluña las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 48 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Cataluña elige 48 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Cataluña, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Cataluña se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Cataluña las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 48 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Cataluña elige 48 diputados el 29-N (BOE, RD 806/2026). De las 111 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 92 se aplicarían igual en Cataluña, 16 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Cataluña se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -6517,11 +9385,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Cataluña?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 92 de 111 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 16 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -6529,11 +9397,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Cataluña",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Cataluña.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Cataluña.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Cataluña, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Cataluña, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -6546,10 +9414,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -6560,9 +9428,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -6574,9 +9442,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -6588,9 +9456,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -6602,8 +9470,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -6611,6 +9479,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Democracia 21",
+"href": "https://democracia21.es/"
 }
 }
 ]
@@ -6633,12 +9515,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Cataluña",
+"title": "Medidas que dependen de Cataluña o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 111 medidas con fuente que han anunciado los partidos que se presentan aquí, 92 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 19 cuya aplicación cambia en Cataluña (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Cataluña",
+"caption": "Promesas del 29-N que en Cataluña dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -6649,45 +9532,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -6715,111 +9565,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -6836,30 +9620,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -6870,18 +9632,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -6892,7 +9643,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -6903,7 +9654,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -6923,35 +9674,68 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"Plan nacional de construcción de barrios con diez años de seguridad jurídica; que un joven que gane 1.300 € no pague más de 350 € por su vivienda y, mientras tanto, quitar todos los impuestos sobre la vivienda a los menores de 35 años.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Destinar 10.000 millones de euros de fondos Next Generation no ejecutados a un fondo soberano de vivienda protegida y asequible.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Una «puesta a punto de la educación», con grados más flexibles y más prácticas.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
 }
 }
 ]
@@ -6962,12 +9746,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-comunitat-valenciana",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-comunitat-valenciana",
 "h1": "Promesas del 29-N y cómo afectarían en Comunitat Valenciana",
 "title": "Promesas electorales del 29-N en Comunitat Valenciana",
-"description": "Cómo afectarían en Comunitat Valenciana las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 33…",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Comunitat Valenciana elige 33 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Comunitat Valenciana, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Comunitat Valenciana se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Comunitat Valenciana las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 33 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Comunitat Valenciana elige 33 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Comunitat Valenciana, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunitat Valenciana se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -7024,11 +9808,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Comunitat Valenciana?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -7036,11 +9820,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Comunitat Valenciana",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Comunitat Valenciana.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Comunitat Valenciana.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Comunitat Valenciana, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Comunitat Valenciana, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -7053,10 +9837,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -7067,9 +9851,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -7081,9 +9865,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -7095,9 +9879,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -7109,8 +9893,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -7118,6 +9902,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -7140,12 +9938,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Comunitat Valenciana",
+"title": "Medidas que dependen de Comunitat Valenciana o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 85 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Comunitat Valenciana (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Comunitat Valenciana",
+"caption": "Promesas del 29-N que en Comunitat Valenciana dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -7156,45 +9955,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -7222,111 +9988,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -7343,30 +10043,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -7377,18 +10055,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -7399,7 +10066,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -7410,7 +10077,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -7430,35 +10097,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -7469,12 +10147,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-extremadura",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-extremadura",
 "h1": "Promesas del 29-N y cómo afectarían en Extremadura",
 "title": "Promesas electorales del 29-N en Extremadura",
-"description": "Cómo afectarían en Extremadura las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 9 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Extremadura elige 9 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Extremadura, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Extremadura se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Extremadura las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 9 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Extremadura elige 9 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Extremadura, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Extremadura se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -7531,11 +10209,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Extremadura?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -7543,11 +10221,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Extremadura",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Extremadura.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Extremadura.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Extremadura, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Extremadura, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -7560,10 +10238,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -7574,9 +10252,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -7588,9 +10266,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -7602,9 +10280,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -7616,8 +10294,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -7625,6 +10303,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -7647,12 +10339,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Extremadura",
+"title": "Medidas que dependen de Extremadura o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 85 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Extremadura (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Extremadura",
+"caption": "Promesas del 29-N que en Extremadura dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -7663,45 +10356,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -7729,111 +10389,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -7850,30 +10444,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -7884,18 +10456,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -7906,7 +10467,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -7917,7 +10478,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -7937,35 +10498,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -7976,12 +10548,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-galicia",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-galicia",
 "h1": "Promesas del 29-N y cómo afectarían en Galicia",
 "title": "Promesas electorales del 29-N en Galicia",
-"description": "Cómo afectarían en Galicia las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 23 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Galicia elige 23 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Galicia, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Galicia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Galicia las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 23 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Galicia elige 23 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Galicia, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Galicia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -8038,11 +10610,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Galicia?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -8050,11 +10622,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Galicia",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Galicia.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Galicia.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Galicia, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Galicia, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -8067,10 +10639,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -8081,9 +10653,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -8095,9 +10667,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -8109,9 +10681,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -8123,8 +10695,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -8132,6 +10704,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -8154,12 +10740,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Galicia",
+"title": "Medidas que dependen de Galicia o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 85 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Galicia (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Galicia",
+"caption": "Promesas del 29-N que en Galicia dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -8170,45 +10757,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -8236,111 +10790,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -8357,30 +10845,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -8391,18 +10857,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -8413,7 +10868,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -8424,7 +10879,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -8444,35 +10899,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -8483,12 +10949,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-madrid",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-madrid",
 "h1": "Promesas del 29-N y cómo afectarían en Comunidad de Madrid",
 "title": "Promesas electorales del 29-N en Comunidad de Madrid",
-"description": "Cómo afectarían en Comunidad de Madrid las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 38…",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Comunidad de Madrid elige 38 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Comunidad de Madrid, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Comunidad de Madrid se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Comunidad de Madrid las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 38 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Comunidad de Madrid elige 38 diputados el 29-N (BOE, RD 806/2026). De las 111 medidas con fuente que han anunciado los 6 partidos de esta comparativa que se presentan aquí, 92 se aplicarían igual en Comunidad de Madrid, 16 necesitarían además al gobierno autonómico y 3 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Comunidad de Madrid se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -8545,11 +11011,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Comunidad de Madrid?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 92 de 111 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 16 necesitarían también al gobierno autonómico y 3 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -8557,11 +11023,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Comunidad de Madrid",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Comunidad de Madrid.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Comunidad de Madrid.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Comunidad de Madrid, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Comunidad de Madrid, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -8574,10 +11040,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -8588,9 +11054,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -8602,9 +11068,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -8616,9 +11082,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -8630,8 +11096,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -8639,6 +11105,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"10",
+"7",
+"2",
+"1",
+"pendiente de programa"
+],
+"source": {
+"label": "Web oficial de Democracia 21",
+"href": "https://democracia21.es/"
 }
 }
 ]
@@ -8661,12 +11141,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Comunidad de Madrid",
+"title": "Medidas que dependen de Comunidad de Madrid o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 111 medidas con fuente que han anunciado los partidos que se presentan aquí, 92 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 19 cuya aplicación cambia en Comunidad de Madrid (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Comunidad de Madrid",
+"caption": "Promesas del 29-N que en Comunidad de Madrid dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -8677,45 +11158,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -8743,111 +11191,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -8864,30 +11246,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -8898,18 +11258,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -8920,7 +11269,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -8931,7 +11280,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -8951,35 +11300,68 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"Plan nacional de construcción de barrios con diez años de seguridad jurídica; que un joven que gane 1.300 € no pague más de 350 € por su vivienda y, mientras tanto, quitar todos los impuestos sobre la vivienda a los menores de 35 años.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Destinar 10.000 millones de euros de fondos Next Generation no ejecutados a un fondo soberano de vivienda protegida y asequible.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Una «puesta a punto de la educación», con grados más flexibles y más prácticas.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
 }
 }
 ]
@@ -8990,12 +11372,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-murcia",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-murcia",
 "h1": "Promesas del 29-N y cómo afectarían en Región de Murcia",
 "title": "Promesas electorales del 29-N en Región de Murcia",
-"description": "Cómo afectarían en Región de Murcia las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 10 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Región de Murcia elige 10 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en Región de Murcia, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Región de Murcia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en Región de Murcia las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 10 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Región de Murcia elige 10 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en Región de Murcia, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Región de Murcia se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -9052,11 +11434,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Región de Murcia?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -9064,11 +11446,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Región de Murcia",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Región de Murcia.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Región de Murcia.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Región de Murcia, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Región de Murcia, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -9081,10 +11463,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -9095,9 +11477,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -9109,9 +11491,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -9123,9 +11505,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -9137,8 +11519,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -9146,6 +11528,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -9168,12 +11564,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Región de Murcia",
+"title": "Medidas que dependen de Región de Murcia o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 85 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Región de Murcia (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Región de Murcia",
+"caption": "Promesas del 29-N que en Región de Murcia dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -9184,45 +11581,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -9250,111 +11614,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -9371,30 +11669,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -9405,18 +11681,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -9427,7 +11692,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -9438,7 +11703,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -9458,35 +11723,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -9497,12 +11773,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-navarra",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-navarra",
 "h1": "Promesas del 29-N y cómo afectarían en Navarra",
 "title": "Promesas electorales del 29-N en Navarra",
-"description": "Cómo afectarían en Navarra las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 5 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Navarra elige 5 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 16 se aplicarían igual en Navarra, 8 necesitarían además al gobierno autonómico y 4 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Navarra, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
+"description": "Cómo afectarían en Navarra las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 5 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Navarra elige 5 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 81 se aplicarían igual en Navarra, 14 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Navarra, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -9559,11 +11835,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Navarra?",
-"a": "A 13 de octubre de 2026, 16 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 4 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 81 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -9571,11 +11847,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Navarra",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Navarra.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Navarra.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Navarra, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Navarra, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -9588,10 +11864,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
+"45",
+"36",
+"4",
 "5",
-"2",
-"3",
 "pendiente de programa"
 ],
 "source": {
@@ -9602,9 +11878,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"4",
-"0",
+"14",
+"12",
+"1",
 "1",
 "pendiente de programa"
 ],
@@ -9616,9 +11892,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -9630,9 +11906,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -9644,8 +11920,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -9653,6 +11929,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -9675,12 +11965,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Navarra",
+"title": "Medidas que dependen de Navarra o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 81 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 20 cuya aplicación cambia en Navarra (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Navarra",
+"caption": "Promesas del 29-N que en Navarra dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -9688,17 +11979,6 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Fuente"
 ],
 "rows": [
-{
-"cells": [
-"PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
 {
 "cells": [
 "PP",
@@ -9719,17 +11999,6 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -9757,28 +12026,6 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
-}
-},
-{
-"cells": [
-"PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
-}
-},
-{
-"cells": [
-"PP",
 "Deflactar la tarifa del IRPF (ajustarla a la inflación).",
 "No directamente: el IRPF es foral; dependería de la Hacienda foral."
 ],
@@ -9790,34 +12037,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la Hacienda foral; el IVA es estatal."
 ],
 "source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
-"PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"PP",
+"Para menores de 40 años que emprendan en zonas rurales: cuota de autónomos de 50 € al mes durante tres años, 50 % menos de IRPF los dos primeros años, bono de incorporación rural de hasta 15.000 € y avales públicos de hasta el 80 % de la inversión.",
+"No directamente: el IRPF es foral; dependería de la Hacienda foral."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
+"PP",
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+}
+},
+{
+"cells": [
+"PP",
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
+],
+"source": {
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
@@ -9834,34 +12092,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -9878,30 +12114,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -9912,18 +12126,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -9934,7 +12137,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -9945,7 +12148,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -9965,35 +12168,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -10004,12 +12218,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-pais-vasco",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-pais-vasco",
 "h1": "Promesas del 29-N y cómo afectarían en País Vasco",
 "title": "Promesas electorales del 29-N en País Vasco",
-"description": "Cómo afectarían en País Vasco las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 18 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): País Vasco elige 18 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 16 se aplicarían igual en País Vasco, 8 necesitarían además al gobierno autonómico y 4 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En País Vasco, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
+"description": "Cómo afectarían en País Vasco las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 18 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): País Vasco elige 18 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 81 se aplicarían igual en País Vasco, 14 necesitarían además al gobierno autonómico y 6 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En País Vasco, las rebajas del IRPF estatal (por ejemplo, para jóvenes o deflactar la tarifa) no se aplicarían directamente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -10066,11 +12280,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en País Vasco?",
-"a": "A 13 de octubre de 2026, 16 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 4 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 81 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 6 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -10078,11 +12292,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en País Vasco",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para País Vasco.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para País Vasco.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en País Vasco, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en País Vasco, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -10095,10 +12309,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
+"45",
+"36",
+"4",
 "5",
-"2",
-"3",
 "pendiente de programa"
 ],
 "source": {
@@ -10109,9 +12323,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"4",
-"0",
+"14",
+"12",
+"1",
 "1",
 "pendiente de programa"
 ],
@@ -10123,9 +12337,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -10137,9 +12351,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -10151,8 +12365,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -10160,6 +12374,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -10182,12 +12410,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en País Vasco",
+"title": "Medidas que dependen de País Vasco o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 81 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 20 cuya aplicación cambia en País Vasco (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en País Vasco",
+"caption": "Promesas del 29-N que en País Vasco dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -10195,17 +12424,6 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Fuente"
 ],
 "rows": [
-{
-"cells": [
-"PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
 {
 "cells": [
 "PP",
@@ -10226,17 +12444,6 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -10264,28 +12471,6 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
-}
-},
-{
-"cells": [
-"PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
-}
-},
-{
-"cells": [
-"PP",
 "Deflactar la tarifa del IRPF (ajustarla a la inflación).",
 "No directamente: el IRPF es foral; dependería de la Hacienda foral."
 ],
@@ -10297,34 +12482,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la Hacienda foral; el IVA es estatal."
 ],
 "source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
-"PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"PP",
+"Para menores de 40 años que emprendan en zonas rurales: cuota de autónomos de 50 € al mes durante tres años, 50 % menos de IRPF los dos primeros años, bono de incorporación rural de hasta 15.000 € y avales públicos de hasta el 80 % de la inversión.",
+"No directamente: el IRPF es foral; dependería de la Hacienda foral."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
+"PP",
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+}
+},
+{
+"cells": [
+"PP",
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
+],
+"source": {
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
@@ -10341,34 +12537,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -10385,30 +12559,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -10419,18 +12571,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -10441,7 +12582,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -10452,7 +12593,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -10472,35 +12613,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -10511,12 +12663,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-la-rioja",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-la-rioja",
 "h1": "Promesas del 29-N y cómo afectarían en La Rioja",
 "title": "Promesas electorales del 29-N en La Rioja",
-"description": "Cómo afectarían en La Rioja las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 4 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): La Rioja elige 4 diputados el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 19 se aplicarían igual en La Rioja, 8 necesitarían además al gobierno autonómico y 1 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En La Rioja se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
+"description": "Cómo afectarían en La Rioja las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 4 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): La Rioja elige 4 diputados el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 85 se aplicarían igual en La Rioja, 14 necesitarían además al gobierno autonómico y 2 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En La Rioja se aplican todas las medidas estatales; las de vivienda y el ITP dependen además del gobierno autonómico.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -10573,11 +12725,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en La Rioja?",
-"a": "A 13 de octubre de 2026, 19 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 1 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 85 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 2 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -10585,11 +12737,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en La Rioja",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para La Rioja.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para La Rioja.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en La Rioja, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en La Rioja, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -10602,10 +12754,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"7",
+"45",
+"39",
+"4",
 "2",
-"1",
 "pendiente de programa"
 ],
 "source": {
@@ -10616,9 +12768,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"5",
-"0",
+"14",
+"13",
+"1",
 "0",
 "pendiente de programa"
 ],
@@ -10630,9 +12782,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -10644,9 +12796,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -10658,8 +12810,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -10667,6 +12819,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -10689,12 +12855,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en La Rioja",
+"title": "Medidas que dependen de La Rioja o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 85 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en La Rioja (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en La Rioja",
+"caption": "Promesas del 29-N que en La Rioja dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -10705,45 +12872,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Bajar el IVA de la compra de la primera vivienda nueva del 10 % al 4 %.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
 "Permitir pagar el IVA y el Impuesto de Transmisiones (ITP) de la compra a plazos, al ritmo de la hipoteca.",
 "En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -10771,111 +12905,45 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; el IVA es estatal."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
-}
-},
-{
-"cells": [
-"PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
 "PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
-}
-},
-{
-"cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -10892,30 +12960,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -10926,18 +12972,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -10948,7 +12983,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -10959,7 +12994,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -10979,35 +13014,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -11018,12 +13064,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-ceuta",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-ceuta",
 "h1": "Promesas del 29-N y cómo afectarían en Ceuta",
 "title": "Promesas electorales del 29-N en Ceuta",
-"description": "Cómo afectarían en Ceuta las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 1 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Ceuta elige 1 diputado el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 16 se aplicarían igual en Ceuta, 8 necesitarían además al gobierno autonómico y 4 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Ceuta, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
+"description": "Cómo afectarían en Ceuta las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 1 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Ceuta elige 1 diputado el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 80 se aplicarían igual en Ceuta, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Ceuta, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -11080,11 +13126,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Ceuta?",
-"a": "A 13 de octubre de 2026, 16 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 4 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 80 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -11092,11 +13138,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Ceuta",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Ceuta.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Ceuta.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Ceuta, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Ceuta, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -11109,10 +13155,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"5",
-"2",
-"3",
+"45",
+"35",
+"4",
+"6",
 "pendiente de programa"
 ],
 "source": {
@@ -11123,9 +13169,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"4",
-"0",
+"14",
+"12",
+"1",
 "1",
 "pendiente de programa"
 ],
@@ -11137,9 +13183,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -11151,9 +13197,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -11165,8 +13211,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -11174,6 +13220,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -11196,12 +13256,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Ceuta",
+"title": "Medidas que dependen de Ceuta o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 80 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Ceuta (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Ceuta",
+"caption": "Promesas del 29-N que en Ceuta dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -11229,28 +13290,6 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -11289,78 +13328,56 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; y aquí no hay IVA, sino IPSI."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
+"No aplica tal cual: aquí no hay IVA (IPSI)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
-"PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"PP",
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
+"PP",
+"Eliminar el IVA para autónomos que facturen menos de 85.000 euros al año (plan anunciado para unos 1,4 millones de autónomos).",
+"No aplica tal cual: aquí no hay IVA (IPSI)."
 ],
 "source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
+"label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
 }
 },
 {
@@ -11376,13 +13393,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
+"PSOE",
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -11399,30 +13416,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -11433,18 +13428,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -11455,7 +13439,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -11466,7 +13450,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -11486,35 +13470,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -11525,12 +13520,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-comunidad-melilla",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/comunidad-melilla",
 "h1": "Promesas del 29-N y cómo afectarían en Melilla",
 "title": "Promesas electorales del 29-N en Melilla",
-"description": "Cómo afectarían en Melilla las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos: impuestos, vivienda y competencias. Elige 1 diputados.",
-"lead": "Respuesta corta (datos a 13 de octubre de 2026): Melilla elige 1 diputado el 29-N (BOE, RD 806/2026). De las 28 medidas con fuente que han anunciado los 5 partidos principales, 16 se aplicarían igual en Melilla, 8 necesitarían además al gobierno autonómico y 4 solo en parte o no tal cual. Ningún partido principal ha publicado aún su programa completo del 29-N. En Melilla, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
+"description": "Cómo afectarían en Melilla las promesas del 29-N de cada partido: impuestos, vivienda, sanidad y competencias. Elige 1 diputados.",
+"lead": "Respuesta corta (datos a 27 de octubre de 2026): Melilla elige 1 diputado el 29-N (BOE, RD 806/2026). De las 101 medidas con fuente que han anunciado los 5 partidos de esta comparativa que se presentan aquí, 80 se aplicarían igual en Melilla, 14 necesitarían además al gobierno autonómico y 7 solo en parte o no tal cual. Ningún partido de esta comparativa ha publicado aún su programa completo del 29-N. En Melilla, las propuestas de bajar el IVA no se aplicarían tal cual, porque allí rige el IPSI.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -11587,11 +13582,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "q": "¿Cuántas medidas del 29-N se aplicarían igual en Melilla?",
-"a": "A 13 de octubre de 2026, 16 de 28 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 8 necesitarían también al gobierno autonómico y 4 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
+"a": "A 27 de octubre de 2026, 80 de 101 medidas anunciadas con fuente se aplicarían igual que en el resto de España, 14 necesitarían también al gobierno autonómico y 7 solo en parte o no tal cual. La tabla «Resumen por partido» lo desglosa partido a partido."
 },
 {
 "q": "¿Cuándo se actualizaron estos datos y puedo descargarlos?",
-"a": "Última actualización: 13 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
+"a": "Última actualización: 27 de octubre de 2026. Revisamos las webs oficiales de los partidos y el BOE y, cuando se publique un programa, lo enlazamos aquí. Los datos completos están en /datos/promesas-29n.csv y /datos/promesas-29n.json; puedes reutilizarlos citando a RutaTrámite y la fuente original de cada medida."
 }
 ],
 "sections": [
@@ -11599,11 +13594,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "resumen",
 "title": "Resumen por partido en Melilla",
 "paragraphs": [
-"Última actualización de los datos: 13 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Melilla.",
+"Última actualización de los datos: 27 de octubre de 2026. Cada partido aparece con las mismas columnas y en el mismo orden (votos en 2023). Un número mayor solo indica que el partido ha concretado más medidas hasta ahora, no que sean mejores o peores para Melilla.",
 "Datos descargables: /datos/promesas-29n.csv y /datos/promesas-29n.json (cada medida con su cita, enlace y fecha, y cómo se aplica en cada régimen territorial)."
 ],
 "table": {
-"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Melilla, por partido (a 13 de octubre de 2026)",
+"caption": "Medidas anunciadas para el 29-N y cómo se aplicarían en Melilla, por partido (a 27 de octubre de 2026)",
 "head": [
 "Partido",
 "Medidas con fuente",
@@ -11616,10 +13611,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"10",
-"5",
-"2",
-"3",
+"45",
+"35",
+"4",
+"6",
 "pendiente de programa"
 ],
 "source": {
@@ -11630,9 +13625,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PSOE",
-"5",
-"4",
-"0",
+"14",
+"12",
+"1",
 "1",
 "pendiente de programa"
 ],
@@ -11644,9 +13639,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"10",
-"4",
-"6",
+"19",
+"12",
+"7",
 "0",
 "pendiente de programa (hay un «Programa de desregulación» temático de junio de 2026)"
 ],
@@ -11658,9 +13653,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Frente Amplio",
-"1",
-"1",
-"0",
+"10",
+"8",
+"2",
 "0",
 "pendiente de programa"
 ],
@@ -11672,8 +13667,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Podemos",
-"2",
-"2",
+"13",
+"13",
 "0",
 "0",
 "pendiente de programa"
@@ -11681,6 +13676,20 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "Web oficial de Podemos",
 "href": "https://podemos.info/"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"0 (no se presenta en esta comunidad)",
+"0",
+"0",
+"0",
+"No aplica: solo concurre en Madrid y Barcelona"
+],
+"source": {
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -11703,12 +13712,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "id": "tabla",
-"title": "Todas las medidas y si se aplicarían en Melilla",
+"title": "Medidas que dependen de Melilla o no se aplicarían igual",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar)."
+"De las 101 medidas con fuente que han anunciado los partidos que se presentan aquí, 80 se aplicarían igual que en el resto de España; están todas, con su fuente y fecha, en la comparativa general de promesas del 29-N (/elecciones/promesas). En esta tabla solo aparecen las 16 cuya aplicación cambia en Melilla (necesitan también al gobierno autonómico, se aplicarían solo en parte o no tal cual), además de los partidos sin programa publicado o sin candidatura en esta comunidad.",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final."
 ],
 "table": {
-"caption": "Promesas del 29-N y su aplicación en Melilla",
+"caption": "Promesas del 29-N que en Melilla dependen de la comunidad o no se aplicarían igual",
 "head": [
 "Partido",
 "Medida",
@@ -11736,28 +13746,6 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
 "href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: moción del Grupo Popular aprobada en el Congreso, 18 de febrero de 2026",
-"href": "https://www.pp.es/actualidad/articulos/el-gpp-logra-el-respaldo-del-congreso-a-su-propuesta-para-bajar-el-iva-de-adquisicion-de-la-primera-vivienda-nueva-del-10-al-4-y-para-eximir-o-bonificar-el-irpf-para-jovenes-en-los-primeros-cuatro-ano/"
-}
-},
-{
-"cells": [
-"PP",
-"Avales públicos de hasta el 95 % o el 100 % para la primera vivienda de los jóvenes y una «hucha hogar».",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "pp.es: plan de vivienda de Feijóo, 15 de septiembre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/feijoo-ejemplifica-en-los-jovenes-su-plan-de-vivienda-tendran-hasta-26-000-euros-de-ayuda-fiscal-y-necesitaran-50-000-menos-para-la-firma-en-una-casa-de-250-000/"
 }
 },
 {
@@ -11796,78 +13784,56 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "PP",
-"Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Sí: es una medida estatal, igual en toda España."
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"En parte: el ITP depende de la comunidad; y aquí no hay IVA, sino IPSI."
 ],
 "source": {
-"label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
-"href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
-"Sí: es una medida estatal, igual en toda España."
+"IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
+"No aplica tal cual: aquí no hay IVA (IPSI)."
 ],
 "source": {
-"label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
-"href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
 }
 },
 {
 "cells": [
 "PP",
-"Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
-"Sí: es una medida estatal, igual en toda España."
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
-"href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
-"PSOE",
-"Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Sí: es una medida estatal, igual en toda España."
+"PP",
+"Que el nuevo modelo de financiación autonómica incluya una pieza específica para sostener el Sistema Nacional de Salud; Atención Primaria más resolutiva y reforma del Estatuto Marco con los profesionales.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "Expansión: mitin de Dos Hermanas, 10 de octubre de 2026",
-"href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/10/6aca29c5468aebd2358b4572.html"
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
 }
 },
 {
 "cells": [
-"PSOE",
-"Préstamos públicos «TU CASA» al 0 % para la entrada de la primera vivienda: hasta el 20 % del valor, con un máximo de 50.000 €, dotados con 10.000 millones. Ya aprobados por el Gobierno (RDL 29/2026) y dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
+"PP",
+"Eliminar el IVA para autónomos que facturen menos de 85.000 euros al año (plan anunciado para unos 1,4 millones de autónomos).",
+"No aplica tal cual: aquí no hay IVA (IPSI)."
 ],
 "source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
-}
-},
-{
-"cells": [
-"PSOE",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
-"href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
+"label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
 }
 },
 {
@@ -11883,13 +13849,13 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
-"Vox",
-"«Remigración»: repatriar a quien entre ilegalmente en España, a quien cometa delitos y a quien llegue para vivir de ayudas sociales.",
-"Sí: es una medida estatal, igual en toda España."
+"PSOE",
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sí, pero necesita a la comunidad: la gestión de la educación es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 },
 {
@@ -11906,30 +13872,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "cells": [
 "Vox",
-"Reducir la presión fiscal y revisar las prioridades del gasto.",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
-"Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
-"Sí: es una medida estatal, igual en toda España."
-],
-"source": {
-"label": "voxespana.es: acto de Estepona, 11 de octubre de 2026",
-"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
-}
-},
-{
-"cells": [
-"Vox",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -11940,18 +13884,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Silencio administrativo positivo y declaración responsable como regla general (salvo nacionalidad, residencia e inmigración).",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
-],
-"source": {
-"label": "Vox: Programa de desregulación (PDF), junio de 2026",
-"href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
-}
-},
-{
-"cells": [
-"Vox",
-"Derogar tres normas por cada norma nueva que se apruebe.",
-"Sí: es una medida estatal, igual en toda España."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -11962,7 +13895,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Ley de Mercado Abierto: lo que es legal en una comunidad autónoma, lo sería en toda España sin trámites extra.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -11973,7 +13906,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "cells": [
 "Vox",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+"Sí, pero necesita a la comunidad: la gestión es competencia autonómica."
 ],
 "source": {
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
@@ -11993,35 +13926,46 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 },
 {
 "cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
 "Frente Amplio",
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
-"Sí: es una medida estatal, igual en toda España."
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Sí, pero necesita a la comunidad: la vivienda y la gestión son competencia autonómica."
 ],
 "source": {
-"label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
-"href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Sí: es una medida estatal, igual en toda España."
+"Frente Amplio",
+"Prioridad declarada: defender la sanidad pública frente a los recortes. Sin medidas concretas todavía.",
+"Sí, pero necesita a la comunidad: la gestión de la sanidad es competencia autonómica (en Ceuta y Melilla, del Estado)."
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Redacción Médica: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
 }
 },
 {
 "cells": [
-"Podemos",
-"Reducir la jornada laboral a 30 horas semanales.",
-"Sí: es una medida estatal, igual en toda España."
+"Democracia 21",
+"No presenta candidatura en esta comunidad",
+"No aplica: solo concurre en Madrid y Barcelona"
 ],
 "source": {
-"label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
-"href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+"label": "Junta Electoral Central: coaliciones",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
 }
 }
 ]
@@ -12032,12 +13976,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-estudiante",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-estudiante",
 "h1": "Promesas del 29-N para estudiantes: qué propone cada partido",
 "title": "29-N para estudiantes: qué te afectaría",
-"description": "Qué cambiaría para estudiantes con las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos, con cálculos cuando hay datos oficiales.",
-"lead": "Respuesta corta: 4 de los 5 partidos principales tienen alguna medida publicada que afecta a estudiantes a 13 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"description": "Qué cambiaría para estudiantes con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
+"lead": "Respuesta corta: 5 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a estudiantes a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -12070,6 +14014,18 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "ABC: presentación de Irene Montero (12 de septiembre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+},
+{
+"label": "ABC: Sánchez en Zaragoza (14 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+},
+{
+"label": "Europa Press: presentación de Democracia 21 (10 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "El Español: el plan de vivienda de 23 medidas del PP (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
 }
 ],
 "related": [
@@ -12115,7 +14071,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Popular (PP)",
 "paragraphs": [
 "Eliminar o bonificar el IRPF de los jóvenes durante sus primeros 4 años de vida laboral, de forma progresiva.",
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes."
+"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
+"Deducción del 15 % del alquiler para los jóvenes, aval público para la fianza del alquiler de los menores de 35 años e IRPF cero el primer año de trabajo con rebajas los tres siguientes («Plan Prepara»)."
 ],
 "table": {
 "caption": "PP: medidas que afectan a estudiantes",
@@ -12147,6 +14104,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
 "href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
 }
+},
+{
+"cells": [
+"PP",
+"Deducción del 15 % del alquiler para los jóvenes, aval público para la fianza del alquiler de los menores de 35 años e IRPF cero el primer año de trabajo con rebajas los tres siguientes («Plan Prepara»).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español: el plan de vivienda de 23 medidas del PP, 22 de octubre de 2026",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+}
 }
 ]
 }
@@ -12156,6 +14124,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
 "Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
 "Cálculo: el 10 % del alquiler pagado en el año. Con 600 € al mes (7.200 € al año) serían 720 €; con 800 € al mes, 960 €. Solo para rentas inferiores a 33.007,20 € al año. La nota oficial no detalla un tope de deducción: compruébalo en el BOE. En País Vasco y Navarra no aplica, porque su IRPF es foral."
 ],
 "table": {
@@ -12176,6 +14145,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "source": {
 "label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
 "href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
+}
+},
+{
+"cells": [
+"PSOE",
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
 }
 }
 ]
@@ -12226,7 +14206,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -12259,6 +14239,35 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 }
 },
 {
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Una «puesta a punto de la educación», con grados más flexibles y más prácticas."
+],
+"table": {
+"caption": "Democracia 21: medidas que afectan a estudiantes",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"Una «puesta a punto de la educación», con grados más flexibles y más prácticas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
+},
+{
 "id": "historia",
 "title": "Qué hicieron los gobiernos anteriores",
 "paragraphs": [
@@ -12270,12 +14279,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-familia",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-familia",
 "h1": "Promesas del 29-N para familias con hijos: qué propone cada partido",
 "title": "29-N para familias con hijos: qué te afectaría",
-"description": "Qué cambiaría para familias con hijos con las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos, con cálculos cuando hay datos oficiales.",
-"lead": "Respuesta corta: 5 de los 5 partidos principales tienen alguna medida publicada que afecta a familias con hijos a 13 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"description": "Qué cambiaría para familias con hijos con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
+"lead": "Respuesta corta: 6 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a familias con hijos a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -12340,6 +14349,62 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "ABC: presentación de Irene Montero (12 de septiembre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+},
+{
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo (16 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+},
+{
+"label": "ABC: Sánchez en Zaragoza (14 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+},
+{
+"label": "RTVE: Feijóo en Barcelona (ley antiokupación) (18 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+},
+{
+"label": "voxespana.es: acto de Ponferrada (20 de octubre de 2026, web oficial del partido)",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+},
+{
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial) (21 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+},
+{
+"label": "El Mundo: el programa de vivienda de Democracia 21 (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+},
+{
+"label": "El Español: el plan de vivienda de 23 medidas del PP (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+},
+{
+"label": "El País: el PP propone segregar pisos de gran tamaño (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://elpais.com/economia/vivienda/2026-10-22/el-pp-propone-segregar-pisos-de-gran-tamano-como-remedio-ante-la-falta-de-vivienda.html"
+},
+{
+"label": "EFE (vía Infobae): Frente Amplio plantea una prestación universal por crianza (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.infobae.com/espana/agencias/2026/10/22/frente-amplio-plantea-una-prestacion-universal-por-crianza-y-pide-consenso-entre-partidos/"
+},
+{
+"label": "pp.es: Feijóo, rebaja del IRPF en 2027 (mitin en Valencia) (23 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/"
+},
+{
+"label": "pp.es: Feijóo, mitin en Vigo (mínimo familiar) (24 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-se-compromete-a-mejorar-la-exencion-del-minimo-familiar-para-que-las-familias-con-hijos-paguen-menos-impuestos/"
+},
+{
+"label": "voxespana.es: documento «Recuperar España» (octubre de 2026, web oficial del partido)",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
 }
 ],
 "related": [
@@ -12390,6 +14455,19 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
 "Deflactar la tarifa del IRPF (ajustarla a la inflación).",
 "Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
+"Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Crear un Fondo Estatal de Garantía del Alquiler que cubra un porcentaje de los impagos y bonificar un 75 % en el IRPF, el primer año, a quien ponga en alquiler una vivienda vacía.",
+"Facilitar la segregación de viviendas grandes («de 150 o 200 metros cuadrados») en dos para aumentar la oferta. Ya es posible hoy donde lo permite la normativa urbanística, que depende de ayuntamientos y comunidades autónomas.",
+"Rebajar el IRPF en 2027 «para que la inflación y los impuestos no se coman el salario» y fijar por ley que quien cobre el salario mínimo no pague IRPF, con un umbral que suba automáticamente cada vez que suba el SMI. Hoy quien solo cobra el SMI ya paga 0 € de IRPF por una deducción de 590,89 € aprobada para 2026.",
+"Mejorar la exención del mínimo familiar del IRPF para que las familias con hijos paguen menos impuestos. No concretó cuantías. Hoy el mínimo por descendientes es de 2.400 € al año por el primer hijo, 2.700 € por el segundo, 4.000 € por el tercero y 4.500 € por el cuarto y siguientes (artículo 58 de la Ley del IRPF).",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -12466,6 +14544,149 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
 "href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
 }
+},
+{
+"cells": [
+"PP",
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "RTVE: Feijóo en Barcelona (ley antiokupación), 18 de octubre de 2026",
+"href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 8: contenidos educativos elaborados por las reales academias, más exigencia y autoridad del docente, castellano garantizado en toda España y lenguas cooficiales en sus comunidades, y protección de los menores frente a las redes sociales.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Crear un Fondo Estatal de Garantía del Alquiler que cubra un porcentaje de los impagos y bonificar un 75 % en el IRPF, el primer año, a quien ponga en alquiler una vivienda vacía.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español: el plan de vivienda de 23 medidas del PP, 22 de octubre de 2026",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+}
+},
+{
+"cells": [
+"PP",
+"Facilitar la segregación de viviendas grandes («de 150 o 200 metros cuadrados») en dos para aumentar la oferta. Ya es posible hoy donde lo permite la normativa urbanística, que depende de ayuntamientos y comunidades autónomas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El País: el PP propone segregar pisos de gran tamaño, 22 de octubre de 2026",
+"href": "https://elpais.com/economia/vivienda/2026-10-22/el-pp-propone-segregar-pisos-de-gran-tamano-como-remedio-ante-la-falta-de-vivienda.html"
+}
+},
+{
+"cells": [
+"PP",
+"Rebajar el IRPF en 2027 «para que la inflación y los impuestos no se coman el salario» y fijar por ley que quien cobre el salario mínimo no pague IRPF, con un umbral que suba automáticamente cada vez que suba el SMI. Hoy quien solo cobra el SMI ya paga 0 € de IRPF por una deducción de 590,89 € aprobada para 2026.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Feijóo, rebaja del IRPF en 2027 (mitin en Valencia), 23 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/"
+}
+},
+{
+"cells": [
+"PP",
+"Mejorar la exención del mínimo familiar del IRPF para que las familias con hijos paguen menos impuestos. No concretó cuantías. Hoy el mínimo por descendientes es de 2.400 € al año por el primer hijo, 2.700 € por el segundo, 4.000 € por el tercero y 4.500 € por el cuarto y siguientes (artículo 58 de la Ley del IRPF).",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Feijóo, mitin en Vigo (mínimo familiar), 24 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-se-compromete-a-mejorar-la-exencion-del-minimo-familiar-para-que-las-familias-con-hijos-paguen-menos-impuestos/"
+}
 }
 ]
 }
@@ -12479,6 +14700,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Deducción estatal en el IRPF del 10 % del alquiler de la vivienda habitual para rentas inferiores a 33.007,20 € al año. Ya aprobada (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
 "Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
 "IVA superreducido del 4 % para la vivienda protegida de forma permanente. Ya aprobado (RDL 29/2026), dentro de los decretos que el PSOE promete mantener.",
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
 "Cálculo: el préstamo es el 20 % del valor con un tope de 50.000 €. Para 150.000 € serían 30.000 €; para 200.000 €, 40.000 €; desde 250.000 €, 50.000 €. Es un préstamo al 0 % que se devuelve, no una ayuda a fondo perdido; los requisitos finales los fija un acuerdo posterior del Consejo de Ministros.",
 "Cálculo: el 10 % del alquiler pagado en el año. Con 600 € al mes (7.200 € al año) serían 720 €; con 800 € al mes, 960 €. Solo para rentas inferiores a 33.007,20 € al año. La nota oficial no detalla un tope de deducción: compruébalo en el BOE. En País Vasco y Navarra no aplica, porque su IRPF es foral."
 ],
@@ -12545,6 +14767,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
 "href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
 }
+},
+{
+"cells": [
+"PSOE",
+"Bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
 }
 ]
 }
@@ -12557,7 +14790,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Reducir la presión fiscal y revisar las prioridades del gasto.",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Construir vivienda social «masivamente», liberalizar suelo, ayudas directas a jóvenes compradores y poder pagar ciertos impuestos a plazos."
+"Construir vivienda social «masivamente», liberalizar suelo, ayudas directas a jóvenes compradores y poder pagar ciertos impuestos a plazos.",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Que el Ingreso Mínimo Vital solo lo cobren españoles. Hoy pueden pedirlo también los extranjeros con al menos un año de residencia legal en España.",
+"«Impuestos cero» al comprar la primera vivienda, junto con liberar suelo e invertir en vivienda protegida. No detalla qué impuestos (hoy se paga el ITP en vivienda usada o el IVA del 10 % en vivienda nueva)."
 ],
 "table": {
 "caption": "Vox: medidas que afectan a familias con hijos",
@@ -12622,6 +14858,39 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Expansión: propuesta de Ignacio Garriga, 11 de octubre de 2026",
 "href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/11/6acb4be4468aebef4f8b459b.html"
 }
+},
+{
+"cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
+"Vox",
+"Que el Ingreso Mínimo Vital solo lo cobren españoles. Hoy pueden pedirlo también los extranjeros con al menos un año de residencia legal en España.",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España», octubre de 2026",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+}
+},
+{
+"cells": [
+"Vox",
+"«Impuestos cero» al comprar la primera vivienda, junto con liberar suelo e invertir en vivienda protegida. No detalla qué impuestos (hoy se paga el ITP en vivienda usada o el IVA del 10 % en vivienda nueva).",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España», octubre de 2026",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+}
 }
 ]
 }
@@ -12630,7 +14899,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía."
+"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
+"Prestación universal por crianza concedida mediante deducciones en el IRPF, con un coste estimado de unos 13.000 millones de euros, contra la pobreza infantil."
 ],
 "table": {
 "caption": "Frente Amplio: medidas que afectan a familias con hijos",
@@ -12651,6 +14921,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
 "href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
 }
+},
+{
+"cells": [
+"Frente Amplio",
+"Prestación universal por crianza concedida mediante deducciones en el IRPF, con un coste estimado de unos 13.000 millones de euros, contra la pobreza infantil.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "EFE (vía Infobae): Frente Amplio plantea una prestación universal por crianza, 22 de octubre de 2026",
+"href": "https://www.infobae.com/espana/agencias/2026/10/22/frente-amplio-plantea-una-prestacion-universal-por-crianza-y-pide-consenso-entre-partidos/"
+}
 }
 ]
 }
@@ -12659,7 +14940,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "podemos",
 "title": "Podemos",
 "paragraphs": [
-"Reducir la jornada laboral a 30 horas semanales."
+"Reducir la jornada laboral a 30 horas semanales.",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"5 propuestas, punto 2: bajar el coste de la vida."
 ],
 "table": {
 "caption": "Podemos: medidas que afectan a familias con hijos",
@@ -12680,6 +14963,81 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
 }
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 2: bajar el coste de la vida.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+}
+]
+}
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Límite «temporal y excepcional» de los precios del alquiler y un Servicio Social de Garantía de Arrendamientos: el Estado paga el alquiler al propietario si el inquilino es declarado vulnerable y no hay alternativa habitacional inmediata.",
+"Servicio de Mediación de Arrendamientos gratuito y vinculante (máximo 30 días) y juzgados especializados de arrendamientos (60 días más); tipificar como estafa firmar un contrato con intención premeditada de no pagar y el subarriendo ilegal; regular en la LAU el alquiler por habitaciones.",
+"IVA del 4 % (ahora 10 %) para construir y rehabilitar vivienda asequible; suelo público cedido hasta 75 años sin perder la titularidad pública; licencias de obra mayor en 30 días y declaración responsable digital para obras menores."
+],
+"table": {
+"caption": "Democracia 21: medidas que afectan a familias con hijos",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"Límite «temporal y excepcional» de los precios del alquiler y un Servicio Social de Garantía de Arrendamientos: el Estado paga el alquiler al propietario si el inquilino es declarado vulnerable y no hay alternativa habitacional inmediata.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Mundo: el programa de vivienda de Democracia 21, 22 de octubre de 2026",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Servicio de Mediación de Arrendamientos gratuito y vinculante (máximo 30 días) y juzgados especializados de arrendamientos (60 días más); tipificar como estafa firmar un contrato con intención premeditada de no pagar y el subarriendo ilegal; regular en la LAU el alquiler por habitaciones.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Mundo: el programa de vivienda de Democracia 21, 22 de octubre de 2026",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"IVA del 4 % (ahora 10 %) para construir y rehabilitar vivienda asequible; suelo público cedido hasta 75 años sin perder la titularidad pública; licencias de obra mayor en 30 días y declaración responsable digital para obras menores.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Mundo: el programa de vivienda de Democracia 21, 22 de octubre de 2026",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
 }
 ]
 }
@@ -12696,12 +15054,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-joven-alquiler",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-joven-alquiler",
 "h1": "Promesas del 29-N para jóvenes que alquilan o quieren comprar: qué propone cada partido",
 "title": "29-N para jóvenes y alquiler: qué te afectaría",
-"description": "Qué cambiaría para jóvenes que alquilan o quieren comprar con las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos, con cálculos cuando hay…",
-"lead": "Respuesta corta: 5 de los 5 partidos principales tienen alguna medida publicada que afecta a jóvenes que alquilan o quieren comprar a 13 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"description": "Qué cambiaría para jóvenes que alquilan o quieren comprar con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
+"lead": "Respuesta corta: 6 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a jóvenes que alquilan o quieren comprar a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -12762,6 +15120,70 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "ABC: presentación de Irene Montero (12 de septiembre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+},
+{
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo (16 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+},
+{
+"label": "Europa Press: Urtasun en Barcelona (14 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+},
+{
+"label": "Cadena SER: Montero presenta su candidatura (12 de septiembre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+},
+{
+"label": "Europa Press: presentación de Democracia 21 (10 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "RTVE: Feijóo en Barcelona (ley antiokupación) (18 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+},
+{
+"label": "voxespana.es: acto de Ponferrada (20 de octubre de 2026, web oficial del partido)",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+},
+{
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial) (21 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+},
+{
+"label": "El Mundo: el programa de vivienda de Democracia 21 (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+},
+{
+"label": "El Español: el plan de vivienda de 23 medidas del PP (22 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+},
+{
+"label": "Cadena SER (Radio Ibiza): Vox promete vivienda para quien trabaje en Ibiza (24 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://cadenaser.com/baleares/2026/10/24/vox-promete-vivienda-para-quien-trabaje-en-ibiza-en-el-acto-de-abascal-en-la-isla-radio-ibiza/"
+},
+{
+"label": "El Español (con EFE): primer acto conjunto de Montero y Rufián (24 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.elespanol.com/espana/20261024/montero-rufian-llaman-someter-psoe-izquierda-primer-acto-frente/1003744433653_0.html"
+},
+{
+"label": "voxespana.es: documento «Recuperar España» (octubre de 2026, web oficial del partido)",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+},
+{
+"label": "Europa Press: mitin de Frente Amplio en Móstoles (25 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-colau-llama-llenar-calles-poner-cuerpo-frente-politicos-solo-usan-piquito-oro-20261025140652.html"
+},
+{
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
 }
 ],
 "related": [
@@ -12784,6 +15206,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/ayudas-por-gobierno/jovenes-alquiler",
 "label": "Ayudas para jóvenes que alquilan o quieren comprar según cada gobierno"
+},
+{
+"href": "/elecciones/salario-minimo-1800-euros",
+"label": "Salario mínimo de 1.800 €: la propuesta y el SMI actual"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -12815,6 +15241,16 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
 "Deflactar la tarifa del IRPF (ajustarla a la inflación).",
 "Derogar la Ley de Vivienda y los decretos de vivienda del Gobierno, manteniendo las deducciones fiscales para inquilinos y propietarios.",
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Crear un Fondo Estatal de Garantía del Alquiler que cubra un porcentaje de los impagos y bonificar un 75 % en el IRPF, el primer año, a quien ponga en alquiler una vivienda vacía.",
+"Deducción del 15 % del alquiler para los jóvenes, aval público para la fianza del alquiler de los menores de 35 años e IRPF cero el primer año de trabajo con rebajas los tres siguientes («Plan Prepara»).",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
 "Cálculo: pasar del 10 % al 4 % ahorra el 6 % del precio de una vivienda nueva. Con 150.000 € serían 9.000 €; con 200.000 €, 12.000 €; con 250.000 €, 15.000 €. Solo vale para vivienda nueva comprada al promotor (la usada paga ITP, no IVA) y no aplica en Canarias, Ceuta ni Melilla, que no tienen IVA. Base legal del IVA: Ley 37/1992."
 ],
 "table": {
@@ -12924,6 +15360,116 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "El Español: el PP derogará los decretos de vivienda, 13 de octubre de 2026",
 "href": "https://www.elespanol.com/invertia/economia/macroeconomia/20261013/pp-derogara-decretos-vivienda-sanchez-impulsar-plan-construccion-feijoo/1003744413773_0.html"
 }
+},
+{
+"cells": [
+"PP",
+"Impuestos cero para comprar la vivienda habitual en municipios despoblados.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"Ley antiokupación con «tolerancia cero»: desalojar a los okupas «fuera en 48 horas sí o sí»; Xavier García Albiol será ponente de la ley tras el 29-N.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "RTVE: Feijóo en Barcelona (ley antiokupación), 18 de octubre de 2026",
+"href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 4: construir al menos un millón de viviendas nuevas, prioridad de los jóvenes en el acceso al alquiler y a la compra con «la mayor ayuda económica de la historia», y desalojo de okupas en 48 horas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Silencio administrativo positivo a los 90 días con carácter general: la licencia de construcción que el ayuntamiento no resuelva en 90 días se entiende concedida.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Aprobar en los primeros 100 días de gobierno tres proyectos de ley: Ley del Suelo, ley contra la ocupación (desalojo en 48 horas) y reforma de la Ley de Propiedad Horizontal.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que compren su primera vivienda: rebaja del 60 % del IVA y del ITP, avales de hasta el 100 %, aplazar el pago de esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» con aportaciones deducibles y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"PP",
+"Crear un Fondo Estatal de Garantía del Alquiler que cubra un porcentaje de los impagos y bonificar un 75 % en el IRPF, el primer año, a quien ponga en alquiler una vivienda vacía.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español: el plan de vivienda de 23 medidas del PP, 22 de octubre de 2026",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducción del 15 % del alquiler para los jóvenes, aval público para la fianza del alquiler de los menores de 35 años e IRPF cero el primer año de trabajo con rebajas los tres siguientes («Plan Prepara»).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español: el plan de vivienda de 23 medidas del PP, 22 de octubre de 2026",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+}
+},
+{
+"cells": [
+"PP",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» que coordine a todos los ministerios, comunidades y ayuntamientos, y dedicar la primera Conferencia de Presidentes al plan de un millón de viviendas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Vozpópuli: Feijóo y la vicepresidencia de vivienda, 26 de octubre de 2026",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
 }
 ]
 }
@@ -13014,7 +15560,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "«Prioridad nacional»: que los españoles vayan primero en ayudas sociales y vivienda pública; construir vivienda social de forma masiva.",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
 "Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
-"Construir vivienda social «masivamente», liberalizar suelo, ayudas directas a jóvenes compradores y poder pagar ciertos impuestos a plazos."
+"Construir vivienda social «masivamente», liberalizar suelo, ayudas directas a jóvenes compradores y poder pagar ciertos impuestos a plazos.",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"Para Ibiza y Formentera: «vivienda para quien trabaja aquí», liberar suelo, quitar impuestos y tasas al construir y plazos cerrados para las licencias. Lo planteó la cabeza de lista por Baleares en el acto de Abascal.",
+"«Impuestos cero» al comprar la primera vivienda, junto con liberar suelo e invertir en vivienda protegida. No detalla qué impuestos (hoy se paga el ITP en vivienda usada o el IVA del 10 % en vivienda nueva)."
 ],
 "table": {
 "caption": "Vox: medidas que afectan a jóvenes que alquilan o quieren comprar",
@@ -13068,6 +15617,39 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Expansión: propuesta de Ignacio Garriga, 11 de octubre de 2026",
 "href": "https://www.expansion.com/elecciones/elecciones-generales/2026/10/11/6acb4be4468aebef4f8b459b.html"
 }
+},
+{
+"cells": [
+"Vox",
+"«Prioridad nacional» también en las ayudas al alquiler y en las plazas de guardería: que los españoles sean los primeros en recibirlas, igual que las ayudas sociales.",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: acto de Ponferrada, 20 de octubre de 2026",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
+"Vox",
+"Para Ibiza y Formentera: «vivienda para quien trabaja aquí», liberar suelo, quitar impuestos y tasas al construir y plazos cerrados para las licencias. Lo planteó la cabeza de lista por Baleares en el acto de Abascal.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Cadena SER (Radio Ibiza): Vox promete vivienda para quien trabaje en Ibiza, 24 de octubre de 2026",
+"href": "https://cadenaser.com/baleares/2026/10/24/vox-promete-vivienda-para-quien-trabaje-en-ibiza-en-el-acto-de-abascal-en-la-isla-radio-ibiza/"
+}
+},
+{
+"cells": [
+"Vox",
+"«Impuestos cero» al comprar la primera vivienda, junto con liberar suelo e invertir en vivienda protegida. No detalla qué impuestos (hoy se paga el ITP en vivienda usada o el IVA del 10 % en vivienda nueva).",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España», octubre de 2026",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+}
 }
 ]
 }
@@ -13076,7 +15658,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía."
+"Prioridad declarada: «plantar cara a los fondos buitre» y «garantizar el derecho a la vivienda». Sin medidas concretas publicadas todavía.",
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Frenar las compras especulativas de vivienda y las de los fondos de inversión.",
+"Subir los impuestos a quienes especulan con la vivienda y expropiar pisos a los fondos buitre. No detalló qué impuestos ni el procedimiento."
 ],
 "table": {
 "caption": "Frente Amplio: medidas que afectan a jóvenes que alquilan o quieren comprar",
@@ -13097,6 +15682,39 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "RTVE: comunicado del Frente Amplio, 12 de octubre de 2026",
 "href": "https://www.rtve.es/noticias/20261012/ada-colau-candidata-frente-amplio-elecciones/17263538.shtml"
 }
+},
+{
+"cells": [
+"Frente Amplio",
+"Que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"Frenar las compras especulativas de vivienda y las de los fondos de inversión.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Urtasun en Barcelona, 14 de octubre de 2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"Subir los impuestos a quienes especulan con la vivienda y expropiar pisos a los fondos buitre. No detalló qué impuestos ni el procedimiento.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: mitin de Frente Amplio en Móstoles, 25 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-colau-llama-llenar-calles-poner-cuerpo-frente-politicos-solo-usan-piquito-oro-20261025140652.html"
+}
 }
 ]
 }
@@ -13106,7 +15724,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Podemos",
 "paragraphs": [
 "Subir el salario mínimo (SMI) a 1.800 € al mes.",
-"Reducir la jornada laboral a 30 horas semanales."
+"Reducir la jornada laboral a 30 horas semanales.",
+"Bajar los precios de la vivienda y prohibir la especulación.",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"Expropiar pisos a los fondos buitre «por miles» y subir los impuestos a las rentas más altas para reforzar los servicios públicos. No detalló el procedimiento."
 ],
 "table": {
 "caption": "Podemos: medidas que afectan a jóvenes que alquilan o quieren comprar",
@@ -13138,6 +15759,116 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
 }
+},
+{
+"cells": [
+"Podemos",
+"Bajar los precios de la vivienda y prohibir la especulación.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Cadena SER: Montero presenta su candidatura, 12 de septiembre de 2026",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 1: «Las casas son para vivir».",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Podemos",
+"Expropiar pisos a los fondos buitre «por miles» y subir los impuestos a las rentas más altas para reforzar los servicios públicos. No detalló el procedimiento.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Español (con EFE): primer acto conjunto de Montero y Rufián, 24 de octubre de 2026",
+"href": "https://www.elespanol.com/espana/20261024/montero-rufian-llaman-someter-psoe-izquierda-primer-acto-frente/1003744433653_0.html"
+}
+}
+]
+}
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Plan nacional de construcción de barrios con diez años de seguridad jurídica; que un joven que gane 1.300 € no pague más de 350 € por su vivienda y, mientras tanto, quitar todos los impuestos sobre la vivienda a los menores de 35 años.",
+"Destinar 10.000 millones de euros de fondos Next Generation no ejecutados a un fondo soberano de vivienda protegida y asequible.",
+"Límite «temporal y excepcional» de los precios del alquiler y un Servicio Social de Garantía de Arrendamientos: el Estado paga el alquiler al propietario si el inquilino es declarado vulnerable y no hay alternativa habitacional inmediata.",
+"Servicio de Mediación de Arrendamientos gratuito y vinculante (máximo 30 días) y juzgados especializados de arrendamientos (60 días más); tipificar como estafa firmar un contrato con intención premeditada de no pagar y el subarriendo ilegal; regular en la LAU el alquiler por habitaciones.",
+"IVA del 4 % (ahora 10 %) para construir y rehabilitar vivienda asequible; suelo público cedido hasta 75 años sin perder la titularidad pública; licencias de obra mayor en 30 días y declaración responsable digital para obras menores."
+],
+"table": {
+"caption": "Democracia 21: medidas que afectan a jóvenes que alquilan o quieren comprar",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"Plan nacional de construcción de barrios con diez años de seguridad jurídica; que un joven que gane 1.300 € no pague más de 350 € por su vivienda y, mientras tanto, quitar todos los impuestos sobre la vivienda a los menores de 35 años.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Destinar 10.000 millones de euros de fondos Next Generation no ejecutados a un fondo soberano de vivienda protegida y asequible.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Límite «temporal y excepcional» de los precios del alquiler y un Servicio Social de Garantía de Arrendamientos: el Estado paga el alquiler al propietario si el inquilino es declarado vulnerable y no hay alternativa habitacional inmediata.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Mundo: el programa de vivienda de Democracia 21, 22 de octubre de 2026",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"Servicio de Mediación de Arrendamientos gratuito y vinculante (máximo 30 días) y juzgados especializados de arrendamientos (60 días más); tipificar como estafa firmar un contrato con intención premeditada de no pagar y el subarriendo ilegal; regular en la LAU el alquiler por habitaciones.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Mundo: el programa de vivienda de Democracia 21, 22 de octubre de 2026",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+},
+{
+"cells": [
+"Democracia 21",
+"IVA del 4 % (ahora 10 %) para construir y rehabilitar vivienda asequible; suelo público cedido hasta 75 años sin perder la titularidad pública; licencias de obra mayor en 30 días y declaración responsable digital para obras menores.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Mundo: el programa de vivienda de Democracia 21, 22 de octubre de 2026",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
 }
 ]
 }
@@ -13154,12 +15885,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-jubilado",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-jubilado",
 "h1": "Promesas del 29-N para jubilados y pensionistas: qué propone cada partido",
 "title": "29-N para jubilados y pensionistas: qué te afectaría",
-"description": "Qué cambiaría para jubilados y pensionistas con las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos, con cálculos cuando hay datos oficiales.",
-"lead": "Respuesta corta: 3 de los 5 partidos principales tienen alguna medida publicada que afecta a jubilados y pensionistas a 13 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"description": "Qué cambiaría para jubilados y pensionistas con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
+"lead": "Respuesta corta: 5 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a jubilados y pensionistas a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -13200,6 +15931,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "Vox: Programa de desregulación (PDF) (junio de 2026, web oficial del partido)",
 "href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
+},
+{
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo (16 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+},
+{
+"label": "El País: Feijóo en Bruselas (15 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+},
+{
+"label": "Europa Press: Sánchez en Zaragoza (14 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+},
+{
+"label": "Europa Press: Sánchez en Fuenlabrada (17 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+},
+{
+"label": "Europa Press: Abascal en Estepona (11 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+},
+{
+"label": "elDiario.es: presentación del Frente Amplio (17 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+},
+{
+"label": "El Debate: ley de Podemos sobre jubilación anticipada (22 de septiembre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.eldebate.com/economia/20260922/congreso-aprueba-tramitar-no-penalizar-jubilacion-anticipada-40-anos-cotizados_461700.html"
+},
+{
+"label": "ABC: documento íntegro del «Contrato con España» del PP (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+},
+{
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial) (21 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+},
+{
+"label": "Europa Press: Frente Amplio propone que ninguna pensión esté por debajo del SMI (24 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
+},
+{
+"label": "Europa Press: Sánchez en Gijón (26 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
 }
 ],
 "related": [
@@ -13245,7 +16020,11 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Popular (PP)",
 "paragraphs": [
 "IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación)."
+"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
+"IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
+"Actualizar las pensiones con el IPC y garantizar la viabilidad del sistema público de pensiones.",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar."
 ],
 "table": {
 "caption": "PP: medidas que afectan a jubilados y pensionistas",
@@ -13277,6 +16056,50 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
 "href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
 }
+},
+{
+"cells": [
+"PP",
+"IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"Actualizar las pensiones con el IPC y garantizar la viabilidad del sistema público de pensiones.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El País: Feijóo en Bruselas, 15 de octubre de 2026",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+}
+},
+{
+"cells": [
+"PP",
+"Contrato con España, punto 6: actualizar las pensiones conforme al IPC, garantizárselo a los más jóvenes y defender el sistema en el marco del Pacto de Toledo.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: documento íntegro del «Contrato con España» del PP, 19 de octubre de 2026",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"PP",
+"Deducciones fiscales para inquilinos y propietarios que prorroguen su contrato de alquiler hasta tres años con subidas de la renta por debajo del IPC. Cuantía: sin concretar.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: acto sobre vivienda en Sevilla (nota oficial), 21 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
 }
 ]
 }
@@ -13286,7 +16109,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
 "Mantener y reforzar los decretos de vivienda aprobados en octubre de 2026 si vuelve a gobernar.",
-"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener."
+"Prórroga extraordinaria de hasta 2 años de los contratos de alquiler que venzan antes del 31-12-2028 y tope del 2 % a la subida anual (hasta 2027). Ya aprobada (RDL), dentro de los decretos que el PSOE promete mantener.",
+"Revalorizar las pensiones públicas con el IPC durante los cuatro años de legislatura.",
+"Declaración: «las pensiones no se tocan».",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados)."
 ],
 "table": {
 "caption": "PSOE: medidas que afectan a jubilados y pensionistas",
@@ -13318,6 +16144,39 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "La Moncloa: medidas de los decretos de vivienda, 8 de octubre de 2026",
 "href": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx"
 }
+},
+{
+"cells": [
+"PSOE",
+"Revalorizar las pensiones públicas con el IPC durante los cuatro años de legislatura.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Declaración: «las pensiones no se tocan».",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Sánchez en Fuenlabrada, 17 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Reformar la Constitución en la próxima legislatura para blindar las pensiones y su revalorización con el IPC. Hoy la subida con el IPC está en una ley (Ley 21/2021), que puede cambiarse por mayoría simple; una reforma constitucional ordinaria necesita tres quintos de cada Cámara (210 diputados).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Sánchez en Gijón, 26 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
+}
 }
 ]
 }
@@ -13329,7 +16188,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "«Prioridad nacional»: que los españoles vayan primero en ayudas sociales y vivienda pública; construir vivienda social de forma masiva.",
 "Garantizar el pago de las pensiones (sin detallar cómo ni la fórmula de revalorización).",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene."
+"Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
+"Pagar las pensiones «al precio que sea y como sea», sin fijar modelo ni fórmula; negó que Vox vaya a privatizarlas."
 ],
 "table": {
 "caption": "Vox: medidas que afectan a jubilados y pensionistas",
@@ -13383,6 +16243,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
 "href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
 }
+},
+{
+"cells": [
+"Vox",
+"Pagar las pensiones «al precio que sea y como sea», sin fijar modelo ni fórmula; negó que Vox vaya a privatizarlas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Abascal en Estepona, 11 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+}
 }
 ]
 }
@@ -13391,14 +16262,89 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"No permitir que se desmonte el sistema público de pensiones.",
+"Que ninguna pensión esté por debajo del salario mínimo (SMI, hoy 1.221 € al mes en 14 pagas) y que las pensiones mínimas suban al mismo ritmo que el SMI. Financiación según el partido: tributación mínima efectiva para grandes empresas y un impuesto del 2 % a los patrimonios de más de un millón de euros.",
+"Fijar en 65 años la edad máxima de jubilación. Hoy, a los 65 solo se jubila sin recorte quien tiene 38 años y 3 meses cotizados; el resto, a los 66 años y 10 meses. Financiación según el partido: eliminar de forma progresiva el tope máximo de cotización y una aportación de las empresas más automatizadas."
+],
+"table": {
+"caption": "Frente Amplio: medidas que afectan a jubilados y pensionistas",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Frente Amplio",
+"No permitir que se desmonte el sistema público de pensiones.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "elDiario.es: presentación del Frente Amplio, 17 de octubre de 2026",
+"href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"Que ninguna pensión esté por debajo del salario mínimo (SMI, hoy 1.221 € al mes en 14 pagas) y que las pensiones mínimas suban al mismo ritmo que el SMI. Financiación según el partido: tributación mínima efectiva para grandes empresas y un impuesto del 2 % a los patrimonios de más de un millón de euros.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Frente Amplio propone que ninguna pensión esté por debajo del SMI, 24 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
+}
+},
+{
+"cells": [
+"Frente Amplio",
+"Fijar en 65 años la edad máxima de jubilación. Hoy, a los 65 solo se jubila sin recorte quien tiene 38 años y 3 meses cotizados; el resto, a los 66 años y 10 meses. Financiación según el partido: eliminar de forma progresiva el tope máximo de cotización y una aportación de las empresas más automatizadas.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: Frente Amplio propone fijar en 65 años la edad máxima de jubilación, 24 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
+}
+}
 ]
+}
 },
 {
 "id": "podemos",
 "title": "Podemos",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Jubilarse anticipadamente sin recorte por coeficientes reductores con 40 años o más cotizados (proposición de ley tomada en consideración)."
+],
+"table": {
+"caption": "Podemos: medidas que afectan a jubilados y pensionistas",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Podemos",
+"Jubilarse anticipadamente sin recorte por coeficientes reductores con 40 años o más cotizados (proposición de ley tomada en consideración).",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "El Debate: ley de Podemos sobre jubilación anticipada, 22 de septiembre de 2026",
+"href": "https://www.eldebate.com/economia/20260922/congreso-aprueba-tramitar-no-penalizar-jubilacion-anticipada-40-anos-cotizados_461700.html"
+}
+}
+]
+}
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -13413,12 +16359,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-autonomo",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-autonomo",
 "h1": "Promesas del 29-N para autónomos: qué propone cada partido",
 "title": "29-N para autónomos: qué te afectaría",
-"description": "Qué cambiaría para autónomos con las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos, con cálculos cuando hay datos oficiales.",
-"lead": "Respuesta corta: 3 de los 5 partidos principales tienen alguna medida publicada que afecta a autónomos a 13 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"description": "Qué cambiaría para autónomos con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
+"lead": "Respuesta corta: 4 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a autónomos a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -13455,6 +16401,18 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "ABC: presentación de Irene Montero (12 de septiembre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+},
+{
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo (16 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+},
+{
+"label": "Europa Press: presentación de Democracia 21 (10 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "pp.es: Bendodo en Granada (autónomos) (16 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
 }
 ],
 "related": [
@@ -13502,7 +16460,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "Reducir los plazos medios para producir vivienda de 10 a 4 años y favorecer el silencio administrativo positivo en licencias.",
 "IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
 "Ley de Derechos y Garantías del contribuyente y un Consejo de Defensa del Contribuyente.",
-"Deflactar la tarifa del IRPF (ajustarla a la inflación)."
+"Deflactar la tarifa del IRPF (ajustarla a la inflación).",
+"Para menores de 40 años que emprendan en zonas rurales: cuota de autónomos de 50 € al mes durante tres años, 50 % menos de IRPF los dos primeros años, bono de incorporación rural de hasta 15.000 € y avales públicos de hasta el 80 % de la inversión.",
+"No crear trámites nuevos hasta revisar la normativa y reducir los existentes al menos un 30 %; no tener que presentar dos veces el mismo documento.",
+"Tarifa o cuota cero durante los dos primeros años de actividad para nuevos autónomos menores de 35 años.",
+"Eliminar el IVA para autónomos que facturen menos de 85.000 euros al año (plan anunciado para unos 1,4 millones de autónomos).",
+"Reducir las declaraciones de los autónomos de cuatro al año a dos o incluso una."
 ],
 "table": {
 "caption": "PP: medidas que afectan a autónomos",
@@ -13556,6 +16519,61 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Expansión: Feijóo en el Congreso de la Empresa Familiar, 5 de octubre de 2026",
 "href": "https://www.expansion.com/economia/2026/10/05/6ac39462e5fdea02508b459e.html"
 }
+},
+{
+"cells": [
+"PP",
+"Para menores de 40 años que emprendan en zonas rurales: cuota de autónomos de 50 € al mes durante tres años, 50 % menos de IRPF los dos primeros años, bono de incorporación rural de hasta 15.000 € y avales públicos de hasta el 80 % de la inversión.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"No crear trámites nuevos hasta revisar la normativa y reducir los existentes al menos un 30 %; no tener que presentar dos veces el mismo documento.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "La Vanguardia: Feijóo en el acto de Afammer en Toledo, 16 de octubre de 2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"PP",
+"Tarifa o cuota cero durante los dos primeros años de actividad para nuevos autónomos menores de 35 años.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"PP",
+"Eliminar el IVA para autónomos que facturen menos de 85.000 euros al año (plan anunciado para unos 1,4 millones de autónomos).",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"PP",
+"Reducir las declaraciones de los autónomos de cuatro al año a dos o incluso una.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: Bendodo en Granada (autónomos), 16 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
 }
 ]
 }
@@ -13564,7 +16582,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "psoe",
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -13660,7 +16678,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -13693,6 +16711,35 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 }
 },
 {
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Quitar trabas al emprendimiento y una «política sostenible de subidas de salarios»."
+],
+"table": {
+"caption": "Democracia 21: medidas que afectan a autónomos",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Democracia 21",
+"Quitar trabas al emprendimiento y una «política sostenible de subidas de salarios».",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Europa Press: presentación de Democracia 21, 10 de octubre de 2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
+},
+{
 "id": "historia",
 "title": "Qué hicieron los gobiernos anteriores",
 "paragraphs": [
@@ -13704,12 +16751,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-parado",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-parado",
 "h1": "Promesas del 29-N para personas en paro: qué propone cada partido",
 "title": "29-N para personas en paro: qué te afectaría",
-"description": "Qué cambiaría para personas en paro con las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos, con cálculos cuando hay datos oficiales.",
-"lead": "Respuesta corta: 3 de los 5 partidos principales tienen alguna medida publicada que afecta a personas en paro a 13 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"description": "Qué cambiaría para personas en paro con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
+"lead": "Respuesta corta: 4 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a personas en paro a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -13738,6 +16785,22 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "ABC: presentación de Irene Montero (12 de septiembre de 2026, prensa (sin documento oficial del partido))",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
+},
+{
+"label": "ABC: Sánchez en Zaragoza (14 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+},
+{
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo» (19 de octubre de 2026, web oficial del partido)",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+},
+{
+"label": "RTVE: Sánchez promete que subirá el salario mínimo «todos los años» (19 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://www.rtve.es/noticias/20261019/sanchez-promete-subira-salario-minimo-todos-anos/17273693.shtml"
+},
+{
+"label": "voxespana.es: documento «Recuperar España» (octubre de 2026, web oficial del partido)",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
 }
 ],
 "related": [
@@ -13760,6 +16823,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/ayudas-por-gobierno/desempleados",
 "label": "Ayudas para personas en paro según cada gobierno"
+},
+{
+"href": "/elecciones/salario-minimo-1800-euros",
+"label": "Salario mínimo de 1.800 €: la propuesta y el SMI actual"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -13811,8 +16878,42 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "psoe",
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Bajar el paro a cifras de un dígito hacia 2030.",
+"Subir el salario mínimo interprofesional cada año mientras gobierne. No dio cifra ni calendario."
+],
+"table": {
+"caption": "PSOE: medidas que afectan a personas en paro",
+"head": [
+"Partido",
+"Medida",
+"Tipo de fuente",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PSOE",
+"Bajar el paro a cifras de un dígito hacia 2030.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "ABC: Sánchez en Zaragoza, 14 de octubre de 2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+},
+{
+"cells": [
+"PSOE",
+"Subir el salario mínimo interprofesional cada año mientras gobierne. No dio cifra ni calendario.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "RTVE: Sánchez promete que subirá el salario mínimo «todos los años», 19 de octubre de 2026",
+"href": "https://www.rtve.es/noticias/20261019/sanchez-promete-subira-salario-minimo-todos-anos/17273693.shtml"
+}
+}
 ]
+}
 },
 {
 "id": "vox",
@@ -13820,7 +16921,8 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "paragraphs": [
 "«Prioridad nacional»: que los españoles vayan primero en ayudas sociales y vivienda pública; construir vivienda social de forma masiva.",
 "Acabar con la cita previa obligatoria: ninguna administración podría exigirla para atender.",
-"Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene."
+"Una sola base de datos para toda la administración: no volver a entregar papeles que la administración ya tiene.",
+"Que el Ingreso Mínimo Vital solo lo cobren españoles. Hoy pueden pedirlo también los extranjeros con al menos un año de residencia legal en España."
 ],
 "table": {
 "caption": "Vox: medidas que afectan a personas en paro",
@@ -13863,6 +16965,17 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "Vox: Programa de desregulación (PDF), junio de 2026",
 "href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
 }
+},
+{
+"cells": [
+"Vox",
+"Que el Ingreso Mínimo Vital solo lo cobren españoles. Hoy pueden pedirlo también los extranjeros con al menos un año de residencia legal en España.",
+"web oficial del partido"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España», octubre de 2026",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+}
 }
 ]
 }
@@ -13871,14 +16984,15 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "podemos",
 "title": "Podemos",
 "paragraphs": [
-"Subir el salario mínimo (SMI) a 1.800 € al mes."
+"Subir el salario mínimo (SMI) a 1.800 € al mes.",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas."
 ],
 "table": {
 "caption": "Podemos: medidas que afectan a personas en paro",
@@ -13899,9 +17013,27 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "ABC: presentación de Irene Montero, 12 de septiembre de 2026",
 "href": "https://www.abc.es/espana/irene-montero-lanza-carrera-2027-prometiendo-salario-20260912134917-nt.html"
 }
+},
+{
+"cells": [
+"Podemos",
+"5 propuestas, punto 4: subir el SMI a 1.800 € y jornada laboral de 30 horas.",
+"web oficial del partido"
+],
+"source": {
+"label": "Podemos en X: «Estas son nuestras 5 propuestas para tener paz, casa y trabajo», 19 de octubre de 2026",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
 }
 ]
 }
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
 },
 {
 "id": "historia",
@@ -13915,12 +17047,12 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-perfil-dependencia",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/perfil-dependencia",
 "h1": "Promesas del 29-N para personas con discapacidad o dependencia: qué propone cada partido",
 "title": "29-N para discapacidad y dependencia: qué te afectaría",
-"description": "Qué cambiaría para personas con discapacidad o dependencia con las promesas del 29-N de PP, PSOE, Vox, Frente Amplio y Podemos, con cálculos cuando hay…",
-"lead": "Respuesta corta: 2 de los 5 partidos principales tienen alguna medida publicada que afecta a personas con discapacidad o dependencia a 13 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
+"description": "Qué cambiaría para personas con discapacidad o dependencia con las promesas del 29-N de cada partido, con su fuente y con cálculos cuando hay datos oficiales.",
+"lead": "Respuesta corta: 2 de los 6 partidos que comparamos tienen alguna medida publicada que afecta a personas con discapacidad o dependencia a 27 de octubre de 2026. Abajo, todas, con su fuente y, cuando se puede calcular con datos oficiales, cuánto supondría.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Ver todas las promesas del 29-N"
@@ -13945,6 +17077,14 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "Vox: Programa de desregulación (PDF) (junio de 2026, web oficial del partido)",
 "href": "https://www.voxespana.es/wp-content/uploads/2026/06/Programa-2026-envio.pdf"
+},
+{
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez) (7 de octubre de 2026, web oficial del partido)",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+},
+{
+"label": "Cadena SER: entrevista a Feijóo en Hoy por Hoy (23 de octubre de 2026, prensa (sin documento oficial del partido))",
+"href": "https://cadenaser.com/nacional/2026/10/23/feijoo-no-descarta-gobernar-con-vox-si-los-espanoles-me-mandan-dar-estabilidad-con-la-tercera-fuerza-politica-asi-lo-hare-cadena-ser/"
 }
 ],
 "related": [
@@ -13989,7 +17129,9 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "pp",
 "title": "Partido Popular (PP)",
 "paragraphs": [
-"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes."
+"IVA cero para los alimentos básicos y rebaja de los impuestos de los carburantes.",
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"Reformar la ley de eutanasia para reforzar las garantías médicas. No se comprometió a derogarla."
 ],
 "table": {
 "caption": "PP: medidas que afectan a personas con discapacidad o dependencia",
@@ -14010,6 +17152,28 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "label": "pp.es: entrevista a Juan Bravo, 9 de octubre de 2026",
 "href": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-sanchez-ha-expulsado-del-alquiler-mas-de-300-000-viviendas-nuestro-plan-recuperara-esa-oferta-y-construiremos-un-millon-de-casas/"
 }
+},
+{
+"cells": [
+"PP",
+"Plan de salud mental con 10.000 profesionales más y una inversión de 700 millones de euros al año hasta alcanzar ese objetivo.",
+"web oficial del partido"
+],
+"source": {
+"label": "pp.es: proyecto sanitario del PP (Carmen Fúnez), 7 de octubre de 2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+}
+},
+{
+"cells": [
+"PP",
+"Reformar la ley de eutanasia para reforzar las garantías médicas. No se comprometió a derogarla.",
+"prensa (sin documento oficial del partido)"
+],
+"source": {
+"label": "Cadena SER: entrevista a Feijóo en Hoy por Hoy, 23 de octubre de 2026",
+"href": "https://cadenaser.com/nacional/2026/10/23/feijoo-no-descarta-gobernar-con-vox-si-los-espanoles-me-mandan-dar-estabilidad-con-la-tercera-fuerza-politica-asi-lo-hare-cadena-ser/"
+}
 }
 ]
 }
@@ -14018,7 +17182,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "psoe",
 "title": "Partido Socialista Obrero Español (PSOE)",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -14078,14 +17242,21 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "frente-amplio",
 "title": "Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns)",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
 "id": "podemos",
 "title": "Podemos",
 "paragraphs": [
-"Pendiente de programa: a 13 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
+]
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21 (D21)",
+"paragraphs": [
+"Pendiente de programa: a 27 de octubre de 2026 no hemos encontrado ninguna medida concreta de este partido sobre este tema en su web oficial ni en declaraciones públicas fechadas."
 ]
 },
 {
@@ -14100,7 +17271,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "id": "p29n-metodologia",
 "pack": "promesas-29n",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/promesas/metodologia",
 "h1": "Metodología de las promesas del 29-N: fuentes, orden y actualizaciones",
 "title": "Metodología: cómo comparamos las promesas del 29-N",
@@ -14132,6 +17303,10 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "href": "/elecciones",
 "label": "Elecciones del 29-N"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral. Mismo formato para todos los partidos, ordenados por votos en las generales de 2023. Cada medida enlaza a su fuente con fecha; si un partido no ha publicado nada, lo indicamos como «pendiente de programa». No recomendamos ningún voto.",
@@ -14162,7 +17337,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "orden",
 "title": "Orden y simetría",
 "paragraphs": [
-"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar).",
+"Partidos ordenados por votos obtenidos en las generales del 23 de julio de 2023 (Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar). Democracia 21, partido nuevo que no concurrió en 2023, va al final.",
 "Todos los partidos tienen las mismas secciones en el mismo orden. Si un partido no ha publicado nada sobre un tema, la sección aparece igual con «pendiente de programa»."
 ]
 },
@@ -14185,24 +17360,24 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "actualizacion",
 "title": "Actualización diaria",
 "paragraphs": [
-"Revisamos cada día las webs oficiales de los partidos, el BOE y la Junta Electoral Central. Cuando un partido publique su programa, sustituimos sus anuncios por el texto del programa. Última revisión: 13 de octubre de 2026.",
+"Revisamos cada día las webs oficiales de los partidos, el BOE y la Junta Electoral Central. Cuando un partido publique su programa, sustituimos sus anuncios por el texto del programa. Última revisión: 27 de octubre de 2026.",
 "¿Ves un error o una medida que falta? Escríbenos desde la página de contacto con el enlace a la fuente."
 ]
 }
 ]
-}
+},
 ];
 
 export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "id": "e29n-programas-electorales-29n",
 "pack": "elecciones",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-27",
 "path": "/elecciones/programas-electorales-29n",
 "h1": "Programas electorales del 29-N: cuándo se publican y dónde leerlos",
 "title": "Programas electorales del 29-N: cuándo salen y dónde verlos",
-"description": "¿Ya hay programas electorales para el 29-N? A 13 de octubre ningún partido principal ha publicado el suyo. Fechas clave y dónde leerlos cuando salgan.",
-"lead": "Respuesta corta: a 13 de octubre de 2026 ni PP, ni PSOE, ni Vox, ni Frente Amplio, ni Podemos han publicado su programa completo para el 29-N. Mientras tanto, recogemos sus anuncios con fuente y fecha.",
+"description": "¿Han salido ya los programas electorales del 29-N? A 18 de octubre ningún partido ha publicado el suyo. Qué han propuesto en los mítines, con fuente.",
+"lead": "Respuesta corta: a 27 de octubre de 2026 ningún partido ha publicado todavía su programa electoral para el 29-N. El PP presentó el 19 de octubre su «Contrato con España», un documento de 12 compromisos que no es su programa. Mientras tanto, aquí tienes lo que han propuesto en mítines y actos de precampaña, por tema, con quién lo dijo, dónde, cuándo y la fuente.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Comparar promesas de todos los partidos"
@@ -14219,9 +17394,285 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "label": "BOE: LOREG (Ley Orgánica 5/1985)",
 "href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+},
+{
+"label": "La Vanguardia, 16-10-2026: Feijóo en Toledo",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+},
+{
+"label": "El País, 15-10-2026: Feijóo en Bruselas",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+},
+{
+"label": "pp.es, 10-10-2026: Feijóo en Madrid",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-convoca-a-todos-los-espanoles-a-la-reconstruccion-nacional-para-poner-fin-al-muro-la-delincuencia-y-la-decadencia/"
+},
+{
+"label": "RTVE, 10-10-2026: Sánchez en Dos Hermanas",
+"href": "https://www.rtve.es/noticias/20261010/sanchez-precampana-psoe-dos-hermanas-directo/17261747.shtml"
+},
+{
+"label": "ABC, 14-10-2026: Sánchez en Zaragoza",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+},
+{
+"label": "Europa Press, 17-10-2026: Sánchez en Fuenlabrada",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+},
+{
+"label": "Europa Press, 11-10-2026: Abascal en Estepona",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+},
+{
+"label": "voxespana.es, 11-10-2026: Abascal en Estepona",
+"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+},
+{
+"label": "ABC (EFE), 12-10-2026: Abascal en Ceuta",
+"href": "https://www.abc.es/sociedad/abascal-exige-ceuta-militarizar-frontera-expulsar-migrantes-20261012153921-nt.html"
+},
+{
+"label": "Europa Press, 14-10-2026: Urtasun en Barcelona",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+},
+{
+"label": "elDiario.es, 17-10-2026: Frente Amplio en Madrid",
+"href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+},
+{
+"label": "Cadena SER, 12-09-2026: Montero en Madrid",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+},
+{
+"label": "Europa Press, 17-10-2026: Montero en Madrid",
+"href": "https://www.europapress.es/nacional/noticia-montero-lanza-candidatura-acusa-frente-amplio-preferir-pactar-psoe-senado-podemos-ccaa-20261017123614.html"
+},
+{
+"label": "El Español, 07-10-2026: Feijóo en Ceuta",
+"href": "https://www.elespanol.com/espana/politica/20261007/feijoo-presidente-solo-debe-defender-muro-frontera-ceuta-primera-carpeta-consejo-ministros/1003744411845_0.html"
+},
+{
+"label": "Europa Press, 14-10-2026: Sánchez en Zaragoza (inmigración y pensiones)",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+},
+{
+"label": "Europa Press, 10-10-2026: presentación de Democracia 21",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+},
+{
+"label": "La Voz de Galicia, 17-10-2026: Rego en Narón",
+"href": "https://www.lavozdegalicia.es/noticia/ferrol/naron/2026/10/17/bng-esixe-naron-sareb-deixe-actuar-coma-unha-inmobiliaria/00031792237421754563899.htm"
+},
+{
+"label": "El País, 11-10-2026: Rufián, candidato de ERC el 29-N",
+"href": "https://elpais.com/espana/catalunya/2026-10-11/rufian-sera-candidato-por-esquerra-republicana-el-29-n.html"
+},
+{
+"label": "El País, 12-10-2026: acuerdo de campaña de ERC y Podemos",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-12/podemos-y-erc-oficializan-el-acuerdo-por-el-que-rufian-y-montero-haran-campana-juntos.html"
+},
+{
+"label": "RTVE, 17-10-2026: acto de Junts en La Garriga",
+"href": "https://www.rtve.es/noticias/20261017/nogueras-reivindica-centralidad-junts-apela-a-catalanes-estan-hartos-pagar-fiesta-a-demas/17271321.shtml"
+},
+{
+"label": "elDiario.es, 10-10-2026: actos de PNV y EH Bildu en Donostia",
+"href": "https://www.eldiario.es/euskadi/pse-ee-pnv-eh-bildu-lanzan-precampana-generales-actos-politicos-donostia_1_13577520.html"
+},
+{
+"label": "La Vanguardia, 17-10-2026: candidaturas del PNV",
+"href": "https://www.lavanguardia.com/local/paisvasco/20261017/11661431/pnv-apuesta-vaquero-sagastizabal-29-n-acompanadas-exalcaldes-san-sebastian-vitoria.html"
+},
+{
+"label": "coalicioncanaria.org, 5-10-2026: candidatura de Cristina Valido",
+"href": "https://coalicioncanaria.org/cc-apuesta-por-cristina-valido-y-llama-a-la-unidad-nacionalista-para-blindar-la-voz-de-canarias-en-madrid/"
+},
+{
+"label": "Junta Electoral Central: coaliciones de las generales (D21)",
+"href": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/coalicionesJECGenerales"
+},
+{
+"label": "RTVE, 14-10-2026: coalición UPN-PP",
+"href": "https://www.rtve.es/noticias/20261014/upn-pp-sellan-acuerdo-para-concurrir-coalicion-a-elecciones-generales-del-29-n/17266826.shtml"
+},
+{
+"label": "RTVE, 12-09-2026: Montero en Madrid (jornada de 30 horas)",
+"href": "https://www.rtve.es/noticias/20260912/montero-se-postula-como-candidata-a-generales-anuncia-unas-primarias-abiertas-a-todo-mundo-mas-alla-podemos/17222392.shtml"
+},
+{
+"label": "pp.es, 07-10-2026: proyecto sanitario del PP",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+},
+{
+"label": "Redacción Médica, 17-10-2026: Frente Amplio y sanidad",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
+},
+{
+"label": "RTVE, 18-10-2026: Feijóo en Barcelona (ley antiokupación)",
+"href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+},
+{
+"label": "pp.es, 16-10-2026: Bendodo en Granada (autónomos)",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+},
+{
+"label": "pp.es, 04-07-2023: Feijóo presenta el programa del 23-J (365 medidas)",
+"href": "https://www.pp.es/sites/default/files/documentos/23.07.04._resumen_programa_electoral.pdf"
+},
+{
+"label": "EFE, 07-07-2023: Sánchez presenta el programa del PSOE",
+"href": "https://efe.com/espana/2023-07-07/sanchez-programa-electoral-psoe/"
+},
+{
+"label": "RTVE, 07-07-2023: diario de campaña (Vox presenta su programa)",
+"href": "https://www.rtve.es/noticias/20230707/elecciones-generales-2023-cronica-jornada-7-julio/2451112.shtml"
+},
+{
+"label": "EFE, 06-07-2023: Sumar presenta su programa",
+"href": "https://efe.com/espana/2023-07-06/programa-sumar-elecciones/"
+},
+{
+"label": "Antena 3, 07-07-2023: el PSOE presenta su programa el primer día de campaña",
+"href": "https://www.antena3.com/noticias/elecciones/elecciones-generales/pedro-sanchez-presenta-programa-psoe-que-aspira-retener-presidencia_2023070764a87482bcaee0000150e217.html"
+},
+{
+"label": "pp.es: programa del PP para el 23-J (PDF)",
+"href": "https://www.pp.es/storage/2023/07/programa_electoral_pp_23j_feijoo_2023.pdf"
+},
+{
+"label": "psoe.es: programa del PSOE para el 23-J (PDF)",
+"href": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf"
+},
+{
+"label": "ABC, 23-07-2023: el programa de Vox para el 23-J (177 páginas, 381 medidas)",
+"href": "https://www.abc.es/espana/programa-electoral-vox-santiago-abascal-elecciones-generales-23j-20230723102902-nt.html"
+},
+{
+"label": "movimientosumar.es: «Un programa para ti» (PDF, 23-J)",
+"href": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf"
+},
+{
+"label": "RTVE, 19-10-2026: Sánchez promete que subirá el salario mínimo «todos los años»",
+"href": "https://www.rtve.es/noticias/20261019/sanchez-promete-subira-salario-minimo-todos-anos/17273693.shtml"
+},
+{
+"label": "voxespana.es, 20-10-2026: acto de Ponferrada (web oficial)",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+},
+{
+"label": "RTVE, 20-10-2026: Abascal en Ponferrada",
+"href": "https://www.rtve.es/noticias/20261020/abascal-critica-feijoo-pedir-sacrificios/17275702.shtml"
+},
+{
+"label": "pp.es, 21-10-2026: acto sobre vivienda en Sevilla (web oficial)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+},
+{
+"label": "El País, 21-10-2026: Feijóo en Sevilla (silencio administrativo y deducciones)",
+"href": "https://elpais.com/espana/2026-10-21/feijoo-propone-el-silencio-administrativo-positivo-en-90-dias-para-conceder-licencias-de-construccion.html"
+},
+{
+"label": "El Periódico, 21-10-2026: Alberto Nadal propone un pacto nacional del agua y un plan de choque eléctrico",
+"href": "https://www.elperiodico.com/es/economia/20261021/alberto-nadal-pp-propone-pacto-135590341"
+},
+{
+"label": "20minutos, 21-10-2026: Sánchez en Burgos",
+"href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+},
+{
+"label": "Diario de Burgos, 21-10-2026: mitin de Sánchez en Burgos",
+"href": "https://www.diariodeburgos.es/noticia/z61f64b5c-fead-4a55-b6097c4a33e581dd/202610/sanchez-llama-a-la-movilizacion-para-defender-los-derechos"
+},
+{
+"label": "El Mundo, 22-10-2026: el programa de vivienda de Democracia 21",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+},
+{
+"label": "El Español, 22-10-2026: el plan de vivienda de 23 medidas del PP",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+},
+{
+"label": "El País, 22-10-2026: el PP propone segregar pisos de gran tamaño",
+"href": "https://elpais.com/economia/vivienda/2026-10-22/el-pp-propone-segregar-pisos-de-gran-tamano-como-remedio-ante-la-falta-de-vivienda.html"
+},
+{
+"label": "voxespana.es, 22-10-2026: Abascal en Segovia",
+"href": "https://www.voxespana.es/abascal/abascal-pide-confiar-en-vox-para-hacer-una-politica-distinta-y-con-sentido-comun-20261022"
+},
+{
+"label": "EFE (vía Infobae), 22-10-2026: Frente Amplio plantea una prestación universal por crianza",
+"href": "https://www.infobae.com/espana/agencias/2026/10/22/frente-amplio-plantea-una-prestacion-universal-por-crianza-y-pide-consenso-entre-partidos/"
+},
+{
+"label": "pp.es, 23-10-2026: Feijóo, rebaja del IRPF en 2027 (mitin en Valencia)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/"
+},
+{
+"label": "SER Comunicación, 23-10-2026: resumen oficial de la entrevista a Feijóo",
+"href": "https://www.sercomunicacion.com/aimar-bretos-entrevista-a-alberto-nunez-feijoo-en-hoy-por-hoy/"
+},
+{
+"label": "Cadena SER, 23-10-2026: entrevista a Feijóo en Hoy por Hoy",
+"href": "https://cadenaser.com/nacional/2026/10/23/feijoo-no-descarta-gobernar-con-vox-si-los-espanoles-me-mandan-dar-estabilidad-con-la-tercera-fuerza-politica-asi-lo-hare-cadena-ser/"
+},
+{
+"label": "pp.es, 24-10-2026: Feijóo, mitin en Vigo (mínimo familiar)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-se-compromete-a-mejorar-la-exencion-del-minimo-familiar-para-que-las-familias-con-hijos-paguen-menos-impuestos/"
+},
+{
+"label": "Europa Press, 24-10-2026: Frente Amplio, pensiones no inferiores al SMI y jubilación a los 65",
+"href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
+},
+{
+"label": "Infobae, 24-10-2026: coste y financiación del plan de pensiones de Frente Amplio",
+"href": "https://www.infobae.com/espana/2026/10/24/frente-amplio-presenta-su-plan-de-pensiones-jubilacion-a-los-65-anos-y-cuantia-minima-igual-al-smi/"
+},
+{
+"label": "Cadena SER (Radio Ibiza), 24-10-2026: acto de Vox en Ibiza",
+"href": "https://cadenaser.com/baleares/2026/10/24/vox-promete-vivienda-para-quien-trabaje-en-ibiza-en-el-acto-de-abascal-en-la-isla-radio-ibiza/"
+},
+{
+"label": "El Español (con EFE), 24-10-2026: acto de Montero y Rufián en Barcelona",
+"href": "https://www.elespanol.com/espana/20261024/montero-rufian-llaman-someter-psoe-izquierda-primer-acto-frente/1003744433653_0.html"
+},
+{
+"label": "voxespana.es: documento «Recuperar España» (PDF, octubre de 2026)",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+},
+{
+"label": "Europa Press, 25-10-2026: mitin de Frente Amplio en Móstoles",
+"href": "https://www.europapress.es/nacional/noticia-colau-llama-llenar-calles-poner-cuerpo-frente-politicos-solo-usan-piquito-oro-20261025140652.html"
+},
+{
+"label": "La Gaceta de Salamanca, 25-10-2026: acto de Feijóo en Salamanca",
+"href": "https://www.lagacetadesalamanca.es/salamanca/feijoo-lanza-salamanca-promesa-cambio-impuestos-millon-20261025132329-nt.html"
+},
+{
+"label": "Europa Press, 26-10-2026: Sánchez en Gijón",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
+},
+{
+"label": "Vozpópuli, 26-10-2026: Feijóo y la vicepresidencia de vivienda",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+},
+{
+"label": "elDiario.es, 26-10-2026: carta de Colau a los candidatos",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+},
+{
+"label": "ABC, 26-10-2026: Vox presenta candidatos en Talavera de la Reina",
+"href": "https://www.abc.es/espana/vox-presenta-talavera-reina-candidatos-elecciones-generales-20261026190136-nt.html"
 }
 ],
 "related": [
+{
+"href": "/elecciones/promesas-incumplidas",
+"label": "¿Cumplieron sus promesas de 2023? Lo que pasó"
+},
+{
+"href": "/elecciones/contrato-con-espana-pp",
+"label": "Contrato con España del PP: los 12 puntos"
+},
 {
 "href": "/elecciones/promesas",
 "label": "Promesas del 29-N: qué propone cada partido"
@@ -14233,34 +17684,1241 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "href": "/elecciones",
 "label": "Elecciones del 29-N: cómo votar"
+},
+{
+"href": "/elecciones/quiere-algun-partido-quitar-las-pensiones",
+"label": "¿Qué partido quiere quitar las pensiones?"
+},
+{
+"href": "/elecciones/promesas/que-propone-cada-partido-inmigracion",
+"label": "Inmigración: qué propone cada partido"
+},
+{
+"href": "/elecciones/promesas/que-propone-cada-partido-sanidad",
+"label": "Sanidad: qué propone cada partido"
+},
+{
+"href": "/elecciones/promesas/partido-democracia-21",
+"label": "Democracia 21: qué promete"
+},
+{
+"href": "/elecciones/debate-electoral-29n",
+"label": "Debates del 29-N: fechas y quién ha aceptado"
+},
+{
+"href": "/elecciones/candidaturas-29n-boe",
+"label": "Listas del 29-N: cuándo salen en el BOE"
+},
+{
+"href": "/elecciones/cuando-habra-gobierno-29n",
+"label": "¿Cuándo habrá Gobierno tras el 29-N?"
+},
+{
+"href": "/elecciones/cis-preelectoral-29n",
+"label": "CIS preelectoral: cuándo sale"
 }
 ],
-"disclaimer": "Contenido informativo y neutral: explicamos la medida y citamos la fuente con fecha. No valoramos si es buena o mala ni recomendamos ningún voto.",
+"disclaimer": "Contenido informativo y neutral: recogemos lo que cada partido ha dicho, con quién, dónde, cuándo y la fuente. No valoramos las propuestas ni recomendamos ningún voto.",
 "faqs": [
+{
+"q": "¿Cuándo salen los programas electorales del 29-N?",
+"a": "No hay fecha fijada por ley: cada partido decide cuándo lo publica. A 27 de octubre de 2026 no hemos localizado el programa completo para el 29-N de ningún partido con diputados en el Congreso (PP, PSOE, Vox, Frente Amplio, Podemos, ERC, Junts, EH Bildu, PNV, BNG, Coalición Canaria ni UPN). La campaña va del 13 al 27 de noviembre; actualizaremos esta página cuando salgan. En 2023 los cuatro partidos más votados lo presentaron entre 3 días antes del inicio de la campaña y su primer día; la del 29-N empieza el 13 de noviembre."
+},
+{
+"q": "¿El Contrato con España es el programa electoral del PP?",
+"a": "No. Es un documento de 12 compromisos que Feijóo firmó el 19 de octubre de 2026; el propio texto dice que «va más allá de un programa de Gobierno o una lista de medidas». El programa del PP para el 29-N sigue sin publicarse. Lo mismo vale para las «5 propuestas» que Podemos publicó ese día."
+},
+{
+"q": "¿Qué han propuesto los partidos en los mítines del 29-N?",
+"a": "A 27 de octubre, en mítines y actos: el PP, una ley antiokupación con desalojo en 48 horas (Barcelona, 18-10), deducciones a quien prorrogue el alquiler con subidas por debajo del IPC y rebajas del IVA y el ITP a menores de 40 años (Sevilla, 21-10), un fondo público de garantía del alquiler (plan de vivienda publicado el 22-10), bajar el IRPF en 2027 y que el salario mínimo no pague IRPF por ley (Valencia, 23-10), mejorar el mínimo familiar del IRPF (Vigo, 24-10), un IVA del 0 % en alimentos básicos y una vicepresidencia de vivienda con «mando único» (Vozpópuli, 26-10); el PSOE, mantener los decretos de vivienda y revalorizar las pensiones con el IPC y subir el salario mínimo cada año (Valladolid, 19-10) y reformar la Constitución para blindar el aborto (Burgos, 21-10) y las pensiones con el IPC (Gijón, 26-10); Vox, garantizar el pago de las pensiones y repatriar a quien entra de forma irregular y dar prioridad a los españoles en ayudas al alquiler y plazas de guardería (Ponferrada, 20-10) y «recuperar Ceuta al precio que sea» (Segovia, 22-10) y vivienda para quien trabaja en Ibiza y Formentera (Ibiza, 24-10), y un impuesto a las remesas e «impuestos cero» a la primera vivienda (documento «Recuperar España»); el Frente Amplio, invertir el 1 % del PIB en vivienda pública y una prestación universal por crianza (Barcelona, 22-10) y que ninguna pensión baje del salario mínimo, con jubilación como máximo a los 65 años (Madrid, 24-10) y más impuestos a los especuladores de vivienda (Móstoles, 25-10), y regular por ley la IA en campaña (carta de Colau, 26-10); Podemos, la jornada de 30 horas semanales, un salario mínimo de 1.800 € y expropiar pisos a fondos buitre (Barcelona, 24-10); Democracia 21, un tope temporal del alquiler con garantía pública de cobro para el propietario (programa adelantado por El Mundo, 22-10). Cada propuesta, con su fuente, está en esta página."
+},
+{
+"q": "¿Lo que se dice en un mitin es el programa electoral?",
+"a": "No. Una propuesta hecha en un mitin o en un acto puede no aparecer en el programa oficial o aparecer cambiada. Cuando cada partido publique su programa, lo enlazaremos aquí."
+},
 {
 "q": "¿Es obligatorio publicar un programa?",
 "a": "No. La ley electoral no obliga a los partidos a publicar un programa ni fija fecha."
 },
 {
 "q": "¿Dónde comparo las propuestas?",
-"a": "En la página de promesas del 29-N, por tema, partido, comunidad y perfil."
+"a": "En la página de promesas del 29-N, por tema (vivienda, impuestos, empleo, pensiones, inmigración, sanidad, educación, instituciones y burocracia), por partido, comunidad y perfil."
+},
+{
+"q": "¿Cuándo publicaron los partidos su programa en 2023?",
+"a": "En las generales del 23 de julio de 2023, entre el 4 y el 7 de julio, con la campaña empezando el 7: el PP el 4 de julio, Sumar el 6 y el PSOE y Vox el 7. Para el 29-N la campaña empieza el 13 de noviembre."
+},
+{
+"q": "¿Dónde se podrán leer los programas del 29-N?",
+"a": "En la web oficial de cada partido, normalmente en PDF. En 2023 el PP, el PSOE y Sumar los colgaron en pp.es, psoe.es y movimientosumar.es. Cuando se publique uno del 29-N lo enlazaremos en esta página."
 }
 ],
 "sections": [
 {
 "id": "estado",
-"title": "Estado a 13 de octubre",
+"title": "Estado a 27 de octubre: ningún programa publicado",
 "paragraphs": [
-"PP, PSOE, Vox, Frente Amplio y Podemos: programa del 29-N pendiente. Vox tiene un programa temático de desregulación publicado en junio de 2026.",
+"Ningún partido con diputados en el Congreso ha publicado todavía su programa para las generales del 29 de noviembre. Lo comprobamos el 27 de octubre en sus webs oficiales y en la prensa (comparadores como eleccionesenespana.es seguían en «Pendiente» el 17-10; pp.es sin PDF del 29-N). Las webs de PSOE, Vox, Podemos y ERC no permiten la comprobación automática; en esos casos revisamos sus notas y las noticias.",
+"El 19 de octubre, Alberto Núñez Feijóo firmó en Madrid el «Contrato con España», 12 compromisos para el caso de que llegue a la Presidencia del Gobierno. El propio documento dice que «va más allá de un programa de Gobierno o una lista de medidas», así que no lo contamos como programa: el del PP sigue pendiente. Los 12 puntos están en su página.",
+"El mismo día, Podemos publicó en su cuenta oficial «5 propuestas para tener paz, casa y trabajo». Tampoco es un programa: el partido las presenta como su plan de cinco puntos para la campaña.",
+"Vox tiene un programa temático de desregulación publicado en junio de 2026, pero no es el programa del 29-N.",
 "Las candidaturas se presentan del 21 al 26 de octubre, se proclaman el 2 de noviembre y el BOE las publica el 3 de noviembre. La campaña va del 13 al 27 de noviembre."
 ]
+},
+{
+"id": "aviso",
+"title": "Antes de leer: lo que se dice en un mitin no es el programa",
+"paragraphs": [
+"Las propuestas de esta página se han dicho en mítines, actos y comparecencias de precampaña. No son el programa electoral oficial: el programa puede recogerlas, cambiarlas o no incluirlas. Actualizaremos esta página cuando cada partido publique el suyo.",
+"Criterio: solo recogemos propuestas concretas, con quién las dijo, dónde y cuándo, y enlazamos la fuente (web del partido o prensa). No recogemos críticas a otros partidos ni valoramos las propuestas. Si no encontramos propuestas verificables de un partido, lo decimos.",
+"Orden: por votos en las generales del 23 de julio de 2023, el mismo que en nuestra comparativa de promesas. Frente Amplio ocupa el puesto de Sumar, la marca con la que ese espacio concurrió en 2023; Podemos concurrió dentro de Sumar. Democracia 21, partido nuevo que no concurrió en 2023, va al final."
+]
+},
+{
+"id": "precedente-2023",
+"title": "Cuándo salieron en 2023: la referencia más cercana",
+"paragraphs": [
+"En las últimas generales, las del 23 de julio de 2023, la campaña empezó el viernes 7 de julio. Los cuatro partidos más votados presentaron su programa entre el 4 y el 7 de julio: como pronto, 3 días antes de empezar la campaña, y como tarde, el primer día.",
+"Para el 29-N la campaña empieza el viernes 13 de noviembre de 2026 a las 0:00 (Real Decreto 806/2026). Si los partidos repiten lo que hicieron en 2023, los programas llegarían en torno al 10-13 de noviembre. Es una referencia, no un plazo: ninguna ley obliga a publicar un programa ni le pone fecha."
+],
+"table": {
+"caption": "Generales del 23-J de 2023: cuándo presentó su programa cada partido (orden por votos de 2023)",
+"head": [
+"Partido",
+"Presentó el programa",
+"Respecto al inicio de la campaña (7-7-2023)",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Martes 04-07-2023",
+"3 días antes"
+],
+"source": {
+"label": "pp.es, 04-07-2023: Feijóo presenta el programa del 23-J (365 medidas)",
+"href": "https://www.pp.es/sites/default/files/documentos/23.07.04._resumen_programa_electoral.pdf"
+}
+},
+{
+"cells": [
+"PSOE",
+"Viernes 07-07-2023",
+"El primer día de campaña"
+],
+"source": {
+"label": "EFE, 07-07-2023: Sánchez presenta el programa del PSOE",
+"href": "https://efe.com/espana/2023-07-07/sanchez-programa-electoral-psoe/"
+}
+},
+{
+"cells": [
+"Vox",
+"Viernes 07-07-2023",
+"El primer día de campaña"
+],
+"source": {
+"label": "RTVE, 07-07-2023: diario de campaña (Vox presenta su programa)",
+"href": "https://www.rtve.es/noticias/20230707/elecciones-generales-2023-cronica-jornada-7-julio/2451112.shtml"
+}
+},
+{
+"cells": [
+"Sumar",
+"Jueves 06-07-2023",
+"1 día antes"
+],
+"source": {
+"label": "EFE, 06-07-2023: Sumar presenta su programa",
+"href": "https://efe.com/espana/2023-07-06/programa-sumar-elecciones/"
+}
+}
+]
+}
+},
+{
+"id": "por-tema",
+"title": "Por tema: qué partidos han hecho propuestas",
+"paragraphs": [
+"Resumen de las tablas de abajo. Cada partido aparece solo en los temas en los que hemos encontrado una propuesta con fuente. La comparativa de promesas por tema incluye además notas oficiales de los partidos y propuestas anteriores a la convocatoria, por eso puede tener más filas."
+],
+"lists": [
+[
+"Vivienda: PP, PSOE, Vox, Frente Amplio, Podemos, BNG y Democracia 21.",
+"Pensiones: PP, PSOE, Vox y Frente Amplio.",
+"Empleo y salarios: PP, PSOE, Podemos y Democracia 21.",
+"Impuestos: PP, Vox, Frente Amplio y Democracia 21.",
+"Sanidad: PP y Frente Amplio.",
+"Educación: PSOE y Democracia 21.",
+"Inmigración: PP, PSOE, Vox y Democracia 21.",
+"Otros temas (burocracia, instituciones, Constitución, agua y red eléctrica, gasto público, defensa y coste de la vida): PP, PSOE, Podemos y Democracia 21."
+]
+]
+},
+{
+"id": "pp",
+"title": "PP: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Candidato: Alberto Núñez Feijóo. Actos revisados: acto en Ceuta (07-10), simposio sanitario con Carmen Fúnez (07-10), mitin en Madrid (10-10), comparecencia en Bruselas (15-10), acto en Toledo (16-10), Bendodo en Granada (16-10), acto en Barcelona con Xavier García Albiol (18-10) y firma del «Contrato con España» en Madrid (19-10) y acto sobre vivienda en Sevilla con Juanma Moreno (21-10) y Alberto Nadal en los Montes de Toledo (21-10), y entrevista a Juan Bravo en À Punt Ràdio (22-10). El 22-10 El Español publicó el documento completo de su plan de vivienda (23 medidas). Mitin en Valencia (23-10) y entrevista en Hoy por Hoy, de la Cadena SER. Mitin en Vigo (24-10). Acto en Salamanca con los cabezas de lista (25-10): bajada «inmediata» de impuestos a los trabajadores, un millón de viviendas y pensiones, sin cifras nuevas. Declaraciones a Vozpópuli (26-10): la vivienda irá a una vicepresidencia con «mando único».",
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
+],
+"table": {
+"caption": "PP: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Varios temas",
+"Firmó el «Contrato con España», 12 compromisos: soberanía y fronteras, separación de poderes, un Estado con menos ministerios y altos cargos, al menos un millón de viviendas, prohibir por ley las regularizaciones colectivas, pensiones con el IPC, más médicos, educación, seguridad, revisar las subidas fiscales y bajar impuestos, subir el salario medio y política exterior.",
+"Feijóo, acto en el Espacio Larra, Madrid, 19-10-2026"
+],
+"source": {
+"label": "ABC, 19-10-2026: documento íntegro del «Contrato con España»",
+"href": "https://www.abc.es/espana/doce-puntos-contrato-espana-feijoo-consulta-documento-20261019131424-nt.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Feijóo se comprometió a «impuestos cero» para comprar la vivienda habitual en municipios despoblados.",
+"Feijóo, acto de Afammer en Toledo, 16-10-2026"
+],
+"source": {
+"label": "La Vanguardia, 16-10-2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Feijóo encargó a Xavier García Albiol una ley antiokupación: «Tolerancia cero con los okupas, fuera en 48 horas sí o sí». Dijo que Albiol será ponente de la ley tras el 29-N.",
+"Feijóo, acto de precampaña en Barcelona con Xavier García Albiol, 18-10-2026"
+],
+"source": {
+"label": "RTVE, 18-10-2026: Feijóo en Barcelona (ley antiokupación)",
+"href": "https://www.rtve.es/noticias/20261018/feijoo-mitin-pp-barcelona-elecciones-generales-directo-cronica/17271485.shtml"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Feijóo prometió deducciones fiscales para inquilinos y propietarios que prorroguen el contrato de alquiler hasta tres años con subidas por debajo del IPC. La cuantía está sin concretar.",
+"Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026"
+],
+"source": {
+"label": "pp.es, 21-10-2026: acto sobre vivienda en Sevilla (web oficial)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Feijóo propuso el silencio administrativo positivo a los 90 días para las licencias de construcción y aprobar en los primeros 100 días la Ley del Suelo, una ley contra la ocupación (desalojo en 48 horas) y la reforma de la Ley de Propiedad Horizontal. Objetivo: un millón de viviendas en la legislatura.",
+"Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026"
+],
+"source": {
+"label": "pp.es, 21-10-2026: acto sobre vivienda en Sevilla (web oficial)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Para menores de 40 años: rebaja del 60 % del IVA y del ITP en la primera vivienda, avales de hasta el 100 %, aplazar esos impuestos mientras dure la hipoteca, «Hucha Hogar Joven» y bonificaciones en el IRPF los primeros cuatro años de cotización.",
+"Feijóo, acto sobre vivienda en Sevilla con Juanma Moreno, 21-10-2026"
+],
+"source": {
+"label": "pp.es, 21-10-2026: acto sobre vivienda en Sevilla (web oficial)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Fondo Estatal de Garantía del Alquiler que cubra un porcentaje de los impagos y bonificación del 75 % en el IRPF, el primer año, a quien alquile una vivienda vacía.",
+"Plan de vivienda del PP (23 medidas), publicado por El Español, 22-10-2026"
+],
+"source": {
+"label": "El Español, 22-10-2026: el plan de vivienda de 23 medidas del PP",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Para jóvenes: deducción del 15 % del alquiler, aval público para la fianza de los menores de 35 años e IRPF cero el primer año de trabajo, con rebajas los tres siguientes («Plan Prepara»).",
+"Plan de vivienda del PP (23 medidas), publicado por El Español, 22-10-2026"
+],
+"source": {
+"label": "El Español, 22-10-2026: el plan de vivienda de 23 medidas del PP",
+"href": "https://www.elespanol.com/espana/politica/20261022/feijoo-completa-plan-vivienda-medidas-jovenes-emancipen-lograr-espana-propietarios/1003744429961_0.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Juan Bravo propuso facilitar que las viviendas «de 150 o 200 metros cuadrados» se dividan en dos: «De una vivienda podemos sacar dos». Ya es posible hoy donde lo permite la normativa urbanística, que depende de ayuntamientos y comunidades autónomas.",
+"Juan Bravo, vicesecretario de Vivienda del PP, À Punt Ràdio, 22-10-2026"
+],
+"source": {
+"label": "El País, 22-10-2026: el PP propone segregar pisos de gran tamaño",
+"href": "https://elpais.com/economia/vivienda/2026-10-22/el-pp-propone-segregar-pisos-de-gran-tamano-como-remedio-ante-la-falta-de-vivienda.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Llevar la vivienda a una vicepresidencia del Gobierno con un «mando único» sobre todos los ministerios: «No será una ventanilla donde informar, no, será un mando único indiscutible». La primera Conferencia de Presidentes se dedicaría al millón de viviendas.",
+"Alberto Núñez Feijóo, declaraciones a Vozpópuli, 26-10-2026"
+],
+"source": {
+"label": "Vozpópuli, 26-10-2026: Feijóo y la vicepresidencia de vivienda",
+"href": "https://www.vozpopuli.com/espana/politica/feijoo-elevara-la-vivienda-a-una-vicepresidencia-estrategica-y-nombrara-un-mando-unico-si-gobierna.html"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Feijóo dijo que «las pensiones se actualizarán con el IPC» y que garantizará el sistema público de pensiones y su viabilidad.",
+"Feijóo, comparecencia ante la prensa en la sede del PP europeo, Bruselas, 15-10-2026"
+],
+"source": {
+"label": "El País, 15-10-2026",
+"href": "https://elpais.com/espana/elecciones-generales/2026-10-15/feijoo-se-compromete-a-actualizar-las-pensiones-con-el-ipc-sin-descartar-reformarlas.html"
+}
+},
+{
+"cells": [
+"Empleo y salarios",
+"Feijóo propuso, para menores de 40 años que emprendan en zonas rurales, una cuota de autónomos de 50 € al mes durante tres años, una rebaja del 50 % del IRPF en los dos primeros años de actividad, un bono de incorporación rural de hasta 15.000 € y avales públicos de hasta el 80 % de la inversión.",
+"Feijóo, acto de Afammer en Toledo, 16-10-2026"
+],
+"source": {
+"label": "La Vanguardia, 16-10-2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"Empleo y salarios",
+"Bendodo anunció tarifa o cuota cero durante los dos primeros años para nuevos autónomos menores de 35 años.",
+"Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026"
+],
+"source": {
+"label": "pp.es, 16-10-2026: Bendodo en Granada (autónomos)",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"Impuestos",
+"Feijóo propuso bajar el IRPF para compensar la inflación, un IVA del 0 % para los alimentos básicos, el IVA de la electricidad al 10 % y el impuesto sobre la producción de energía eléctrica al 0 %.",
+"Feijóo, acto de Afammer en Toledo, 16-10-2026"
+],
+"source": {
+"label": "La Vanguardia, 16-10-2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"Impuestos",
+"Bendodo recordó el plan para que unos 1,4 millones de autónomos no paguen el IVA si facturan menos de 85.000 euros al año.",
+"Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026"
+],
+"source": {
+"label": "pp.es, 16-10-2026: Bendodo en Granada (autónomos)",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"Impuestos",
+"Rebajar el IRPF en 2027 «para que la inflación y los impuestos no se coman el salario de los españoles» y fijar por ley que quien cobre el salario mínimo no pague IRPF: «El umbral subirá automáticamente cada vez que suba el Salario Mínimo». Hoy quien solo cobra el SMI ya paga 0 € de IRPF por una deducción de 590,89 €.",
+"Feijóo, mitin en el Palau de les Arts de Valencia, 23-10-2026"
+],
+"source": {
+"label": "pp.es, 23-10-2026: Feijóo, rebaja del IRPF en 2027 (mitin en Valencia)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/"
+}
+},
+{
+"cells": [
+"Impuestos",
+"Mejorar la exención del mínimo familiar del IRPF para que las familias con hijos paguen menos: «Es lo lógico y necesario en este momento». No dio cuantías; hoy el mínimo por descendientes va de 2.400 € (primer hijo) a 4.500 € (cuarto y siguientes) al año.",
+"Feijóo, mitin en Vigo, 24-10-2026"
+],
+"source": {
+"label": "pp.es, 24-10-2026: Feijóo, mitin en Vigo (mínimo familiar)",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-se-compromete-a-mejorar-la-exencion-del-minimo-familiar-para-que-las-familias-con-hijos-paguen-menos-impuestos/"
+}
+},
+{
+"cells": [
+"Inmigración",
+"Feijóo prometió una ley de extranjería que permita expulsiones inmediatas por entradas irregulares y dijo que «la única solución es que los 15.000 se vayan de Ceuta y se vayan de España».",
+"Feijóo, acto de precampaña en Ceuta, 07-10-2026"
+],
+"source": {
+"label": "El Español, 07-10-2026",
+"href": "https://www.elespanol.com/espana/politica/20261007/feijoo-presidente-solo-debe-defender-muro-frontera-ceuta-primera-carpeta-consejo-ministros/1003744411845_0.html"
+}
+},
+{
+"cells": [
+"Sanidad",
+"Carmen Fúnez, vicesecretaria de Sanidad del PP, presentó un plan de salud mental con 10.000 profesionales y 700 millones de euros al año, y una «pieza específica» para el Sistema Nacional de Salud en la financiación autonómica.",
+"Carmen Fúnez (PP), VII Simposium del Observatorio de la Sanidad, 07-10-2026"
+],
+"source": {
+"label": "pp.es, 07-10-2026",
+"href": "https://www.pp.es/actualidad/articulos/funez-desgrana-el-proyecto-sanitario-del-futuro-gobierno-de-feijoo-y-situa-la-atencion-primaria-como-columna-del-sistema-nacional-de-salud/"
+}
+},
+{
+"cells": [
+"Sanidad",
+"Reformar la ley de eutanasia para reforzar las garantías médicas, sin comprometerse a derogarla: «La muerte digna es un concepto con el que estoy de acuerdo».",
+"Feijóo, entrevista en Hoy por Hoy (Cadena SER), 23-10-2026"
+],
+"source": {
+"label": "Cadena SER, 23-10-2026: entrevista a Feijóo en Hoy por Hoy",
+"href": "https://cadenaser.com/nacional/2026/10/23/feijoo-no-descarta-gobernar-con-vox-si-los-espanoles-me-mandan-dar-estabilidad-con-la-tercera-fuerza-politica-asi-lo-hare-cadena-ser/"
+}
+},
+{
+"cells": [
+"Otros: burocracia",
+"Feijóo propuso no crear trámites nuevos hasta revisar la normativa y reducir los existentes al menos un 30 %, y que no haya que presentar dos veces el mismo documento.",
+"Feijóo, acto de Afammer en Toledo, 16-10-2026"
+],
+"source": {
+"label": "La Vanguardia, 16-10-2026",
+"href": "https://www.lavanguardia.com/politica/20261016/11660735/feijoo-promete-bajada-impuestos-reduccion-burocracia-mundo-rural.html"
+}
+},
+{
+"cells": [
+"Otros: burocracia",
+"Bendodo propuso reducir las declaraciones de los autónomos de cuatro al año a dos o incluso una.",
+"Elías Bendodo, acto con jóvenes empresarios en Granada, 16-10-2026"
+],
+"source": {
+"label": "pp.es, 16-10-2026: Bendodo en Granada (autónomos)",
+"href": "https://www.pp.es/actualidad/articulos/bendodo-promete-dos-anos-de-cuota-cero-para-los-nuevos-autonomos-y-eliminar-el-iva-para-quienes-facturen-menos-de-85-000-euros/"
+}
+},
+{
+"cells": [
+"Otros: instituciones",
+"Feijóo propuso «revisar las reglas, recuperar los contrapesos y fortalecer las instituciones».",
+"Feijóo, mitin en Ifema, Madrid, 10-10-2026"
+],
+"source": {
+"label": "pp.es, 10-10-2026",
+"href": "https://www.pp.es/actualidad/articulos/feijoo-convoca-a-todos-los-espanoles-a-la-reconstruccion-nacional-para-poner-fin-al-muro-la-delincuencia-y-la-decadencia/"
+}
+},
+{
+"cells": [
+"Otros: instituciones",
+"Menos ministerios e Igualdad integrada en un ministerio con otras competencias: «Yo no voy a mantener 22 ministerios». Precisó que no elimina las políticas de igualdad.",
+"Feijóo, entrevista en Hoy por Hoy (Cadena SER), 23-10-2026"
+],
+"source": {
+"label": "SER Comunicación, 23-10-2026: resumen oficial de la entrevista a Feijóo",
+"href": "https://www.sercomunicacion.com/aimar-bretos-entrevista-a-alberto-nunez-feijoo-en-hoy-por-hoy/"
+}
+},
+{
+"cells": [
+"Otros: agua y red eléctrica",
+"Alberto Nadal, vicesecretario de Economía, propuso un pacto nacional del agua (ejecutar las infraestructuras hidráulicas pendientes y repartir el agua con mecanismos más flexibles) y un plan de choque en los primeros 18 meses de gobierno para reforzar la red eléctrica y facilitar nuevas conexiones. No concretó presupuesto ni calendario.",
+"Alberto Nadal, visita a explotaciones ganaderas de los Montes de Toledo, 21-10-2026"
+],
+"source": {
+"label": "El Periódico, 21-10-2026: Alberto Nadal propone un pacto nacional del agua y un plan de choque eléctrico",
+"href": "https://www.elperiodico.com/es/economia/20261021/alberto-nadal-pp-propone-pacto-135590341"
+}
+}
+]
+}
+},
+{
+"id": "psoe",
+"title": "PSOE: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Candidato: Pedro Sánchez. Actos revisados: mítines en Dos Hermanas (10-10), Zaragoza (14-10), Fuenlabrada (17-10), Valladolid (19-10) y Burgos (21-10), y acto en Granada (24-10), sin medidas nuevas respecto a las ya recogidas. Entrevista a Sánchez en El País (25-10), sin medidas nuevas. Mitin en Gijón (26-10): reforma constitucional para blindar las pensiones y su subida con el IPC.",
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
+],
+"table": {
+"caption": "PSOE: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Vivienda",
+"Sánchez se comprometió a «reforzar y mantener» los decretos de vivienda y dijo que «la política de vivienda no tiene fecha de caducidad».",
+"Sánchez, mitin en Dos Hermanas (Sevilla), 10-10-2026"
+],
+"source": {
+"label": "RTVE, 10-10-2026",
+"href": "https://www.rtve.es/noticias/20261010/sanchez-precampana-psoe-dos-hermanas-directo/17261747.shtml"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Sánchez prometió revalorizar las pensiones públicas con el IPC durante los cuatro años de legislatura.",
+"Sánchez, mitin en Zaragoza, 14-10-2026"
+],
+"source": {
+"label": "ABC, 14-10-2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Sánchez dijo que «las pensiones no se tocan».",
+"Sánchez, mitin tras el Comité Federal del PSOE, Fuenlabrada (Madrid), 17-10-2026"
+],
+"source": {
+"label": "Europa Press, 17-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Sánchez prometió: «La próxima legislatura reformaremos la Constitución para blindar las pensiones y su revalorización conforme al IPC». Hoy esa subida está en una ley (Ley 21/2021); reformar la Constitución exige tres quintos de cada Cámara (210 diputados).",
+"Pedro Sánchez, mitin en Gijón, 26-10-2026"
+],
+"source": {
+"label": "Europa Press, 26-10-2026: Sánchez en Gijón",
+"href": "https://www.europapress.es/nacional/noticia-sanchez-promete-reformara-constitucion-blindar-subida-pensiones-conforme-ipc-20261026195312.html"
+}
+},
+{
+"cells": [
+"Inmigración",
+"Sánchez vinculó la regularización de migrantes con las pensiones: de 1,2 millones de personas en trámites para obtener permiso de residencia y trabajo, dijo que «casi medio millón están trabajando y cotizando a la Seguridad Social».",
+"Sánchez, mitin en Zaragoza, 14-10-2026"
+],
+"source": {
+"label": "Europa Press, 14-10-2026",
+"href": "https://www.europapress.es/aragon/noticia-pedro-sanchez-promete-zaragoza-cuatro-anos-mas-revalorizacion-pensiones-conforme-ipc-20261014200020.html"
+}
+},
+{
+"cells": [
+"Empleo y salarios",
+"Sánchez prometió bajar el paro a cifras de un dígito hacia 2030.",
+"Sánchez, mitin en Zaragoza, 14-10-2026"
+],
+"source": {
+"label": "ABC, 14-10-2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+},
+{
+"cells": [
+"Empleo y salarios",
+"Sánchez se comprometió a subir el salario mínimo «año a año» mientras gobierne. No dio cifra ni calendario.",
+"Sánchez, mitin de precampaña en Valladolid, 19-10-2026"
+],
+"source": {
+"label": "RTVE, 19-10-2026: Sánchez promete que subirá el salario mínimo «todos los años»",
+"href": "https://www.rtve.es/noticias/20261019/sanchez-promete-subira-salario-minimo-todos-anos/17273693.shtml"
+}
+},
+{
+"cells": [
+"Educación",
+"Sánchez prometió bajar cuatro puntos la tasa de abandono escolar hasta 2030.",
+"Sánchez, mitin en Zaragoza, 14-10-2026"
+],
+"source": {
+"label": "ABC, 14-10-2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+},
+{
+"cells": [
+"Otros: gasto público",
+"Sánchez prometió «cero recortes» en un nuevo mandato.",
+"Sánchez, mitin en Zaragoza, 14-10-2026"
+],
+"source": {
+"label": "ABC, 14-10-2026",
+"href": "https://www.abc.es/espana/aragon/sanchez-regresa-zaragoza-tratar-recuperar-escano-psoe-20261014134048-nt.html"
+}
+},
+{
+"cells": [
+"Otros: Constitución",
+"Sánchez prometió: «En la próxima legislatura reformaremos la Constitución para blindar el derecho al aborto de las mujeres». El proyecto de reforma que estaba en el Congreso decayó con la disolución de las Cortes; una reforma constitucional necesita como mínimo tres quintos del Congreso y del Senado (artículo 167 de la Constitución).",
+"Sánchez, mitin de precampaña en Burgos, 21-10-2026"
+],
+"source": {
+"label": "20minutos, 21-10-2026: Sánchez en Burgos",
+"href": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html"
+}
+}
+]
+}
+},
+{
+"id": "vox",
+"title": "Vox: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Candidato: Santiago Abascal. Actos revisados: mitin en Estepona (11-10), comparecencia en Ceuta (12-10) acto en Ponferrada (20-10) y acto en Segovia (22-10), y actos en Palma e Ibiza (24-10). Documento «Recuperar España» en voxespana.es (octubre), de 6 páginas: resume sus prioridades, no es el programa electoral. Presentación de candidatos en Talavera de la Reina (26-10), sin medidas nuevas.",
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
+],
+"table": {
+"caption": "Vox: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Vivienda",
+"Abascal propuso eliminar «trabas administrativas» y leyes que, según dijo, encarecen y ralentizan la construcción de vivienda.",
+"Abascal, mitin en Estepona (Málaga), 11-10-2026"
+],
+"source": {
+"label": "voxespana.es, 11-10-2026",
+"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Abascal reclamó que los españoles sean «los primeros» en recibir ayudas sociales, ayudas al alquiler y plazas de guardería («prioridad nacional»).",
+"Abascal, acto de precampaña en Ponferrada (León), 20-10-2026"
+],
+"source": {
+"label": "voxespana.es, 20-10-2026: acto de Ponferrada (web oficial)",
+"href": "https://www.voxespana.es/abascal/abascal-denuncia-que-sanchez-pretender-dirigir-espana-como-si-fuera-una-dictadura-y-llama-a-llenar-las-urnas-el-29n-20261020"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Para Ibiza y Formentera: «Vivienda para quien trabaja aquí, liberar suelo, quitar impuestos y tasas al construir, y plazos cerrados para las licencias».",
+"Maribel Cerezo, cabeza de lista por Baleares, acto con Abascal en Ibiza, 24-10-2026"
+],
+"source": {
+"label": "Cadena SER (Radio Ibiza), 24-10-2026: acto de Vox en Ibiza",
+"href": "https://cadenaser.com/baleares/2026/10/24/vox-promete-vivienda-para-quien-trabaje-en-ibiza-en-el-acto-de-abascal-en-la-isla-radio-ibiza/"
+}
+},
+{
+"cells": [
+"Vivienda",
+"«Impuestos cero a tu primera vivienda», junto con liberar suelo e invertir en vivienda protegida. No detalla qué impuestos (hoy, ITP en vivienda usada o IVA del 10 % en nueva).",
+"Documento «Recuperar España» (octubre de 2026)"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España» (PDF, octubre de 2026)",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Abascal dijo que con Vox las pensiones «se van a pagar al precio que sea y como sea» y negó que Vox vaya a privatizarlas.",
+"Abascal, mitin en Estepona (Málaga), 11-10-2026"
+],
+"source": {
+"label": "Europa Press, 11-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Abascal dijo que «las pensiones se van a pagar como sea, de la manera que sea» y negó que Vox quiera privatizarlas.",
+"Abascal, acto de precampaña en Ponferrada (León), 20-10-2026"
+],
+"source": {
+"label": "RTVE, 20-10-2026: Abascal en Ponferrada",
+"href": "https://www.rtve.es/noticias/20261020/abascal-critica-feijoo-pedir-sacrificios/17275702.shtml"
+}
+},
+{
+"cells": [
+"Impuestos",
+"Abascal defendió que «los impuestos sean los menos» y una revisión de las prioridades del gasto público.",
+"Abascal, mitin en Estepona (Málaga), 11-10-2026"
+],
+"source": {
+"label": "voxespana.es, 11-10-2026",
+"href": "https://www.voxespana.es/abascal/abascal-reivindica-la-remigracion-la-desregulacion-y-la-prioridad-nacional-como-ejes-de-vox-para-el-29n-20261011"
+}
+},
+{
+"cells": [
+"Impuestos",
+"Un impuesto sobre las remesas, el dinero que se envía al extranjero: «el dinero generado en España ha de redundar en mejores servicios aquí». No concreta el tipo.",
+"Documento «Recuperar España» (octubre de 2026)"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España» (PDF, octubre de 2026)",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+}
+},
+{
+"cells": [
+"Inmigración",
+"Abascal propuso repatriar a quien entra en España de forma irregular, que los extranjeros que cometen delitos cumplan la pena en su país y que quienes vienen «a vivir de las ayudas sociales» vuelvan a su país («remigración»).",
+"Abascal, mitin en Estepona (Málaga), 11-10-2026"
+],
+"source": {
+"label": "Europa Press, 11-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-abascal-dice-vox-pensiones-pagaran-habra-vivienda-sea-sigue-llamando-voto-presencial-20261011195906.html"
+}
+},
+{
+"cells": [
+"Inmigración",
+"Abascal reclamó militarizar la frontera de Ceuta con Marruecos y expulsar a los inmigrantes que entraron de forma irregular en la crisis de finales de julio.",
+"Abascal, comparecencia en el Mirador de Isabel II, Ceuta, 12-10-2026"
+],
+"source": {
+"label": "ABC (EFE), 12-10-2026",
+"href": "https://www.abc.es/sociedad/abascal-exige-ceuta-militarizar-frontera-expulsar-migrantes-20261012153921-nt.html"
+}
+},
+{
+"cells": [
+"Inmigración",
+"Abascal dijo que, si gobierna, su prioridad al día siguiente del 29-N será «recuperar Ceuta al precio que sea». No concretó medidas.",
+"Abascal, acto en Segovia, 22-10-2026"
+],
+"source": {
+"label": "voxespana.es, 22-10-2026: Abascal en Segovia",
+"href": "https://www.voxespana.es/abascal/abascal-pide-confiar-en-vox-para-hacer-una-politica-distinta-y-con-sentido-comun-20261022"
+}
+},
+{
+"cells": [
+"Inmigración",
+"Que el Ingreso Mínimo Vital sea «solo para los españoles necesitados» (hoy pueden pedirlo extranjeros con un año de residencia legal) y prohibir el burka y el niqab en espacios públicos.",
+"Documento «Recuperar España» (octubre de 2026)"
+],
+"source": {
+"label": "voxespana.es: documento «Recuperar España» (PDF, octubre de 2026)",
+"href": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf"
+}
+}
+]
+}
+},
+{
+"id": "frente-amplio",
+"title": "Frente Amplio: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Candidata: Ada Colau. Actos revisados: declaraciones de Ernest Urtasun en Barcelona (14-10) mitin de presentación en Madrid (17-10) y declaraciones de Ernest Urtasun y Rosa Martínez en Barcelona (22-10), y manifestación por las pensiones en Madrid (24-10), y mitin en Móstoles (25-10), y carta de Colau a los demás candidatos sobre el uso de la IA (26-10).",
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
+],
+"table": {
+"caption": "Frente Amplio: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Vivienda",
+"Urtasun propuso que el Estado invierta el 1 % del PIB en vivienda pública asequible, construyendo y también comprando viviendas.",
+"Ernest Urtasun (Comuns), ante los medios antes de una reunión con cargos municipales, Barcelona, 14-10-2026"
+],
+"source": {
+"label": "Europa Press, 14-10-2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Urtasun propuso frenar las compras especulativas de vivienda y las de los fondos de inversión.",
+"Ernest Urtasun (Comuns), Barcelona, 14-10-2026"
+],
+"source": {
+"label": "Europa Press, 14-10-2026",
+"href": "https://www.europapress.es/catalunya/noticia-urtasun-pide-toda-fuerza-frente-amplio-implementar-politicas-vivienda-20261014111734.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"«Freír a impuestos a los especuladores» de vivienda y expropiar pisos a fondos buitre. No detalló qué impuestos ni el procedimiento.",
+"Toni Valero (IU, n.º 3 por Madrid), mitin en Móstoles, 25-10-2026"
+],
+"source": {
+"label": "Europa Press, 25-10-2026: mitin de Frente Amplio en Móstoles",
+"href": "https://www.europapress.es/nacional/noticia-colau-llama-llenar-calles-poner-cuerpo-frente-politicos-solo-usan-piquito-oro-20261025140652.html"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Urtasun dijo que el Frente Amplio no va a permitir que se «cargue» el sistema público de pensiones.",
+"Ernest Urtasun, mitin de presentación en el Parque Lineal del Manzanares, Madrid, 17-10-2026"
+],
+"source": {
+"label": "elDiario.es, 17-10-2026",
+"href": "https://www.eldiario.es/politica/frente-amplio-pide-unidad-frente-fascismo-pasa-pagina-crisis-si-alguien-no-quiere-sentar-mesa-no-le-obligar_1_13593637.html"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Que ninguna pensión esté por debajo del salario mínimo (1.221 € al mes en 14 pagas): «Si sube el SMI, lo lógico es que las pensiones suban al mismo ritmo y que ninguna esté por debajo». Coste según el partido: unos 10.000 millones al año, con un impuesto del 2 % a patrimonios de más de un millón y tributación mínima a grandes empresas.",
+"Ada Colau y Emilio Delgado, manifestación por las pensiones, Madrid, 24-10-2026"
+],
+"source": {
+"label": "Europa Press, 24-10-2026: Frente Amplio, pensiones no inferiores al SMI y jubilación a los 65",
+"href": "https://www.europapress.es/nacional/noticia-frente-amplio-propone-ninguna-pension-debajo-smi-fijar-65-anos-edad-maxima-jubilacion-20261024130942.html"
+}
+},
+{
+"cells": [
+"Pensiones",
+"Fijar en 65 años la edad máxima de jubilación. Coste según el partido: unos 10.000 millones al año, financiados quitando de forma progresiva el tope máximo de cotización y con una aportación de las empresas más automatizadas.",
+"Ada Colau y Emilio Delgado, manifestación por las pensiones, Madrid, 24-10-2026"
+],
+"source": {
+"label": "Infobae, 24-10-2026: coste y financiación del plan de pensiones de Frente Amplio",
+"href": "https://www.infobae.com/espana/2026/10/24/frente-amplio-presenta-su-plan-de-pensiones-jubilacion-a-los-65-anos-y-cuantia-minima-igual-al-smi/"
+}
+},
+{
+"cells": [
+"Sanidad",
+"Colau dijo que el Frente Amplio defiende la sanidad pública «frente a los recortes»; Bustinduy y Urtasun señalaron el problema de las listas de espera. Sin medidas concretas todavía.",
+"Ada Colau, mitin de presentación del Frente Amplio, Madrid, 17-10-2026"
+],
+"source": {
+"label": "Redacción Médica, 17-10-2026",
+"href": "https://www.redaccionmedica.com/politica/20261017/frente-amplio-nace-con-una-apuesta-firme-por-la-sanidad-pero-alejado-de-podemos/362466_0.html"
+}
+},
+{
+"cells": [
+"Otros: instituciones",
+"«Hay que regular legalmente el uso de la inteligencia artificial en campañas electorales». Mientras, pidió a PP, PSOE y Vox un acuerdo para no usar IA «vejatoria» ni suplantar identidades.",
+"Ada Colau, carta a los candidatos, 26-10-2026"
+],
+"source": {
+"label": "elDiario.es, 26-10-2026: carta de Colau a los candidatos",
+"href": "https://www.eldiario.es/politica/colau-pide-carta-feijoo-sanchez-abascal-comprometan-no-ia-manera-vejatoria-campana_1_13616697.html"
+}
+},
+{
+"cells": [
+"Impuestos",
+"Urtasun propuso una prestación universal por crianza, concedida mediante deducciones en el IRPF, con un coste de unos 13.000 millones de euros según el partido.",
+"Ernest Urtasun y Rosa Martínez, Barcelona, 22-10-2026"
+],
+"source": {
+"label": "EFE (vía Infobae), 22-10-2026: Frente Amplio plantea una prestación universal por crianza",
+"href": "https://www.infobae.com/espana/agencias/2026/10/22/frente-amplio-plantea-una-prestacion-universal-por-crianza-y-pide-consenso-entre-partidos/"
+}
+}
+]
+}
+},
+{
+"id": "podemos",
+"title": "Podemos: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Candidata: Irene Montero. Actos revisados: presentación de su candidatura en Madrid (12-09, antes de la convocatoria), Consejo Ciudadano Estatal en Madrid (17-10) y «5 propuestas» publicadas en su cuenta oficial (19-10), y acto conjunto en Barcelona con ERC (24-10).",
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
+],
+"table": {
+"caption": "Podemos: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Varios temas",
+"Publicó «5 propuestas para tener paz, casa y trabajo»: «Las casas son para vivir»; bajar el coste de la vida; «Ni un euro para guerras»; subir el SMI a 1.800 € y jornada laboral de 30 horas; proteger lo público y políticas contra el cambio climático.",
+"Podemos, post oficial en X con vídeo de Pablo Fernández, 19-10-2026"
+],
+"source": {
+"label": "Podemos en X, 19-10-2026: 5 propuestas para tener paz, casa y trabajo",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Montero dijo que en vivienda «hay que bajar los precios y prohibir la especulación».",
+"Montero, presentación de su candidatura, Madrid, 12-09-2026"
+],
+"source": {
+"label": "Cadena SER, 12-09-2026",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Expropiar pisos a los fondos buitre «por miles, porque las casas son para vivir y no para hacer negocio». No detalló el procedimiento.",
+"Irene Montero, acto con Gabriel Rufián (ERC) en Barcelona, 24-10-2026"
+],
+"source": {
+"label": "El Español (con EFE), 24-10-2026: acto de Montero y Rufián en Barcelona",
+"href": "https://www.elespanol.com/espana/20261024/montero-rufian-llaman-someter-psoe-izquierda-primer-acto-frente/1003744433653_0.html"
+}
+},
+{
+"cells": [
+"Empleo y salarios",
+"Montero propuso reducir la jornada laboral a 30 horas semanales (seis al día), según RTVE y ABC. La crónica de la Cadena SER del mismo acto habla de 35 horas. Las «5 propuestas» del partido del 19-10-2026 dicen 30 horas.",
+"Montero, presentación de su candidatura, Madrid, 12-09-2026"
+],
+"source": {
+"label": "RTVE, 12-09-2026",
+"href": "https://www.rtve.es/noticias/20260912/montero-se-postula-como-candidata-a-generales-anuncia-unas-primarias-abiertas-a-todo-mundo-mas-alla-podemos/17222392.shtml"
+}
+},
+{
+"cells": [
+"Empleo y salarios",
+"Montero propuso un salario mínimo interprofesional de 1.800 € al mes.",
+"Montero, presentación de su candidatura, Madrid, 12-09-2026"
+],
+"source": {
+"label": "Cadena SER, 12-09-2026",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Otros: defensa",
+"Montero dijo que «no podemos gastarnos dinero en armas mientras tenemos bomberos [...] cobrando una miseria».",
+"Montero, presentación de su candidatura, Madrid, 12-09-2026"
+],
+"source": {
+"label": "Cadena SER, 12-09-2026",
+"href": "https://cadenaser.com/nacional/2026/09/12/irene-montero-presenta-su-candidatura-de-podemos-a-las-elecciones-las-normas-del-sistema-no-pueden-ser-el-negocio-tienen-que-ser-la-vida-cadena-ser/"
+}
+},
+{
+"cells": [
+"Otros: coste de la vida",
+"Montero fijó como objetivos de campaña acabar con «el negocio de la vivienda», bajar el coste de la vida, mejorar los salarios y defender los servicios públicos.",
+"Montero, Consejo Ciudadano Estatal de Podemos, Madrid, 17-10-2026"
+],
+"source": {
+"label": "Europa Press, 17-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-montero-lanza-candidatura-acusa-frente-amplio-preferir-pactar-psoe-senado-podemos-ccaa-20261017123614.html"
+}
+}
+]
+}
+},
+{
+"id": "erc",
+"title": "ERC: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Cabeza de lista por Barcelona: Gabriel Rufián. ERC y Podemos han acordado hacer campaña conjunta.",
+"Programa del 29-N: no publicado a 27 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 27 de octubre."
+]
+},
+{
+"id": "junts",
+"title": "Junts: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Cabeza de lista al Congreso: Míriam Nogueras. Acto revisado: Consejo Nacional en La Garriga (Barcelona), 17-10.",
+"Programa del 29-N: no publicado a 27 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 27 de octubre."
+]
+},
+{
+"id": "eh-bildu",
+"title": "EH Bildu: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Acto revisado: acto en Donostia, 10-10, con la portavoz en el Congreso, Mertxe Aizpurua.",
+"Programa del 29-N: no publicado a 27 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 27 de octubre."
+]
+},
+{
+"id": "pnv",
+"title": "PNV: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Cabezas de lista: Maribel Vaquero, Idoia Sagastizabal y Gorka Urtaran. Actos revisados: comparecencia en Donostia (10-10) y presentación de candidaturas (17-10).",
+"Programa del 29-N: no publicado a 27 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 27 de octubre."
+]
+},
+{
+"id": "bng",
+"title": "BNG: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Diputado en el Congreso: Néstor Rego. Acto revisado: acto con familias afectadas por un desahucio en Narón (A Coruña), 17-10.",
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
+],
+"table": {
+"caption": "BNG: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Vivienda",
+"Rego reclamó que los inmuebles de la Sareb en Galicia (unos 1.200 habitables, según dijo) pasen a la Administración gallega para un parque público de alquiler social.",
+"Néstor Rego, Narón (A Coruña), 17-10-2026"
+],
+"source": {
+"label": "La Voz de Galicia, 17-10-2026",
+"href": "https://www.lavozdegalicia.es/noticia/ferrol/naron/2026/10/17/bng-esixe-naron-sareb-deixe-actuar-coma-unha-inmobiliaria/00031792237421754563899.htm"
+}
+}
+]
+}
+},
+{
+"id": "cc",
+"title": "Coalición Canaria: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Cabeza de lista por Santa Cruz de Tenerife: Cristina Valido, en candidatura conjunta con Primero Canarias.",
+"Programa del 29-N: no publicado a 27 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 27 de octubre."
+]
+},
+{
+"id": "upn",
+"title": "UPN: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"UPN concurre en Navarra en coalición con el PP.",
+"Programa del 29-N: no publicado a 27 de octubre de 2026.",
+"No hemos encontrado propuestas concretas verificables en mítines a fecha de 27 de octubre."
+]
+},
+{
+"id": "democracia-21",
+"title": "Democracia 21: qué ha propuesto en mítines y actos",
+"paragraphs": [
+"Candidata: Miriam González. Partido nuevo; concurre como coalición «Democracia para el siglo 21» (D21) con Ciudadanos y UCIN, solo en Madrid y Barcelona, según la Junta Electoral Central. Acto revisado: presentación en Madrid (10-10). El Mundo publicó el 22-10 el apartado de vivienda de su programa, al que dice haber tenido acceso; a 27 de octubre el partido no ha publicado el programa en democracia21.es.",
+"Programa del 29-N: no publicado a 27 de octubre de 2026."
+],
+"table": {
+"caption": "Democracia 21: propuestas en mítines y actos, por tema",
+"head": [
+"Tema",
+"Qué propuso o dijo",
+"Quién, dónde y cuándo",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Vivienda",
+"Propuso un plan nacional de construcción de barrios con diez años de seguridad jurídica, y que un joven que gane 1.300 € no pague más de 350 € por su vivienda; mientras tanto, quitar todos los impuestos sobre la vivienda a los menores de 35 años.",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Pidió que Sánchez y Feijóo vayan juntos a Bruselas para destinar 10.000 millones de euros de fondos Next Generation no ejecutados a un fondo soberano de vivienda protegida.",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Límite «temporal y excepcional» de los precios del alquiler y un Servicio Social de Garantía de Arrendamientos: el Estado paga el alquiler al propietario si el inquilino es declarado vulnerable y no hay alternativa habitacional inmediata.",
+"Democracia 21, apartado de vivienda de su programa (adelantado por El Mundo), 22-10-2026"
+],
+"source": {
+"label": "El Mundo, 22-10-2026: el programa de vivienda de Democracia 21",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"Mediación de arrendamientos gratuita y vinculante (máximo 30 días) y juzgados especializados (60 días más); tipificar como estafa firmar un contrato con intención de no pagar y el subarriendo ilegal; regular en la Ley de Arrendamientos Urbanos el alquiler por habitaciones.",
+"Democracia 21, apartado de vivienda de su programa (adelantado por El Mundo), 22-10-2026"
+],
+"source": {
+"label": "El Mundo, 22-10-2026: el programa de vivienda de Democracia 21",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+},
+{
+"cells": [
+"Vivienda",
+"IVA del 4 % (ahora 10 %) para construir y rehabilitar vivienda asequible; suelo público cedido hasta 75 años sin perder la titularidad pública; licencias de obra mayor en 30 días.",
+"Democracia 21, apartado de vivienda de su programa (adelantado por El Mundo), 22-10-2026"
+],
+"source": {
+"label": "El Mundo, 22-10-2026: el programa de vivienda de Democracia 21",
+"href": "https://www.elmundo.es/elecciones/2026/10/22/6ad8cfa3e4d4d86f108b45da.html"
+}
+},
+{
+"cells": [
+"Impuestos",
+"Propuso «aliviar la presión fiscal» a la vez que se recuperan los servicios públicos.",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Empleo y salarios",
+"Propuso quitar obstáculos al emprendimiento y una «política sostenible de subidas de salarios».",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Educación",
+"Propuso titulaciones más flexibles y más prácticas.",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Inmigración",
+"Defendió la inmigración como «activo y ventaja competitiva» con una política «sensata y con cabeza»: «Tenemos que desterrar los discursos xenófobos, pero decidiendo quién entra, cómo entra, cuándo entra y cuándo sale si tiene que salir».",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+},
+{
+"cells": [
+"Otros: instituciones",
+"Propuso nombramientos por mérito y recortar el 90 % de los asesores, despolitizar el CGPJ, que la Fiscalía responda ante el Parlamento, juzgados especializados anticorrupción, acabar con los aforamientos, recortar las subvenciones a partidos y fundaciones, y que los diputados se reúnan con sus votantes al menos cada dos semanas.",
+"Miriam González, presentación de Democracia 21, Madrid, 10-10-2026"
+],
+"source": {
+"label": "Europa Press, 10-10-2026",
+"href": "https://www.europapress.es/nacional/noticia-democracia-21-presenta-elecciones-madrid-barcelona-abogada-miriam-gonzalez-candidata-20261010151421.html"
+}
+}
+]
+}
 },
 {
 "id": "donde",
 "title": "Dónde leerlos",
 "paragraphs": [
-"En la web oficial de cada partido. En nuestra sección de promesas enlazamos cada medida a su fuente y avisamos cuando se publica un programa."
+"En la web oficial de cada partido, casi siempre en PDF. Cuando se publique un programa del 29-N lo enlazaremos aquí y en la comparativa de promesas, el mismo día.",
+"Mientras tanto, los programas de 2023 sirven para ver qué formato tienen y comparar con lo que se proponga ahora: son documentos largos, de 180 a más de 260 páginas, organizados por bloques temáticos."
+],
+"table": {
+"caption": "Programas de las generales de 2023 de los cuatro partidos más votados",
+"head": [
+"Partido",
+"Programa de 2023",
+"Extensión",
+"Dónde leerlo"
+],
+"rows": [
+{
+"cells": [
+"PP",
+"Programa electoral del 23-J",
+"365 medidas (nota del PP, 04-07-2023)"
+],
+"source": {
+"label": "pp.es: programa del PP para el 23-J (PDF)",
+"href": "https://www.pp.es/storage/2023/07/programa_electoral_pp_23j_feijoo_2023.pdf"
+}
+},
+{
+"cells": [
+"PSOE",
+"Programa electoral, elecciones generales 23 de julio de 2023",
+"Más de 260 páginas (Antena 3, 07-07-2023)"
+],
+"source": {
+"label": "psoe.es: programa del PSOE para el 23-J (PDF)",
+"href": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf"
+}
+},
+{
+"cells": [
+"Vox",
+"«Un programa para lo que importa»",
+"177 páginas y 381 medidas (ABC)"
+],
+"source": {
+"label": "ABC, 23-07-2023: el programa de Vox para el 23-J (177 páginas, 381 medidas)",
+"href": "https://www.abc.es/espana/programa-electoral-vox-santiago-abascal-elecciones-generales-23j-20230723102902-nt.html"
+}
+},
+{
+"cells": [
+"Sumar",
+"«Un programa para ti»",
+"179 páginas (EFE, 06-07-2023)"
+],
+"source": {
+"label": "movimientosumar.es: «Un programa para ti» (PDF, 23-J)",
+"href": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf"
+}
+}
 ]
+}
 }
 ]
 },
@@ -14704,12 +19362,12 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "id": "e29n-salario-minimo-1800-euros",
 "pack": "elecciones",
-"reviewedAt": "2026-10-13",
+"reviewedAt": "2026-10-20",
 "path": "/elecciones/salario-minimo-1800-euros",
 "h1": "Salario mínimo de 1.800 €: la propuesta de Podemos explicada",
-"title": "Salario mínimo de 1.800 €: qué propone Podemos",
-"description": "Podemos propone un salario mínimo de 1.800 € al mes y la jornada de 30 horas. Qué dijo, de cuándo es la propuesta y qué falta por concretar para el 29-N.",
-"lead": "Respuesta corta: Irene Montero propuso en septiembre de 2026 un SMI de 1.800 € al mes y una jornada de 30 horas semanales (ABC, 12-9-2026). Podemos aún no ha publicado programa para el 29-N.",
+"title": "Salario mínimo de 1.800 €: qué propone Podemos y cuánto es hoy",
+"description": "Podemos propone un SMI de 1.800 € al mes; hoy es de 1.221 € en 14 pagas (BOE). Cuánto supondría al mes y al año y qué se sabe de la subida de 2027.",
+"lead": "Respuesta corta: Podemos propone subir el salario mínimo a 1.800 € al mes (Irene Montero, 12-9-2026, según ABC; el partido lo repitió en sus «5 propuestas» del 19-10-2026). Hoy el SMI es de 1.221 € brutos al mes en 14 pagas, 17.094 € al año (Real Decreto 126/2026). Serían 579 € más al mes, un 47,4 % más. Podemos aún no ha publicado programa para el 29-N.",
 "cta": {
 "href": "/elecciones/promesas",
 "label": "Comparar promesas de todos los partidos"
@@ -14726,6 +19384,26 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "label": "BOE: Estatuto de los Trabajadores, art. 27",
 "href": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a27"
+},
+{
+"label": "BOE: Real Decreto 126/2026, salario mínimo interprofesional para 2026",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3815"
+},
+{
+"label": "SEPE: cuantías anuales del SMI y del IPREM 2026",
+"href": "https://www.sepe.es/HomeSepe/prestaciones-desempleo/Cuantias-anuales.html"
+},
+{
+"label": "El País, 16-10-2026: Trabajo prepara la subida del SMI de 2027",
+"href": "https://elpais.com/economia/2026-10-16/trabajo-prepara-una-subida-del-salario-minimo-antes-de-las-elecciones-que-rondara-el-5.html"
+},
+{
+"label": "Podemos en X, 19-10-2026: 5 propuestas para tener paz, casa y trabajo",
+"href": "https://x.com/PODEMOS/status/2112121339267965036"
+},
+{
+"label": "RTVE, 19-10-2026: Sánchez promete que subirá el salario mínimo «todos los años»",
+"href": "https://www.rtve.es/noticias/20261019/sanchez-promete-subira-salario-minimo-todos-anos/17273693.shtml"
 }
 ],
 "related": [
@@ -14744,13 +19422,29 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "href": "/elecciones",
 "label": "Elecciones del 29-N: cómo votar"
+},
+{
+"href": "/elecciones/programas-electorales-29n",
+"label": "Programas electorales del 29-N: cuándo salen"
 }
 ],
 "disclaimer": "Contenido informativo y neutral: explicamos la medida y citamos la fuente con fecha. No valoramos si es buena o mala ni recomendamos ningún voto.",
 "faqs": [
 {
-"q": "¿Proponen algo los demás?",
-"a": "A 13 de octubre no hemos encontrado una cifra de SMI de otros partidos para el 29-N. Consulta la comparativa de empleo."
+"q": "¿Cuánto es el salario mínimo en 2026?",
+"a": "1.221 € brutos al mes en 14 pagas, 17.094 € al año, o 40,70 € al día. Lo fija el Real Decreto 126/2026 (BOE del 19-2-2026), con efectos desde el 1 de enero."
+},
+{
+"q": "¿Los 1.800 € serían en 12 o en 14 pagas?",
+"a": "Podemos no lo ha concretado. En 14 pagas serían 25.200 € al año; en 12, 21.600 €. Frente a los 17.094 € de 2026, son 8.106 € o 4.506 € más al año."
+},
+{
+"q": "¿Cuándo sube el salario mínimo en 2027?",
+"a": "No hay fecha ni cifra oficial a 20 de octubre de 2026. Trabajo espera el informe de los expertos y quiere aprobarlo antes del 29-N; según El País, la subida rondaría el 5 %."
+},
+{
+"q": "¿Proponen algo los demás partidos?",
+"a": "A 20 de octubre, el PSOE se ha comprometido a subir el salario mínimo cada año mientras gobierne (Pedro Sánchez, Valladolid, 19-10-2026, según RTVE), sin dar cifra. No hemos encontrado otra cifra de salario mínimo para el 29-N con fuente fechada. Lo que dice cada partido sobre empleo y salarios está en la comparativa de empleo."
 }
 ],
 "sections": [
@@ -14758,14 +19452,93 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "id": "que",
 "title": "Qué se sabe",
 "paragraphs": [
-"La propuesta se presentó como objetivo de legislatura. No se ha publicado calendario ni si serían 12 o 14 pagas."
+"Irene Montero lo presentó en septiembre de 2026 como objetivo de legislatura, junto a la jornada de 30 horas semanales (ABC, 12-9-2026). No se ha publicado calendario ni si serían 12 o 14 pagas.",
+"El 19 de octubre de 2026, Podemos lo incluyó como punto 4 de sus «5 propuestas para tener paz, casa y trabajo»: «Subir el SMI a 1.800€ y jornada laboral de 30h» (post oficial del partido en X). Eso confirma las 30 horas; una crónica del acto de septiembre había hablado de 35.",
+"El PSOE no ha dado una cifra. El 19 de octubre de 2026, en un mitin en Valladolid, Pedro Sánchez se comprometió a subir el SMI «año a año» mientras gobierne, sin concretar cuánto ni cuándo (RTVE)."
+]
+},
+{
+"id": "cifras",
+"title": "1.800 € frente al salario mínimo de 2026",
+"paragraphs": [
+"Podemos no ha dicho si los 1.800 € serían en 12 o en 14 pagas. Por eso calculamos los dos casos. Todas las cifras son brutas, como el SMI oficial."
+],
+"table": {
+"caption": "SMI de 2026 y propuesta de 1.800 € (brutos)",
+"head": [
+"Concepto",
+"SMI 2026",
+"Con 1.800 €",
+"Diferencia",
+"Fuente"
+],
+"rows": [
+{
+"cells": [
+"Al mes (14 pagas)",
+"1.221 € hoy",
+"1.800 €",
+"+579 € (+47,4 %)"
+],
+"source": {
+"label": "BOE: Real Decreto 126/2026, salario mínimo interprofesional para 2026",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3815"
+}
+},
+{
+"cells": [
+"Al año, si son 14 pagas",
+"17.094 € hoy",
+"25.200 €",
+"+8.106 €"
+],
+"source": {
+"label": "BOE: Real Decreto 126/2026, salario mínimo interprofesional para 2026",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3815"
+}
+},
+{
+"cells": [
+"Al año, si son 12 pagas",
+"17.094 € hoy",
+"21.600 €",
+"+4.506 €"
+],
+"source": {
+"label": "SEPE: cuantías anuales del SMI y del IPREM 2026",
+"href": "https://www.sepe.es/HomeSepe/prestaciones-desempleo/Cuantias-anuales.html"
+}
+},
+{
+"cells": [
+"Al mes con pagas prorrateadas (14 pagas entre 12)",
+"1.424,50 € hoy",
+"2.100 €",
+"+675,50 €"
+],
+"source": {
+"label": "BOE: Real Decreto 126/2026, salario mínimo interprofesional para 2026",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3815"
+}
+}
+]
+}
+},
+{
+"id": "smi-2027",
+"title": "La subida del SMI de 2027, antes o después del 29-N",
+"paragraphs": [
+"El Ministerio de Trabajo ha pedido a la comisión de expertos una cifra que acerque el SMI al 60 % del salario medio neto, la referencia de la Carta Social Europea, sin que pierda poder de compra. Según El País (16-10-2026), la subida rondaría el 5 % y CC OO y UGT piden un 7 %. No hay cifra oficial.",
+"Como referencia, un 5 % sobre los 1.221 € actuales serían unos 1.282 € al mes en 14 pagas. La subida de 2026 fue del 3,1 % (Real Decreto 126/2026).",
+"El SMI lo aprueba el Gobierno por real decreto y no necesita votación en las Cortes. El vicepresidente Carlos Cuerpo dijo que convendría anunciarlo antes de fin de año; Trabajo quiere aprobarlo antes de las elecciones (El País, 16-10-2026)."
 ]
 },
 {
 "id": "como",
 "title": "Cómo se fija hoy el SMI",
 "paragraphs": [
-"Lo aprueba cada año el Gobierno por real decreto, tras consultar a sindicatos y patronal (Estatuto de los Trabajadores, art. 27)."
+"Lo aprueba cada año el Gobierno por real decreto, tras consultar a sindicatos y patronal (Estatuto de los Trabajadores, art. 27).",
+"El de 2026 lo fijó el Real Decreto 126/2026, publicado en el BOE el 19 de febrero, con efectos desde el 1 de enero: 40,70 € al día o 1.221 € al mes."
 ]
 }
 ]
@@ -14874,6 +19647,10 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 {
 "href": "/elecciones",
 "label": "Elecciones del 29-N: cómo votar"
+},
+{
+"href": "/elecciones/cuando-habra-gobierno-29n",
+"label": "¿Cuándo habrá Gobierno tras el 29-N?"
 }
 ],
 "disclaimer": "Contenido informativo y neutral: explicamos la medida y citamos la fuente con fecha. No valoramos si es buena o mala ni recomendamos ningún voto.",
@@ -14920,7 +19697,7 @@ export const ELECCIONES_EXPLICADORES_GUIDES: Guide[] = [
 "href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
 }
 ],
-"related": [
+"related": [{"href": "/elecciones/voto-util-29n", "label": "Voto útil: derecha, izquierda y peso de tu provincia"}, 
 {
 "href": "/elecciones/como-se-reparten-los-escanos",
 "label": "Cómo se reparten los escaños"
