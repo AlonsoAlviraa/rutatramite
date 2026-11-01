@@ -3,8 +3,8 @@ import { PackIndex } from "@/components/tramites/PackIndex";
 import { pageMetadata } from "@/lib/seo/meta";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Comedor escolar y beca comedor 2026-27",
-  description: "Ayudas de comedor, dificultades de pago, menús especiales y acceso al servicio. Consulta requisitos y procedimientos con fuentes oficiales.",
+  title: "Beca comedor 2026/2027: plazos y convocatorias",
+  description: "¿Cuándo pedir la beca de comedor 2026/2027? Plazos y convocatorias por territorio, con enlace a la guía de CyL/Madrid/Barcelona.",
   path: "/comedor",
 });
 

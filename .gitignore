@@ -11,8 +11,3 @@ tmp/
 __pycache__/
 *.py[cod]
 scripts/gen/_drafts/
-coverage
-playwright-report
-test-results
-blob-report
-lychee.ci.toml

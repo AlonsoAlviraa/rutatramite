@@ -92,6 +92,7 @@ export function allSearchEntries(): SearchHit[] {
     ...guideSearchEntries(),
     ...territorySearchEntries(),
     ...municipioSearchEntries(),
+    { title: "Quiénes somos", href: "/quienes-somos", category: "Editorial" },
     { title: "Cómo verificamos", href: "/metodologia", category: "Editorial" },
     { title: "Fuentes", href: "/fuentes", category: "Editorial" },
   ]) {

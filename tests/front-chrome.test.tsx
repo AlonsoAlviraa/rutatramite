@@ -18,16 +18,6 @@ import { OfficialCta } from "@/components/empadronamiento/OfficialCta";
 import { organizationJsonLd } from "@/lib/seo/jsonld";
 import { DISCLAIMER_SHORT, PRODUCT_NAME, SITE_ORIGIN, WIZARD_QUESTIONS } from "@/lib/types";
 
-function stripTags(input: string): string {
-  let previous = "";
-  let current = input;
-  while (current !== previous) {
-    previous = current;
-    current = current.replace(/<[^>]+>/g, "");
-  }
-  return current;
-}
-
 describe("front chrome and homepage hierarchy (shipped views)", () => {
   it("passport route has its own heading and relevant directory", () => {
     const html = renderToStaticMarkup(createElement(PassportPage));
@@ -84,9 +74,11 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
     expect(html).toContain("#1B4332");
     expect(html).toContain("#FAF7F2");
     expect(html).toContain("#252B26");
-    expect(html).toContain("width:28px");
-    expect(html).toContain("height:28px");
-    expect(html).toContain(">R<");
+    expect(html).toContain("width:40px");
+    expect(html).toContain("height:40px");
+    expect(html).toContain("M12 31V10h9a6 6 0 0 1 0 12h-4l11 9");
+    expect(html).toContain("#E9A23B");
+    expect(html).not.toContain(">R<");
     expect(html).toContain(">Ruta<");
     expect(html).toContain(">Trámite<");
     expect(html).toContain(PRODUCT_NAME);
@@ -107,7 +99,7 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
   it("Organization JSON-LD points logo at the shipped icon route, not a LocalBusiness", () => {
     const org = JSON.stringify(organizationJsonLd());
     expect(org).toContain('"@type":"Organization"');
-    expect(org).toContain(`"logo":"${SITE_ORIGIN}/icon"`);
+    expect(org).toContain(`"logo":"${SITE_ORIGIN}/icon-512.png"`);
     expect(org).toContain(`"name":"${PRODUCT_NAME}"`);
     expect(org).not.toContain("LocalBusiness");
   });
@@ -123,7 +115,7 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
     expect(css).toContain(".site-header");
     expect(css).toContain(".site-nav");
     expect(css).toContain(".nav-toggle");
-    expect(css).toMatch(/@media \(max-width:999px\)[\s\S]*\.nav-toggle[\s\S]*display:inline-flex[\s\S]*\.site-nav \{ display:none/);
+    expect(css).toMatch(/@media \(max-width:1279px\)[\s\S]*\.nav-toggle[\s\S]*display:inline-flex[\s\S]*\.site-nav \{ display:none/);
   });
 
   it("OfficialCta is omitted without href and marks official destinations", () => {
@@ -211,7 +203,7 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
     expect(dni).not.toMatch(/<a href="\/extranjeria"[^>]*nav-mobile-only/);
     expect(dni).not.toMatch(/<a href="\/becas"[^>]*nav-mobile-only/);
     for (const href of ["/mudanza", "/colegio", "/comedor", "/fp", "/bebe"]) {
-      expect(dni).toContain(`<a href="${href}" class="nav-mobile-only min-[1000px]:!hidden">`);
+      expect(dni).toContain(`<a href="${href}" class="nav-mobile-only min-[1280px]:!hidden">`);
     }
     expect(dni).toContain('<a class="nav-cta" href="/#tramites">Explorar trámites</a>');
     expect(dni).not.toContain("Asistente de padrón");
@@ -292,7 +284,7 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
     const html = renderPilarHtml();
     const match = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/);
     expect(match).toBeTruthy();
-    const visible = stripTags(match![1]).replace(/\s+/g, " ").trim();
+    const visible = match![1].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
     expect(visible).toBe(title);
     expect(visible).not.toContain(`· ${PRODUCT_NAME}`);
   });
@@ -328,7 +320,7 @@ describe("front chrome and homepage hierarchy (shipped views)", () => {
         expect(card).toMatch(/href="\/[^"]+"/);
         const description = card.match(/<p\b[^>]*>([\s\S]*?)<\/p>/);
         expect(description).toBeTruthy();
-        expect(stripTags(description![1]).trim().length).toBeGreaterThan(20);
+        expect(description![1].replace(/<[^>]+>/g, "").trim().length).toBeGreaterThan(20);
         expect(card).not.toMatch(/\b(?:min-h-|h-\d|h-\[)/);
         expect(card).not.toMatch(/\sstyle="[^"]*(?:height|min-height)/);
       }

@@ -1,7 +1,9 @@
 import type { Guide } from "@/lib/tramites/types";
+import { ampliar29n } from "@/lib/tramites/elecciones-29n-ampliacion";
+import { ampliarMesa } from "@/lib/tramites/mesa-29n-20261023";
 
 /** 30 guías prácticas para las elecciones a Cortes Generales del 29 de noviembre de 2026 (RD 806/2026). */
-const reviewedAt = "2026-10-12";
+const reviewedAt = "2026-10-16";
 const LOREG = "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672";
 
 const S = {
@@ -21,6 +23,8 @@ const S = {
   braille: { href: "https://www.boe.es/eli/es/rd/2007/12/07/1612", label: "BOE: Real Decreto 1612/2007, voto accesible para personas ciegas" },
   erta: { href: "https://www.boe.es/eli/es/rd/2007/12/07/1621", label: "BOE: Real Decreto 1621/2007, voto de los temporalmente ausentes" },
   infoelectoral: { href: "https://infoelectoral.interior.gob.es/", label: "Ministerio del Interior: Infoelectoral" },
+  aeatMesa: { href: "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/irpf-2025/7-cumplimentacion-irpf/7_1-rendimientos-trabajo-personal/7_1_1-rendimientos-integros/7_1_1_2-dietas-gastos-viaje/reglas-especiales/miembros-mesas-electorales.html", label: "Agencia Tributaria, manual de la renta: cantidades de los miembros de las mesas electorales" },
+  jecInstr523: { href: "https://www.boe.es/buscar/act.php?id=BOE-A-2023-13667", label: "BOE: Instrucción 5/2023 de la Junta Electoral Central, entrega del voto por correo en Correos" },
   loreg: (anchor: string, label: string) => ({ href: `${LOREG}#${anchor}`, label: `LOREG, ${label}` }),
 };
 
@@ -60,14 +64,15 @@ const R = {
   resultados: { href: "/elecciones/resultados-y-escrutinio", label: "Resultados y escrutinio" },
   jecGuia: { href: "/elecciones/junta-electoral-central", label: "Qué es la Junta Electoral Central" },
   bulos: { href: "/elecciones/bulos-y-fraudes-electorales", label: "Bulos y fraudes en elecciones" },
+  programas: { href: "/elecciones/programas-electorales-29n", label: "Programas electorales del 29-N: cuándo salen" },
   faq: { href: "/elecciones/preguntas-frecuentes-29n", label: "Preguntas frecuentes del 29-N" },
   jornada: { href: "/elecciones/como-votar-el-dia-29", label: "Cómo se vota el día 29, paso a paso" },
 };
 
-type Base = Omit<Guide, "pack" | "reviewedAt" | "disclaimer">;
+type Base = Omit<Guide, "pack" | "reviewedAt" | "disclaimer"> & { reviewedAt?: string };
 const g = (x: Base): Guide => ({ pack: "elecciones", reviewedAt, disclaimer: DISCLAIMER, ...x });
 
-export const ELECCIONES_29N_GUIDES: Guide[] = [
+const BASE_29N_GUIDES: Guide[] = [
   g({
     id: "29n-pedir-correo-internet",
     path: "/elecciones/pedir-voto-por-correo-por-internet",
@@ -179,11 +184,13 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
       "Metes la papeleta en el sobre de votación, lo cierras y lo juntas con el certificado del censo dentro del sobre dirigido a tu mesa. Lo entregas en una oficina de Correos como certificado, sin pagar, como muy tarde el 25 de noviembre de 2026.",
     cta: S.correos,
     secondaryCta: S.jec,
-    sources: [S.jec, S.correosNota, S.loreg("asetentaytres", "artículo 73: remisión del voto por correo")],
+    reviewedAt: "2026-10-26",
+    sources: [S.jec, S.correosNota, S.loreg("asetentaytres", "artículo 73: remisión del voto por correo"), S.jecInstr523],
     related: [R.documentacion, R.noLlega, R.nulo, R.correo],
     faqs: [
       { q: "¿Hay que pagar el sello?", a: "No. Este envío no lleva franqueo; lo entregas en Correos como correo certificado." },
-      { q: "¿Lo puede llevar otra persona a Correos?", a: "Consulta en Correos o en la Junta Electoral de Zona antes de delegar el envío; nuestras fuentes no lo detallan." },
+      { q: "¿Lo puede llevar otra persona a Correos?", a: "Sí, pero solo si tú no puedes ir. Necesita una autorización firmada por ti y una fotocopia de tu DNI, pasaporte u otro documento oficial; además, Correos guarda copia del documento de quien lo entrega. Sin esa autorización, Correos no lo acepta (Instrucción 5/2023 de la Junta Electoral Central)." },
+      { q: "¿Puedo echarlo en un buzón amarillo?", a: "No. Los votos por correo recogidos en buzones no son válidos: Correos los envía a la Junta Electoral de Zona, no a tu mesa. Entrégalo en una oficina." },
     ],
     sections: [
       {
@@ -196,6 +203,16 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
           "Mete el sobre de votación y el certificado del censo en el sobre dirigido a la mesa.",
           "Entrégalo en Correos como certificado antes de que acabe el 25 de noviembre de 2026.",
         ]],
+      },
+      {
+        id: "quien-entrega",
+        title: "Quién puede entregarlo en Correos",
+        paragraphs: [
+          "Lo normal es que lo entregues tú, en persona, en una oficina de Correos y enseñando tu DNI, pasaporte, permiso de conducir, tarjeta de residencia u otro documento que te identifique. Así lo exige la Instrucción 5/2023 de la Junta Electoral Central, que interpreta el artículo 73.3 de la LOREG.",
+          "Si no puedes ir, puede llevarlo otra persona en tu nombre con una autorización firmada por ti y una fotocopia de tu documento de identidad. Correos se queda la autorización y las copias de tu documento y del de quien lo entrega, y las manda a la Junta Electoral de Zona.",
+          "Ejemplo: Rosa, de 82 años, no puede salir de casa. Firma una autorización para su hijo y le da una fotocopia de su DNI. El hijo va a Correos con el sobre de la mesa, la autorización, esa fotocopia y su propio DNI.",
+          "No lo eches en un buzón: los votos recogidos en buzones no son válidos.",
+        ],
       },
       {
         id: "plazo",
@@ -265,8 +282,9 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     cta: S.ext,
     secondaryCta: S.ine,
     sources: [S.ext, S.ine, S.jec, S.pag, S.loreg("asetentaycinco", "artículo 75: voto de los residentes ausentes")],
-    related: [R.erta, R.censo, R.calendario, R.quien],
+    related: [{ href: "/elecciones/votar-ley-de-nietos-29n", label: "¿Puedo votar si me nacionalicé por la ley de nietos?" }, R.erta, R.censo, R.calendario, R.quien],
     faqs: [
+      { q: "¿Pueden votar los nacionalizados por la «ley de nietos»?", a: "A 21 de octubre de 2026, el voto en el CERA de quienes obtuvieron la nacionalidad por la disposición adicional 8.ª de la Ley 20/2022 sigue suspendido de forma cautelar por el Tribunal Supremo, salvo que el consulado certifique que su ascendiente sufrió exilio. Lo explicamos en la guía sobre la ley de nietos." },
       { q: "¿Sigue existiendo el voto rogado?", a: "No para estas elecciones. El INE indica que los electores residentes en el extranjero votan sin necesidad de solicitud previa." },
       { q: "¿Cuándo llegan los sobres y las papeletas?", a: "La documentación sale del 24 al 30 de octubre y las papeletas del 4 al 8 de noviembre (del 6 al 14 si hay recursos contra candidaturas). Las papeletas descargables están disponibles del 2 al 7 de noviembre." },
     ],
@@ -289,12 +307,13 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
   g({
     id: "29n-erta",
     path: "/elecciones/voto-temporalmente-fuera-erta",
+    reviewedAt: "2026-11-01",
     h1: "Votar si estás fuera de España una temporada (ERTA)",
     title: "Votar si estás fuera temporalmente (ERTA)",
     description:
-      "Si vives en España pero estarás fuera el 29-N (Erasmus, trabajo, viaje largo), pide el voto ERTA en el consulado hasta el 31 de octubre de 2026.",
+      "Si vives en España y estarás fuera el 29-N (Erasmus, trabajo, viaje largo), el plazo del voto ERTA en el consulado terminó el 31 de octubre de 2026.",
     lead:
-      "Si sigues empadronado en España pero estás fuera una temporada, puedes votar desde allí como elector temporalmente ausente (ERTA). Te inscribes en el consulado como no residente y pides la documentación con el impreso oficial hasta el 31 de octubre de 2026.",
+      "Si sigues empadronado en España pero estás fuera una temporada, puedes votar desde allí como elector temporalmente ausente (ERTA). Te inscribes en el consulado como no residente y pedías la documentación con el impreso oficial; ese plazo terminó el 31 de octubre de 2026.",
     cta: S.ext,
     secondaryCta: S.erta,
     sources: [S.ext, S.jec, S.erta, S.loreg("asetentaycuatro", "artículo 74: voto de los temporalmente ausentes")],
@@ -308,7 +327,7 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
         id: "pasos",
         title: "Pasos",
         paragraphs: ["Exteriores permite hacer las dos gestiones a la vez en el consulado."],
-        lists: [["Inscríbete en el consulado como no residente.", "Presenta el impreso de solicitud de voto ERTA, como muy tarde el 31 de octubre de 2026.", "Recibe la documentación y envía tu voto por correo certificado dentro de plazo."]],
+        lists: [["Inscríbete en el consulado como no residente.", "El impreso de solicitud de voto ERTA se podía presentar hasta el 31 de octubre de 2026 (plazo ya cerrado).", "Recibe la documentación y envía tu voto por correo certificado dentro de plazo."]],
       },
     ],
   }),
@@ -316,26 +335,28 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     id: "29n-censo",
     path: "/elecciones/consultar-censo-electoral",
     h1: "Consultar el censo electoral y reclamar",
-    title: "Consultar el censo electoral: 12 al 19 de octubre",
+    title: "Censo electoral 29-N: comprueba tu inscripción y tu mesa",
     description:
-      "Del 12 al 19 de octubre de 2026 puedes consultar el censo en tu ayuntamiento, consulado o en la sede del INE con Cl@ve, y reclamar si tus datos están mal.",
+      "El plazo de reclamación del censo terminó el 19 de octubre. Comprueba tu inscripción y tu mesa en la sede del INE y qué pasa si reclamaste a tiempo.",
     lead:
-      "Del 12 al 19 de octubre de 2026 puedes comprobar si estás bien inscrito: en tu ayuntamiento, en la delegación de la Oficina del Censo Electoral, en el consulado si vives fuera, o por internet en la sede del INE con Cl@ve o DNI electrónico. En esas mismas fechas puedes reclamar.",
+      "La consulta y reclamación del censo fue del 12 al 19 de octubre de 2026 y ya ha terminado. Puedes seguir comprobando tu inscripción y tu mesa en la sede del INE con Cl@ve o DNI electrónico. Si reclamaste a tiempo, la Oficina del Censo Electoral resuelve en 3 días y las rectificaciones se exponen el 23 de octubre.",
     cta: S.ineSede,
     secondaryCta: S.ine,
     sources: [S.ine, S.ineSede, S.jec, S.loreg("atreintaynueve", "artículo 39: rectificación del censo en periodo electoral")],
-    related: [R.donde, R.domicilio, R.primera, R.quien],
+    related: [R.donde, R.domicilio, R.primera, R.quien, { href: "/elecciones/no-recibir-propaganda-electoral", label: "Cómo no recibir propaganda electoral" }, { href: "/elecciones/tarjeta-censal-cuando-llega", label: "Tarjeta censal: cuándo llega" }],
     faqs: [
+      { q: "¿Puedo reclamar todavía?", a: "No por la vía del artículo 39 de la LOREG: el plazo terminó el 19 de octubre de 2026. Si reclamaste a tiempo, la resolución llega en 3 días." },
       { q: "¿Cuánto tardan en resolver mi reclamación?", a: "La Delegación Provincial de la Oficina del Censo Electoral la resuelve en 3 días. Las rectificaciones se exponen el 23 de octubre de 2026." },
       { q: "¿Qué hago si me la rechazan?", a: "Puedes recurrir ante el Juzgado de lo Contencioso-Administrativo en 5 días desde la notificación." },
     ],
     sections: [
       {
         id: "como",
-        title: "Cómo consultarlo",
+        title: "Cómo comprobar tu inscripción",
         paragraphs: ["Por internet, la sede del INE muestra tus datos y, si vives en España, tu mesa y la dirección del colegio."],
         lists: [["Por internet: sede.ine.gob.es, con Cl@ve o DNI electrónico.", "En persona: ayuntamiento o Delegación Provincial de la Oficina del Censo Electoral.", "Si vives fuera: oficina consular."]],
       },
+      {"id": "plazo-cerrado", "title": "Si no reclamaste a tiempo", "paragraphs": ["El plazo del artículo 39 de la LOREG terminó el 19 de octubre. Después solo se puede votar fuera de las listas con una sentencia judicial que reconozca tu derecho a estar inscrito o con la certificación censal específica que prevé el artículo 85.", "Si te has mudado a otra provincia después del 1 de agosto de 2026, sigues votando en tu sección anterior. Puedes pedir el voto por correo hasta el 19 de noviembre."], "lists": [["23 de octubre: exposición de las rectificaciones en ayuntamientos y consulados.", "5 días desde la notificación: recurso ante el juzgado de lo contencioso-administrativo si rechazaron tu reclamación.", "Desde el 2 de noviembre: el INE envía la tarjeta censal con tu mesa."]]},
     ],
   }),
   g({
@@ -350,7 +371,7 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     cta: S.ineSede,
     secondaryCta: S.ine,
     sources: [S.ine, S.ineSede, S.jec],
-    related: [R.llevar, R.censo, R.jornada, R.domicilio],
+    related: [R.llevar, R.censo, R.jornada, R.domicilio, { href: "/elecciones/tarjeta-censal-cuando-llega", label: "Tarjeta censal: cuándo llega" }],
     faqs: [
       { q: "¿Necesito llevar la tarjeta censal para votar?", a: "No. Para votar te identificas con DNI, pasaporte o permiso de conducir con foto. La tarjeta solo te informa de tu mesa." },
     ],
@@ -419,11 +440,11 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     description:
       "Sorteo de mesas: del 31 de octubre al 4 de noviembre de 2026. Es obligatorio; tienes 7 días desde la notificación para alegar una causa justificada.",
     lead:
-      "Ser presidente o vocal de mesa es obligatorio. Los ayuntamientos hacen el sorteo entre el 31 de octubre y el 4 de noviembre de 2026 y te lo notifican en 3 días. Si tienes una causa justificada, la alegas ante la Junta Electoral de Zona en 7 días desde la notificación.",
+      "Ser presidente o vocal de mesa es obligatorio. Los ayuntamientos hacen el sorteo entre el 31 de octubre y el 4 de noviembre de 2026 y te lo notifican en 3 días. Si tienes una causa justificada, la alegas ante la Junta Electoral de Zona en 7 días desde la notificación. Presidentes y vocales titulares cobran una dieta de 75 € (Orden INT/650/2026).",
     cta: S.mesaInfo,
     secondaryCta: S.jec,
-    sources: [S.jec, S.mesaInfo, S.loreg("aveintiseis", "artículos 26 y 27: formación de las mesas")],
-    related: [R.dietas, R.jornada, R.interventores, R.faq],
+    sources: [S.jec, S.mesaInfo, S.dieta, S.loreg("aveintiseis", "artículos 26 y 27: formación de las mesas")],
+    related: [R.dietas, { href: "/elecciones/cuando-se-cobra-la-dieta-de-mesa", label: "Cuándo y cómo se cobra la dieta de mesa" }, { href: "/elecciones/voluntario-mesa-electoral", label: "¿Se puede pedir ser mesa? Lo que dice la ley" }, { href: "/elecciones/que-pasa-si-no-voy-a-la-mesa", label: "Qué pasa si te toca mesa y no vas" }, { href: "/elecciones/horario-mesa-electoral", label: "Horario de la mesa electoral y permiso del lunes" }, R.jornada, R.interventores, R.faq, { href: "/elecciones/sorteo-mesa-electoral-29n", label: "¿Me toca mesa? Cuándo es el sorteo" }, { href: "/elecciones/excusa-mesa-electoral", label: "Excusas para la mesa electoral" }],
     faqs: [
       { q: "Tengo más de 65 años, ¿puedo renunciar?", a: "Sí. El artículo 26 de la LOREG permite a los mayores de 65 años renunciar en el plazo de siete días." },
       { q: "¿Y si me surge un problema a última hora?", a: "Debes comunicarlo a la Junta Electoral de Zona al menos 72 horas antes de constituir la mesa. Si es sobrevenido, hasta antes de las 8:00 del día de votación." },
@@ -453,8 +474,8 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
       "Si eres presidente o vocal titular, cobras una dieta de 75 euros por jornada electoral (Orden INT/650/2026). Si ese día trabajas, tienes permiso retribuido de jornada completa, y en todo caso cinco horas menos de jornada el día siguiente.",
     cta: S.mesaInfo,
     secondaryCta: S.dieta,
-    sources: [S.dieta, S.mesaInfo, S.loreg("aveintiocho", "artículo 28: permisos y dieta de los miembros de mesa")],
-    related: [R.mesa, R.permiso, R.interventores, R.faq],
+    sources: [S.dieta, S.mesaInfo, S.aeatMesa, S.loreg("aveintiocho", "artículo 28: permisos y dieta de los miembros de mesa")],
+    related: [R.mesa, { href: "/elecciones/cuando-se-cobra-la-dieta-de-mesa", label: "Cuándo y cómo se cobra la dieta de mesa" }, { href: "/elecciones/horario-mesa-electoral", label: "Horario de la mesa electoral y permiso del lunes" }, { href: "/elecciones/que-pasa-si-no-voy-a-la-mesa", label: "Qué pasa si te toca mesa y no vas" }, { href: "/elecciones/voluntario-mesa-electoral", label: "¿Se puede pedir ser mesa? Lo que dice la ley" }, R.permiso, R.interventores, R.faq],
     faqs: [
       { q: "¿Los suplentes cobran?", a: "Solo si llegan a ocupar un puesto en la mesa como titulares. Entonces también tienen el permiso y la reducción de jornada." },
       { q: "¿Trabajo de noche, cómo se aplica?", a: "Interior indica que el turno de noche que empieza el día de las elecciones cuenta como jornada del día electoral, y la reducción de 5 horas se puede aplicar al turno de noche siguiente." },
@@ -464,7 +485,187 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
         id: "resumen",
         title: "Resumen",
         paragraphs: ["Datos de la Orden INT/650/2026 y de Infoelectoral."],
-        lists: [["Dieta: 75 euros por titular y jornada, íntegra aunque no estés todo el día.", "Permiso retribuido el día de la votación si es laborable.", "Reducción de 5 horas de jornada el día siguiente (lunes 30 de noviembre)."]],
+        lists: [["Dieta: 75 euros por titular y jornada, íntegra aunque no estés todo el día. En 2023 eran 70 euros (Orden INT/212/2023, derogada por la INT/650/2026).", "Permiso retribuido el día de la votación si es laborable.", "Reducción de 5 horas de jornada el día siguiente (lunes 30 de noviembre).", "No tributa en el IRPF: la Agencia Tributaria la considera exceptuada de gravamen."]],
+      },
+    ],
+  }),
+  // CLUSTER MESA 2026-10-20
+  g({
+    id: "29n-mesa-cobro",
+    reviewedAt: "2026-10-20",
+    path: "/elecciones/cuando-se-cobra-la-dieta-de-mesa",
+    h1: "Cuándo y cómo se cobra la dieta de la mesa electoral",
+    title: "Dieta de mesa electoral: cuándo se cobra y si tributa",
+    description: "75 € por jornada para presidente y vocales titulares (Orden INT/650/2026), íntegra, sobre todo en efectivo. No tributa en el IRPF (Agencia Tributaria).",
+    lead: "Respuesta corta: presidentes y vocales titulares cobran 75 € por la jornada del 29 de noviembre, íntegros aunque no estén todo el día (Orden INT/650/2026). La propia orden explica que la mayoría de los pagos se hacen en efectivo. La orden no fija un plazo de pago. La Agencia Tributaria considera esta dieta exceptuada de gravamen: no tributa en el IRPF.",
+    cta: S.dieta,
+    secondaryCta: S.aeatMesa,
+    sources: [S.dieta, S.aeatMesa, S.mesaInfo, S.loreg("aveintiocho", "artículo 28: permisos y dieta")],
+    related: [{ href: "/elecciones/miembro-de-mesa-dieta-y-permisos", label: "Dieta de 75 € y permisos de la mesa" }, { href: "/elecciones/miembro-de-mesa", label: "Me ha tocado mesa electoral: qué hago" }, { href: "/elecciones/horario-mesa-electoral", label: "Horario de la mesa electoral y permiso del lunes" }, { href: "/elecciones/que-pasa-si-no-voy-a-la-mesa", label: "Qué pasa si te toca mesa y no vas" }, { href: "/elecciones/sorteo-mesa-electoral-29n", label: "¿Me toca mesa? Cuándo es el sorteo" }],
+    faqs: [
+      { q: "¿Cuánto se cobra por ser mesa el 29-N?", a: "75 € por titular y jornada electoral (artículo 1 de la Orden INT/650/2026). En 2023 eran 70 € (Orden INT/212/2023)." },
+      { q: "¿Cobran igual el presidente y los vocales?", a: "Sí. La orden fija la misma dieta de 75 € para el presidente y para los vocales." },
+      { q: "¿Los suplentes cobran?", a: "Solo si pasan a ser titulares porque falta alguien (artículo 2 de la orden). Si no llegan a ocupar su puesto, no cobran." },
+      { q: "¿Hay que declarar los 75 € en la renta?", a: "No. El manual de la renta de la Agencia Tributaria dice que las cantidades de los miembros de las mesas electorales están exceptuadas de gravamen." },
+      { q: "¿Me la quitan si me voy antes?", a: "La orden dice que se cobra íntegra con independencia del tiempo que se haya desempeñado el cargo." },
+    ],
+    sections: [
+      {
+        id: "quien-cobra",
+        title: "Quién cobra y cuánto",
+        paragraphs: [],
+        table: {
+          caption: "Dieta de la mesa electoral el 29 de noviembre de 2026",
+          head: ["Cargo", "Dieta", "Fuente"],
+          rows: [
+            { cells: ["Presidente titular", "75 €"], source: S.dieta },
+            { cells: ["Vocal titular (dos por mesa)", "75 €"], source: S.dieta },
+            { cells: ["Suplente que pasa a titular", "75 €"], source: S.dieta },
+            { cells: ["Suplente que no llega a actuar", "0 €"], source: S.dieta },
+          ],
+        },
+      },
+      {
+        id: "como",
+        title: "Cómo se paga",
+        paragraphs: [
+          "La Orden INT/650/2026 redondeó la dieta a 75 € precisamente para facilitar los pagos, que según su preámbulo se hacen mayoritariamente en efectivo. La orden no fija el día ni el canal de pago: lo organiza la Administración en cada mesa o municipio.",
+          "Se cobra una sola dieta por jornada, aunque ese día coincidan varias elecciones.",
+        ],
+      },
+      {
+        id: "irpf",
+        title: "¿Tributa en el IRPF?",
+        paragraphs: ["No. La Agencia Tributaria, en su manual práctico de la renta, indica que «estarán exceptuadas de gravamen las cantidades percibidas por los miembros de las Mesas Electorales». No hay que incluirla en la declaración."],
+      },
+    ],
+  }),
+  g({
+    id: "29n-mesa-voluntario",
+    reviewedAt: "2026-10-20",
+    path: "/elecciones/voluntario-mesa-electoral",
+    h1: "¿Se puede pedir ser mesa electoral? Lo que dice la ley",
+    title: "¿Puedo ser voluntario de mesa electoral? Lo que dice la LOREG",
+    description: "No: presidente y vocales salen por sorteo público entre los electores de cada mesa (LOREG art. 26). Requisitos: saber leer y escribir y menos de 70 años.",
+    lead: "Respuesta corta: no puedes apuntarte. La LOREG (artículo 26) dice que presidente y vocales se designan por sorteo público entre todas las personas de la lista de electores de esa mesa que sepan leer y escribir y tengan menos de 70 años. Para el 29-N, los ayuntamientos sortean entre el 31 de octubre y el 4 de noviembre de 2026. Lo que sí puedes hacer es comprobar que estás en el censo y cumplir los requisitos.",
+    cta: S.loreg("aveintiseis", "artículo 26: sorteo de las mesas"),
+    secondaryCta: S.mesaInfo,
+    sources: [S.loreg("aveintiseis", "artículo 26: sorteo de las mesas"), S.loreg("aveintisiete", "artículo 27: cargo obligatorio"), S.jec, S.mesaInfo, S.ineSede],
+    related: [{ href: "/elecciones/sorteo-mesa-electoral-29n", label: "¿Me toca mesa? Cuándo es el sorteo" }, { href: "/elecciones/miembro-de-mesa", label: "Me ha tocado mesa electoral: qué hago" }, { href: "/elecciones/cuando-se-cobra-la-dieta-de-mesa", label: "Cuándo y cómo se cobra la dieta de mesa" }, { href: "/elecciones/excusa-mesa-electoral", label: "Excusas para la mesa electoral" }, { href: "/elecciones/que-pasa-si-no-voy-a-la-mesa", label: "Qué pasa si te toca mesa y no vas" }],
+    faqs: [
+      { q: "¿Hay listas de voluntarios para ser mesa?", a: "La LOREG no las prevé: la designación es por sorteo público entre todos los electores de la mesa que cumplen los requisitos." },
+      { q: "¿Qué estudios hacen falta para ser presidente?", a: "Bachiller o Formación Profesional de segundo grado o, subsidiariamente, Graduado Escolar o equivalente (artículo 26.2 de la LOREG). Para vocal basta con saber leer y escribir." },
+      { q: "¿Puede tocarle a un candidato?", a: "No. El artículo 27 de la LOREG dice que los cargos de la mesa no pueden desempeñarlos quienes se presenten como candidatos." },
+      { q: "¿Puedo ir al sorteo?", a: "El artículo 26 dice que el sorteo es público. Pregunta en tu ayuntamiento el día y la hora." },
+    ],
+    sections: [
+      {
+        id: "requisitos",
+        title: "Requisitos para que te toque",
+        paragraphs: [],
+        table: {
+          caption: "Quién entra en el sorteo de la mesa (LOREG, artículos 26 y 27)",
+          head: ["Requisito", "Presidente", "Vocal", "Fuente"],
+          rows: [
+            { cells: ["Estar en la lista de electores de esa mesa", "Sí", "Sí"], source: S.loreg("aveintiseis", "artículo 26") },
+            { cells: ["Saber leer y escribir", "Sí", "Sí"], source: S.loreg("aveintiseis", "artículo 26") },
+            { cells: ["Edad", "Menos de 70 años (de 65 a 69 puede renunciar)", "Menos de 70 años (de 65 a 69 puede renunciar)"], source: S.loreg("aveintiseis", "artículo 26") },
+            { cells: ["Estudios", "Bachiller o FP de segundo grado; si no, Graduado Escolar", "No se exigen"], source: S.loreg("aveintiseis", "artículo 26") },
+            { cells: ["No ser candidato", "Sí", "Sí"], source: S.loreg("aveintisiete", "artículo 27") },
+          ],
+        },
+      },
+      {
+        id: "que-hacer",
+        title: "Qué puedes hacer si quieres ser mesa",
+        paragraphs: [],
+        lists: [[
+          "Comprueba que estás inscrito en el censo electoral en la sede del INE.",
+          "Ten a mano la dirección que figura en el censo: allí llega la notificación, en los 3 días siguientes al sorteo.",
+          "Si te toca, el cargo es obligatorio y se cobra una dieta de 75 € (Orden INT/650/2026).",
+        ]],
+      },
+    ],
+  }),
+  g({
+    id: "29n-mesa-no-ir",
+    reviewedAt: "2026-10-20",
+    path: "/elecciones/que-pasa-si-no-voy-a-la-mesa",
+    h1: "Qué pasa si te toca mesa y no vas",
+    title: "Si te toca mesa y no vas: prisión o multa (LOREG art. 143)",
+    description: "No ir a la mesa sin causa legítima es delito: prisión de 3 meses a 1 año o multa de 6 a 24 meses (LOREG art. 143). Cómo excusarte a tiempo.",
+    lead: "Respuesta corta: es un delito electoral. El artículo 143 de la LOREG castiga a presidentes, vocales y suplentes que no acudan, abandonen la mesa sin causa legítima o no avisen como exige la ley con prisión de 3 meses a 1 año o multa de 6 a 24 meses. Si no puedes ir, tienes 7 días desde la notificación para alegar una causa justificada ante la Junta Electoral de Zona.",
+    cta: S.loreg("acientocuarentaytres", "artículo 143: delitos en las mesas electorales"),
+    secondaryCta: S.mesaInfo,
+    sources: [S.loreg("acientocuarentaytres", "artículo 143: delitos en las mesas electorales"), S.loreg("aveintisiete", "artículo 27: excusas y aviso"), S.loreg("aochenta", "artículo 80: constitución de la mesa"), S.mesaInfo],
+    related: [{ href: "/elecciones/excusa-mesa-electoral", label: "Excusas para la mesa electoral" }, { href: "/elecciones/miembro-de-mesa", label: "Me ha tocado mesa electoral: qué hago" }, { href: "/elecciones/sorteo-mesa-electoral-29n", label: "¿Me toca mesa? Cuándo es el sorteo" }, { href: "/elecciones/horario-mesa-electoral", label: "Horario de la mesa electoral y permiso del lunes" }, { href: "/elecciones/cuando-se-cobra-la-dieta-de-mesa", label: "Cuándo y cómo se cobra la dieta de mesa" }],
+    faqs: [
+      { q: "¿Es una multa administrativa o un delito?", a: "Un delito: el artículo 143 de la LOREG está en el capítulo de delitos electorales y prevé prisión de 3 meses a 1 año o multa de 6 a 24 meses." },
+      { q: "¿También afecta a los suplentes?", a: "Sí. El artículo 143 incluye a los suplentes que dejen de acudir sin causa legítima." },
+      { q: "¿Qué pasa si la mesa no se puede formar?", a: "La Junta Electoral de Zona designa libremente a quien la forme, incluso a electores presentes en el local, e informa al Ministerio Fiscal de quienes no comparecieron (artículo 80 de la LOREG)." },
+      { q: "¿Y si me pongo enfermo a última hora?", a: "Comunícalo a la Junta Electoral de Zona en cuanto lo sepas y aporta la justificación. El artículo 27 regula el aviso de quien no pueda acudir después de ser designado." },
+    ],
+    sections: [
+      {
+        id: "pena",
+        title: "La pena, según la ley",
+        paragraphs: [],
+        table: {
+          caption: "Artículo 143 de la LOREG",
+          head: ["Conducta", "Pena", "Fuente"],
+          rows: [
+            { cells: ["No acudir o no desempeñar las funciones sin causa legítima", "Prisión de 3 meses a 1 año o multa de 6 a 24 meses"], source: S.loreg("acientocuarentaytres", "artículo 143") },
+            { cells: ["Abandonar la mesa sin causa legítima", "Prisión de 3 meses a 1 año o multa de 6 a 24 meses"], source: S.loreg("acientocuarentaytres", "artículo 143") },
+            { cells: ["No cumplir la obligación de excusa o aviso previo", "Prisión de 3 meses a 1 año o multa de 6 a 24 meses"], source: S.loreg("acientocuarentaytres", "artículo 143") },
+          ],
+        },
+      },
+      {
+        id: "evitarlo",
+        title: "Cómo evitarlo",
+        paragraphs: [],
+        lists: [[
+          "Alega tu causa en 7 días desde la notificación ante la Junta Electoral de Zona, con documentos (artículo 27.3).",
+          "La Junta responde en 5 días y su decisión no admite recurso.",
+          "Si después te surge un impedimento, avisa a la Junta lo antes posible (artículo 27.4).",
+        ]],
+      },
+    ],
+  }),
+  g({
+    id: "29n-mesa-horario",
+    reviewedAt: "2026-10-20",
+    path: "/elecciones/horario-mesa-electoral",
+    h1: "Horario de la mesa electoral el 29-N y permiso del lunes",
+    title: "Horario de la mesa electoral: de 8:00 al escrutinio",
+    description: "La mesa se reúne a las 8:00, se vota de 9:00 a 20:00 y después se hace el escrutinio (LOREG arts. 80, 84 y 95). El lunes 30, 5 horas menos de jornada.",
+    lead: "Respuesta corta: presidente, vocales y suplentes se reúnen a las 8:00 del domingo 29 de noviembre (LOREG art. 80). La votación va de 9:00 a 20:00 sin interrupción (art. 84) y, acto seguido, empieza el escrutinio (art. 95), que termina cuando se firman las actas. Si trabajas por cuenta ajena o eres funcionario, el lunes 30 tienes 5 horas menos de jornada (art. 28).",
+    cta: S.mesaInfo,
+    secondaryCta: S.loreg("aochentaycuatro", "artículo 84: horario de votación"),
+    sources: [S.loreg("aochenta", "artículo 80: reunión a las ocho"), S.loreg("aochentaycuatro", "artículo 84: votación de 9 a 20 h"), S.loreg("anoventaycinco", "artículo 95: escrutinio"), S.loreg("aveintiocho", "artículo 28: permisos"), S.mesaInfo],
+    related: [{ href: "/elecciones/miembro-de-mesa-dieta-y-permisos", label: "Dieta de 75 € y permisos de la mesa" }, { href: "/elecciones/cuando-se-cobra-la-dieta-de-mesa", label: "Cuándo y cómo se cobra la dieta de mesa" }, { href: "/elecciones/miembro-de-mesa", label: "Me ha tocado mesa electoral: qué hago" }, { href: "/elecciones/que-pasa-si-no-voy-a-la-mesa", label: "Qué pasa si te toca mesa y no vas" }, { href: "/elecciones/excusa-mesa-electoral", label: "Excusas para la mesa electoral" }],
+    faqs: [
+      { q: "¿A qué hora tengo que estar en la mesa?", a: "A las 8:00 del día de la votación, en tu local electoral (artículo 80 de la LOREG). Los suplentes también." },
+      { q: "¿Me puedo ir un rato?", a: "La mesa debe tener siempre al menos dos de sus miembros presentes (artículo 89 de la LOREG)." },
+      { q: "¿A qué hora termina?", a: "La ley no fija una hora: el escrutinio empieza al cerrar la votación a las 20:00 y la mesa termina cuando ha firmado el acta y preparado la documentación (artículos 95 a 100)." },
+      { q: "¿El lunes tengo que trabajar?", a: "Sí, pero con 5 horas menos de jornada si trabajas por cuenta ajena o eres funcionario (artículo 28.1 de la LOREG). Si trabajas de noche, Interior indica que la reducción se aplica al turno de noche siguiente." },
+    ],
+    sections: [
+      {
+        id: "horario",
+        title: "La jornada, hora a hora",
+        paragraphs: [],
+        table: {
+          caption: "Jornada de la mesa electoral el domingo 29 de noviembre de 2026",
+          head: ["Hora", "Qué pasa", "Fuente"],
+          rows: [
+            { cells: ["8:00", "Se reúnen presidente, vocales y suplentes y se constituye la mesa"], source: S.loreg("aochenta", "artículo 80") },
+            { cells: ["9:00", "Empieza la votación"], source: S.loreg("aochentaycuatro", "artículo 84") },
+            { cells: ["20:00", "Termina la votación"], source: S.loreg("aochentaycuatro", "artículo 84") },
+            { cells: ["Desde las 20:00", "Escrutinio público, actas y sobres de documentación"], source: S.loreg("anoventaycinco", "artículo 95") },
+            { cells: ["Lunes 30", "5 horas menos de jornada laboral"], source: S.loreg("aveintiocho", "artículo 28") },
+          ],
+        },
       },
     ],
   }),
@@ -603,7 +804,7 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     cta: S.loreg("anoventayseis", "artículo 96: votos nulos y en blanco"),
     secondaryCta: S.infoelectoral,
     sources: [S.loreg("anoventayseis", "artículo 96"), S.loreg("acientosesentaytres", "artículo 163: reparto de escaños")],
-    related: [R.dhondt, R.senado, R.jornada, R.faq],
+    related: [{ href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, { href: "/elecciones/voto-nulo-ejemplos", label: "Voto nulo: 10 ejemplos y si cuentan" }, R.dhondt, R.senado, R.jornada, R.faq],
     faqs: [
       { q: "¿El voto en blanco ayuda a algún partido?", a: "Cuenta como voto válido. Por eso entra en el cálculo del 3 % mínimo que exige el artículo 163 para el reparto de escaños del Congreso." },
       { q: "¿Si meto dos papeletas iguales?", a: "Según el artículo 96, varias papeletas de la misma candidatura cuentan como un solo voto válido." },
@@ -629,7 +830,7 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     cta: S.loreg("acientosesentaytres", "artículo 163: atribución de escaños"),
     secondaryCta: S.rd,
     sources: [S.loreg("acientosesentaytres", "artículo 163"), S.rd],
-    related: [R.senado, R.nulo, R.resultados, R.faq],
+    related: [{ href: "/elecciones/mapa-voto-util-29n", label: "Mapa del voto útil por provincia: último escaño" }, { href: "/elecciones/voto-util-29n", label: "Voto útil: derecha, izquierda y peso de tu provincia" }, { href: "/elecciones/cuanto-vale-tu-voto-por-provincia-29n", label: "Cuánto vale tu voto por provincia (datos)" }, R.senado, R.nulo, R.resultados, R.faq],
     faqs: [
       { q: "¿Cuántos diputados elige mi provincia?", a: "El anexo del Real Decreto 806/2026 lo detalla: por ejemplo, Madrid elige 38, Barcelona 32 y Soria 2." },
     ],
@@ -653,7 +854,7 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     cta: S.loreg("acientosesentayseis", "artículo 166: elección de senadores"),
     secondaryCta: S.rd,
     sources: [S.loreg("acientosesentayseis", "artículo 166"), S.rd],
-    related: [R.dhondt, R.nulo, R.jornada, R.faq],
+    related: [{ href: "/elecciones/voto-nulo-ejemplos", label: "Voto nulo: 10 ejemplos y si cuentan" }, R.dhondt, R.nulo, R.jornada, R.faq],
     faqs: [
       { q: "¿Qué pasa si marco más de la cuenta?", a: "Marcar más candidatos de los permitidos puede hacer el voto nulo. Si tienes dudas, pide una papeleta nueva en el colegio." },
       { q: "¿Cuántos senadores elige mi territorio?", a: "Cuatro por provincia; tres en Gran Canaria, Mallorca y Tenerife; uno en las demás islas; dos en Ceuta y dos en Melilla (Real Decreto 806/2026)." },
@@ -702,7 +903,7 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     cta: S.jec,
     secondaryCta: S.loreg("asesentaynueve", "artículo 69: encuestas"),
     sources: [S.jec, S.loreg("asesentaynueve", "artículo 69")],
-    related: [R.reflexion, R.bulos, R.calendario, R.faq],
+    related: [{ href: "/elecciones/encuestas-29n", label: "Últimas encuestas del 29-N con fuente y fecha" }, { href: "/elecciones/encuestas-falsas-en-redes", label: "Encuestas falsas en redes" }, R.reflexion, R.bulos, R.calendario, R.faq],
     faqs: [
       { q: "¿Hasta cuándo dura la prohibición?", a: "Según el calendario de la Junta Electoral Central, del 24 al 28 de noviembre de 2026, ambos incluidos." },
     ],
@@ -758,7 +959,7 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
       {
         id: "que-hacer",
         title: "Qué hacer",
-        paragraphs: ["Si tus datos no son correctos y no reflejan un empadronamiento anterior al cierre, puedes reclamar del 12 al 19 de octubre de 2026."],
+        paragraphs: ["Si tus datos no son correctos y no reflejan un empadronamiento anterior al cierre, el plazo para reclamar fue del 12 al 19 de octubre de 2026 y ya ha terminado. Puedes votar en tu mesa antigua o pedir el voto por correo."],
       },
     ],
   }),
@@ -774,7 +975,7 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     cta: S.infoelectoral,
     secondaryCta: S.jec,
     sources: [S.jec, S.infoelectoral, S.rd],
-    related: [R.dhondt, R.jecGuia, R.interventores, R.calendario],
+    related: [{ href: "/elecciones/voto-nulo-ejemplos", label: "Voto nulo: 10 ejemplos y si cuentan" }, R.dhondt, R.jecGuia, R.interventores, R.calendario, { href: "/elecciones/cuando-habra-gobierno-29n", label: "¿Cuándo habrá Gobierno tras el 29-N?" }],
     faqs: [
       { q: "¿Cuándo es oficial el resultado?", a: "Tras el escrutinio general y la proclamación de electos. La Junta Electoral Central publica los resultados en el BOE en los 40 días siguientes a la proclamación." },
       { q: "¿Cuándo se constituyen las Cortes?", a: "El 23 de diciembre de 2026 a las 10:00, según el Real Decreto 806/2026." },
@@ -850,7 +1051,7 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     cta: S.jec,
     secondaryCta: S.rd,
     sources: [S.rd, S.jec, S.ine, S.ext, S.votoInfo],
-    related: [R.correo, R.cera, R.llevar, R.mesa],
+    related: [R.correo, R.cera, R.llevar, R.mesa, R.programas, { href: "/elecciones/debate-electoral-29n", label: "Debates del 29-N: fechas y quién ha aceptado" }, { href: "/elecciones/sorteo-mesa-electoral-29n", label: "¿Me toca mesa? Cuándo es el sorteo" }, { href: "/elecciones/que-pasa-si-no-voto", label: "¿Qué pasa si no voto?" }],
     faqs: [
       { q: "¿Qué se vota el 29 de noviembre?", a: "Diputados y senadores de las Cortes Generales (Real Decreto 806/2026)." },
       { q: "¿A qué hora abren los colegios?", a: "La votación es de 9:00 a 20:00." },
@@ -894,3 +1095,6 @@ export const ELECCIONES_29N_GUIDES: Guide[] = [
     ],
   }),
 ];
+
+/** Guías con la ampliación del 18-10-2026 aplicada. */
+export const ELECCIONES_29N_GUIDES: Guide[] = BASE_29N_GUIDES.map(ampliar29n).map(ampliarMesa);

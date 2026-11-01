@@ -19,21 +19,8 @@ export default function OpenGraphImage() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center" }}>
-          <div
-            style={{
-              width: 96,
-              height: 96,
-              background: "#1B4332",
-              color: "#FAF7F2",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontSize: 58,
-              fontWeight: 700,
-              marginRight: 24,
-            }}
-          >
-            R
+          <div style={{ display: "flex", marginRight: 24 }}>
+            <svg width="96" height="96" viewBox="0 0 40 40"><rect width="40" height="40" rx="20" fill="#1B4332" /><path d="M12 31V10h9a6 6 0 0 1 0 12h-4l11 9" fill="none" stroke="#FAF7F2" strokeWidth="3.6" strokeLinecap="round" strokeLinejoin="round" /><path d="M24.5 31H28.5V27" fill="none" stroke="#E9A23B" strokeWidth="3.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
           </div>
           <div style={{ display: "flex", fontSize: 48, fontWeight: 700 }}>
             <div style={{ display: "flex", color: "#252B26" }}>Ruta</div>

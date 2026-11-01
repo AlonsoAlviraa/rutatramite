@@ -111,7 +111,7 @@ export function PilarArticle({
                   {t.rows.map((row, ri) => (
                     <tr key={ri}>
                       {row.map((cell, ci) => (
-                        <td key={ci}>{cell}</td>
+                        <td key={ci} data-label={t.headers[ci]}>{cell}</td>
                       ))}
                     </tr>
                   ))}

@@ -8,6 +8,8 @@ import { HUB_REVIEWED_AT, type HubModel } from "@/lib/hub/buildHub";
 import { ccaaPath, provinciaPath } from "@/lib/geo/paths";
 import { articleJsonLd } from "@/lib/seo/jsonld";
 import { ccaaBySlug, loadTerritories } from "@/lib/geo/territories";
+import { CIUDADES_AUTONOMAS_PADRON } from "@/lib/hub/ciudadesAutonomas";
+import { GUIA_REGIONAL } from "@/lib/hub/guiaRegional-20261101";
 
 const RELATED_ESCENARIOS = [
   { href: "/empadronarse/sin-contrato", label: "Sin contrato" },
@@ -37,7 +39,9 @@ export function HubView({
   }
   const top = model.municipios.slice(0, 10);
   const rest = model.municipios.slice(10);
-  const dateModified = HUB_REVIEWED_AT;
+  const ciudad = !provinceSlug ? CIUDADES_AUTONOMAS_PADRON[ccaaSlug] : undefined;
+  const guia = !provinceSlug ? GUIA_REGIONAL[ccaaSlug] : undefined;
+  const dateModified = guia?.reviewedOn ?? ciudad?.reviewedOn ?? model.reviewedAt ?? HUB_REVIEWED_AT;
   const provinces = provinceSlug ? [] : (ccaaBySlug(ccaaSlug)?.province_codes ?? []).map(code => loadTerritories().provinces[code]).filter(Boolean);
   return (
     <PageShell as="article" data-hub={model.kind}>
@@ -83,6 +87,21 @@ export function HubView({
         <>
           <h2 className="mt-10 font-display text-2xl text-mossDark">Municipios de este territorio</h2>
           <p>Aún no hemos incorporado fichas de este territorio a nuestro catálogo.</p>
+          {ciudad ? (
+            <section aria-labelledby="hub-ciudad" className="mt-8" data-hub-ciudad={ccaaSlug}>
+              <h2 id="hub-ciudad" className="font-display text-2xl text-mossDark">Cómo empadronarse en {region?.name ?? model.h1}, según su sede oficial</h2>
+              <p className="mt-3 leading-relaxed"><strong>Quién lo tramita:</strong> {ciudad.organo}</p>
+              <h3 className="mt-4 font-display text-xl text-mossDark">Dónde se pide</h3>
+              <ul className="mt-2 list-disc space-y-1 pl-5">{ciudad.canales.map((c, i) => <li key={i}>{c}</li>)}</ul>
+              <h3 className="mt-4 font-display text-xl text-mossDark">Documentos que pide la sede</h3>
+              <ul className="mt-2 list-disc space-y-1 pl-5">{ciudad.documentos.map((c, i) => <li key={i}>{c}</li>)}</ul>
+              {ciudad.notas.map((n, i) => <p key={i} className="mt-3 leading-relaxed">{n}</p>)}
+              <p className="mt-3 text-sm">
+                {ciudad.links.map((l, i) => <span key={l.href}>{i ? " · " : ""}<a className="inline-flex min-h-11 items-center underline underline-offset-4" href={l.href} rel="noopener">{l.label}</a></span>)}
+                {" "}<span className="text-ink/70">Revisado: <time dateTime={ciudad.reviewedOn}>{ciudad.reviewedOn}</time>. Por Equipo RutaTrámite.</span>
+              </p>
+            </section>
+          ) : null}
         </>
       )}
       {rest.length > 0 ? (
@@ -98,6 +117,48 @@ export function HubView({
             ))}
           </ul>
         </>
+      ) : null}
+      {model.verificadas?.length ? (
+        <section aria-labelledby="hub-verificadas" className="mt-10">
+          <h2 id="hub-verificadas" className="font-display text-2xl text-mossDark">Cómo se empadrona en cada ayuntamiento revisado</h2>
+          {model.resumen.map((p, i) => <p key={i} className="mt-3 leading-relaxed">{p}</p>)}
+          {model.verificadas.map((c) => (
+            <div key={c.path} className="mt-6 break-words">
+              <h3 className="font-display text-xl text-mossDark"><a className="underline underline-offset-4" href={c.path}>{c.name}</a></h3>
+              <ul className="mt-2 list-disc space-y-1 pl-5">
+                <li><strong>Canal:</strong> {c.canal}.</li>
+                <li><strong>Cita:</strong> {c.cita}.</li>
+                <li><strong>Tasa:</strong> {c.tasa}</li>
+                {c.oficina ? <li><strong>Oficina:</strong> {c.oficina}</li> : null}
+                {c.docs.length ? <li><strong>Documentos:</strong> {c.docs.join(" ")}</li> : null}
+                {c.detalle.map((d, i) => <li key={i}>{d}</li>)}
+              </ul>
+              <p className="mt-2 text-sm">
+                {c.links.map((l, i) => <span key={l.href}>{i ? " · " : ""}<a className="inline-flex min-h-11 items-center underline underline-offset-4" href={l.href} rel="noopener">{l.label}</a></span>)}
+                {" "}<span className="text-ink/70">Revisado: <time dateTime={c.reviewedOn}>{c.reviewedOn}</time>.</span>
+              </p>
+            </div>
+          ))}
+        </section>
+      ) : null}
+      {guia ? (
+        <section aria-labelledby="hub-guia" className="mt-10" data-hub-guia={ccaaSlug}>
+          <h2 id="hub-guia" className="font-display text-2xl text-mossDark">{guia.titulo}</h2>
+          {guia.intro.map((p, i) => <p key={i} className="mt-3 leading-relaxed">{p}</p>)}
+          {guia.ciudades.map((c) => (
+            <div key={c.ficha} className="mt-6 break-words">
+              <h3 className="font-display text-xl text-mossDark"><a className="underline underline-offset-4" href={c.ficha}>{c.nombre}</a></h3>
+              <ul className="mt-2 list-disc space-y-1 pl-5">{c.datos.map((d, i) => <li key={i}>{d}</li>)}</ul>
+              <p className="mt-2 text-sm">{c.fuentes.map((l, i) => <span key={l.href}>{i ? " · " : ""}<a className="inline-flex min-h-11 items-center underline underline-offset-4" href={l.href} rel="noopener">{l.label}</a></span>)}</p>
+            </div>
+          ))}
+          <h3 className="mt-6 font-display text-xl text-mossDark">{guia.ejemplo.titulo}</h3>
+          <ol className="mt-2 list-decimal space-y-1 pl-5">{guia.ejemplo.pasos.map((p, i) => <li key={i}>{p}</li>)}</ol>
+          <h3 className="mt-6 font-display text-xl text-mossDark">Preguntas frecuentes</h3>
+          {guia.faqs.map((f, i) => <div key={i} className="mt-3"><p className="font-semibold">{f.q}</p><p className="leading-relaxed">{f.a}</p></div>)}
+          <p className="mt-4 text-sm">{guia.enlaces.map((l, i) => <span key={l.href}>{i ? " · " : ""}<a className="inline-flex min-h-11 items-center underline underline-offset-4" href={l.href}>{l.label}</a></span>)}</p>
+          <p className="mt-2 text-sm text-ink/70">Por Equipo RutaTrámite · revisado el <time dateTime={guia.reviewedOn}>{guia.reviewedOn}</time> contra las fuentes oficiales enlazadas.</p>
+        </section>
       ) : null}
       <h2 className="mt-10 font-display text-2xl text-mossDark">Situaciones frecuentes</h2>
       <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-sm">
@@ -116,7 +177,7 @@ export function HubView({
         <a className="underline" href="/metodologia"> metodología del catálogo</a>.
       </p>
       <p className="mt-6 text-sm">
-        <a className="font-semibold underline decoration-sand underline-offset-2" href="/empadronarse">
+        <a className="inline-flex min-h-11 items-center font-semibold underline decoration-sand underline-offset-2" href="/empadronarse">
           Guía nacional de empadronarse
         </a>
       </p>

@@ -145,3 +145,13 @@ export function loadSchema(): Record<string, unknown> {
 export function catalogPath(): string {
   return path.join(ROOT, "data", "catalog", "municipios_10k.json");
 }
+
+/** Ficha municipal con revisión oficial (data/municipal-reviews.json), o null si no existe revisión. */
+export function loadReviewedMunicipio(ineCode: string): Municipio | null {
+  if (!reviews[ineCode]) return null;
+  try {
+    return loadMunicipio(ineCode);
+  } catch {
+    return null;
+  }
+}

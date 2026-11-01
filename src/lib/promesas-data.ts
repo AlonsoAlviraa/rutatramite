@@ -3,7 +3,7 @@ import { SITE_ORIGIN } from "@/lib/types";
 import { DATASET_LICENSE } from "@/lib/dataset-license";
 
 export const PROMESAS_EXPORT = exp;
-const SHORT: Record<string, string> = { pp: "PP", psoe: "PSOE", vox: "Vox", "frente-amplio": "Frente Amplio", podemos: "Podemos" };
+const SHORT: Record<string, string> = { pp: "PP", psoe: "PSOE", vox: "Vox", "frente-amplio": "Frente Amplio", podemos: "Podemos", "democracia-21": "Democracia 21" };
 export const partyShort = (id: string) => SHORT[id] ?? id;
 
 const COLS = ["id", "partido", "tema", "medida", "cita_literal", "fuente_url", "fuente_titulo", "fuente_fecha", "tipo_fuente", "nivel", "perfiles", "aplicacion_regimen_comun", "aplicacion_pais_vasco_navarra", "aplicacion_canarias", "aplicacion_ceuta_melilla", "datos_actualizados"];
@@ -30,7 +30,7 @@ export function promesasDatasetJsonLd() {
     "@context": "https://schema.org",
     "@type": "Dataset",
     name: exp.name,
-    description: `Medidas anunciadas por PP, PSOE, Vox, Frente Amplio y Podemos para las elecciones generales del 29 de noviembre de 2026, con cita literal, enlace a la fuente, fecha, tipo de fuente y cómo se aplicaría cada medida según el régimen territorial (común, foral, Canarias, Ceuta y Melilla). Los partidos sin programa publicado figuran como «pendiente de programa».`,
+    description: `Medidas y declaraciones fechadas de PP, PSOE, Vox, Frente Amplio, Podemos y Democracia 21 para las elecciones generales del 29 de noviembre de 2026 (notas oficiales, mítines y actos), con cita literal, enlace a la fuente, fecha, tipo de fuente y cómo se aplicaría cada medida según el régimen territorial (común, foral, Canarias, Ceuta y Melilla). Los partidos sin programa publicado figuran como «pendiente de programa».`,
     url: `${SITE_ORIGIN}/elecciones/promesas`,
     dateModified: exp.updated,
     temporalCoverage: `2026-01-01/${exp.updated}`,

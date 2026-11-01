@@ -59,11 +59,11 @@ describe("guías de actualidad 6 de octubre de 2026", () => {
     expect(coalition).toContain("Registro de Partidos Políticos");
     expect(coalition).toContain("artículo 44.2");
     expect(coalition).toContain("https://infoelectoral.interior.gob.es/es/proceso-electoral/preguntas-frecuentes/candidatos-y-candidaturas/");
-    expect(getGuideByPath("/elecciones/nuevo-partido-coalicion")?.faqs?.[1]?.a).toContain("no nombra a nadie");
+    expect(getGuideByPath("/elecciones/nuevo-partido-coalicion")?.faqs?.[1]?.a).toContain("Ada Colau");
 
     const strike = renderGuideHtml("/elecciones/huelga-general-sindicatos");
     expect(strike).toContain("24 horas");
-    expect(strike).toContain("no fija el día");
+    expect(strike).toContain("11 de noviembre");
     expect(strike).toContain("cinco días naturales");
     expect(strike).toContain("29 de noviembre de 2026");
     expect(strike).toContain("https://ugt.es/ugt-y-ccoo-acuerdan-la-convocatoria-de-una-huelga-general-este-otono");

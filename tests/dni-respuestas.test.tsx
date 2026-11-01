@@ -14,7 +14,7 @@ describe("/dni respuestas directas (2026-10-13)", () => {
     const quick = html.indexOf("data-dni-quick");
     expect(quick).toBeGreaterThan(0);
     expect(quick).toBeLessThan(html.indexOf("tasas-documentos"));
-    expect(html).toContain("Precio del DNI 2026: 12 €");
+    expect(html).toContain("precio del DNI 2026: 12 €");
     expect(html).toContain("No se renueva por internet");
   });
   it("emits FAQPage JSON-LD matching visible FAQs", () => {
@@ -26,7 +26,7 @@ describe("/dni respuestas directas (2026-10-13)", () => {
     for (const href of ["/dni/cita-previa", "/pasaporte", "/descargas", "/elecciones/dni-caducado-votar"]) expect(html).toContain(`href="${href}"`);
   });
   it("keeps titles frozen and links /pasaporte and /dni/cita-previa back to /dni", () => {
-    expect(PACK_DOCUMENT_HEADINGS.viaje).toBe("Tasa DNI y pasaporte 2026 en España: 12 € y 30 €, cita previa");
+    expect(PACK_DOCUMENT_HEADINGS.viaje).toBe("Tasas DNI y pasaporte España 2026: 12 € y 30 €, cita previa");
     const pas = renderToStaticMarkup(<PackIndex pack="viaje" focus="pasaporte" />);
     expect(pas).toContain('href="/dni"');
     expect(pas).not.toContain("data-dni-quick");

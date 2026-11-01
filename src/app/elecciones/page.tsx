@@ -2,9 +2,9 @@ import { PackIndex } from "@/components/tramites/PackIndex";
 import { pageMetadata } from "@/lib/seo/meta";
 
 export const metadata = pageMetadata({
-  title: "Elecciones del 29 de noviembre de 2026: voto por correo y plazos",
+  title: "Elecciones 29-N: Pedro Sánchez irá a The Wild Project y más",
   description:
-    "Voto por correo: solicitud hasta el 19 de noviembre y envío hasta el 25 (calendario de la Junta Electoral Central). Censo: reclamaciones del 12 al 19 de octubre.",
+    "Pedro Sánchez irá a The Wild Project de Jordi Wild: qué es, cuándo sale y cómo verlo. Y el 29-N: voto por correo, mesas, campaña y qué propone cada partido.",
   path: "/elecciones",
 });
 

@@ -1,0 +1,130 @@
+import { PageShell } from "@/components/ui/PageShell";
+import { JsonLd } from "@/components/empadronamiento/JsonLd";
+import { pageMetadata } from "@/lib/seo/meta";
+import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
+import { SITE_ORIGIN } from "@/lib/types";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Quiénes somos: Equipo RutaTrámite",
+  description:
+    "RutaTrámite es un proyecto informativo independiente, sin relación con ninguna administración ni partido. Método editorial, fuentes oficiales y cómo corregimos errores.",
+  path: "/quienes-somos",
+});
+
+export default function QuienesSomosPage() {
+  return (
+    <PageShell as="article" className="space-y-4">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "AboutPage",
+          "@id": `${SITE_ORIGIN}/quienes-somos#page`,
+          name: "Quiénes somos",
+          url: `${SITE_ORIGIN}/quienes-somos`,
+          inLanguage: "es-ES",
+          about: { "@id": `${SITE_ORIGIN}#organization` },
+        }}
+      />
+      <JsonLd data={breadcrumbJsonLd([{ name: "Inicio", path: "/" }, { name: "Quiénes somos", path: "/quienes-somos" }])} />
+      <h1 className="font-display text-4xl">Quiénes somos</h1>
+      <p>
+        RutaTrámite es un proyecto informativo independiente. Explicamos trámites, ayudas y
+        procesos electorales en España con enlaces a la fuente oficial de cada dato. Las guías
+        las firma el Equipo RutaTrámite.
+      </p>
+      <p>
+        No somos una Administración Pública ni un despacho de abogados, y no tenemos relación
+        con ningún organismo público ni con ningún partido político. Los trámites se hacen
+        siempre en la sede oficial del organismo responsable.
+      </p>
+      <h2 className="pt-4 text-2xl font-semibold">Método editorial</h2>
+      <ul className="list-disc space-y-2 pl-5">
+        <li>
+          Fuentes oficiales: BOE, INE, ministerios, sedes electrónicas y boletines autonómicos.
+          Cada guía enlaza las fuentes que usa.
+        </li>
+        <li>
+          Neutralidad en contenido electoral: los partidos aparecen ordenados por sus votos en
+          las elecciones generales de 2023 y se describen sin adjetivos valorativos.
+        </li>
+        <li>No publicamos cifras, citas ni datos que no podamos atribuir a una fuente.</li>
+        <li>
+          Cada guía muestra su fecha de revisión o de actualización. Qué significa cada fecha lo
+          explicamos en <a className="underline" href="/metodologia">Cómo verificamos</a>, y la
+          lista de referencias está en <a className="underline" href="/fuentes">Fuentes</a>.
+        </li>
+      </ul>
+      <h2 id="como-revisamos" className="pt-4 text-2xl font-semibold">Cómo revisamos una página, paso a paso</h2>
+      <p>
+        Este es el proceso que seguimos, con ejemplos reales de la última revisión de fichas de
+        padrón y guías electorales (1 de noviembre de 2026):
+      </p>
+      <ol className="list-decimal space-y-2 pl-5">
+        <li>
+          <strong>Abrimos la fuente oficial y comprobamos que responde.</strong> Si la sede devuelve
+          un error o bloquea la consulta, no cambiamos la fecha de revisión de esa página. Por
+          ejemplo, las sedes del Ayuntamiento de Madrid devolvieron un error de acceso (403) a nuestra comprobación ese
+          día, así que su ficha conserva la fecha anterior.
+        </li>
+        <li>
+          <strong>Copiamos el dato tal como lo publica el organismo.</strong> Un ejemplo: València
+          exige un contrato de alquiler de más de 6 meses y Barcelona, de más de 3. Son reglas
+          distintas y cada ficha recoge la de su ayuntamiento, con el enlace a la página donde aparece.
+        </li>
+        <li>
+          <strong>Miramos la fecha del propio documento.</strong> La lista de colegios electorales
+          que enlaza una oficina municipal de Zaragoza es un PDF de 2005. No la usamos como dato
+          para el 29-N: avisamos de que está desfasada.
+        </li>
+        <li>
+          <strong>Si no podemos comprobarlo, lo decimos.</strong> Las fichas municipales sin
+          requisitos locales verificados muestran el aviso «Pendiente de verificación local» y no
+          las incluimos en el mapa del sitio.
+        </li>
+        <li>
+          <strong>Fechamos y firmamos.</strong> Cada bloque revisado indica «Por Equipo
+          RutaTrámite» y la fecha en que se contrastó con la fuente.
+        </li>
+      </ol>
+      <p className="text-sm text-ink/70">
+        Última revisión de esta página: <time dateTime="2026-11-01">1 de noviembre de 2026</time> ·
+        Equipo RutaTrámite. Más detalle en <a className="underline" href="/metodologia">Cómo verificamos</a> y{" "}
+        <a className="underline" href="/fuentes">Fuentes</a>.
+      </p>
+      <h2 className="pt-4 text-2xl font-semibold">Qué cubrimos</h2>
+      <ul className="list-disc space-y-2 pl-5">
+        <li>
+          <a className="underline" href="/empadronarse">Empadronamiento</a>: requisitos, documentos y
+          oficinas por municipio. Cuando un ayuntamiento publica datos propios en su sede, los
+          revisamos uno a uno y lo indicamos en la ficha.
+        </li>
+        <li>
+          <a className="underline" href="/elecciones">Elecciones</a>: plazos, voto por correo,
+          mesas electorales y reparto de escaños, a partir de la LOREG y del real decreto de
+          convocatoria.
+        </li>
+        <li>
+          <a className="underline" href="/becas">Becas</a>,{" "}
+          <a className="underline" href="/extranjeria">extranjería</a>,{" "}
+          <a className="underline" href="/bebe">nacimiento y crianza</a> y otros trámites
+          habituales, con la convocatoria o la norma que se aplica en cada caso.
+        </li>
+      </ul>
+      <h2 className="pt-4 text-2xl font-semibold">Lo que no hacemos</h2>
+      <p>
+        No presentamos solicitudes en nombre de nadie, no cobramos por tramitar y no damos
+        asesoramiento jurídico individual. Si un caso depende de circunstancias personales, la
+        respuesta válida es la del organismo que resuelve. Por eso cada guía enlaza su sede o su
+        teléfono oficial.
+      </p>
+      <h2 id="correcciones" className="pt-4 text-2xl font-semibold">Cómo corregimos errores</h2>
+      <p>
+        Si encuentras un dato incorrecto o desactualizado, escríbenos desde{" "}
+        <a className="underline" href="/contacto">Contacto</a> con el enlace de la página y, si la
+        tienes, la fuente oficial. Revisamos el dato contra la fuente, corregimos la guía y
+        actualizamos su fecha.
+      </p>
+    </PageShell>
+  );
+}

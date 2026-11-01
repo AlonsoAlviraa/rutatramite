@@ -11,6 +11,9 @@ import { Metrics } from "@/components/ui/Metrics";
 /** Umami (sin cookies) servido en el mismo origen vía Caddy /stats. Inactivo si no se define NEXT_PUBLIC_UMAMI_WEBSITE_ID en el build. */
 const UMAMI_WEBSITE_ID = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID;
 
+/** Google AdSense (cuenta de alonso.alvbal@gmail.com). Sin bloques manuales: los anuncios automáticos se activan desde el panel de AdSense. */
+const ADSENSE_CLIENT = "ca-pub-5984256473146677";
+
 const sans = Public_Sans({
   subsets: ["latin"],
   variable: "--font-source-sans",
@@ -70,6 +73,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className={`${sans.variable} ${display.variable}`}>
+      <head>
+        <meta name="google-adsense-account" content={ADSENSE_CLIENT} />
+        <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`} crossOrigin="anonymous" />
+      </head>
       <body className="min-h-screen font-sans antialiased">
         <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
         <a className="skip-link" href="#contenido" tabIndex={0}>

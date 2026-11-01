@@ -38,7 +38,7 @@ export async function generateMetadata({
     description: model.description,
     path: `/empadronarse/${c.slug}/${p.slug}`,
     type: "article",
-    modified: HUB_REVIEWED_AT,
+    modified: model.reviewedAt,
     index: isProvinciaIndexable(c.slug, p.slug),
   });
 }

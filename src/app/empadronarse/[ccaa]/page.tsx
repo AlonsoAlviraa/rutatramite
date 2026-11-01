@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ ccaa: str
     description: model.description,
     path: `/empadronarse/${c.slug}`,
     type: "article",
-    modified: HUB_REVIEWED_AT,
+    modified: model.reviewedAt,
   });
 }
 

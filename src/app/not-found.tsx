@@ -20,7 +20,7 @@ export default function NotFound() {
         No encontramos esta dirección. Puedes buscar la guía que necesitas o volver al directorio.
       </p>
       <NotFoundSearch />
-      <p className="mt-6"><a className="font-semibold underline underline-offset-4" href="/#tramites">Ver todos los trámites</a></p>
+      <p className="mt-6"><a className="inline-flex min-h-11 items-center font-semibold underline underline-offset-4" href="/#tramites">Ver todos los trámites</a></p>
     </PageShell>
   );
 }

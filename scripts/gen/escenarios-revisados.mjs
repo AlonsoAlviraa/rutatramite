@@ -2,21 +2,11 @@ import fs from "node:fs";
 
 export const REVIEWS = JSON.parse(fs.readFileSync(new URL("../../src/lib/data/escenarios-revisados.json", import.meta.url), "utf8"));
 
-function stripHtmlComments(input) {
-  let previous = "";
-  let current = input;
-  while (current !== previous) {
-    previous = current;
-    current = current.replace(/<!--[\s\S]*?-->/g, "");
-  }
-  return current;
-}
-
 /** Manual revisions replace length targets with an explicit editorial contract. */
 export function validateReviewed(slug, raw) {
   const review = REVIEWS[slug];
   if (!review) throw new Error(`No reviewed profile: ${slug}`);
-  const md = stripHtmlComments(raw.replace(/\r\n/g, "\n")).trim();
+  const md = raw.replace(/\r\n/g, "\n").replace(/<!--[\s\S]*?-->/g, "").trim();
   const errors = [];
   if (!md.startsWith(`# ${review.h1}\n`)) errors.push("H1 revisado ausente");
   const headings = [...md.matchAll(/^## (.+)$/gm)].map(m => m[1]);

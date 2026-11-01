@@ -54,6 +54,17 @@ export type GuideSection = {
   models?: GuideModelBlock[];
   /** Optional data table; the last column links each row to its source. */
   table?: GuideTable;
+  /** Optional static inline SVG chart (no JS). Values come from the section table or cited sources. */
+  chart?: GuideChart;
+};
+
+export type GuideChart = {
+  caption: string;
+  /** "bars": signed values from 0; "ranges": min–max bar with optional marker. */
+  kind: "bars" | "ranges";
+  unit: string;
+  rows: { label: string; value?: number; min?: number; max?: number; marker?: number; markerLabel?: string; group?: string }[];
+  note?: string;
 };
 
 export type GuideCta = { href: string; label: string };
@@ -76,4 +87,6 @@ export type Guide = {
   related: { href: string; label: string }[];
   /** Optional guide-specific notice; the default is independent of the topic. */
   disclaimer?: string;
+  /** Optional schema.org Dataset JSON-LD for original data studies. */
+  dataset?: Record<string, unknown>;
 };

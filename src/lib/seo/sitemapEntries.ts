@@ -30,6 +30,7 @@ const STATIC_HUBS = [
   "/recursos",
   "/recursos/padron-municipal",
   "/descargas",
+  "/quienes-somos",
   "/metodologia",
   "/fuentes",
   "/aviso-legal",

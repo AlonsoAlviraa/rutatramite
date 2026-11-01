@@ -190,6 +190,21 @@ export function buildPilarModel() {
       paragraphs: [
         "Elige la guía que corresponde a tu caso y contrasta sus indicaciones con el procedimiento municipal.",
       ],
+      links: [
+        { href: "/empadronarse/documentos-necesarios", label: "Documentos necesarios para empadronarse" },
+        { href: "/empadronarse/cuanto-tarda-plazo", label: "Cuánto tarda: plazo de 3 meses y silencio positivo" },
+        { href: "/empadronarse/padron-y-voto-29n", label: "Padrón y voto el 29-N" },
+        { href: "/empadronarse/formulario-empadronamiento-madrid", label: "Formulario de empadronamiento en Madrid" },
+        { href: "/empadronarse/formulario-empadronamiento-barcelona", label: "Formulario de empadronamiento en Barcelona" },
+        { href: "/empadronarse/formulario-empadronamiento-sevilla", label: "Formulario de empadronamiento en Sevilla" },
+        { href: "/empadronarse/formulario-empadronamiento-zaragoza", label: "Formulario de empadronamiento en Zaragoza" },
+        { href: "/empadronarse/formulario-empadronamiento-malaga", label: "Formulario de empadronamiento en Málaga" },
+        { href: "/empadronarse/formulario-empadronamiento-valencia", label: "Formulario de empadronamiento en Valencia" },
+        { href: "/empadronarse/formulario-empadronamiento-alicante", label: "Formulario de empadronamiento en Alicante" },
+        { href: "/empadronarse/formulario-empadronamiento-murcia", label: "Formulario de empadronamiento en Murcia" },
+        { href: "/empadronarse/formulario-empadronamiento-palma", label: "Formulario de empadronamiento en Palma" },
+        { href: "/elecciones/cambio-de-domicilio-y-censo", label: "Me he mudado: ¿dónde voto el 29-N?" },
+      ],
     },
     {
       id: "cobertura",

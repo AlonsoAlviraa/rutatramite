@@ -43,7 +43,7 @@ export function FichaView({ model }: { model: FichaModel }) {
       {m.evidence && <section className="mt-6 space-y-2" aria-labelledby="revision-local"><h2 id="revision-local" className="font-display text-2xl">Qué hemos comprobado</h2>
         <p>La comprobación corresponde al alta. Los certificados, cambios y renovaciones pueden tener otros requisitos.</p>
         <ul className="list-disc pl-5">{Object.entries(m.evidence).map(([field, e]) => <li key={field}><a className="underline" href={e.source_url}>{({ alta: "Procedimiento de alta", docs_extra: "Documentación", canal: "Canales de presentación", cita: "Cita y atención", certificado: "Certificados" } as Record<string,string>)[field] ?? field}</a> · <time dateTime={e.checked_at}>{e.checked_at}</time></li>)}</ul>
-        <p><a className="underline" href="/recursos/padron-municipal">Comparar municipios y descargar los datos con fuentes</a></p>
+        <p><a className="inline-flex min-h-11 items-center underline" href="/recursos/padron-municipal">Comparar municipios y descargar los datos con fuentes</a></p>
       </section>}
 
       <TableOfContents items={[...model.sections, { id: "howto", title: "Paso a paso" }, { id: "faq", title: "Preguntas frecuentes" }, { id: "vecinos", title: "Municipios y casos relacionados" }]} />
@@ -71,7 +71,7 @@ export function FichaView({ model }: { model: FichaModel }) {
                   {t.rows.map((row, ri) => (
                     <tr key={ri}>
                       {row.map((cell, ci) => (
-                        <td key={ci}>{cell}</td>
+                        <td key={ci} data-label={t.headers[ci]}>{cell}</td>
                       ))}
                     </tr>
                   ))}
