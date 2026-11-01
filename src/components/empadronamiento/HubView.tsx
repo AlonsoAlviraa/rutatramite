@@ -9,6 +9,7 @@ import { ccaaPath, provinciaPath } from "@/lib/geo/paths";
 import { articleJsonLd } from "@/lib/seo/jsonld";
 import { ccaaBySlug, loadTerritories } from "@/lib/geo/territories";
 import { CIUDADES_AUTONOMAS_PADRON } from "@/lib/hub/ciudadesAutonomas";
+import { GUIA_REGIONAL } from "@/lib/hub/guiaRegional-20261101";
 
 const RELATED_ESCENARIOS = [
   { href: "/empadronarse/sin-contrato", label: "Sin contrato" },
@@ -39,7 +40,8 @@ export function HubView({
   const top = model.municipios.slice(0, 10);
   const rest = model.municipios.slice(10);
   const ciudad = !provinceSlug ? CIUDADES_AUTONOMAS_PADRON[ccaaSlug] : undefined;
-  const dateModified = ciudad?.reviewedOn ?? model.reviewedAt ?? HUB_REVIEWED_AT;
+  const guia = !provinceSlug ? GUIA_REGIONAL[ccaaSlug] : undefined;
+  const dateModified = guia?.reviewedOn ?? ciudad?.reviewedOn ?? model.reviewedAt ?? HUB_REVIEWED_AT;
   const provinces = provinceSlug ? [] : (ccaaBySlug(ccaaSlug)?.province_codes ?? []).map(code => loadTerritories().provinces[code]).filter(Boolean);
   return (
     <PageShell as="article" data-hub={model.kind}>
@@ -137,6 +139,25 @@ export function HubView({
               </p>
             </div>
           ))}
+        </section>
+      ) : null}
+      {guia ? (
+        <section aria-labelledby="hub-guia" className="mt-10" data-hub-guia={ccaaSlug}>
+          <h2 id="hub-guia" className="font-display text-2xl text-mossDark">{guia.titulo}</h2>
+          {guia.intro.map((p, i) => <p key={i} className="mt-3 leading-relaxed">{p}</p>)}
+          {guia.ciudades.map((c) => (
+            <div key={c.ficha} className="mt-6 break-words">
+              <h3 className="font-display text-xl text-mossDark"><a className="underline underline-offset-4" href={c.ficha}>{c.nombre}</a></h3>
+              <ul className="mt-2 list-disc space-y-1 pl-5">{c.datos.map((d, i) => <li key={i}>{d}</li>)}</ul>
+              <p className="mt-2 text-sm">{c.fuentes.map((l, i) => <span key={l.href}>{i ? " · " : ""}<a className="inline-flex min-h-11 items-center underline underline-offset-4" href={l.href} rel="noopener">{l.label}</a></span>)}</p>
+            </div>
+          ))}
+          <h3 className="mt-6 font-display text-xl text-mossDark">{guia.ejemplo.titulo}</h3>
+          <ol className="mt-2 list-decimal space-y-1 pl-5">{guia.ejemplo.pasos.map((p, i) => <li key={i}>{p}</li>)}</ol>
+          <h3 className="mt-6 font-display text-xl text-mossDark">Preguntas frecuentes</h3>
+          {guia.faqs.map((f, i) => <div key={i} className="mt-3"><p className="font-semibold">{f.q}</p><p className="leading-relaxed">{f.a}</p></div>)}
+          <p className="mt-4 text-sm">{guia.enlaces.map((l, i) => <span key={l.href}>{i ? " · " : ""}<a className="inline-flex min-h-11 items-center underline underline-offset-4" href={l.href}>{l.label}</a></span>)}</p>
+          <p className="mt-2 text-sm text-ink/70">Por Equipo RutaTrámite · revisado el <time dateTime={guia.reviewedOn}>{guia.reviewedOn}</time> contra las fuentes oficiales enlazadas.</p>
         </section>
       ) : null}
       <h2 className="mt-10 font-display text-2xl text-mossDark">Situaciones frecuentes</h2>

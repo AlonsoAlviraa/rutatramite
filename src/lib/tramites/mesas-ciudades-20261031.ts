@@ -14,6 +14,7 @@ import type { Guide, GuideSection } from "@/lib/tramites/types";
 const sec = (id: string, title: string, paragraphs: string[], lists?: string[][]): GuideSection => ({ id, title, paragraphs, ...(lists ? { lists } : {}) });
 const by = (fuente: string) => sec("byline", "Autoría y revisión", [`Por Equipo RutaTrámite. Última revisión: 31 de octubre de 2026, con ${fuente}.`]);
 
+const AR_MESAS = { href: "https://www.aragon.es/portal-de-elecciones/mesas-electorales", label: "Gobierno de Aragón: portal de elecciones, mesas electorales" };
 const INE_MESAS = { href: "https://sede.ine.gob.es/tramite/consulta_mesas_locales/", label: "Sede del INE: consulta de mesas y locales electorales (sin identificación)" };
 const INE_CLAVE = { href: "https://sede.ine.gob.es/tramite/censo_electoral/", label: "Sede del INE: consulta de inscripción en el censo con Cl@ve (muestra tu mesa)" };
 const INE_NOTA = { href: "https://www.ine.es/dyngs/Prensa/es/EG2026.htm", label: "INE: nota de prensa de la Oficina del Censo Electoral para el 29-N" };
@@ -201,14 +202,14 @@ export const MESAS_CIUDADES_1031_GUIDES: Guide[] = [
     ],
   },
   {
-    id: "mesa-electoral-zaragoza", pack: "elecciones", reviewedAt: "2026-10-31", path: P("zaragoza"),
+    id: "mesa-electoral-zaragoza", pack: "elecciones", reviewedAt: "2026-11-01", path: P("zaragoza"),
     h1: "¿En qué mesa electoral voto en Zaragoza? Dónde mirarlo",
     title: "Mesa electoral en Zaragoza el 29-N: dónde mirar tu colegio",
     description: "En Zaragoza tu colegio sale en la tarjeta censal y en el INE; la Oficina de Información Electoral de Domingo Miral 3 (976 721 777) te lo dice.",
     lead: "Respuesta corta: tu mesa y tu colegio en Zaragoza los dice la tarjeta censal, que el INE envía desde el 2 de noviembre. También los puedes ver en la consulta del INE por dirección, sin identificarte, o con Cl@ve. En persona, la Oficina de Información Electoral del Ayuntamiento (calle Domingo Miral 3, teléfono 976 721 777) informa del colegio con el DNI, pasaporte, carné de conducir o tarjeta de residencia originales.",
     cta: INE_MESAS,
     secondaryCta: ZA_OIE,
-    sources: [ZA_HUB, ZA_OIE, ZA_JEZ, INE_MESAS, INE_CLAVE, INE_NOTA, JEC_CAL],
+    sources: [ZA_HUB, ZA_OIE, ZA_JEZ, INE_MESAS, INE_CLAVE, INE_NOTA, JEC_CAL, AR_MESAS],
     related: [...relComunes(P("zaragoza")), { href: "/empadronarse/formulario-empadronamiento-zaragoza", label: "Empadronarse en Zaragoza: formulario" }],
     disclaimer: disc("Zaragoza"),
     faqs: [
@@ -216,10 +217,12 @@ export const MESAS_CIUDADES_1031_GUIDES: Guide[] = [
       { q: "¿Con qué censo se vota en Zaragoza?", a: "Con el cerrado el 1 de agosto de 2026, que recoge los movimientos del padrón hasta el 30 de julio, según la página municipal de estas elecciones." },
       { q: "¿Puedo ver mi inscripción en el censo por internet?", a: "Sí, en la carpeta ciudadana del Ayuntamiento con certificado electrónico o Cl@ve, o en la sede del INE, que además muestra tu mesa y la dirección del local." },
       { q: "¿Dónde está la Junta Electoral de Zona de Zaragoza?", a: "En la Ciudad de la Justicia, edificio Fueros de Aragón, avenida Ranillas 89-97, escalera A, planta 3 (50071); teléfono 976 208 631, según el directorio de la JEC." },
+      { q: "¿Me sirve la lista de colegios del Ayuntamiento o la del Gobierno de Aragón?", a: "No para el 29-N. El PDF de colegios enlazado por la Oficina de Información Electoral es de 2005 y el listado del portal de Aragón corresponde a las autonómicas del 8 de febrero de 2026. Consulta tu tarjeta censal o el INE." },
+      { q: "Me empadroné en Zaragoza en septiembre. ¿Dónde voto?", a: "En tu municipio o domicilio anterior: el censo de estas elecciones recoge los movimientos del padrón hasta el 30 de julio de 2026." },
       { q: "¿Y la Delegación del Censo Electoral?", a: "La Delegación Provincial del INE está en la calle Albareda 1; teléfonos 976 590 297 y 900 343 232, según la página municipal." },
     ],
     sections: [
-      by("la página del Ayuntamiento de Zaragoza sobre las elecciones del 29-N, la ficha de su Oficina de Información Electoral, la nota del INE y el directorio de la JEC"),
+      sec("byline", "Autoría y revisión", ["Por Equipo RutaTrámite. Última revisión: 1 de noviembre de 2026, con la página del Ayuntamiento de Zaragoza sobre las elecciones del 29-N, la ficha de su Oficina de Información Electoral, la página de mesas electorales del Gobierno de Aragón, la nota del INE y el directorio de la JEC."]),
       sec("como-mirarlo", "Cómo ver tu colegio en Zaragoza", [], [[
         "Tarjeta censal: llega desde el 2 de noviembre con tu mesa y tu local.",
         "INE sin identificarte: consulta de mesas y locales con provincia Zaragoza, municipio Zaragoza y tu dirección.",
@@ -227,10 +230,24 @@ export const MESAS_CIUDADES_1031_GUIDES: Guide[] = [
         "En persona: Oficina de Información Electoral, calle Domingo Miral 3 (976 721 777), con documento original.",
       ]]),
       sec("censo", "El censo en Zaragoza: ya es definitivo", [
-        "El Ayuntamiento expuso el censo del 12 al 19 de octubre en las Juntas Municipales y Vecinales,, en la Casa Consistorial (plaza del Pilar) y en el Padrón de la calle Domingo Miral 3. Terminado ese plazo, la página municipal indica que el censo es definitivo; para consultas, el 010 (976 721 234 desde fuera).",
+        "El Ayuntamiento expuso el censo del 12 al 19 de octubre en las Juntas Municipales y Vecinales, en la Casa Consistorial (plaza del Pilar) y en el Padrón de la calle Domingo Miral 3. Terminado ese plazo, la página municipal indica que el censo es definitivo; para consultas, el 010 (976 721 234 desde fuera).",
       ]),
+      sec("listas-antiguas", "Dos listas de colegios que no sirven para el 29-N", [
+        "Si buscas «colegios electorales Zaragoza» te puedes encontrar con dos listados oficiales que no corresponden a estas elecciones. Úsalos solo como referencia histórica:",
+      ], [[
+        "La «Relación de Colegios Electorales» enlazada desde la ficha de la Oficina de Información Electoral es un PDF creado en enero de 2005, según sus propios metadatos. Algunos locales han podido cambiar desde entonces.",
+        "El portal de elecciones del Gobierno de Aragón (actualizado el 14 de octubre de 2026) publica secciones, mesas y locales de la provincia de Zaragoza, pero son los de las autonómicas del 8 de febrero de 2026, no los de las generales del 29-N.",
+        "Para el 29-N, lo fiable es la tarjeta censal o la consulta del INE por dirección.",
+      ]]),
+      sec("ejemplo", "Caso resuelto: te mudaste de Delicias a Actur en agosto", [], [[
+        "Situación: cambiaste tu domicilio en el padrón el 20 de agosto de 2026.",
+        "Censo aplicable: el de 1 de agosto, con movimientos del padrón hasta el 30 de julio. Tu cambio llegó después, así que el 29-N figuras en tu domicilio anterior.",
+        "Resultado: votas en la mesa que corresponde a tu dirección de Delicias, aunque ya vivas en Actur.",
+        "Cómo confirmarlo: la tarjeta censal que envía el INE desde el 2 de noviembre o la consulta del INE con tu dirección anterior.",
+        "El plazo para reclamar al censo (12 al 19 de octubre) ya está cerrado.",
+      ]]),
       sec("mesas", "Si te toca ser miembro de mesa", [
-        "Las excusas se presentan ante la Junta Electoral de Zona de Zaragoza (Ciudad de la Justicia, avenida Ranillas 89-97; 976 208 631). Tienes 7 días desde la notificación, según el calendario de la JEC.",
+        "El Ayuntamiento elige por sorteo público a un presidente y dos vocales por mesa, y a dos suplentes por cada uno; según el portal de elecciones de Aragón, la notificación se hace en un plazo de 3 días desde el sorteo. Las excusas se presentan ante la Junta Electoral de Zona de Zaragoza (Ciudad de la Justicia, avenida Ranillas 89-97; 976 208 631). Tienes 7 días desde la notificación, según el calendario de la JEC.",
       ]),
       PLAZOS(),
     ],

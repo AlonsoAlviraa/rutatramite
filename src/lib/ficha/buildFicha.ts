@@ -3,6 +3,7 @@ import { isFichaIndexable } from "@/lib/seo/localSignals";
 import { fichaSeo } from "@/lib/seo/meta";
 import type { Municipio, MunicipioIndexEntry } from "@/lib/types";
 import { DISCLAIMER_SHORT, ESCENARIO_LABELS, PRODUCT_NAME } from "@/lib/types";
+import { GUIAS_LOCALES } from "./guiasLocales-20261101";
 
 export type FaqItem = { q: string; a: string };
 export type HowToStep = { name: string; text: string };
@@ -392,6 +393,19 @@ function resumenLocal(m: Municipio): FichaSection | null {
   };
 }
 
+function guiaLocal(m: Municipio): FichaSection | null {
+  const g = GUIAS_LOCALES[m.ine_code];
+  if (!g) return null;
+  return {
+    id: "guia-local",
+    title: `Empadronarse en ${m.name}: lo que cambia respecto a otras ciudades`,
+    paragraphs: [...g.intro, `Por Equipo RutaTrámite · revisado el ${g.reviewedOn} contra las fuentes oficiales enlazadas.`],
+    lists: [[g.ejemplo.titulo, ...g.ejemplo.pasos]],
+    tables: [{ caption: `Datos oficiales comprobados el ${g.reviewedOn}`, headers: ["Dato", "Qué dice la fuente", "Fuente"], rows: g.datos.map((r) => [...r]) }],
+    links: g.enlaces,
+  };
+}
+
 export function buildFichaModel(m: Municipio, index: MunicipioIndexEntry[]): FichaModel {
   const nb = neighborsOf(m, index);
   const canal = canalPhrase(m);
@@ -407,7 +421,9 @@ export function buildFichaModel(m: Municipio, index: MunicipioIndexEntry[]): Fic
   }));
 
   const local = resumenLocal(m);
+  const guia = guiaLocal(m);
   const sections: FichaSection[] = [
+    ...(guia ? [guia] : []),
     ...(local ? [local] : []),
     {
       id: "que-es",
@@ -496,7 +512,7 @@ export function buildFichaModel(m: Municipio, index: MunicipioIndexEntry[]): Fic
   ];
 
   const ht = howto(m);
-  const faqItems = faqs(m);
+  const faqItems = [...(GUIAS_LOCALES[m.ine_code]?.faqs ?? []), ...faqs(m)];
   const jsonld: unknown[] = [
     {
       "@context": "https://schema.org",

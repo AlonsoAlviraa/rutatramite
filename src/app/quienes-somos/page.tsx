@@ -55,6 +55,43 @@ export default function QuienesSomosPage() {
           lista de referencias está en <a className="underline" href="/fuentes">Fuentes</a>.
         </li>
       </ul>
+      <h2 id="como-revisamos" className="pt-4 text-2xl font-semibold">Cómo revisamos una página, paso a paso</h2>
+      <p>
+        Este es el proceso que seguimos, con ejemplos reales de la última revisión de fichas de
+        padrón y guías electorales (1 de noviembre de 2026):
+      </p>
+      <ol className="list-decimal space-y-2 pl-5">
+        <li>
+          <strong>Abrimos la fuente oficial y comprobamos que responde.</strong> Si la sede devuelve
+          un error o bloquea la consulta, no cambiamos la fecha de revisión de esa página. Por
+          ejemplo, las sedes del Ayuntamiento de Madrid devolvieron un error de acceso (403) a nuestra comprobación ese
+          día, así que su ficha conserva la fecha anterior.
+        </li>
+        <li>
+          <strong>Copiamos el dato tal como lo publica el organismo.</strong> Un ejemplo: València
+          exige un contrato de alquiler de más de 6 meses y Barcelona, de más de 3. Son reglas
+          distintas y cada ficha recoge la de su ayuntamiento, con el enlace a la página donde aparece.
+        </li>
+        <li>
+          <strong>Miramos la fecha del propio documento.</strong> La lista de colegios electorales
+          que enlaza una oficina municipal de Zaragoza es un PDF de 2005. No la usamos como dato
+          para el 29-N: avisamos de que está desfasada.
+        </li>
+        <li>
+          <strong>Si no podemos comprobarlo, lo decimos.</strong> Las fichas municipales sin
+          requisitos locales verificados muestran el aviso «Pendiente de verificación local» y no
+          las incluimos en el mapa del sitio.
+        </li>
+        <li>
+          <strong>Fechamos y firmamos.</strong> Cada bloque revisado indica «Por Equipo
+          RutaTrámite» y la fecha en que se contrastó con la fuente.
+        </li>
+      </ol>
+      <p className="text-sm text-ink/70">
+        Última revisión de esta página: <time dateTime="2026-11-01">1 de noviembre de 2026</time> ·
+        Equipo RutaTrámite. Más detalle en <a className="underline" href="/metodologia">Cómo verificamos</a> y{" "}
+        <a className="underline" href="/fuentes">Fuentes</a>.
+      </p>
       <h2 className="pt-4 text-2xl font-semibold">Qué cubrimos</h2>
       <ul className="list-disc space-y-2 pl-5">
         <li>
