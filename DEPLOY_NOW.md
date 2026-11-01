@@ -1,9 +1,9 @@
-# Deploy now (slot2) — actualizado 2026-10-31
+# Deploy now (slot2) — actualizado 2026-11-01
 
 Este archivo sustituye a la versión de PR #2 (SHA `c4976d3…`), que ya no describe producción.
 
-- **Release activa:** `20261031T171213Z` (tag `20261031T1810Z-ave`, build `rEzw0hqXsVF13_xjffytk`, commit `c0f88af` + fechas `ac74d55`, 480 URLs en sitemap): nueva `/transporte/corte-ave-madrid-andalucia-reembolso` y bloques en `/elecciones/voto-por-correo`, `/elecciones/transporte-para-ir-a-votar-29n` y `/elecciones/ficha-tecnica-encuesta`.
-- **Rollback de referencia:** `20261031T141354Z` (anterior: `20261031T133405Z`).
+- **Release activa:** `20261101T100543Z` (tag `20261101T100316Z-calidad-lastmod`, build `Ejs3COjBs4gwu8oObF9cm`, commit `059da53` sobre `251573b`, 480 URLs en sitemap): lote de calidad de 12 páginas (8 fichas de padrón con `guia-local`, hubs `/empadronarse/extremadura` y `/empadronarse/la-rioja`, `/elecciones/mesa-electoral-zaragoza`, `/quienes-somos`).
+- **Rollback de referencia:** `20261101T071125Z` (estado previo al lote; anterior: `20261031T171213Z`).
 - Raíz en el VPS: `/srv/tenants/slot2` (`app` → `releases/<stamp>`, servicio `slot2-app.service`, puerto 8100).
 - No hay credenciales en este repo. Los helpers de acceso leen su propia configuración privada fuera del árbol.
 
