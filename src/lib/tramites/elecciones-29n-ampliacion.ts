@@ -187,7 +187,7 @@ export const AMPLIACION_29N: Record<string, Ampliacion> = {
         lists: [[
           "Votar en persona el 29 de noviembre en tu mesa antigua, de 9:00 a 20:00.",
           "Pedir el voto por correo hasta el 19 de noviembre e indicar tu dirección actual para recibir la documentación.",
-          "Si estás fuera de España una temporada, pedir el voto como temporalmente ausente (ERTA) hasta el 31 de octubre.",
+          "Si estás fuera de España una temporada: el plazo para pedir el voto como temporalmente ausente (ERTA) terminó el 31 de octubre; ahora te queda el voto por correo hasta el 19 de noviembre.",
         ]],
       },
     ],

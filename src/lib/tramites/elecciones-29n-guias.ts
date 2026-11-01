@@ -307,12 +307,13 @@ const BASE_29N_GUIDES: Guide[] = [
   g({
     id: "29n-erta",
     path: "/elecciones/voto-temporalmente-fuera-erta",
+    reviewedAt: "2026-11-01",
     h1: "Votar si estás fuera de España una temporada (ERTA)",
     title: "Votar si estás fuera temporalmente (ERTA)",
     description:
-      "Si vives en España pero estarás fuera el 29-N (Erasmus, trabajo, viaje largo), pide el voto ERTA en el consulado hasta el 31 de octubre de 2026.",
+      "Si vives en España y estarás fuera el 29-N (Erasmus, trabajo, viaje largo), el plazo del voto ERTA en el consulado terminó el 31 de octubre de 2026.",
     lead:
-      "Si sigues empadronado en España pero estás fuera una temporada, puedes votar desde allí como elector temporalmente ausente (ERTA). Te inscribes en el consulado como no residente y pides la documentación con el impreso oficial hasta el 31 de octubre de 2026.",
+      "Si sigues empadronado en España pero estás fuera una temporada, puedes votar desde allí como elector temporalmente ausente (ERTA). Te inscribes en el consulado como no residente y pedías la documentación con el impreso oficial; ese plazo terminó el 31 de octubre de 2026.",
     cta: S.ext,
     secondaryCta: S.erta,
     sources: [S.ext, S.jec, S.erta, S.loreg("asetentaycuatro", "artículo 74: voto de los temporalmente ausentes")],
@@ -326,7 +327,7 @@ const BASE_29N_GUIDES: Guide[] = [
         id: "pasos",
         title: "Pasos",
         paragraphs: ["Exteriores permite hacer las dos gestiones a la vez en el consulado."],
-        lists: [["Inscríbete en el consulado como no residente.", "Presenta el impreso de solicitud de voto ERTA, como muy tarde el 31 de octubre de 2026.", "Recibe la documentación y envía tu voto por correo certificado dentro de plazo."]],
+        lists: [["Inscríbete en el consulado como no residente.", "El impreso de solicitud de voto ERTA se podía presentar hasta el 31 de octubre de 2026 (plazo ya cerrado).", "Recibe la documentación y envía tu voto por correo certificado dentro de plazo."]],
       },
     ],
   }),

@@ -311,7 +311,7 @@ const AMPL: Record<string, Extra> = {
     sections: [
       sec("no-hay-plazo-solicitud", "Importante: no hay plazo para «pedir» el voto CERA", [
         "Antes de 2022 había que solicitar el voto (el llamado «voto rogado») como muy tarde el día 25 después de la convocatoria. La Ley Orgánica 12/2022 cambió el artículo 75 de la LOREG: ahora la Delegación Provincial de la Oficina del Censo Electoral «remitirá de oficio» la documentación a cada persona inscrita en el CERA.",
-        "Si alguien te dice que el plazo para pedir el voto desde el extranjero acaba a finales de octubre, se refiere a la norma antigua o al voto ERTA (quien vive en España y está fuera una temporada), que sí se pide hasta el 31 de octubre de 2026.",
+        "Si alguien te dice que el plazo para pedir el voto desde el extranjero acaba a finales de octubre, se refiere a la norma antigua o al voto ERTA (quien vive en España y está fuera una temporada), cuyo plazo de solicitud terminó el 31 de octubre de 2026.",
       ]),
       {
         id: "calculo-plazos",
@@ -382,7 +382,7 @@ const AMPL: Record<string, Extra> = {
         },
       },
       sec("si-vives-fuera", "Si te has ido a vivir al extranjero", [
-        "Si te diste de alta en el consulado (CERA) antes del cierre del censo, la documentación te llega de oficio; si sigues en el censo de España y solo estás fuera una temporada, puedes pedir el voto ERTA hasta el 31 de octubre de 2026.",
+        "Si te diste de alta en el consulado (CERA) antes del cierre del censo, la documentación te llega de oficio; si sigues en el censo de España y solo estás fuera una temporada, el plazo para pedir el voto ERTA terminó el 31 de octubre de 2026.",
       ]),
     ],
     faqs: [
