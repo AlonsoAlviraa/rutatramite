@@ -10975,6 +10975,18 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 {
 "label": "BOE: Ley 37/1992 del IVA",
 "href": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740"
+},
+{
+"label": "BOE: LOREG, artículo 163.1 (umbral del 3 % y regla D'Hondt)",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#acientosesentaytres"
+},
+{
+"label": "BOE: Estatuto de Autonomía de la Comunidad de Madrid",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1983-6317"
+},
+{
+"label": "BOE: Constitución, artículo 149.1.16 y 149.1.30",
+"href": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a149"
 }
 ],
 "related": [
@@ -11135,7 +11147,7 @@ export const PROMESAS_29N_GUIDES: Guide[] = [
 "id": "competencias",
 "title": "Qué decide el Estado y qué decide tu comunidad",
 "paragraphs": [
-"Régimen fiscal común: el IRPF tiene un tramo estatal y otro autonómico, y el Impuesto de Transmisiones (ITP) de la vivienda usada lo fija la comunidad. Vivienda, educación y sanidad son competencias de la comunidad.",
+"Régimen fiscal común: el IRPF tiene un tramo estatal y otro autonómico, y el Impuesto de Transmisiones (ITP) de la vivienda usada lo fija la comunidad. La Comunidad de Madrid tiene competencia exclusiva en ordenación del territorio, urbanismo y vivienda (artículo 26.1.4 del Estatuto de Autonomía). En enseñanza le corresponde el desarrollo legislativo y la ejecución, con los límites del artículo 27 de la Constitución, de las leyes orgánicas que lo desarrollan, del artículo 149.1.30 y de la Alta Inspección (artículo 29 del Estatuto). En sanidad e higiene, el desarrollo legislativo, la potestad reglamentaria y la ejecución se ejercen en el marco de la legislación básica del Estado (artículo 27.4 del Estatuto). El Estado conserva, entre otras materias, las bases y la coordinación general de la sanidad (artículo 149.1.16 de la Constitución) y las normas básicas para el desarrollo del artículo 27 (artículo 149.1.30). Hay que examinar el instrumento jurídico de cada propuesta antes de afirmar cómo se aplicaría en Madrid. Lectura de estas normas: 8 de noviembre de 2026. No se ha revalidado aquí la tabla de promesas ni su fecha de corte.",
 "Por eso una misma promesa estatal puede notarse distinto según dónde vivas. La columna «¿Se aplicaría aquí?» lo explica medida a medida."
 ]
 },

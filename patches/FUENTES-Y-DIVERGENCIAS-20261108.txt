@@ -1,0 +1,135 @@
+Corrección editorial del 8 de noviembre de 2026
+No promete recuperación de visibilidad en Google. No despliega, no toca robots,
+URL, noindex ni redirecciones. Firma visible: Equipo RutaTrámite.
+
+CÓMO APLICARLO AL RELEASE 20261108T072734Z
+El release no está en git. La rama del PR sale de prod-20261031 (498df59) y NO
+debe desplegarse encima del release: borraría cambios locales posteriores
+(encuestas revisadas el 2026-11-04; OUIGO pasado en producción de «9 de
+noviembre» a «2 de noviembre»).
+
+rel.sh no está en este repositorio. No se ha editado. El comportamiento
+descrito (fija /workspace/wt-mej, regenera sitemap/llms, test temporal,
+git add -A y commit, build y activate de ese checkout) no es un camino seguro.
+Si el script real difiere, hay que aportarlo para contrastarlo; este helper no
+lo necesita para preparar la copia.
+
+Preparar, sin SSH y sin autorizar el despliegue:
+
+    python3 patches/preparar-copia-release-20261108.py --self-test
+    python3 patches/preparar-copia-release-20261108.py \
+      --active /ruta/fuera/del/checkout/20261108T072734Z --dry-run
+    python3 patches/preparar-copia-release-20261108.py \
+      --active /ruta/fuera/del/checkout/20261108T072734Z \
+      --work /tmp/rt-editorial-20261108
+
+--active es una copia local del árbol fuente (tiene src/ y package.json), no el
+paquete server.js y no /workspace ni wt-mej. El directorio o RELEASE_ID debe
+identificar solo 20261108T072734Z. El helper copia, aplica
+aplicar-correccion-editorial-20261108.py --release, comprueba que el origen no
+cambió y que solo cambiaron los cuatro TypeScript. Sitemap, llms y
+data/sitemap-lastmod.json quedan byte a byte. No hay commit.
+
+DECISIÓN PENDIENTE, no tomada por este helper: construir desde --work
+(npm ci, release_inputs.py, npm run build, pack_release.py) y, solo entonces,
+activar con scripts/activate_release.sh, que ya revierte si las comprobaciones
+fallan. No ejecutar build_sitemaps.py, predeploy_check.py ni
+deploy_verified_release.py en este camino. El lastmod del sitemap no se
+actualiza; alinearlo con el reviewedAt 2026-11-08 de la página de transporte
+es otra decisión.
+
+El parche literal sigue pudiendo lanzarse a mano dentro de esa copia:
+
+    python3 patches/aplicar-correccion-editorial-20261108.py --root . --release --dry-run
+    python3 patches/aplicar-correccion-editorial-20261108.py --root . --release
+
+Exige el literal exacto. Si no coincide, se detiene y no escribe.
+main (9a33232, 15 de octubre) y el PR 19 (prod-20261031, abierto y sin merge)
+siguen aparte. No sustituir producción por main.
+
+QUÉ SE CORRIGE Y CON QUÉ FUENTE (consulta 8 de noviembre de 2026)
+
+Encuestas, /elecciones/encuestas-29n
+- Se retira la frase que atribuía la diferencia entre el CIS y las privadas
+  «sobre todo» al método y no a la fecha. La ficha de Sigma Dos del 2 de
+  noviembre sitúa el campo el 29 y el 30 de octubre, después del accidente de
+  Urda, con 2.505 entrevistas CATI/CAWI y un error de muestreo absoluto de
+  ±2,1 % al 95,5 % para dos categorías igualmente distribuidas. Eso no aísla
+  la causa de las diferencias.
+  Fuente: https://www.sigmados.com/noticia?id=sa0OT7jgxEjay6E
+- Se retira la regla «una diferencia menor que el margen de error es un
+  empate». El ±2,1 % de esa ficha no es un empate ni se extrapola a otras
+  encuestas. La guía /elecciones/margen-de-error-encuestas no se reescribe.
+- En el release, la celda de Sigma Dos del 2 de noviembre añade el error y
+  sus condiciones. Ese snapshot git aún no tiene la fila; el script no la inventa.
+- No se cambian reviewedAt, porcentajes de otras casas, ni el orden de la tabla.
+  Doble Lectura y Diario de Sevilla siguen como fuentes secundarias sin
+  revalidar.
+
+Transporte, /transporte/corte-ave-madrid-andalucia-reembolso
+- OUIGO, aviso leído el 8 de noviembre: «Los servicios Madrid-Andalucía están
+  suspendidos hasta el 15/11 por cierre de línea». No afirma reapertura el 16
+  ni el estado de Renfe o Iryo. No se ha vuelto a ver en esa página el cambio
+  gratuito de fecha en otras rutas; no se da por retirado ni por vigente.
+  Fuente: https://www.ouigo.com/es/preguntas-frecuentes?thematic=caso-retraso
+- Renfe, nota leída el 8 de noviembre: el autobús Madrid–Ciudad Real–Puertollano
+  empezó el 31 de octubre y sigue, en principio, hasta el 12 de noviembre
+  inclusive; desde el 4 de noviembre el dispositivo es íntegramente por
+  carretera. Salidas desde Madrid-Atocha Cercanías (calle Méndez Álvaro) a las
+  8:00, 10:30, 12:00, 14:00, 16:30, 18:00, 20:00 y 22:30; desde Puertollano a
+  las 4:45 (solo laborables), 6:45, 8:15, 10:00, 12:00, 15:30, 18:15 y 20:15.
+  Mantiene cambios y anulaciones gratuitos para los viajeros afectados. No es
+  la reapertura de la alta velocidad ni un servicio a todas las capitales
+  andaluzas. No se copia el teléfono de la nota.
+  Fuente: https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/11/renfe-prorroga-plan-alternativo-transporte-por-carretera-entre-madrid-ciudad-real-puertollano
+- La nota de Renfe del 29 de octubre (el plan alternativo no podía empezar
+  antes del 3 de noviembre) queda marcada como histórica.
+  Fuente: https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/suspension-pat-madrid-andalucia
+- Artículo 18 del Reglamento (UE) 2021/782: retraso de 60 minutos como mínimo
+  en el destino final; reintegro de las partes no efectuadas y de las ya
+  efectuadas si el viaje ha perdido su razón de ser; vía alternativa lo antes
+  posible o en una fecha posterior. No es «más de 60 minutos» ni siempre el
+  importe total.
+- Asistencia del mismo reglamento: comidas y, si el tren queda bloqueado, el
+  traslado, cuando el retraso es de al menos 60 minutos o hay cancelación.
+- Artículo 15: el anticipo se abona sin demora y, como máximo, quince días
+  después de identificar a la persona con derecho a indemnización.
+  Fuente: https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32021R0782
+- Iryo confirma la devolución del billete dentro del comunicado a los afectados
+  por el accidente de Urda, no como regla de cualquier billete posterior.
+  Fuente: https://iryo.eu/es/comunicado-asistencia-economica-accidente-en-urda
+- FAQ visible y FAQPage JSON-LD salen del mismo array de faqs.
+- reviewedAt de esta guía: 2026-11-08. Las otras tres guías que comparten el
+  módulo siguen en 2026-10-31. No se revalidan cifras de víctimas ni causas.
+- Cambia la description porque decía, sin fecha, que la línea sigue cortada.
+  No cambian URL, title ni H1.
+
+Promesas Madrid, /elecciones/promesas/comunidad-madrid
+- LOREG, artículo 163.1.a: no se tienen en cuenta las candidaturas que no
+  hubieran obtenido, al menos, el 3 por 100 de los votos válidos emitidos en
+  la circunscripción. El 163.1.c reparte por cocientes. Llegar al 3 % no
+  garantiza escaño. Solo se corrige el párrafo de Madrid.
+  Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#acientosesentaytres
+- Estatuto de Madrid: competencia exclusiva en ordenación del territorio,
+  urbanismo y vivienda (artículo 26.1.4); enseñanza, desarrollo legislativo y
+  ejecución con los límites del artículo 29; sanidad e higiene, artículo 27.4,
+  en el marco de la legislación básica del Estado.
+  Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-1983-6317
+- Constitución, artículo 149.1.16 (bases y coordinación general de la sanidad)
+  y 149.1.30 (normas básicas para el desarrollo del artículo 27).
+  Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a149
+- No se tocan reviewedAt (la ficha sigue en 2026-10-24 y los datos en 27 de
+  octubre), la tabla de 111 medidas ni las fechas 24/26/27 de octubre.
+  La misma frase del 3 % sigue, a propósito, en el resto de comunidades.
+
+NO SE HA HECHO
+- No se ha desplegado ni se ha entrado por SSH, Cloudflare o secretos.
+- No se han creado páginas, redirecciones ni noindex.
+- No se han modificado URL, title, description ni H1 de
+  /elecciones/programas-electorales-29n, ni el title de
+  /elecciones/tarjeta-censal-cuando-llega.
+- No se han revalidado porcentajes de Doble Lectura, Diario de Sevilla ni el
+  PDF del CIS. No se han actualizado víctimas, causas ni la huelga del 11 de
+  noviembre.
+- tsc --noEmit sigue fallando en dos tests ajenos a este diff:
+  tests/mesa-29n-20261023.test.ts y tests/voto-nulo-casos-20261019.test.ts.
