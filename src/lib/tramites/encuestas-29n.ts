@@ -206,7 +206,7 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
     description:
       "Encuestas del 29-N de octubre de 2026 con campo, muestra y fuente: CIS, Sigma Dos, GAD3, SocioMétrica, Target Point, NC Report, 40dB y más.",
     lead:
-      "Las diecisiete encuestas privadas publicadas en octubre de 2026 que recogemos (tres de Sigma Dos y dos de IMOP, SocioMétrica y NC Report; las últimas, de Sigma Dos, NC Report y Winston, el 26 de octubre) ponen primero al PP, entre el 28,5 % y el 34,1 %, y el barómetro del CIS pone primero al PSOE (34 %). Vox aparece tercero en todas, entre el 17,1 % y el 20 %. La diferencia entre el CIS y el resto viene sobre todo del método de estimación, no de la fecha.",
+      "Las diecisiete encuestas privadas publicadas en octubre de 2026 que recogemos (tres de Sigma Dos y dos de IMOP, SocioMétrica y NC Report; las últimas, de Sigma Dos, NC Report y Winston, el 26 de octubre) ponen primero al PP, entre el 28,5 % y el 34,1 %, y el barómetro del CIS pone primero al PSOE (34 %). Vox aparece tercero en todas, entre el 17,1 % y el 20 %. No atribuimos las diferencias entre encuestas a una sola causa: hay que comparar sus fechas de campo, muestras, canales de entrevista y métodos de estimación. La ficha de Sigma Dos del 2 de noviembre sitúa su trabajo de campo el 29 y el 30 de octubre, después del accidente de Urda, y declara un error de muestreo absoluto de ±2,1 % al 95,5 % para dos categorías igualmente distribuidas. Ese sondeo no permite aislar por sí solo el efecto de cada factor.",
     cta: S.cis3582,
     secondaryCta: S.gad3,
     disclaimer: "Encuestas, no resultados. Se pueden publicar hasta el 23 de noviembre; del 24 al 28 está prohibido (artículo 69.7 de la LOREG).",
@@ -254,7 +254,7 @@ export const ENCUESTAS_29N_GUIDES: Guide[] = [
         paragraphs: [],
         lists: [[
           "Compara cada encuesta con la anterior de la misma empresa: la tendencia dice más que el dato suelto.",
-          "Una diferencia menor que el margen de error (unos ±3 puntos con 1.000 entrevistas) es un empate.",
+          "Una encuesta es una estimación, no un resultado electoral. Revisa su ficha técnica antes de interpretar diferencias pequeñas: Sigma Dos declara para su sondeo del 2 de noviembre un error de muestreo absoluto de ±2,1 %, con un nivel de confianza del 95,5 % y bajo el supuesto de dos categorías igualmente distribuidas. Esa cifra no es una garantía de acierto ni convierte automáticamente una diferencia entre partidos en un empate.",
           "Los escaños dependen de cada provincia: dos encuestas con el mismo porcentaje pueden dar escaños distintos.",
           "En 2019 y 2023 hubo errores de varios puntos en todas las casas: repasa los aciertos y fallos antes de dar nada por hecho.",
         ]],
