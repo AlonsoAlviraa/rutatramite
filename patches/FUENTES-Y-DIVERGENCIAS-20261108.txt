@@ -8,12 +8,42 @@ debe desplegarse encima del release: borraría cambios locales posteriores
 (encuestas revisadas el 2026-11-04; OUIGO pasado en producción de «9 de
 noviembre» a «2 de noviembre»).
 
-En el árbol del release, sin haber fusionado esta rama:
+rel.sh no está en este repositorio. No se ha editado. El comportamiento
+descrito (fija /workspace/wt-mej, regenera sitemap/llms, test temporal,
+git add -A y commit, build y activate de ese checkout) no es un camino seguro.
+Si el script real difiere, hay que aportarlo para contrastarlo; este helper no
+lo necesita para preparar la copia.
+
+Preparar, sin SSH y sin autorizar el despliegue:
+
+    python3 patches/preparar-copia-release-20261108.py --self-test
+    python3 patches/preparar-copia-release-20261108.py \
+      --active /ruta/fuera/del/checkout/20261108T072734Z --dry-run
+    python3 patches/preparar-copia-release-20261108.py \
+      --active /ruta/fuera/del/checkout/20261108T072734Z \
+      --work /tmp/rt-editorial-20261108
+
+--active es una copia local del árbol fuente (tiene src/ y package.json), no el
+paquete server.js y no /workspace ni wt-mej. El directorio o RELEASE_ID debe
+identificar solo 20261108T072734Z. El helper copia, aplica
+aplicar-correccion-editorial-20261108.py --release, comprueba que el origen no
+cambió y que solo cambiaron los cuatro TypeScript. Sitemap, llms y
+data/sitemap-lastmod.json quedan byte a byte. No hay commit.
+
+DECISIÓN PENDIENTE, no tomada por este helper: construir desde --work
+(npm ci, release_inputs.py, npm run build, pack_release.py) y, solo entonces,
+activar con scripts/activate_release.sh, que ya revierte si las comprobaciones
+fallan. No ejecutar build_sitemaps.py, predeploy_check.py ni
+deploy_verified_release.py en este camino. El lastmod del sitemap no se
+actualiza; alinearlo con el reviewedAt 2026-11-08 de la página de transporte
+es otra decisión.
+
+El parche literal sigue pudiendo lanzarse a mano dentro de esa copia:
 
     python3 patches/aplicar-correccion-editorial-20261108.py --root . --release --dry-run
     python3 patches/aplicar-correccion-editorial-20261108.py --root . --release
 
-El script exige el literal exacto. Si no coincide, se detiene y no escribe.
+Exige el literal exacto. Si no coincide, se detiene y no escribe.
 main (9a33232, 15 de octubre) y el PR 19 (prod-20261031, abierto y sin merge)
 siguen aparte. No sustituir producción por main.
 
